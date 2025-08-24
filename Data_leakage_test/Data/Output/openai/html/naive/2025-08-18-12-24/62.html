@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express Your Interest</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        .header {
+            background-color: #159d88;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        .header img {
+            margin-right: 1rem;
+        }
+        .header h1 {
+            color: white;
+            font-size: 1.5rem;
+            margin: 0;
+        }
+        .main-content {
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .main-content h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+        .main-content p {
+            font-size: 1rem;
+            color: #6c757d;
+            margin: 0 0 2rem;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .card input {
+            width: calc(100% - 220px);
+            padding: 0.75rem;
+            margin-right: 1rem;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            outline: none;
+        }
+        .card button {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 0 0.5rem;
+        }
+        .card .teach-button {
+            background-color: #5856d6;
+        }
+        .card .learn-button {
+            background-color: #ff9500;
+        }
+        .card .description {
+            margin-top: 1rem;
+            font-size: 0.875rem;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="src/placeholder.jpg" alt="Logo" width="40" height="40">
+        <h1>Alpha One Labs</h1>
+    </div>
+    <div class="main-content">
+        <h2>Explore Subjects</h2>
+        <p>Browse exciting topics, see how many people are interested, and find out if there's already a teacher or not.</p>
+        <div class="card">
+            <h2>Express Your Interest</h2>
+            <div>
+                <input type="text" placeholder="Enter a subject...">
+                <button class="teach-button">Teach</button>
+                <button class="learn-button">Learn</button>
+            </div>
+            <div class="description">
+                Share what you'd like to learn or teach, and we'll help make it happen!
+            </div>
+        </div>
+    </div>
+</body>
+</html>

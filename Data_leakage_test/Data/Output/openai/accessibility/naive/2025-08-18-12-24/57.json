@@ -1,0 +1,923 @@
+{
+  "manual": {
+    "checks": {
+      "1.4.4": "tbd",
+      "1.4.10": "tbd",
+      "1.4.12": "tbd",
+      "2.1.1+2.1.2": "tbd",
+      "2.4.3": "tbd",
+      "2.4.6": "tbd",
+      "2.4.7": "tbd"
+    }
+  },
+  "automatic": [
+    {
+      "wcag_id": [
+        "Principle1.Guideline1_4.1_4_3.G18",
+        "Principle1.Guideline1_4.1_4_3.G18.Fail",
+        "Principle1.Guideline1_4.1_4_3.G145",
+        "Principle1.Guideline1_4.1_4_3.G145.Fail",
+        "Principle1.Guideline1_4.1_4_6.G17",
+        "Principle1.Guideline1_4.1_4_6.G18"
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+        "https://dequeuniversity.com/rules/axe/4.10/color-contrast-enhanced"
+      ],
+      "impact": "serious",
+      "name": "Color Contrast; Text;",
+      "amount_nodes_failed": 5,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#189d8b",
+                  "contrastRatio": 3.36,
+                  "fontSize": "13.5pt (18px)",
+                  "fontWeight": "bold",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"header\">\n        <div class=\"logo\"></div>\n        <div class=\"title\">Alpha One Labs</div>\n    </div>",
+                    "target": [
+                      ".header"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.36 (foreground color: #ffffff, background color: #189d8b, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"title\">Alpha One Labs</div>",
+            "target": [
+              ".title"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.36 (foreground color: #ffffff, background color: #189d8b, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f57e25",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 2.66,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "bold",
+                  "messageKey": null,
+                  "expectedContrastRatio": "3:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"form-container\">",
+                    "target": [
+                      ".form-container"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 2.66 (foreground color: #f57e25, background color: #ffffff, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<h2>Sign in to your account</h2>",
+            "target": [
+              "h2"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.66 (foreground color: #f57e25, background color: #ffffff, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f57e25",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 2.66,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"form-container\">",
+                    "target": [
+                      ".form-container"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 2.66 (foreground color: #f57e25, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"#\">Forgot password?</a>",
+            "target": [
+              ".form-footer > a"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.66 (foreground color: #f57e25, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#f57e25",
+                  "contrastRatio": 2.66,
+                  "fontSize": "12.0pt (16px)",
+                  "fontWeight": "bold",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"submit-btn\">SIGN IN</button>",
+                    "target": [
+                      "button"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 2.66 (foreground color: #ffffff, background color: #f57e25, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button class=\"submit-btn\">SIGN IN</button>",
+            "target": [
+              "button"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.66 (foreground color: #ffffff, background color: #f57e25, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#f57e25",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 2.66,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"form-container\">",
+                    "target": [
+                      ".form-container"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 2.66 (foreground color: #f57e25, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"#\">Sign up</a>",
+            "target": [
+              ".signup-link > a"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.66 (foreground color: #f57e25, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.37:1. Recommendation:  change background to #018674.",
+          "description": "<div class=\"title\">Alpha One Labs</div>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.37:1. Recommendation:  change background to #018674.",
+            "context": "<div class=\"title\">Alpha One Labs</div>",
+            "selector": "html > body > div:nth-child(1) > div:nth-child(2)",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G145.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.66:1. Recommendation:  change text colour to #ea731a.",
+          "description": "<h2>Sign in to your account</h2>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.66:1. Recommendation:  change text colour to #ea731a.",
+            "context": "<h2>Sign in to your account</h2>",
+            "selector": "html > body > div:nth-child(2) > div > h2",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.66:1. Recommendation:  change text colour to #c55400.",
+          "description": "<a href=\"#\">Forgot password?</a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.66:1. Recommendation:  change text colour to #c55400.",
+            "context": "<a href=\"#\">Forgot password?</a>",
+            "selector": "html > body > div:nth-child(2) > div > div:nth-child(4) > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.66:1. Recommendation:  change background to #c55400.",
+          "description": "<button class=\"submit-btn\">SIGN IN</button>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.66:1. Recommendation:  change background to #c55400.",
+            "context": "<button class=\"submit-btn\">SIGN IN</button>",
+            "selector": "html > body > div:nth-child(2) > div > button",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.66:1. Recommendation:  change text colour to #c55400.",
+          "description": "<a href=\"#\">Sign up</a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.66:1. Recommendation:  change text colour to #c55400.",
+            "context": "<a href=\"#\">Sign up</a>",
+            "selector": "html > body > div:nth-child(2) > div > div:nth-child(6) > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-0-DIV",
+              "path": "1,HTML,1,BODY,0,DIV,1,DIV",
+              "selector": "body > div.header > div.title",
+              "boundingRect": {
+                "top": 20,
+                "bottom": 41,
+                "left": 70,
+                "right": 207,
+                "width": 137,
+                "height": 21
+              },
+              "snippet": "<div class=\"title\">",
+              "nodeLabel": "Alpha One Labs",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.36 (foreground color: #ffffff, background color: #189d8b, font size: 13.5pt (18px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-1-DIV",
+                    "path": "1,HTML,1,BODY,0,DIV",
+                    "selector": "body > div.header",
+                    "boundingRect": {
+                      "top": 0,
+                      "bottom": 60,
+                      "left": 0,
+                      "right": 412,
+                      "width": 412,
+                      "height": 60
+                    },
+                    "snippet": "<div class=\"header\">",
+                    "nodeLabel": "Alpha One Labs"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-2-H2",
+              "path": "1,HTML,1,BODY,1,DIV,0,DIV,0,H2",
+              "selector": "body > div.container > div.form-container > h2",
+              "boundingRect": {
+                "top": 306,
+                "bottom": 329,
+                "left": 60,
+                "right": 352,
+                "width": 292,
+                "height": 23
+              },
+              "snippet": "<h2>",
+              "nodeLabel": "Sign in to your account",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.66 (foreground color: #f57e25, background color: #ffffff, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-3-DIV",
+                    "path": "1,HTML,1,BODY,1,DIV,0,DIV",
+                    "selector": "body > div.container > div.form-container",
+                    "boundingRect": {
+                      "top": 249,
+                      "bottom": 674,
+                      "left": 20,
+                      "right": 392,
+                      "width": 372,
+                      "height": 425
+                    },
+                    "snippet": "<div class=\"form-container\">",
+                    "nodeLabel": "Sign in to your account\nEmail Address\nPassword\n Remember me\nForgot password?\nSI…"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-4-A",
+              "path": "1,HTML,1,BODY,1,DIV,0,DIV,3,DIV,1,A",
+              "selector": "div.container > div.form-container > div.form-footer > a",
+              "boundingRect": {
+                "top": 518,
+                "bottom": 534,
+                "left": 240,
+                "right": 352,
+                "width": 112,
+                "height": 16
+              },
+              "snippet": "<a href=\"#\">",
+              "nodeLabel": "Forgot password?",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.66 (foreground color: #f57e25, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-3-DIV",
+                    "path": "1,HTML,1,BODY,1,DIV,0,DIV",
+                    "selector": "body > div.container > div.form-container",
+                    "boundingRect": {
+                      "top": 249,
+                      "bottom": 674,
+                      "left": 20,
+                      "right": 392,
+                      "width": 372,
+                      "height": 425
+                    },
+                    "snippet": "<div class=\"form-container\">",
+                    "nodeLabel": "Sign in to your account\nEmail Address\nPassword\n Remember me\nForgot password?\nSI…"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-5-BUTTON",
+              "path": "1,HTML,1,BODY,1,DIV,0,DIV,4,BUTTON",
+              "selector": "body > div.container > div.form-container > button.submit-btn",
+              "boundingRect": {
+                "top": 556,
+                "bottom": 598,
+                "left": 60,
+                "right": 352,
+                "width": 292,
+                "height": 42
+              },
+              "snippet": "<button class=\"submit-btn\">",
+              "nodeLabel": "SIGN IN",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.66 (foreground color: #ffffff, background color: #f57e25, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-6-A",
+              "path": "1,HTML,1,BODY,1,DIV,0,DIV,5,DIV,1,A",
+              "selector": "div.container > div.form-container > div.signup-link > a",
+              "boundingRect": {
+                "top": 618,
+                "bottom": 634,
+                "left": 258,
+                "right": 305,
+                "width": 47,
+                "height": 16
+              },
+              "snippet": "<a href=\"#\">",
+              "nodeLabel": "Sign up",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.66 (foreground color: #f57e25, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-3-DIV",
+                    "path": "1,HTML,1,BODY,1,DIV,0,DIV",
+                    "selector": "body > div.container > div.form-container",
+                    "boundingRect": {
+                      "top": 249,
+                      "bottom": 674,
+                      "left": 20,
+                      "right": 392,
+                      "width": 372,
+                      "height": 425
+                    },
+                    "snippet": "<div class=\"form-container\">",
+                    "nodeLabel": "Sign in to your account\nEmail Address\nPassword\n Remember me\nForgot password?\nSI…"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        null
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-unique",
+        "https://dequeuniversity.com/rules/axe/4.10/region",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-complementary-is-top-level",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-contentinfo-is-top-level",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-contentinfo",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-banner-is-top-level",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-main",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-main-is-top-level"
+      ],
+      "impact": "moderate",
+      "name": "Landmark & Region; Missing & Unique Landmarks;",
+      "amount_nodes_failed": 7,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main",
+          "source": "axe-core",
+          "title": "Document should have one main landmark",
+          "description": "Ensure the document has a main landmark",
+          "impact": "moderate",
+          "nodes": {
+            "any": [],
+            "all": [
+              {
+                "id": "page-has-main",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Document does not have a main landmark"
+              }
+            ],
+            "none": [],
+            "impact": "moderate",
+            "html": "<html lang=\"en\">",
+            "target": [
+              "html"
+            ],
+            "failureSummary": "Fix all of the following:\n  Document does not have a main landmark"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/region",
+          "source": "axe-core",
+          "title": "All page content should be contained by landmarks",
+          "description": "Ensure all page content is contained by landmarks",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "region",
+                "data": {
+                  "isIframe": false
+                },
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Some page content is not contained by landmarks"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<div class=\"header\">\n        <div class=\"logo\"></div>\n        <div class=\"title\">Alpha One Labs</div>\n    </div>",
+            "target": [
+              ".header"
+            ],
+            "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/region",
+          "source": "axe-core",
+          "title": "All page content should be contained by landmarks",
+          "description": "Ensure all page content is contained by landmarks",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "region",
+                "data": {
+                  "isIframe": false
+                },
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Some page content is not contained by landmarks"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<h2>Sign in to your account</h2>",
+            "target": [
+              "h2"
+            ],
+            "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/region",
+          "source": "axe-core",
+          "title": "All page content should be contained by landmarks",
+          "description": "Ensure all page content is contained by landmarks",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "region",
+                "data": {
+                  "isIframe": false
+                },
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Some page content is not contained by landmarks"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<div class=\"form-group\">\n                <label for=\"email\">Email Address</label>\n                <input type=\"email\" id=\"email\" placeholder=\"Enter your email address\">\n            </div>",
+            "target": [
+              ".form-group:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/region",
+          "source": "axe-core",
+          "title": "All page content should be contained by landmarks",
+          "description": "Ensure all page content is contained by landmarks",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "region",
+                "data": {
+                  "isIframe": false
+                },
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Some page content is not contained by landmarks"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<div class=\"form-group\">\n                <label for=\"password\">Password</label>\n                <input type=\"password\" id=\"password\" placeholder=\"Enter your password\">\n            </div>",
+            "target": [
+              ".form-group:nth-child(3)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/region",
+          "source": "axe-core",
+          "title": "All page content should be contained by landmarks",
+          "description": "Ensure all page content is contained by landmarks",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "region",
+                "data": {
+                  "isIframe": false
+                },
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Some page content is not contained by landmarks"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<div class=\"form-footer\">\n                <label>\n                    <input type=\"checkbox\"> Remember me\n                </label>\n                <a href=\"#\">Forgot password?</a>\n            </div>",
+            "target": [
+              ".form-footer"
+            ],
+            "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/region",
+          "source": "axe-core",
+          "title": "All page content should be contained by landmarks",
+          "description": "Ensure all page content is contained by landmarks",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "region",
+                "data": {
+                  "isIframe": false
+                },
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Some page content is not contained by landmarks"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<div class=\"signup-link\">\n                Don't have an account? <a href=\"#\">Sign up</a>\n            </div>",
+            "target": [
+              ".signup-link"
+            ],
+            "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        null
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block"
+      ],
+      "impact": "serious",
+      "name": "Links; Distinguishable Color;",
+      "amount_nodes_failed": 1,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block",
+          "source": "axe-core",
+          "title": "Links must be distinguishable without relying on color",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "link-in-text-block",
+                "data": {
+                  "messageKey": "fgContrast",
+                  "contrastRatio": 2.15,
+                  "requiredContrastRatio": 3,
+                  "nodeColor": "#f57e25",
+                  "parentColor": "#666666"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"signup-link\">\n                Don't have an account? <a href=\"#\">Sign up</a>\n            </div>",
+                    "target": [
+                      ".signup-link"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "The link has insufficient color contrast of 2.15:1 with the surrounding text. (Minimum contrast is 3:1, link text: #f57e25, surrounding text: #666666)"
+              },
+              {
+                "id": "link-in-text-block-style",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"signup-link\">\n                Don't have an account? <a href=\"#\">Sign up</a>\n            </div>",
+                    "target": [
+                      ".signup-link"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "The link has no styling (such as underline) to distinguish it from the surrounding text"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"#\">Sign up</a>",
+            "target": [
+              ".signup-link > a"
+            ],
+            "failureSummary": "Fix any of the following:\n  The link has insufficient color contrast of 2.15:1 with the surrounding text. (Minimum contrast is 3:1, link text: #f57e25, surrounding text: #666666)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block",
+          "source": "lighthouse",
+          "title": "Links rely on color to be distinguishable.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-6-A",
+              "path": "1,HTML,1,BODY,1,DIV,0,DIV,5,DIV,1,A",
+              "selector": "div.container > div.form-container > div.signup-link > a",
+              "boundingRect": {
+                "top": 618,
+                "bottom": 634,
+                "left": 258,
+                "right": 305,
+                "width": 47,
+                "height": 16
+              },
+              "snippet": "<a href=\"#\">",
+              "nodeLabel": "Sign up",
+              "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.15:1 with the surrounding text. (Minimum contrast is 3:1, link text: #f57e25, surrounding text: #666666)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-8-DIV",
+                    "path": "1,HTML,1,BODY,1,DIV,0,DIV,5,DIV",
+                    "selector": "body > div.container > div.form-container > div.signup-link",
+                    "boundingRect": {
+                      "top": 618,
+                      "bottom": 634,
+                      "left": 60,
+                      "right": 352,
+                      "width": 292,
+                      "height": 16
+                    },
+                    "snippet": "<div class=\"signup-link\">",
+                    "nodeLabel": "Don't have an account? Sign up"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        "Principle1.Guideline1_3.1_3_1.H42.2",
+        "Principle1.Guideline1_3.1_3_1.G141"
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one",
+        "https://dequeuniversity.com/rules/axe/4.10/heading-order",
+        "https://dequeuniversity.com/rules/axe/4.10/empty-heading"
+      ],
+      "impact": "moderate",
+      "name": "Headings; Wrong Order, Empty & Missing Headings;",
+      "amount_nodes_failed": 1,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one",
+          "source": "axe-core",
+          "title": "Page should contain a level-one heading",
+          "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+          "impact": "moderate",
+          "nodes": {
+            "any": [],
+            "all": [
+              {
+                "id": "page-has-heading-one",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Page must have a level-one heading"
+              }
+            ],
+            "none": [],
+            "impact": "moderate",
+            "html": "<html lang=\"en\">",
+            "target": [
+              "html"
+            ],
+            "failureSummary": "Fix all of the following:\n  Page must have a level-one heading"
+          }
+        }
+      ]
+    }
+  ]
+}

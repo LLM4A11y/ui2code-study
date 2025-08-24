@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Export news from google sites</title>
+<style>
+  :root{
+    --bg:#f2f2f2;
+    --bar:#e7e7e7;
+    --text:#5a5a5a;
+    --muted:#8a8a8a;
+    --title:#4d4d4d;
+    --codebg:#ededed;
+    --codebd:#dcdcdc;
+    --accent:#2b6cb8;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    background:var(--bg);
+    color:var(--text);
+  }
+
+  /* Top Nav */
+  header{
+    background:var(--bar);
+    border-bottom:1px solid #dbdbdb;
+  }
+  .topnav{
+    max-width:980px;
+    margin:0 auto;
+    height:64px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:28px;
+    font-size:13px;
+    color:#666;
+  }
+  .topnav a{
+    color:#666;
+    text-decoration:none;
+    letter-spacing:.2px;
+  }
+  .topnav a:hover{color:#333; text-decoration:underline;}
+  .logo{
+    width:28px;height:28px;
+    object-fit:cover;
+    display:block;
+  }
+
+  /* Main content */
+  .wrap{
+    max-width:700px;
+    margin:70px 0 80px 110px; /* left-aligned look */
+  }
+  h1{
+    font-size:56px;
+    line-height:1.07;
+    margin:0 0 22px 0;
+    color:var(--title);
+    font-weight:800;
+    letter-spacing:-0.5px;
+  }
+  .meta{
+    font-style:italic;
+    color:#7c7c7c;
+    margin-bottom:4px;
+  }
+  .meta.small{
+    font-size:12px;
+    opacity:.8;
+    margin-bottom:28px;
+  }
+  h2{
+    font-size:26px;
+    color:#545454;
+    margin:26px 0 10px 0;
+    font-weight:700;
+  }
+  p{
+    line-height:1.85;
+    margin:0 0 18px 0;
+  }
+  a.link{color:var(--accent); text-decoration:underline;}
+  .code{
+    background:var(--codebg);
+    border:1px solid var(--codebd);
+    border-radius:3px;
+    padding:16px 18px;
+    margin:16px 0 22px 0;
+    color:#444;
+    font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-size:14px;
+    white-space:pre-wrap;
+  }
+
+  /* Footer */
+  footer{
+    background:#0e0e0e;
+    color:#fff;
+    padding:22px 0;
+  }
+  .foot{
+    max-width:980px;
+    margin:0 auto;
+    text-align:center;
+    font-size:14px;
+    letter-spacing:.2px;
+  }
+  .foot a{color:#fff; text-decoration:underline;}
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="topnav">
+    <a href="#">Homepage</a>
+    <a href="#">Amenities</a>
+    <a href="#">Suite Layouts</a>
+    <img class="logo" src="src/placeholder.jpg" alt="Logo">
+    <a href="#">Image Showcase</a>
+    <a href="#">Reach Out</a>
+    <a href="#">303.716.5000</a>
+    <a href="#">Send Email</a>
+  </nav>
+</header>
+
+<main class="wrap">
+  <h1>Export news from google<br>sites</h1>
+
+  <div class="meta">Apr 27, 2012</div>
+  <div class="meta small">One min of reading</div>
+
+  <h2>Genesis of This</h2>
+
+  <p>When Free It Athens migrated their site away from Google Sites over to Drupal, they went fresh, losing all the previous content. I just realized that news data on the old site was valuable historical content, and I hadnât saved it.</p>
+
+  <p>Initially, I gave recursive wget a whirl.</p>
+
+  <div class="code">wget -r --no-parent --no-clobber </div>
+
+  <p>Iâve put online a quick code snippet, <a class="link" href="#">export_google_site_news</a>, to my main repository located on github.</p>
+
+  <p>To illustrate, for pulling the news posts from<br>
+  https://sites.google.com/a/medinacommunityband.org/www/announcements, you can call:</p>
+
+  <div class="code">export_google_site_news https://sites.google.com/a/medinacommunityband.org/www announcements</div>
+
+  <p>This just flat failed as Google made the mistake of using javascript rather than anchor tags to connect news pages.</p>
+
+  <p>I hunted down and tried Googleâs own google-sites-export from their Data Liberation Team, but could never authenticate correctly.</p>
+
+  <p>I then feared Iâd need Selenium to trigger the javascript, but then realized that the news pages took a single parameter to determine which paginated results to display. Looping would get them all.</p>
+
+  <div class="code">for i in $(seq 0 10 120); do
+  wget ""   "-0news.$i"
+done</div>
+
+  <p>After getting the first one, I saw a pattern to match each news stories' relative paths. Then extracted out all those paths.</p>
+
+  <div class="code">grep -E -h -o '/a/freeitathens.org/foo/news/[a-z0-9\-]+' news-* |
+sort -u > news_links</div>
+
+  <p>Once I had all the paths, it was easy to get wget to fetch them all.</p>
+
+  <div class="code">wget -i news_links -B https://sites.google.com</div>
+
+  <p>Since I found zero guides online, I tried writing up a simple script from the above, and am detailing it here.</p>
+</main>
+
+<footer>
+  <div class="foot">
+    Created with by <a href="#">YesLearners.com</a> - <a href="#">YesLearners</a>
+  </div>
+</footer>
+
+</body>
+</html>

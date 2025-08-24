@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waiting Rooms</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #00A699;
+            color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .waiting-rooms {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .waiting-room {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            width: calc(50% - 20px);
+        }
+
+        .waiting-room h3 {
+            margin-top: 0;
+            margin-bottom: 5px;
+            font-size: 1.2em;
+        }
+        .open-status {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            margin-bottom: 10px;
+        }
+        .open-status span {
+            color: green;
+        }
+        .waiting-room p {
+            margin-bottom: 8px;
+        }
+
+        .topic-tags {
+            margin-bottom: 10px;
+        }
+
+        .topic-tag {
+            display: inline-block;
+            background-color: #eee;
+            padding: 5px 8px;
+            border-radius: 3px;
+            margin-right: 5px;
+            font-size: 0.9em;
+        }
+
+        .teacher-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.9em;
+            color: #777;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 20px;
+            font-size: 0.8em;
+            color: #777;
+        }
+
+        footer p {
+            margin-bottom: 5px;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 10px;
+        }
+
+        footer li a {
+            color: #777;
+            text-decoration: none;
+        }
+        .create-request-button {
+            background-color: #3954B5;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .create-request-container {
+            text-align: right;
+        }
+        .open-waiting-rooms-title {
+            display: flex;
+            align-items: center;
+        }
+
+        .open-waiting-rooms-title h2 {
+            margin-right: 10px;
+        }
+
+        .open-waiting-rooms-title span {
+            background-color: #C5EACE;
+            color: #329932;
+            border-radius: 50%;
+            padding: 5px 8px;
+            font-size: 0.8em;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Alpha One Labs</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Waiting Rooms</h1>
+
+        <h2>What are Waiting Rooms?</h2>
+        <p>Waiting rooms allow you to express interest in subjects and topics you want to learn. Join existing waiting rooms or create your own to find others interested in the same
+        topics. Teachers can see these waiting rooms and create courses based on popular demand.</p>
+
+        <div class="create-request-container">
+            <button class="create-request-button">Create Learning Request</button>
+        </div>
+
+        <div class="open-waiting-rooms-title">
+            <h2>Open Waiting Rooms</h2>
+            <span>5</span>
+        </div>
+        
+        <div class="waiting-rooms">
+            <div class="waiting-room">
+                <h3>Waiting Room 5</h3>
+                <p>Subject 5 â¢ 2 interested</p>
+                <p>Description for waiting room 5</p>
+                <div class="open-status">
+                    <span>â¢</span>
+                    <span>Open</span>
+                </div>
+                <div class="topic-tags">
+                    <span class="topic-tag">Topic1</span>
+                    <span class="topic-tag">Topic2</span>
+                    <span class="topic-tag">Topic5</span>
+                </div>
+                <div class="teacher-info">
+                    <span>teacher2</span>
+                    <span>19 Stunden, 28 Minuten ago</span>
+                </div>
+            </div>
+            <div class="waiting-room">
+                <h3>Waiting Room 4</h3>
+                <p>Subject 4 â¢ 6 interested</p>
+                <p>Description for waiting room 4</p>
+                <div class="open-status">
+                    <span>â¢</span>
+                    <span>Open</span>
+                </div>
+                <div class="topic-tags">
+                    <span class="topic-tag">Topic1</span>
+                    <span class="topic-tag">Topic2</span>
+                    <span class="topic-tag">Topic4</span>
+                </div>
+                <div class="teacher-info">
+                    <span>teacher2</span>
+                    <span>19 Stunden, 28 Minuten ago</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Â© 2025 Alpha One Labs. All rights reserved.</p>
+            <p>Last updated: 06/12/2025 12:19nachm.</p>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

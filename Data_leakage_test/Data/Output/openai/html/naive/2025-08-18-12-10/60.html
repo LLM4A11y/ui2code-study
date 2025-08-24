@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            width: 750px;
+            padding: 40px;
+            display: flex;
+        }
+        .left {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .left img {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 20px;
+        }
+        .left p {
+            text-align: center;
+            color: #666;
+        }
+        .right {
+            width: 70%;
+            padding-left: 30px;
+        }
+        h2 {
+            color: #ff6633;
+            margin-bottom: 30px;
+            font-weight: normal;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-group {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            color: #333;
+        }
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="password"],
+        .form-group textarea {
+            width: 48%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-group textarea {
+            height: 100px;
+        }
+        .note {
+            font-size: 12px;
+            color: #999;
+            margin-left: 20px;
+        }
+        .privacy-box {
+            border: 1px solid #ff6633;
+            border-radius: 4px;
+            padding: 16px;
+            margin-bottom: 20px;
+        }
+        .privacy-box p {
+            font-size: 12px;
+            color: #666;
+        }
+        .radio-group {
+            display: flex;
+            margin-top: 10px;
+            align-items: center;
+        }
+        .radio-group label {
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+            font-size: 14px;
+            color: #333;
+        }
+        .radio-group input[type="radio"] {
+            margin-right: 5px;
+        }
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .checkbox-group input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        .checkbox-group label {
+            font-size: 14px;
+            color: #333;
+        }
+        .submit-button {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .submit-button button {
+            background-color: #ff6633;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            text-align: center;
+        }
+        .footer a {
+            text-decoration: none;
+            color: #ff6633;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="src/placeholder.jpg" alt="Placeholder image">
+            <p>Join our community of learners and teachers</p>
+        </div>
+        <div class="right">
+            <h2>ð¸ Create Account</h2>
+            <form>
+                <div class="form-group">
+                    <label for="first-name">ð· First Name *</label>
+                    <label for="last-name">ð· Last Name *</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="first-name" placeholder="First name">
+                    <input type="text" id="last-name" placeholder="Last name">
+                </div>
+                <div class="form-group">
+                    <label for="username">ð Username *</label>
+                    <label for="email">ð§ Email *</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="username" placeholder="Choose a username">
+                    <input type="email" id="email" placeholder="your@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="referral-code">ð Referral Code</label>
+                    <input type="text" id="referral-code" placeholder="Enter referral code">
+                </div>
+                <p class="note">Optional - Enter a referral code if you have one</p>
+                <div class="form-group">
+                    <label for="how-did-you-hear">ð¡ How did you hear about us?</label>
+                </div>
+                <textarea id="how-did-you-hear" placeholder="How did you hear about us? You can enter text or a link."></textarea>
+                <p class="note">Optional - Tell us how you found us. You can enter text or a link.</p>
+
+                <div class="privacy-box">
+                    <p>We value your privacy and encourage you to stay safe online. A private profile will only be visible to you and site administrators, while a public profile can be viewed by anyone.</p>
+                    <div class="radio-group">
+                        <label>
+                            <input type="radio" name="privacy" value="public"> Public
+                        </label>
+                        <label>
+                            <input type="radio" name="privacy" value="private" checked> Private
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">ð Password *</label>
+                    <label for="confirm-password">ð Confirm Password *</label>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password" placeholder="Create a strong password">
+                    <input type="password" id="confirm-password" placeholder="Repeat your password">
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="teach-courses">
+                    <label for="teach-courses">ð« I want to teach courses</label>
+                </div>
+
+                <div class="submit-button">
+                    <button type="submit">ð¸ CREATE ACCOUNT</button>
+                </div>
+            </form>
+            <div class="footer">
+                Already have an account? <a href="#">Sign in â¤»</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #070D2E;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #fff;
+            width: 100%;
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        header ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        header ul li {
+            margin-left: 20px;
+        }
+
+        header ul li:first-child {
+            margin-left: 0;
+        }
+
+        header ul li a {
+            text-decoration: none;
+            color: #070D2E;
+        }
+
+        header .left ul {
+            margin-right: auto;
+        }
+
+        header .right ul {
+            margin-left: auto;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            background-color: #50BCE2;
+            color: #070D2E;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 10px;
+            text-decoration: none;
+        }
+
+        .footer {
+            background-color: #F5F3ED;
+            width: 100%;
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer .dots {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        .footer .dots span {
+            display: block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #3457D5;
+            margin: 0 5px;
+        }
+
+        .footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        .footer ul li {
+            margin: 0 10px;
+        }
+
+        .footer ul li a {
+            text-decoration: none;
+            color: #070D2E;
+        }
+
+        .copyright {
+            color: #070D2E;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        .button-top {
+            background-color: #F5F3ED;
+            color: #070D2E;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        p {
+            color: white;
+            text-align: center;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="left">
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Open Source</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Docs</a></li>
+                </ul>
+            </nav>
+            <nav class="right">
+                <ul>
+                    <li><a href="#">Log In</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="buttons">
+            <a href="#" class="button">Join Medicine Forward Now!</a>
+            <a href="#" class="button">Burnout Warriors Merch</a>
+            <a href="#" class="button">Assess burnout risk (2min)</a>
+            <a href="#" class="button">Grab SwiftWire EHR free app (open source)</a>
+        </div>
+        <p>Seeking to boost compassion & wellness for all</p>
+        <footer class="footer">
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Silver Care</a></li>
+            </ul>
+            <p class="copyright">Copyright Â© 2023 Rosebud Treasures. All Rights Reserved.</p>
+            <a href="#" class="button-top">Go to Top</a>
+        </footer>
+    </div>
+</body>
+</html>

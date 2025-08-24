@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #0044CC;
+            padding: 20px;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+        header img {
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+        }
+        header nav {
+            margin-left: auto;
+        }
+        header nav a {
+            color: white;
+            margin-right: 20px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        header .right-menu {
+            display: flex;
+            align-items: center;
+        }
+        header .right-menu div {
+            margin-right: 10px;
+        }
+        .container {
+            display: flex;
+        }
+        .sidebar {
+            width: 200px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-right: 1px solid #ccc;
+        }
+        .sidebar h4 {
+            color: #0089D9;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        .sidebar a {
+            display: block;
+            color: #0089D9;
+            text-decoration: none;
+            margin-bottom: 8px;
+            font-size: 13px;
+        }
+        .content {
+            padding: 20px;
+            flex-grow: 1;
+        }
+        .content h1 {
+            font-size: 24px;
+            color: #333;
+        }
+        .content p {
+            font-size: 14px;
+            color: #666;
+        }
+        .content h2 {
+            font-size: 18px;
+            color: #333;
+            margin-top: 30px;
+        }
+        .content pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ccc;
+            overflow-x: auto;
+        }
+        .code-header {
+            background-color: #ddd;
+            padding: 5px;
+            border-bottom: 1px solid #bbb;
+        }
+        .code-header span {
+            float: right;
+            margin-right: 10px;
+            color: #0089D9;
+            font-size: 12px;
+        }
+        footer {
+            font-size: 12px;
+            color: #888;
+            margin-top: 30px;
+        }
+        footer a {
+            color: #0089D9;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="src/placeholder.jpg" alt="Logo">
+        <nav>
+            <a href="#">Items</a>
+            <a href="#">About Us</a>
+            <a href="#">Fit Guide</a>
+            <a href="#">Store Rules</a>
+        </nav>
+        <div class="right-menu">
+            <div>0 / $ 0.00</div>
+            <div>â°</div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <h4>Videos</h4>
+            <a href="#">Getting started</a>
+            <a href="#">Learn more about Koding</a>
+            <h4>Stack Documentation</h4>
+            <a href="#">Configuration</a>
+            <a href="#">Providers</a>
+            <h4>Data Sources</h4>
+            <a href="#">Resources</a>
+            <h4>aws_alb</h4>
+            <a href="#">aws_alb</a>
+            <a href="#">aws_alb_listener</a>
+            <a href="#">aws_alb_listener_rule</a>
+            <a href="#">aws_alb_target_group</a>
+            <h4>Azure Service Management</h4>
+            <h4>Provisioners</h4>
+        </div>
+        <div class="content">
+            <h1>aws_autoscaling_lifecycle_hook</h1>
+            <p>Defines an AutoScaling Lifecycle Hook resource.</p>
+            <h2>Example Usage</h2>
+            <div class="code-header">
+                <span>yaml</span><span>hcl</span>
+            </div>
+            <pre>
+resource "aws_autoscaling_group" "foobar" {
+  availability_zones = ["us-west-2a"]
+  name               = "terraform-test-foobar5"
+  health_check_type  = "EC2"
+  termination_policies = ["OldestInstance"]
+  tag {
+    key                 = "foo"
+    value               = "foo-bar"
+    propagate_at_launch = true
+  }
+}
+
+resource "aws_autoscaling_lifecycle_hook" "foobar" {
+  name                   = "foobar"
+  autoscaling_group_name = "${aws_autoscaling_group.foobar.name}"
+  default_result         = "CONTINUE"
+  heartbeat_timeout      = 2000
+  lifecycle_transition   = "autoscaling:EC2_INSTANCE_LAUNCHING"
+  notification_metadata  = jsonencode({"foo" = "bar"})
+  notification_target_arn = "arn:aws:sqs:us-east-1:444455556666:queue1"
+  role_arn                = "arn:aws:iam::123456789012:role/S3Access"
+}
+            </pre>
+            <h2>Argument Details</h2>
+            <p>The following arguments are supported:</p>
+            <ul>
+                <li><strong>name</strong> - (Required) The lifecycle hook's name.</li>
+                <li><strong>autoscaling_group_name</strong> - (Required) Name of the Auto Scaling group for the lifecycle hook.</li>
+                <li><strong>default_result</strong> - (Optional) Action for the Auto Scaling group on lifecycle hook timeout or failure.</li>
+                <li><strong>heartbeat_timeout</strong> - (Optional) Time (in seconds) until the lifecycle hook times out. Triggers DefaultResult action.</li>
+            </ul>
+            <footer>See the source of this document at <a href="#">Terraform.io</a></footer>
+        </div>
+    </div>
+</body>
+</html>

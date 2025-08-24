@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha One Labs</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f7;
+        }
+        .header {
+            background-color: #189d8b;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+        .logo {
+            width: 40px;
+            height: 40px;
+            background-color: blue;
+            margin-right: 10px;
+        }
+        .title {
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 60px);
+            padding: 20px;
+        }
+        .form-container {
+            background-color: white;
+            width: 350px;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        .form-container h2 {
+            color: #f57e25;
+            margin-bottom: 30px;
+            font-size: 20px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            color: #666;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            color: #333;
+        }
+        .form-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .form-footer a {
+            color: #f57e25;
+            text-decoration: none;
+        }
+        .form-footer a:hover {
+            text-decoration: underline;
+        }
+        .submit-btn {
+            display: block;
+            width: 100%;
+            background-color: #f57e25;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+        .submit-btn:hover {
+            background-color: #e56d21;
+        }
+        .signup-link {
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+        .signup-link a {
+            color: #f57e25;
+            text-decoration: none;
+        }
+        .signup-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo"></div>
+        <div class="title">Alpha One Labs</div>
+    </div>
+
+    <div class="container">
+        <div class="form-container">
+            <h2>Sign in to your account</h2>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email address">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password">
+            </div>
+            <div class="form-footer">
+                <label>
+                    <input type="checkbox"> Remember me
+                </label>
+                <a href="#">Forgot password?</a>
+            </div>
+            <button class="submit-btn">SIGN IN</button>
+            <div class="signup-link">
+                Don't have an account? <a href="#">Sign up</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

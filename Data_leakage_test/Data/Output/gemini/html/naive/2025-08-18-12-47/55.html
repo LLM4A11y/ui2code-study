@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum Page</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        /* Header */
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-bar input[type="text"] {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+
+        .header-links {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 15px;
+        }
+
+        .signup-button {
+            background-color: #ffa500;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* Main Content */
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+
+        /* Forum Sidebar */
+        .forum-sidebar {
+            width: 20%;
+            padding-right: 20px;
+        }
+
+        .forum-sidebar h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .forum-sidebar p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .categories-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .categories-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+            color: #333;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .categories-list li:last-child {
+            border-bottom: none;
+        }
+
+        /* Main Forum Content */
+        .forum-content {
+            width: 80%;
+        }
+
+        .forum-content h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .recent-discussions {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .discussion {
+            display: flex;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .discussion:last-child {
+            border-bottom: none;
+        }
+
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #ddd;
+            margin-right: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .avatar span {
+            font-weight: bold;
+        }
+
+        .discussion-details {
+            flex: 1;
+        }
+
+        .discussion-details h3 {
+            font-size: 16px;
+            margin: 0;
+        }
+
+        .discussion-details p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .discussion-meta {
+            color: #888;
+            font-size: 12px;
+        }
+
+        /* Footer */
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+
+        .footer-section {
+            width: 20%;
+        }
+
+        .footer-section h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-section li {
+            padding: 5px 0;
+            color: #555;
+        }
+
+        /* Newsletter */
+        .newsletter-section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .newsletter-section input[type="email"] {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .newsletter-section button {
+            background-color: #00a699;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .footer-section i {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #ccc;
+            display: inline-block;
+        }
+        .footer-section.connect i {
+            background-color: #007bff;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Alpha One Labs</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="What do you want to learn?">
+        </div>
+        <div class="header-links">
+            
+            <a href="#">Login</a>
+            <button class="signup-button">Signup</button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+
+        <!-- Forum Sidebar -->
+        <div class="forum-sidebar">
+            <h2>Forum</h2>
+            <p>Join discussions, ask questions, and share knowledge</p>
+            <h3>CATEGORIES</h3>
+            <ul class="categories-list">
+                <li><span>â  All Categories</span></li>
+                <li><span>â  Category 1</span> <span>3</span></li>
+                <li><span>â  Category 2</span> <span>3</span></li>
+            </ul>
+        </div>
+
+        <!-- Main Forum Content -->
+        <div class="forum-content">
+            <h2>Forum Categories</h2>
+            <p>Browse all categories or select one to see its topics</p>
+
+            <h2>Recent Discussions</h2>
+            <div class="recent-discussions">
+                <div class="discussion">
+                    <div class="avatar">
+                        <span>S</span>
+                    </div>
+                    <div class="discussion-details">
+                        <h3>Topic 3</h3>
+                        <p>Content for topic 3</p>
+                        <div class="discussion-meta">
+                            <span>0 views</span>
+                            <span>5 replies</span>
+                            <span>0 upvotes</span>
+                            <span>0 downvotes</span>
+                            <span>Last reply 19 Stunden, 22 Minuten ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+
+        <!-- Learning Section -->
+        <div class="footer-section">
+            <h3>LEARNING</h3>
+            <ul>
+                <li>Courses</li>
+                <li>Subjects</li>
+                <li>Quizzes</li>
+                <li>Videos</li>
+                <li>Challenges</li>
+                <li>Study Groups</li>
+            </ul>
+        </div>
+
+        <!-- Community Section -->
+        <div class="footer-section">
+            <h3>COMMUNITY</h3>
+            <ul>
+                <li>Forum</li>
+                <li>Blog</li>
+                <li>Features</li>
+                <li>Success Stories</li>
+            </ul>
+        </div>
+
+        <!-- Connect With Us Section -->
+        <div class="footer-section connect">
+            <h3>CONNECT WITH US</h3>
+            <div>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+            <div class="newsletter-section">
+                <h3>SUBSCRIBE TO NEWSLETTER</h3>
+                <input type="email" placeholder="Your email">
+                <button>â </button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

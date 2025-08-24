@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha One Labs Marketplace</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #001E3A;
+        }
+
+        .header {
+            background-color: #10A37F;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-left span {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-bar input {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 5px;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .breadcrumb {
+            margin-bottom: 20px;
+        }
+
+        .breadcrumb a {
+            text-decoration: none;
+            color: #001E3A;
+        }
+
+        .products-grid {
+            display: flex;
+            gap: 20px;
+        }
+
+        .product-card {
+            border: 1px solid #eee;
+            border-radius: 10px;
+            padding: 15px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background-color: blue;
+        }
+
+        .product-card h3 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-size: 1.2em;
+        }
+
+        .product-card p {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .product-card .price {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #E04517;
+        }
+
+        .product-card button {
+            background-color: #E04517;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .header a {
+            font-size: 14px;
+        }
+        .gray-button {
+            background-color: #BDBDBD;
+        }
+        .gray-button:hover {
+            background-color: #9E9E9E;
+        }
+        .discounted-price {
+            color: #A9A9A9;
+            text-decoration: line-through;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <img src="src/placeholder.jpg" alt="Logo" width="30" height="30">
+            <span>Alpha One Labs</span>
+        </div>
+        <div>
+            <a href="#">LEARN</a>
+            <a href="#">COMMUNITY</a>
+            <a href="#">RESOURCES</a>
+            <a href="#">ABOUT</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="What do you want to learn?">
+            <img src="src/placeholder.jpg" alt="Search" width="15" height="15">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="#">Home</a> > Marketplace
+        </div>
+
+        <h1>Explore Our Products</h1>
+
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="src/placeholder.jpg" alt="Algebra Basics Workbook">
+                <h3>Algebra Basics Workbook</h3>
+                <p>A comprehensive workbook for learning algebra basics.</p>
+                <img src="src/placeholder.jpg" alt="Storefront for teacher1" width="15" height="15">Storefront for teacher1
+                <p class="discounted-price">$19,99</p>
+                <p class="price">$14,99</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="src/placeholder.jpg" alt="Python Programming eBook">
+                <h3>Python Programming eBook</h3>
+                <p>An in-depth guide to Python programming.</p>
+                <img src="src/placeholder.jpg" alt="Storefront for teacher1" width="15" height="15">Storefront for teacher1
+                <p class="discounted-price">$29,99</p>
+                <p class="price">$24,99</p>
+                <button class="gray-button">Sold Out</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segway Excursions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 40px;
+            border-bottom: 1px solid #E6E6E6;
+            font-size: 16px;
+        }
+        header a {
+            color: black;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        header a:nth-child(2) {
+            font-style: italic;
+        }
+        main {
+            display: flex;
+            padding: 40px;
+        }
+        .product-info {
+            flex: 1;
+            text-align: center;
+            margin-right: 50px;
+        }
+        .product-info h1 {
+            font-weight: normal;
+            line-height: 30px;
+            font-size: 24px;
+            color: #68B7C6;
+        }
+        .product-info img {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            display: block;
+            margin: 40px auto;
+        }
+        .product-details {
+            flex: 1;
+            font-size: 14px;
+            color: #6C8186;
+        }
+        .product-details p {
+            margin: 10px 0;
+            line-height: 20px;
+        }
+        .product-details .price {
+            color: #68B7C6;
+            font-size: 18px;
+            float: right;
+            margin-top: -40px;
+        }
+        .product-details .dropdown,
+        .product-details .add-to-cart {
+            display: block;
+            width: 100px;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #B6DDEA;
+            margin: 10px 0;
+            color: #6C8186;
+            text-decoration: none;
+        }
+        .product-details .share {
+            color: #88C4D6;
+            font-size: 14px;
+            margin: 20px 0 0;
+            text-align: center;
+        }
+        footer {
+            background-color: #2C3D41;
+            color: #8DA4A8;
+            padding: 40px 40px;
+            font-size: 14px;
+            text-align: center;
+        }
+        footer h2 {
+            font-size: 12px;
+            letter-spacing: 2px;
+            font-weight: normal;
+            color: #4F7279;
+        }
+        footer .links {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        footer .links a {
+            color: #8DA4A8;
+            text-decoration: none;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="#">Segway <span style="font-style: italic;">Escorted Excursions</span></a>
+        </div>
+        <nav>
+            <a href="#">Main</a>
+            <a href="#">Find Segway Excursions</a>
+            <a href="#">View Excursions</a>
+            <a href="#">For Trip Providers</a>
+        </nav>
+    </header>
+    <main>
+        <div class="product-info">
+            <h1>THE SUNSET WRISTBAND</h1>
+            <img src="src/placeholder.jpg" alt="Product Image Placeholder">
+            <img src="src/placeholder.jpg" alt="Product Image Placeholder" style="width: 50px; height: 50px; margin-right: 10px;">
+            <img src="src/placeholder.jpg" alt="Product Image Placeholder" style="width: 50px; height: 50px;">
+        </div>
+        <div class="product-details">
+            <span class="price">$ 20.00</span>
+            <p>Pink-tinted, lumber cylinder gems. 4cm sky-blue gems, with shiny gold-colored pieces attached on string to create a 4-times turn!</p>
+            <p>The following is for one roll-around wristband. Every roll-around wristband is retailed on its own for $20.00 a piece.</p>
+            <p>**To see fitting details, please consult the Fit Guide Webpage **</p>
+            <p>**This wristband may be altered using light grey-colored pieces.**</p>
+            <a href="#" class="dropdown">Tiny (S)</a>
+            <a href="#" class="add-to-cart">Add to Cart</a>
+            <div class="share">SHARE</div>
+            <div style="display: flex; justify-content: center;">
+                <img src="src/placeholder.jpg" alt="Placeholder" style="width: 30px; height: 30px; margin: 10px;">
+                <img src="src/placeholder.jpg" alt="Placeholder" style="width: 30px; height: 30px; margin: 10px;">
+                <img src="src/placeholder.jpg" alt="Placeholder" style="width: 30px; height: 30px; margin: 10px;">
+                <img src="src/placeholder.jpg" alt="Placeholder" style="width: 30px; height: 30px; margin: 10px;">
+                <img src="src/placeholder.jpg" alt="Placeholder" style="width: 30px; height: 30px; margin: 10px;">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="#"><img src="src/placeholder.jpg" alt="Logo" style="width: 30px; height: 30px; margin-bottom: 20px;"></a>
+        <h2>FOR ORGANIZATIONS INFO CENTER COMPANY GET IN TOUCH</h2>
+        <div class="links">
+            <a href="#">Training Platform</a>
+            <a href="#">Sales Demo Automation</a>
+            <a href="#">Documentation</a>
+            <a href="#">Our Blog</a>
+            <a href="#">New User Guide</a>
+            <a href="#">About Us</a>
+            <a href="#">Open Source</a>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Email Support</a>
+        </div>
+    </footer>
+</body>
+</html>

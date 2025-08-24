@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>LibriVox Audiobooks - South Carolina Segway Trips</title>
+<style>
+  :root{
+    --bg:#dcdcdc;
+    --white:#ffffff;
+    --text:#444;
+    --muted:#6e6e6e;
+    --link:#0a8aa3;
+    --green:#0ea560;
+    --teal:#0d6f76;
+    --border:#d9d9d9;
+    --shadow:0 2px 0 rgba(0,0,0,.03), 0 1px 8px rgba(0,0,0,.06);
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  a{color:var(--link)}
+  a:focus,button:focus,input:focus{outline:3px solid #005fcc; outline-offset:2px}
+  .skip-link{
+    position:absolute;left:-9999px;top:0;background:#000;color:#fff;padding:.5rem 1rem;z-index:1000;
+  }
+  .skip-link:focus{left:1rem;top:1rem}
+  header{
+    background:#fff;
+    box-shadow:var(--shadow);
+  }
+  .wrap{max-width:1000px;margin:0 auto;padding:0 16px}
+  .header-top{display:flex;align-items:center;justify-content:space-between;padding:22px 0 6px}
+  .brand{
+    display:flex;align-items:center;gap:16px;
+  }
+  .brand img{width:210px;height:28px;background:#1a33ff;border-radius:2px}
+  .brand h1{
+    margin:0;
+    font-size:44px;
+    font-weight:600;
+    color:#3a3a3a;
+    letter-spacing:.2px;
+  }
+  .options{
+    text-align:right;
+    min-width:170px;
+  }
+  .options h2{
+    margin:.2rem 0 .4rem;
+    font-size:22px;
+    font-weight:600;
+    color:#4d4d4d;
+  }
+  .options nav a{
+    color:#1c1c1c;
+    text-decoration:none;
+    border-bottom:1px dotted #777;
+  }
+  .options nav a:hover{text-decoration:underline}
+  .mini-search{
+    display:grid;grid-template-columns:auto 1fr;gap:.6rem 1rem;
+    padding:10px 0 18px;
+  }
+  .mini-search label{font-weight:600;color:#6a6a6a}
+  .mini-search .hint{grid-column:1/-1;font-size:.875rem;color:#6a6a6a;margin-top:-6px}
+  .mini-search input{
+    width:330px;max-width:100%;
+    border:1px solid var(--border);border-radius:4px;padding:.6rem .7rem;
+  }
+
+  /* Wide search bar */
+  .wide-search{
+    background:#efefef;
+    border-top:1px solid #e3e3e3;border-bottom:1px solid #e3e3e3;
+  }
+  .wide-search .bar{
+    display:flex;gap:14px;align-items:center;
+    padding:18px 0;
+  }
+  .wide-search input{
+    flex:1 1 auto;
+    border:1px solid var(--border);
+    background:#fff;border-radius:6px;
+    padding:.9rem 1rem;
+  }
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;
+    border:0;border-radius:6px;padding:.8rem 1.2rem;
+    font-weight:700;color:#fff;background:var(--green);
+    cursor:pointer;
+  }
+  .btn:hover{filter:brightness(.95)}
+  .btn.secondary{background:#146a36}
+
+  /* Breadcrumbs */
+  .breadcrumbs{
+    font-size:.9rem;color:#9a9a9a;margin:16px 0;
+  }
+  .breadcrumbs a{color:#3a9fb6;text-decoration:none}
+  .breadcrumbs span{margin:0 .35rem}
+
+  main{outline:none}
+  .content{display:grid;grid-template-columns:1fr 280px;gap:24px}
+  .card{
+    background:#fff;border:1px solid var(--border);border-radius:8px;
+    box-shadow:var(--shadow);padding:16px 18px 12px;
+  }
+  .card h2{
+    margin:0 0 8px;font-weight:600;font-size:26px;color:#3e3e3e;
+  }
+  .small-date{color:#8a8a8a;font-size:.9rem;margin-bottom:10px}
+  .flex{
+    display:grid;grid-template-columns:1fr 310px;gap:18px;
+  }
+  .panel{
+    border:1px solid #e6e6e6;border-radius:6px;padding:14px;background:#f8f8f8;
+  }
+  .panel h3{
+    margin:0 0 8px;font-size:15px;letter-spacing:.3px;color:#4a4a4a;
+  }
+  .panel p{margin:.4rem 0 1rem;color:#636363;font-size:.95rem}
+  .links{line-height:1.9}
+  .links .section{
+    font-weight:700;color:#3b5f6b;margin-top:.6rem;
+  }
+  .links a{color:#2a7b90;text-decoration:none}
+  .links a:hover, .links a:focus{text-decoration:underline}
+  .img-frame{
+    background:#fff;border:1px solid #e5e5e5;border-radius:6px;box-shadow:var(--shadow);
+    padding:10px;position:relative;
+  }
+  .img-frame .tag{
+    position:absolute;left:10px;top:8px;background:#0aa2a5;color:#fff;
+    padding:.35rem .6rem;border-radius:4px;font-weight:700;font-size:.9rem;
+  }
+  .placeholder{
+    display:block;width:100%;height:220px;background:#1a33ff;border-radius:4px;
+    object-fit:cover;
+  }
+  .note{
+    font-size:.86rem;color:#6a6a6a;text-align:right;margin-top:8px;
+  }
+  aside .ad{
+    width:100%;height:300px;border-radius:6px;border:1px solid #e2e2e2;background:#fff;
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:var(--shadow);padding:10px;
+  }
+  aside img{width:100%;height:100%;background:#1a33ff;border-radius:4px;object-fit:cover}
+
+  .info-card{
+    background:#fff;border:1px solid var(--border);border-radius:8px;
+    box-shadow:var(--shadow);padding:16px 18px;margin-top:18px;
+  }
+  .info-card h3{margin:0 0 8px;font-size:20px}
+  .info-card p{margin:.4rem 0;color:#565656}
+
+  .stats{
+    background:#7a7a7a;color:#eaeaea;margin-top:36px;
+  }
+  .stats .wrap{padding:30px 16px}
+  .stats ul{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;list-style:none;margin:0;padding:0}
+  .stats li{ text-align:center }
+  .stats .num{font-size:36px;font-weight:800;color:#fff}
+  .stats .label{font-size:13px;letter-spacing:1px;text-transform:uppercase}
+
+  .cta{
+    background:var(--teal);color:#fff;text-align:center;padding:48px 16px;
+  }
+  .cta h4{margin:0 0 18px;font-size:22px;font-weight:700}
+  .cta .btn{background:#167d41}
+
+  footer{
+    background:#f7f7f7;border-top:1px solid #e2e2e2;color:#666;
+  }
+  footer .wrap{padding:26px 16px;text-align:center}
+  footer nav a{color:#3a9fb6;margin:0 12px}
+
+  /* Responsive */
+  @media (max-width: 900px){
+    .content{grid-template-columns:1fr}
+    aside{order:2}
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header role="banner">
+  <div class="wrap">
+    <div class="header-top" aria-label="Site header">
+      <div class="brand">
+        <img src="src/placeholder.jpg" alt="Decorative header banner" />
+        <h1>LibriVox Audiobooks</h1>
+      </div>
+      <div class="options">
+        <h2>Options</h2>
+        <nav aria-label="Header options">
+          <a href="#main">Go to content</a>
+          <span aria-hidden="true"> | </span>
+          <a href="#">Info</a>
+          <span aria-hidden="true"> | </span>
+          <a href="#">Email</a>
+          <span aria-hidden="true"> | </span>
+          <a href="#">Community</a>
+          <span aria-hidden="true"> | </span>
+          <a href="#">FAQ</a>
+        </nav>
+      </div>
+    </div>
+
+    <form class="mini-search" role="search" aria-label="Find audiobooks">
+      <label for="mini-q">Find audiobooks</label>
+      <input id="mini-q" name="q" type="search" placeholder="Find by Writer, Story or Narrator" />
+      <div class="hint">
+        <a href="#">More search options</a>
+      </div>
+    </form>
+  </div>
+
+  <div class="wide-search" role="search" aria-label="Trip search">
+    <div class="wrap">
+      <div class="bar">
+        <label class="visually-hidden" for="trip-q">Trip search</label>
+        <input id="trip-q" name="trip" type="search" placeholder="Trip Spot..." aria-label="Search trips" />
+        <button class="btn" type="submit" aria-label="Search">SEARCH</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <span aria-hidden="true">/</span>
+    <a href="#">USA</a>
+    <span aria-hidden="true">/</span>
+    <a href="#" aria-current="page">SOUTH CAROLINA</a>
+  </nav>
+</div>
+
+<main id="main" class="wrap" role="main" tabindex="-1">
+  <div class="content">
+    <section aria-labelledby="list-heading">
+      <div class="card">
+        <h2 id="list-heading">List of 6 Segway Trips around South Carolina</h2>
+        <div class="small-date">South Carolina Listing Date: 11/3/23</div>
+
+        <div class="flex">
+          <div class="panel" aria-label="South Carolina Segway excursions">
+            <h3>SOUTH CAROLINA SEGWAY EXCURSIONS</h3>
+            <p>Explore South Carolina with one of our six Segway excursions. Discover the attractions and sounds of South Carolinaâs towns and attractions with a closer and more personal tour on the Segway PT.</p>
+
+            <div class="links" aria-label="Locations">
+              <div class="section">USA >></div>
+
+              <div class="section">SOUTH CAROLINA >></div>
+
+              <div class="section">CHARLESTON >></div>
+              <div><a href="#">Segway of Charleston >></a></div>
+
+              <div class="section">GREENVILLE >></div>
+              <div><a href="#">Carolina Segway >></a></div>
+              <div><a href="#">Greenville Glides >></a></div>
+
+              <div class="section">HILTON HEAD ISLAND >></div>
+              <div><a href="#">Hilton Head Segway >></a></div>
+
+              <div class="section">LITTLE RIVER >></div>
+              <div><a href="#">Myrtle Beach Segway >></a></div>
+              <div><a href="#">Myrtle Beach Segway >></a></div>
+            </div>
+          </div>
+
+          <div class="img-frame" aria-label="Featured location">
+            <span class="tag">South Carolina</span>
+            <img class="placeholder" src="src/placeholder.jpg" alt="South Carolina scenic placeholder" />
+          </div>
+        </div>
+
+        <div class="note">Displaying 6 South Carolina trips of 636 trips World Wide</div>
+      </div>
+    </section>
+
+    <aside aria-label="Advertisement or related image">
+      <div class="ad">
+        <img src="src/placeholder.jpg" alt="Sidebar promotional placeholder" />
+      </div>
+    </aside>
+  </div>
+
+  <section class="info-card" aria-labelledby="info-head">
+    <h3 id="info-head">South Carolina Segway Tours</h3>
+    <p>Whether South Carolina is your home state or your next destination for travel, one of these Segway trips will add cool new excitement to your next company trip, vacation or weekend outing.</p>
+    <p>Want adventure outings beyond South Carolinaâs six Segway trips? Check out our Directory to <a href="#">find Segway Tours</a> across the United States and across the globe and try touring on a Segway PT for yourself!</p>
+  </section>
+</main>
+
+<section class="stats" aria-label="Global statistics">
+  <div class="wrap">
+    <ul>
+      <li>
+        <div class="num" aria-label="636 global">636</div>
+        <div class="label">Global</div>
+      </li>
+      <li>
+        <div class="num" aria-label="56 nations">56</div>
+        <div class="label">Nations</div>
+      </li>
+      <li>
+        <div class="num" aria-label="198 territories">198</div>
+        <div class="label">Territories</div>
+      </li>
+      <li>
+        <div class="num" aria-label="442 towns">442</div>
+        <div class="label">Towns</div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="cta" aria-label="Call to action">
+  <div class="wrap" style="text-align:center">
+    <h4>Locate a Trip on a Segway PT right now!</h4>
+    <button class="btn" type="button">Search a Trip Now</button>
+  </div>
+</section>
+
+<footer role="contentinfo">
+  <div class="wrap">
+    <nav aria-label="Footer">
+      <a href="#">Home</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div style="margin:16px 0 6px;">
+      <a href="#" aria-label="Facebook">FB</a>
+      <span aria-hidden="true"> | </span>
+      <a href="#" aria-label="Instagram">IG</a>
+    </div>
+    <div style="font-size:.78rem;color:#9a9a9a;">Powered by Seg Center</div>
+  </div>
+</footer>
+</body>
+</html>

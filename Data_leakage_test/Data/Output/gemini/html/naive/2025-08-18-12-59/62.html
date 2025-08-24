@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha One Labs</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header {
+            background-color: #0DAE9A;
+            color: white;
+            padding: 20px;
+            text-align: left;
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+        }
+
+        .header img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #121F3E;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #121F3E;
+            margin-bottom: 20px;
+        }
+
+        .interest-form {
+            background-color: #fff;
+            border: 1px solid #eee;
+            border-radius: 10px;
+            padding: 30px;
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .interest-form h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #121F3E;
+        }
+
+        .interest-form input[type="text"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+            width: 60%;
+            box-sizing: border-box;
+        }
+
+        .interest-form button {
+            background-color: #5850EC;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .interest-form button.learn{
+            background-color: #FF7849;
+        }
+
+        .interest-form p {
+            font-size: 14px;
+            color: #666;
+            margin-top: 20px;
+        }
+        .input-button-container {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        button {
+            margin-left: 5px;
+        }
+        .alpha-one-labs{
+            font-size: 20px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="src/placeholder.jpg" alt="Logo">
+        <span class="alpha-one-labs">Alpha One Labs</span>
+    </div>
+    <div class="container">
+        <h1 class="title">Explore Subjects</h1>
+        <p class="subtitle">Browse exciting topics, see how many people are interested, and find out if there's already a teacher or not.</p>
+        <div class="interest-form">
+            <h2>Express Your Interest</h2>
+            <div class="input-button-container">
+            <input type="text" placeholder="Enter a subject...">
+            <button>Teach</button>
+            <button class="learn">Learn</button>
+            </div>
+            <p>Share what you'd like to learn or teach, and we'll help make it happen!</p>
+        </div>
+    </div>
+</body>
+</html>

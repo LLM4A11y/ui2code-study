@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f6fa;
+            color: #333;
+        }
+        .header {
+            background-color: #008080;
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header-logo {
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        .header-logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .header-menu {
+            color: #ffffff;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+        .header-menu span {
+            margin-left: 20px;
+        }
+        .header-search {
+            background-color: #ffffff;
+            border-radius: 20px;
+            padding: 5px 10px;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            width: 200px;
+        }
+        .header-search input {
+            border: none;
+            outline: none;
+            margin-left: 5px;
+            width: 100%;
+        }
+        .main {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .main h1 {
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .main p {
+            color: #666;
+            margin: 10px 0 40px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .box {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            width: 300px;
+        }
+        .donation-type {
+            display: flex;
+            justify-content: space-between;
+            border: 2px solid #f0f0f0;
+            border-radius: 5px;
+            overflow: hidden;
+            margin: 10px 0 20px;
+        }
+        .donation-type span {
+            flex: 1;
+            background-color: #f0f0f0;
+            color: #333;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .donation-type .active {
+            background-color: #ffffff;
+            font-weight: bold;
+        }
+        .amount {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .amount button {
+            flex: 1 1 45%;
+            background-color: #f0f0f0;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .custom-amount {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .message {
+            height: 100px;
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+        .checkbox {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .checkbox input {
+            margin-right: 10px;
+        }
+        .final-amount {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .final-amount span {
+            color: #008080;
+        }
+        .donate-button {
+            background-color: #008080;
+            color: #ffffff;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            width: 100%;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .info-box {
+            border: 1px solid #cce7e7;
+            background-color: #e6f7f7;
+        }
+        .info-box ul {
+            padding-left: 20px;
+            text-align: left;
+        }
+        .info-box ul li {
+            margin: 10px 0;
+        }
+        .footer {
+            background-color: #ffffff;
+            padding: 30px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid #e0e0e0;
+        }
+        .footer-left, .footer-right {
+            display: flex;
+            gap: 50px;
+        }
+        .footer-left div, .footer-right div {
+            color: #666;
+        }
+        .footer-left div span, .footer-right div span {
+            display: block;
+            margin: 5px 0;
+            cursor: pointer;
+        }
+        .newsletter {
+            display: flex;
+            align-items: center;
+        }
+        .newsletter input {
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 5px;
+            font-size: 14px;
+            margin-right: 5px;
+        }
+        .newsletter button {
+            background-color: #008080;
+            color: #ffffff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-logo">
+            <img src="src/placeholder.jpg" alt="logo">
+            Alpha One Labs
+        </div>
+        <div class="header-menu">
+            <span>LEARN</span>
+            <span>COMMUNITY</span>
+            <span>RESOURCES</span>
+            <span>ABOUT</span>
+        </div>
+        <div class="header-search">
+            <img src="src/placeholder.jpg" alt="search">
+            <input type="text" placeholder="What do you want to learn?">
+            <img src="src/placeholder.jpg" alt="d">
+        </div>
+    </div>
+
+    <div class="main">
+        <h1>Support Our Mission</h1>
+        <p>Your donation helps us provide quality education to more students around the world.</p>
+
+        <div class="container">
+            <div class="box">
+                <h2>Make a Donation</h2>
+                <div class="donation-type">
+                    <span class="active">One-time</span>
+                    <span>Monthly</span>
+                </div>
+                <p>Select Amount</p>
+                <div class="amount">
+                    <button>$5</button>
+                    <button>$10</button>
+                    <button>$25</button>
+                    <button>$50</button>
+                    <button>$100</button>
+                </div>
+                <input type="text" class="custom-amount" placeholder="$ or enter custom amount">
+                <input type="email" class="custom-amount" placeholder="E-Mail">
+                <textarea class="message" placeholder="Share why you're donating..."></textarea>
+                <div class="checkbox">
+                    <input type="checkbox">
+                    <span>Make my donation anonymous</span>
+                </div>
+                <div class="final-amount">
+                    Final Donation Amount: <span>$0.00</span>
+                </div>
+                <button class="donate-button">Donate Now</button>
+            </div>
+
+            <div class="box info-box">
+                <h2>Why Donate?</h2>
+                <ul>
+                    <li>Provide scholarships to students in need</li>
+                    <li>Develop new educational content and resources</li>
+                    <li>Improve our platform and technology</li>
+                    <li>Expand our reach to underserved communities</li>
+                </ul>
+                <p>We're committed to making quality education accessible to everyone, regardless of their financial situation.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-left">
+            <div>
+                LEARNING
+                <span>Courses</span>
+                <span>Subjects</span>
+                <span>Quizzes</span>
+                <span>Videos</span>
+                <span>Challenges</span>
+                <span>Study Groups</span>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div>
+                CONNECT WITH US
+                <img src="src/placeholder.jpg" alt="social" width="25">
+                <img src="src/placeholder.jpg" alt="social" width="25">
+                <img src="src/placeholder.jpg" alt="social" width="25">
+                <img src="src/placeholder.jpg" alt="social" width="25">
+            </div>
+            <div class="newsletter">
+                SUBSCRIBE TO NEWSLETTER
+                <input type="email" placeholder="Your email">
+                <button><img src="src/placeholder.jpg" alt="send" width="20"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-left">
+            <span>Â© 2025 Alpha One Labs. All rights reserved.</span>
+            <span>Last updated: 06/12/2025 12:23nachm.</span>
+        </div>
+        <div class="footer-right">
+            <span>About Us</span>
+            <span>Terms & Conditions</span>
+            <span>Privacy Policy</span>
+            <span>Cookie Policy</span>
+        </div>
+    </div>
+
+</body>
+</html>

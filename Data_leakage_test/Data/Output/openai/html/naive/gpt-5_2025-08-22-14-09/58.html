@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShopVora Mock</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blue:#178cf6;
+    --blue-deep:#0d6efd;
+    --text:#111827;
+    --muted:#65738a;
+    --border:#e4e7ee;
+    --footer:#23272b;
+    --img-blue:#1a1af7;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, Helvetica, sans-serif;
+    color:var(--text);
+    background:#fff;
+  }
+
+  /* Navbar */
+  .nav{
+    height:60px;
+    background:linear-gradient(0deg, var(--blue), var(--blue));
+    display:flex;
+    align-items:center;
+    padding:0 28px;
+    gap:26px;
+  }
+  .brand{
+    font-weight:700;
+    color:#fff;
+    font-size:22px;
+    letter-spacing:.2px;
+  }
+  .brand span{color:#bfe7ff;font-weight:700}
+  .nav-links{
+    display:flex;
+    align-items:center;
+    gap:22px;
+    color:#fff;
+    font-weight:600;
+    font-size:16px;
+  }
+  .nav-links .caret{
+    margin-left:6px;
+    font-weight:700;
+  }
+  .spacer{flex:1}
+  .search{
+    width:340px;
+    background:#fff;
+    border-radius:6px;
+    padding:10px 14px;
+    display:flex;
+    align-items:center;
+    box-shadow:0 0 0 1px rgba(0,0,0,.08), 0 2px 4px rgba(0,0,0,.08) inset;
+  }
+  .search input{
+    border:none;
+    outline:none;
+    flex:1;
+    font-size:15px;
+    color:#4b5563;
+  }
+  .auth{
+    display:flex;
+    gap:22px;
+    color:#fff;
+    font-weight:600;
+  }
+
+  /* Main layout */
+  .container{
+    width:1120px;
+    margin:30px auto 0;
+    display:grid;
+    grid-template-columns:260px 1fr;
+    grid-gap:36px;
+  }
+
+  /* Sidebar filter */
+  .filter{
+    border:1px solid var(--border);
+    border-radius:8px;
+    overflow:hidden;
+  }
+  .filter a{
+    display:block;
+    padding:13px 16px;
+    color:#374151;
+    text-decoration:none;
+    background:#fff;
+    border-bottom:1px solid var(--border);
+    font-size:15px;
+  }
+  .filter a:last-child{border-bottom:none}
+  .filter a:first-child{background:#f7f9fc;font-weight:600}
+
+  /* Hero banner image box */
+  .img-box{
+    width:100%;
+    height:290px;
+    background:var(--img-blue);
+    border-radius:2px;
+  }
+  .img-box img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    opacity:0; /* keep <img> for placeholder requirement while showing blue block */
+    display:block;
+  }
+
+  /* Product summary row */
+  .products{
+    grid-column:1 / -1;
+    width:840px;
+    margin:14px 0 46px 296px; /* aligns under banner, away from sidebar */
+    display:flex;
+    justify-content:space-between;
+    text-align:center;
+  }
+  .prod{
+    width:260px;
+  }
+  .prod h4{
+    margin:0 0 6px;
+    font-size:16px;
+    font-weight:700;
+  }
+  .price{
+    font-weight:800;
+    font-size:17px;
+    letter-spacing:.2px;
+  }
+  .old{
+    color:#6b7280;
+    text-decoration:line-through;
+    margin-left:8px;
+    font-weight:600;
+  }
+
+  /* Footer */
+  .footer{
+    margin-top:80px;
+    background:var(--footer);
+    color:#fff;
+    padding:48px 0 48px;
+    position:relative;
+    min-height:240px;
+  }
+  .footer .center{
+    text-align:center;
+    font-size:15px;
+    color:#e9eef5;
+    margin-top:70px;
+  }
+  .footer .promo{
+    position:absolute;
+    right:210px;
+    top:-30px;
+    width:260px;
+    height:240px;
+    background:var(--img-blue);
+  }
+  .footer .promo img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    opacity:0;
+    display:block;
+  }
+
+  /* Small tweaks for responsiveness */
+  @media (max-width:1200px){
+    .container{width:1000px}
+    .products{width:760px;margin-left:296px}
+  }
+  @media (max-width:1050px){
+    .nav{flex-wrap:wrap;height:auto;padding:12px 20px;gap:16px}
+    .search{order:3;width:100%}
+    .container{width:92%;grid-template-columns:1fr}
+    .products{width:100%;margin:14px 0 46px 0}
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="brand">Shop<span>Vora</span></div>
+  <nav class="nav-links">
+    <div>Home</div>
+    <div>Electronics <span class="caret">â¾</span></div>
+    <div>Fashion <span class="caret">â¾</span></div>
+  </nav>
+  <div class="spacer"></div>
+  <div class="search"><input type="text" placeholder="Search"></div>
+  <div class="auth">
+    <div>Login</div>
+    <div>Registration</div>
+  </div>
+</header>
+
+<main class="container">
+  <aside class="filter">
+    <a href="#">All Mobile</a>
+    <a href="#">Apple</a>
+    <a href="#">Xiaomi</a>
+    <a href="#">Samsung</a>
+    <a href="#">Below 15000</a>
+    <a href="#">Above 15000</a>
+  </aside>
+
+  <section>
+    <div class="img-box">
+      <img src="src/placeholder.jpg" alt="Banner">
+    </div>
+  </section>
+
+  <section class="products">
+    <div class="prod">
+      <h4>Mobile 1</h4>
+      <div class="price">66155.0 TL <span class="old">68999.0</span></div>
+    </div>
+    <div class="prod">
+      <h4>Mobile 2</h4>
+      <div class="price">33499.0 TL <span class="old">34999.0</span></div>
+    </div>
+    <div class="prod">
+      <h4>Mobile 3</h4>
+      <div class="price">8820.0 TL <span class="old">9000.0</span></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="promo">
+    <img src="src/placeholder.jpg" alt="Footer Promo">
+  </div>
+  <div class="center">Copyright Â© 2025 || Re-edited by NuranFerhan ||</div>
+</footer>
+
+</body>
+</html>

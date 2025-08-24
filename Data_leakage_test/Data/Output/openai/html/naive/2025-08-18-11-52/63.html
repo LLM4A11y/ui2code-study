@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waiting Rooms</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background-color: #f8fafc;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: #008080;
+            color: white;
+        }
+        .header img {
+            height: 40px;
+            width: 40px;
+            margin-right: 1rem;
+            background-color: blue;
+        }
+        .header-title {
+            flex-grow: 1;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .btn {
+            padding: 0.5rem 1rem;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+        .content {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .content h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        .content h2 {
+            font-size: 1.25rem;
+            margin: 1rem 0;
+        }
+        .content p {
+            color: #555;
+            margin: 1rem 0;
+        }
+        .open-rooms {
+            display: flex;
+            align-items: center;
+            margin: 2rem 0;
+        }
+        .open-rooms h3 {
+            margin-right: 0.5rem;
+        }
+        .badge {
+            background-color: #e0f4e3;
+            color: #4caf50;
+            padding: 0.3rem 0.7rem;
+            border-radius: 1rem;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+        .cards {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        .card {
+            background-color: white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            padding: 1rem;
+            flex: 1;
+            max-width: 350px;
+        }
+        .card h4 {
+            margin-bottom: 0.5rem;
+            font-size: 1.25rem;
+        }
+        .card .info {
+            font-size: 0.9rem;
+            color: #666;
+            margin: 0.5rem 0;
+        }
+        .card .topics {
+            background-color: #f1f3f5;
+            color: #333;
+            display: inline-block;
+            padding: 0.3rem 0.5rem;
+            border-radius: 6px;
+            margin-right: 0.2rem;
+            font-size: 0.8rem;
+        }
+        .card .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1rem;
+            font-size: 0.8rem;
+            color: #9e9e9e;
+        }
+        .card .open-badge {
+            background-color: #e0f4e3;
+            color: #4caf50;
+            padding: 0.3rem 0.7rem;
+            border-radius: 1rem;
+            font-size: 0.8rem;
+        }
+        footer {
+            margin-top: 2rem;
+            padding: 1rem 2rem;
+            background-color: #f8fafc;
+            font-size: 0.8rem;
+            color: #9e9e9e;
+            display: flex;
+            justify-content: space-between;
+        }
+        footer .links a {
+            margin-left: 1rem;
+            color: #9e9e9e;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <nav class="header">
+        <img src="src/placeholder.jpg" alt="logo">
+        <div class="header-title">Alpha One Labs</div>
+        <a href="#" class="btn">Create Learning Request</a>
+    </nav>
+    <div class="content">
+        <h1>Waiting Rooms</h1>
+        <h2>What are Waiting Rooms?</h2>
+        <p>Waiting rooms allow you to express interest in subjects and topics you want to learn. Join existing waiting rooms or create your own to find others interested in the same topics. Teachers can see these waiting rooms and create courses based on popular demand.</p>
+        
+        <div class="open-rooms">
+            <h3>Open Waiting Rooms</h3>
+            <div class="badge">5</div>
+        </div>
+        
+        <div class="cards">
+            <div class="card">
+                <h4>Waiting Room 5</h4>
+                <div class="info">Subject 5 â¢ 2 interested</div>
+                <p>Description for waiting room 5</p>
+                <div>
+                    <span class="topics">Topic1</span>
+                    <span class="topics">Topic2</span>
+                    <span class="topics">Topic5</span>
+                </div>
+                <div class="footer">
+                    <span>teacher2</span>
+                    <span class="open-badge">Open</span>
+                    <span>19 Stunden, 28 Minuten ago</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <h4>Waiting Room 4</h4>
+                <div class="info">Subject 4 â¢ 6 interested</div>
+                <p>Description for waiting room 4</p>
+                <div>
+                    <span class="topics">Topic1</span>
+                    <span class="topics">Topic2</span>
+                    <span class="topics">Topic4</span>
+                </div>
+                <div class="footer">
+                    <span>teacher2</span>
+                    <span class="open-badge">Open</span>
+                    <span>19 Stunden, 28 Minuten ago</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div>Â© 2025 Alpha One Labs. All rights reserved.<br>Last updated: 06/12/2025 12:19nachm.</div>
+        <div class="links">
+            <a href="#">About Us</a> 
+            <a href="#">Terms &amp; Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookie Policy</a>
+        </div>
+    </footer>
+</body>
+</html>

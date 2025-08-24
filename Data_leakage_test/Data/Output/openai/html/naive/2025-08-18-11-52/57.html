@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f6f7fb;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header {
+            background-color: #00897b;
+            width: 100%;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .logo {
+            width: 50px;
+            height: 50px;
+            background-color: #0000FF;
+            margin-right: 10px;
+        }
+        .logo-text {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .container {
+            background-color: white;
+            width: 360px;
+            margin-top: 50px;
+            padding: 40px;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+        }
+        .checkbox {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #e0e0e0;
+            margin-right: 10px;
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        .input-label {
+            font-size: 14px;
+            color: #888;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .remember-group {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .remember-check {
+            display: flex;
+            align-items: center;
+            color: #888;
+        }
+        .forgot-password {
+            color: #f57200;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .sign-in-button {
+            background-color: #f57200;
+            color: white;
+            border: none;
+            padding: 12px 0;
+            width: 100%;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 30px;
+        }
+        .footer {
+            text-align: center;
+            color: #888;
+            font-size: 14px;
+        }
+        .sign-up {
+            color: #f57200;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo"></div>
+        <div class="logo-text">Alpha One Labs</div>
+    </div>
+    <div class="container">
+        <div class="title">
+            <div class="checkbox"></div>
+            Sign in to your account
+        </div>
+        <div class="input-group">
+            <label class="input-label">Email Address</label>
+            <input class="input-field" type="text" placeholder="Enter your email address">
+        </div>
+        <div class="input-group">
+            <label class="input-label">Password</label>
+            <input class="input-field" type="password" placeholder="Enter your password">
+        </div>
+        <div class="remember-group">
+            <div class="remember-check">
+                <div class="checkbox"></div>
+                Remember me
+            </div>
+            <span class="forgot-password">Forgot password?</span>
+        </div>
+        <button class="sign-in-button">SIGN IN</button>
+        <div class="footer">
+            Don't have an account? <span class="sign-up">Sign up</span>
+        </div>
+    </div>
+</body>
+</html>

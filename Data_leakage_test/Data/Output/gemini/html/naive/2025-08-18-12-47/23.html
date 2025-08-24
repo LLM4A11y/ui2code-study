@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosebud Treasures</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #121212;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .post-meta {
+            margin-bottom: 20px;
+            color: #999;
+        }
+
+        .tags {
+            margin-bottom: 20px;
+        }
+
+        .tags a {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 5px 10px;
+            border: 1px solid #555;
+            border-radius: 5px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .related-posts {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .related-post {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #999;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .support-button {
+            background-color: #e67e22;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .date {
+            color: #999;
+            margin-bottom: 20px;
+        }
+
+        .post-tags {
+            margin-bottom: 20px;
+        }
+
+        .post-tags a {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 5px 10px;
+            border: 1px solid #555;
+            border-radius: 5px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .similar-posts {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .similar-post {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .similar-post-title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .similar-post-date {
+            color: #999;
+        }
+
+        .article-tags {
+            margin-top: 40px;
+        }
+
+        .article-tags a {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 5px 10px;
+            border: 1px solid #555;
+            border-radius: 5px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .logo {
+            font-size: 2em;
+        }
+
+        .user-actions {
+            display: flex;
+            align-items: center;
+        }
+
+        .login {
+            margin-right: 20px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .currency-selector {
+            display: flex;
+            align-items: center;
+        }
+
+        .currency-selector label {
+            margin-right: 5px;
+            color: #fff;
+        }
+
+        .currency-selector select {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .close-button {
+            background-color: #555;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #222;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        /* Post */
+        .post-container {
+            padding: 20px;
+        }
+
+        .post-title {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .post-date {
+            color: #999;
+            margin-bottom: 20px;
+        }
+
+        .post-content {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .post-tags {
+            margin-bottom: 20px;
+        }
+
+        .post-tags a {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 5px 10px;
+            border: 1px solid #555;
+            border-radius: 5px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Support */
+        .support-section {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .support-button {
+            background-color: #e67e22;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        /* More to Explore */
+        .explore-section {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .explore-post {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .explore-post-title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .explore-post-date {
+            color: #999;
+        }
+
+        .explore-post-arrow {
+            margin-right: 5px;
+        }
+
+        /* Similar Posts */
+        .similar-posts-section {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .similar-post {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .similar-post-title {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .similar-post-date {
+            color: #999;
+        }
+
+        /* Article Tags */
+        .article-tags-section {
+            margin-top: 40px;
+        }
+
+        .article-tags a {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 5px 10px;
+            border: 1px solid #555;
+            border-radius: 5px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .post-tags a.automation {
+            background-color: #222;
+        }
+
+        .post-tags a.swift {
+            background-color: #222;
+        }
+
+        .post-tags a.quick-tips {
+            background-color: #222;
+        }
+
+        .explore-post a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .post-content code {
+            background-color: #333;
+            color: #fff;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+
+        .post-content a {
+            color: #e67e22;
+        }
+
+        /* Responsive Layout */
+        @media (max-width: 768px) {
+            .similar-posts-section,
+            .explore-section {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #121212;
+            /* Dark background */
+            color: #fff;
+            /* White text */
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #333;
+            /* Subtle border */
+        }
+
+        .logo {
+            font-size: 1.8em;
+            /* Slightly larger logo */
+            font-weight: bold;
+            /* Make the logo bold */
+        }
+
+        .user-actions {
+            display: flex;
+            align-items: center;
+        }
+
+        .login {
+            margin-right: 20px;
+            color: #fff;
+            text-decoration: none;
+            /* Remove underline from the link */
+        }
+
+        .currency-selector {
+            display: flex;
+            align-items: center;
+        }
+
+        .currency-selector label {
+            margin-right: 5px;
+            color: #fff;
+        }
+
+        .currency-selector select {
+            background-color: #333;
+            /* Dark background for the select */
+            color: #fff;
+            /* White text for the select */
+            border: none;
+            padding: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            /* Add cursor style for better UX */
+        }
+
+        .close-button {
+            background-color: #555;
+            /* Slightly lighter background */
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            /* Add cursor style for better UX */
+        }
+
+        nav {
+            background-color: #1E1E1E;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+            /* Ensures the list stays on one line */
+        }
+
+        nav li {
+            display: inline;
+            /* Ensures items are on the same line */
+            margin: 0 20px;
+            /* Adjust spacing between items */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+            transition: color 0.3s ease;
+            /* Smooth color transition on hover */
+        }
+
+        nav a:hover {
+            color: #e67e22;
+            /* Highlight color on hover */
+        }
+
+        /* Post Meta */
+        .post-meta {
+            margin-bottom: 20px;
+            color: #999;
+            font-size: 0.9em;
+            /* Slightly smaller font size */
+        }
+
+        .post-meta a {
+            color: #999;
+            text-decoration: none;
+            /* Remove underline */
+        }
+
+        .post-meta a:hover {
+            text-decoration: underline;
+            /* Underline on hover for interaction feedback */
+        }
+
+        .tags a {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 5px 10px;
+            border: 1px solid #555;
+            border-radius: 5px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.85em;
+            /* Slightly smaller font size */
+            transition: background-color 0.3s ease;
+            /* Smooth background color transition */
+        }
+
+        .tags a:hover {
+            background-color: #333;
+            /* Darken on hover */
+        }
+
+        .support-button {
+            background-color: #e67e22;
+            /* Orange background */
+            color: #fff;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .support-button:hover {
+            background-color: #d35400;
+            /* Slightly darker orange on hover */
+        }
+
+        .related-posts {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .related-post {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .related-post-title {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        .related-post-date {
+            color: #999;
+            font-size: 0.85em;
+        }
+
+        .related-post a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .related-post a:hover {
+            text-decoration: underline;
+        }
+
+        /* Similar Posts Section */
+        .similar-posts {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .similar-post {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        .similar-post:hover {
+            transform: translateY(-5px);
+            /* Slightly lift up on hover */
+        }
+
+        .similar-post-title {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        .similar-post-date {
+            color: #999;
+            font-size: 0.85em;
+        }
+
+        /* Article Tags Section */
+        .article-tags {
+            margin-top: 40px;
+        }
+
+        .article-tags a {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 5px 10px;
+            border: 1px solid #555;
+            border-radius: 5px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.85em;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #999;
+            font-size: 0.85em;
+            border-top: 1px solid #333;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Rosebud Treasures</div>
+        <div class="user-actions">
+            <a href="#" class="login">Login</a>
+            <div class="currency-selector">
+                <label for="currency">Choose currency</label>
+                <select id="currency">
+                    <option value="USD">USD</option>
+                </select>
+                <button class="close-button">X</button>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Main</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">On Sale</a></li>
+        </ul>
+    </nav>
+    <div class="post-container">
+        <div class="post-meta">
+            <p class="date">June 5, 2024</p>
+            <div class="post-tags">
+                <a href="#" class="post-tags automation">Automation</a>
+                <a href="#" class="post-tags swift">Swift</a>
+                <a href="#" class="post-tags quick-tips">Quick Tips</a>
+            </div>
+        </div>
+        <h1 class="post-title">Easy Swift Script Reloading</h1>
+        <p class="post-content">I was working on a <a href="#">Swift script</a> that needed to stay running, so I added a loop to avoid
+            interruptions. <em>Always on!</em></p>
+        <p class="post-content">My solution used a <code>while</code> loop with <code>Process</code> instances to re-run the code. <em>Script
+                inception!</em></p>
+        <p class="post-content">I realized this setup could be used as a basic hot-reloading tool for script development.</p>
+        <p class="post-content">
+            <code>let refresh = "refresh" if Process.arguments.contains(refresh) { while true { let task =
+                Process() task.executableURL = URL(fileURLWithPath: Process.arguments[0])
+                task.arguments = Process.arguments.dropFirst().filter { $0 != refresh } try? task.run()
+                task.waitUntilExit() } } Add this code to the top of your script; it loops if called with the
+                refresh argument.</code>
+        </p>
+        <p class="post-content">You can then launch it from the terminal:</p>
+        <p class="post-content"><code>main.swift refresh more arguments</code> Once active, edit and save; the next run includes
+            changes. Compile errors? No problem, the prior code stays in memory and retries.</p>
+        <p class="post-content">It's not perfect and console output may be noisy, but I've found it handy for iterative
+            development of small scripts.</p>
+        <p class="post-content">Remember to use <a href="#">signal handlers</a> to properly terminate the script when necessary.</p>
+
+        <p class="post-content"><a href="#">Post this entry on Twitter</a></p>
+
+        <div class="support-section">
+            <p>If this was helpful, consider showing some support</p>
+            <a href="#" class="support-button">Support with coffee</a>
+        </div>
+        <div class="explore-section">
+            <div class="explore-post">
+                <p class="explore-post-title">
+                    <a href="#">
+                        Next Post
+                        <br>
+                        Clean code with closures
+                    </a>
+                </p>
+                <p class="explore-post-date">June 10, 2024</p>
+            </div>
+            <div class="explore-post">
+                <p class="explore-post-title">
+                    <a href="#">
+                        Previous Post <br>
+                        Handling OS signals in Swift.
+                    </a>
+                </p>
+                <p class="explore-post-date">May 20, 2024</p>
+            </div>
+        </div>
+        <div class="similar-posts">
+            <div class="similar-post">
+                <p class="similar-post-title">
+                    Tagged <a href="#">Swift</a>
+                    <br>
+                    <a href="#">SwiftUI modifiers for older versions</a>
+                </p>
+                <p class="similar-post-date">October 22, 2024</p>
+            </div>
+            <div class="similar-post">
+                <p class="similar-post-title">
+                    Tagged <a href="#">Automation</a>
+                    <br>
+                    <a href="#">Swift tool for Reminders lists</a>
+                </p>
+                <p class="similar-post-date">May 10, 2024</p>
+            </div>
+            <div class="similar-post">
+                <p class="similar-post-title">
+                    Tagged <a href="#">Quick Tips</a>
+                    <br>
+                    <a href="#">Swift: Prefix tests</a>
+                </p>
+                <p class="similar-post-date">March 20, 2024</p>
+            </div>
+        </div>
+
+        <div class="article-tags-section">
+            <p class="article-tags-title">Article Tags</p>
+            <div class="article-tags">
+                <a href="#" class="article-tags automation">Automation</a>
+                <a href="#" class="article-tags swift">Swift</a>
+                <a href="#" class="article-tags quick-tips">Quick Tips</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>lisa@lisamooredesign.com</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,1602 @@
+{
+  "manual": {
+    "checks": {
+      "1.4.4": "tbd",
+      "1.4.10": "tbd",
+      "1.4.12": "tbd",
+      "2.1.1+2.1.2": "tbd",
+      "2.4.3": "tbd",
+      "2.4.6": "tbd",
+      "2.4.7": "tbd"
+    }
+  },
+  "automatic": [
+    {
+      "wcag_id": [
+        "Principle1.Guideline1_4.1_4_3.G18",
+        "Principle1.Guideline1_4.1_4_3.G18.Fail",
+        "Principle1.Guideline1_4.1_4_3.G145",
+        "Principle1.Guideline1_4.1_4_3.G145.Fail",
+        "Principle1.Guideline1_4.1_4_6.G17",
+        "Principle1.Guideline1_4.1_4_6.G18"
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+        "https://dequeuniversity.com/rules/axe/4.10/color-contrast-enhanced"
+      ],
+      "impact": "serious",
+      "name": "Color Contrast; Text;",
+      "amount_nodes_failed": 7,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#379e81",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.29,
+                  "fontSize": "12.0pt (16px)",
+                  "fontWeight": "bold",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<body class=\"theme\" id=\"product\">",
+                    "target": [
+                      "#product"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.29 (foreground color: #379e81, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<h4>\n<span class=\"currency_sign\">\n      $\n     </span>\n     20.00\n    </h4>",
+            "target": [
+              ".content > h4"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.29 (foreground color: #379e81, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#379e81",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.29,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<body class=\"theme\" id=\"product\">",
+                    "target": [
+                      "#product"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.29 (foreground color: #379e81, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p>\n      Pink tinted, lumber cylinder gems, .4cm sky-blue gems, with shiny gold-colored pieces attached on string to create a 4-times turn!\n     </p>",
+            "target": [
+              "p:nth-child(1)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.29 (foreground color: #379e81, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#379e81",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.29,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<body class=\"theme\" id=\"product\">",
+                    "target": [
+                      "#product"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.29 (foreground color: #379e81, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p>\n      The following is for one roll-around wristband.  Every roll-around wristband is retailed on its own for $20.00 a piece.\n     </p>",
+            "target": [
+              "p:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.29 (foreground color: #379e81, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#379e81",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.29,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<body class=\"theme\" id=\"product\">",
+                    "target": [
+                      "#product"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.29 (foreground color: #379e81, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<p>\n      **To see fitting details, please consult the Fit Guide Webpage.**\n      <br>\n      **This wristband may be altered using light grey-colored pieces.**\n     </p>",
+            "target": [
+              "p:nth-child(3)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.29 (foreground color: #379e81, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#3d9e82",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.27,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<body class=\"theme\" id=\"product\">",
+                    "target": [
+                      "#product"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.27 (foreground color: #3d9e82, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<select id=\"option\" name=\"cart[add][id]\">\n<option value=\"174836920\">\n         Tiny (S)\n        </option>\n<option value=\"174836923\">\n         Part (M)\n        </option>\n<option value=\"174836926\">\n         Huge (L)\n        </option>\n</select>",
+            "target": [
+              "#option"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.27 (foreground color: #3d9e82, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#3e957c",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.62,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.62 (foreground color: #3e957c, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button name=\"submit\" title=\"Add to Cart\" type=\"submit\">\n       Add to Cart\n      </button>",
+            "target": [
+              "button[name=\"submit\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.62 (foreground color: #3e957c, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#379e81",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.29,
+                  "fontSize": "12.0pt (16px)",
+                  "fontWeight": "bold",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.29 (foreground color: #379e81, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<h4>\n      Share\n     </h4>",
+            "target": [
+              ".product_description > h4"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.29 (foreground color: #379e81, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.3:1. Recommendation:  change text colour to #1e8568.",
+          "description": "<h4>\n<span class=\"currency_sign\">\n ...</h4>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.3:1. Recommendation:  change text colour to #1e8568.",
+            "context": "<h4>\n<span class=\"currency_sign\">\n ...</h4>",
+            "selector": "#product > div > section > h4",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.3:1. Recommendation:  change text colour to #1e8568.",
+          "description": "<span class=\"currency_sign\">\n      $\n     </span>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.3:1. Recommendation:  change text colour to #1e8568.",
+            "context": "<span class=\"currency_sign\">\n      $\n     </span>",
+            "selector": "#product > div > section > h4 > span",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.3:1. Recommendation:  change text colour to #1e8568.",
+          "description": "<p>\n      Pink tinted, lumber cyli...</p>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.3:1. Recommendation:  change text colour to #1e8568.",
+            "context": "<p>\n      Pink tinted, lumber cyli...</p>",
+            "selector": "#product > div > section > section:nth-child(4) > p:nth-child(1)",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.3:1. Recommendation:  change text colour to #1e8568.",
+          "description": "<p>\n      The following is for one...</p>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.3:1. Recommendation:  change text colour to #1e8568.",
+            "context": "<p>\n      The following is for one...</p>",
+            "selector": "#product > div > section > section:nth-child(4) > p:nth-child(2)",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.3:1. Recommendation:  change text colour to #1e8568.",
+          "description": "<p>\n      **To see fitting details...</p>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.3:1. Recommendation:  change text colour to #1e8568.",
+            "context": "<p>\n      **To see fitting details...</p>",
+            "selector": "#product > div > section > section:nth-child(4) > p:nth-child(3)",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.62:1. Recommendation:  change text colour to #2d846b.",
+          "description": "<button name=\"submit\" title=\"Add to Cart\" type=\"submit\">\n       Add to Cart\n      </button>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.62:1. Recommendation:  change text colour to #2d846b.",
+            "context": "<button name=\"submit\" title=\"Add to Cart\" type=\"submit\">\n       Add to Cart\n      </button>",
+            "selector": "#product > div > section > section:nth-child(4) > form > button",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.3:1. Recommendation:  change text colour to #1e8568.",
+          "description": "<h4>\n      Share\n     </h4>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.3:1. Recommendation:  change text colour to #1e8568.",
+            "context": "<h4>\n      Share\n     </h4>",
+            "selector": "#product > div > section > section:nth-child(4) > h4",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-0-SPAN",
+              "path": "1,HTML,1,BODY,0,DIV,0,DIV,0,NAV,0,DIV,0,DIV,0,BUTTON,0,SPAN",
+              "selector": "div.container > div.navbar-header > button.navbar-toggle > span.sr-only",
+              "boundingRect": {
+                "top": 11,
+                "bottom": 27,
+                "left": 27,
+                "right": 152,
+                "width": 125,
+                "height": 16
+              },
+              "snippet": "<span class=\"sr-only\">",
+              "nodeLabel": "Change navigation",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.62 (foreground color: #3e957c, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-1-BUTTON",
+                    "path": "1,HTML,1,BODY,0,DIV,0,DIV,0,NAV,0,DIV,0,DIV,0,BUTTON",
+                    "selector": "nav.navbar > div.container > div.navbar-header > button.navbar-toggle",
+                    "boundingRect": {
+                      "top": 0,
+                      "bottom": 56,
+                      "left": 16,
+                      "right": 163,
+                      "width": 147,
+                      "height": 56
+                    },
+                    "snippet": "<button class=\"navbar-toggle\" data-target=\".navbar-collapse\" data-toggle=\"collapse\" type=\"button\">",
+                    "nodeLabel": "Change navigation"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-2-H4",
+              "path": "1,HTML,1,BODY,0,DIV,2,SECTION,1,H4",
+              "selector": "body#product > div.wrap > section.content > h4",
+              "boundingRect": {
+                "top": 105,
+                "bottom": 129,
+                "left": 451,
+                "right": 505,
+                "width": 53,
+                "height": 24
+              },
+              "snippet": "<h4>",
+              "nodeLabel": "$ 20.00",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.29 (foreground color: #379e81, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-3-P",
+              "path": "1,HTML,1,BODY,0,DIV,2,SECTION,3,SECTION,1,P",
+              "selector": "div.wrap > section.content > section.product_description > p",
+              "boundingRect": {
+                "top": 325,
+                "bottom": 388,
+                "left": 368,
+                "right": 588,
+                "width": 220,
+                "height": 63
+              },
+              "snippet": "<p>",
+              "nodeLabel": "The following is for one roll-around wristband. Every roll-around wristband is …",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.29 (foreground color: #379e81, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-4-P",
+              "path": "1,HTML,1,BODY,0,DIV,2,SECTION,3,SECTION,2,P",
+              "selector": "div.wrap > section.content > section.product_description > p",
+              "boundingRect": {
+                "top": 404,
+                "bottom": 488,
+                "left": 368,
+                "right": 588,
+                "width": 220,
+                "height": 84
+              },
+              "snippet": "<p>",
+              "nodeLabel": "**To see fitting details, please consult the Fit Guide Webpage.**\n**This wristb…",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.29 (foreground color: #379e81, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-5-SELECT",
+              "path": "1,HTML,1,BODY,0,DIV,2,SECTION,3,SECTION,3,FORM,0,DIV,0,SELECT",
+              "selector": "section.product_description > form > div.select > select#option",
+              "boundingRect": {
+                "top": 505,
+                "bottom": 561,
+                "left": 369,
+                "right": 587,
+                "width": 218,
+                "height": 56
+              },
+              "snippet": "<select id=\"option\" name=\"cart[add][id]\">",
+              "nodeLabel": "Tiny (S)\nPart (M)\nHuge (L)",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.27 (foreground color: #3d9e82, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-6-BUTTON",
+              "path": "1,HTML,1,BODY,0,DIV,2,SECTION,3,SECTION,3,FORM,1,BUTTON",
+              "selector": "section.content > section.product_description > form > button",
+              "boundingRect": {
+                "top": 578,
+                "bottom": 634,
+                "left": 368,
+                "right": 588,
+                "width": 220,
+                "height": 56
+              },
+              "snippet": "<button name=\"submit\" type=\"submit\">",
+              "nodeLabel": "Add to Cart",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.62 (foreground color: #3e957c, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-7-H4",
+              "path": "1,HTML,1,BODY,0,DIV,2,SECTION,3,SECTION,4,H4",
+              "selector": "div.wrap > section.content > section.product_description > h4",
+              "boundingRect": {
+                "top": 666,
+                "bottom": 723,
+                "left": 368,
+                "right": 588,
+                "width": 220,
+                "height": 57
+              },
+              "snippet": "<h4>",
+              "nodeLabel": "SHARE",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.29 (foreground color: #379e81, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        "Principle1.Guideline1_3.1_3_1.H42.2",
+        "Principle1.Guideline1_3.1_3_1.G141"
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one",
+        "https://dequeuniversity.com/rules/axe/4.10/heading-order",
+        "https://dequeuniversity.com/rules/axe/4.10/empty-heading"
+      ],
+      "impact": "moderate",
+      "name": "Headings; Wrong Order, Empty & Missing Headings;",
+      "amount_nodes_failed": 1,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/heading-order",
+          "source": "axe-core",
+          "title": "Heading levels should only increase by one",
+          "description": "Ensure the order of headings is semantically correct",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "heading-order",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Heading order invalid"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<h4>\n<span class=\"currency_sign\">\n      $\n     </span>\n     20.00\n    </h4>",
+            "target": [
+              ".content > h4"
+            ],
+            "failureSummary": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/heading-order",
+          "source": "lighthouse",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-2-H4",
+              "path": "1,HTML,1,BODY,0,DIV,2,SECTION,1,H4",
+              "selector": "body#product > div.wrap > section.content > h4",
+              "boundingRect": {
+                "top": 105,
+                "bottom": 129,
+                "left": 451,
+                "right": 505,
+                "width": 53,
+                "height": 24
+              },
+              "snippet": "<h4>",
+              "nodeLabel": "$ 20.00",
+              "explanation": "Fix any of the following:\n  Heading order invalid"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        "Principle3.Guideline3_1.3_1_1.H57.2",
+        "Principle3.Guideline3_1.3_1_1.H57.3.Lang",
+        "Principle3.Guideline3_1.3_1_1.H57.3.XmlLang",
+        "Principle3.Guideline3_1.3_1_2.H58.1.Lang",
+        "Principle3.Guideline3_1.3_1_2.H58.1.XmlLang"
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/html-has-lang",
+        "https://dequeuniversity.com/rules/axe/4.10/html-lang-valid",
+        "https://dequeuniversity.com/rules/axe/4.10/html-xml-lang-mismatch",
+        "https://dequeuniversity.com/rules/axe/4.10/valid-lang"
+      ],
+      "impact": "serious",
+      "name": "Language; Document Lang; Missing & Invalid",
+      "amount_nodes_failed": 1,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/html-has-lang",
+          "source": "axe-core",
+          "title": "<html> element must have a lang attribute",
+          "description": "Ensure every HTML document has a lang attribute",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "has-lang",
+                "data": {
+                  "messageKey": "noLang"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "The <html> element does not have a lang attribute"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<html>",
+            "target": [
+              "html"
+            ],
+            "failureSummary": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+          }
+        },
+        {
+          "id": "Principle3.Guideline3_1.3_1_1.H57.2",
+          "source": "pa11y",
+          "title": "The html element should have a lang or xml:lang attribute which describes the language of the document.",
+          "description": "<html><head>\n<title>\n   The Sunset Wr...</html>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle3.Guideline3_1.3_1_1.H57.2",
+            "type": "error",
+            "typeCode": 1,
+            "message": "The html element should have a lang or xml:lang attribute which describes the language of the document.",
+            "context": "<html><head>\n<title>\n   The Sunset Wr...</html>",
+            "selector": "html",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/html-has-lang",
+          "source": "lighthouse",
+          "title": "`<html>` element does not have a `[lang]` attribute",
+          "description": "If a page doesn't specify a `lang` attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more about the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-has-lang).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-8-HTML",
+              "path": "1,HTML",
+              "selector": "html",
+              "boundingRect": {
+                "top": 0,
+                "bottom": 823,
+                "left": 0,
+                "right": 412,
+                "width": 412,
+                "height": 823
+              },
+              "snippet": "<html>",
+              "nodeLabel": "html",
+              "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        null
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-unique",
+        "https://dequeuniversity.com/rules/axe/4.10/region",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-complementary-is-top-level",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-contentinfo-is-top-level",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-contentinfo",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-banner-is-top-level",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-main",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-main-is-top-level"
+      ],
+      "impact": "moderate",
+      "name": "Landmark & Region; Missing & Unique Landmarks;",
+      "amount_nodes_failed": 9,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main",
+          "source": "axe-core",
+          "title": "Document should have one main landmark",
+          "description": "Ensure the document has a main landmark",
+          "impact": "moderate",
+          "nodes": {
+            "any": [],
+            "all": [
+              {
+                "id": "page-has-main",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Document does not have a main landmark"
+              }
+            ],
+            "none": [],
+            "impact": "moderate",
+            "html": "<html>",
+            "target": [
+              "html"
+            ],
+            "failureSummary": "Fix all of the following:\n  Document does not have a main landmark"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/region",
+          "source": "axe-core",
+          "title": "All page content should be contained by landmarks",
+          "description": "Ensure all page content is contained by landmarks",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "region",
+                "data": {
+                  "isIframe": false
+                },
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Some page content is not contained by landmarks"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<h1>\n     The Sunset Wristband\n    </h1>",
+            "target": [
+              "h1"
+            ],
+            "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/region",
+          "source": "axe-core",
+          "title": "All page content should be contained by landmarks",
+          "description": "Ensure all page content is contained by landmarks",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "region",
+                "data": {
+                  "isIframe": false
+                },
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Some page content is not contained by landmarks"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<h4>\n<span class=\"currency_sign\">\n      $\n     </span>\n     20.00\n    </h4>",
+            "target": [
+              ".content > h4"
+            ],
+            "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/region",
+          "source": "axe-core",
+          "title": "All page content should be contained by landmarks",
+          "description": "Ensure all page content is contained by landmarks",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "region",
+                "data": {
+                  "isIframe": false
+                },
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Some page content is not contained by landmarks"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<section class=\"product_image image_gallery\">",
+            "target": [
+              ".product_image"
+            ],
+            "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/region",
+          "source": "axe-core",
+          "title": "All page content should be contained by landmarks",
+          "description": "Ensure all page content is contained by landmarks",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "region",
+                "data": {
+                  "isIframe": false
+                },
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Some page content is not contained by landmarks"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<p>\n      Pink tinted, lumber cylinder gems, .4cm sky-blue gems, with shiny gold-colored pieces attached on string to create a 4-times turn!\n     </p>",
+            "target": [
+              "p:nth-child(1)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/region",
+          "source": "axe-core",
+          "title": "All page content should be contained by landmarks",
+          "description": "Ensure all page content is contained by landmarks",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "region",
+                "data": {
+                  "isIframe": false
+                },
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Some page content is not contained by landmarks"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<p>\n      The following is for one roll-around wristband.  Every roll-around wristband is retailed on its own for $20.00 a piece.\n     </p>",
+            "target": [
+              "p:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/region",
+          "source": "axe-core",
+          "title": "All page content should be contained by landmarks",
+          "description": "Ensure all page content is contained by landmarks",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "region",
+                "data": {
+                  "isIframe": false
+                },
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Some page content is not contained by landmarks"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<p>\n      **To see fitting details, please consult the Fit Guide Webpage.**\n      <br>\n      **This wristband may be altered using light grey-colored pieces.**\n     </p>",
+            "target": [
+              "p:nth-child(3)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/region",
+          "source": "axe-core",
+          "title": "All page content should be contained by landmarks",
+          "description": "Ensure all page content is contained by landmarks",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "region",
+                "data": {
+                  "isIframe": false
+                },
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Some page content is not contained by landmarks"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<div class=\"select\">\n<select id=\"option\" name=\"cart[add][id]\">\n<option value=\"174836920\">\n         Tiny (S)\n        </option>\n<option value=\"174836923\">\n         Part (M)\n        </option>\n<option value=\"174836926\">\n         Huge (L)\n        </option>\n</select>\n</div>",
+            "target": [
+              ".select"
+            ],
+            "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/region",
+          "source": "axe-core",
+          "title": "All page content should be contained by landmarks",
+          "description": "Ensure all page content is contained by landmarks",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "region",
+                "data": {
+                  "isIframe": false
+                },
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Some page content is not contained by landmarks"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<h4>\n      Share\n     </h4>",
+            "target": [
+              ".product_description > h4"
+            ],
+            "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        "Principle1.Guideline1_1.1_1_1.H30.2",
+        "Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+        "Principle4.Guideline4_1.4_1_2.H91.A.NoContent"
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/link-name"
+      ],
+      "impact": "serious",
+      "name": "Links; Missing descriptive content of <a>;",
+      "amount_nodes_failed": 4,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-name",
+          "source": "axe-core",
+          "title": "Links must have discernible text",
+          "description": "Ensure links have discernible text",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element does not have text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "focusable-no-name",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is in tab order and does not have accessible text"
+              }
+            ],
+            "impact": "serious",
+            "html": "<a href=\"#\" target=\"_blank\">\n</a>",
+            "target": [
+              ".social_links > li:nth-child(1) > a[target=\"_blank\"]"
+            ],
+            "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-name",
+          "source": "axe-core",
+          "title": "Links must have discernible text",
+          "description": "Ensure links have discernible text",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element does not have text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "focusable-no-name",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is in tab order and does not have accessible text"
+              }
+            ],
+            "impact": "serious",
+            "html": "<a href=\"#\" target=\"_blank\">\n</a>",
+            "target": [
+              ".social_links > li:nth-child(2) > a[target=\"_blank\"]"
+            ],
+            "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "id": "Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "source": "pa11y",
+          "title": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "description": "<a class=\"close_nav\" href=\"#\">\n</a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+            "type": "error",
+            "typeCode": 1,
+            "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+            "context": "<a class=\"close_nav\" href=\"#\">\n</a>",
+            "selector": "#product > div > div:nth-child(2) > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "source": "pa11y",
+          "title": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "description": "<a href=\"#\" target=\"_blank\">\n</a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+            "type": "error",
+            "typeCode": 1,
+            "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+            "context": "<a href=\"#\" target=\"_blank\">\n</a>",
+            "selector": "#product > div > section > section:nth-child(4) > ul > li:nth-child(1) > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "source": "pa11y",
+          "title": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "description": "<a href=\"#\" target=\"_blank\">\n</a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+            "type": "error",
+            "typeCode": 1,
+            "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+            "context": "<a href=\"#\" target=\"_blank\">\n</a>",
+            "selector": "#product > div > section > section:nth-child(4) > ul > li:nth-child(2) > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "source": "pa11y",
+          "title": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "description": "<a class=\"close_search\" href=\"#\">\n</a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+            "type": "error",
+            "typeCode": 1,
+            "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+            "context": "<a class=\"close_search\" href=\"#\">\n</a>",
+            "selector": "#product > div > form > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-name",
+          "source": "lighthouse",
+          "title": "Links do not have a discernible name",
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-9-A",
+              "path": "1,HTML,1,BODY,0,DIV,2,SECTION,3,SECTION,5,UL,0,LI,0,A",
+              "selector": "section.product_description > ul.social_links > li > a",
+              "boundingRect": {
+                "top": 757,
+                "bottom": 813,
+                "left": 385,
+                "right": 441,
+                "width": 56,
+                "height": 56
+              },
+              "snippet": "<a href=\"#\" target=\"_blank\">",
+              "nodeLabel": "section.product_description > ul.social_links > li > a",
+              "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-name",
+          "source": "lighthouse",
+          "title": "Links do not have a discernible name",
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-10-A",
+              "path": "1,HTML,1,BODY,0,DIV,2,SECTION,3,SECTION,5,UL,1,LI,0,A",
+              "selector": "section.product_description > ul.social_links > li > a",
+              "boundingRect": {
+                "top": 757,
+                "bottom": 813,
+                "left": 451,
+                "right": 507,
+                "width": 56,
+                "height": 56
+              },
+              "snippet": "<a href=\"#\" target=\"_blank\">",
+              "nodeLabel": "section.product_description > ul.social_links > li > a",
+              "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        null
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/meta-viewport"
+      ],
+      "impact": "critical",
+      "name": "Meta; Viewport;",
+      "amount_nodes_failed": 1,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport",
+          "source": "axe-core",
+          "title": "Zooming and scaling must not be disabled",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "impact": "critical",
+          "nodes": {
+            "any": [
+              {
+                "id": "meta-viewport",
+                "data": "user-scalable=no",
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "user-scalable=no on <meta> tag disables zooming on mobile devices"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<meta content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\" name=\"viewport\">",
+            "target": [
+              "meta[name=\"viewport\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  user-scalable=no on <meta> tag disables zooming on mobile devices"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport",
+          "source": "lighthouse",
+          "title": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
+          "description": "Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page. [Learn more about the viewport meta tag](https://dequeuniversity.com/rules/axe/4.10/meta-viewport).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-11-META",
+              "path": "1,HTML,0,HEAD,2,META",
+              "selector": "head > meta",
+              "boundingRect": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0
+              },
+              "snippet": "<meta content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\" name=\"viewport\">",
+              "nodeLabel": "head > meta",
+              "explanation": "Fix any of the following:\n  user-scalable=no on <meta> tag disables zooming on mobile devices"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        "Principle4.Guideline4_1.4_1_2.H91.Select.Name"
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/select-name"
+      ],
+      "impact": "critical",
+      "name": "Label; Select; Missing Label",
+      "amount_nodes_failed": 1,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/select-name",
+          "source": "axe-core",
+          "title": "Select element must have an accessible name",
+          "description": "Ensure select element has an accessible name",
+          "impact": "critical",
+          "nodes": {
+            "any": [
+              {
+                "id": "implicit-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an implicit (wrapped) <label>"
+              },
+              {
+                "id": "explicit-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an explicit <label>"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<select id=\"option\" name=\"cart[add][id]\">\n<option value=\"174836920\">\n         Tiny (S)\n        </option>\n<option value=\"174836923\">\n         Part (M)\n        </option>\n<option value=\"174836926\">\n         Huge (L)\n        </option>\n</select>",
+            "target": [
+              "#option"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "id": "Principle4.Guideline4_1.4_1_2.H91.Select.Name",
+          "source": "pa11y",
+          "title": "This select element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+          "description": "<select id=\"option\" name=\"cart[add][id]\">\n<option value=\"174836920\">\n   ...</select>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Select.Name",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This select element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+            "context": "<select id=\"option\" name=\"cart[add][id]\">\n<option value=\"174836920\">\n   ...</select>",
+            "selector": "#option",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/select-name",
+          "source": "lighthouse",
+          "title": "Select elements do not have associated label elements.",
+          "description": "Form elements without effective labels can create frustrating experiences for screen reader users. [Learn more about the `select` element](https://dequeuniversity.com/rules/axe/4.10/select-name).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-5-SELECT",
+              "path": "1,HTML,1,BODY,0,DIV,2,SECTION,3,SECTION,3,FORM,0,DIV,0,SELECT",
+              "selector": "section.product_description > form > div.select > select#option",
+              "boundingRect": {
+                "top": 505,
+                "bottom": 561,
+                "left": 369,
+                "right": 587,
+                "width": 218,
+                "height": 56
+              },
+              "snippet": "<select id=\"option\" name=\"cart[add][id]\">",
+              "nodeLabel": "Tiny (S)\nPart (M)\nHuge (L)",
+              "explanation": "Fix any of the following:\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        "Principle4.Guideline4_1.4_1_2.H91.InputEmail.Name",
+        "Principle4.Guideline4_1.4_1_2.H91.InputSearch.Name",
+        "Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+        "Principle4.Guideline4_1.4_1_2.H91.InputPassword.Name",
+        "Principle4.Guideline4_1.4_1_2.H91.InputCheckbox.Name",
+        "Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+        "Principle1.Guideline1_3.1_3_1.F68",
+        "Principle4.Guideline4_1.4_1_2.H91.Fieldset.Name"
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/label"
+      ],
+      "impact": "critical",
+      "name": "Label; Multiple Elements; Content missing",
+      "amount_nodes_failed": 3,
+      "issues": [
+        {
+          "id": "Principle1.Guideline1_3.1_3_1.F68",
+          "source": "pa11y",
+          "title": "This form field should be labelled in some way. Use the label element (either with a \"for\" attribute or wrapped around the form field), or \"title\", \"aria-label\" or \"aria-labelledby\" attributes as appropriate.",
+          "description": "<select id=\"option\" name=\"cart[add][id]\">\n<option value=\"174836920\">\n   ...</select>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This form field should be labelled in some way. Use the label element (either with a \"for\" attribute or wrapped around the form field), or \"title\", \"aria-label\" or \"aria-labelledby\" attributes as appropriate.",
+            "context": "<select id=\"option\" name=\"cart[add][id]\">\n<option value=\"174836920\">\n   ...</select>",
+            "selector": "#option",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+          "source": "pa11y",
+          "title": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+          "description": "<input id=\"search\" name=\"search\" placeholder=\"Search products...\" type=\"text\">",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+            "context": "<input id=\"search\" name=\"search\" placeholder=\"Search products...\" type=\"text\">",
+            "selector": "#search",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_3.1_3_1.F68",
+          "source": "pa11y",
+          "title": "This form field should be labelled in some way. Use the label element (either with a \"for\" attribute or wrapped around the form field), or \"title\", \"aria-label\" or \"aria-labelledby\" attributes as appropriate.",
+          "description": "<input id=\"search\" name=\"search\" placeholder=\"Search products...\" type=\"text\">",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This form field should be labelled in some way. Use the label element (either with a \"for\" attribute or wrapped around the form field), or \"title\", \"aria-label\" or \"aria-labelledby\" attributes as appropriate.",
+            "context": "<input id=\"search\" name=\"search\" placeholder=\"Search products...\" type=\"text\">",
+            "selector": "#search",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        "Principle3.Guideline3_2.3_2_2.H32.2"
+      ],
+      "url": [
+        null
+      ],
+      "impact": "serious",
+      "name": "Elements; Form; No Submit Button",
+      "amount_nodes_failed": 1,
+      "issues": [
+        {
+          "id": "Principle3.Guideline3_2.3_2_2.H32.2",
+          "source": "pa11y",
+          "title": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \"submit\" or \"image\", or BUTTON elements with type \"submit\" or omitted/invalid.",
+          "description": "<form action=\"/products\" class=\"search\" method=\"get\">\n<input id=\"search\" name=\"searc...</form>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle3.Guideline3_2.3_2_2.H32.2",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This form does not contain a submit button, which creates issues for those who cannot submit the form using the keyboard. Submit buttons are INPUT elements with type attribute \"submit\" or \"image\", or BUTTON elements with type \"submit\" or omitted/invalid.",
+            "context": "<form action=\"/products\" class=\"search\" method=\"get\">\n<input id=\"search\" name=\"searc...</form>",
+            "selector": "#product > div > form",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        }
+      ]
+    }
+  ]
+}

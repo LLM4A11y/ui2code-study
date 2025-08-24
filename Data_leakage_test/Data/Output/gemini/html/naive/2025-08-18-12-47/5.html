@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #222;
+        }
+
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .left-sidebar {
+            width: 250px;
+            padding: 20px;
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .right-sidebar {
+            width: 250px;
+            padding: 20px;
+        }
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 10px;
+        }
+        .header a {
+            color: #2a7f74;
+            text-decoration: none;
+            margin-left: 15px;
+            font-size: 14px;
+        }
+        /* Left Sidebar */
+        .about-me {
+            margin-bottom: 20px;
+        }
+        .about-me h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #0000FF;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+        .profile-name {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .profile-description {
+            text-align: center;
+            font-size: 12px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .view-profile {
+            display: block;
+            text-align: center;
+            color: #2a7f74;
+            text-decoration: none;
+            font-size: 12px;
+        }
+        .report-abuse {
+            color: #2a7f74;
+            font-size: 14px;
+        }
+        /* Main Content */
+        .article-title {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: white;
+        }
+        .article-date {
+            font-size: 14px;
+            color: #555;
+        }
+        .article-content {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .share-link {
+            color: #2a7f74;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        /* Article cards */
+        .article-card {
+            margin-bottom: 20px;
+            padding: 15px;
+        }
+        .article-card h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #2a7f74;
+        }
+        .article-card .date {
+            font-size: 12px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .article-card p {
+            line-height: 1.4;
+            margin-bottom: 15px;
+        }
+        .article-card .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .article-card .footer a {
+            color: #2a7f74;
+            text-decoration: none;
+            font-size: 12px;
+        }
+        .teal-area {
+            background-color: #2A7F74;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+            font-size: 12px;
+            color: #555;
+        }
+
+        .share-container {
+            text-align: right;
+        }
+
+        .article-list-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .article-card {
+            margin-bottom: 20px;
+        }
+
+        .article-card-title {
+            font-size: 20px;
+            color: #2A7F74;
+            margin-bottom: 5px;
+        }
+
+        .article-date {
+            font-size: 12px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .article-excerpt {
+            font-size: 14px;
+            line-height: 1.4;
+            margin-bottom: 15px;
+        }
+
+        .article-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .article-actions a {
+            color: #2A7F74;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        .article-actions .share-link {
+            cursor: pointer;
+        }
+        .initial-letter {
+            font-size: 40px;
+            line-height: 1;
+            float: left;
+            margin-right: 5px;
+            color: #2A7F74;
+        }
+        .content-block {
+            margin-bottom: 20px;
+        }
+        .related-image {
+            width: 200px;
+            height: 150px;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="#">Talk</a>
+        <a href="#">Contributions</a>
+        <a href="#">Sign in</a>
+    </div>
+    <div class="container">
+        <div class="left-sidebar">
+            <div class="about-me">
+                <h2>About Me</h2>
+                <div class="profile-image"></div>
+                <div class="profile-name">Ben Carter</div>
+                <div class="profile-description">Google Apps enthusiast, web development hobbyist</div>
+                <a href="#" class="view-profile">VIEW PROFILE</a>
+            </div>
+            <a href="#" class="report-abuse">Report Abuse</a>
+        </div>
+        <div class="main-content">
+            <div class="teal-area">
+                <h1 class="article-title">A Solution for Uploading Videos to YouTube when the Site is Restricted</h1>
+            </div>
+            <p class="article-date">July 25, 2007</p>
+            <div class="share-container">
+                <a href="#" class="share-link">SHARE</a>
+            </div>
+            <div class="article-content">
+                <p>
+                    <span class="initial-letter">D</span>
+                    avid, who is employed by a major global corporation, recently posted on a social network that he's unable to upload video content to YouTube because his employer blocks YouTube and similar video platforms via their network security measures.
+                </p>
+                <p>One potential solution involves utilizing your <a href="#">smartphone</a> for uploading to YouTube. Simply set up a mobile account on YouTube from a personal computer outside of your company's network and then send your video to YouTube as an MMS message.</p>
+                <p>See also: <a href="#">How to Reach Restricted Websites</a></p>
+                <p>A second, more adaptable solution, is a service such as <a href="#">MultiStream</a> - which enables you to upload the same video to multiple platforms simultaneously.</p>
+                <p>You would upload your file to MultiStream's servers, and they handle posting to various video websites, like YouTube, Vimeo, Dailymotion, Facebook, etc.</p>
+                <p>It is likely that MultiStream's website isn't blocked by your company - they will email you confirmation upon successfully publishing your clip to your selected services.</p>
+            </div>
+            <div class="share-container">
+                <a href="#" class="share-link">SHARE</a>
+            </div>
+            <h2 class="article-list-title">Most read articles from this blog</h2>
+            <div class="article-card">
+                <h3 class="article-card-title">How to Export Facebook Contacts Into an Outlook Address Book</h3>
+                <p class="article-date">October 15, 2007</p>
+                <p class="article-excerpt">Many Facebook users dislike its restrictive approach. While you can easily import contacts from Outlook or GMail to Facebook, the opposite isn't ...</p>
+                <div class="article-actions">
+                    <a href="#" class="share-link">SHARE</a>
+                    <a href="#">READ MORE</a>
+                </div>
+            </div>
+            <div class="article-card">
+                <h3 class="article-card-title">How to Set Up a Custom Firefox Search Tool in Under 2 Minutes</h3>
+                <p class="article-date">September 23, 2006</p>
+                <p class="article-excerpt">Most sites offer search boxes, allowing you to enter text and search content. The problem with this is you must first load the website to find the search box. ...</p>
+                <div class="article-actions">
+                    <a href="#" class="share-link">SHARE</a>
+                    <a href="#">READ MORE</a>
+                </div>
+            </div>
+            <div class="content-block">
+                <div class="related-image"></div>
+            </div>
+            <div class="article-card">
+                <h3 class="article-card-title">Tech Blog</h3>
+                <p class="article-date">October 25, 2007</p>
+                <p class="article-excerpt">Tech Blog is a blog by Ben Carter. We cover topics such as Google Apps Scripts including Gmail utilities (personalized emails), and Document ...</p>
+                <div class="article-actions">
+                    <a href="#" class="share-link">SHARE</a>
+                    <a href="#">READ MORE</a>
+                </div>
+            </div>
+        </div>
+        <div class="right-sidebar">
+            </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2023 My Blog</p>
+    </div>
+</body>
+</html>

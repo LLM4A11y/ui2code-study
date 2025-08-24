@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>pool-pic-7</title>
+<style>
+  :root{
+    --blue:#1717ff;
+    --black:#171717;
+    --lime:#a7bf40;
+    --text:#111;
+    --muted:#7b7b7b;
+    --light:#eeeeee;
+    --border:#e6e6e6;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:#fff;color:var(--text);font-family: "Times New Roman", Georgia, serif;}
+  /* thin top bar */
+  .topbar{
+    background:var(--lime);
+    height:26px;
+    color:#0c1b00;
+    font: 700 11px/26px "Helvetica Neue", Arial, sans-serif;
+    letter-spacing:.5px;
+    text-transform:uppercase;
+    padding-left:75px;
+  }
+  /* header */
+  header{
+    background:var(--black);
+    height:86px;
+    position:relative;
+  }
+  .logo{
+    position:absolute;
+    left:75px;
+    top:16px;
+    width:110px;
+    height:68px;
+    display:block;
+    background:var(--blue);
+    object-fit:cover;
+  }
+  /* content wrapper aligned to left with generous right whitespace */
+  .wrap{
+    width:690px;           /* tuned to match screenshot proportions on 768px canvas */
+    margin-left:75px;
+  }
+  h1{
+    font-size:28px;
+    font-weight:400;
+    margin:18px 0 18px;
+  }
+  .hero{
+    width:690px;
+    height:540px;
+    display:block;
+    background:var(--blue);
+    object-fit:cover;
+  }
+  .thumb{
+    width:190px;
+    height:185px;
+    margin:22px 0 26px;
+    display:block;
+    background:var(--blue);
+    object-fit:cover;
+  }
+  /* search */
+  .search{
+    width:690px;
+    border:1px solid var(--border);
+    display:flex;
+    border-radius:3px;
+    overflow:hidden;
+    margin:8px 0 34px;
+  }
+  .search input{
+    flex:1;
+    border:0;
+    padding:12px 12px;
+    font-family: Georgia, serif;
+    font-size:14px;
+    outline:none;
+  }
+  .search button{
+    width:140px;
+    border:0;
+    background:#f1f1f1;
+    color:#666;
+    font:600 13px/1 "Helvetica Neue", Arial, sans-serif;
+  }
+  /* lists */
+  .section-title{
+    font:600 15px/1.2 "Helvetica Neue", Arial, sans-serif;
+    margin:18px 0 8px;
+  }
+  .item{
+    font-size:13px;
+    color:#222;
+    margin:0 0 18px;
+  }
+  .muted{
+    color:#666;
+    font-size:13px;
+    margin:0 0 22px;
+  }
+
+  /* footer info area */
+  .footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:40px;
+    width:690px;
+    margin:40px 0 80px;
+    font-family:"Helvetica Neue", Arial, sans-serif;
+    color:#222;
+    font-size:13px;
+  }
+  .footer h4{
+    margin:0 0 8px;
+    font-size:13px;
+    font-weight:700;
+  }
+  .footer p{margin:0 0 8px;}
+  .icons{margin:18px 0 0;display:grid;grid-template-columns:repeat(4,48px);gap:10px;}
+  .icons img{width:48px;height:48px;background:var(--blue);display:block;object-fit:cover;}
+  .icons.row2{grid-template-columns:repeat(2,48px);}
+  /* ensure images show blue even if placeholder loads */
+  img{background:var(--blue);}
+  @media (max-width:760px){
+    .wrap,.search,.footer{width:calc(100vw - 90px);}
+    .hero{width:100%;height:56vw;}
+  }
+</style>
+</head>
+<body>
+  <div class="topbar">JUSTIN PERREY | 317 286-6568</div>
+
+  <header>
+    <img class="logo" src="src/placeholder.jpg" alt="">
+  </header>
+
+  <main class="wrap">
+    <h1>pool-pic-7</h1>
+
+    <img class="hero" src="src/placeholder.jpg" alt="">
+
+    <img class="thumb" src="src/placeholder.jpg" alt="">
+
+    <div class="search">
+      <input type="text" placeholder="">
+      <button>Search</button>
+    </div>
+
+    <div class="section-title">Recent Articles</div>
+    <div class="item">New Lakeside Residences Website</div>
+
+    <div class="section-title">Recent Reviews</div>
+
+    <div class="section-title">Logs</div>
+    <div class="muted">February 2017</div>
+
+    <div class="section-title">Sections</div>
+    <div class="item">Residents Post Page</div>
+
+    <div class="footer">
+      <div>
+        <p>[ADDRESS REDACTED]</p>
+        <p>[ADDRESS REDACTED]</p>
+        <p>Czechia</p>
+        <p>WED-FRI 13-19, SAT 14-18</p>
+
+        <div class="icons">
+          <img src="src/placeholder.jpg" alt="">
+          <img src="src/placeholder.jpg" alt="">
+          <img src="src/placeholder.jpg" alt="">
+          <img src="src/placeholder.jpg" alt="">
+        </div>
+        <div class="icons row2" style="margin-top:12px;">
+          <img src="src/placeholder.jpg" alt="">
+          <img src="src/placeholder.jpg" alt="">
+        </div>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <p>[EMAIL REDACTED]</p>
+        <p>[PHONE REDACTED]</p>
+
+        <h4 style="margin-top:16px;">Address &amp; Shipping Details</h4>
+        <p>[ADDRESS REDACTED]</p>
+        <p>Pernerova 293/11</p>
+        <p>186 00 Praha 8</p>
+        <p>Czechia</p>
+
+        <h4 style="margin-top:16px;">Legal &amp; Invoice Details</h4>
+        <p>Ing. Jana MargoldovÃ¡</p>
+        <p>PÅedvoj 430/22</p>
+        <p>162 00 Praha 6</p>
+        <p>Czechia</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

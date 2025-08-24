@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Personal Blog</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f0f0f0;
+    --dark:#2f2f2f;
+    --ink:#121212;
+    --ink-2:#171717;
+    --accent:#e65d3a;
+    --red:#c82017;
+    --text:#ffffff;
+    --muted:#cfcfcf;
+    --blue:#1a62ff;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--bg);
+    font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    color:#111;
+  }
+
+  /* Header */
+  .topbar{
+    background:var(--dark);
+    padding:44px 16px 26px;
+    text-align:center;
+  }
+  .title{
+    color:#fff;
+    font-weight:800;
+    letter-spacing:.3px;
+    font-size:36px;
+    margin:0 0 10px;
+  }
+  .subtitle{
+    color:var(--accent);
+    font-weight:600;
+    margin:0 0 18px;
+  }
+  .tags{
+    color:var(--accent);
+    font-weight:600;
+    font-size:14px;
+    letter-spacing:.2px;
+  }
+  .tags span{
+    margin:0 12px;
+  }
+
+  /* Content layout */
+  .wrap{
+    width:980px;
+    margin:40px auto 70px;
+    display:flex;
+    gap:34px;
+    align-items:flex-start;
+  }
+
+  /* Main black card */
+  .card{
+    width:650px;
+    background:var(--ink-2);
+    color:var(--text);
+    padding:34px 40px 46px;
+  }
+  .card .eyebrow{
+    color:var(--muted);
+    text-transform:uppercase;
+    font-size:12px;
+    letter-spacing:3px;
+    margin-bottom:26px;
+    font-weight:700;
+  }
+  .card p{
+    line-height:1.7;
+    margin:18px 0;
+    font-size:15px;
+  }
+  .card ul{
+    list-style:square;
+    margin:12px 0 0 22px;
+    padding:0;
+  }
+  .card li{
+    margin:10px 0;
+    font-size:15px;
+  }
+
+  /* Sidebar */
+  .side{
+    width:220px;
+    font-size:13px;
+    line-height:1.6;
+    color:#4b4b4b;
+  }
+  .side p{
+    margin:0 0 14px;
+  }
+  .side a{
+    color:var(--blue);
+    text-decoration:none;
+  }
+  .side a:hover{ text-decoration:underline; }
+  .side img{
+    width:80px;
+    height:100px;
+    display:block;
+    margin-top:18px;
+    object-fit:cover;
+  }
+
+  /* Contact panel */
+  .contact{
+    position:relative;
+    width:980px;
+    margin:0 auto 120px;
+  }
+  .contact .panel{
+    width:280px;
+    height:360px;
+    background:var(--red);
+    color:#fff;
+    padding:34px 28px;
+    margin-left:90px;
+    position:relative;
+    top:-36px; /* pulls it up to touch the black card */
+  }
+  .panel .label{
+    text-transform:uppercase;
+    letter-spacing:4px;
+    color:#eeeeee;
+    opacity:.9;
+    font-size:12px;
+    margin-bottom:14px;
+  }
+  .panel a{
+    color:#fff;
+    text-decoration:underline;
+    font-weight:700;
+  }
+  .panel .spacer{ height:30px; }
+  /* small overlapping dark block */
+  .panel::after{
+    content:"";
+    position:absolute;
+    width:270px;
+    height:150px;
+    background:var(--ink-2);
+    left:280px;
+    top:-40px;
+  }
+
+  @media (max-width:1000px){
+    .wrap, .contact{ width:92%; }
+    .wrap{ flex-direction:column; }
+    .card{ width:100%; }
+    .side{ width:100%; }
+    .contact .panel{ margin-left:0; }
+    .panel::after{ display:none; }
+  }
+</style>
+</head>
+<body>
+  <header class="topbar">
+    <h1 class="title">My Personal Blog</h1>
+    <div class="subtitle">A blog about code, by John Doe</div>
+    <div class="tags">| <span>Swift</span> <span>Development</span></div>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <div class="eyebrow">Lisa Moore Studio</div>
+
+      <p>Lisa Moore Studio offers a full design service, delivering creative solutions for many different businesses.</p>
+
+      <p>My years of experience (over 20 years) means I have good knowledge of all the requirements for creating a variety of business materials. My skillset includes attention to detail from initial ideas, right through to print checks and website creation building content-managed websites so clients can update content and also responsive e-commerce sites.</p>
+
+      <p>I enjoy making communication tools for clients that show their brand style by listening to their needs and creating appropriate design ideas.</p>
+
+      <p>I have worked with clients in these areas:</p>
+
+      <ul>
+        <li>Brand work and company style guides</li>
+        <li>Marketing collateral</li>
+        <li>Journals</li>
+        <li>Hardbacks</li>
+        <li>Business overviews</li>
+        <li>Summaries</li>
+        <li>Webpage design</li>
+        <li>Signage and location graphics</li>
+      </ul>
+    </section>
+
+    <aside class="side">
+      <p>This page was updated on 17 June 2022, at 14:36.</p>
+      <p>This page has been viewed 5,005 times.</p>
+      <p><a href="#">Privacy statement</a><br>
+      <a href="#">About Incel Wiki</a><br>
+      <a href="#">Terms of Service</a><br>
+      <a href="#">Mobile website</a></p>
+      <img src="src/placeholder.jpg" alt="sidebar image">
+    </aside>
+  </main>
+
+  <section class="contact">
+    <div class="panel">
+      <div class="label">Email me</div>
+      <div><a href="#">lisa@lisamooredesign.com</a></div>
+      <div class="spacer"></div>
+      <div class="label">Phone me</div>
+      <div>(+61) 0409 772 583</div>
+    </div>
+  </section>
+</body>
+</html>

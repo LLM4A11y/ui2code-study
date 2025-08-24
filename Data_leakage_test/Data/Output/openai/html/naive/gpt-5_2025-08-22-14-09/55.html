@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Forum Categories - Alpha One Labs</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --teal:#0ea59a;
+    --teal-dark:#0a8f86;
+    --orange:#ff7a20;
+    --text:#1f2937;
+    --muted:#6b7280;
+    --light:#eef2f5;
+    --line:#e6e9ed;
+    --card:#ffffff;
+    --chip:#f3f5f7;
+    --green:#20c58c;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%}
+  body{
+    font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    color:var(--text);
+    background:#f7f8fa;
+  }
+  .container{max-width:1080px;margin:0 auto;padding:0 24px}
+
+  /* Header */
+  header{
+    background:linear-gradient(0deg,var(--teal),var(--teal));
+    color:#fff;
+  }
+  .topbar{
+    display:flex;align-items:center;justify-content:space-between;
+    height:74px;
+  }
+  .brand{
+    display:flex;align-items:center;gap:14px;
+    font-weight:800;font-size:20px;
+  }
+  .brand img{
+    width:40px;height:40px;border-radius:2px;display:block;
+  }
+  .search-wrap{
+    flex:0 0 520px;display:flex;justify-content:center;
+  }
+  .search{
+    position:relative;width:520px;background:#fff;border-radius:28px;
+    height:42px;display:flex;align-items:center;padding:0 18px;
+    color:#9aa3ad;
+  }
+  .search input{
+    border:none;outline:none;width:100%;height:100%;
+    background:transparent;font-size:15px;color:#6b7280;
+  }
+  .search .mini{
+    width:12px;height:12px;border:1.5px solid #d3d9df;border-radius:2px;margin-left:10px;
+  }
+  .actions{
+    display:flex;align-items:center;gap:18px;font-weight:600;
+  }
+  .actions .icon{
+    width:12px;height:12px;border:1.5px solid rgba(255,255,255,0.7);border-radius:2px;opacity:.85;
+  }
+  .actions img{
+    width:16px;height:16px;border-radius:2px;display:block;
+  }
+  .actions a{color:#eaf6f6;text-decoration:none}
+  .signup{
+    background:var(--orange);color:#fff;padding:9px 16px;border-radius:20px;
+  }
+
+  /* Main layout */
+  .main{background:#f7f8fa;border-top:1px solid rgba(0,0,0,0.04)}
+  .content{
+    display:flex;padding:34px 0 28px;
+  }
+  .sidebar{
+    width:290px;padding-right:28px;border-right:1px solid var(--line);
+  }
+  .side-title{
+    display:flex;align-items:center;gap:10px;margin-bottom:6px;
+    font-size:22px;font-weight:700;color:#111827;
+  }
+  .side-title .box{width:14px;height:14px;border:1.5px solid #bfeee8;border-radius:2px}
+  .side-desc{color:#6b7280;font-size:14px;line-height:1.5;margin-bottom:22px;max-width:240px}
+  .subhead{font-size:12px;letter-spacing:.12em;color:#9aa3ad;margin-bottom:10px;font-weight:700}
+  .cat{
+    background:#eef2f5;border-radius:10px;height:48px;display:flex;align-items:center;
+    padding:0 16px;gap:10px;margin-bottom:10px;font-weight:600;color:#111827;
+  }
+  .cat .sq{width:14px;height:14px;border:1.6px solid #cfeee9;border-radius:2px;background:#fff}
+  .catlist .row{
+    display:flex;align-items:center;justify-content:space-between;padding:10px 6px 10px 28px;
+    color:#374151;font-weight:500;
+  }
+  .catlist .row .left{display:flex;align-items:center;gap:10px}
+  .catlist .row .left .sq{width:13px;height:13px;border:1.5px solid #cfeee9;border-radius:2px}
+  .catlist .row .num{color:#9aa3ad;margin-right:8px}
+
+  .mainpane{flex:1;padding-left:30px}
+  .title{font-size:28px;font-weight:800;margin:4px 0 8px;}
+  .desc{color:#6b7280;margin-bottom:18px}
+  .section{font-size:22px;font-weight:800;margin:10px 0 16px}
+  .card{
+    background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 1px 0 rgba(0,0,0,0.02);
+    padding:18px 20px;
+  }
+  .topic{
+    display:flex;gap:16px
+  }
+  .avatar{
+    width:42px;height:42px;background:#dff5ef;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    font-weight:700;color:#0c7d73
+  }
+  .t-meta{font-size:14px;color:#6b7280;margin-bottom:4px}
+  .t-meta .dot{margin:0 8px;color:#c6cbd3}
+  .t-meta .green{color:#1fbf8f;font-weight:600}
+  .t-title{font-size:18px;font-weight:800;margin:2px 0}
+  .t-body{color:#6b7280;margin-bottom:10px}
+  .stats{display:flex;flex-wrap:wrap;gap:16px;color:#94a3af;font-size:13px}
+  .stat{display:flex;align-items:center;gap:8px}
+  .stat .mini{width:10px;height:10px;border:1.4px solid #d6dbe1;border-radius:2px}
+
+  /* Divider before footer */
+  .divider{border-top:1px solid var(--line);margin:32px 0}
+
+  /* Footer area */
+  .footer{padding:28px 0 60px}
+  .foot-grid{
+    display:grid;grid-template-columns:1fr 1fr 1fr;gap:60px;
+  }
+  .foot h4{
+    font-size:18px;font-weight:800;letter-spacing:.04em;margin:6px 0 18px
+  }
+  .list{display:grid;gap:12px}
+  .list .li{
+    display:flex;align-items:center;gap:10px;color:#4b5563;font-weight:500
+  }
+  .tick{width:12px;height:12px;border:1.6px solid #bfeee8;border-radius:2px}
+  .socials{display:flex;gap:16px;margin:4px 0 18px}
+  .circle{
+    width:44px;height:44px;border-radius:50%;background:#f1f3f5;display:flex;align-items:center;justify-content:center
+  }
+  .circle img{width:24px;height:24px;border-radius:2px;display:block}
+  .circle .sq{width:16px;height:16px;border:1.6px solid #cfd5db;border-radius:2px}
+
+  .subscribe label{
+    display:block;color:#6b7280;font-weight:700;font-size:12px;letter-spacing:.08em;margin-bottom:8px
+  }
+  .subscribe .field{
+    display:flex;border-radius:10px;overflow:hidden;width:360px;max-width:100%;
+    border:1px solid var(--line)
+  }
+  .subscribe input{
+    flex:1;padding:12px 14px;border:none;outline:none;background:#fff;color:#374151
+  }
+  .subscribe button{
+    width:56px;background:var(--teal);border:none;color:#fff;font-weight:700;cursor:pointer
+  }
+  .subscribe button .sq{width:12px;height:12px;border:1.6px solid #d4f0ec;border-radius:2px;margin:0 auto;background:transparent}
+  @media (max-width:960px){
+    .content{flex-direction:column}
+    .sidebar{width:100%;border-right:none;border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:18px}
+    .mainpane{padding-left:0}
+    .search-wrap{display:none}
+    .foot-grid{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+  <header>
+    <div class="container topbar">
+      <div class="brand">
+        <img src="src/placeholder.jpg" alt="logo">
+        <div>Alpha One Labs</div>
+      </div>
+      <div class="search-wrap">
+        <div class="search">
+          <input type="text" placeholder="What do you want to learn?">
+          <div class="mini"></div>
+          <div class="mini"></div>
+        </div>
+      </div>
+      <div class="actions">
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <img src="src/placeholder.jpg" alt="" />
+        <div class="icon"></div>
+        <a href="#">Login</a>
+        <a href="#" class="signup">Signup</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container content">
+      <aside class="sidebar">
+        <div class="side-title">
+          <div class="box"></div>
+          <div>Forum</div>
+        </div>
+        <div class="side-desc">Join discussions, ask questions, and share knowledge</div>
+
+        <div class="subhead">CATEGORIES</div>
+
+        <div class="cat">
+          <div class="sq"></div>
+          <div>All Categories</div>
+        </div>
+
+        <div class="catlist">
+          <div class="row">
+            <div class="left">
+              <div class="sq"></div>
+              <div>Category 1</div>
+            </div>
+            <div class="num">3</div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <div class="sq"></div>
+              <div>Category 2</div>
+            </div>
+            <div class="num">3</div>
+          </div>
+        </div>
+      </aside>
+
+      <section class="mainpane">
+        <div class="title">Forum Categories</div>
+        <div class="desc">Browse all categories or select one to see its topics</div>
+
+        <div class="section">Recent Discussions</div>
+
+        <div class="card">
+          <div class="topic">
+            <div class="avatar">S</div>
+            <div class="t-content">
+              <div class="t-meta">
+                <strong>student5</strong>
+                <span class="dot">â¢</span>
+                19 Stunden, 22 Minuten ago
+                <span class="dot">â¢</span>
+                <span class="green">Category 1</span>
+              </div>
+              <div class="t-title">Topic 3</div>
+              <div class="t-body">Content for topic 3</div>
+              <div class="stats">
+                <div class="stat"><div class="mini"></div>0 views</div>
+                <div class="stat"><div class="mini"></div>5 replies</div>
+                <div class="stat"><div class="mini"></div>0 upvotes</div>
+                <div class="stat"><div class="mini"></div>0 downvotes</div>
+                <div class="stat"><div class="mini"></div>Last reply 19 Stunden, 22 Minuten ago</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="divider container"></div>
+
+    <div class="container footer">
+      <div class="foot-grid">
+        <div class="foot">
+          <h4>LEARNING</h4>
+          <div class="list">
+            <div class="li"><div class="tick"></div>Courses</div>
+            <div class="li"><div class="tick"></div>Subjects</div>
+            <div class="li"><div class="tick"></div>Quizzes</div>
+            <div class="li"><div class="tick"></div>Videos</div>
+            <div class="li"><div class="tick"></div>Challenges</div>
+            <div class="li"><div class="tick"></div>Study Groups</div>
+          </div>
+        </div>
+
+        <div class="foot">
+          <h4>COMMUNITY</h4>
+          <div class="list">
+            <div class="li"><div class="tick"></div>Forum</div>
+            <div class="li"><div class="tick"></div>Blog</div>
+            <div class="li"><div class="tick"></div>Features</div>
+            <div class="li"><div class="tick"></div>Success Stories</div>
+          </div>
+        </div>
+
+        <div class="foot">
+          <h4>CONNECT WITH US</h4>
+          <div class="socials">
+            <div class="circle"><img src="src/placeholder.jpg" alt="social"></div>
+            <div class="circle"><div class="sq"></div></div>
+            <div class="circle"><div class="sq"></div></div>
+            <div class="circle"><div class="sq"></div></div>
+            <div class="circle"><div class="sq"></div></div>
+          </div>
+          <div class="subscribe">
+            <label>SUBSCRIBE TO NEWSLETTER</label>
+            <div class="field">
+              <input type="email" placeholder="Your email">
+              <button type="button"><div class="sq"></div></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

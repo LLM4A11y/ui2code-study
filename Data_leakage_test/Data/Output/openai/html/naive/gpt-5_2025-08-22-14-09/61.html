@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<title>Marketplace</title>
+<style>
+  :root{
+    --teal:#0d8f83;
+    --teal2:#12a782;
+    --navy:#111b2a;
+    --text:#303a45;
+    --muted:#8b97a3;
+    --border:#e7ebef;
+    --cardShadow:0 6px 18px rgba(16,24,40,.06);
+    --orange:#ff8a34;
+    --red:#ff3b30;
+    --greenPill:#dff6ea;
+    --greenText:#3aa875;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,"Helvetica Neue",Helvetica,sans-serif;
+    color:var(--text);
+    background:#ffffff;
+  }
+  .topbar{
+    background:linear-gradient(90deg,var(--teal),var(--teal2));
+    height:68px;
+    color:#fff;
+    position:sticky;
+    top:0;
+    z-index:10;
+    box-shadow:0 1px 0 rgba(0,0,0,.05);
+  }
+  .container{
+    width:1100px;
+    max-width:calc(100% - 48px);
+    margin:0 auto;
+  }
+  .topbar .inner{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:68px;
+  }
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    font-weight:800;
+    font-size:20px;
+    letter-spacing:.2px;
+  }
+  .logo{
+    width:32px;height:32px;border-radius:4px;background:#2e2bff;
+  }
+  nav{
+    display:flex;align-items:center;gap:24px;
+    margin-left:auto;margin-right:24px;
+  }
+  nav a{
+    color:#eaf6f5;text-decoration:none;font-weight:700;
+    font-size:13px;letter-spacing:.7px;text-transform:uppercase;opacity:.95;
+    display:flex;align-items:center;gap:8px;
+  }
+  .tiny-sq{
+    width:10px;height:10px;border-radius:2px;background:rgba(255,255,255,.5);
+    display:inline-block;
+  }
+  .search{
+    position:relative;
+  }
+  .search input{
+    width:290px;height:36px;border-radius:22px;border:1px solid rgba(255,255,255,.6);
+    background:#fff;color:#55606b;padding:0 38px 0 16px;
+    outline:none;font-size:14px;
+  }
+  .search .tiny-sq{
+    position:absolute;right:12px;top:50%;transform:translateY(-50%);
+    background:#e6edf1;border-radius:3px;width:12px;height:12px;
+  }
+
+  .page{
+    padding-top:28px;
+  }
+  .breadcrumb{
+    display:flex;align-items:center;gap:10px;
+    color:#98a2ad;font-size:14px;margin-top:8px;
+  }
+  .breadcrumb .dot{
+    width:10px;height:10px;border-radius:2px;background:#e5eaee;display:inline-block;
+  }
+  .breadcrumb .sep{color:#c2c9d1}
+  .breadcrumb strong{color:#1b2a3a}
+  h1.title{
+    margin:28px 0 22px;
+    text-align:center;
+    font-size:38px;
+    color:#101828;
+    font-weight:800;
+  }
+
+  .grid{
+    display:grid;
+    grid-template-columns:340px 340px;
+    gap:24px;
+    margin-top:8px;
+  }
+
+  .card{
+    background:#fff;border:1px solid var(--border);border-radius:12px;
+    box-shadow:var(--cardShadow);
+    padding:18px;
+  }
+  .image-wrap{
+    height:200px;border-radius:10px;background:#241cff;
+    overflow:hidden;margin-bottom:16px;
+  }
+  .image-wrap img{width:100%;height:100%;object-fit:cover;opacity:0}
+  .card h3{
+    margin:0 0 6px;font-size:20px;color:#0f1826;font-weight:800;
+  }
+  .desc{
+    margin:0 0 12px;color:#6b7682;font-size:14.5px;line-height:1.4;
+  }
+  .pill{
+    display:inline-flex;align-items:center;gap:8px;
+    background:var(--greenPill);color:var(--greenText);
+    border-radius:999px;font-size:12.5px;font-weight:600;
+    padding:6px 10px;margin:6px 0 14px;
+  }
+  .pill .tick{
+    width:10px;height:10px;border-radius:2px;background:#b8ead2;
+  }
+  .prices{
+    display:flex;flex-direction:column;gap:2px;margin-bottom:12px;
+  }
+  .old{
+    color:#8e99a6;font-size:13px;text-decoration:line-through;
+  }
+  .new{
+    color:var(--red);font-weight:800;font-size:20px;
+  }
+
+  .actions .btn{
+    width:100%;height:44px;border:none;border-radius:8px;font-weight:700;
+    font-size:15px;cursor:pointer;
+    display:flex;align-items:center;justify-content:center;gap:10px;
+  }
+  .btn.cart{
+    background:var(--orange);color:#fff;
+    box-shadow:0 1px 0 rgba(0,0,0,.04);
+  }
+  .btn.cart .icon{
+    width:10px;height:10px;border:2px solid #fff;border-radius:2px;box-shadow:inset 0 0 0 2px rgba(255,255,255,.2);
+  }
+  .btn.sold{
+    background:#c9cdd3;color:#ffffff;
+  }
+
+  @media (max-width:780px){
+    nav{display:none}
+    .search input{width:220px}
+    .grid{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container inner">
+      <div class="brand">
+        <div class="logo"></div>
+        <span>Alpha One Labs</span>
+      </div>
+      <nav>
+        <a href="#">LEARN <span class="tiny-sq"></span></a>
+        <a href="#">COMMUNITY <span class="tiny-sq"></span></a>
+        <a href="#">RESOURCES <span class="tiny-sq"></span></a>
+        <a href="#">ABOUT <span class="tiny-sq"></span></a>
+      </nav>
+      <div class="search">
+        <input type="text" placeholder="What do you want to learn?">
+        <span class="tiny-sq"></span>
+      </div>
+    </div>
+  </header>
+
+  <main class="page container">
+    <div class="breadcrumb">
+      <span class="dot"></span>
+      <span>Home</span>
+      <span class="sep">âº</span>
+      <strong>Marketplace</strong>
+    </div>
+
+    <h1 class="title">Explore Our Products</h1>
+
+    <section class="grid">
+      <article class="card">
+        <div class="image-wrap">
+          <img src="src/placeholder.jpg" alt="Algebra Basics Workbook cover">
+        </div>
+        <h3>Algebra Basics Workbook</h3>
+        <p class="desc">A comprehensive workbook for learning algebra basics.</p>
+        <div class="pill"><span class="tick"></span> Storefront for teacher1</div>
+        <div class="prices">
+          <span class="old">$19.99</span>
+          <span class="new">$14.99</span>
+        </div>
+        <div class="actions">
+          <button class="btn cart"><span class="icon"></span> Add to Cart</button>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="image-wrap">
+          <img src="src/placeholder.jpg" alt="Python Programming eBook cover">
+        </div>
+        <h3>Python Programming eBook</h3>
+        <p class="desc">An in-depth guide to Python programming.</p>
+        <div class="pill"><span class="tick"></span> Storefront for teacher1</div>
+        <div class="prices">
+          <span class="old">$29.99</span>
+          <span class="new">$24.99</span>
+        </div>
+        <div class="actions">
+          <button class="btn sold">Sold Out</button>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

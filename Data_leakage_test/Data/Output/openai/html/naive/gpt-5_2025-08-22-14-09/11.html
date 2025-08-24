@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>aws_autoscaling_lifecycle_hook Docs</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --text:#2b2f33;
+    --muted:#6b7280;
+    --blue:#2f7ee5;
+    --light:#f5f6f7;
+    --line:#e6e7ea;
+    --code:#f4f4f5;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family:Inter, Helvetica, Arial, sans-serif;
+    color:var(--text);
+    background:#fff;
+  }
+  /* Header */
+  .topbar{
+    border-bottom:1px solid var(--line);
+    background:#fff;
+  }
+  .topbar .wrap{
+    max-width:1060px;
+    margin:0 auto;
+    height:72px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+    padding:0 18px;
+  }
+  .brand-placeholder{
+    width:52px;
+    height:52px;
+    background:#1f50ff;
+    border-radius:2px;
+  }
+  .nav{
+    display:flex;
+    gap:36px;
+    margin-left:20px;
+    flex:1;
+    justify-content:center;
+  }
+  .nav a{
+    text-decoration:none;
+    color:#5f6b77;
+    font-weight:500;
+    font-size:15px;
+  }
+  .right-info{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    color:#8b95a1;
+    font-size:14px;
+  }
+  .hamburger{
+    width:18px; height:12px; position:relative;
+  }
+  .hamburger span{
+    position:absolute; left:0; right:0; height:2px; background:#8b95a1; border-radius:2px;
+  }
+  .hamburger span:nth-child(1){top:0}
+  .hamburger span:nth-child(2){top:5px}
+  .hamburger span:nth-child(3){bottom:0}
+  /* Layout */
+  .container{
+    max-width:1060px;
+    margin:0 auto;
+    display:flex;
+    gap:34px;
+    padding:24px 18px 60px;
+  }
+  aside{
+    width:220px;
+    padding-top:8px;
+  }
+  .side-logo{
+    width:78px;
+    height:78px;
+    background:#1f50ff;
+    border-radius:2px;
+    margin-bottom:18px;
+  }
+  .side-group{
+    margin-bottom:18px;
+  }
+  .side-group h5{
+    margin:10px 0 8px;
+    font-weight:600;
+    color:#7b8794;
+    font-size:13px;
+  }
+  .side-group a{
+    display:block;
+    color:var(--blue);
+    text-decoration:none;
+    font-size:14px;
+    line-height:1.9;
+  }
+  .side-sub{
+    padding-left:10px;
+  }
+
+  main{flex:1;}
+  h1{
+    font-size:36px;
+    line-height:1.2;
+    margin:6px 0 10px;
+    font-weight:700;
+    color:#2a2f36;
+  }
+  .subtitle{
+    color:#636b75;
+    margin-bottom:18px;
+    font-size:16px;
+  }
+  .divider{
+    height:1px; background:var(--line); margin:10px 0 22px;
+  }
+  h2{
+    font-size:22px;
+    margin:16px 0 12px;
+    color:#2f3943;
+  }
+
+  /* Code block with tabs */
+  .code-wrap{
+    position:relative;
+    background:#f7f7f8;
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:16px 16px 18px;
+    margin:8px 0 28px;
+  }
+  .tabs{
+    position:absolute;
+    top:-30px;
+    right:10px;
+    display:flex; gap:8px;
+  }
+  .tab{
+    padding:4px 10px;
+    border:1px solid var(--line);
+    background:#fff;
+    color:#6b7280;
+    border-radius:12px;
+    font-size:12px;
+  }
+  .tab.active{
+    background:#f0f2f4;
+    color:#374151;
+  }
+  pre{
+    margin:0;
+    font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    font-size:13px;
+    color:#3b4252;
+    white-space:pre;
+    overflow:auto;
+  }
+
+  /* Argument list */
+  .note{
+    color:#6b7280;
+    margin-bottom:8px;
+  }
+  .rule{height:1px;background:var(--line);margin:14px 0;}
+  .arg{
+    display:flex;
+    gap:12px;
+    margin:10px 0;
+    align-items:flex-start;
+  }
+  .badge{
+    background:#f1f3f5;
+    border:1px solid #e5e7eb;
+    padding:4px 8px;
+    border-radius:4px;
+    font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size:13px;
+    color:#374151;
+    white-space:nowrap;
+  }
+  .arg p{
+    margin:0;
+    color:#4b5563;
+    font-size:15px;
+  }
+
+  .footer-note{
+    color:#7a8795;
+    font-size:14px;
+    margin-top:20px;
+  }
+  .footer-note a{color:var(--blue); text-decoration:none;}
+  /* image placeholders usage */
+  img.placeholder{background:#1f50ff; object-fit:cover;}
+  @media (max-width: 940px){
+    .nav{display:none;}
+    .container{gap:20px;}
+  }
+  @media (max-width: 780px){
+    aside{display:none;}
+  }
+</style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <div class="brand-placeholder"></div>
+      <nav class="nav">
+        <a href="#">Items</a>
+        <a href="#">About Us</a>
+        <a href="#">Fit Guide</a>
+        <a href="#">Store Rules</a>
+      </nav>
+      <div class="right-info">
+        <span>0 / $ 0.00</span>
+        <div class="hamburger" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <aside>
+      <div class="side-logo"></div>
+
+      <div class="side-group">
+        <a href="#">Videos</a>
+        <a href="#">Getting started</a>
+        <a href="#">Learn more about Koding</a>
+      </div>
+
+      <div class="side-group">
+        <h5>Stack Documentation</h5>
+        <a href="#" style="font-weight:600; color:#7b8794;">Configuration</a>
+        <a href="#" style="font-weight:600; color:#7b8794;">Providers</a>
+      </div>
+
+      <div class="side-group">
+        <h5>Data Sources</h5>
+        <h5>Resources</h5>
+        <div class="side-sub">
+          <a href="#">aws_alb</a>
+          <a href="#">aws_alb_listener</a>
+          <a href="#">aws_alb_listener_rule</a>
+          <a href="#">aws_alb_target_group</a>
+        </div>
+      </div>
+
+      <div class="side-group">
+        <h5>Azure Service Management</h5>
+      </div>
+
+      <div class="side-group">
+        <h5>Provisioners</h5>
+      </div>
+    </aside>
+
+    <main>
+      <h1>aws_autoscaling_lifecycle_hook</h1>
+      <div class="subtitle">Defines an AutoScaling Lifecycle Hook resource.</div>
+      <div class="divider"></div>
+
+      <h2>Example Usage</h2>
+      <div class="code-wrap">
+        <div class="tabs">
+          <span class="tab active">yaml</span>
+          <span class="tab">hcl</span>
+        </div>
+<pre>
+resource:
+  aws_autoscaling_group:
+    foobar:
+      availability_zones:
+        - us-west-2a
+      name: terraform-test-foobar5
+      health_check_type: EC2
+      termination_policies:
+        - OldestInstance
+      tags:
+        -
+          key: foo
+          value: foo-bar
+          propagate_at_launch: true
+  aws_autoscaling_lifecycle_hook:
+    foobar:
+      name: foobar
+      autoscaling_group_name: '${aws_autoscaling_group.foobar.name}'
+      default_result: CONTINUE
+      heartbeat_timeout: 2000
+      lifecycle_transition: 'autoscaling:EC2_INSTANCE_LAUNCHING'
+      notification_metadata: '{
+        "foo": "bar"
+      }'
+      notification_target_arn: 'arn:aws:sqs:us-east-1:444455556666:queue1'
+      role_arn: 'arn:aws:iam::123456789012:role/S3Access'
+</pre>
+      </div>
+
+      <h2>Argument Details</h2>
+      <div class="rule"></div>
+      <div class="note">The following arguments are supported:</div>
+
+      <div class="arg">
+        <span class="badge">name</span>
+        <p>- (Required) The lifecycle hook's name.</p>
+      </div>
+      <div class="arg">
+        <span class="badge">autoscaling_group_name</span>
+        <p>- (Required) Name of the Auto Scaling group for the lifecycle hook.</p>
+      </div>
+      <div class="arg">
+        <span class="badge">default_result</span>
+        <p>- (Optional) Action for the Auto Scaling group on lifecycle hook timeout or failure.</p>
+      </div>
+      <div class="arg">
+        <span class="badge">heartbeat_timeout</span>
+        <p>- (Optional) Time (in seconds) until the lifecycle hook times out. Triggers DefaultResult action.</p>
+      </div>
+
+      <div class="footer-note">
+        See the source of this document at <a href="#">Terraform.io</a>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

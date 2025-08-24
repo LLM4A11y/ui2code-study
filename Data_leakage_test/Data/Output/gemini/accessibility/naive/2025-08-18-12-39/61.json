@@ -1,0 +1,1181 @@
+{
+  "manual": {
+    "checks": {
+      "1.4.4": "tbd",
+      "1.4.10": "tbd",
+      "1.4.12": "tbd",
+      "2.1.1+2.1.2": "tbd",
+      "2.4.3": "tbd",
+      "2.4.6": "tbd",
+      "2.4.7": "tbd"
+    }
+  },
+  "automatic": [
+    {
+      "wcag_id": [
+        "Principle1.Guideline1_4.1_4_3.G18",
+        "Principle1.Guideline1_4.1_4_3.G18.Fail",
+        "Principle1.Guideline1_4.1_4_3.G145",
+        "Principle1.Guideline1_4.1_4_3.G145.Fail",
+        "Principle1.Guideline1_4.1_4_6.G17",
+        "Principle1.Guideline1_4.1_4_6.G18"
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+        "https://dequeuniversity.com/rules/axe/4.10/color-contrast-enhanced"
+      ],
+      "impact": "serious",
+      "name": "Color Contrast; Text;",
+      "amount_nodes_failed": 11,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#00a389",
+                  "contrastRatio": 3.18,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<header>",
+                    "target": [
+                      "header"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.18 (foreground color: #ffffff, background color: #00a389, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"logo\">Alpha One Labs</div>",
+            "target": [
+              ".logo"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #ffffff, background color: #00a389, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#00a389",
+                  "contrastRatio": 3.18,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<header>",
+                    "target": [
+                      "header"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.18 (foreground color: #ffffff, background color: #00a389, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"#\">LEARN</a>",
+            "target": [
+              ".nav-links > a:nth-child(1)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #ffffff, background color: #00a389, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#00a389",
+                  "contrastRatio": 3.18,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<header>",
+                    "target": [
+                      "header"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.18 (foreground color: #ffffff, background color: #00a389, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"#\">COMMUNITY</a>",
+            "target": [
+              "a:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #ffffff, background color: #00a389, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#00a389",
+                  "contrastRatio": 3.18,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<header>",
+                    "target": [
+                      "header"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.18 (foreground color: #ffffff, background color: #00a389, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"#\">RESOURCES</a>",
+            "target": [
+              "a:nth-child(3)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #ffffff, background color: #00a389, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#00a389",
+                  "contrastRatio": 3.18,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<header>",
+                    "target": [
+                      "header"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.18 (foreground color: #ffffff, background color: #00a389, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"#\">ABOUT</a>",
+            "target": [
+              "a:nth-child(4)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #ffffff, background color: #00a389, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#00a389",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.18,
+                  "fontSize": "9.0pt (12px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<body>",
+                    "target": [
+                      "body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.18 (foreground color: #00a389, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"storefront\">Storefront for teacher1</div>",
+            "target": [
+              ".product-card:nth-child(1) > .storefront"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #00a389, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#e63946",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 4.16,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<body>",
+                    "target": [
+                      "body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 4.16 (foreground color: #e63946, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"discounted-price\">$14,99</div>",
+            "target": [
+              ".product-card:nth-child(1) > .discounted-price"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #e63946, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#f4722b",
+                  "contrastRatio": 2.88,
+                  "fontSize": "10.0pt (13.3333px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"add-to-cart-button\">Add to Cart</button>",
+                    "target": [
+                      ".add-to-cart-button"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 2.88 (foreground color: #ffffff, background color: #f4722b, font size: 10.0pt (13.3333px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button class=\"add-to-cart-button\">Add to Cart</button>",
+            "target": [
+              ".add-to-cart-button"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.88 (foreground color: #ffffff, background color: #f4722b, font size: 10.0pt (13.3333px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#00a389",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.18,
+                  "fontSize": "9.0pt (12px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<body>",
+                    "target": [
+                      "body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.18 (foreground color: #00a389, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"storefront\">Storefront for teacher1</div>",
+            "target": [
+              ".product-card:nth-child(2) > .storefront"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #00a389, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#e63946",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 4.16,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<body>",
+                    "target": [
+                      "body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 4.16 (foreground color: #e63946, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<div class=\"discounted-price\">$24,99</div>",
+            "target": [
+              ".product-card:nth-child(2) > .discounted-price"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #e63946, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#9ca3af",
+                  "contrastRatio": 2.53,
+                  "fontSize": "10.0pt (13.3333px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"sold-out-button\">Sold Out</button>",
+                    "target": [
+                      ".sold-out-button"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 2.53 (foreground color: #ffffff, background color: #9ca3af, font size: 10.0pt (13.3333px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button class=\"sold-out-button\">Sold Out</button>",
+            "target": [
+              ".sold-out-button"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #ffffff, background color: #9ca3af, font size: 10.0pt (13.3333px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.18:1. Recommendation:  change background to #008671.",
+          "description": "<div class=\"logo\">Alpha One Labs</div>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.18:1. Recommendation:  change background to #008671.",
+            "context": "<div class=\"logo\">Alpha One Labs</div>",
+            "selector": "html > body > header > div:nth-child(1) > div",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.18:1. Recommendation:  change background to #008671.",
+          "description": "<a href=\"#\">LEARN</a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.18:1. Recommendation:  change background to #008671.",
+            "context": "<a href=\"#\">LEARN</a>",
+            "selector": "html > body > header > nav > div > a:nth-child(1)",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.18:1. Recommendation:  change background to #008671.",
+          "description": "<a href=\"#\">COMMUNITY</a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.18:1. Recommendation:  change background to #008671.",
+            "context": "<a href=\"#\">COMMUNITY</a>",
+            "selector": "html > body > header > nav > div > a:nth-child(2)",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.18:1. Recommendation:  change background to #008671.",
+          "description": "<a href=\"#\">RESOURCES</a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.18:1. Recommendation:  change background to #008671.",
+            "context": "<a href=\"#\">RESOURCES</a>",
+            "selector": "html > body > header > nav > div > a:nth-child(3)",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.18:1. Recommendation:  change background to #008671.",
+          "description": "<a href=\"#\">ABOUT</a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.18:1. Recommendation:  change background to #008671.",
+            "context": "<a href=\"#\">ABOUT</a>",
+            "selector": "html > body > header > nav > div > a:nth-child(4)",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.18:1. Recommendation:  change text colour to #008671.",
+          "description": "<div class=\"storefront\">Storefront for teacher1</div>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.18:1. Recommendation:  change text colour to #008671.",
+            "context": "<div class=\"storefront\">Storefront for teacher1</div>",
+            "selector": "html > body > main > div:nth-child(3) > div:nth-child(1) > div:nth-child(4)",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.17:1. Recommendation:  change text colour to #393939.",
+          "description": "<div class=\"discounted-price\">$14,99</div>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.17:1. Recommendation:  change text colour to #393939.",
+            "context": "<div class=\"discounted-price\">$14,99</div>",
+            "selector": "html > body > main > div:nth-child(3) > div:nth-child(1) > div:nth-child(6)",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.88:1. Recommendation:  change background to #ce4c05.",
+          "description": "<button class=\"add-to-cart-button\">Add to Cart</button>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.88:1. Recommendation:  change background to #ce4c05.",
+            "context": "<button class=\"add-to-cart-button\">Add to Cart</button>",
+            "selector": "html > body > main > div:nth-child(3) > div:nth-child(1) > button",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.18:1. Recommendation:  change text colour to #008671.",
+          "description": "<div class=\"storefront\">Storefront for teacher1</div>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.18:1. Recommendation:  change text colour to #008671.",
+            "context": "<div class=\"storefront\">Storefront for teacher1</div>",
+            "selector": "html > body > main > div:nth-child(3) > div:nth-child(2) > div:nth-child(4)",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.17:1. Recommendation:  change text colour to #393939.",
+          "description": "<div class=\"discounted-price\">$24,99</div>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.17:1. Recommendation:  change text colour to #393939.",
+            "context": "<div class=\"discounted-price\">$24,99</div>",
+            "selector": "html > body > main > div:nth-child(3) > div:nth-child(2) > div:nth-child(6)",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.54:1. Recommendation:  change background to #707783.",
+          "description": "<button class=\"sold-out-button\">Sold Out</button>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.54:1. Recommendation:  change background to #707783.",
+            "context": "<button class=\"sold-out-button\">Sold Out</button>",
+            "selector": "html > body > main > div:nth-child(3) > div:nth-child(2) > button",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-0-DIV",
+              "path": "1,HTML,1,BODY,0,HEADER,0,DIV,1,DIV",
+              "selector": "body > header > div.header-logo > div.logo",
+              "boundingRect": {
+                "top": 20,
+                "bottom": 89,
+                "left": 55,
+                "right": 106,
+                "width": 51,
+                "height": 69
+              },
+              "snippet": "<div class=\"logo\">",
+              "nodeLabel": "Alpha One Labs",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #ffffff, background color: #00a389, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-1-HEADER",
+                    "path": "1,HTML,1,BODY,0,HEADER",
+                    "selector": "body > header",
+                    "boundingRect": {
+                      "top": 0,
+                      "bottom": 109,
+                      "left": 0,
+                      "right": 412,
+                      "width": 412,
+                      "height": 109
+                    },
+                    "snippet": "<header>",
+                    "nodeLabel": "Alpha One Labs\nLEARN\nCOMMUNITY\nRESOURCES\nABOUT"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-2-A",
+              "path": "1,HTML,1,BODY,0,HEADER,1,NAV,0,DIV,0,A",
+              "selector": "header > nav > div.nav-links > a",
+              "boundingRect": {
+                "top": 47,
+                "bottom": 63,
+                "left": 106,
+                "right": 153,
+                "width": 47,
+                "height": 16
+              },
+              "snippet": "<a href=\"#\">",
+              "nodeLabel": "LEARN",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #ffffff, background color: #00a389, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-1-HEADER",
+                    "path": "1,HTML,1,BODY,0,HEADER",
+                    "selector": "body > header",
+                    "boundingRect": {
+                      "top": 0,
+                      "bottom": 109,
+                      "left": 0,
+                      "right": 412,
+                      "width": 412,
+                      "height": 109
+                    },
+                    "snippet": "<header>",
+                    "nodeLabel": "Alpha One Labs\nLEARN\nCOMMUNITY\nRESOURCES\nABOUT"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-3-A",
+              "path": "1,HTML,1,BODY,0,HEADER,1,NAV,0,DIV,1,A",
+              "selector": "header > nav > div.nav-links > a",
+              "boundingRect": {
+                "top": 47,
+                "bottom": 63,
+                "left": 173,
+                "right": 259,
+                "width": 86,
+                "height": 16
+              },
+              "snippet": "<a href=\"#\">",
+              "nodeLabel": "COMMUNITY",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #ffffff, background color: #00a389, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-1-HEADER",
+                    "path": "1,HTML,1,BODY,0,HEADER",
+                    "selector": "body > header",
+                    "boundingRect": {
+                      "top": 0,
+                      "bottom": 109,
+                      "left": 0,
+                      "right": 412,
+                      "width": 412,
+                      "height": 109
+                    },
+                    "snippet": "<header>",
+                    "nodeLabel": "Alpha One Labs\nLEARN\nCOMMUNITY\nRESOURCES\nABOUT"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-4-A",
+              "path": "1,HTML,1,BODY,0,HEADER,1,NAV,0,DIV,2,A",
+              "selector": "header > nav > div.nav-links > a",
+              "boundingRect": {
+                "top": 47,
+                "bottom": 63,
+                "left": 279,
+                "right": 368,
+                "width": 89,
+                "height": 16
+              },
+              "snippet": "<a href=\"#\">",
+              "nodeLabel": "RESOURCES",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #ffffff, background color: #00a389, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-1-HEADER",
+                    "path": "1,HTML,1,BODY,0,HEADER",
+                    "selector": "body > header",
+                    "boundingRect": {
+                      "top": 0,
+                      "bottom": 109,
+                      "left": 0,
+                      "right": 412,
+                      "width": 412,
+                      "height": 109
+                    },
+                    "snippet": "<header>",
+                    "nodeLabel": "Alpha One Labs\nLEARN\nCOMMUNITY\nRESOURCES\nABOUT"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-5-DIV",
+              "path": "1,HTML,1,BODY,1,MAIN,2,DIV,0,DIV,3,DIV",
+              "selector": "main > div.product-listing > div.product-card > div.storefront",
+              "boundingRect": {
+                "top": 556,
+                "bottom": 570,
+                "left": 36,
+                "right": 180,
+                "width": 144,
+                "height": 14
+              },
+              "snippet": "<div class=\"storefront\">",
+              "nodeLabel": "Storefront for teacher1",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #00a389, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-6-BODY",
+                    "path": "1,HTML,1,BODY",
+                    "selector": "body",
+                    "boundingRect": {
+                      "top": 0,
+                      "bottom": 707,
+                      "left": 0,
+                      "right": 412,
+                      "width": 412,
+                      "height": 707
+                    },
+                    "snippet": "<body>",
+                    "nodeLabel": "body"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-7-DIV",
+              "path": "1,HTML,1,BODY,1,MAIN,2,DIV,0,DIV,5,DIV",
+              "selector": "main > div.product-listing > div.product-card > div.discounted-price",
+              "boundingRect": {
+                "top": 596,
+                "bottom": 619,
+                "left": 36,
+                "right": 180,
+                "width": 144,
+                "height": 23
+              },
+              "snippet": "<div class=\"discounted-price\">",
+              "nodeLabel": "$14,99",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #e63946, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-6-BODY",
+                    "path": "1,HTML,1,BODY",
+                    "selector": "body",
+                    "boundingRect": {
+                      "top": 0,
+                      "bottom": 707,
+                      "left": 0,
+                      "right": 412,
+                      "width": 412,
+                      "height": 707
+                    },
+                    "snippet": "<body>",
+                    "nodeLabel": "body"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-8-BUTTON",
+              "path": "1,HTML,1,BODY,1,MAIN,2,DIV,0,DIV,6,BUTTON",
+              "selector": "main > div.product-listing > div.product-card > button.add-to-cart-button",
+              "boundingRect": {
+                "top": 634,
+                "bottom": 669,
+                "left": 36,
+                "right": 180,
+                "width": 144,
+                "height": 35
+              },
+              "snippet": "<button class=\"add-to-cart-button\">",
+              "nodeLabel": "Add to Cart",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.88 (foreground color: #ffffff, background color: #f4722b, font size: 10.0pt (13.3333px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-9-DIV",
+              "path": "1,HTML,1,BODY,1,MAIN,2,DIV,1,DIV,3,DIV",
+              "selector": "main > div.product-listing > div.product-card > div.storefront",
+              "boundingRect": {
+                "top": 558,
+                "bottom": 572,
+                "left": 232,
+                "right": 376,
+                "width": 144,
+                "height": 14
+              },
+              "snippet": "<div class=\"storefront\">",
+              "nodeLabel": "Storefront for teacher1",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.18 (foreground color: #00a389, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-6-BODY",
+                    "path": "1,HTML,1,BODY",
+                    "selector": "body",
+                    "boundingRect": {
+                      "top": 0,
+                      "bottom": 707,
+                      "left": 0,
+                      "right": 412,
+                      "width": 412,
+                      "height": 707
+                    },
+                    "snippet": "<body>",
+                    "nodeLabel": "body"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-10-DIV",
+              "path": "1,HTML,1,BODY,1,MAIN,2,DIV,1,DIV,5,DIV",
+              "selector": "main > div.product-listing > div.product-card > div.discounted-price",
+              "boundingRect": {
+                "top": 598,
+                "bottom": 621,
+                "left": 232,
+                "right": 376,
+                "width": 144,
+                "height": 23
+              },
+              "snippet": "<div class=\"discounted-price\">",
+              "nodeLabel": "$24,99",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #e63946, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-6-BODY",
+                    "path": "1,HTML,1,BODY",
+                    "selector": "body",
+                    "boundingRect": {
+                      "top": 0,
+                      "bottom": 707,
+                      "left": 0,
+                      "right": 412,
+                      "width": 412,
+                      "height": 707
+                    },
+                    "snippet": "<body>",
+                    "nodeLabel": "body"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-11-BUTTON",
+              "path": "1,HTML,1,BODY,1,MAIN,2,DIV,1,DIV,6,BUTTON",
+              "selector": "main > div.product-listing > div.product-card > button.sold-out-button",
+              "boundingRect": {
+                "top": 636,
+                "bottom": 671,
+                "left": 232,
+                "right": 376,
+                "width": 144,
+                "height": 35
+              },
+              "snippet": "<button class=\"sold-out-button\">",
+              "nodeLabel": "Sold Out",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #ffffff, background color: #9ca3af, font size: 10.0pt (13.3333px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        "Principle4.Guideline4_1.4_1_2.H91.InputEmail.Name",
+        "Principle4.Guideline4_1.4_1_2.H91.InputSearch.Name",
+        "Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+        "Principle4.Guideline4_1.4_1_2.H91.InputPassword.Name",
+        "Principle4.Guideline4_1.4_1_2.H91.InputCheckbox.Name",
+        "Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+        "Principle1.Guideline1_3.1_3_1.F68",
+        "Principle4.Guideline4_1.4_1_2.H91.Fieldset.Name"
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/label"
+      ],
+      "impact": "critical",
+      "name": "Label; Multiple Elements; Content missing",
+      "amount_nodes_failed": 2,
+      "issues": [
+        {
+          "id": "Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+          "source": "pa11y",
+          "title": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+          "description": "<input type=\"text\" placeholder=\"What do you want to learn?\">",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+            "context": "<input type=\"text\" placeholder=\"What do you want to learn?\">",
+            "selector": "html > body > header > div:nth-child(3) > input",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_3.1_3_1.F68",
+          "source": "pa11y",
+          "title": "This form field should be labelled in some way. Use the label element (either with a \"for\" attribute or wrapped around the form field), or \"title\", \"aria-label\" or \"aria-labelledby\" attributes as appropriate.",
+          "description": "<input type=\"text\" placeholder=\"What do you want to learn?\">",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This form field should be labelled in some way. Use the label element (either with a \"for\" attribute or wrapped around the form field), or \"title\", \"aria-label\" or \"aria-labelledby\" attributes as appropriate.",
+            "context": "<input type=\"text\" placeholder=\"What do you want to learn?\">",
+            "selector": "html > body > header > div:nth-child(3) > input",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segway Trips</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .logo {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        .search-bar {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            width: 70%;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .breadcrumbs {
+            margin-bottom: 20px;
+        }
+
+        .trip-list {
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        .trip-details {
+            margin-bottom: 20px;
+        }
+
+        .trip-list ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .trip-list li {
+            margin-bottom: 5px;
+        }
+
+        .trip-tours {
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        .footer-stats {
+            background-color: #808080;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .footer-stats div {
+            flex: 1;
+        }
+
+        .footer-bottom {
+            background-color: #008080;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .footer-links {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .right-image {
+            width: 150px;
+            height: 200px;
+            background-color: blue;
+            float: right;
+            margin-top: -280px;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .search-bar input[type="text"] {
+            flex-grow: 1;
+            margin-right: 10px;
+        }
+
+        .options {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 12px;
+        }
+
+        .options a {
+            display: block;
+            text-decoration: none;
+            color: black;
+        }
+
+        .trip-selector {
+            width: 200px;
+            height: 250px;
+            background-color: blue;
+            float: right;
+            margin-right: 60px;
+            margin-top: -130px;
+        }
+        .trip-selector a {
+            color: white;
+            text-decoration: none;
+        }
+        .locate-trip {
+            background-color: #008080;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .locate-trip button {
+            background-color: #28a745;
+        }
+        .more-search-options{
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>LibriVox Audiobooks</h1>
+                <p>Free audiobooks read by volunteers</p>
+            </div>
+            <div class="options">
+                <a href="#">Go to content</a>
+                <a href="#">Info</a>
+                <a href="#">Email</a>
+                <a href="#">Community</a>
+                <a href="#">FAQ</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Find by Writer, Story or Narrator">
+                <button>SEARCH</button>
+
+            </div>
+            <a class="more-search-options" href="#">More search options</a>
+    </header>
+    <div style="background-color: #f0f0f0; padding: 20px;">
+        Trip Spot...
+    </div>
+    <div class="container">
+        <div class="breadcrumbs">
+            <p>//<a href="#">USA</a>/ <a href="#">SOUTH CAROLINA</a></p>
+            <h2>List of 6 Segway Trips around South Carolina</h2>
+            <p>South Carolina Listing Date: 11/3/23</p>
+        </div>
+
+        <div class="trip-list">
+            <div class="trip-details">
+                <h3>SOUTH CAROLINA SEGWAY EXCURSIONS</h3>
+                <p>Explore South Carolina with one of our six Segway excursions. Discover the attractions and sounds of South
+                    Carolina's towns and attractions with a closer and more personal tour on the SegwayÂ® PT.</p>
+                <ul>
+                    <li>
+                        <h4>USA >></h4>
+                    </li>
+                    <li>
+                        <h4>SOUTH CAROLINA >></h4>
+                        <ul>
+                            <li>CHARLESTON >>
+                                <ul>
+                                    <li><a href="#">Segway of Charleston >></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>GREENVILLE >></h4>
+                        <ul>
+                            <li><a href="#">Carolina Segway >></a></li>
+                            <li><a href="#">Greenville Glides >></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>HILTON HEAD ISLAND >></h4>
+                        <ul>
+                            <li><a href="#">Hilton Head Segway >></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>LITTLE RIVER >></h4>
+                        <ul>
+                            <li><a href="#">Myrtle Beach Segway >></a></li>
+                            <li><a href="#">Myrtle Beach Segway >></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="trip-selector">
+                <a href="#">South Carolina</a>
+            </div>
+            <div class="right-image">
+            </div>
+            <p style="font-size: 10px; float: right;">Displaying 6 South Carolina trips of 636 trips World Wide</p>
+        </div>
+
+        <div class="trip-tours">
+            <h3>South Carolina Segway Tours</h3>
+            <p>Whether South Carolina is your home state or your next destination for travel, one of these Segway trips
+                will add cool new excitement to your next company trip, vacation or weekend outing.</p>
+            <p>Want adventure outings beyond South Carolina's six Segway trips? Check out our Directory to <a
+                    href="#">find Segway Tours</a> across the United States and across the globe and try touring on a
+                Segway PT for yourself!</p>
+        </div>
+    </div>
+    <div class="footer-stats">
+        <div>
+            <h2>636</h2>
+            <p style="font-size: 10px;">GLOBAL</p>
+        </div>
+        <div>
+            <h2>56</h2>
+            <p style="font-size: 10px;">NATIONS</p>
+        </div>
+        <div>
+            <h2>198</h2>
+            <p style="font-size: 10px;">TERRITORIES</p>
+        </div>
+        <div>
+            <h2>442</h2>
+            <p style="font-size: 10px;">TOWNS</p>
+        </div>
+    </div>
+    <div class="locate-trip">
+        <h2>Locate a Trip on a Segway PT right now!</h2>
+        <button>Search a Trip Now</button>
+    </div>
+    <div class="footer-links">
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="footer-links">
+        <a href="#">FB</a>
+        <a href="#">IG</a>
+    </div>
+</body>
+
+</html>

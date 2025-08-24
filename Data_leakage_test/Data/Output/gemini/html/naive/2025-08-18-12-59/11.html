@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aws_autoscaling_lifecycle_hook</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .header {
+            background-color: #f8f8f8;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-logo {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+        }
+
+        .header-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .header-links a {
+            text-decoration: none;
+            color: #777;
+        }
+
+        .header-right {
+            display: flex;
+            gap: 20px;
+        }
+
+        .main {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .sidebar {
+            width: 250px;
+            padding-right: 20px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 5px;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        pre {
+            background-color: #f8f8f8;
+            padding: 10px;
+            overflow-x: auto;
+        }
+
+        code {
+            font-family: monospace, monospace;
+            font-size: 14px;
+        }
+
+        .argument-details {
+            margin-top: 30px;
+        }
+
+        .argument-details ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .argument-details li {
+            margin-bottom: 10px;
+        }
+
+        .argument-details li strong {
+            font-weight: bold;
+        }
+
+        .languages {
+            text-align: right;
+            margin-bottom: 10px;
+        }
+
+        .languages a {
+            display: inline-block;
+            padding: 5px 10px;
+            text-decoration: none;
+            color: #007bff;
+            background-color: #f8f8f8;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-logo"></div>
+            <div class="header-links">
+                <a href="#">Items</a>
+                <a href="#">About Us</a>
+                <a href="#">Fit Guide</a>
+                <a href="#">Store Rules</a>
+            </div>
+            <div class="header-right">
+                <span>0/$0.00</span>
+                <span>â°</span>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="sidebar">
+                <ul>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Getting started</a></li>
+                    <li><a href="#">Learn more about Koding</a></li>
+                    <li><a href="#">Stack Documentation</a></li>
+                    <li><a href="#">Configuration</a></li>
+                    <li><a href="#">Providers</a></li>
+                    <li><a href="#">Archive</a></li>
+                    <li><a href="#">Atlas</a></li>
+                    <li><a href="#">AWS</a></li>
+                    <li><a href="#">Data Sources</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">aws_alb</a></li>
+                    <li><a href="#">aws_alb_listener</a></li>
+                    <li><a href="#">aws_alb_listener_rule</a></li>
+                    <li><a href="#">aws_alb_target_group</a></li>
+                    <li><a href="#">Azure Service Management</a></li>
+                    <li><a href="#">Provisioners</a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+                <h1>aws_autoscaling_lifecycle_hook</h1>
+                <p>Defines an AutoScaling Lifecycle Hook resource.</p>
+
+                <h2>Example Usage</h2>
+                <div class="languages">
+                    <a href="#">yaml</a>
+                    <a href="#">hcl</a>
+                </div>
+                <pre>
+                    <code>
+resource:
+  aws_autoscaling_group:
+    foobar:
+      availability_zones:
+        - us-west-2a
+      name: terraform-test-foobar5
+      health_check_type: EC2
+      termination_policies:
+        - OldestInstance
+      tag:
+        key: Foo
+        value: foo-bar
+      propagate_at_launch: true
+  aws_autoscaling_lifecycle_hook:
+    foobar:
+      name: foobar
+      autoscaling_group_name: '${aws_autoscaling_group.foobar.name}'
+      default_result: CONTINUE
+      heartbeat_timeout: 2000
+      lifecycle_transition: 'autoscaling:EC2_INSTANCE_LAUNCHING'
+      notification_metadata: "{
+        "foo": "bar"
+      }"
+      notification_target_arn: 'arn:aws:sqs:us-east-1:444455556666:queue1*'
+      role_arn: 'arn:aws:iam::123456789012:role/S3Access'
+                    </code>
+                </pre>
+
+                <div class="argument-details">
+                    <h2>Argument Details</h2>
+                    <p>The following arguments are supported:</p>
+                    <ul>
+                        <li><strong>name</strong> - (Required) The lifecycle hook's name.</li>
+                        <li><strong>autoscaling_group_name</strong> - (Required) Name of the Auto Scaling group for the lifecycle hook.</li>
+                        <li><strong>default_result</strong> - (Optional) Action for the Auto Scaling group on lifecycle hook timeout or failure.</li>
+                        <li><strong>heartbeat_timeout</strong> - (Optional) Time (in seconds) until the lifecycle hook times out. Triggers DefaultResult action.</li>
+                    </ul>
+                </div>
+                <p>See the source of this document at <a href="#">Terraform.io</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

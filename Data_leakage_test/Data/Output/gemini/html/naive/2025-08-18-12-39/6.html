@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Info Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+        }
+
+        p {
+            font-size: 1em;
+        }
+
+        .search-box {
+            float: right;
+        }
+
+        .search-box input[type="text"] {
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .search-box button {
+            padding: 5px 10px;
+            background-color: #eee;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+
+        .catalog {
+            margin-top: 50px;
+        }
+
+        .catalog ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .catalog li {
+            display: inline-block;
+        }
+
+        .catalog a {
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #333;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .support {
+            background-color: #f9f9f9;
+            border: 1px solid #eee;
+            padding: 15px;
+            margin-top: 30px;
+            width: 250px;
+        }
+
+        .support h2 {
+            font-size: 1.2em;
+            margin-top: 0;
+        }
+
+        .support p {
+            font-size: 0.8em;
+        }
+
+        .download-options {
+            margin-top: 20px;
+            width: 250px;
+        }
+
+        .download-options h2 {
+            font-size: 1.2em;
+            margin-top: 0;
+        }
+
+        .download-options ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .download-options li {
+            margin-bottom: 5px;
+        }
+
+        .download-options a {
+            display: block;
+            padding: 8px 15px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #4CAF50;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .rss {
+            background-color: #FFA500;
+        }
+        .details {
+            margin-top: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #eee;
+            padding: 15px;
+            width: 250px;
+            font-size: 0.8em;
+        }
+        .details-grid {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        .quick-links {
+            margin-top: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #eee;
+            padding: 15px;
+            width: 250px;
+        }
+
+        .quick-links ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .quick-links li {
+            margin-bottom: 5px;
+        }
+
+        .quick-links a {
+            color: #333;
+            text-decoration: none;
+        }
+        .main {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .main ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .main li {
+            margin-bottom: 5px;
+        }
+        .book-section {
+            margin-left: 300px;
+            margin-top: -400px;
+        }
+        .book-section img {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+        .summary-table {
+            width: 600px;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .summary-table th, .summary-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .summary-table th {
+            background-color: #f2f2f2;
+        }
+
+        .summary-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .footer {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TECH INFO BLOG</h1>
+        <p>Useful tips and guides for Google Apps users</p>
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+        </div>
+
+        <div class="catalog">
+            <p>EXPLORE OUR CATALOG</p>
+            <ul>
+                <li><a href="#">Writer</a></li>
+                <li><a href="#">Story</a></li>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">Language</a></li>
+            </ul>
+        </div>
+        <div style="display: flex;">
+        <div class="support">
+            <a href="#">Support LibriVox</a>
+            <a href="#">Thank the narrator</a>
+            <p>LibriVox's audio is Public Domain in the
+                USA. If outside of the USA, verify local
+                copyright laws before downloading, to
+                ensure you aren't violating copyright.</p>
+        </div>
+        <div class="book-section">
+        <img src="src/placeholder.jpg" alt="Cover Graphic">
+        <p>Get cover graphic
+            Get CD insert graphic</p>
+            <h1>Life of an American Bondsman, By His Daughter</h1>
+            <p>Josephine Brown <span>(1839 - 1874)</span></p>
+            <p>Josephine Brown's narrative faithfully follows her father's life as it was
+                previously explored in his own autobiography. She focuses on the major
+                pivotal moments of his autobiography, and adds anecdotes and her
+                perspective on Brown's life.</p>
+                <p>Category: Biography & Autobiography</p>
+                <p>Language: English</p>
+                <table class="summary-table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>PART</th>
+                            <th>NARRATOR</th>
+                            <th>LENGTH</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>01</td>
+                            <td>Parts 1 and 2</td>
+                            <td>Jim Locke</td>
+                            <td>00:14:18</td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td>Parts 3 and 4</td>
+                            <td>Jim Locke</td>
+                            <td>00:07:04</td>
+                        </tr>
+                        <tr>
+                            <td>03</td>
+                            <td>Parts 5 and 6</td>
+                            <td>Jim Locke</td>
+                            <td>00:09:26</td>
+                        </tr>
+                    </tbody>
+                </table>
+    </div>
+        <div style="display: inline-block;">
+        <div class="download-options">
+            <h2>Listen or Download (guide)</h2>
+            <ul>
+                <li>Full book (zip file)<a class="download-link" href="#">Download</a></li>
+                <li>Get it on iTunes<a class="download-link rss" href="#">iTunes</a></li>
+                <li>RSS podcast feed<a class="download-link rss" href="#">RSS</a></li>
+                <li>Get a torrent file<a class="download-link" href="#">Torrent</a></li>
+            </ul>
+        </div>
+            <div class="details">
+                <h2>Details of Production</h2>
+                <div class="details-grid">
+                    <div>Total Duration:</div>
+                    <div>02:32:05</div>
+                    <div>Size of zip file:</div>
+                    <div>71MB</div>
+                    <div>Added to catalog:</div>
+                    <div>2018-09-12</div>
+                    <div>Read by:</div>
+                    <div>Jim Locke</div>
+                    <div>Book Managed by:</div>
+                    <div>Jim Locke</div>
+                    <div>Metadata by:</div>
+                    <div>DaveC</div>
+                    <div>Proofread by:</div>
+                    <div>DaveC</div>
+                </div>
+            </div>
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">Internet Archive</a></li>
+                    <li><a href="#">Read online</a></li>
+                    <li><a href="#">Wikipedia - Josephine Brown</a></li>
+                    <li><a href="#">M4B Audiobook (70MB)</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div class="footer">
+        <div class="main">
+            <div>
+                <ul>
+                    <li>Main</li>
+                    <li>Find Segway Trips</li>
+                    <li>View Trips</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>Info on SGT</li>
+                    <li>Segway miniPRO</li>
+                    <li>For Trip Providers</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>Legal Notices</li>
+                    <li>Site Map</li>
+                </ul>
+            </div>
+            <div>Â©2004-2023 SegwayGuidedTours.com</div>
+        </div>
+    </div>
+</body>
+</html>

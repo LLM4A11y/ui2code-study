@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha One Labs</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f8;
+        }
+        .header {
+            background-color: #00695c;
+            color: white;
+            padding: 10px 20px;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header img {
+            background-color: #00237b;
+            width: 50px;
+            height: 50px;
+        }
+        .header-right {
+            display: flex;
+            align-items: center;
+        }
+        .search-bar {
+            background-color: #e0e0e0;
+            border: none;
+            border-radius: 20px;
+            padding: 5px 10px;
+            margin-right: 20px;
+        }
+        .header-icons img {
+            width: 20px;
+            height: 20px;
+            margin: 0 5px;
+        }
+        .header-buttons a {
+            color: black;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+        .header-buttons .login {
+            color: #00695c;
+        }
+        .header-buttons .signup {
+            background-color: #ff7043;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 30px;
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 250px;
+            padding: 20px;
+        }
+        .sidebar h2 {
+            color: #00bfa5;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .sidebar ul li img {
+            width: 15px;
+            height: 15px;
+            margin-right: 5px;
+        }
+        .content {
+            flex-grow: 1;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .content h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .discussion {
+            background-color: #f7f7f8;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .discussion-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .discussion-header img {
+            background-color: #00bfa5;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .discussion-content {
+            margin-left: 50px;
+        }
+        .footer {
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            background-color: #f7f7f8;
+        }
+        .footer div {
+            display: flex;
+            flex-direction: column;
+        }
+        .footer div h3 {
+            margin-bottom: 10px;
+        }
+        .footer img {
+            background-color: #00237b;
+            width: 40px;
+            height: 40px;
+            margin-bottom: 10px;
+        }
+        .newsletter input {
+            padding: 10px;
+            border-radius: 20px;
+            border: none;
+            margin-right: 10px;
+            flex-grow: 1;
+        }
+        .newsletter button {
+            background-color: #00bfa5;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <img src="src/placeholder.jpg" alt="Logo">
+            <span>Alpha One Labs</span>
+        </div>
+        <div class="header-right">
+            <input type="text" class="search-bar" placeholder="What do you want to learn?">
+            <div class="header-icons">
+                <img src="src/placeholder.jpg" alt="Icon">
+                <img src="src/placeholder.jpg" alt="Icon">
+                <img src="src/placeholder.jpg" alt="Icon">
+                <img src="src/placeholder.jpg" alt="Icon">
+                <img src="src/placeholder.jpg" alt="Icon">
+            </div>
+            <div class="header-buttons">
+                <a href="#" class="login">Login</a>
+                <a href="#" class="signup">Signup</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Forum</h2>
+            <p>Join discussions, ask questions, and share knowledge</p>
+            <h3>Categories</h3>
+            <ul>
+                <li><img src="src/placeholder.jpg" alt="Category"> All Categories</li>
+                <li><img src="src/placeholder.jpg" alt="Category"> Category 1</li>
+                <li><img src="src/placeholder.jpg" alt="Category"> Category 2</li>
+            </ul>
+        </aside>
+        <main class="content">
+            <h2>Forum Categories</h2>
+            <p>Browse all categories or select one to see its topics</p>
+            <h3>Recent Discussions</h3>
+            <div class="discussion">
+                <div class="discussion-header">
+                    <img src="src/placeholder.jpg" alt="User">
+                    <div class="discussion-content">
+                        <strong>student5</strong> Â· 19 Stunden, 22 Minuten ago Â· <span style="color: #00bfa5;">Category 1</span>
+                        <h4>Topic 3</h4>
+                        <p>Content for topic 3</p>
+                        <small>0 views Â· 5 replies Â· 0 upvotes Â· 0 downvotes Â· Last reply 19 Stunden, 22 Minuten ago</small>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="footer">
+        <div>
+            <h3>LEARNING</h3>
+            <ul>
+                <li><img src="src/placeholder.jpg" alt="Item"> Courses</li>
+                <li><img src="src/placeholder.jpg" alt="Item"> Subjects</li>
+                <li><img src="src/placeholder.jpg" alt="Item"> Quizzes</li>
+                <li><img src="src/placeholder.jpg" alt="Item"> Videos</li>
+                <li><img src="src/placeholder.jpg" alt="Item"> Challenges</li>
+                <li><img src="src/placeholder.jpg" alt="Item"> Study Groups</li>
+            </ul>
+        </div>
+        <div>
+            <h3>COMMUNITY</h3>
+            <ul>
+                <li><img src="src/placeholder.jpg" alt="Item"> Forum</li>
+                <li><img src="src/placeholder.jpg" alt="Item"> Blog</li>
+                <li><img src="src/placeholder.jpg" alt="Item"> Features</li>
+                <li><img src="src/placeholder.jpg" alt="Item"> Success Stories</li>
+            </ul>
+        </div>
+        <div>
+            <h3>CONNECT WITH US</h3>
+            <img src="src/placeholder.jpg" alt="Social Icon">
+            <img src="src/placeholder.jpg" alt="Social Icon">
+            <img src="src/placeholder.jpg" alt="Social Icon">
+            <img src="src/placeholder.jpg" alt="Social Icon">
+            <img src="src/placeholder.jpg" alt="Social Icon">
+            <div class="newsletter">
+                <h3>SUBSCRIBE TO NEWSLETTER</h3>
+                <input type="email" placeholder="Your email">
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

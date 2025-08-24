@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosebud Treasures</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #333;
+            color: #ddd;
+        }
+        header {
+            background-color: #e0e0d1;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        h1 {
+            font-weight: normal;
+            margin: 0;
+            font-size: 24px;
+        }
+        nav {
+            display: flex;
+            gap: 10px;
+        }
+        nav button {
+            background-color: #f0f0dd;
+            padding: 5px 10px;
+            border: none;
+            font-size: 16px;
+        }
+        .top-bar {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 10px;
+        }
+        .top-bar select, .top-bar a {
+            background-color: #fff;
+            color: #333;
+            padding: 5px 10px;
+            border: none;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #f0f0dd;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .tags {
+            display: flex;
+            gap: 10px;
+            margin: 10px 0 20px;
+        }
+        .tags span {
+            background-color: #555;
+            padding: 5px 10px;
+            color: #f0f0dd;
+            border-radius: 5px;
+        }
+        .content p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .container {
+            background-color: #444;
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 5px;
+            color: #ddd;
+        }
+        .container h3 {
+            color: #f0f0dd;
+            margin: 0 0 10px;
+        }
+        footer {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+            color: #999;
+        }
+        .source img {
+            width: 100%;
+            height: auto;
+        }
+        .orange-bar {
+            height: 5px;
+            background-color: #f60;
+            margin-bottom: 10px;
+        }
+        .comment {
+            background-color: #222;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .button-main {
+            display: block;
+            width: 50%;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #f55044;
+            color: #fff;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rosebud Treasures</h1>
+        <nav>
+            <button>Main</button>
+            <button>About</button>
+            <button>New Arrivals</button>
+            <button>On Sale</button>
+        </nav>
+        <div class="top-bar">
+            <a href="#">Login</a>
+            <label for="currency">Choose currency</label>
+            <select id="currency">
+                <option value="usd">USD</option>
+            </select>
+            <div><img src="src/placeholder.jpg" width="20" height="20" alt="User Icon"></div>
+        </div>
+    </header>
+    <main>
+        <div class="orange-bar"></div>
+        <div class="tags">
+            <span>Automation</span>
+            <span>Swift</span>
+            <span>Quick Tips</span>
+        </div>
+        <h2>Easy Swift Script Reloading</h2>
+        <div class="content">
+            <p>I was working on a <a href="#">Swift script</a> that needed to stay running, so I added a loop to avoid interruptions. <em>Always on!</em></p>
+            <p>My solution used a <code>while</code> loop with <code>Process</code> instances to re-run the code. <strong>Script inception!</strong></p>
+            <p>I realized this setup could be used as a basic hot-reloading tool for script development.</p>
+            <div class="comment"><code>let refresh = "refresh" if Process.arguments.contains(refresh) { while true { let task = Process() task.executableURL = URL(fileURLWithPath: Process.arguments[0]) task.arguments = Process.arguments.dropFirst().filter { $0 != refresh } try? task.run() task.waitUntilExit() } }</code></div> 
+            <p>You can then launch it from the terminal:</p>
+            <p><code>main.swift refresh more arguments</code> Once active, edit and save; the next run includes changes. Compile errors? No problem, the prior code stays in memory and retries.</p>
+            <p>It's not perfect and console output may be noisy, but I've found it handy for iterative development of small scripts.</p>
+            <p>Remember to use <a href="#">signal handlers</a> to properly terminate the script when necessary.</p>
+        </div>
+        <a href="#" class="button-main">Support with coffee</a>
+        <div class="container">
+            <h3>More to Explore</h3>
+            <div class="source">
+                <div><img src="src/placeholder.jpg" alt="Next Post Image"></div>
+                <p><span>Next Post</span><br>Clean code with closures<br>June 10, 2024</p>
+            </div>
+            <div class="source">
+                <div><img src="src/placeholder.jpg" alt="Previous Post Image"></div>
+                <p><span>Previous Post</span><br>Handling OS signals in Swift.<br>May 20, 2024</p>
+            </div>
+        </div>
+        <div class="container">
+            <h3>Similar Posts</h3>
+            <div class="source">
+                <div><img src="src/placeholder.jpg" alt="Similar Post Image"></div>
+                <p><span>Tagged Swift</span><br>SwiftUI modifiers for older versions<br>October 22, 2024</p>
+            </div>
+            <div class="source">
+                <div><img src="src/placeholder.jpg" alt="Similar Post Image"></div>
+                <p><span>Tagged Automation</span><br>Swift tool for Reminders lists<br>May 10, 2024</p>
+            </div>
+            <div class="source">
+                <div><img src="src/placeholder.jpg" alt="Similar Post Image"></div>
+                <p><span>Tagged Quick Tips</span><br>Swift: Prefix tests<br>March 20, 2024</p>
+            </div>
+        </div>
+        <h3>Article Tags</h3>
+        <div class="tags">
+            <span>Automation</span>
+            <span>Swift</span>
+            <span>Quick Tips</span>
+        </div>
+    </main>
+    <footer>
+        <p>lisa@lisamooredesign.com</p>
+    </footer>
+</body>
+</html>

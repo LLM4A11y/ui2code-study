@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha One Labs Forum</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        /* Header */
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .header input[type="text"] {
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .header button {
+            background-color: #ffa500;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .header-right {
+            display: flex;
+            align-items: center;
+        }
+        .header-right a {
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        /* Main Content */
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+
+        /* Forum Sidebar */
+        .forum-sidebar {
+            width: 20%;
+            padding-right: 20px;
+        }
+
+        .forum-sidebar h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .forum-sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .forum-sidebar li {
+            margin-bottom: 5px;
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 5px;
+        }
+
+        .forum-sidebar li:hover {
+            background-color: #e9ecef;
+        }
+        .forum-sidebar li.active {
+            background-color: #e9ecef;
+        }
+        .forum-sidebar .categories {
+            margin-top: 20px;
+        }
+
+        /* Forum Content */
+        .forum-content {
+            width: 80%;
+        }
+        .forum-content h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .recent-discussions {
+            margin-top: 20px;
+        }
+        .discussion-item {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .discussion-item h3 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        .discussion-item p {
+            color: #6c757d;
+        }
+        .discussion-meta {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 10px;
+            color: #6c757d;
+            font-size: 12px;
+        }
+        .discussion-meta span {
+            margin-right: 10px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #f9f9f9;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            border-top: 1px solid #dee2e6;
+        }
+
+        .footer-section {
+            width: 25%;
+        }
+
+        .footer-section h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer-section li {
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+        .footer-section li:hover {
+            text-decoration: underline;
+        }
+        .connect-with-us > div{
+            display: flex;
+            justify-content: flex-start;
+        }
+        .connect-with-us > div > div {
+            background-color: #007bff;
+            height: 30px;
+            width: 30px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .newsletter-form {
+            display: flex;
+        }
+
+        .newsletter-form input[type="email"] {
+            padding: 8px;
+            border: 1px solid #ced4da;
+            border-radius: 5px 0 0 5px;
+            width: 70%;
+        }
+
+        .newsletter-form button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+        .category-item {
+            display: flex;
+            justify-content: space-between;
+        }
+        .category-item:hover{
+            background-color: #e9ecef;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Alpha One Labs</h1>
+        <input type="text" placeholder="What do you want to learn?">
+            <div class="header-right">
+                <a href="#">Login</a>
+                <button>Signup</button>
+            </div>
+    </header>
+
+    <div class="container">
+        <aside class="forum-sidebar">
+            <h2>Forum</h2>
+            <p>Join discussions, ask questions, and share knowledge</p>
+
+            <div class="categories">
+                <h3>CATEGORIES</h3>
+                <ul>
+                    <li class="active">â  All Categories</li>
+                    <li class="category-item">
+                         â  Category 1
+                         <span>3</span>
+                    </li>
+                    <li class="category-item">
+                         â  Category 2
+                        <span>3</span>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="forum-content">
+            <h2>Forum Categories</h2>
+            <p>Browse all categories or select one to see its topics</p>
+
+            <section class="recent-discussions">
+                <h3>Recent Discussions</h3>
+                <div class="discussion-item">
+                   <div style="display: flex; align-items: center; margin-bottom: 10px">
+                       <div style="background-color: #b0e2e6; width: 30px; height: 30px; border-radius: 50%; display: flex; justify-content: center; align-items: center; color: #333; font-weight: bold; margin-right: 10px">S</div>
+                       <div>
+                           <b>student5</b> â¢ 19 Stunden, 22 Minuten ago â¢ <a href="#" style="color: #007bff; text-decoration: none">Category 1</a>
+                       </div>
+                   </div>
+                    <h3>Topic 3</h3>
+                    <p>Content for topic 3</p>
+                    <div class="discussion-meta">
+                        <span>â 0 views</span>
+                        <span>â 5 replies</span>
+                        <span>â 0 upvotes</span>
+                        <span>â 0 downvotes</span>
+                        <span>â Last reply 19 Stunden, 22 Minuten ago</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-section">
+            <h3>LEARNING</h3>
+            <ul>
+                <li>â Courses</li>
+                <li>â Subjects</li>
+                <li>â Quizzes</li>
+                <li>â Videos</li>
+                <li>â Challenges</li>
+                <li>â Study Groups</li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>COMMUNITY</h3>
+            <ul>
+                <li>â Forum</li>
+                <li>â Blog</li>
+                <li>â Features</li>
+                <li>â Success Stories</li>
+            </ul>
+        </div>
+
+        <div class="footer-section connect-with-us">
+            <h3>CONNECT WITH US</h3>
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <p>SUBSCRIBE TO NEWSLETTER</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email">
+                <button type="submit">â</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>

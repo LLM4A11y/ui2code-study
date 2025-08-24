@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 20px;
+        }
+
+        aside {
+            padding: 20px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px 20px;
+        }
+
+        .header a {
+            color: #333;
+            text-decoration: none;
+            margin-left: 15px;
+            font-size: 14px;
+        }
+
+
+        /* Sidebar Styles */
+        .about-me {
+            margin-bottom: 20px;
+        }
+
+        .about-me img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .about-me h2 {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+
+        .about-me p {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        /* Main Content Styles */
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .date {
+            font-size: 0.8em;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .share {
+            color: #28a745;
+            font-size: 0.8em;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* Article Styles */
+        .article {
+            margin-bottom: 30px;
+        }
+
+        .article h2 {
+            font-size: 1.4em;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+
+        .article .date {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .read-more {
+            color: #28a745;
+            font-size: 0.8em;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-top: 1px solid #dee2e6;
+        }
+
+        /* Custom Styles */
+        .blue-circle {
+            width: 80px;
+            height: 80px;
+            background-color: blue;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: white;
+        }
+
+        .main-header {
+            background-color: #2A9D8F;
+            padding: 20px;
+        }
+
+        .main-header-container {
+            max-width: 700px;
+        }
+
+        .view-profile {
+            color: #007bff;
+            font-size: 0.9em;
+        }
+
+        .report-abuse {
+            color: #007bff;
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+
+        .date {
+            margin-bottom: 20px;
+        }
+
+        .content-area {
+            max-width: 700px;
+        }
+
+        .sidebar-container {
+            max-width: 250px;
+        }
+
+        /* Placeholder Image Style */
+        .placeholder-image {
+            width: 250px;
+            height: 150px;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <a href="#">Talk</a>
+        <a href="#">Contributions</a>
+        <a href="#">Sign in</a>
+    </div>
+    <div class="container">
+        <aside>
+            <div class="sidebar-container">
+                <div class="about-me">
+                    <div class="blue-circle"></div>
+                    <h2>Ben Carter</h2>
+                    <p>Google Apps enthusiast, web development hobbyist</p>
+                    <a href="#" class="view-profile">VIEW PROFILE</a>
+                </div>
+                <a href="#" class="report-abuse">Report Abuse</a>
+            </div>
+        </aside>
+        <main>
+            <div class="main-header">
+                <div class="main-header-container">
+                    <h1>A Solution for Uploading Videos to YouTube when the Site is Restricted</h1>
+                </div>
+            </div>
+            <div class="content-area">
+                <div class="date">July 25, 2007</div>
+                <p>
+                    David, who is employed by a major global corporation, recently posted on a social network that he's
+                    unable to upload video content to YouTube because his employer blocks YouTube and similar video
+                    platforms via their network security measures.
+                </p>
+                <p>
+                    One potential solution involves utilizing your <a href="#">smartphone</a> for uploading to YouTube.
+                    Simply set up a mobile account on YouTube from a personal computer outside of your company's
+                    network and then send your video to YouTube as an MMS message.
+                </p>
+                <p>
+                    See also: <a href="#">How to Reach Restricted Websites</a>
+                </p>
+                <p>
+                    A second, more adaptable solution, is a service such as <a href="#">MultiStream</a> - which enables
+                    you to upload the same video to multiple platforms simultaneously.
+                </p>
+                <p>
+                    You would upload your file to MultiStream's servers, and they handle posting to various video
+                    websites, like YouTube, Vimeo, Dailymotion, Facebook, etc.
+                </p>
+                <p>
+                    It is likely that MultiStream's website isn't blocked by your company - they will email you
+                    confirmation upon successfully publishing your clip to your selected services.
+                </p>
+                <div class="share">SHARE</div>
+                <br>
+                <p>Most read articles from this blog</p>
+                <div class="article">
+                    <h2>How to Export Facebook Contacts Into an Outlook Address Book</h2>
+                    <div class="date">October 15, 2007</div>
+                    <p>Many Facebook users dislike its restrictive approach. While you can easily import contacts from
+                        Outlook or GMail to Facebook, the opposite isn't ...</p>
+                    <div>
+                        <div class="share">SHARE</div>
+                        <div class="read-more">READ MORE</div>
+                    </div>
+                </div>
+                <div class="article">
+                    <h2>How to Set Up a Custom Firefox Search Tool in Under 2 Minutes</h2>
+                    <div class="date">September 23, 2006</div>
+                    <p>Most sites offer search boxes, allowing you to enter text and search content. The problem with
+                        this is you must first load the website to find the search box. ...</p>
+                    <div>
+                        <div class="share">SHARE</div>
+                        <div class="read-more">READ MORE</div>
+                    </div>
+                </div>
+                <div class="placeholder-image"></div>
+                <div class="article">
+                    <h2>Tech Blog</h2>
+                    <div class="date">October 25, 2007</div>
+                    <p>Tech Blog is a blog by Ben Carter. We cover topics such as Google Apps Scripts including Gmail
+                        utilities (personalized emails), and Document ...</p>
+                    <div>
+                        <div class="share">SHARE</div>
+                        <div class="read-more">READ MORE</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

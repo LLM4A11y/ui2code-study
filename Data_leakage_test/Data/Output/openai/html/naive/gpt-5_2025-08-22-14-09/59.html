@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customer Registration</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blue:#0d6efd;
+    --nav-blue:#0e6bff;
+    --text:#1f2937;
+    --muted:#6b7280;
+    --border:#d9dfe6;
+    --hr:#e6e8eb;
+    --bg:#f5f7fb;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);
+    color:var(--text);
+  }
+
+  /* NAVBAR */
+  .navbar{
+    height:64px;
+    background:var(--blue);
+    display:flex;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:10;
+    box-shadow:0 1px 0 rgba(255,255,255,0.08) inset;
+  }
+  .nav-inner{
+    width:1120px;
+    max-width:92%;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    gap:28px;
+  }
+  .brand{
+    font-weight:700;
+    font-size:22px;
+    letter-spacing:.2px;
+    color:#fff;
+    margin-right:8px;
+    white-space:nowrap;
+  }
+  .brand .vora{color:#b9d4ff}
+  .nav-links{
+    display:flex;
+    align-items:center;
+    gap:26px;
+    margin-right:auto;
+  }
+  .nav-link{
+    color:#fff;
+    text-decoration:none;
+    font-weight:500;
+    font-size:16px;
+    opacity:.95;
+  }
+  .nav-link.dropdown::after{
+    content:" â¾";
+    font-weight:600;
+    margin-left:6px;
+  }
+
+  .search{
+    margin-left:auto;
+    margin-right:22px;
+  }
+  .search input{
+    width:260px;
+    height:36px;
+    border-radius:6px;
+    border:1px solid rgba(0,0,0,0.15);
+    padding:0 14px;
+    font-size:15px;
+    outline:none;
+    background:#fff;
+  }
+  .auth a{
+    color:#fff;
+    text-decoration:none;
+    font-weight:600;
+    margin-left:26px;
+    font-size:16px;
+  }
+
+  /* MAIN */
+  .page{
+    width:1120px;
+    max-width:92%;
+    margin:28px auto 80px;
+  }
+  h1{
+    font-size:34px;
+    margin:16px 0 14px;
+    font-weight:700;
+    color:#1a1f28;
+  }
+  .rule{
+    height:1px;background:var(--hr);width:700px;max-width:100%;
+  }
+
+  .card{
+    width:700px;
+    max-width:100%;
+    background:#fff;
+    margin-top:24px;
+    border:1px solid #eef0f3;
+    border-radius:4px;
+    box-shadow:0 20px 38px rgba(0,0,0,0.08);
+    padding:28px 48px 34px;
+  }
+  .form-row{
+    margin-bottom:18px;
+  }
+  label{
+    display:block;
+    font-weight:600;
+    color:#374151;
+    margin-bottom:8px;
+  }
+  .input{
+    width:100%;
+    height:42px;
+    border:1px solid var(--border);
+    border-radius:6px;
+    padding:0 14px;
+    font-size:15px;
+    color:#111827;
+    outline:none;
+    background:#fff;
+  }
+  .input::placeholder{color:#9aa3ad}
+  .actions{
+    display:flex;
+    align-items:center;
+    gap:22px;
+    margin-top:8px;
+  }
+  .btn{
+    background:var(--blue);
+    color:#fff;
+    font-weight:700;
+    border:none;
+    padding:10px 18px;
+    border-radius:6px;
+    font-size:15px;
+    cursor:pointer;
+    box-shadow:0 1px 0 rgba(255,255,255,0.2) inset;
+  }
+  .small-note{
+    font-size:14px;
+  }
+  .small-note .blue{color:#0b5ed7;font-weight:700}
+  .small-note .red{color:#d51d1d;font-weight:700;text-decoration:underline}
+</style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-inner">
+      <div class="brand">Shop<span class="vora">Vora</span></div>
+      <nav class="nav-links">
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link dropdown" href="#">Electronics</a>
+        <a class="nav-link dropdown" href="#">Fashion</a>
+      </nav>
+      <div class="search">
+        <input type="text" placeholder="Search">
+      </div>
+      <div class="auth">
+        <a href="#">Login</a>
+        <a href="#">Registration</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <h1>Customer Registration</h1>
+    <div class="rule"></div>
+
+    <section class="card">
+      <div class="form-row">
+        <label>Username:</label>
+        <input class="input" type="text" placeholder="Username">
+      </div>
+      <div class="form-row">
+        <label>Email:</label>
+        <input class="input" type="email" placeholder="Email">
+      </div>
+      <div class="form-row">
+        <label>Password:</label>
+        <input class="input" type="password" placeholder="Password">
+      </div>
+      <div class="form-row">
+        <label>Confirm Password (again):</label>
+        <input class="input" type="password" placeholder="Confirm Password (again)">
+      </div>
+      <div class="actions">
+        <button class="btn">Submit</button>
+        <div class="small-note">
+          <span class="blue">Existing User?</span>
+          <a class="red" href="#">Login Now</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

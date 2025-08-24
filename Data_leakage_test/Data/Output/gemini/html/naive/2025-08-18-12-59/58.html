@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopVora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header */
+        .header {
+            background-color: #0d6efd;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-left h1 {
+            margin: 0;
+            margin-right: 20px;
+            font-size: 24px;
+        }
+
+        .header-menu {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .header-menu li {
+            margin-right: 15px;
+        }
+
+        .header-menu li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-box {
+            margin-right: 15px;
+        }
+
+        .search-box input[type="text"] {
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .header-right a {
+            color: white;
+            text-decoration: none;
+            margin-left: 15px;
+        }
+
+        /* Main Content */
+        .main-content {
+            display: flex;
+            padding: 20px;
+        }
+
+        .sidebar {
+            width: 200px;
+            margin-right: 20px;
+        }
+
+        .sidebar-menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            border: 1px solid #ddd;
+        }
+
+        .sidebar-menu li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            cursor: pointer;
+        }
+
+        .sidebar-menu li:last-child {
+            border-bottom: none;
+        }
+
+        .content {
+            flex: 1;
+        }
+        .content-row {
+            display: flex;
+            gap: 20px;
+        }
+
+        .mobile-item {
+            text-align: center;
+        }
+        .mobile-image {
+            width: 300px;
+            height: 200px;
+            background-color: #0d6efd;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .copyright {
+            margin-bottom: 20px;
+        }
+        .footer-image {
+            width: 150px;
+            height: 150px;
+            background-color: #0d6efd;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <h1>ShopVora</h1>
+            <ul class="header-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Electronics</a></li>
+                <li><a href="#">Fashion</a></li>
+            </ul>
+        </div>
+        <div class="header-right">
+            <div class="search-box">
+                <input type="text" placeholder="Search">
+            </div>
+            <a href="#">Login</a>
+            <a href="#">Registration</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="sidebar">
+            <ul class="sidebar-menu">
+                <li>All Mobile</li>
+                <li>Apple</li>
+                <li>Xiaomi</li>
+                <li>Samsung</li>
+                <li>Below 15000</li>
+                <li>Above 15000</li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="content-row">
+                <div class="mobile-item">
+                    <div class="mobile-image"></div>
+                    <h3>Mobile 1</h3>
+                    <p>66155.0 TL <s>68999.0</s></p>
+                </div>
+                <div class="mobile-item">
+                    <div class="mobile-image"></div>
+                    <h3>Mobile 2</h3>
+                    <p>33499.0 TL <s>34999.0</s></p>
+                </div>
+                <div class="mobile-item">
+                    <div class="mobile-image"></div>
+                    <h3>Mobile 3</h3>
+                    <p>8820.0 TL <s>9000.0</s></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="copyright">Copyright Â© 2025 || Re-edited by NuranFerhan ||</div>
+        <div class="footer-image"></div>
+    </div>
+</body>
+</html>

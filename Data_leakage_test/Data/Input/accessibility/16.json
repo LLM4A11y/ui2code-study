@@ -1,0 +1,2705 @@
+{
+  "manual": {
+    "checks": {
+      "1.4.4": "tbd",
+      "1.4.10": "tbd",
+      "1.4.12": "tbd",
+      "2.1.1+2.1.2": "tbd",
+      "2.4.3": "tbd",
+      "2.4.6": "tbd",
+      "2.4.7": "tbd"
+    }
+  },
+  "automatic": [
+    {
+      "wcag_id": [
+        "Principle1.Guideline1_4.1_4_3.G18",
+        "Principle1.Guideline1_4.1_4_3.G18.Fail",
+        "Principle1.Guideline1_4.1_4_3.G145",
+        "Principle1.Guideline1_4.1_4_3.G145.Fail",
+        "Principle1.Guideline1_4.1_4_6.G17",
+        "Principle1.Guideline1_4.1_4_6.G18"
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+        "https://dequeuniversity.com/rules/axe/4.10/color-contrast-enhanced"
+      ],
+      "impact": "serious",
+      "name": "Color Contrast; Text;",
+      "amount_nodes_failed": 7,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#79585b",
+                  "bgColor": "#f0d5c9",
+                  "contrastRatio": 4.48,
+                  "fontSize": "15.0pt (20px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<aside class=\"social-links\">\n<h3>\n        Stay Connected\n       </h3>\n<a class=\"social-facebook\" href=\"#\" title=\"Facebook\">\n</a>\n<a class=\"social-pinterest\" href=\"#\" title=\"Pinterest\">\n</a>\n<a class=\"social-instagram\" href=\"#\" title=\"Instagram\">\n</a>\n</aside>",
+                    "target": [
+                      ".social-links"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 4.48 (foreground color: #79585b, background color: #f0d5c9, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<h3>\n        Stay Connected\n       </h3>",
+            "target": [
+              ".social-links > h3"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.48 (foreground color: #79585b, background color: #f0d5c9, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#5e74a2",
+                  "bgColor": "#0e0c0d",
+                  "contrastRatio": 4.17,
+                  "fontSize": "12.0pt (16px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<footer class=\"footer main-border-top\" style=\"color=\" #ff3d15\"=\"\">",
+                    "target": [
+                      "footer"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 4.17 (foreground color: #5e74a2, background color: #0e0c0d, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"#\">\n      RSS\n    </a>",
+            "target": [
+              "p:nth-child(1) > a"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #5e74a2, background color: #0e0c0d, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#5e74a2",
+                  "bgColor": "#0e0c0d",
+                  "contrastRatio": 4.17,
+                  "fontSize": "12.0pt (16px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<footer class=\"footer main-border-top\" style=\"color=\" #ff3d15\"=\"\">",
+                    "target": [
+                      "footer"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 4.17 (foreground color: #5e74a2, background color: #0e0c0d, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"#\">\n        user123\n      </a>",
+            "target": [
+              ".nowrap:nth-child(1) > a"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #5e74a2, background color: #0e0c0d, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#5e74a2",
+                  "bgColor": "#0e0c0d",
+                  "contrastRatio": 4.17,
+                  "fontSize": "12.0pt (16px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<footer class=\"footer main-border-top\" style=\"color=\" #ff3d15\"=\"\">",
+                    "target": [
+                      "footer"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 4.17 (foreground color: #5e74a2, background color: #0e0c0d, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"#\" rel=\"me\">\n        user123\n      </a>",
+            "target": [
+              "a[rel=\"me\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #5e74a2, background color: #0e0c0d, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#5e74a2",
+                  "bgColor": "#0e0c0d",
+                  "contrastRatio": 4.17,
+                  "fontSize": "12.0pt (16px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<footer class=\"footer main-border-top\" style=\"color=\" #ff3d15\"=\"\">",
+                    "target": [
+                      "footer"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 4.17 (foreground color: #5e74a2, background color: #0e0c0d, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"#\">\n        user123\n      </a>",
+            "target": [
+              ".nowrap:nth-child(3) > a"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #5e74a2, background color: #0e0c0d, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#5e74a2",
+                  "bgColor": "#0e0c0d",
+                  "contrastRatio": 4.17,
+                  "fontSize": "12.0pt (16px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<footer class=\"footer main-border-top\" style=\"color=\" #ff3d15\"=\"\">",
+                    "target": [
+                      "footer"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 4.17 (foreground color: #5e74a2, background color: #0e0c0d, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"#\">\n      StaticSite\n    </a>",
+            "target": [
+              "p:nth-child(3) > a"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #5e74a2, background color: #0e0c0d, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#150d0d",
+                  "bgColor": "#0e0c0d",
+                  "contrastRatio": 1.01,
+                  "fontSize": "12.0pt (16px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<footer class=\"footer main-border-top\" style=\"color=\" #ff3d15\"=\"\">",
+                    "target": [
+                      "footer"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 1.01 (foreground color: #150d0d, background color: #0e0c0d, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"buka-pintu\" href=\"#\">\n    Open Sesame\n  </a>",
+            "target": [
+              ".buka-pintu"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.01 (foreground color: #150d0d, background color: #0e0c0d, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #585858.",
+          "description": "<h3>\n        Stay Connected\n       </h3>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #585858.",
+            "context": "<h3>\n        Stay Connected\n       </h3>",
+            "selector": "#sidebar > aside:nth-child(2) > h3",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.17:1. Recommendation:  change text colour to #fbfcff.",
+          "description": "<a href=\"#\">\n      RSS\n    </a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.17:1. Recommendation:  change text colour to #fbfcff.",
+            "context": "<a href=\"#\">\n      RSS\n    </a>",
+            "selector": "#shopify-section-footer > footer > p:nth-child(1) > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.17:1. Recommendation:  change text colour to #fbfcff.",
+          "description": "<a href=\"#\">\n        user123\n      </a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.17:1. Recommendation:  change text colour to #fbfcff.",
+            "context": "<a href=\"#\">\n        user123\n      </a>",
+            "selector": "#shopify-section-footer > footer > p:nth-child(2) > span:nth-child(1) > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.17:1. Recommendation:  change text colour to #fbfcff.",
+          "description": "<a href=\"#\" rel=\"me\">\n        user123\n      </a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.17:1. Recommendation:  change text colour to #fbfcff.",
+            "context": "<a href=\"#\" rel=\"me\">\n        user123\n      </a>",
+            "selector": "#shopify-section-footer > footer > p:nth-child(2) > span:nth-child(2) > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.17:1. Recommendation:  change text colour to #fbfcff.",
+          "description": "<a href=\"#\">\n        user123\n      </a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.17:1. Recommendation:  change text colour to #fbfcff.",
+            "context": "<a href=\"#\">\n        user123\n      </a>",
+            "selector": "#shopify-section-footer > footer > p:nth-child(2) > span:nth-child(3) > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.17:1. Recommendation:  change text colour to #fbfcff.",
+          "description": "<a href=\"#\">\n      StaticSite\n    </a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.17:1. Recommendation:  change text colour to #fbfcff.",
+            "context": "<a href=\"#\">\n      StaticSite\n    </a>",
+            "selector": "#shopify-section-footer > footer > p:nth-child(3) > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-0-A",
+              "path": "1,HTML,2,BODY,3,DIV,0,FOOTER,0,P,1,A",
+              "selector": "div#shopify-section-footer > footer.footer > p > a",
+              "boundingRect": {
+                "top": 3215,
+                "bottom": 3233,
+                "left": 24,
+                "right": 52,
+                "width": 28,
+                "height": 18
+              },
+              "snippet": "<a href=\"#\">",
+              "nodeLabel": "RSS",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #5e74a2, background color: #0e0c0d, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-1-FOOTER",
+                    "path": "1,HTML,2,BODY,3,DIV,0,FOOTER",
+                    "selector": "body#index > div#shopify-section-footer > footer.footer",
+                    "boundingRect": {
+                      "top": 3164,
+                      "bottom": 3417,
+                      "left": 0,
+                      "right": 412,
+                      "width": 412,
+                      "height": 253
+                    },
+                    "snippet": "<footer class=\"footer main-border-top\" style=\"color=\" #ff3d15\"=\"\">",
+                    "nodeLabel": "RSS\n\nuser123 | user123 | user123\n\nGenerated using StaticSite\n\nOpen Sesame"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-2-A",
+              "path": "1,HTML,2,BODY,3,DIV,0,FOOTER,1,P,0,SPAN,1,A",
+              "selector": "footer.footer > p > span.nowrap > a",
+              "boundingRect": {
+                "top": 3264,
+                "bottom": 3282,
+                "left": 24,
+                "right": 79,
+                "width": 55,
+                "height": 18
+              },
+              "snippet": "<a href=\"#\">",
+              "nodeLabel": "user123 ",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #5e74a2, background color: #0e0c0d, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-1-FOOTER",
+                    "path": "1,HTML,2,BODY,3,DIV,0,FOOTER",
+                    "selector": "body#index > div#shopify-section-footer > footer.footer",
+                    "boundingRect": {
+                      "top": 3164,
+                      "bottom": 3417,
+                      "left": 0,
+                      "right": 412,
+                      "width": 412,
+                      "height": 253
+                    },
+                    "snippet": "<footer class=\"footer main-border-top\" style=\"color=\" #ff3d15\"=\"\">",
+                    "nodeLabel": "RSS\n\nuser123 | user123 | user123\n\nGenerated using StaticSite\n\nOpen Sesame"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-3-A",
+              "path": "1,HTML,2,BODY,3,DIV,0,FOOTER,1,P,2,SPAN,1,A",
+              "selector": "footer.footer > p > span.nowrap > a",
+              "boundingRect": {
+                "top": 3264,
+                "bottom": 3282,
+                "left": 86,
+                "right": 141,
+                "width": 55,
+                "height": 18
+              },
+              "snippet": "<a href=\"#\" rel=\"me\">",
+              "nodeLabel": "user123 ",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #5e74a2, background color: #0e0c0d, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-1-FOOTER",
+                    "path": "1,HTML,2,BODY,3,DIV,0,FOOTER",
+                    "selector": "body#index > div#shopify-section-footer > footer.footer",
+                    "boundingRect": {
+                      "top": 3164,
+                      "bottom": 3417,
+                      "left": 0,
+                      "right": 412,
+                      "width": 412,
+                      "height": 253
+                    },
+                    "snippet": "<footer class=\"footer main-border-top\" style=\"color=\" #ff3d15\"=\"\">",
+                    "nodeLabel": "RSS\n\nuser123 | user123 | user123\n\nGenerated using StaticSite\n\nOpen Sesame"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-4-A",
+              "path": "1,HTML,2,BODY,3,DIV,0,FOOTER,1,P,4,SPAN,1,A",
+              "selector": "footer.footer > p > span.nowrap > a",
+              "boundingRect": {
+                "top": 3264,
+                "bottom": 3282,
+                "left": 148,
+                "right": 198,
+                "width": 51,
+                "height": 18
+              },
+              "snippet": "<a href=\"#\">",
+              "nodeLabel": "user123",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #5e74a2, background color: #0e0c0d, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-1-FOOTER",
+                    "path": "1,HTML,2,BODY,3,DIV,0,FOOTER",
+                    "selector": "body#index > div#shopify-section-footer > footer.footer",
+                    "boundingRect": {
+                      "top": 3164,
+                      "bottom": 3417,
+                      "left": 0,
+                      "right": 412,
+                      "width": 412,
+                      "height": 253
+                    },
+                    "snippet": "<footer class=\"footer main-border-top\" style=\"color=\" #ff3d15\"=\"\">",
+                    "nodeLabel": "RSS\n\nuser123 | user123 | user123\n\nGenerated using StaticSite\n\nOpen Sesame"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-5-A",
+              "path": "1,HTML,2,BODY,3,DIV,0,FOOTER,2,P,1,A",
+              "selector": "div#shopify-section-footer > footer.footer > p > a",
+              "boundingRect": {
+                "top": 3314,
+                "bottom": 3332,
+                "left": 132,
+                "right": 194,
+                "width": 61,
+                "height": 18
+              },
+              "snippet": "<a href=\"#\">",
+              "nodeLabel": "StaticSite",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.17 (foreground color: #5e74a2, background color: #0e0c0d, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-1-FOOTER",
+                    "path": "1,HTML,2,BODY,3,DIV,0,FOOTER",
+                    "selector": "body#index > div#shopify-section-footer > footer.footer",
+                    "boundingRect": {
+                      "top": 3164,
+                      "bottom": 3417,
+                      "left": 0,
+                      "right": 412,
+                      "width": 412,
+                      "height": 253
+                    },
+                    "snippet": "<footer class=\"footer main-border-top\" style=\"color=\" #ff3d15\"=\"\">",
+                    "nodeLabel": "RSS\n\nuser123 | user123 | user123\n\nGenerated using StaticSite\n\nOpen Sesame"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-6-A",
+              "path": "1,HTML,2,BODY,3,DIV,0,FOOTER,3,A",
+              "selector": "body#index > div#shopify-section-footer > footer.footer > a.buka-pintu",
+              "boundingRect": {
+                "top": 3364,
+                "bottom": 3382,
+                "left": 24,
+                "right": 112,
+                "width": 88,
+                "height": 18
+              },
+              "snippet": "<a class=\"buka-pintu\" href=\"#\">",
+              "nodeLabel": "Open Sesame",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.01 (foreground color: #150d0d, background color: #0e0c0d, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-1-FOOTER",
+                    "path": "1,HTML,2,BODY,3,DIV,0,FOOTER",
+                    "selector": "body#index > div#shopify-section-footer > footer.footer",
+                    "boundingRect": {
+                      "top": 3164,
+                      "bottom": 3417,
+                      "left": 0,
+                      "right": 412,
+                      "width": 412,
+                      "height": 253
+                    },
+                    "snippet": "<footer class=\"footer main-border-top\" style=\"color=\" #ff3d15\"=\"\">",
+                    "nodeLabel": "RSS\n\nuser123 | user123 | user123\n\nGenerated using StaticSite\n\nOpen Sesame"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        "Principle1.Guideline1_3.1_3_1.H42.2",
+        "Principle1.Guideline1_3.1_3_1.G141"
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one",
+        "https://dequeuniversity.com/rules/axe/4.10/heading-order",
+        "https://dequeuniversity.com/rules/axe/4.10/empty-heading"
+      ],
+      "impact": "moderate",
+      "name": "Headings; Wrong Order, Empty & Missing Headings;",
+      "amount_nodes_failed": 6,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/empty-heading",
+          "source": "axe-core",
+          "title": "Headings should not be empty",
+          "description": "Ensure headings have discernible text",
+          "impact": "minor",
+          "nodes": {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element does not have text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element has no title attribute"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "minor",
+            "html": "<h5 style=\"text-align: center;\">\n<span style=\"color: #666666;\">\n<strong>\n</strong>\n</span>\n</h5>",
+            "target": [
+              ".rte > h5"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/empty-heading",
+          "source": "axe-core",
+          "title": "Headings should not be empty",
+          "description": "Ensure headings have discernible text",
+          "impact": "minor",
+          "nodes": {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element does not have text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element has no title attribute"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "minor",
+            "html": "<h5>\n<span>\n<strong>\n</strong>\n</span>\n</h5>",
+            "target": [
+              "div:nth-child(4) > h5:nth-child(3)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/empty-heading",
+          "source": "axe-core",
+          "title": "Headings should not be empty",
+          "description": "Ensure headings have discernible text",
+          "impact": "minor",
+          "nodes": {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element does not have text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element has no title attribute"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "minor",
+            "html": "<h5 style=\"text-align: center;\">\n</h5>",
+            "target": [
+              "h5:nth-child(4)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/empty-heading",
+          "source": "axe-core",
+          "title": "Headings should not be empty",
+          "description": "Ensure headings have discernible text",
+          "impact": "minor",
+          "nodes": {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element does not have text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "minor",
+                "message": "Element has no title attribute"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "minor",
+            "html": "<h5 style=\"text-align: center;\">\n<span>\n<strong>\n</strong>\n</span>\n</h5>",
+            "target": [
+              "h5:nth-child(5)"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/heading-order",
+          "source": "axe-core",
+          "title": "Heading levels should only increase by one",
+          "description": "Ensure the order of headings is semantically correct",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "heading-order",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Heading order invalid"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<h3>\n        Stay Connected\n       </h3>",
+            "target": [
+              ".social-links > h3"
+            ],
+            "failureSummary": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/heading-order",
+          "source": "axe-core",
+          "title": "Heading levels should only increase by one",
+          "description": "Ensure the order of headings is semantically correct",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "heading-order",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Heading order invalid"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<h5 style=\"text-align: center;\">\n<span style=\"color: #666666;\">\n<strong>\n</strong>\n</span>\n</h5>",
+            "target": [
+              ".rte > h5"
+            ],
+            "failureSummary": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_3.1_3_1.H42.2",
+          "source": "pa11y",
+          "title": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.",
+          "description": "<h5 style=\"text-align: center;\">\n<span style=\"color: #666666;\">...</h5>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42.2",
+            "type": "error",
+            "typeCode": 1,
+            "message": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.",
+            "context": "<h5 style=\"text-align: center;\">\n<span style=\"color: #666666;\">...</h5>",
+            "selector": "#shopify-section-1495738194028 > div > div > div > h5",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_3.1_3_1.H42.2",
+          "source": "pa11y",
+          "title": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.",
+          "description": "<h5>\n<span>\n<strong>\n</strong>\n</sp...</h5>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42.2",
+            "type": "error",
+            "typeCode": 1,
+            "message": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.",
+            "context": "<h5>\n<span>\n<strong>\n</strong>\n</sp...</h5>",
+            "selector": "#shopify-section-1495738194028 > div > div > div > div:nth-child(4) > h5:nth-child(3)",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_3.1_3_1.H42.2",
+          "source": "pa11y",
+          "title": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.",
+          "description": "<h5 style=\"text-align: center;\">\n</h5>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42.2",
+            "type": "error",
+            "typeCode": 1,
+            "message": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.",
+            "context": "<h5 style=\"text-align: center;\">\n</h5>",
+            "selector": "#shopify-section-1495738194028 > div > div > div > div:nth-child(4) > h5:nth-child(4)",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_3.1_3_1.H42.2",
+          "source": "pa11y",
+          "title": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.",
+          "description": "<h5 style=\"text-align: center;\">\n<span>\n<strong>\n</strong>\n</sp...</h5>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H42.2",
+            "type": "error",
+            "typeCode": 1,
+            "message": "Heading tag found with no content. Text that is not intended as a heading should not be marked up with heading tags.",
+            "context": "<h5 style=\"text-align: center;\">\n<span>\n<strong>\n</strong>\n</sp...</h5>",
+            "selector": "#shopify-section-1495738194028 > div > div > div > div:nth-child(4) > h5:nth-child(5)",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/heading-order",
+          "source": "lighthouse",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-11-H3",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,1,ASIDE,0,H3",
+              "selector": "div#shopify-section-sidebar > section#sidebar > aside.social-links > h3",
+              "boundingRect": {
+                "top": 1922,
+                "bottom": 1970,
+                "left": -329,
+                "right": -298,
+                "width": 31,
+                "height": 48
+              },
+              "snippet": "<h3>",
+              "nodeLabel": "Stay Connected",
+              "explanation": "Fix any of the following:\n  Heading order invalid"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/heading-order",
+          "source": "lighthouse",
+          "title": "Heading elements are not in a sequentially-descending order",
+          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.10/heading-order).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-7-H5",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,1,SECTION,2,DIV,0,DIV,0,DIV,0,DIV,2,H5",
+              "selector": "div > div.wrapper > div.rte > h5",
+              "boundingRect": {
+                "top": 631,
+                "bottom": 631,
+                "left": 61,
+                "right": 351,
+                "width": 291,
+                "height": 0
+              },
+              "snippet": "<h5 style=\"text-align: center;\">",
+              "nodeLabel": "div > div.wrapper > div.rte > h5",
+              "explanation": "Fix any of the following:\n  Heading order invalid"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        null
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-unique",
+        "https://dequeuniversity.com/rules/axe/4.10/region",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-complementary-is-top-level",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-contentinfo-is-top-level",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-contentinfo",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-banner-is-top-level",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-main",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-main-is-top-level"
+      ],
+      "impact": "moderate",
+      "name": "Landmark & Region; Missing & Unique Landmarks;",
+      "amount_nodes_failed": 2,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/landmark-complementary-is-top-level",
+          "source": "axe-core",
+          "title": "Aside should not be contained in another landmark",
+          "description": "Ensure the complementary landmark or aside is at top level",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "landmark-is-top-level",
+                "data": {
+                  "role": null
+                },
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "The null landmark is contained in another landmark."
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<aside class=\"social-links\">\n<h3>\n        Stay Connected\n       </h3>\n<a class=\"social-facebook\" href=\"#\" title=\"Facebook\">\n</a>\n<a class=\"social-pinterest\" href=\"#\" title=\"Pinterest\">\n</a>\n<a class=\"social-instagram\" href=\"#\" title=\"Instagram\">\n</a>\n</aside>",
+            "target": [
+              ".social-links"
+            ],
+            "failureSummary": "Fix any of the following:\n  The null landmark is contained in another landmark."
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/landmark-complementary-is-top-level",
+          "source": "axe-core",
+          "title": "Aside should not be contained in another landmark",
+          "description": "Ensure the complementary landmark or aside is at top level",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "landmark-is-top-level",
+                "data": {
+                  "role": null
+                },
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "The null landmark is contained in another landmark."
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<aside class=\"subscribe-form\">",
+            "target": [
+              ".subscribe-form"
+            ],
+            "failureSummary": "Fix any of the following:\n  The null landmark is contained in another landmark."
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        null
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block"
+      ],
+      "impact": "serious",
+      "name": "Links; Distinguishable Color;",
+      "amount_nodes_failed": 1,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block",
+          "source": "axe-core",
+          "title": "Links must be distinguishable without relying on color",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "link-in-text-block",
+                "data": {
+                  "messageKey": "fgContrast",
+                  "contrastRatio": 1.31,
+                  "requiredContrastRatio": 3,
+                  "nodeColor": "#5e74a2",
+                  "parentColor": "#ff3d15"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<p>\n    Generated using\n    <a href=\"#\">\n      StaticSite\n    </a>\n  </p>",
+                    "target": [
+                      "footer > p:nth-child(3)"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "The link has insufficient color contrast of 1.31:1 with the surrounding text. (Minimum contrast is 3:1, link text: #5e74a2, surrounding text: #ff3d15)"
+              },
+              {
+                "id": "link-in-text-block-style",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<p>\n    Generated using\n    <a href=\"#\">\n      StaticSite\n    </a>\n  </p>",
+                    "target": [
+                      "footer > p:nth-child(3)"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "The link has no styling (such as underline) to distinguish it from the surrounding text"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"#\">\n      StaticSite\n    </a>",
+            "target": [
+              "p:nth-child(3) > a"
+            ],
+            "failureSummary": "Fix any of the following:\n  The link has insufficient color contrast of 1.31:1 with the surrounding text. (Minimum contrast is 3:1, link text: #5e74a2, surrounding text: #ff3d15)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block",
+          "source": "lighthouse",
+          "title": "Links rely on color to be distinguishable.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-5-A",
+              "path": "1,HTML,2,BODY,3,DIV,0,FOOTER,2,P,1,A",
+              "selector": "div#shopify-section-footer > footer.footer > p > a",
+              "boundingRect": {
+                "top": 3314,
+                "bottom": 3332,
+                "left": 132,
+                "right": 194,
+                "width": 61,
+                "height": 18
+              },
+              "snippet": "<a href=\"#\">",
+              "nodeLabel": "StaticSite",
+              "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 1.31:1 with the surrounding text. (Minimum contrast is 3:1, link text: #5e74a2, surrounding text: #ff3d15)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-12-P",
+                    "path": "1,HTML,2,BODY,3,DIV,0,FOOTER,2,P",
+                    "selector": "body#index > div#shopify-section-footer > footer.footer > p",
+                    "boundingRect": {
+                      "top": 3311,
+                      "bottom": 3337,
+                      "left": 24,
+                      "right": 388,
+                      "width": 364,
+                      "height": 26
+                    },
+                    "snippet": "<p>",
+                    "nodeLabel": "Generated using StaticSite"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        "Principle1.Guideline1_3.1_3_1.H48"
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/list",
+        "https://dequeuniversity.com/rules/axe/4.10/listitem"
+      ],
+      "impact": "serious",
+      "name": "List; Incorrect Structure;",
+      "amount_nodes_failed": 23,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/list",
+          "source": "axe-core",
+          "title": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+          "description": "Ensure that lists are structured correctly",
+          "impact": "serious",
+          "nodes": {
+            "any": [],
+            "all": [],
+            "none": [
+              {
+                "id": "only-listitems",
+                "data": {
+                  "values": "div"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div class=\"original-menu\">",
+                    "target": [
+                      ".original-menu"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "List element has direct children that are not allowed: div"
+              }
+            ],
+            "impact": "serious",
+            "html": "<ul id=\"side-menu\">",
+            "target": [
+              "#side-menu"
+            ],
+            "failureSummary": "Fix all of the following:\n  List element has direct children that are not allowed: div"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "axe-core",
+          "title": "<li> elements must be contained in a <ul> or <ol>",
+          "description": "Ensure <li> elements are used semantically",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item does not have a <ul>, <ol> parent element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li>\n<a class=\"newfont\" href=\"#\">\n           Charming Home and Cottage Style\n          </a>\n</li>",
+            "target": [
+              ".original-menu > li:nth-child(1)"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "axe-core",
+          "title": "<li> elements must be contained in a <ul> or <ol>",
+          "description": "Ensure <li> elements are used semantically",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item does not have a <ul>, <ol> parent element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li class=\"has-sub level-1 original-li\">",
+            "target": [
+              ".has-sub.level-1.original-li:nth-child(2)"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "axe-core",
+          "title": "<li> elements must be contained in a <ul> or <ol>",
+          "description": "Ensure <li> elements are used semantically",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item does not have a <ul>, <ol> parent element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li>\n<a class=\"newfont\" href=\"#\">\n           Classic Bride &amp; Wedding\n          </a>\n</li>",
+            "target": [
+              ".original-menu > li:nth-child(3)"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "axe-core",
+          "title": "<li> elements must be contained in a <ul> or <ol>",
+          "description": "Ensure <li> elements are used semantically",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item does not have a <ul>, <ol> parent element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li>\n<a class=\"newfont\" href=\"#\">\n           Afternoon Tea\n          </a>\n</li>",
+            "target": [
+              ".original-menu > li:nth-child(4)"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "axe-core",
+          "title": "<li> elements must be contained in a <ul> or <ol>",
+          "description": "Ensure <li> elements are used semantically",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item does not have a <ul>, <ol> parent element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li>\n<a class=\"newfont\" href=\"#\">\n           Old Hand Painted China\n          </a>\n</li>",
+            "target": [
+              "li:nth-child(5)"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "axe-core",
+          "title": "<li> elements must be contained in a <ul> or <ol>",
+          "description": "Ensure <li> elements are used semantically",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item does not have a <ul>, <ol> parent element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li>\n<a class=\"newfont\" href=\"#\">\n           Rustic &amp; Polished Silver\n          </a>\n</li>",
+            "target": [
+              "li:nth-child(6)"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "axe-core",
+          "title": "<li> elements must be contained in a <ul> or <ol>",
+          "description": "Ensure <li> elements are used semantically",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item does not have a <ul>, <ol> parent element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li>\n<a class=\"newfont\" href=\"#\">\n           Old Time Kitchen\n          </a>\n</li>",
+            "target": [
+              "li:nth-child(7)"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "axe-core",
+          "title": "<li> elements must be contained in a <ul> or <ol>",
+          "description": "Ensure <li> elements are used semantically",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item does not have a <ul>, <ol> parent element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li>\n<a class=\"newfont\" href=\"#\">\n           Fiestaware Pottery\n          </a>\n</li>",
+            "target": [
+              "li:nth-child(8)"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "axe-core",
+          "title": "<li> elements must be contained in a <ul> or <ol>",
+          "description": "Ensure <li> elements are used semantically",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item does not have a <ul>, <ol> parent element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li>\n<a class=\"newfont\" href=\"#\">\n           Classic Laundry Room\n          </a>\n</li>",
+            "target": [
+              "li:nth-child(9)"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "axe-core",
+          "title": "<li> elements must be contained in a <ul> or <ol>",
+          "description": "Ensure <li> elements are used semantically",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item does not have a <ul>, <ol> parent element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li class=\"has-sub level-1 original-li\">",
+            "target": [
+              ".has-sub.level-1.original-li:nth-child(10)"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "axe-core",
+          "title": "<li> elements must be contained in a <ul> or <ol>",
+          "description": "Ensure <li> elements are used semantically",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item does not have a <ul>, <ol> parent element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li class=\"has-sub level-1 original-li\">",
+            "target": [
+              ".has-sub.level-1.original-li:nth-child(11)"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "axe-core",
+          "title": "<li> elements must be contained in a <ul> or <ol>",
+          "description": "Ensure <li> elements are used semantically",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item does not have a <ul>, <ol> parent element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li>\n<a class=\"newfont\" href=\"#\">\n           Cottage Outdoors\n          </a>\n</li>",
+            "target": [
+              "li:nth-child(12)"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "axe-core",
+          "title": "<li> elements must be contained in a <ul> or <ol>",
+          "description": "Ensure <li> elements are used semantically",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item does not have a <ul>, <ol> parent element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li>\n<a class=\"newfont\" href=\"#\">\n           Old Paper Memorabilia\n          </a>\n</li>",
+            "target": [
+              "li:nth-child(13)"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "axe-core",
+          "title": "<li> elements must be contained in a <ul> or <ol>",
+          "description": "Ensure <li> elements are used semantically",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item does not have a <ul>, <ol> parent element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li>\n<a class=\"newfont\" href=\"#\">\n           Old Trip Memories\n          </a>\n</li>",
+            "target": [
+              "li:nth-child(14)"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "axe-core",
+          "title": "<li> elements must be contained in a <ul> or <ol>",
+          "description": "Ensure <li> elements are used semantically",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item does not have a <ul>, <ol> parent element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li>\n<a class=\"newfont\" href=\"#\">\n           Old Kids' Toys\n          </a>\n</li>",
+            "target": [
+              "li:nth-child(15)"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "axe-core",
+          "title": "<li> elements must be contained in a <ul> or <ol>",
+          "description": "Ensure <li> elements are used semantically",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item does not have a <ul>, <ol> parent element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li>\n<a class=\"newfont\" href=\"#\">\n           Old Sewing Items\n          </a>\n</li>",
+            "target": [
+              "li:nth-child(16)"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "axe-core",
+          "title": "<li> elements must be contained in a <ul> or <ol>",
+          "description": "Ensure <li> elements are used semantically",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item does not have a <ul>, <ol> parent element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li class=\"has-sub level-1 original-li\">",
+            "target": [
+              ".has-sub.level-1.original-li:nth-child(17)"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "axe-core",
+          "title": "<li> elements must be contained in a <ul> or <ol>",
+          "description": "Ensure <li> elements are used semantically",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "listitem",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "List item does not have a <ul>, <ol> parent element"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<li>\n<a class=\"newfont\" href=\"#\">\n           Book Corner\n          </a>\n</li>",
+            "target": [
+              "li:nth-child(18)"
+            ],
+            "failureSummary": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/list",
+          "source": "lighthouse",
+          "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+          "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/list).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-13-UL",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL",
+              "selector": "div#shopify-section-sidebar > section#sidebar > nav#menu > ul#side-menu",
+              "boundingRect": {
+                "top": 306,
+                "bottom": 1906,
+                "left": -345,
+                "right": -282,
+                "width": 63,
+                "height": 1600
+              },
+              "snippet": "<ul id=\"side-menu\">",
+              "nodeLabel": "Charming Home and Cottage Style\nOld & Collectible Fabrics\nClassic Bride & Weddi…",
+              "explanation": "Fix all of the following:\n  List element has direct children that are not allowed: div"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-14-DIV",
+                    "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,0,DIV",
+                    "selector": "section#sidebar > nav#menu > ul#side-menu > div.original-menu",
+                    "boundingRect": {
+                      "top": 306,
+                      "bottom": 1698,
+                      "left": -345,
+                      "right": -160,
+                      "width": 185,
+                      "height": 1392
+                    },
+                    "snippet": "<div class=\"original-menu\">",
+                    "nodeLabel": "Charming Home and Cottage Style\nOld & Collectible Fabrics\nClassic Bride & Weddi…"
+                  }
+                },
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-15-DIV",
+                    "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,1,DIV",
+                    "selector": "section#sidebar > nav#menu > ul#side-menu > div.side-menu-mobile",
+                    "boundingRect": {
+                      "top": 1706,
+                      "bottom": 1906,
+                      "left": -345,
+                      "right": -160,
+                      "width": 185,
+                      "height": 200
+                    },
+                    "snippet": "<div class=\"side-menu-mobile hide show-mobile\">",
+                    "nodeLabel": "Main\nAbout\nNew Arrivals\nOn Sale"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-16-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,0,DIV,0,LI",
+              "selector": "nav#menu > ul#side-menu > div.original-menu > li",
+              "boundingRect": {
+                "top": 306,
+                "bottom": 422,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 116
+              },
+              "snippet": "<li>",
+              "nodeLabel": "Charming Home and Cottage Style",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-17-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,0,DIV,1,LI",
+              "selector": "nav#menu > ul#side-menu > div.original-menu > li.has-sub",
+              "boundingRect": {
+                "top": 422,
+                "bottom": 514,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 92
+              },
+              "snippet": "<li class=\"has-sub level-1 original-li\">",
+              "nodeLabel": "Old & Collectible Fabrics",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-18-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,0,DIV,2,LI",
+              "selector": "nav#menu > ul#side-menu > div.original-menu > li",
+              "boundingRect": {
+                "top": 514,
+                "bottom": 606,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 92
+              },
+              "snippet": "<li>",
+              "nodeLabel": "Classic Bride & Wedding",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-19-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,0,DIV,3,LI",
+              "selector": "nav#menu > ul#side-menu > div.original-menu > li",
+              "boundingRect": {
+                "top": 606,
+                "bottom": 674,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 68
+              },
+              "snippet": "<li>",
+              "nodeLabel": "Afternoon Tea",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-20-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,0,DIV,4,LI",
+              "selector": "nav#menu > ul#side-menu > div.original-menu > li",
+              "boundingRect": {
+                "top": 674,
+                "bottom": 766,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 92
+              },
+              "snippet": "<li>",
+              "nodeLabel": "Old Hand Painted China",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-21-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,0,DIV,5,LI",
+              "selector": "nav#menu > ul#side-menu > div.original-menu > li",
+              "boundingRect": {
+                "top": 766,
+                "bottom": 858,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 92
+              },
+              "snippet": "<li>",
+              "nodeLabel": "Rustic & Polished Silver",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-22-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,0,DIV,6,LI",
+              "selector": "nav#menu > ul#side-menu > div.original-menu > li",
+              "boundingRect": {
+                "top": 858,
+                "bottom": 926,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 68
+              },
+              "snippet": "<li>",
+              "nodeLabel": "Old Time Kitchen",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-23-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,0,DIV,7,LI",
+              "selector": "nav#menu > ul#side-menu > div.original-menu > li",
+              "boundingRect": {
+                "top": 926,
+                "bottom": 994,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 68
+              },
+              "snippet": "<li>",
+              "nodeLabel": "Fiestaware Pottery",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-24-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,0,DIV,8,LI",
+              "selector": "nav#menu > ul#side-menu > div.original-menu > li",
+              "boundingRect": {
+                "top": 994,
+                "bottom": 1086,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 92
+              },
+              "snippet": "<li>",
+              "nodeLabel": "Classic Laundry Room",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-25-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,0,DIV,9,LI",
+              "selector": "nav#menu > ul#side-menu > div.original-menu > li.has-sub",
+              "boundingRect": {
+                "top": 1086,
+                "bottom": 1178,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 92
+              },
+              "snippet": "<li class=\"has-sub level-1 original-li\">",
+              "nodeLabel": "Ladies Classic Dressing",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-26-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,0,DIV,10,LI",
+              "selector": "nav#menu > ul#side-menu > div.original-menu > li.has-sub",
+              "boundingRect": {
+                "top": 1178,
+                "bottom": 1222,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 44
+              },
+              "snippet": "<li class=\"has-sub level-1 original-li\">",
+              "nodeLabel": "Accessories",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-27-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,0,DIV,11,LI",
+              "selector": "nav#menu > ul#side-menu > div.original-menu > li",
+              "boundingRect": {
+                "top": 1222,
+                "bottom": 1290,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 68
+              },
+              "snippet": "<li>",
+              "nodeLabel": "Cottage Outdoors",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-28-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,0,DIV,12,LI",
+              "selector": "nav#menu > ul#side-menu > div.original-menu > li",
+              "boundingRect": {
+                "top": 1290,
+                "bottom": 1358,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 68
+              },
+              "snippet": "<li>",
+              "nodeLabel": "Old Paper Memorabilia",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-29-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,0,DIV,13,LI",
+              "selector": "nav#menu > ul#side-menu > div.original-menu > li",
+              "boundingRect": {
+                "top": 1358,
+                "bottom": 1426,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 68
+              },
+              "snippet": "<li>",
+              "nodeLabel": "Old Trip Memories",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-30-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,0,DIV,14,LI",
+              "selector": "nav#menu > ul#side-menu > div.original-menu > li",
+              "boundingRect": {
+                "top": 1426,
+                "bottom": 1494,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 68
+              },
+              "snippet": "<li>",
+              "nodeLabel": "Old Kids' Toys",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-31-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,0,DIV,15,LI",
+              "selector": "nav#menu > ul#side-menu > div.original-menu > li",
+              "boundingRect": {
+                "top": 1494,
+                "bottom": 1562,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 68
+              },
+              "snippet": "<li>",
+              "nodeLabel": "Old Sewing Items",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-32-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,0,DIV,16,LI",
+              "selector": "nav#menu > ul#side-menu > div.original-menu > li.has-sub",
+              "boundingRect": {
+                "top": 1562,
+                "bottom": 1630,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 68
+              },
+              "snippet": "<li class=\"has-sub level-1 original-li\">",
+              "nodeLabel": "Old Time Holidays",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-33-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,0,DIV,17,LI",
+              "selector": "nav#menu > ul#side-menu > div.original-menu > li",
+              "boundingRect": {
+                "top": 1630,
+                "bottom": 1698,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 68
+              },
+              "snippet": "<li>",
+              "nodeLabel": "Book Corner",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-34-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,1,DIV,0,LI",
+              "selector": "nav#menu > ul#side-menu > div.side-menu-mobile > li.from-top-menu",
+              "boundingRect": {
+                "top": 1706,
+                "bottom": 1750,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 44
+              },
+              "snippet": "<li class=\"from-top-menu\">",
+              "nodeLabel": "Main",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-35-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,1,DIV,1,LI",
+              "selector": "nav#menu > ul#side-menu > div.side-menu-mobile > li.from-top-menu",
+              "boundingRect": {
+                "top": 1750,
+                "bottom": 1794,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 44
+              },
+              "snippet": "<li class=\"from-top-menu\">",
+              "nodeLabel": "About",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-36-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,1,DIV,2,LI",
+              "selector": "nav#menu > ul#side-menu > div.side-menu-mobile > li.from-top-menu",
+              "boundingRect": {
+                "top": 1794,
+                "bottom": 1862,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 68
+              },
+              "snippet": "<li class=\"from-top-menu\">",
+              "nodeLabel": "New Arrivals",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/listitem",
+          "source": "lighthouse",
+          "title": "List items (`<li>`) are not contained within `<ul>`, `<ol>` or `<menu>` parent elements.",
+          "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>`, `<ol>` or `<menu>` to be announced properly. [Learn more about proper list structure](https://dequeuniversity.com/rules/axe/4.10/listitem).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-37-LI",
+              "path": "1,HTML,2,BODY,1,DIV,1,DIV,0,DIV,0,SECTION,0,NAV,1,UL,1,DIV,3,LI",
+              "selector": "nav#menu > ul#side-menu > div.side-menu-mobile > li.from-top-menu",
+              "boundingRect": {
+                "top": 1862,
+                "bottom": 1906,
+                "left": -345,
+                "right": -160,
+                "width": 185,
+                "height": 44
+              },
+              "snippet": "<li class=\"from-top-menu\">",
+              "nodeLabel": "On Sale",
+              "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        null
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/meta-viewport"
+      ],
+      "impact": "critical",
+      "name": "Meta; Viewport;",
+      "amount_nodes_failed": 1,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport",
+          "source": "axe-core",
+          "title": "Zooming and scaling must not be disabled",
+          "description": "Ensure <meta name=\"viewport\"> does not disable text scaling and zooming",
+          "impact": "critical",
+          "nodes": {
+            "any": [
+              {
+                "id": "meta-viewport",
+                "data": "user-scalable",
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "user-scalable on <meta> tag disables zooming on mobile devices"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<meta content=\"width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0\" name=\"viewport\">",
+            "target": [
+              "meta[name=\"viewport\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  user-scalable on <meta> tag disables zooming on mobile devices"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/meta-viewport",
+          "source": "lighthouse",
+          "title": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
+          "description": "Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page. [Learn more about the viewport meta tag](https://dequeuniversity.com/rules/axe/4.10/meta-viewport).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-38-META",
+              "path": "1,HTML,1,HEAD,2,META",
+              "selector": "head > meta",
+              "boundingRect": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0,
+                "width": 0,
+                "height": 0
+              },
+              "snippet": "<meta content=\"width=device-width, initial-scale=1.0, height=device-height, minimum-scale…\" name=\"viewport\">",
+              "nodeLabel": "head > meta",
+              "explanation": "Fix any of the following:\n  user-scalable on <meta> tag disables zooming on mobile devices"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        "Principle4.Guideline4_1.4_1_2.H91.InputEmail.Name",
+        "Principle4.Guideline4_1.4_1_2.H91.InputSearch.Name",
+        "Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
+        "Principle4.Guideline4_1.4_1_2.H91.InputPassword.Name",
+        "Principle4.Guideline4_1.4_1_2.H91.InputCheckbox.Name",
+        "Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+        "Principle1.Guideline1_3.1_3_1.F68",
+        "Principle4.Guideline4_1.4_1_2.H91.Fieldset.Name"
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/label"
+      ],
+      "impact": "critical",
+      "name": "Label; Multiple Elements; Content missing",
+      "amount_nodes_failed": 5,
+      "issues": [
+        {
+          "id": "Principle4.Guideline4_1.4_1_2.H91.Fieldset.Name",
+          "source": "pa11y",
+          "title": "This fieldset element does not have a name available to an accessibility API. Valid names are: legend element, aria-label undefined, aria-labelledby undefined.",
+          "description": "<fieldset>\n<input id=\"search-input\" name=...</fieldset>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Fieldset.Name",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This fieldset element does not have a name available to an accessibility API. Valid names are: legend element, aria-label undefined, aria-labelledby undefined.",
+            "context": "<fieldset>\n<input id=\"search-input\" name=...</fieldset>",
+            "selector": "#menu > form > fieldset",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+          "source": "pa11y",
+          "title": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+          "description": "<input id=\"search-input\" name=\"q\" placeholder=\"Search...\" type=\"text\">",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+            "context": "<input id=\"search-input\" name=\"q\" placeholder=\"Search...\" type=\"text\">",
+            "selector": "#search-input",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_3.1_3_1.F68",
+          "source": "pa11y",
+          "title": "This form field should be labelled in some way. Use the label element (either with a \"for\" attribute or wrapped around the form field), or \"title\", \"aria-label\" or \"aria-labelledby\" attributes as appropriate.",
+          "description": "<input id=\"search-input\" name=\"q\" placeholder=\"Search...\" type=\"text\">",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.F68",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This form field should be labelled in some way. Use the label element (either with a \"for\" attribute or wrapped around the form field), or \"title\", \"aria-label\" or \"aria-labelledby\" attributes as appropriate.",
+            "context": "<input id=\"search-input\" name=\"q\" placeholder=\"Search...\" type=\"text\">",
+            "selector": "#search-input",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle4.Guideline4_1.4_1_2.H91.Fieldset.Name",
+          "source": "pa11y",
+          "title": "This fieldset element does not have a name available to an accessibility API. Valid names are: legend element, aria-label undefined, aria-labelledby undefined.",
+          "description": "<fieldset>\n<input name=\"contact[tags]\" ty...</fieldset>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Fieldset.Name",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This fieldset element does not have a name available to an accessibility API. Valid names are: legend element, aria-label undefined, aria-labelledby undefined.",
+            "context": "<fieldset>\n<input name=\"contact[tags]\" ty...</fieldset>",
+            "selector": "#contact_form > fieldset",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle4.Guideline4_1.4_1_2.H91.InputEmail.Name",
+          "source": "pa11y",
+          "title": "This emailinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+          "description": "<input autocapitalize=\"off\" autocorrect=\"off\" class=\"required email input-text\" name=\"contact[email]\" placeholder=\"Enter your email...\" type=\"email\" value=\"\">",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.InputEmail.Name",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This emailinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.",
+            "context": "<input autocapitalize=\"off\" autocorrect=\"off\" class=\"required email input-text\" name=\"contact[email]\" placeholder=\"Enter your email...\" type=\"email\" value=\"\">",
+            "selector": "#contact_form > fieldset > input:nth-child(2)",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        "Principle1.Guideline1_3.1_3_1.H71.3",
+        "Principle1.Guideline1_3.1_3_1.H71.2",
+        "Principle1.Guideline1_3.1_3_1.H71.NoLegend"
+      ],
+      "url": [
+        null
+      ],
+      "impact": "serious",
+      "name": "Fieldset; Legend;",
+      "amount_nodes_failed": 2,
+      "issues": [
+        {
+          "id": "Principle1.Guideline1_3.1_3_1.H71.NoLegend",
+          "source": "pa11y",
+          "title": "Fieldset does not contain a legend element. All fieldsets should contain a legend element that describes a description of the field group.",
+          "description": "<fieldset>\n<input id=\"search-input\" name=...</fieldset>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H71.NoLegend",
+            "type": "error",
+            "typeCode": 1,
+            "message": "Fieldset does not contain a legend element. All fieldsets should contain a legend element that describes a description of the field group.",
+            "context": "<fieldset>\n<input id=\"search-input\" name=...</fieldset>",
+            "selector": "#menu > form > fieldset",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_3.1_3_1.H71.NoLegend",
+          "source": "pa11y",
+          "title": "Fieldset does not contain a legend element. All fieldsets should contain a legend element that describes a description of the field group.",
+          "description": "<fieldset>\n<input name=\"contact[tags]\" ty...</fieldset>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H71.NoLegend",
+            "type": "error",
+            "typeCode": 1,
+            "message": "Fieldset does not contain a legend element. All fieldsets should contain a legend element that describes a description of the field group.",
+            "context": "<fieldset>\n<input name=\"contact[tags]\" ty...</fieldset>",
+            "selector": "#contact_form > fieldset",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        "Principle1.Guideline1_3.1_3_1.H49.AlignAttr"
+      ],
+      "url": [
+        null
+      ],
+      "impact": "minor",
+      "name": "Elements; Align;",
+      "amount_nodes_failed": 1,
+      "issues": [
+        {
+          "id": "Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+          "source": "pa11y",
+          "title": "Align attributes .",
+          "description": "<p align=\"center\">\n          Here you will discov...</p>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_3.1_3_1.H49.AlignAttr",
+            "type": "error",
+            "typeCode": 1,
+            "message": "Align attributes .",
+            "context": "<p align=\"center\">\n          Here you will discov...</p>",
+            "selector": "#shopify-section-1495738194028 > div > div > div > p",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        }
+      ]
+    }
+  ]
+}
