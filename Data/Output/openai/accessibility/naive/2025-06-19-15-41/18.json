@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -1593,7 +1585,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -1642,7 +1634,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -1691,7 +1683,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -1740,7 +1732,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -1789,7 +1781,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -1838,7 +1830,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -1887,7 +1879,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -1936,7 +1928,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -1985,7 +1977,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -2034,7 +2026,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -2083,7 +2075,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -2132,7 +2124,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -2181,7 +2173,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -2230,7 +2222,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -2279,7 +2271,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -2328,7 +2320,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -2377,7 +2369,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -2426,7 +2418,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -2475,7 +2467,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -2524,7 +2516,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -2573,7 +2565,7 @@
                       "height": 1011
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\nPoste\u2026"
                   }
                 }
               ]
@@ -2743,7 +2735,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>\n                    <a href=\"#\">@baitman</a> For strings I can no longer do <span>#if</span> ($paramfoo), I have to do <span>#if</span> ($paramfoo).length() &gt; 0. Which is crazy.\n                    <br>â Berger (<span>@BergerofLondon</span>) <span>May 22, 2014</span>\n                </p>",
+                    "html": "<p>\n                    <a href=\"#\">@baitman</a> For strings I can no longer do <span>#if</span> ($paramfoo), I have to do <span>#if</span> ($paramfoo).length() &gt; 0. Which is crazy.\n                    <br>\u00e2\u0080\u0094 Berger (<span>@BergerofLondon</span>) <span>May 22, 2014</span>\n                </p>",
                     "target": [
                       ".quote:nth-child(6) > p"
                     ]
@@ -2757,7 +2749,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>\n                    <a href=\"#\">@baitman</a> For strings I can no longer do <span>#if</span> ($paramfoo), I have to do <span>#if</span> ($paramfoo).length() &gt; 0. Which is crazy.\n                    <br>â Berger (<span>@BergerofLondon</span>) <span>May 22, 2014</span>\n                </p>",
+                    "html": "<p>\n                    <a href=\"#\">@baitman</a> For strings I can no longer do <span>#if</span> ($paramfoo), I have to do <span>#if</span> ($paramfoo).length() &gt; 0. Which is crazy.\n                    <br>\u00e2\u0080\u0094 Berger (<span>@BergerofLondon</span>) <span>May 22, 2014</span>\n                </p>",
                     "target": [
                       ".quote:nth-child(6) > p"
                     ]
@@ -2796,7 +2788,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>\n                    <a href=\"#\">@baitman</a> Also, if you're upgrading to 5.5.1 to fix the security vulnerability double-check that it's upgraded xwork to 1.17. Ours wasn't.\n                    <br>â Berger (<span>@BergerofLondon</span>) <span>May 22, 2014</span>\n                </p>",
+                    "html": "<p>\n                    <a href=\"#\">@baitman</a> Also, if you're upgrading to 5.5.1 to fix the security vulnerability double-check that it's upgraded xwork to 1.17. Ours wasn't.\n                    <br>\u00e2\u0080\u0094 Berger (<span>@BergerofLondon</span>) <span>May 22, 2014</span>\n                </p>",
                     "target": [
                       ".quote:nth-child(7) > p"
                     ]
@@ -2810,7 +2802,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>\n                    <a href=\"#\">@baitman</a> Also, if you're upgrading to 5.5.1 to fix the security vulnerability double-check that it's upgraded xwork to 1.17. Ours wasn't.\n                    <br>â Berger (<span>@BergerofLondon</span>) <span>May 22, 2014</span>\n                </p>",
+                    "html": "<p>\n                    <a href=\"#\">@baitman</a> Also, if you're upgrading to 5.5.1 to fix the security vulnerability double-check that it's upgraded xwork to 1.17. Ours wasn't.\n                    <br>\u00e2\u0080\u0094 Berger (<span>@BergerofLondon</span>) <span>May 22, 2014</span>\n                </p>",
                     "target": [
                       ".quote:nth-child(7) > p"
                     ]
@@ -2872,7 +2864,7 @@
                       "height": 67
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par…"
+                    "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par\u2026"
                   }
                 }
               ]
@@ -2921,7 +2913,7 @@
                       "height": 90
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability d…"
+                    "nodeLabel": "@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability d\u2026"
                   }
                 }
               ]

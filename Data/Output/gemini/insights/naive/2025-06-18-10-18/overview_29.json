@@ -3,17 +3,13 @@
     "automatic": "Yellow"
   },
   "benchmark": {
-    "automatic_ir": 0.08108108108108109,
-    "automatic_iw-ir": 0.37777777777777777
+    "automatic_ir": 0.10810810810810811,
+    "automatic_iw-ir": 0.5333333333333333
   },
   "automatic_checks": {
     "lighthouse_accessibility_score": 0.97,
     "total_nodes_checked": 111,
-    "total_nodes_failed": 9
-  },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
+    "total_nodes_failed": 12
   },
   "details_checks": {
     "Headings; Wrong Order, Empty & Missing Headings;": {
@@ -95,6 +91,32 @@
           "ids": [
             "Principle4.Guideline4_1.4_1_2.H91.InputSearch.Name"
           ]
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      }
+    },
+    "Alt-Text; Images;": {
+      "impact": "critical",
+      "amount_nodes_failed": 3,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 3,
+          "amount_relative": 3,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
         },
         "lighthouse": {
           "amount": 0,

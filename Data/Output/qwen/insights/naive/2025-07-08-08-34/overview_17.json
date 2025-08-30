@@ -11,10 +11,6 @@
     "total_nodes_checked": 312,
     "total_nodes_failed": 1
   },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
-  },
   "details_checks": {
     "Tables; Table Data must have Table Header;": {
       "impact": "critical",

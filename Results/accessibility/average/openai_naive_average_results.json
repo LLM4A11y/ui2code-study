@@ -8,8 +8,8 @@
   ],
   "result_files_processed": 3,
   "dataset_files_processed": 159,
-  "total_automatic_nodes_failed": 729.0,
-  "average_automatic_nodes_failed_per_file": 13.75,
+  "total_automatic_nodes_failed": 764.67,
+  "average_automatic_nodes_failed_per_file": 14.43,
   "accessibility_issues": [
     [
       "Landmark & Region; Missing & Unique Landmarks;",
@@ -33,6 +33,13 @@
       }
     ],
     [
+      "Alt-Text; Images;",
+      {
+        "impact": "critical",
+        "amount_nodes_failed": 39.67
+      }
+    ],
+    [
       "Headings; Wrong Order, Empty & Missing Headings;",
       {
         "impact": "moderate",
@@ -51,13 +58,6 @@
       {
         "impact": "serious",
         "amount_nodes_failed": 14.67
-      }
-    ],
-    [
-      "Alt-Text; Images;",
-      {
-        "impact": "critical",
-        "amount_nodes_failed": 4.0
       }
     ],
     [

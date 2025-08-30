@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -50,7 +42,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<a href=\"#\" class=\"social-icon\">ðµ</a>",
+                    "html": "<a href=\"#\" class=\"social-icon\">\u00f0\u009f\u0094\u00b5</a>",
                     "target": [
                       "a"
                     ]
@@ -63,7 +55,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\" class=\"social-icon\">ðµ</a>",
+            "html": "<a href=\"#\" class=\"social-icon\">\u00f0\u009f\u0094\u00b5</a>",
             "target": [
               "a"
             ],
@@ -74,14 +66,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.98:1. Recommendation:  change background to #0072ed.",
-          "description": "<a href=\"#\" class=\"social-icon\">ðµ</a>",
+          "description": "<a href=\"#\" class=\"social-icon\">\u00f0\u009f\u0094\u00b5</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.98:1. Recommendation:  change background to #0072ed.",
-            "context": "<a href=\"#\" class=\"social-icon\">ðµ</a>",
+            "context": "<a href=\"#\" class=\"social-icon\">\u00f0\u009f\u0094\u00b5</a>",
             "selector": "html > body > div > div > div > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -108,7 +100,7 @@
                 "height": 32
               },
               "snippet": "<a href=\"#\" class=\"social-icon\">",
-              "nodeLabel": "ðµ",
+              "nodeLabel": "\u00f0\u009f\u0094\u00b5",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #ffffff, background color: #007bff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }

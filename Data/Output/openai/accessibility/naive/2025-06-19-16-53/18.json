@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -1485,7 +1477,7 @@
                       "height": 1081
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1534,7 +1526,7 @@
                       "height": 1081
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1583,7 +1575,7 @@
                       "height": 1081
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1632,7 +1624,7 @@
                       "height": 1081
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1681,7 +1673,7 @@
                       "height": 1081
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1730,7 +1722,7 @@
                       "height": 1081
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1779,7 +1771,7 @@
                       "height": 1081
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1828,7 +1820,7 @@
                       "height": 1081
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1877,7 +1869,7 @@
                       "height": 1081
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1926,7 +1918,7 @@
                       "height": 1081
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1975,7 +1967,7 @@
                       "height": 1081
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2024,7 +2016,7 @@
                       "height": 1081
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2073,7 +2065,7 @@
                       "height": 1081
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2393,7 +2385,7 @@
                       "height": 67
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence, it looks like …"
+                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence, it looks like \u2026"
                   }
                 }
               ]

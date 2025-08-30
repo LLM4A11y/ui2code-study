@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -680,7 +672,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"cta\">\n        <p>Find a Tour on a SegwayÂ® PT now!</p>\n        <a href=\"#\">Find a Tour Now</a>\n    </div>",
+                    "html": "<div class=\"cta\">\n        <p>Find a Tour on a Segway\u00c2\u00ae PT now!</p>\n        <a href=\"#\">Find a Tour Now</a>\n    </div>",
                     "target": [
                       ".cta"
                     ]
@@ -693,7 +685,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>Find a Tour on a SegwayÂ® PT now!</p>",
+            "html": "<p>Find a Tour on a Segway\u00c2\u00ae PT now!</p>",
             "target": [
               ".cta > p"
             ],
@@ -735,7 +727,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div style=\"text-align: right;\">\n            ©2004-2023 SegwayGuidedTours.com\n        </div>",
+            "html": "<div style=\"text-align: right;\">\n            \u00a92004-2023 SegwayGuidedTours.com\n        </div>",
             "target": [
               ".bottom-nav > div:nth-child(4)"
             ],
@@ -967,14 +959,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G145.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.94:1. Recommendation:  change background to #22a699.",
-          "description": "<p>Find a Tour on a SegwayÂ® PT no...</p>",
+          "description": "<p>Find a Tour on a Segway\u00c2\u00ae PT no...</p>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.94:1. Recommendation:  change background to #22a699.",
-            "context": "<p>Find a Tour on a SegwayÂ® PT no...</p>",
+            "context": "<p>Find a Tour on a Segway\u00c2\u00ae PT no...</p>",
             "selector": "html > body > div:nth-child(6) > p",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -984,14 +976,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.14:1. Recommendation:  change text colour to #717171.",
-          "description": "<div style=\"text-align: right;\">\n            ©2004-2023 SegwayG...</div>",
+          "description": "<div style=\"text-align: right;\">\n            \u00a92004-2023 SegwayG...</div>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.14:1. Recommendation:  change text colour to #717171.",
-            "context": "<div style=\"text-align: right;\">\n            ©2004-2023 SegwayG...</div>",
+            "context": "<div style=\"text-align: right;\">\n            \u00a92004-2023 SegwayG...</div>",
             "selector": "html > body > div:nth-child(7) > div:nth-child(4)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1261,7 +1253,7 @@
                       "height": 898
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "/ / USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\nSouth Carolin…"
+                    "nodeLabel": "/ / USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\nSouth Carolin\u2026"
                   }
                 }
               ]
@@ -1310,7 +1302,7 @@
                       "height": 898
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "/ / USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\nSouth Carolin…"
+                    "nodeLabel": "/ / USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\nSouth Carolin\u2026"
                   }
                 }
               ]
@@ -1364,7 +1356,7 @@
                 "height": 168
               },
               "snippet": "<div class=\"tour-list\">",
-              "nodeLabel": "USA >>\nSOUTH CAROLINA >>\nCHARLESTON >>\nSegway of Charleston >>\nGREENVILLE >>\nCa…",
+              "nodeLabel": "USA >>\nSOUTH CAROLINA >>\nCHARLESTON >>\nSegway of Charleston >>\nGREENVILLE >>\nCa\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1385,7 +1377,7 @@
                       "height": 898
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "/ / USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\nSouth Carolin…"
+                    "nodeLabel": "/ / USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\nSouth Carolin\u2026"
                   }
                 }
               ]
@@ -1434,7 +1426,7 @@
                       "height": 898
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "/ / USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\nSouth Carolin…"
+                    "nodeLabel": "/ / USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\nSouth Carolin\u2026"
                   }
                 }
               ]
@@ -1483,7 +1475,7 @@
                       "height": 898
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "/ / USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\nSouth Carolin…"
+                    "nodeLabel": "/ / USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\nSouth Carolin\u2026"
                   }
                 }
               ]
@@ -1532,7 +1524,7 @@
                       "height": 898
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "/ / USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\nSouth Carolin…"
+                    "nodeLabel": "/ / USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\nSouth Carolin\u2026"
                   }
                 }
               ]
@@ -1581,7 +1573,7 @@
                       "height": 898
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "/ / USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\nSouth Carolin…"
+                    "nodeLabel": "/ / USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\nSouth Carolin\u2026"
                   }
                 }
               ]
@@ -1630,7 +1622,7 @@
                       "height": 898
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "/ / USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\nSouth Carolin…"
+                    "nodeLabel": "/ / USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\nSouth Carolin\u2026"
                   }
                 }
               ]
@@ -1679,7 +1671,7 @@
                       "height": 898
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "/ / USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\nSouth Carolin…"
+                    "nodeLabel": "/ / USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\nSouth Carolin\u2026"
                   }
                 }
               ]
@@ -1707,7 +1699,7 @@
                 "height": 55
               },
               "snippet": "<p>",
-              "nodeLabel": "Find a Tour on a SegwayÂ® PT now!",
+              "nodeLabel": "Find a Tour on a Segway\u00c2\u00ae PT now!",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.93 (foreground color: #ffffff, background color: #24a89b, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1"
             },
             "subItems": {
@@ -1728,7 +1720,7 @@
                       "height": 194
                     },
                     "snippet": "<div class=\"cta\">",
-                    "nodeLabel": "Find a Tour on a SegwayÂ® PT now!\n\nFind a Tour Now"
+                    "nodeLabel": "Find a Tour on a Segway\u00c2\u00ae PT now!\n\nFind a Tour Now"
                   }
                 }
               ]
@@ -1756,7 +1748,7 @@
                 "height": 70
               },
               "snippet": "<div style=\"text-align: right;\">",
-              "nodeLabel": "©2004-2023 SegwayGuidedTours.com",
+              "nodeLabel": "\u00a92004-2023 SegwayGuidedTours.com",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.14 (foreground color: #777777, background color: #f6f6f6, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1777,7 +1769,7 @@
                       "height": 110
                     },
                     "snippet": "<div class=\"bottom-nav\">",
-                    "nodeLabel": "Home Find Segway Tours Browse Tours\nAbout SGT Segway Minipro For Tour Operators…"
+                    "nodeLabel": "Home Find Segway Tours Browse Tours\nAbout SGT Segway Minipro For Tour Operators\u2026"
                   }
                 }
               ]
@@ -1992,7 +1984,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"cta\">\n        <p>Find a Tour on a SegwayÂ® PT now!</p>\n        <a href=\"#\">Find a Tour Now</a>\n    </div>",
+            "html": "<div class=\"cta\">\n        <p>Find a Tour on a Segway\u00c2\u00ae PT now!</p>\n        <a href=\"#\">Find a Tour Now</a>\n    </div>",
             "target": [
               ".cta"
             ],

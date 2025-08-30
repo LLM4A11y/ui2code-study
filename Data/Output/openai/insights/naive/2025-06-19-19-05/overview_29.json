@@ -3,26 +3,22 @@
     "automatic": "Yellow"
   },
   "benchmark": {
-    "automatic_ir": 0.12121212121212122,
-    "automatic_iw-ir": 0.475
+    "automatic_ir": 0.13636363636363635,
+    "automatic_iw-ir": 0.5333333333333333
   },
   "automatic_checks": {
     "lighthouse_accessibility_score": 0.84,
     "total_nodes_checked": 66,
-    "total_nodes_failed": 8
-  },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
+    "total_nodes_failed": 9
   },
   "details_checks": {
     "Alt-Text; Images;": {
       "impact": "critical",
-      "amount_nodes_failed": 2,
+      "amount_nodes_failed": 3,
       "sources": {
         "Manual-Inspection": {
-          "amount": 0,
-          "amount_relative": 0,
+          "amount": 1,
+          "amount_relative": 1,
           "ids": []
         },
         "axe-core": {

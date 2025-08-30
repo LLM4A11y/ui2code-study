@@ -11,10 +11,6 @@
     "total_nodes_checked": 49,
     "total_nodes_failed": 3
   },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
-  },
   "details_checks": {
     "Headings; Wrong Order, Empty & Missing Headings;": {
       "impact": "moderate",
@@ -29,8 +25,8 @@
           "amount": 2,
           "amount_relative": 0,
           "ids": [
-            "https://dequeuniversity.com/rules/axe/4.10/empty-heading",
-            "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one"
+            "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one",
+            "https://dequeuniversity.com/rules/axe/4.10/empty-heading"
           ]
         },
         "pa11y": {

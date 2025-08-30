@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -896,7 +888,7 @@
                       "height": 302
                     },
                     "snippet": "<div class=\"profile\">",
-                    "nodeLabel": "Associate Professor\nDepartment of Physics\nEdmonton, Alberta\ncarsten.krauss@ualb…"
+                    "nodeLabel": "Associate Professor\nDepartment of Physics\nEdmonton, Alberta\ncarsten.krauss@ualb\u2026"
                   }
                 }
               ]
@@ -945,7 +937,7 @@
                       "height": 302
                     },
                     "snippet": "<div class=\"expert-in\">",
-                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi…"
+                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi\u2026"
                   }
                 }
               ]
@@ -994,7 +986,7 @@
                       "height": 302
                     },
                     "snippet": "<div class=\"expert-in\">",
-                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi…"
+                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi\u2026"
                   }
                 }
               ]
@@ -1043,7 +1035,7 @@
                       "height": 302
                     },
                     "snippet": "<div class=\"expert-in\">",
-                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi…"
+                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi\u2026"
                   }
                 }
               ]
@@ -1092,7 +1084,7 @@
                       "height": 302
                     },
                     "snippet": "<div class=\"expert-in\">",
-                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi…"
+                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi\u2026"
                   }
                 }
               ]
@@ -1141,7 +1133,7 @@
                       "height": 302
                     },
                     "snippet": "<div class=\"expert-in\">",
-                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi…"
+                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi\u2026"
                   }
                 }
               ]
@@ -1190,7 +1182,7 @@
                       "height": 302
                     },
                     "snippet": "<div class=\"expert-in\">",
-                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi…"
+                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi\u2026"
                   }
                 }
               ]
@@ -1386,7 +1378,7 @@
                       "height": 491
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": " \nAssociate Professor\nDepartment of Physics\nEdmonton, Alberta\ncarsten.krauss@ua…"
+                    "nodeLabel": " \nAssociate Professor\nDepartment of Physics\nEdmonton, Alberta\ncarsten.krauss@ua\u2026"
                   }
                 }
               ]
@@ -1435,7 +1427,7 @@
                       "height": 491
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": " \nAssociate Professor\nDepartment of Physics\nEdmonton, Alberta\ncarsten.krauss@ua…"
+                    "nodeLabel": " \nAssociate Professor\nDepartment of Physics\nEdmonton, Alberta\ncarsten.krauss@ua\u2026"
                   }
                 }
               ]
@@ -1484,7 +1476,7 @@
                       "height": 491
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": " \nAssociate Professor\nDepartment of Physics\nEdmonton, Alberta\ncarsten.krauss@ua…"
+                    "nodeLabel": " \nAssociate Professor\nDepartment of Physics\nEdmonton, Alberta\ncarsten.krauss@ua\u2026"
                   }
                 }
               ]
@@ -1533,7 +1525,7 @@
                       "height": 491
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": " \nAssociate Professor\nDepartment of Physics\nEdmonton, Alberta\ncarsten.krauss@ua…"
+                    "nodeLabel": " \nAssociate Professor\nDepartment of Physics\nEdmonton, Alberta\ncarsten.krauss@ua\u2026"
                   }
                 }
               ]

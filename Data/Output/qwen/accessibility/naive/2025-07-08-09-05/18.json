@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -386,7 +378,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer>â Berger (@BergerofLondon) May 22, 2014</footer>",
+                    "html": "<footer>\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014</footer>",
                     "target": [
                       "blockquote > footer"
                     ]
@@ -399,7 +391,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<footer>â Berger (@BergerofLondon) May 22, 2014</footer>",
+            "html": "<footer>\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014</footer>",
             "target": [
               "blockquote > footer"
             ],
@@ -756,14 +748,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.78:1. Recommendation:  change background to #258829.",
-          "description": "<footer>â Berger (@BergerofLondon) Ma...</footer>",
+          "description": "<footer>\u00e2\u0080\u0094 Berger (@BergerofLondon) Ma...</footer>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.78:1. Recommendation:  change background to #258829.",
-            "context": "<footer>â Berger (@BergerofLondon) Ma...</footer>",
+            "context": "<footer>\u00e2\u0080\u0094 Berger (@BergerofLondon) Ma...</footer>",
             "selector": "html > body > main > div > blockquote > footer",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1190,7 +1182,7 @@
                       "height": 1160
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1239,7 +1231,7 @@
                       "height": 1160
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1267,7 +1259,7 @@
                 "height": 60
               },
               "snippet": "<footer>",
-              "nodeLabel": "â Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.77 (foreground color: #ffffff, background color: #4caf50, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }

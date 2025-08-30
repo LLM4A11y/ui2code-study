@@ -2,8 +2,8 @@
   "summary": {
     "timestamp": "2025-06-18-10-18",
     "files_processed": 53,
-    "total_automatic_nodes_failed": 917,
-    "average_automatic_nodes_failed_per_file": 17.3
+    "total_automatic_nodes_failed": 1015,
+    "average_automatic_nodes_failed_per_file": 19.15
   },
   "issues_automatic": [
     {
@@ -1444,6 +1444,71 @@
     },
     {
       "rank": 3,
+      "name": "Alt-Text; Images;",
+      "impact": "critical",
+      "amount_nodes_failed": 108,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 98,
+          "amount_relative": 98,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 10,
+          "amount_relative": 10,
+          "ids": [
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt"
+          ]
+        },
+        "pa11y": {
+          "amount": 10,
+          "amount_relative": 0,
+          "ids": [
+            "Principle1.Guideline1_1.1_1_1.H37",
+            "Principle1.Guideline1_1.1_1_1.H37",
+            "Principle1.Guideline1_1.1_1_1.H37",
+            "Principle1.Guideline1_1.1_1_1.H37",
+            "Principle1.Guideline1_1.1_1_1.H37",
+            "Principle1.Guideline1_1.1_1_1.H37",
+            "Principle1.Guideline1_1.1_1_1.H37",
+            "Principle1.Guideline1_1.1_1_1.H37",
+            "Principle1.Guideline1_1.1_1_1.H37",
+            "Principle1.Guideline1_1.1_1_1.H37"
+          ]
+        },
+        "lighthouse": {
+          "amount": 10,
+          "amount_relative": 0,
+          "ids": [
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt"
+          ]
+        }
+      },
+      "ids_distribution": {
+        "https://dequeuniversity.com/rules/axe/4.10/image-alt": 20,
+        "Principle1.Guideline1_1.1_1_1.H37": 10
+      }
+    },
+    {
+      "rank": 4,
       "name": "Label; Multiple Elements; Content missing",
       "impact": "critical",
       "amount_nodes_failed": 105,
@@ -1666,7 +1731,7 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "Links; Distinguishable Color;",
       "impact": "serious",
       "amount_nodes_failed": 19,
@@ -1733,7 +1798,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "Size; Target Size; Element too small",
       "impact": "serious",
       "amount_nodes_failed": 15,
@@ -1780,7 +1845,7 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "Headings; Wrong Order, Empty & Missing Headings;",
       "impact": "moderate",
       "amount_nodes_failed": 14,
@@ -1832,7 +1897,7 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "Links; Missing descriptive content of <a>;",
       "impact": "serious",
       "amount_nodes_failed": 10,
@@ -1894,71 +1959,6 @@
       "ids_distribution": {
         "https://dequeuniversity.com/rules/axe/4.10/link-name": 20,
         "Principle4.Guideline4_1.4_1_2.H91.A.NoContent": 10
-      }
-    },
-    {
-      "rank": 8,
-      "name": "Alt-Text; Images;",
-      "impact": "critical",
-      "amount_nodes_failed": 10,
-      "sources": {
-        "Manual-Inspection": {
-          "amount": 0,
-          "amount_relative": 0,
-          "ids": []
-        },
-        "axe-core": {
-          "amount": 10,
-          "amount_relative": 10,
-          "ids": [
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt"
-          ]
-        },
-        "pa11y": {
-          "amount": 10,
-          "amount_relative": 0,
-          "ids": [
-            "Principle1.Guideline1_1.1_1_1.H37",
-            "Principle1.Guideline1_1.1_1_1.H37",
-            "Principle1.Guideline1_1.1_1_1.H37",
-            "Principle1.Guideline1_1.1_1_1.H37",
-            "Principle1.Guideline1_1.1_1_1.H37",
-            "Principle1.Guideline1_1.1_1_1.H37",
-            "Principle1.Guideline1_1.1_1_1.H37",
-            "Principle1.Guideline1_1.1_1_1.H37",
-            "Principle1.Guideline1_1.1_1_1.H37",
-            "Principle1.Guideline1_1.1_1_1.H37"
-          ]
-        },
-        "lighthouse": {
-          "amount": 10,
-          "amount_relative": 0,
-          "ids": [
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt",
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt"
-          ]
-        }
-      },
-      "ids_distribution": {
-        "https://dequeuniversity.com/rules/axe/4.10/image-alt": 20,
-        "Principle1.Guideline1_1.1_1_1.H37": 10
       }
     },
     {
@@ -2178,13 +2178,13 @@
   ],
   "distribution_sources_automatic": {
     "absolute": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 98,
       "axe-core": 814,
       "pa11y": 396,
       "lighthouse": 509
     },
     "relative": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 98,
       "axe-core": 730,
       "pa11y": 167,
       "lighthouse": 20

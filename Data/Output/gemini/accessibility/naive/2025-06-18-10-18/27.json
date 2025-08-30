@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -276,14 +285,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G145.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.34:1. Recommendation:  change text colour to #fdfdff.",
-          "description": "<a href=\"#\" class=\"menu-icon\">☰</a>",
+          "description": "<a href=\"#\" class=\"menu-icon\">\u2630</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.34:1. Recommendation:  change text colour to #fdfdff.",
-            "context": "<a href=\"#\" class=\"menu-icon\">☰</a>",
+            "context": "<a href=\"#\" class=\"menu-icon\">\u2630</a>",
             "selector": "html > body > div > div:nth-child(1) > div:nth-child(2) > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -586,7 +595,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<a href=\"#\" class=\"menu-icon\">☰</a>",
+            "html": "<a href=\"#\" class=\"menu-icon\">\u2630</a>",
             "target": [
               ".menu-icon"
             ],
@@ -978,7 +987,7 @@
                       "height": 182
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "This site does not do live transactions. If you provide a credit card number it…"
+                    "nodeLabel": "This site does not do live transactions. If you provide a credit card number it\u2026"
                   }
                 }
               ]
@@ -1027,7 +1036,7 @@
                       "height": 182
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "This site does not do live transactions. If you provide a credit card number it…"
+                    "nodeLabel": "This site does not do live transactions. If you provide a credit card number it\u2026"
                   }
                 }
               ]
@@ -1164,7 +1173,7 @@
                 "height": 29
               },
               "snippet": "<a href=\"#\" class=\"menu-icon\">",
-              "nodeLabel": "☰",
+              "nodeLabel": "\u2630",
               "explanation": "Fix any of the following:\n  Target has insufficient size (21.1px by 29px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.2px instead of at least 24px."
             },
             "subItems": {

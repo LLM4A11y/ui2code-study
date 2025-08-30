@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -315,7 +307,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">More gaspÃ© vacation pics</a>",
+            "html": "<a href=\"#\">More gasp\u00c3\u00a9 vacation pics</a>",
             "target": [
               "li:nth-child(1) > a"
             ],
@@ -357,7 +349,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">Far from home... in the GaspÃ©</a>",
+            "html": "<a href=\"#\">Far from home... in the Gasp\u00c3\u00a9</a>",
             "target": [
               "li:nth-child(2) > a"
             ],
@@ -441,7 +433,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">Laurentian's scenic RiviÃ¨re Rouge ride</a>",
+            "html": "<a href=\"#\">Laurentian's scenic Rivi\u00c3\u00a8re Rouge ride</a>",
             "target": [
               "li:nth-child(4) > a"
             ],
@@ -609,7 +601,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">Ridiculously scenic RiviÃ¨re Rouge road ride</a>",
+            "html": "<a href=\"#\">Ridiculously scenic Rivi\u00c3\u00a8re Rouge road ride</a>",
             "target": [
               "li:nth-child(8) > a"
             ],
@@ -806,14 +798,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.26:1. Recommendation:  change background to #00172d.",
-          "description": "<a href=\"#\">More gaspÃ© vacation pics</a>",
+          "description": "<a href=\"#\">More gasp\u00c3\u00a9 vacation pics</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.26:1. Recommendation:  change background to #00172d.",
-            "context": "<a href=\"#\">More gaspÃ© vacation pics</a>",
+            "context": "<a href=\"#\">More gasp\u00c3\u00a9 vacation pics</a>",
             "selector": "html > body > div > div:nth-child(2) > ul > li:nth-child(1) > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -823,14 +815,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.26:1. Recommendation:  change background to #00172d.",
-          "description": "<a href=\"#\">Far from home... in the GaspÃ©</a>",
+          "description": "<a href=\"#\">Far from home... in the Gasp\u00c3\u00a9</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.26:1. Recommendation:  change background to #00172d.",
-            "context": "<a href=\"#\">Far from home... in the GaspÃ©</a>",
+            "context": "<a href=\"#\">Far from home... in the Gasp\u00c3\u00a9</a>",
             "selector": "html > body > div > div:nth-child(2) > ul > li:nth-child(2) > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -857,14 +849,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.26:1. Recommendation:  change background to #00172d.",
-          "description": "<a href=\"#\">Laurentian's scenic RiviÃ¨re Ro...</a>",
+          "description": "<a href=\"#\">Laurentian's scenic Rivi\u00c3\u00a8re Ro...</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.26:1. Recommendation:  change background to #00172d.",
-            "context": "<a href=\"#\">Laurentian's scenic RiviÃ¨re Ro...</a>",
+            "context": "<a href=\"#\">Laurentian's scenic Rivi\u00c3\u00a8re Ro...</a>",
             "selector": "html > body > div > div:nth-child(2) > ul > li:nth-child(4) > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -925,14 +917,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.26:1. Recommendation:  change background to #00172d.",
-          "description": "<a href=\"#\">Ridiculously scenic RiviÃ¨re Ro...</a>",
+          "description": "<a href=\"#\">Ridiculously scenic Rivi\u00c3\u00a8re Ro...</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.26:1. Recommendation:  change background to #00172d.",
-            "context": "<a href=\"#\">Ridiculously scenic RiviÃ¨re Ro...</a>",
+            "context": "<a href=\"#\">Ridiculously scenic Rivi\u00c3\u00a8re Ro...</a>",
             "selector": "html > body > div > div:nth-child(2) > ul > li:nth-child(8) > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1014,7 +1006,7 @@
                       "height": 1130
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi…"
+                    "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi\u2026"
                   }
                 }
               ]
@@ -1063,7 +1055,7 @@
                       "height": 1130
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi…"
+                    "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi\u2026"
                   }
                 }
               ]
@@ -1112,7 +1104,7 @@
                       "height": 1130
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi…"
+                    "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi\u2026"
                   }
                 }
               ]
@@ -1161,7 +1153,7 @@
                       "height": 1130
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi…"
+                    "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi\u2026"
                   }
                 }
               ]
@@ -1210,7 +1202,7 @@
                       "height": 1130
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi…"
+                    "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi\u2026"
                   }
                 }
               ]
@@ -1259,7 +1251,7 @@
                       "height": 460
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM\u2026"
                   }
                 }
               ]
@@ -1287,7 +1279,7 @@
                 "height": 17
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "More gaspÃ© vacation pics",
+              "nodeLabel": "More gasp\u00c3\u00a9 vacation pics",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.25 (foreground color: #007aff, background color: #2a4b6b, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1308,7 +1300,7 @@
                       "height": 460
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM\u2026"
                   }
                 }
               ]
@@ -1336,7 +1328,7 @@
                 "height": 17
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "Far from home... in the GaspÃ©",
+              "nodeLabel": "Far from home... in the Gasp\u00c3\u00a9",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.25 (foreground color: #007aff, background color: #2a4b6b, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1357,7 +1349,7 @@
                       "height": 460
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM\u2026"
                   }
                 }
               ]
@@ -1406,7 +1398,7 @@
                       "height": 460
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM\u2026"
                   }
                 }
               ]
@@ -1434,7 +1426,7 @@
                 "height": 17
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "Laurentian's scenic RiviÃ¨re Rouge ride",
+              "nodeLabel": "Laurentian's scenic Rivi\u00c3\u00a8re Rouge ride",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.25 (foreground color: #007aff, background color: #2a4b6b, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1455,7 +1447,7 @@
                       "height": 460
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM\u2026"
                   }
                 }
               ]
@@ -1504,7 +1496,7 @@
                       "height": 460
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM\u2026"
                   }
                 }
               ]
@@ -1553,7 +1545,7 @@
                       "height": 460
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM\u2026"
                   }
                 }
               ]
@@ -1602,7 +1594,7 @@
                       "height": 460
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM\u2026"
                   }
                 }
               ]
@@ -1630,7 +1622,7 @@
                 "height": 35
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "Ridiculously scenic RiviÃ¨re Rouge road ride",
+              "nodeLabel": "Ridiculously scenic Rivi\u00c3\u00a8re Rouge road ride",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.25 (foreground color: #007aff, background color: #2a4b6b, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1651,7 +1643,7 @@
                       "height": 460
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM\u2026"
                   }
                 }
               ]
@@ -1700,7 +1692,7 @@
                       "height": 460
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM\u2026"
                   }
                 }
               ]
@@ -1749,7 +1741,7 @@
                       "height": 460
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\n\nM\u2026"
                   }
                 }
               ]

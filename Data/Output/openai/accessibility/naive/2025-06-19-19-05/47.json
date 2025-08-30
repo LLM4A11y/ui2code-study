@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -129,7 +121,7 @@
                       "height": 142
                     },
                     "snippet": "<div id=\"footer\">",
-                    "nodeLabel": "Lo-Fi Version\nTime is now: 30th November 2023 - 10:02 AM\nPowered By IP.Board Â©…"
+                    "nodeLabel": "Lo-Fi Version\nTime is now: 30th November 2023 - 10:02 AM\nPowered By IP.Board \u00c2\u00a9\u2026"
                   }
                 }
               ]

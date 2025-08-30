@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -105,7 +114,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"subtitle\">Physician entrepreneur disrupting the healthcare status quo ð</div>",
+            "html": "<div class=\"subtitle\">Physician entrepreneur disrupting the healthcare status quo \u00f0\u009f\u009a\u0080</div>",
             "target": [
               ".subtitle"
             ],
@@ -133,7 +142,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">On a mission to â¤´ï¸ compassion &amp; flourishing for everyone â¤ï¸</div>",
+            "html": "<div class=\"footer\">On a mission to \u00e2\u00a4\u00b4\u00ef\u00b8\u008f compassion &amp; flourishing for everyone \u00e2\u009d\u00a4\u00ef\u00b8\u008f</div>",
             "target": [
               ".footer"
             ],

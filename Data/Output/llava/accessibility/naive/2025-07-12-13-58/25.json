@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -134,7 +126,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        <!-- Replace with actual footer content -->\n        <p class=\"content-paragraph\">Â© 2023 Dog Training. All rights reserved.</p>\n    </div>",
+                    "html": "<div class=\"footer\">\n        <!-- Replace with actual footer content -->\n        <p class=\"content-paragraph\">\u00c2\u00a9 2023 Dog Training. All rights reserved.</p>\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -153,7 +145,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p class=\"content-paragraph\">Â© 2023 Dog Training. All rights reserved.</p>",
+            "html": "<p class=\"content-paragraph\">\u00c2\u00a9 2023 Dog Training. All rights reserved.</p>",
             "target": [
               ".footer > .content-paragraph"
             ],
@@ -313,7 +305,7 @@
                 "height": 24
               },
               "snippet": "<p class=\"content-paragraph\">",
-              "nodeLabel": "Â© 2023 Dog Training. All rights reserved.",
+              "nodeLabel": "\u00c2\u00a9 2023 Dog Training. All rights reserved.",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.42 (foreground color: #ffffff, background color: #80f080, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -334,7 +326,7 @@
                       "height": 80
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Â© 2023 Dog Training. All rights reserved."
+                    "nodeLabel": "\u00c2\u00a9 2023 Dog Training. All rights reserved."
                   }
                 },
                 {
@@ -511,7 +503,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        <!-- Replace with actual footer content -->\n        <p class=\"content-paragraph\">Â© 2023 Dog Training. All rights reserved.</p>\n    </div>",
+            "html": "<div class=\"footer\">\n        <!-- Replace with actual footer content -->\n        <p class=\"content-paragraph\">\u00c2\u00a9 2023 Dog Training. All rights reserved.</p>\n    </div>",
             "target": [
               ".footer"
             ],

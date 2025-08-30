@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -160,7 +152,7 @@
                       "height": 819
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Header Section\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eui…"
+                    "nodeLabel": "Header Section\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eui\u2026"
                   }
                 }
               ]
@@ -188,7 +180,7 @@
                 "height": 437
               },
               "snippet": "<div class=\"text\">",
-              "nodeLabel": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod risus eu n…",
+              "nodeLabel": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod risus eu n\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.7 (foreground color: #929bc9, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -209,7 +201,7 @@
                       "height": 819
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Header Section\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eui…"
+                    "nodeLabel": "Header Section\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eui\u2026"
                   }
                 }
               ]

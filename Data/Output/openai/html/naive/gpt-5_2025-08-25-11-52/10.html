@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Rosado Wrap Bracelet</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --aqua:#7fe3e3;
+    --aqua-mid:#aeeff0;
+    --text:#7fbebe;
+    --blue:#1a1aff;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family: 'Montserrat', Arial, sans-serif;
+    background:#fff;
+    color:#1b3e3e;
+  }
+  .wrap{max-width:1050px;margin:0 auto;padding:0 26px}
+  /* Header */
+  header{
+    border-bottom:1px solid var(--aqua-mid);
+    height:78px;
+    display:grid;
+    grid-template-columns:160px 1fr 160px;
+    align-items:center;
+  }
+  .logo img{width:36px;height:36px;background:var(--blue);display:block;object-fit:cover}
+  nav ul{list-style:none;display:flex;gap:46px;justify-content:center}
+  nav a{
+    text-decoration:none;
+    color:var(--aqua);
+    font-size:13px;
+    letter-spacing:.12em;
+  }
+  .cart{
+    justify-self:end;
+    color:var(--aqua);
+    font-size:13px;
+    letter-spacing:.12em;
+  }
+  /* Title */
+  .title{
+    text-align:center;
+    margin:40px 0 10px;
+    color:var(--aqua);
+    letter-spacing:.5em;
+    font-weight:300;
+    font-size:28px;
+  }
+  .price{
+    text-align:center;
+    color:var(--aqua);
+    letter-spacing:.45em;
+    font-size:12px;
+    margin-bottom:28px;
+  }
+  /* Main columns */
+  .content{display:grid;grid-template-columns: 1fr 360px;gap:46px}
+  /* Left media */
+  .main-img{
+    width:100%;
+    height:520px;
+    background:var(--blue);
+    margin-bottom:26px;
+    display:block;
+    object-fit:cover;
+  }
+  .thumbs{display:flex;gap:28px}
+  .thumbs img{
+    width:150px;height:150px;background:var(--blue);display:block;object-fit:cover;
+  }
+  /* Right column */
+  .desc{
+    color:var(--text);
+    font-size:13px;
+    line-height:1.9;
+    margin-top:6px;
+  }
+  .field{
+    border:1px solid var(--aqua);
+    height:42px;
+    padding:0 12px;
+    color:#6fb8b8;
+    background:#fff;
+    width:100%;
+    margin:16px 0 14px;
+    font-size:13px;
+  }
+  .btn{
+    width:100%;
+    height:44px;
+    border:1px solid var(--aqua);
+    color:#63caca;
+    background:#fff;
+    cursor:pointer;
+    font-size:13px;
+  }
+  .share{
+    margin-top:26px;
+  }
+  .share hr{
+    border:0;height:1px;background:var(--aqua-mid);margin:10px 0 16px;
+  }
+  .share h4{
+    text-align:center;
+    color:var(--aqua);
+    font-weight:500;
+    font-size:12px;
+    letter-spacing:.45em;
+    margin-top:-24px; /* sit on the line */
+    background:#fff;
+    width:120px;
+    margin-left:auto;margin-right:auto;
+  }
+  .icons{display:flex;gap:16px;margin-top:18px}
+  .icons span{
+    width:38px;height:38px;border:1px solid var(--aqua);display:inline-block;
+  }
+  /* Footer */
+  footer{
+    border-top:1px solid var(--aqua-mid);
+    margin-top:56px;
+    height:64px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    color:var(--aqua);
+    font-size:13px;
+    letter-spacing:.1em;
+  }
+  .badge{
+    background:#e6e6e6;
+    color:#7a7a7a;
+    border-radius:4px;
+    padding:6px 10px;
+    margin-left:4px;
+    font-size:12px;
+  }
+  .foot-links a{
+    color:var(--aqua);
+    text-decoration:none;
+    margin-left:24px;
+  }
+  /* Image placeholders must be blue even if src not found */
+  img{background:var(--blue)}
+  @media (max-width:900px){
+    .content{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo"><img src="src/placeholder.jpg" alt=""></div>
+      <nav>
+        <ul>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Who We Are</a></li>
+          <li><a href="#">Size Chart</a></li>
+          <li><a href="#">Policies</a></li>
+        </ul>
+      </nav>
+      <div class="cart">0 / $ 0.00</div>
+    </header>
+
+    <h1 class="title">THE ROSADO WRAP BRACELET</h1>
+    <div class="price">$ 20.00</div>
+
+    <section class="content">
+      <div class="left">
+        <img class="main-img" src="src/placeholder.jpg" alt="">
+        <div class="thumbs">
+          <img src="src/placeholder.jpg" alt="">
+          <img src="src/placeholder.jpg" alt="">
+        </div>
+      </div>
+      <div class="right">
+        <p class="desc">
+          Dyed pink wooden tube beads; 4mm turquoise beads; 6 gold pewter spacers strung
+          on elastic cord to create a quadruple wrap!<br><br>
+          This listing is for one wrap bracelet. Each wrap bracelet is sold individually at $20.00
+          each.<br><br>
+          **For sizing measurements, please refer to the Size Chart Page.**<br>
+          **This bracelet can be customized with silver spacers.**
+        </p>
+
+        <input class="field" value="Small (S)" readonly>
+        <button class="btn">Add to Cart</button>
+
+        <div class="share">
+          <hr>
+          <h4>S H A R E</h4>
+          <div class="icons">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="badge">bigcartel</div>
+      <div class="foot-links">
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

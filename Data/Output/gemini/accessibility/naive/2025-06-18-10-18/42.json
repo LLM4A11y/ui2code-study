@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -837,7 +829,7 @@
                       "height": 306
                     },
                     "snippet": "<div class=\"expert-in\">",
-                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi…"
+                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi\u2026"
                   }
                 }
               ]
@@ -886,7 +878,7 @@
                       "height": 306
                     },
                     "snippet": "<div class=\"expert-in\">",
-                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi…"
+                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi\u2026"
                   }
                 }
               ]
@@ -935,7 +927,7 @@
                       "height": 306
                     },
                     "snippet": "<div class=\"expert-in\">",
-                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi…"
+                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi\u2026"
                   }
                 }
               ]
@@ -984,7 +976,7 @@
                       "height": 306
                     },
                     "snippet": "<div class=\"expert-in\">",
-                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi…"
+                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi\u2026"
                   }
                 }
               ]
@@ -1033,7 +1025,7 @@
                       "height": 306
                     },
                     "snippet": "<div class=\"expert-in\">",
-                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi…"
+                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi\u2026"
                   }
                 }
               ]
@@ -1082,7 +1074,7 @@
                       "height": 306
                     },
                     "snippet": "<div class=\"expert-in\">",
-                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi…"
+                    "nodeLabel": "Expert In\nAstrophysics\nDark matter detection\nHigh energy physics\nNeutrino physi\u2026"
                   }
                 }
               ]
@@ -1278,7 +1270,7 @@
                       "height": 70
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Ã‚Â© | Expertise Finder | Toronto (Canada) | 1-888-978-5418 | info@expertisefin…"
+                    "nodeLabel": "\u00c3\u201a\u00c2\u00a9 | Expertise Finder | Toronto (Canada) | 1-888-978-5418 | info@expertisefin\u2026"
                   }
                 }
               ]
@@ -1327,7 +1319,7 @@
                       "height": 70
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Ã‚Â© | Expertise Finder | Toronto (Canada) | 1-888-978-5418 | info@expertisefin…"
+                    "nodeLabel": "\u00c3\u201a\u00c2\u00a9 | Expertise Finder | Toronto (Canada) | 1-888-978-5418 | info@expertisefin\u2026"
                   }
                 }
               ]
@@ -1376,7 +1368,7 @@
                       "height": 70
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Ã‚Â© | Expertise Finder | Toronto (Canada) | 1-888-978-5418 | info@expertisefin…"
+                    "nodeLabel": "\u00c3\u201a\u00c2\u00a9 | Expertise Finder | Toronto (Canada) | 1-888-978-5418 | info@expertisefin\u2026"
                   }
                 }
               ]
@@ -1425,7 +1417,7 @@
                       "height": 70
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Ã‚Â© | Expertise Finder | Toronto (Canada) | 1-888-978-5418 | info@expertisefin…"
+                    "nodeLabel": "\u00c3\u201a\u00c2\u00a9 | Expertise Finder | Toronto (Canada) | 1-888-978-5418 | info@expertisefin\u2026"
                   }
                 }
               ]

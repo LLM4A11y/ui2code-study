@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Followers</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --green:#1a8917;
+    --text:#111111;
+    --muted:#6b6b6b;
+    --rule:#eeeeee;
+    --blue:#2734ff;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color:var(--text);
+    background:#fff;
+  }
+
+  /* Top bar */
+  .topbar{
+    height:54px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 28px;
+    border-bottom:1px solid var(--rule);
+    font-size:14px;
+    color:#707070;
+  }
+  .topbar .left{color:#7a7a7a}
+  .topbar .right{
+    display:flex;
+    align-items:center;
+    gap:14px;
+  }
+  .btn-signup{
+    background:var(--green);
+    color:#fff;
+    padding:7px 16px;
+    border-radius:9999px;
+    font-weight:600;
+    text-decoration:none;
+  }
+  .right a{
+    color:var(--text);
+    text-decoration:none;
+  }
+  .user-mini{
+    width:18px;height:18px;border-radius:50%;
+    background:var(--blue);
+    display:inline-block;
+  }
+
+  /* Main container aligned with big left gutter */
+  .container{
+    max-width:1050px;
+    margin-left:160px;
+    padding-right:40px;
+  }
+
+  .subnav{
+    display:flex;
+    gap:34px;
+    padding:18px 0 8px;
+    font-size:14px;
+    color:#8a8a8a;
+  }
+  .subnav .active{
+    color:#000;
+    font-weight:600;
+  }
+
+  h1{
+    font-size:28px;
+    margin:10px 0 22px;
+    font-weight:700;
+  }
+
+  /* Followers list */
+  .row{
+    display:grid;
+    grid-template-columns:56px 260px 480px 120px;
+    column-gap:24px;
+    align-items:center;
+    padding:22px 0;
+  }
+
+  .avatar{
+    width:44px;height:44px;border-radius:50%;
+    object-fit:cover;
+    background:var(--blue);
+    display:block;
+  }
+
+  .name{
+    font-weight:600;
+    font-size:16px;
+  }
+  .bio{
+    font-size:13px;
+    color:var(--muted);
+    line-height:1.45;
+  }
+
+  .follow{
+    justify-self:end;
+    background:var(--green);
+    color:#fff;
+    border:none;
+    padding:8px 18px;
+    border-radius:999px;
+    font-weight:600;
+    font-size:14px;
+    cursor:pointer;
+  }
+
+  /* Extra breathing room like the screenshot */
+  .row.spaced{padding:28px 0}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="left">Open in app</div>
+  <div class="right">
+    <a href="#" class="btn-signup">Sign up</a>
+    <a href="#">Sign in</a>
+    <span class="user-mini"></span>
+  </div>
+</header>
+
+<main class="container">
+  <div class="subnav">
+    <span>Postcards from a Distant Land</span>
+    <span class="active">Followers</span>
+  </div>
+
+  <h1>12 Followers</h1>
+
+  <div class="row">
+    <img class="avatar" src="src/placeholder.jpg" alt="">
+    <div class="name">A&amp;M Space</div>
+    <div class="bio"></div>
+    <button class="follow">Follow</button>
+  </div>
+
+  <div class="row spaced">
+    <img class="avatar" src="src/placeholder.jpg" alt="">
+    <div class="name">Maple Wellington</div>
+    <div class="bio">High School Teacher based in Bern</div>
+    <div></div>
+  </div>
+
+  <div class="row spaced">
+    <img class="avatar" src="src/placeholder.jpg" alt="">
+    <div class="name">CJ Amberwood</div>
+    <div class="bio">
+      Thinker. Author. Explorer of edges. Top writer in Writing. Founder, âJust Curiousâ
+      pub, exploring creativity in 3m or less. Pour some coffee, stop in..!
+    </div>
+    <button class="follow">Follow</button>
+  </div>
+
+  <div class="row spaced">
+    <img class="avatar" src="src/placeholder.jpg" alt="">
+    <div class="name">June Miller</div>
+    <div class="bio"></div>
+    <button class="follow">Follow</button>
+  </div>
+
+  <div class="row">
+    <img class="avatar" src="src/placeholder.jpg" alt="">
+    <div class="name">Suparnna Anilkumar</div>
+    <div class="bio">I have more doppelgÃ¤ngers than you have friends.</div>
+    <button class="follow">Follow</button>
+  </div>
+
+  <div class="row spaced">
+    <img class="avatar" src="src/placeholder.jpg" alt="">
+    <div class="name">Tim Alan</div>
+    <div class="bio"></div>
+    <button class="follow">Follow</button>
+  </div>
+
+  <div class="row">
+    <img class="avatar" src="src/placeholder.jpg" alt="">
+    <div class="name">Liv Oliver</div>
+    <div class="bio"></div>
+    <button class="follow">Follow</button>
+  </div>
+
+  <div class="row">
+    <img class="avatar" src="src/placeholder.jpg" alt="">
+    <div class="name">Renuka Shyamsundar Belamkar</div>
+    <div class="bio"></div>
+    <button class="follow">Follow</button>
+  </div>
+</main>
+
+</body>
+</html>

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -1023,7 +1015,7 @@
                       "height": 250
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Driving Schools & Tutors\n\nDriving Schools & Tutors. We offer professional drivi…"
+                    "nodeLabel": "Driving Schools & Tutors\n\nDriving Schools & Tutors. We offer professional drivi\u2026"
                   }
                 }
               ]
@@ -1051,7 +1043,7 @@
                 "height": 126
               },
               "snippet": "<p>",
-              "nodeLabel": "Driving Schools & Tutors. We offer professional driving instruction in St Auste…",
+              "nodeLabel": "Driving Schools & Tutors. We offer professional driving instruction in St Auste\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.05 (foreground color: #ffffff, background color: #f8f9fa, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1072,7 +1064,7 @@
                       "height": 250
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Driving Schools & Tutors\n\nDriving Schools & Tutors. We offer professional drivi…"
+                    "nodeLabel": "Driving Schools & Tutors\n\nDriving Schools & Tutors. We offer professional drivi\u2026"
                   }
                 }
               ]

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -50,7 +42,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer class=\"footer\">\n        <!-- Add your footer content here -->\n        <p>© Your Company Name. All rights reserved.</p>\n    </footer>",
+                    "html": "<footer class=\"footer\">\n        <!-- Add your footer content here -->\n        <p>\u00a9 Your Company Name. All rights reserved.</p>\n    </footer>",
                     "target": [
                       "footer"
                     ]
@@ -69,7 +61,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>© Your Company Name. All rights reserved.</p>",
+            "html": "<p>\u00a9 Your Company Name. All rights reserved.</p>",
             "target": [
               "footer > p"
             ],
@@ -97,7 +89,7 @@
                 "height": 18
               },
               "snippet": "<p>",
-              "nodeLabel": "© Your Company Name. All rights reserved.",
+              "nodeLabel": "\u00a9 Your Company Name. All rights reserved.",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.59 (foreground color: #ffffff, background color: #927ac9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -118,7 +110,7 @@
                       "height": 90
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "© Your Company Name. All rights reserved."
+                    "nodeLabel": "\u00a9 Your Company Name. All rights reserved."
                   }
                 },
                 {

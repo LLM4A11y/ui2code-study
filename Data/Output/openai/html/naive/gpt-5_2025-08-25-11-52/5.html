@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Digital Inspiration - Article</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --teal:#0e9b8e;
+    --dark:#222425;
+    --muted:#8e98a0;
+    --light:#f6f7f8;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    color:var(--dark);
+    background:#fff;
+    font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  }
+  .wrap{width:980px; max-width:calc(100% - 120px); margin:0 auto;}
+  /* Top bar */
+  .top{padding:34px 0 18px}
+  .brand{display:flex; align-items:flex-start; justify-content:space-between;}
+  .brand-left h1{
+    margin:0;
+    font-size:22px;
+    letter-spacing:.6px;
+    font-weight:800;
+  }
+  .brand-left .tag{
+    margin-top:4px;
+    color:#90979f;
+    font-size:13px;
+    font-style:italic;
+  }
+  .search-top{
+    color:var(--teal);
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:.8px;
+  }
+  /* Hero */
+  .hero{
+    background:var(--teal);
+    padding:70px 0 76px;
+    margin-bottom:54px;
+  }
+  .hero h2{
+    color:#fff;
+    font-weight:800;
+    font-size:48px;
+    line-height:1.2;
+    max-width:780px;
+    margin:0;
+  }
+  /* Article area */
+  .article{
+    display:grid;
+    grid-template-columns: 1fr 140px;
+    grid-gap:60px;
+  }
+  .date{
+    color:var(--muted);
+    font-size:14px;
+    margin:0 0 26px;
+  }
+  .content p{
+    font-family: "Merriweather", Georgia, "Times New Roman", serif;
+    font-size:17px;
+    line-height:1.9;
+    margin:22px 0;
+  }
+  .content p:first-of-type::first-letter{
+    color:#1e8e76;
+    font-family: "Merriweather", Georgia, serif;
+    float:left;
+    font-size:58px;
+    line-height:52px;
+    padding-right:10px;
+    font-weight:700;
+  }
+  a{color:var(--teal); text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  .side .share{
+    color:var(--teal);
+    font-weight:700;
+    font-size:12px;
+    letter-spacing:.8px;
+    margin:18px 0 28px;
+  }
+  .side .spacer{height:240px;}
+  /* Popular posts */
+  .popular{
+    margin-top:76px;
+    padding-top:20px;
+  }
+  .popular .label{
+    color:#6d757c;
+    font-size:13px;
+    margin-bottom:26px;
+  }
+  .post{
+    border-top:1px solid #eef0f2;
+    padding:36px 0 28px;
+  }
+  .post h3{
+    margin:6px 0 12px;
+    color:var(--teal);
+    font-size:32px;
+    line-height:1.25;
+    font-weight:800;
+    max-width:760px;
+  }
+  .post .pdate{
+    color:var(--muted);
+    font-size:13px;
+    margin-bottom:12px;
+  }
+  .post .excerpt{
+    font-family: "Merriweather", Georgia, serif;
+    color:#2b2f31;
+    font-size:16px;
+    line-height:1.9;
+    max-width:760px;
+    position:relative;
+  }
+  .dots{float:right; color:#9aa2a8}
+  .post .actions{
+    display:flex;
+    justify-content:space-between;
+    margin-top:16px;
+  }
+  .post .actions a{
+    color:var(--teal);
+    font-weight:700;
+    font-size:12px;
+    letter-spacing:.8px;
+    text-transform:uppercase;
+  }
+  /* Post with image on right */
+  .post.with-img{
+    display:grid;
+    grid-template-columns: 1fr 280px;
+    grid-column-gap:40px;
+    align-items:start;
+  }
+  .post.with-img .excerpt{max-width:100%;}
+  .post img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    display:block;
+    background:#69a7ff; /* in case image not found, blue placeholder tint */
+  }
+  /* Footer */
+  footer{
+    text-align:center;
+    padding:40px 0 60px;
+    color:var(--muted);
+    font-size:12px;
+  }
+  footer .powered{
+    color:var(--teal);
+    font-weight:700;
+    margin-bottom:8px;
+  }
+
+  @media (max-width:900px){
+    .article{grid-template-columns:1fr}
+    .side{display:none}
+    .post.with-img{grid-template-columns:1fr}
+    .post img{margin-top:18px}
+  }
+</style>
+</head>
+<body>
+  <header class="top wrap">
+    <div class="brand">
+      <div class="brand-left">
+        <h1>DIGITAL INSPIRATION</h1>
+        <div class="tag">Tips and Tricks for Google Workspace users</div>
+      </div>
+      <div class="search-top">SEARCH</div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <h2>How to Upload Videos to YouTube if<br>Access to Website is Blocked</h2>
+    </div>
+  </section>
+
+  <main class="wrap article">
+    <div class="content">
+      <p class="date">July 25, 2007</p>
+
+      <p><a href="#">Richard, who works for a large Fortune 100 company, recently wrote on Facebook</a> that he cannot upload screencast video clips to YouTube since the company he works for has blocked access to YouTube and other video sharing websites though the firewall.</p>
+
+      <p>One of the available options is to use your <a href="#">mobile phone</a> for uploading videos on YouTube - just create a mobile profile on YouTube from a computer outside the organization's firewall and then email the video to YouTube as an MMS message.</p>
+
+      <p>Related: <a href="#">How to Access Blocked Websites</a></p>
+
+      <p>The second more versatile option is the one-to-many <a href="#">Hey!Spread</a> - this is an online service to help you upload a video clip to multiple video sharing websites in one go.</p>
+
+      <p>You upload the video to Hey!Spread servers and they in turn upload it to the various other video sites including YouTube, MySpace, PhotoBucket, MetaCafe, Google, Yahoo! video, DailyMotion, etc.</p>
+
+      <p>Chances are high that access to Hey!Spread is open in your company - they'll send you an email confirmation as soon as your video is uploaded successfully to the different sites.</p>
+    </div>
+    <aside class="side">
+      <div class="share">SHARE</div>
+      <div class="spacer"></div>
+      <div class="share">SHARE</div>
+    </aside>
+  </main>
+
+  <section class="wrap popular">
+    <div class="label">Popular posts from this blog</div>
+
+    <article class="post">
+      <h3>How to Download Contacts from Facebook To Outlook Address Book</h3>
+      <div class="pdate">October 15, 2007</div>
+      <div class="excerpt">
+        Facebook users are not too pleased with the "walled garden" approach of Facebook. The reason is simple - while you can easily import your Outlook address book and GMail contacts into Facebook, the reverse path is closed.
+        <span class="dots">â¦</span>
+      </div>
+      <div class="actions">
+        <a href="#">Share</a>
+        <a href="#">Read More</a>
+      </div>
+    </article>
+
+    <article class="post with-img">
+      <div>
+        <h3>Learn to Create a Firefox Search<br>Plugin in Less Than 2 Minutes</h3>
+        <div class="pdate">September 23, 2006</div>
+        <div class="excerpt">
+          Almost every blog has a site search form where you just type in the search query and press enter to digg through the archives of that blog . The only drawback here is that you first have to visit the site homepage to locate the search box.
+          <span class="dots">â¦</span>
+        </div>
+        <div class="actions">
+          <a href="#">Share</a>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <img src="src/placeholder.jpg" alt="Post image placeholder">
+    </article>
+
+    <article class="post">
+      <h3>Digital Inspiration</h3>
+      <div class="pdate">October 25, 2007</div>
+      <div class="excerpt">
+        Digital Inspiration is a popular tech blog by  Amit Agarwal . Our popular Google Scripts include  Gmail Mail Merge  (send personalized emails with Gmail ), Document Studio (generate PDFs from Google Forms ) and  File Upload Forms  ( receive files  in Google Drive).
+        <span class="dots">â¦</span>
+      </div>
+      <div class="actions">
+        <a href="#">Share</a>
+        <a href="#">Read More</a>
+      </div>
+    </article>
+  </section>
+
+  <footer>
+    <div class="powered">Powered by Blogger</div>
+    <div>2004-2023 Digital Inspiration</div>
+  </footer>
+</body>
+</html>

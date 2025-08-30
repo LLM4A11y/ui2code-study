@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -357,7 +349,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<span style=\"font-size:12px; color:#999;\">â edited on 2018/10/28 11:00</span>",
+            "html": "<span style=\"font-size:12px; color:#999;\">\u00e2\u0080\u0094 edited on 2018/10/28 11:00</span>",
             "target": [
               "span:nth-child(3)"
             ],
@@ -823,14 +815,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
-          "description": "<span style=\"font-size:12px; color:#999;\">â edited on 2018/10/28 11:00</span>",
+          "description": "<span style=\"font-size:12px; color:#999;\">\u00e2\u0080\u0094 edited on 2018/10/28 11:00</span>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
-            "context": "<span style=\"font-size:12px; color:#999;\">â edited on 2018/10/28 11:00</span>",
+            "context": "<span style=\"font-size:12px; color:#999;\">\u00e2\u0080\u0094 edited on 2018/10/28 11:00</span>",
             "selector": "html > body > div:nth-child(3) > div:nth-child(2) > div > span:nth-child(3)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1259,7 +1251,7 @@
                       "height": 1230
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "[Solved] - Cannot Upload =â(\nShyzuna on 2018/10/27 23:53\nâ edited on 2018/1…"
+                    "nodeLabel": "[Solved] - Cannot Upload =\u00e2\u0080\u0099(\nShyzuna on 2018/10/27 23:53\n\u00e2\u0080\u0094 edited on 2018/1\u2026"
                   }
                 }
               ]
@@ -1287,7 +1279,7 @@
                 "height": 14
               },
               "snippet": "<span style=\"font-size:12px; color:#999;\">",
-              "nodeLabel": "â edited on 2018/10/28 11:00",
+              "nodeLabel": "\u00e2\u0080\u0094 edited on 2018/10/28 11:00",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #999999, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1308,7 +1300,7 @@
                       "height": 1230
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "[Solved] - Cannot Upload =â(\nShyzuna on 2018/10/27 23:53\nâ edited on 2018/1…"
+                    "nodeLabel": "[Solved] - Cannot Upload =\u00e2\u0080\u0099(\nShyzuna on 2018/10/27 23:53\n\u00e2\u0080\u0094 edited on 2018/1\u2026"
                   }
                 }
               ]
@@ -1357,7 +1349,7 @@
                       "height": 1230
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "[Solved] - Cannot Upload =â(\nShyzuna on 2018/10/27 23:53\nâ edited on 2018/1…"
+                    "nodeLabel": "[Solved] - Cannot Upload =\u00e2\u0080\u0099(\nShyzuna on 2018/10/27 23:53\n\u00e2\u0080\u0094 edited on 2018/1\u2026"
                   }
                 }
               ]
@@ -1406,7 +1398,7 @@
                       "height": 96
                     },
                     "snippet": "<div class=\"comment-text\">",
-                    "nodeLabel": "yarolik on 2018/10/27 23:58:\nDo git push!\nRules says that you have 1 extra day …"
+                    "nodeLabel": "yarolik on 2018/10/27 23:58:\nDo git push!\nRules says that you have 1 extra day \u2026"
                   }
                 }
               ]
@@ -1455,7 +1447,7 @@
                       "height": 112
                     },
                     "snippet": "<div class=\"comment-text\">",
-                    "nodeLabel": "Shyzuna on 2018/10/28 00:00:\nOh well my repo is up to date !\nYeah I just saw th…"
+                    "nodeLabel": "Shyzuna on 2018/10/28 00:00:\nOh well my repo is up to date !\nYeah I just saw th\u2026"
                   }
                 }
               ]
@@ -1504,7 +1496,7 @@
                       "height": 80
                     },
                     "snippet": "<div class=\"comment-text\">",
-                    "nodeLabel": "mauve on 2018/10/28 00:20:\nHow big is your file? There have been problems with …"
+                    "nodeLabel": "mauve on 2018/10/28 00:20:\nHow big is your file? There have been problems with \u2026"
                   }
                 }
               ]
@@ -1553,7 +1545,7 @@
                       "height": 96
                     },
                     "snippet": "<div class=\"comment-text\">",
-                    "nodeLabel": "Shyzuna on 2018/10/28 00:41:\nMy file is about 45mo !\nI think it is already a go…"
+                    "nodeLabel": "Shyzuna on 2018/10/28 00:41:\nMy file is about 45mo !\nI think it is already a go\u2026"
                   }
                 }
               ]
@@ -1602,7 +1594,7 @@
                       "height": 96
                     },
                     "snippet": "<div class=\"comment-text\">",
-                    "nodeLabel": "mauve on 2018/10/28 00:46:\nHow long is it taking to upload, though? Timeout is …"
+                    "nodeLabel": "mauve on 2018/10/28 00:46:\nHow long is it taking to upload, though? Timeout is \u2026"
                   }
                 }
               ]
@@ -1651,7 +1643,7 @@
                       "height": 80
                     },
                     "snippet": "<div class=\"comment-text\">",
-                    "nodeLabel": "mauve on 2018/10/28 00:48:\nIf the worst comes to the worst, upload it to your G…"
+                    "nodeLabel": "mauve on 2018/10/28 00:48:\nIf the worst comes to the worst, upload it to your G\u2026"
                   }
                 }
               ]
@@ -1700,7 +1692,7 @@
                       "height": 80
                     },
                     "snippet": "<div class=\"comment-text\">",
-                    "nodeLabel": "Shyzuna on 2018/10/28 11:00:\nWe manage to find a solution.\nThanks for your prop…"
+                    "nodeLabel": "Shyzuna on 2018/10/28 11:00:\nWe manage to find a solution.\nThanks for your prop\u2026"
                   }
                 }
               ]

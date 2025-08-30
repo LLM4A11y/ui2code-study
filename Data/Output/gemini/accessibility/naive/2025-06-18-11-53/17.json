@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -133,7 +125,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<span class=\"footer-right\">COPYRIGHT Â© 2004 - 2023 BY <span class=\"eminf\">EmInf</span>. ALL RIGHTS RESERVED.</span>",
+            "html": "<span class=\"footer-right\">COPYRIGHT \u00c2\u00a9 2004 - 2023 BY <span class=\"eminf\">EmInf</span>. ALL RIGHTS RESERVED.</span>",
             "target": [
               ".footer-right"
             ],
@@ -199,7 +191,7 @@
                       "height": 55
                     },
                     "snippet": "<th colspan=\"12\">",
-                    "nodeLabel": "AVERAGE DAILY TEMPERATURES (C) FOR OTTAWA, ONTARIO\nLOWER BOUND AVERAGE TEMPERAT…"
+                    "nodeLabel": "AVERAGE DAILY TEMPERATURES (C) FOR OTTAWA, ONTARIO\nLOWER BOUND AVERAGE TEMPERAT\u2026"
                   }
                 }
               ]
@@ -253,7 +245,7 @@
                 "height": 34
               },
               "snippet": "<span class=\"footer-right\">",
-              "nodeLabel": "COPYRIGHT Â© 2004 - 2023 BY EmInf. ALL RIGHTS RESERVED.",
+              "nodeLabel": "COPYRIGHT \u00c2\u00a9 2004 - 2023 BY EmInf. ALL RIGHTS RESERVED.",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -526,7 +518,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        <span>DANA &amp; JAROSLAV MOHAPL</span>\n        <span class=\"footer-right\">COPYRIGHT Â© 2004 - 2023 BY <span class=\"eminf\">EmInf</span>. ALL RIGHTS RESERVED.</span>\n    </div>",
+            "html": "<div class=\"footer\">\n        <span>DANA &amp; JAROSLAV MOHAPL</span>\n        <span class=\"footer-right\">COPYRIGHT \u00c2\u00a9 2004 - 2023 BY <span class=\"eminf\">EmInf</span>. ALL RIGHTS RESERVED.</span>\n    </div>",
             "target": [
               ".footer"
             ],
@@ -629,7 +621,7 @@
                 "height": 380
               },
               "snippet": "<table>",
-              "nodeLabel": "\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovember\tD…",
+              "nodeLabel": "\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovember\tD\u2026",
               "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers"
             },
             "subItems": {

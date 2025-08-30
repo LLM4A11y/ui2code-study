@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Recent Temperature Trends in Ottawa, Ontario</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --gold:#c6992a;
+    --gold-dark:#a97d1b;
+    --text:#333;
+    --muted:#666;
+    --soft:#9aa0a6;
+    --dotted:#bfbfbf;
+    --beige:#f1dec3;
+    --beige-dark:#e5cda9;
+    --table-border:#c4977a;
+    --blue:#8fd0f7;
+    --red:#f2a27f;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:#ffffff;
+    color:var(--text);
+    font:12px/1.55 "Verdana", "Inter", Arial, sans-serif;
+  }
+  .wrap{
+    width:1060px;
+    margin:28px auto 36px;
+  }
+
+  /* Header */
+  h1{
+    margin:0 0 18px;
+    color:#6c757d;
+    font:700 26px/1.2 "Verdana", Arial, sans-serif;
+    letter-spacing:.2px;
+  }
+  .rule{
+    border-bottom:2px dotted var(--dotted);
+    height:0;
+    margin:6px 0 24px;
+  }
+
+  /* Two column layout */
+  .main{
+    display:flex;
+    gap:40px;
+  }
+  aside{
+    width:260px;
+  }
+  main{
+    flex:1;
+    min-width:0;
+  }
+
+  /* Logo block */
+  .brand{
+    font-family:"Georgia", serif;
+    color:var(--gold);
+    font-size:44px;
+    line-height:42px;
+    margin-top:18px;
+    letter-spacing:.5px;
+  }
+  .tagline{
+    color:#c8a45a;
+    text-transform:uppercase;
+    font-size:11px;
+    letter-spacing:3.6px;
+    margin:10px 0 24px 2px;
+  }
+
+  /* Sidebar navigation */
+  .side-section-title{
+    margin-top:6px;
+    color:#5b5f63;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:2.3px;
+    font-size:12px;
+  }
+  .dotted-sep{
+    border-bottom:2px dotted var(--dotted);
+    height:0;
+    margin:10px 0 12px;
+    width:88%;
+  }
+  .subnav ul,
+  .side-list{
+    list-style:none;
+    margin:0;
+    padding:0 0 12px 0;
+  }
+  .subnav ul li,
+  .side-list li{
+    padding:7px 0;
+    color:#556066;
+    letter-spacing:2.1px;
+  }
+  .sub-items{
+    padding-left:14px;
+    color:#7c8085;
+    letter-spacing:2px;
+  }
+  .sub-items li{
+    padding:6px 0;
+  }
+  .credits{
+    margin-top:40px;
+    color:#c5a24f;
+    text-transform:uppercase;
+    letter-spacing:3.5px;
+  }
+
+  /* Content */
+  .toplinks{
+    margin-top:4px;
+    margin-bottom:18px;
+  }
+  .toplinks a{
+    color:var(--gold);
+    text-decoration:underline;
+    margin-right:20px;
+    font-size:12px;
+  }
+  h2{
+    margin:10px 0 10px;
+    color:#a67f20;
+    font:700 14px/1.2 "Verdana", Arial, sans-serif;
+    letter-spacing:.3px;
+  }
+  p{
+    color:#4c4f52;
+    margin:0 0 18px;
+  }
+  p a{color:#6b8db5; text-decoration:underline;}
+
+  /* Table card */
+  .table-card{
+    border:2px dotted var(--table-border);
+    padding:18px 18px 16px;
+    margin:18px 0 26px;
+    position:relative;
+  }
+  .table-title{
+    text-align:center;
+    color:#6a7076;
+    font-size:11px;
+    letter-spacing:.8px;
+    text-transform:uppercase;
+  }
+  .legend{
+    text-align:center;
+    margin-top:6px;
+    margin-bottom:10px;
+    color:#6e7378;
+    font-size:11px;
+  }
+  .legend .lb,
+  .legend .ub{
+    display:inline-block;
+    padding:2px 6px;
+    margin:0 6px;
+    border:1px solid #997b63;
+    background:#dfead1;
+    color:#3a4a27;
+    text-transform:uppercase;
+    font-weight:600;
+    letter-spacing:.6px;
+  }
+  .legend .ub{
+    background:#f2caa9;
+    color:#6a2b1d;
+  }
+
+  table.temp{
+    width:100%;
+    border-collapse:collapse;
+    table-layout:fixed;
+    font-size:11px;
+    color:#2f3438;
+  }
+  .temp thead th{
+    background:var(--beige);
+    border:1px dotted #8b6b56;
+    padding:6px 6px;
+    text-align:left;
+    color:#3e3e3e;
+  }
+  .temp thead th:first-child{
+    width:32px;
+    text-align:center;
+    background:#fff;
+    border:none;
+  }
+  .temp tbody td, .temp tbody th{
+    border:1px dotted #9c7a63;
+    padding:6px 5px;
+    vertical-align:middle;
+  }
+  .temp tbody th{
+    width:32px;
+    text-align:center;
+    background:var(--beige);
+    color:#5a524a;
+    border-right:1px dotted #9c7a63;
+  }
+
+  .triplet{
+    display:flex;
+    align-items:center;
+    gap:5px;
+    flex-wrap:nowrap;
+    white-space:nowrap;
+  }
+  .chip{
+    display:inline-block;
+    padding:1px 6px;
+    border:1px solid #6aa8cf;
+    background:var(--blue);
+    color:#1b3f56;
+    border-radius:2px;
+  }
+  .chip.avg{
+    border-color:#c7b599;
+    background:#f5ebd8;
+    color:#594e3d;
+  }
+  .chip.red{
+    border-color:#d08b6d;
+    background:var(--red);
+    color:#612c1b;
+  }
+
+  /* Footer */
+  footer{
+    width:1060px;
+    margin:20px auto 0;
+    border-top:2px dotted var(--dotted);
+    padding:12px 0 24px;
+    text-align:center;
+    color:#9aa0a6;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    font-size:11px;
+  }
+  footer b{color:#c6a353; font-weight:600;}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Recent Temperature Trends in Ottawa, Ontario</h1>
+    <div class="rule"></div>
+
+    <div class="main">
+      <aside>
+        <div class="brand">EmInf</div>
+        <div class="tagline">Empirical and Inferential Interpretations</div>
+
+        <div class="side-section-title">xTemperature Trends</div>
+        <div class="dotted-sep"></div>
+        <ul class="sub-items">
+          <li>Recent Data</li>
+          <li>Historical Data for USA</li>
+        </ul>
+
+        <div class="dotted-sep"></div>
+        <ul class="side-list">
+          <li>Sitemap</li>
+          <li>HTML in a Nutshell</li>
+          <li>CSS Overview</li>
+          <li>JavaScript Examples</li>
+          <li>Environmental Data Notes</li>
+          <li>Statistics Notes</li>
+          <li>Trips from Waterloo</li>
+          <li>The Mennonite Country</li>
+          <li>Archive</li>
+        </ul>
+
+        <div class="dotted-sep"></div>
+        <div class="credits">Dana &amp; Jaroslav Mohapl</div>
+      </aside>
+
+      <main>
+        <div class="toplinks">
+          <a href="#">Extrema</a>
+          <a href="#">Summary</a>
+          <a href="#">Monthly Summary</a>
+          <a href="#">Warming Trends</a>
+          <a href="#">Day Counts</a>
+          <a href="#">To Fahrenheit</a>
+        </div>
+
+        <h2>Temperature Trends in Ottawa, Ontario</h2>
+        <p>Average daily temperatures in Ottawa, Ontario, including the lower and upper bounds of the 95% confidence interval. Due to the possibility of missing data, the actual <a href="#">day counts</a> used in the average and confidence interval calculations are provided. The table is also offered in degrees of <a href="#">Fahrenheit</a>.</p>
+
+        <div class="table-card">
+          <div class="table-title">Average daily temperatures (C) for Ottawa, Ontario</div>
+          <div class="legend">
+            <span class="lb">Lower Bound</span>
+            Average Temperature
+            <span class="ub">Upper Bound</span>
+          </div>
+
+          <table class="temp">
+            <thead>
+              <tr>
+                <th></th>
+                <th>January</th>
+                <th>February</th>
+                <th>March</th>
+                <th>April</th>
+                <th>May</th>
+                <th>June</th>
+                <th>July</th>
+                <th>August</th>
+                <th>September</th>
+                <th>October</th>
+                <th>November</th>
+                <th>December</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>1</th>
+                <td><div class="triplet"><span class="chip">-12</span><span class="chip avg">-8</span><span class="chip red">4</span></div></td>
+                <td><div class="triplet"><span class="chip">-11</span><span class="chip avg">-8</span><span class="chip red">8</span></div></td>
+                <td><div class="triplet"><span class="chip">-7</span><span class="chip avg">-5</span><span class="chip red">2</span></div></td>
+                <td><div class="triplet"><span class="chip">2</span><span class="chip avg">4</span><span class="chip red">6</span></div></td>
+                <td><div class="triplet"><span class="chip">10</span><span class="chip avg">12</span><span class="chip red">15</span></div></td>
+                <td><div class="triplet"><span class="chip">15</span><span class="chip avg">17</span><span class="chip red">19</span></div></td>
+                <td><div class="triplet"><span class="chip">19</span><span class="chip avg">20</span><span class="chip red">22</span></div></td>
+                <td><div class="triplet"><span class="chip">21</span><span class="chip avg">22</span><span class="chip red">24</span></div></td>
+                <td><div class="triplet"><span class="chip">18</span><span class="chip avg">19</span><span class="chip red">21</span></div></td>
+                <td><div class="triplet"><span class="chip">10</span><span class="chip avg">12</span><span class="chip red">14</span></div></td>
+                <td><div class="triplet"><span class="chip">4</span><span class="chip avg">6</span><span class="chip red">8</span></div></td>
+                <td><div class="triplet"><span class="chip">-4</span><span class="chip avg">-1</span><span class="chip red">2</span></div></td>
+              </tr>
+              <tr>
+                <th>2</th>
+                <td><div class="triplet"><span class="chip">-12</span><span class="chip avg">-9</span><span class="chip red">6</span></div></td>
+                <td><div class="triplet"><span class="chip">-9</span><span class="chip avg">-7</span><span class="chip red">5</span></div></td>
+                <td><div class="triplet"><span class="chip">-6</span><span class="chip avg">-4</span><span class="chip red">2</span></div></td>
+                <td><div class="triplet"><span class="chip">2</span><span class="chip avg">4</span><span class="chip red">6</span></div></td>
+                <td><div class="triplet"><span class="chip">9</span><span class="chip avg">12</span><span class="chip red">14</span></div></td>
+                <td><div class="triplet"><span class="chip">15</span><span class="chip avg">17</span><span class="chip red">19</span></div></td>
+                <td><div class="triplet"><span class="chip">19</span><span class="chip avg">20</span><span class="chip red">22</span></div></td>
+                <td><div class="triplet"><span class="chip">21</span><span class="chip avg">22</span><span class="chip red">24</span></div></td>
+                <td><div class="triplet"><span class="chip">17</span><span class="chip avg">18</span><span class="chip red">20</span></div></td>
+                <td><div class="triplet"><span class="chip">9</span><span class="chip avg">12</span><span class="chip red">14</span></div></td>
+                <td><div class="triplet"><span class="chip">3</span><span class="chip avg">5</span><span class="chip red">7</span></div></td>
+                <td><div class="triplet"><span class="chip">-5</span><span class="chip avg">-2</span><span class="chip red">1</span></div></td>
+              </tr>
+              <tr>
+                <th>3</th>
+                <td><div class="triplet"><span class="chip">-11</span><span class="chip avg">-8</span><span class="chip red">5</span></div></td>
+                <td><div class="triplet"><span class="chip">-11</span><span class="chip avg">-8</span><span class="chip red">5</span></div></td>
+                <td><div class="triplet"><span class="chip">-9</span><span class="chip avg">-6</span><span class="chip red">3</span></div></td>
+                <td><div class="triplet"><span class="chip">2</span><span class="chip avg">4</span><span class="chip red">6</span></div></td>
+                <td><div class="triplet"><span class="chip">9</span><span class="chip avg">12</span><span class="chip red">14</span></div></td>
+                <td><div class="triplet"><span class="chip">14</span><span class="chip avg">16</span><span class="chip red">17</span></div></td>
+                <td><div class="triplet"><span class="chip">19</span><span class="chip avg">21</span><span class="chip red">22</span></div></td>
+                <td><div class="triplet"><span class="chip">21</span><span class="chip avg">22</span><span class="chip red">23</span></div></td>
+                <td><div class="triplet"><span class="chip">17</span><span class="chip avg">19</span><span class="chip red">21</span></div></td>
+                <td><div class="triplet"><span class="chip">9</span><span class="chip avg">11</span><span class="chip red">13</span></div></td>
+                <td><div class="triplet"><span class="chip">2</span><span class="chip avg">4</span><span class="chip red">6</span></div></td>
+                <td><div class="triplet"><span class="chip">-6</span><span class="chip avg">-3</span><span class="chip red">0</span></div></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <footer>
+    Copyright Â© 2004 - 2023 by <b>EmInf</b>. All rights reserved.
+  </footer>
+</body>
+</html>

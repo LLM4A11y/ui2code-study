@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Template : Incel Forums</title>
+<style>
+  :root{
+    --bg:#f6f6f6;
+    --sidebar:#eef0f3;
+    --text:#202122;
+    --muted:#54595d;
+    --link:#0645ad;
+    --link-visited:#0a4aa7;
+    --bluebar:#eaf3ff;
+    --green:#0a7a0a;
+    --green-dark:#0b6d0b;
+    --green-mid:#0c7f0c;
+    --green-divider:#1f8e1f;
+    --shadow:0 2px 0 rgba(0,0,0,.08),0 10px 20px rgba(0,0,0,.15);
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font:14px/1.45 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  }
+
+  /* Top utility line */
+  .utility{
+    height:28px;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:10px;
+    padding:0 18px;
+    color:#7a7f85;
+    font-size:12px;
+  }
+  .utility a{color:#6a6f75;text-decoration:none}
+  .utility a:hover{text-decoration:underline}
+
+  /* Tab bar + search */
+  .tabbar{
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    background:#fff;
+  }
+  .tabwrap{
+    max-width:1040px;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    padding:10px 10px;
+  }
+  .tabs{
+    display:flex;
+    gap:16px;
+    font-size:14px;
+  }
+  .tab{
+    color:#6a6f75;
+    padding:6px 10px;
+    border-radius:3px 3px 0 0;
+    border:1px solid transparent;
+  }
+  .tab.active{
+    color:#202122;
+    border-color:#dcdcdc;
+    border-bottom-color:#fff;
+    background:#fff;
+    font-weight:600;
+  }
+  .tab a{color:#6a6f75;text-decoration:none}
+  .tab a:hover{text-decoration:underline}
+  .grow{flex:1}
+  .actions{
+    display:flex;
+    gap:18px;
+    align-items:center;
+    color:#6a6f75;
+    font-size:13px;
+  }
+  .actions a{color:#6a6f75;text-decoration:none}
+  .search{
+    margin-left:14px;
+    position:relative;
+  }
+  .search input{
+    width:260px;
+    padding:6px 8px;
+    border:1px solid #bbb;
+    border-radius:2px;
+    font-size:13px;
+    background:#fafafa;
+  }
+
+  /* Layout */
+  .page{
+    max-width:1040px;
+    margin:0 auto;
+    display:flex;
+    gap:20px;
+    padding:18px 10px 50px;
+  }
+  aside{
+    width:220px;
+    background:var(--sidebar);
+    border:1px solid #d8dadd;
+    border-radius:3px;
+    padding:14px 12px;
+    height:max-content;
+  }
+  .discord{
+    background:#5560f0;
+    color:#fff;
+    text-align:center;
+    padding:8px 10px;
+    border-radius:8px;
+    font-weight:700;
+    margin-bottom:12px;
+    font-size:14px;
+  }
+  .sec-title{
+    color:#72777d;
+    text-transform:uppercase;
+    font-size:12px;
+    margin:14px 0 6px;
+  }
+  .sidelinks a{
+    display:block;
+    color:var(--link);
+    text-decoration:none;
+    padding:3px 0;
+    font-size:14px;
+  }
+  .sidelinks a:hover{text-decoration:underline}
+
+  main{
+    flex:1;
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:3px;
+    padding:18px 22px 26px;
+  }
+
+  /* Title */
+  .title{
+    font-family:Georgia, 'Times New Roman', serif;
+    font-size:34px;
+    font-weight:700;
+    margin:4px 0 12px;
+  }
+  .title-hr{
+    height:1px;background:#d8d8d8;border:0;margin:0 0 18px 0;
+  }
+  .notice{
+    font-size:12px;
+    color:#5a5f64;
+    letter-spacing:.2px;
+    text-transform:uppercase;
+    margin-bottom:16px;
+  }
+
+  /* Green Navbox */
+  .navbox{
+    width:100%;
+    max-width:760px;
+    margin:0 auto 18px;
+    background:var(--green);
+    border-radius:8px;
+    box-shadow:var(--shadow);
+    border:1px solid #0a5f0a;
+    overflow:hidden;
+  }
+  .navhdr{
+    text-align:center;
+    color:#fff;
+    font-weight:800;
+    font-size:32px;
+    padding:14px 10px 10px;
+    text-shadow:0 1px 0 rgba(0,0,0,.2);
+  }
+  .rows{
+    border-top:2px solid #0a5f0a;
+    padding:8px;
+  }
+  .row{
+    display:grid;
+    grid-template-columns:220px 1fr;
+    gap:0;
+    border:3px solid var(--green-divider);
+    margin:8px 0;
+    background:#fff;
+  }
+  .label{
+    background:#fff;
+    color:#084aa5;
+    font-weight:800;
+    font-size:18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:24px 10px;
+    border-right:3px solid var(--green-divider);
+    text-align:center;
+  }
+  .links{
+    padding:12px 14px;
+    font-size:14px;
+    line-height:1.5;
+  }
+  .links a{
+    color:var(--link);
+    text-decoration:none;
+    font-weight:600;
+  }
+  .links a:hover{text-decoration:underline}
+  .bullet{color:#9aa0a6;margin:0 6px}
+  .red{color:#b30000;font-weight:700}
+  .smallnote{color:#6a6f75;font-weight:500}
+
+  /* Category box */
+  .category{
+    margin:18px 0 10px;
+    border:1px solid #c7dbe9;
+    background:var(--bluebar);
+    padding:12px 14px;
+    color:#2a4b7c;
+    width:calc(100% - 40px);
+  }
+
+  /* Footer-ish note */
+  .foot{
+    color:#6a6f75;
+    font-size:13px;
+    margin-top:14px;
+    line-height:1.6;
+  }
+
+  /* Bottom-right blue image placeholder */
+  .floating-img{
+    position:fixed;
+    right:26px;
+    bottom:26px;
+    width:88px;
+    height:88px;
+    box-shadow:0 2px 8px rgba(0,0,0,.25);
+    object-fit:cover;
+  }
+
+  @media (max-width:980px){
+    .page{flex-direction:column}
+    aside{width:100%}
+    .navbox{max-width:100%}
+  }
+</style>
+</head>
+<body>
+  <div class="utility">
+    <span>Not logged in</span>
+    <a href="#">Talk</a>
+    <a href="#">Contributions</a>
+    <a href="#">Log in</a>
+  </div>
+
+  <div class="tabbar">
+    <div class="tabwrap">
+      <div class="tabs">
+        <div class="tab active">Template</div>
+        <div class="tab"><a href="#">Discussion</a></div>
+      </div>
+      <div class="grow"></div>
+      <div class="actions">
+        <a href="#">Edit source</a>
+        <a href="#">View history</a>
+        <div class="search">
+          <input type="text" placeholder="Search Incel Wiki">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page">
+    <aside>
+      <div class="discord">Chat on Discord</div>
+
+      <div class="sec-title">Incel FAQ & History</div>
+      <div class="sidelinks">
+        <a href="#">Inceldom FAQ</a>
+        <a href="#">Incelosphere Timeline</a>
+        <a href="#">Incel Glossary</a>
+        <a href="#">Demographics Of Inceldom</a>
+      </div>
+
+      <div class="sec-title">Important Pages</div>
+      <div class="sidelinks">
+        <a href="#">Scientific Blackpill</a>
+        <a href="#">Blackpill</a>
+        <a href="#">PSL</a>
+      </div>
+
+      <div class="sec-title">Rules & Disclaimer</div>
+      <div class="sidelinks">
+        <a href="#">Editing Rules</a>
+        <a href="#">General Disclaimer</a>
+      </div>
+
+      <div class="sec-title">Other</div>
+      <div class="sidelinks">
+        <a href="#">Random Page</a>
+        <a href="#">Recent Changes</a>
+        <a href="#">Special Pages</a>
+      </div>
+
+      <div class="sec-title">Tools</div>
+      <div class="sidelinks">
+        <a href="#">What links here</a>
+      </div>
+    </aside>
+
+    <main>
+      <div class="title">Template : Incel Forums</div>
+      <hr class="title-hr"/>
+
+      <p class="notice">
+        ONLY USE THIS FOR NOTABLE PEOPLE, DO NOT ADD FORUM MEMBERS WHO HAVE NO PUBLIC PRESENCE OUTSIDE THEIR RESPECTIVE FORUM OR ANY POSITION OF AUTHORITY. If you have made a Forum-Admin-related page please add it to this list under the appropriate section.
+      </p>
+
+      <div class="navbox">
+        <div class="navhdr">Incel Forum Navbox</div>
+        <div class="rows">
+          <div class="row">
+            <div class="label">Incels.is</div>
+            <div class="links">
+              <a href="#">SergeantIncel</a> <span class="smallnote">(former admin)</span> <span class="bullet">â¢</span>
+              <a href="#">Master</a> <span class="smallnote">(former admin)</span> <span class="bullet">â¢</span>
+              <span class="red">Fat Link</span> <span class="smallnote">(mod)</span> <span class="bullet">â¢</span>
+              <span class="red">AmIjustDreaming</span> <span class="smallnote">(mod)</span> <span class="bullet">â¢</span>
+              <a href="#">Knajid</a> <span class="smallnote">(mod)</span> <span class="bullet">â¢</span>
+              <a href="#">Blickpall</a> <span class="smallnote">(ex-mod)</span> <span class="bullet">â¢</span>
+              <a href="#">Mahlo</a> <span class="smallnote">(user)</span> <span class="bullet">â¢</span>
+              <a href="#">Jack Peterson</a> <span class="smallnote">(user/banned)</span> <span class="bullet">â¢</span>
+              <a href="#">Grotesque Subhuman</a> <span class="smallnote">(user/banned)</span> <span class="bullet">â¢</span>
+              <a href="#">itsOVER</a> <span class="smallnote">(user/banned)</span> <span class="bullet">â¢</span>
+              <a href="#">NKL</a> <span class="smallnote">(user)</span> <span class="bullet">â¢</span>
+              <a href="#">NEETandTidy</a> <span class="smallnote">(user/banned)</span> <span class="bullet">â¢</span>
+              <a href="#">Jet112</a> <span class="smallnote">(user)</span> <span class="bullet">â¢</span>
+              <a href="#">Limerencel</a> <span class="smallnote">(user)</span> <span class="bullet">â¢</span>
+              <a href="#">BrendioEEE</a> <span class="smallnote">(user/banned)</span> <span class="bullet">â¢</span>
+              <a href="#">BummerDrummer</a> <span class="smallnote">(user)</span> <span class="bullet">â¢</span>
+              <a href="#">myliefistrash</a> <span class="smallnote">(user/banned)</span> <span class="bullet">â¢</span>
+              <a href="#">fukurou</a> <span class="smallnote">(user/banned)</span> <span class="bullet">â¢</span>
+              <a href="#">RegisterUserName</a> <span class="smallnote">(user/banned)</span>
+              <span class="bullet">|</span>
+              <a href="#">Ban appeal</a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="label">Love-shy.net</div>
+            <div class="links">
+              <span class="red">ieatboogers</span> <span class="smallnote">(creator/admin/historian)</span>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="label">Social Anxiety<br>Support</div>
+            <div class="links">
+              <a href="#">ChrisA</a> <span class="smallnote">(founder)</span> <span class="bullet">â¢</span>
+              <a href="#">Andrew "Drew" Mohebbi</a> <span class="smallnote">(third admin/dead)</span> <span class="bullet">â¢</span>
+              <span class="red">wmu'14</span> <span class="smallnote">(member)</span> <span class="bullet">â¢</span>
+              <a href="#">ravens</a> <span class="smallnote">(member)</span> <span class="bullet">â¢</span>
+              <span class="red">DesiseAfterAll</span> <span class="smallnote">(banned)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="category">Category: <strong>Nav box template</strong></div>
+
+      <div class="foot">
+        This page was last edited on 17 June 2022, at 14:36.<br>
+        This page has been accessed 5,005 times.
+      </div>
+
+      <div class="foot" style="margin-top:10px">
+        <a href="#" style="color:#6a6f75;text-decoration:none">Privacy policy</a> â¢
+        <a href="#" style="color:#6a6f75;text-decoration:none">About Incel Wiki</a> â¢
+        <a href="#" style="color:#6a6f75;text-decoration:none">Disclaimers</a> â¢
+        <a href="#" style="color:#6a6f75;text-decoration:none">Mobile view</a>
+      </div>
+    </main>
+  </div>
+
+  <img class="floating-img" src="src/placeholder.jpg" alt="placeholder"/>
+</body>
+</html>

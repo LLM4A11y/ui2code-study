@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -260,7 +269,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        <p>© 2023 Your Company Name. All rights reserved.</p>\n    </div>",
+                    "html": "<div class=\"footer\">\n        <p>\u00a9 2023 Your Company Name. All rights reserved.</p>\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -273,7 +282,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>© 2023 Your Company Name. All rights reserved.</p>",
+            "html": "<p>\u00a9 2023 Your Company Name. All rights reserved.</p>",
             "target": [
               ".footer > p"
             ],
@@ -369,14 +378,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.98:1. Recommendation:  change background to #0072ed.",
-          "description": "<p>© 2023 Your Company Name. All r...</p>",
+          "description": "<p>\u00a9 2023 Your Company Name. All r...</p>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.98:1. Recommendation:  change background to #0072ed.",
-            "context": "<p>© 2023 Your Company Name. All r...</p>",
+            "context": "<p>\u00a9 2023 Your Company Name. All r...</p>",
             "selector": "html > body > div:nth-child(4) > p",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -625,7 +634,7 @@
                 "height": 18
               },
               "snippet": "<p>",
-              "nodeLabel": "© 2023 Your Company Name. All rights reserved.",
+              "nodeLabel": "\u00a9 2023 Your Company Name. All rights reserved.",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #ffffff, background color: #007bff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -646,7 +655,7 @@
                       "height": 70
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "© 2023 Your Company Name. All rights reserved."
+                    "nodeLabel": "\u00a9 2023 Your Company Name. All rights reserved."
                   }
                 }
               ]
@@ -805,7 +814,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        <p>© 2023 Your Company Name. All rights reserved.</p>\n    </div>",
+            "html": "<div class=\"footer\">\n        <p>\u00a9 2023 Your Company Name. All rights reserved.</p>\n    </div>",
             "target": [
               ".footer"
             ],

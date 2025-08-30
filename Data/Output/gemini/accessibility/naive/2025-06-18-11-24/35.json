@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -231,7 +223,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">Â« Home</a>",
+            "html": "<a href=\"#\">\u00c2\u00ab Home</a>",
             "target": [
               ".comments > p:nth-child(3) > a"
             ],
@@ -399,7 +391,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">Far from home - in the GaspÃ©</a>",
+            "html": "<a href=\"#\">Far from home - in the Gasp\u00c3\u00a9</a>",
             "target": [
               "li:nth-child(2) > a"
             ],
@@ -651,7 +643,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">RandonnÃ©e 3 lacs, Sutton, Eastern Townships</a>",
+            "html": "<a href=\"#\">Randonn\u00c3\u00a9e 3 lacs, Sutton, Eastern Townships</a>",
             "target": [
               "li:nth-child(8) > a"
             ],
@@ -777,7 +769,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">Â« Newer</a>",
+            "html": "<a href=\"#\">\u00c2\u00ab Newer</a>",
             "target": [
               ".navigation > a"
             ],
@@ -856,14 +848,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.16:1. Recommendation:  change background to #001730.",
-          "description": "<a href=\"#\">Â« Home</a>",
+          "description": "<a href=\"#\">\u00c2\u00ab Home</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.16:1. Recommendation:  change background to #001730.",
-            "context": "<a href=\"#\">Â« Home</a>",
+            "context": "<a href=\"#\">\u00c2\u00ab Home</a>",
             "selector": "html > body > div:nth-child(5) > p:nth-child(3) > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -924,14 +916,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.16:1. Recommendation:  change background to #001730.",
-          "description": "<a href=\"#\">Far from home - in the GaspÃ©</a>",
+          "description": "<a href=\"#\">Far from home - in the Gasp\u00c3\u00a9</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.16:1. Recommendation:  change background to #001730.",
-            "context": "<a href=\"#\">Far from home - in the GaspÃ©</a>",
+            "context": "<a href=\"#\">Far from home - in the Gasp\u00c3\u00a9</a>",
             "selector": "html > body > div:nth-child(6) > ul > li:nth-child(2) > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1026,14 +1018,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.16:1. Recommendation:  change background to #001730.",
-          "description": "<a href=\"#\">RandonnÃ©e 3 lacs, Sutton, East...</a>",
+          "description": "<a href=\"#\">Randonn\u00c3\u00a9e 3 lacs, Sutton, East...</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.16:1. Recommendation:  change background to #001730.",
-            "context": "<a href=\"#\">RandonnÃ©e 3 lacs, Sutton, East...</a>",
+            "context": "<a href=\"#\">Randonn\u00c3\u00a9e 3 lacs, Sutton, East...</a>",
             "selector": "html > body > div:nth-child(6) > ul > li:nth-child(8) > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1077,14 +1069,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.16:1. Recommendation:  change background to #001730.",
-          "description": "<a href=\"#\">Â« Newer</a>",
+          "description": "<a href=\"#\">\u00c2\u00ab Newer</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.16:1. Recommendation:  change background to #001730.",
-            "context": "<a href=\"#\">Â« Newer</a>",
+            "context": "<a href=\"#\">\u00c2\u00ab Newer</a>",
             "selector": "html > body > div:nth-child(6) > div > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1307,7 +1299,7 @@
                 "height": 18
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "Â« Home",
+              "nodeLabel": "\u00c2\u00ab Home",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #007bff, background color: #001f3f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1503,7 +1495,7 @@
                 "height": 18
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "Far from home - in the GaspÃ©",
+              "nodeLabel": "Far from home - in the Gasp\u00c3\u00a9",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #007bff, background color: #001f3f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1797,7 +1789,7 @@
                 "height": 40
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "RandonnÃ©e 3 lacs, Sutton, Eastern Townships",
+              "nodeLabel": "Randonn\u00c3\u00a9e 3 lacs, Sutton, Eastern Townships",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #007bff, background color: #001f3f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1944,7 +1936,7 @@
                 "height": 22
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "Â« Newer",
+              "nodeLabel": "\u00c2\u00ab Newer",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #007bff, background color: #001f3f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2152,7 +2144,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"comments\">\n        <h3>0 Comments:</h3>\n        <p><a href=\"#\">Post a Comment</a></p>\n        <p><a href=\"#\">Â« Home</a></p>\n    </div>",
+            "html": "<div class=\"comments\">\n        <h3>0 Comments:</h3>\n        <p><a href=\"#\">Post a Comment</a></p>\n        <p><a href=\"#\">\u00c2\u00ab Home</a></p>\n    </div>",
             "target": [
               ".comments"
             ],
@@ -2219,7 +2211,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>Don't get the impression that QuÃ©bec has no trails. <a href=\"#\">Click here</a> to go to the quÃ©bec mtn bike trail directory at AllezY.</p>",
+                    "html": "<p>Don't get the impression that Qu\u00c3\u00a9bec has no trails. <a href=\"#\">Click here</a> to go to the qu\u00c3\u00a9bec mtn bike trail directory at AllezY.</p>",
                     "target": [
                       "p:nth-child(5)"
                     ]
@@ -2233,7 +2225,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>Don't get the impression that QuÃ©bec has no trails. <a href=\"#\">Click here</a> to go to the quÃ©bec mtn bike trail directory at AllezY.</p>",
+                    "html": "<p>Don't get the impression that Qu\u00c3\u00a9bec has no trails. <a href=\"#\">Click here</a> to go to the qu\u00c3\u00a9bec mtn bike trail directory at AllezY.</p>",
                     "target": [
                       "p:nth-child(5)"
                     ]
@@ -2325,7 +2317,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>You can sign up to VÃ©lo QuÃ©bec's new mountain bike infolettre <a href=\"#\">here</a>. You can also join VÃ©lo QuÃ©bec because the more members they have, the greater is their ability to push for bike development on and\n        off the roads of Quebec.</p>",
+                    "html": "<p>You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec's new mountain bike infolettre <a href=\"#\">here</a>. You can also join V\u00c3\u00a9lo Qu\u00c3\u00a9bec because the more members they have, the greater is their ability to push for bike development on and\n        off the roads of Quebec.</p>",
                     "target": [
                       "p:nth-child(7)"
                     ]
@@ -2339,7 +2331,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>You can sign up to VÃ©lo QuÃ©bec's new mountain bike infolettre <a href=\"#\">here</a>. You can also join VÃ©lo QuÃ©bec because the more members they have, the greater is their ability to push for bike development on and\n        off the roads of Quebec.</p>",
+                    "html": "<p>You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec's new mountain bike infolettre <a href=\"#\">here</a>. You can also join V\u00c3\u00a9lo Qu\u00c3\u00a9bec because the more members they have, the greater is their ability to push for bike development on and\n        off the roads of Quebec.</p>",
                     "target": [
                       "p:nth-child(7)"
                     ]
@@ -2401,7 +2393,7 @@
                       "height": 67
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Don't get the impression that QuÃ©bec has no trails. Click here to go to the qu…"
+                    "nodeLabel": "Don't get the impression that Qu\u00c3\u00a9bec has no trails. Click here to go to the qu\u2026"
                   }
                 }
               ]
@@ -2499,7 +2491,7 @@
                       "height": 134
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "You can sign up to VÃ©lo QuÃ©bec's new mountain bike infolettre here. You can a…"
+                    "nodeLabel": "You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec's new mountain bike infolettre here. You can a\u2026"
                   }
                 }
               ]

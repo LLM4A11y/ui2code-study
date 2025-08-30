@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -56,7 +48,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ð 1</a>",
+            "html": "<a href=\"#\">\u00f0\u009f\u0091\u008d 1</a>",
             "target": [
               ".joke:nth-child(3) > .vote > a:nth-child(1)"
             ],
@@ -91,7 +83,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ð 0</a>",
+            "html": "<a href=\"#\">\u00f0\u009f\u0091\u008e 0</a>",
             "target": [
               ".joke:nth-child(3) > .vote > a:nth-child(2)"
             ],
@@ -126,7 +118,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ð 1</a>",
+            "html": "<a href=\"#\">\u00f0\u009f\u0091\u008d 1</a>",
             "target": [
               ".joke:nth-child(4) > .vote > a:nth-child(1)"
             ],
@@ -161,7 +153,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ð 0</a>",
+            "html": "<a href=\"#\">\u00f0\u009f\u0091\u008e 0</a>",
             "target": [
               ".joke:nth-child(4) > .vote > a:nth-child(2)"
             ],
@@ -196,7 +188,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ð 0</a>",
+            "html": "<a href=\"#\">\u00f0\u009f\u0091\u008d 0</a>",
             "target": [
               ".joke:nth-child(5) > .vote > a:nth-child(1)"
             ],
@@ -231,7 +223,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ð 0</a>",
+            "html": "<a href=\"#\">\u00f0\u009f\u0091\u008e 0</a>",
             "target": [
               ".joke:nth-child(5) > .vote > a:nth-child(2)"
             ],
@@ -266,7 +258,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ð 0</a>",
+            "html": "<a href=\"#\">\u00f0\u009f\u0091\u008d 0</a>",
             "target": [
               ".joke:nth-child(6) > .vote > a:nth-child(1)"
             ],
@@ -301,7 +293,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ð 0</a>",
+            "html": "<a href=\"#\">\u00f0\u009f\u0091\u008e 0</a>",
             "target": [
               ".joke:nth-child(6) > .vote > a:nth-child(2)"
             ],
@@ -336,7 +328,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ð 0</a>",
+            "html": "<a href=\"#\">\u00f0\u009f\u0091\u008d 0</a>",
             "target": [
               ".joke:nth-child(7) > .vote > a:nth-child(1)"
             ],
@@ -371,7 +363,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ð 0</a>",
+            "html": "<a href=\"#\">\u00f0\u009f\u0091\u008e 0</a>",
             "target": [
               ".joke:nth-child(7) > .vote > a:nth-child(2)"
             ],
@@ -1771,7 +1763,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ð 1</a>",
+            "html": "<a href=\"#\">\u00f0\u009f\u0091\u008d 1</a>",
             "target": [
               ".top-authors > p:nth-child(5) > a:nth-child(1)"
             ],
@@ -1806,7 +1798,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ð 0</a>",
+            "html": "<a href=\"#\">\u00f0\u009f\u0091\u008e 0</a>",
             "target": [
               "p:nth-child(5) > a:nth-child(2)"
             ],
@@ -1974,7 +1966,7 @@
                 "height": 21
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ð 1",
+              "nodeLabel": "\u00f0\u009f\u0091\u008d 1",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #007bff, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -2000,7 +1992,7 @@
                 "height": 21
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ð 0",
+              "nodeLabel": "\u00f0\u009f\u0091\u008e 0",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #007bff, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -2026,7 +2018,7 @@
                 "height": 21
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ð 1",
+              "nodeLabel": "\u00f0\u009f\u0091\u008d 1",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #007bff, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -2052,7 +2044,7 @@
                 "height": 21
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ð 0",
+              "nodeLabel": "\u00f0\u009f\u0091\u008e 0",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #007bff, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -2078,7 +2070,7 @@
                 "height": 21
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ð 0",
+              "nodeLabel": "\u00f0\u009f\u0091\u008d 0",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #007bff, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -2104,7 +2096,7 @@
                 "height": 21
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ð 0",
+              "nodeLabel": "\u00f0\u009f\u0091\u008e 0",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #007bff, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -2130,7 +2122,7 @@
                 "height": 21
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ð 0",
+              "nodeLabel": "\u00f0\u009f\u0091\u008d 0",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #007bff, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -2156,7 +2148,7 @@
                 "height": 21
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ð 0",
+              "nodeLabel": "\u00f0\u009f\u0091\u008e 0",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #007bff, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -2182,7 +2174,7 @@
                 "height": 21
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ð 0",
+              "nodeLabel": "\u00f0\u009f\u0091\u008d 0",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #007bff, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -2208,7 +2200,7 @@
                 "height": 21
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ð 0",
+              "nodeLabel": "\u00f0\u009f\u0091\u008e 0",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #007bff, background color: #ffffff, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -3222,7 +3214,7 @@
                 "height": 18
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ð 1",
+              "nodeLabel": "\u00f0\u009f\u0091\u008d 1",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #007bff, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -3248,7 +3240,7 @@
                 "height": 18
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ð 0",
+              "nodeLabel": "\u00f0\u009f\u0091\u008e 0",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #007bff, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -3464,7 +3456,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>JokeBuddha.com Â© 2010-2023 <a href=\"#\">Terms &amp; Privacy</a></p>",
+                    "html": "<p>JokeBuddha.com \u00c2\u00a9 2010-2023 <a href=\"#\">Terms &amp; Privacy</a></p>",
                     "target": [
                       ".footer > p:nth-child(1)"
                     ]
@@ -3478,7 +3470,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>JokeBuddha.com Â© 2010-2023 <a href=\"#\">Terms &amp; Privacy</a></p>",
+                    "html": "<p>JokeBuddha.com \u00c2\u00a9 2010-2023 <a href=\"#\">Terms &amp; Privacy</a></p>",
                     "target": [
                       ".footer > p:nth-child(1)"
                     ]
@@ -3646,7 +3638,7 @@
                       "height": 22
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "JokeBuddha.com Â© 2010-2023 Terms & Privacy"
+                    "nodeLabel": "JokeBuddha.com \u00c2\u00a9 2010-2023 Terms & Privacy"
                   }
                 }
               ]

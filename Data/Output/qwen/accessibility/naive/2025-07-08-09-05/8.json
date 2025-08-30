@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -945,7 +937,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>Find a Tour on a SegwayÂ® PT now!</p>",
+            "html": "<p>Find a Tour on a Segway\u00c2\u00ae PT now!</p>",
             "target": [
               ".container > p"
             ],
@@ -1313,14 +1305,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.13:1. Recommendation:  change background to #0a8927.",
-          "description": "<p>Find a Tour on a SegwayÂ® PT no...</p>",
+          "description": "<p>Find a Tour on a Segway\u00c2\u00ae PT no...</p>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.13:1. Recommendation:  change background to #0a8927.",
-            "context": "<p>Find a Tour on a SegwayÂ® PT no...</p>",
+            "context": "<p>Find a Tour on a Segway\u00c2\u00ae PT no...</p>",
             "selector": "html > body > footer > div > p",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1394,7 +1386,7 @@
                       "height": 676
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1443,7 +1435,7 @@
                       "height": 676
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1492,7 +1484,7 @@
                       "height": 676
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1541,7 +1533,7 @@
                       "height": 676
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1590,7 +1582,7 @@
                       "height": 676
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1639,7 +1631,7 @@
                       "height": 676
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1688,7 +1680,7 @@
                       "height": 676
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1737,7 +1729,7 @@
                       "height": 676
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1786,7 +1778,7 @@
                       "height": 676
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1835,7 +1827,7 @@
                       "height": 676
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1884,7 +1876,7 @@
                       "height": 676
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1933,7 +1925,7 @@
                       "height": 676
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1982,7 +1974,7 @@
                       "height": 275
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw…"
+                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw\u2026"
                   }
                 }
               ]
@@ -2031,7 +2023,7 @@
                       "height": 275
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw…"
+                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw\u2026"
                   }
                 }
               ]
@@ -2080,7 +2072,7 @@
                       "height": 275
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw…"
+                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw\u2026"
                   }
                 }
               ]
@@ -2129,7 +2121,7 @@
                       "height": 275
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw…"
+                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw\u2026"
                   }
                 }
               ]
@@ -2178,7 +2170,7 @@
                       "height": 275
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw…"
+                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw\u2026"
                   }
                 }
               ]
@@ -2227,7 +2219,7 @@
                       "height": 275
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw…"
+                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw\u2026"
                   }
                 }
               ]
@@ -2276,7 +2268,7 @@
                       "height": 275
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw…"
+                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw\u2026"
                   }
                 }
               ]
@@ -2325,7 +2317,7 @@
                       "height": 275
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw…"
+                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw\u2026"
                   }
                 }
               ]
@@ -2353,7 +2345,7 @@
                 "height": 14
               },
               "snippet": "<p>",
-              "nodeLabel": "Find a Tour on a SegwayÂ® PT now!",
+              "nodeLabel": "Find a Tour on a Segway\u00c2\u00ae PT now!",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.13 (foreground color: #ffffff, background color: #28a745, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2374,7 +2366,7 @@
                       "height": 275
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw…"
+                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw\u2026"
                   }
                 }
               ]

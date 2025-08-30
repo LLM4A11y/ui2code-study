@@ -13,10 +13,10 @@
   "average_final_position_score": 0.6348,
   "average_final_text_color_score": 0.6313,
   "average_final_clip_score": 0.8427,
-  "total_ir": 0.107,
-  "total_iwir": 0.4025,
+  "total_ir": 0.1095,
+  "total_iwir": 0.4368,
   "total_status_counts": {
-    "Green": 15,
-    "Yellow": 38
+    "Green": 13,
+    "Yellow": 40
   }
 }

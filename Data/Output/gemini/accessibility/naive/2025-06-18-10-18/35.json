@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -116,7 +108,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>Don't get the impression that QuÃ©bec has no trails. <a href=\"#\">Click here</a> to go to the quÃ©bec mtn bike trail directory at AllezY.</p>",
+                    "html": "<p>Don't get the impression that Qu\u00c3\u00a9bec has no trails. <a href=\"#\">Click here</a> to go to the qu\u00c3\u00a9bec mtn bike trail directory at AllezY.</p>",
                     "target": [
                       "p:nth-child(5)"
                     ]
@@ -130,7 +122,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>Don't get the impression that QuÃ©bec has no trails. <a href=\"#\">Click here</a> to go to the quÃ©bec mtn bike trail directory at AllezY.</p>",
+                    "html": "<p>Don't get the impression that Qu\u00c3\u00a9bec has no trails. <a href=\"#\">Click here</a> to go to the qu\u00c3\u00a9bec mtn bike trail directory at AllezY.</p>",
                     "target": [
                       "p:nth-child(5)"
                     ]
@@ -222,7 +214,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>You can sign up to VÃ©lo QuÃ©bec's new mountain bike infolettre <a href=\"#\">here</a>. You can also join VÃ©lo QuÃ©bec because the more members they have, the greater is their ability to push for bike development on and\n            off the roads of Quebec.</p>",
+                    "html": "<p>You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec's new mountain bike infolettre <a href=\"#\">here</a>. You can also join V\u00c3\u00a9lo Qu\u00c3\u00a9bec because the more members they have, the greater is their ability to push for bike development on and\n            off the roads of Quebec.</p>",
                     "target": [
                       "p:nth-child(7)"
                     ]
@@ -236,7 +228,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>You can sign up to VÃ©lo QuÃ©bec's new mountain bike infolettre <a href=\"#\">here</a>. You can also join VÃ©lo QuÃ©bec because the more members they have, the greater is their ability to push for bike development on and\n            off the roads of Quebec.</p>",
+                    "html": "<p>You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec's new mountain bike infolettre <a href=\"#\">here</a>. You can also join V\u00c3\u00a9lo Qu\u00c3\u00a9bec because the more members they have, the greater is their ability to push for bike development on and\n            off the roads of Quebec.</p>",
                     "target": [
                       "p:nth-child(7)"
                     ]

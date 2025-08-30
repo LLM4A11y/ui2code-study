@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -188,7 +180,7 @@
                       "height": 2037
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Polibyte About Me\nExport news from google sites\n\nApr 27, 2012\n\n1 minute read\n\nI…"
+                    "nodeLabel": "Polibyte About Me\nExport news from google sites\n\nApr 27, 2012\n\n1 minute read\n\nI\u2026"
                   }
                 }
               ]
@@ -237,7 +229,7 @@
                       "height": 2037
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Polibyte About Me\nExport news from google sites\n\nApr 27, 2012\n\n1 minute read\n\nI…"
+                    "nodeLabel": "Polibyte About Me\nExport news from google sites\n\nApr 27, 2012\n\n1 minute read\n\nI\u2026"
                   }
                 }
               ]

@@ -3,17 +3,13 @@
     "automatic": "Yellow"
   },
   "benchmark": {
-    "automatic_ir": 0.19658119658119658,
-    "automatic_iw-ir": 0.5347826086956522
+    "automatic_ir": 0.20512820512820512,
+    "automatic_iw-ir": 0.5541666666666667
   },
   "automatic_checks": {
     "lighthouse_accessibility_score": 0.86,
     "total_nodes_checked": 117,
-    "total_nodes_failed": 23
-  },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
+    "total_nodes_failed": 24
   },
   "details_checks": {
     "Color Contrast; Text;": {
@@ -94,6 +90,32 @@
             "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main",
             "https://dequeuniversity.com/rules/axe/4.10/region"
           ]
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      }
+    },
+    "Alt-Text; Images;": {
+      "impact": "critical",
+      "amount_nodes_failed": 1,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 1,
+          "amount_relative": 1,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
         },
         "pa11y": {
           "amount": 0,

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -1100,7 +1092,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer>\n        <div class=\"footer-icons\">\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï°</a>\n            <a href=\"#\">ï</a>\n        </div>\n    </footer>",
+                    "html": "<footer>\n        <div class=\"footer-icons\">\n            <a href=\"#\">\u00ef\u0098\u0090</a>\n            <a href=\"#\">\u00ef\u0098\u0091</a>\n            <a href=\"#\">\u00ef\u0098\u0092</a>\n            <a href=\"#\">\u00ef\u0098\u00b0</a>\n            <a href=\"#\">\u00ef\u0099\u0081</a>\n        </div>\n    </footer>",
                     "target": [
                       "footer"
                     ]
@@ -1113,7 +1105,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ï</a>",
+            "html": "<a href=\"#\">\u00ef\u0098\u0090</a>",
             "target": [
               ".footer-icons > a:nth-child(1)"
             ],
@@ -1142,7 +1134,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer>\n        <div class=\"footer-icons\">\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï°</a>\n            <a href=\"#\">ï</a>\n        </div>\n    </footer>",
+                    "html": "<footer>\n        <div class=\"footer-icons\">\n            <a href=\"#\">\u00ef\u0098\u0090</a>\n            <a href=\"#\">\u00ef\u0098\u0091</a>\n            <a href=\"#\">\u00ef\u0098\u0092</a>\n            <a href=\"#\">\u00ef\u0098\u00b0</a>\n            <a href=\"#\">\u00ef\u0099\u0081</a>\n        </div>\n    </footer>",
                     "target": [
                       "footer"
                     ]
@@ -1155,7 +1147,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ï</a>",
+            "html": "<a href=\"#\">\u00ef\u0098\u0091</a>",
             "target": [
               ".footer-icons > a:nth-child(2)"
             ],
@@ -1184,7 +1176,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer>\n        <div class=\"footer-icons\">\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï°</a>\n            <a href=\"#\">ï</a>\n        </div>\n    </footer>",
+                    "html": "<footer>\n        <div class=\"footer-icons\">\n            <a href=\"#\">\u00ef\u0098\u0090</a>\n            <a href=\"#\">\u00ef\u0098\u0091</a>\n            <a href=\"#\">\u00ef\u0098\u0092</a>\n            <a href=\"#\">\u00ef\u0098\u00b0</a>\n            <a href=\"#\">\u00ef\u0099\u0081</a>\n        </div>\n    </footer>",
                     "target": [
                       "footer"
                     ]
@@ -1197,7 +1189,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ï</a>",
+            "html": "<a href=\"#\">\u00ef\u0098\u0092</a>",
             "target": [
               ".footer-icons > a:nth-child(3)"
             ],
@@ -1226,7 +1218,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer>\n        <div class=\"footer-icons\">\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï°</a>\n            <a href=\"#\">ï</a>\n        </div>\n    </footer>",
+                    "html": "<footer>\n        <div class=\"footer-icons\">\n            <a href=\"#\">\u00ef\u0098\u0090</a>\n            <a href=\"#\">\u00ef\u0098\u0091</a>\n            <a href=\"#\">\u00ef\u0098\u0092</a>\n            <a href=\"#\">\u00ef\u0098\u00b0</a>\n            <a href=\"#\">\u00ef\u0099\u0081</a>\n        </div>\n    </footer>",
                     "target": [
                       "footer"
                     ]
@@ -1239,7 +1231,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ï°</a>",
+            "html": "<a href=\"#\">\u00ef\u0098\u00b0</a>",
             "target": [
               ".footer-icons > a:nth-child(4)"
             ],
@@ -1268,7 +1260,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer>\n        <div class=\"footer-icons\">\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï°</a>\n            <a href=\"#\">ï</a>\n        </div>\n    </footer>",
+                    "html": "<footer>\n        <div class=\"footer-icons\">\n            <a href=\"#\">\u00ef\u0098\u0090</a>\n            <a href=\"#\">\u00ef\u0098\u0091</a>\n            <a href=\"#\">\u00ef\u0098\u0092</a>\n            <a href=\"#\">\u00ef\u0098\u00b0</a>\n            <a href=\"#\">\u00ef\u0099\u0081</a>\n        </div>\n    </footer>",
                     "target": [
                       "footer"
                     ]
@@ -1281,7 +1273,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ï</a>",
+            "html": "<a href=\"#\">\u00ef\u0099\u0081</a>",
             "target": [
               "a:nth-child(5)"
             ],
@@ -1717,14 +1709,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G145.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.88:1. Recommendation:  change text colour to #639b22.",
-          "description": "<a href=\"#\">ï</a>",
+          "description": "<a href=\"#\">\u00ef\u0098\u0090</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.88:1. Recommendation:  change text colour to #639b22.",
-            "context": "<a href=\"#\">ï</a>",
+            "context": "<a href=\"#\">\u00ef\u0098\u0090</a>",
             "selector": "html > body > footer > div > a:nth-child(1)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1734,14 +1726,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G145.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.88:1. Recommendation:  change text colour to #639b22.",
-          "description": "<a href=\"#\">ï</a>",
+          "description": "<a href=\"#\">\u00ef\u0098\u0091</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.88:1. Recommendation:  change text colour to #639b22.",
-            "context": "<a href=\"#\">ï</a>",
+            "context": "<a href=\"#\">\u00ef\u0098\u0091</a>",
             "selector": "html > body > footer > div > a:nth-child(2)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1751,14 +1743,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G145.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.88:1. Recommendation:  change text colour to #639b22.",
-          "description": "<a href=\"#\">ï</a>",
+          "description": "<a href=\"#\">\u00ef\u0098\u0092</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.88:1. Recommendation:  change text colour to #639b22.",
-            "context": "<a href=\"#\">ï</a>",
+            "context": "<a href=\"#\">\u00ef\u0098\u0092</a>",
             "selector": "html > body > footer > div > a:nth-child(3)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1768,14 +1760,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G145.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.88:1. Recommendation:  change text colour to #639b22.",
-          "description": "<a href=\"#\">ï°</a>",
+          "description": "<a href=\"#\">\u00ef\u0098\u00b0</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.88:1. Recommendation:  change text colour to #639b22.",
-            "context": "<a href=\"#\">ï°</a>",
+            "context": "<a href=\"#\">\u00ef\u0098\u00b0</a>",
             "selector": "html > body > footer > div > a:nth-child(4)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1785,14 +1777,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G145.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.88:1. Recommendation:  change text colour to #639b22.",
-          "description": "<a href=\"#\">ï</a>",
+          "description": "<a href=\"#\">\u00ef\u0099\u0081</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 1.88:1. Recommendation:  change text colour to #639b22.",
-            "context": "<a href=\"#\">ï</a>",
+            "context": "<a href=\"#\">\u00ef\u0099\u0081</a>",
             "selector": "html > body > footer > div > a:nth-child(5)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -2134,7 +2126,7 @@
                       "height": 1334
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2183,7 +2175,7 @@
                       "height": 1334
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2232,7 +2224,7 @@
                       "height": 1334
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2281,7 +2273,7 @@
                       "height": 1334
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2330,7 +2322,7 @@
                       "height": 1334
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2379,7 +2371,7 @@
                       "height": 1334
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2428,7 +2420,7 @@
                       "height": 1334
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2477,7 +2469,7 @@
                       "height": 1334
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2526,7 +2518,7 @@
                       "height": 1334
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2575,7 +2567,7 @@
                       "height": 1334
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2624,7 +2616,7 @@
                       "height": 1334
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2673,7 +2665,7 @@
                       "height": 1334
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2722,7 +2714,7 @@
                       "height": 1334
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2771,7 +2763,7 @@
                       "height": 1334
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2820,7 +2812,7 @@
                       "height": 1334
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2869,7 +2861,7 @@
                       "height": 1334
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2918,7 +2910,7 @@
                       "height": 1334
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2967,7 +2959,7 @@
                       "height": 1334
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -3016,7 +3008,7 @@
                       "height": 1334
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -3044,7 +3036,7 @@
                 "height": 46
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ï",
+              "nodeLabel": "\u00ef\u0098\u0090",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.87 (foreground color: #8bc34a, background color: #f2f2f2, font size: 18.8pt (25px), font weight: normal). Expected contrast ratio of 3:1"
             },
             "subItems": {
@@ -3065,7 +3057,7 @@
                       "height": 86
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "ï ï ï ï° ï"
+                    "nodeLabel": "\u00ef\u0098\u0090 \u00ef\u0098\u0091 \u00ef\u0098\u0092 \u00ef\u0098\u00b0 \u00ef\u0099\u0081"
                   }
                 }
               ]
@@ -3093,7 +3085,7 @@
                 "height": 46
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ï",
+              "nodeLabel": "\u00ef\u0098\u0091",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.87 (foreground color: #8bc34a, background color: #f2f2f2, font size: 18.8pt (25px), font weight: normal). Expected contrast ratio of 3:1"
             },
             "subItems": {
@@ -3114,7 +3106,7 @@
                       "height": 86
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "ï ï ï ï° ï"
+                    "nodeLabel": "\u00ef\u0098\u0090 \u00ef\u0098\u0091 \u00ef\u0098\u0092 \u00ef\u0098\u00b0 \u00ef\u0099\u0081"
                   }
                 }
               ]
@@ -3142,7 +3134,7 @@
                 "height": 46
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ï",
+              "nodeLabel": "\u00ef\u0098\u0092",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.87 (foreground color: #8bc34a, background color: #f2f2f2, font size: 18.8pt (25px), font weight: normal). Expected contrast ratio of 3:1"
             },
             "subItems": {
@@ -3163,7 +3155,7 @@
                       "height": 86
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "ï ï ï ï° ï"
+                    "nodeLabel": "\u00ef\u0098\u0090 \u00ef\u0098\u0091 \u00ef\u0098\u0092 \u00ef\u0098\u00b0 \u00ef\u0099\u0081"
                   }
                 }
               ]
@@ -3191,7 +3183,7 @@
                 "height": 46
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ï°",
+              "nodeLabel": "\u00ef\u0098\u00b0",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.87 (foreground color: #8bc34a, background color: #f2f2f2, font size: 18.8pt (25px), font weight: normal). Expected contrast ratio of 3:1"
             },
             "subItems": {
@@ -3212,7 +3204,7 @@
                       "height": 86
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "ï ï ï ï° ï"
+                    "nodeLabel": "\u00ef\u0098\u0090 \u00ef\u0098\u0091 \u00ef\u0098\u0092 \u00ef\u0098\u00b0 \u00ef\u0099\u0081"
                   }
                 }
               ]
@@ -3240,7 +3232,7 @@
                 "height": 46
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ï",
+              "nodeLabel": "\u00ef\u0099\u0081",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.87 (foreground color: #8bc34a, background color: #f2f2f2, font size: 18.8pt (25px), font weight: normal). Expected contrast ratio of 3:1"
             },
             "subItems": {
@@ -3261,7 +3253,7 @@
                       "height": 86
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "ï ï ï ï° ï"
+                    "nodeLabel": "\u00ef\u0098\u0090 \u00ef\u0098\u0091 \u00ef\u0098\u0092 \u00ef\u0098\u00b0 \u00ef\u0099\u0081"
                   }
                 }
               ]

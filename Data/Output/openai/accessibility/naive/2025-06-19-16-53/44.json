@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 9,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -1062,7 +1071,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"info\">\n                CJ Amberwood\n                <div>\n                    Thinker. Author. Explorer of edges. Top writer in Writing, Founder, âJust Curiousâ pub, exploring creativity in 3m or less. Pour some coffee, stop in ..!\n                </div>\n            </div>",
+            "html": "<div class=\"info\">\n                CJ Amberwood\n                <div>\n                    Thinker. Author. Explorer of edges. Top writer in Writing, Founder, \u00e2\u0080\u009cJust Curious\u00e2\u0080\u009d pub, exploring creativity in 3m or less. Pour some coffee, stop in ..!\n                </div>\n            </div>",
             "target": [
               ".follower:nth-child(5) > .info"
             ],
@@ -1118,7 +1127,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"info\">\n                Suparrna Anilkumar\n                <div>I have more doppelgÃ¤ngers than you have friends.</div>\n            </div>",
+            "html": "<div class=\"info\">\n                Suparrna Anilkumar\n                <div>I have more doppelg\u00c3\u00a4ngers than you have friends.</div>\n            </div>",
             "target": [
               ".follower:nth-child(7) > .info"
             ],

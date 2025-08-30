@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -393,7 +385,7 @@
                 "height": 315
               },
               "snippet": "<p>",
-              "nodeLabel": "Congratulations to Jonathon Waugh of St Austell who passed his practical drivin…",
+              "nodeLabel": "Congratulations to Jonathon Waugh of St Austell who passed his practical drivin\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.25 (foreground color: #000000, background color: #00125f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {

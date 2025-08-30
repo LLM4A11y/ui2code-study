@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -402,7 +394,7 @@
                       "height": 221
                     },
                     "snippet": "<div class=\"header\">",
-                    "nodeLabel": "The Pink Rose College\n\nOur mission is to provide quality education that prepare…"
+                    "nodeLabel": "The Pink Rose College\n\nOur mission is to provide quality education that prepare\u2026"
                   }
                 },
                 {
@@ -448,7 +440,7 @@
                 "height": 90
               },
               "snippet": "<p>",
-              "nodeLabel": "Our mission is to provide quality education that prepares students for competit…",
+              "nodeLabel": "Our mission is to provide quality education that prepares students for competit\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.43 (foreground color: #ffffff, background color: #c9e191, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -469,7 +461,7 @@
                       "height": 221
                     },
                     "snippet": "<div class=\"header\">",
-                    "nodeLabel": "The Pink Rose College\n\nOur mission is to provide quality education that prepare…"
+                    "nodeLabel": "The Pink Rose College\n\nOur mission is to provide quality education that prepare\u2026"
                   }
                 },
                 {

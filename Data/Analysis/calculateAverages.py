@@ -1,4 +1,5 @@
 import os
+import argparse
 import json
 from collections import defaultdict
 
@@ -126,7 +127,6 @@ def _get_average_benchmark_results(model: str, prompt_strategy: str) -> dict:
     dates = []
     result_files_processed = len(benchmarks_results)
     overview_files_processed = 0
-    benchmark_files_processed = 0
     total_ir = 0
     total_iwir = 0
     total_status_counts = defaultdict(int)
@@ -183,32 +183,52 @@ def _get_average_benchmark_results(model: str, prompt_strategy: str) -> dict:
 
 
 
-def get_average_results() -> tuple:
-    """
-        Gets the result files from each round and calculates the average
-    """
-    model = "gemini" # gemini, openai, qwen
-    prompt_strategy = "naive" # naive, zero-shot, few-shot, reason, iterative_naive, iterative_naive_refine_1, iterative_naive_refine_2, iterative_naive_refine_3, composite_naive, composite_naive_refine, agent_naive_refine
+# def get_average_results() -> tuple:
+#     """
+#         Gets the result files from each round and calculates the average
+#     """
+#     model = "gemini" # gemini, openai, qwen
+#     prompt_strategy = "naive" # naive, zero-shot, few-shot, reason, iterative_naive, iterative_naive_refine_1, iterative_naive_refine_2, iterative_naive_refine_3, composite_naive, composite_naive_refine, agent_naive_refine
 
-    accessibility_results = _get_average_accessibility_results(model, prompt_strategy)
-    benchmark_results = _get_average_benchmark_results(model, prompt_strategy)
+#     accessibility_results = _get_average_accessibility_results(model, prompt_strategy)
+#     benchmark_results = _get_average_benchmark_results(model, prompt_strategy)
 
-    output_path_accessibility = os.path.join(RESULTS_ACCESSIBILITY_PATH, "average", f"{model}_{prompt_strategy}_average_results.json")
-    os.makedirs(os.path.dirname(output_path_accessibility), exist_ok=True)
-    output_path_benchmarks = os.path.join(RESULTS_BENCHMARKS_PATH, "average", f"{model}_{prompt_strategy}_average_results.json")
-    os.makedirs(os.path.dirname(output_path_benchmarks), exist_ok=True)
+#     output_path_accessibility = os.path.join(RESULTS_ACCESSIBILITY_PATH, "average", f"{model}_{prompt_strategy}_average_results.json")
+#     os.makedirs(os.path.dirname(output_path_accessibility), exist_ok=True)
+#     output_path_benchmarks = os.path.join(RESULTS_BENCHMARKS_PATH, "average", f"{model}_{prompt_strategy}_average_results.json")
+#     os.makedirs(os.path.dirname(output_path_benchmarks), exist_ok=True)
 
-    with open(output_path_accessibility, 'w') as f:
-        json.dump(accessibility_results, f, indent=2)
-    with open(output_path_benchmarks, 'w') as f:
-        json.dump(benchmark_results, f, indent=2)
+#     with open(output_path_accessibility, 'w') as f:
+#         json.dump(accessibility_results, f, indent=2)
+#     with open(output_path_benchmarks, 'w') as f:
+#         json.dump(benchmark_results, f, indent=2)
 
-    return accessibility_results, benchmark_results
+#     return accessibility_results, benchmark_results
 
 
 
 
 
 if __name__ == "__main__":
-    print("Start average results...")
-    accessibility_results, benchmark_results = get_average_results()
+
+    DEFAULT_MODEL = "gemini"
+    DEFAULT_PROMPT_STRATEGY = "naive"
+
+    parser = argparse.ArgumentParser(description="Aggregate averages across 3 rounds for a (model, prompt) pair.")
+    parser.add_argument("--model", "-m", required=True, choices=["gemini","openai","qwen","llava"], default=DEFAULT_MODEL)
+    parser.add_argument("--prompt_strategy", "-p", required=True, default=DEFAULT_PROMPT_STRATEGY, help="Prompt strategy (e.g., naive, zero-shot, few-shot, reason, iterative_naive, iterative_naive_refine_1, iterative_naive_refine_2, iterative_naive_refine_3)")
+
+    args = parser.parse_args()
+
+    acc = _get_average_accessibility_results(args.model, args.prompt_strategy)
+    ben = _get_average_benchmark_results(args.model, args.prompt_strategy)
+
+    output_path_accessibility = os.path.join(RESULTS_ACCESSIBILITY_PATH, "average", f"{args.model}_{args.prompt_strategy}_average_results.json")
+    output_path_benchmarks = os.path.join(RESULTS_BENCHMARKS_PATH, "average", f"{args.model}_{args.prompt_strategy}_average_results.json")
+    os.makedirs(os.path.dirname(output_path_accessibility), exist_ok=True)
+    os.makedirs(os.path.dirname(output_path_benchmarks), exist_ok=True)
+
+    with open(output_path_accessibility, "w", encoding="utf-8") as f:
+        json.dump(acc, f, indent=2, ensure_ascii=False)
+    with open(output_path_benchmarks, "w", encoding="utf-8") as f:
+        json.dump(ben, f, indent=2, ensure_ascii=False)

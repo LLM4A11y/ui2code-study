@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>LibriVox - Biography of an American Bondman, By His Daughter</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root{
+    --bg:#f2f4f3;
+    --text:#3f464a;
+    --muted:#6f7b80;
+    --link:#1a73b8;
+    --blue-50:#e9f5f9;
+    --blue-100:#d6ebf3;
+    --blue-200:#c4e2ee;
+    --border:#e3e6e8;
+    --green:#6fbf4a;
+    --green-dark:#59a83a;
+    --itunes:#26a0b6;
+    --rss:#7db36b;
+    --torrent:#49a35a;
+  }
+  html,body{margin:0;background:var(--bg);font-family:Arial,Helvetica,sans-serif;color:var(--text);font-size:14px;line-height:1.45}
+  a{color:var(--link);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .page{max-width:980px;margin:0 auto}
+  /* Top utility bar */
+  .top-nav{padding:14px 6px 6px 6px;text-align:right;color:#7a858a;font-size:12px}
+  .top-nav a{color:#6c757a;margin:0 6px}
+  /* Search */
+  .searchbox{padding:4px 6px 0 6px;text-align:right}
+  .searchbox input{width:290px;height:30px;border:1px solid #cfd6da;border-radius:3px;padding:0 10px;font-size:13px}
+  .searchbox .adv{display:block;margin-top:6px;font-size:11px;color:#7a8a90}
+  /* Hero logo left */
+  .hero{display:flex;align-items:flex-start;gap:24px;padding:18px 6px 6px 6px}
+  .hero .logo-wrap{width:300px}
+  .hero img{width:300px;height:300px;display:block;background:#1e56ff;object-fit:cover}
+  .tagline{margin-top:10px;font-size:13px;color:#6c757a}
+  /* Browse header strip */
+  .browse{margin:16px 0 22px}
+  .browse .label{font-size:12px;color:#6d7a7f;font-weight:bold;letter-spacing:0.02em;margin:0 0 8px 6px}
+  .browse .head{background:var(--blue-100);border:1px solid var(--blue-200);display:grid;grid-template-columns:1fr 2fr 1fr 1fr;gap:0;border-radius:3px;overflow:hidden}
+  .browse .head div{padding:12px 16px;font-weight:bold;color:#6b7d85;border-right:1px solid var(--blue-200)}
+  .browse .head div:last-child{border-right:0}
+  /* Layout below */
+  .content{display:grid;grid-template-columns:260px 1fr;gap:28px;margin:0 6px 60px 6px}
+  /* Sidebar */
+  .panel{background:#fff;border:1px solid var(--border);padding:14px;border-radius:3px;margin-bottom:16px}
+  .side-tags{display:flex;gap:6px;margin-bottom:10px}
+  .side-tag{background:#a7d8a7;color:#1f4b1f;font-weight:bold;font-size:12px;padding:6px 8px;border-radius:3px}
+  .side-tag.blue{background:#bfe7f3;color:#0a5a74}
+  .note{font-size:12px;color:#6b777c;line-height:1.5;margin:10px 0 14px}
+  .slist h4{margin:10px 0 8px 0;font-size:13px;color:#6b7b80}
+  .dl-row{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--border);padding:8px 0}
+  .dl-row:last-child{border-bottom:0}
+  .btn{padding:6px 10px;border-radius:3px;color:#fff;font-weight:bold;font-size:12px;display:inline-block}
+  .btn.green{background:var(--green)}
+  .btn.green:hover{background:var(--green-dark)}
+  .btn.itunes{background:var(--itunes)}
+  .btn.rss{background:var(--rss)}
+  .btn.torrent{background:var(--torrent)}
+  .details{margin-top:10px}
+  .details h4{margin:6px 0 8px;font-size:13px;color:#6b7b80}
+  .kv{display:grid;grid-template-columns:110px 1fr;row-gap:6px;font-size:13px;color:#5a666b}
+  .kv .k{color:#7b888e}
+  .links h4{margin:8px 0 6px;font-size:13px;color:#6b7b80}
+  .links a{display:block;margin:4px 0}
+  /* Main card */
+  .card{background:#fff;border:1px solid var(--border);border-radius:3px;position:relative;overflow:hidden}
+  .card .inner{padding:18px 18px 14px 18px}
+  .cover{position:absolute;right:18px;top:18px;width:170px;text-align:center}
+  .cover img{width:170px;height:170px;display:block;background:#1e56ff;object-fit:cover;border-radius:2px}
+  .cover a{display:block;margin-top:8px;font-size:12px;color:#6b7b80}
+  .title{font-size:22px;font-weight:bold;margin:2px 190px 6px 0;color:#2d3b42}
+  .author{font-size:16px;font-weight:bold;color:#1a73b8;margin:0 190px 10px 0}
+  .author .dates{font-weight:normal;color:#7a868c}
+  .summary{margin:0 190px 10px 0;color:#525e63}
+  .meta{margin:6px 190px 0 0;color:#4f5a60}
+  /* Chapters table */
+  .chapters{margin-top:18px;border:1px solid var(--blue-200);border-radius:3px;overflow:hidden}
+  .chapters .thead{display:grid;grid-template-columns:110px 1fr 180px 120px;background:var(--blue-100);color:#6d7d84;font-weight:bold}
+  .chapters .thead div{padding:12px 14px;border-right:1px solid var(--blue-200)}
+  .chapters .thead div:last-child{border-right:0}
+  .row{display:grid;grid-template-columns:110px 1fr 180px 120px;align-items:center;border-top:1px solid #e7ecef;background:#fff}
+  .row:nth-child(odd){background:#f9fbfc}
+  .row div{padding:14px}
+  .sec{color:#6b7b80}
+  .chapter a{font-weight:bold}
+  .reader a{font-weight:bold}
+  .time{color:#6b7b80}
+  /* Small typography */
+  .muted{color:#7a868c}
+  /* Make it breathe on small screens */
+  @media (max-width:860px){
+    .content{grid-template-columns:1fr}
+    .cover{position:static;margin:0 0 10px 0;width:170px}
+    .title,.author,.summary,.meta{margin-right:0}
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="top-nav">
+    <a href="#">About</a> | <a href="#">Contact</a> | <a href="#">Forum</a> | <a href="#">Help</a>
+  </div>
+
+  <div class="searchbox">
+    <input type="text" placeholder="Search by Author, Title or Reader">
+    <a class="adv" href="#">Advanced search</a>
+  </div>
+
+  <div class="hero">
+    <div class="logo-wrap">
+      <img src="src/placeholder.jpg" alt="">
+      <div class="tagline">Acoustical liberation of books in the public domain</div>
+    </div>
+  </div>
+
+  <div class="browse">
+    <div class="label">BROWSE THE CATALOG</div>
+    <div class="head">
+      <div>Author</div>
+      <div>Title</div>
+      <div>Genre/Subject</div>
+      <div>Language</div>
+    </div>
+  </div>
+
+  <div class="content">
+    <aside>
+      <div class="panel">
+        <div class="side-tags">
+          <div class="side-tag">Donate to LibriVox</div>
+          <div class="side-tag blue">Thank a reader</div>
+        </div>
+        <div class="note">
+          LibriVox recordings are Public Domain in the USA. If you are not in the USA, please verify the copyright status of these works in your own country before downloading, otherwise you may be violating copyright law.
+        </div>
+        <div class="slist">
+          <h4>Listen/Download ( help? )</h4>
+          <div class="dl-row"><span>Whole book (zip file)</span><a class="btn green" href="#">Download</a></div>
+          <div class="dl-row"><span>Subscribe by iTunes</span><a class="btn itunes" href="#">iTunes</a></div>
+          <div class="dl-row"><span>RSS Feed</span><a class="btn rss" href="#">RSS</a></div>
+          <div class="dl-row"><span>Download torrent</span><a class="btn torrent" href="#">Torrent</a></div>
+        </div>
+      </div>
+
+      <div class="panel details">
+        <h4>Production details</h4>
+        <div class="kv">
+          <div class="k">Running Time:</div><div>02:32:05</div>
+          <div class="k">Zip file size:</div><div>71MB</div>
+          <div class="k">Catalog date:</div><div>2018-09-12</div>
+          <div class="k">Read by:</div><div><a href="#">Jim Locke</a></div>
+          <div class="k">Book Coordinator:</div><div><a href="#">Jim Locke</a></div>
+          <div class="k">Meta Coordinator:</div><div><a href="#">DaveC</a></div>
+          <div class="k">Proof Listener:</div><div><a href="#">DaveC</a></div>
+        </div>
+      </div>
+
+      <div class="panel links">
+        <h4>Links</h4>
+        <a href="#">Internet Archive Page</a>
+        <a href="#">Online text</a>
+        <a href="#">Wikipedia - Josephine Brown</a>
+        <a href="#">M4B Audiobook (70MB)</a>
+      </div>
+    </aside>
+
+    <main>
+      <div class="card">
+        <div class="cover">
+          <img src="src/placeholder.jpg" alt="">
+          <a href="#" class="muted">Download cover art</a>
+          <a href="#" class="muted">Download CD case insert</a>
+        </div>
+        <div class="inner">
+          <div class="title">Biography of an American Bondman, By His Daughter</div>
+          <div class="author">Josephine Brown <span class="dates">(1839 - 1874)</span></div>
+          <p class="summary">
+            Josephine Brownâs Biography of an American Bondsman faithfully follows the trajectory of her fatherâs life as previously explored in his own narratives. She distills and summarizes the major revelatory moments of his autobiography while she also incorporates new anecdotal information and offers her own perspective on Brownâs life.
+          </p>
+          <p class="meta">
+            <strong>Genre(s):</strong> Biography &amp; Autobiography<br>
+            <strong>Language:</strong> English
+          </p>
+        </div>
+      </div>
+
+      <div class="chapters" style="margin-top:16px">
+        <div class="thead">
+          <div>SECTION</div>
+          <div>CHAPTER</div>
+          <div>READER</div>
+          <div>TIME</div>
+        </div>
+        <div class="row">
+          <div class="sec">01</div>
+          <div class="chapter"><a href="#">Chapters 1 and 2</a></div>
+          <div class="reader"><a href="#">Jim Locke</a></div>
+          <div class="time">00:14:18</div>
+        </div>
+        <div class="row">
+          <div class="sec">02</div>
+          <div class="chapter"><a href="#">Chapters 3 and 4</a></div>
+          <div class="reader"><a href="#">Jim Locke</a></div>
+          <div class="time">00:07:04</div>
+        </div>
+        <div class="row">
+          <div class="sec">03</div>
+          <div class="chapter"><a href="#">Chapters 5 and 6</a></div>
+          <div class="reader"><a href="#">Jim Locke</a></div>
+          <div class="time">00:09:26</div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+</body>
+</html>

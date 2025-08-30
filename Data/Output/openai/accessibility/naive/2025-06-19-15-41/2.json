@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -51,9 +60,7 @@
                 "relatedNodes": [
                   {
                     "html": "<button style=\"background-color: #7289da; color: white; padding: 5px 15px; border: none; border-radius: 5px;\">Chat on Discord</button>",
-                    "target": [
-                      "button"
-                    ]
+                    "target": ["button"]
                   }
                 ],
                 "impact": "serious",
@@ -64,9 +71,7 @@
             "none": [],
             "impact": "serious",
             "html": "<button style=\"background-color: #7289da; color: white; padding: 5px 15px; border: none; border-radius: 5px;\">Chat on Discord</button>",
-            "target": [
-              "button"
-            ],
+            "target": ["button"],
             "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.33 (foreground color: #ffffff, background color: #7289da, font size: 10.0pt (13.3333px), font weight: normal). Expected contrast ratio of 4.5:1"
           }
         },
@@ -93,9 +98,7 @@
                 "relatedNodes": [
                   {
                     "html": "<div class=\"table\">",
-                    "target": [
-                      ".table"
-                    ]
+                    "target": [".table"]
                   }
                 ],
                 "impact": "serious",
@@ -106,9 +109,7 @@
             "none": [],
             "impact": "serious",
             "html": "<span class=\"important\">Fat Link</span>",
-            "target": [
-              "span"
-            ],
+            "target": ["span"],
             "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
           }
         },
@@ -226,9 +227,7 @@
       ]
     },
     {
-      "wcag_id": [
-        null
-      ],
+      "wcag_id": [null],
       "url": [
         "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main",
         "https://dequeuniversity.com/rules/axe/4.10/landmark-unique",
@@ -264,9 +263,7 @@
             "none": [],
             "impact": "moderate",
             "html": "<html lang=\"en\">",
-            "target": [
-              "html"
-            ],
+            "target": ["html"],
             "failureSummary": "Fix all of the following:\n  Document does not have a main landmark"
           }
         },
@@ -292,9 +289,7 @@
             "none": [],
             "impact": "moderate",
             "html": "<div class=\"header\">",
-            "target": [
-              "body > .header"
-            ],
+            "target": ["body > .header"],
             "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
           }
         },
@@ -320,9 +315,7 @@
             "none": [],
             "impact": "moderate",
             "html": "<h3>Incel FAQ &amp; History</h3>",
-            "target": [
-              "h3:nth-child(2)"
-            ],
+            "target": ["h3:nth-child(2)"],
             "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
           }
         },
@@ -348,9 +341,7 @@
             "none": [],
             "impact": "moderate",
             "html": "<ul>\n                <li><a href=\"#\">Inceldom FAQ</a></li>\n                <li><a href=\"#\">Incelosphere Timeline</a></li>\n                <li><a href=\"#\">Incel Glossary</a></li>\n                <li><a href=\"#\">Demographics Of Inceldom</a></li>\n            </ul>",
-            "target": [
-              "ul:nth-child(3)"
-            ],
+            "target": ["ul:nth-child(3)"],
             "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
           }
         },
@@ -376,9 +367,7 @@
             "none": [],
             "impact": "moderate",
             "html": "<h3>Important Pages</h3>",
-            "target": [
-              "h3:nth-child(4)"
-            ],
+            "target": ["h3:nth-child(4)"],
             "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
           }
         },
@@ -404,9 +393,7 @@
             "none": [],
             "impact": "moderate",
             "html": "<ul>\n                <li><a href=\"#\">Scientific Blackpill</a></li>\n                <li><a href=\"#\">Blackpill</a></li>\n                <li><a href=\"#\">PSL</a></li>\n            </ul>",
-            "target": [
-              "ul:nth-child(5)"
-            ],
+            "target": ["ul:nth-child(5)"],
             "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
           }
         },
@@ -432,9 +419,7 @@
             "none": [],
             "impact": "moderate",
             "html": "<h3>Rules &amp; Disclaimer</h3>",
-            "target": [
-              "h3:nth-child(6)"
-            ],
+            "target": ["h3:nth-child(6)"],
             "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
           }
         },
@@ -460,9 +445,7 @@
             "none": [],
             "impact": "moderate",
             "html": "<ul>\n                <li><a href=\"#\">Editing Rules</a></li>\n                <li><a href=\"#\">General Disclaimer</a></li>\n            </ul>",
-            "target": [
-              "ul:nth-child(7)"
-            ],
+            "target": ["ul:nth-child(7)"],
             "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
           }
         },
@@ -488,9 +471,7 @@
             "none": [],
             "impact": "moderate",
             "html": "<h3>Other</h3>",
-            "target": [
-              "h3:nth-child(8)"
-            ],
+            "target": ["h3:nth-child(8)"],
             "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
           }
         },
@@ -516,9 +497,7 @@
             "none": [],
             "impact": "moderate",
             "html": "<ul>\n                <li><a href=\"#\">Random Page</a></li>\n                <li><a href=\"#\">Recent Changes</a></li>\n                <li><a href=\"#\">Special Pages</a></li>\n            </ul>",
-            "target": [
-              "ul:nth-child(9)"
-            ],
+            "target": ["ul:nth-child(9)"],
             "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
           }
         },
@@ -544,9 +523,7 @@
             "none": [],
             "impact": "moderate",
             "html": "<h3>Tools</h3>",
-            "target": [
-              "h3:nth-child(10)"
-            ],
+            "target": ["h3:nth-child(10)"],
             "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
           }
         },
@@ -572,9 +549,7 @@
             "none": [],
             "impact": "moderate",
             "html": "<ul>\n                <li><a href=\"#\">What links here</a></li>\n            </ul>",
-            "target": [
-              "ul:nth-child(11)"
-            ],
+            "target": ["ul:nth-child(11)"],
             "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
           }
         },
@@ -600,9 +575,7 @@
             "none": [],
             "impact": "moderate",
             "html": "<div class=\"content\">",
-            "target": [
-              ".content"
-            ],
+            "target": [".content"],
             "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
           }
         }
@@ -642,9 +615,7 @@
             "none": [],
             "impact": "moderate",
             "html": "<html lang=\"en\">",
-            "target": [
-              "html"
-            ],
+            "target": ["html"],
             "failureSummary": "Fix all of the following:\n  Page must have a level-one heading"
           }
         }
@@ -661,9 +632,7 @@
         "Principle1.Guideline1_3.1_3_1.F68",
         "Principle4.Guideline4_1.4_1_2.H91.Fieldset.Name"
       ],
-      "url": [
-        "https://dequeuniversity.com/rules/axe/4.10/label"
-      ],
+      "url": ["https://dequeuniversity.com/rules/axe/4.10/label"],
       "impact": "critical",
       "name": "Label; Multiple Elements; Content missing",
       "amount_nodes_failed": 2,

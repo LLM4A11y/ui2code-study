@@ -11,10 +11,6 @@
     "total_nodes_checked": 100,
     "total_nodes_failed": 5
   },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
-  },
   "details_checks": {
     "Landmark & Region; Missing & Unique Landmarks;": {
       "impact": "moderate",

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -134,7 +126,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        <p>Â© Copyright 2009 COL Group, Indiana University</p>\n        <p><a href=\"#\">Web design released by Flash Gallery</a></p>\n    </div>",
+                    "html": "<div class=\"footer\">\n        <p>\u00c2\u00a9 Copyright 2009 COL Group, Indiana University</p>\n        <p><a href=\"#\">Web design released by Flash Gallery</a></p>\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -345,7 +337,7 @@
                       "height": 91
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Â© Copyright 2009 COL Group, Indiana University\n\nWeb design released by Flash G…"
+                    "nodeLabel": "\u00c2\u00a9 Copyright 2009 COL Group, Indiana University\n\nWeb design released by Flash G\u2026"
                   }
                 }
               ]
@@ -587,7 +579,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        <p>Â© Copyright 2009 COL Group, Indiana University</p>\n        <p><a href=\"#\">Web design released by Flash Gallery</a></p>\n    </div>",
+            "html": "<div class=\"footer\">\n        <p>\u00c2\u00a9 Copyright 2009 COL Group, Indiana University</p>\n        <p><a href=\"#\">Web design released by Flash Gallery</a></p>\n    </div>",
             "target": [
               ".footer"
             ],

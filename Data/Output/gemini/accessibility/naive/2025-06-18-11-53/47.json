@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -1511,7 +1503,7 @@
                       "height": 232
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": " Powered By IP.Board Ã‚Â© 2023 IPS, Inc.\nLicensed to: Seahorse Dot Org Limited\n…"
+                    "nodeLabel": " Powered By IP.Board \u00c3\u201a\u00c2\u00a9 2023 IPS, Inc.\nLicensed to: Seahorse Dot Org Limited\n\u2026"
                   }
                 }
               ]
@@ -1560,7 +1552,7 @@
                       "height": 232
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": " Powered By IP.Board Ã‚Â© 2023 IPS, Inc.\nLicensed to: Seahorse Dot Org Limited\n…"
+                    "nodeLabel": " Powered By IP.Board \u00c3\u201a\u00c2\u00a9 2023 IPS, Inc.\nLicensed to: Seahorse Dot Org Limited\n\u2026"
                   }
                 }
               ]
@@ -1609,7 +1601,7 @@
                       "height": 232
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": " Powered By IP.Board Ã‚Â© 2023 IPS, Inc.\nLicensed to: Seahorse Dot Org Limited\n…"
+                    "nodeLabel": " Powered By IP.Board \u00c3\u201a\u00c2\u00a9 2023 IPS, Inc.\nLicensed to: Seahorse Dot Org Limited\n\u2026"
                   }
                 }
               ]

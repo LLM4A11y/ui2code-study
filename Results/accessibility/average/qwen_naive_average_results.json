@@ -8,8 +8,8 @@
   ],
   "result_files_processed": 3,
   "dataset_files_processed": 159,
-  "total_automatic_nodes_failed": 329.0,
-  "average_automatic_nodes_failed_per_file": 6.21,
+  "total_automatic_nodes_failed": 339.0,
+  "average_automatic_nodes_failed_per_file": 6.4,
   "accessibility_issues": [
     [
       "Color Contrast; Text;",
@@ -43,6 +43,13 @@
       "Size; Target Size; Element too small",
       {
         "impact": "serious",
+        "amount_nodes_failed": 10.0
+      }
+    ],
+    [
+      "Alt-Text; Images;",
+      {
+        "impact": "critical",
         "amount_nodes_failed": 10.0
       }
     ],

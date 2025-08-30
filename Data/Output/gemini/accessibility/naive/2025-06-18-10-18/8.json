@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 2,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -651,7 +660,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p style=\"font-size: 24px;\">Find a Tour on a SegwayÂ® PT now!</p>",
+            "html": "<p style=\"font-size: 24px;\">Find a Tour on a Segway\u00c2\u00ae PT now!</p>",
             "target": [
               "section:nth-child(5) > p"
             ],
@@ -1295,14 +1304,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G145.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.42:1. Recommendation:  change background to #19a69d.",
-          "description": "<p style=\"font-size: 24px;\">Find a Tour on a SegwayÂ® PT no...</p>",
+          "description": "<p style=\"font-size: 24px;\">Find a Tour on a Segway\u00c2\u00ae PT no...</p>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.42:1. Recommendation:  change background to #19a69d.",
-            "context": "<p style=\"font-size: 24px;\">Find a Tour on a SegwayÂ® PT no...</p>",
+            "context": "<p style=\"font-size: 24px;\">Find a Tour on a Segway\u00c2\u00ae PT no...</p>",
             "selector": "html > body > div > section:nth-child(5) > p",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1552,7 +1561,7 @@
                       "height": 1025
                     },
                     "snippet": "<section class=\"content-section\">",
-                    "nodeLabel": "// USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolin…"
+                    "nodeLabel": "// USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolin\u2026"
                   }
                 }
               ]
@@ -1601,7 +1610,7 @@
                       "height": 1025
                     },
                     "snippet": "<section class=\"content-section\">",
-                    "nodeLabel": "// USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolin…"
+                    "nodeLabel": "// USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolin\u2026"
                   }
                 }
               ]
@@ -1650,7 +1659,7 @@
                       "height": 1025
                     },
                     "snippet": "<section class=\"content-section\">",
-                    "nodeLabel": "// USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolin…"
+                    "nodeLabel": "// USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolin\u2026"
                   }
                 }
               ]
@@ -1699,7 +1708,7 @@
                       "height": 1025
                     },
                     "snippet": "<section class=\"content-section\">",
-                    "nodeLabel": "// USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolin…"
+                    "nodeLabel": "// USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolin\u2026"
                   }
                 }
               ]
@@ -1797,7 +1806,7 @@
                       "height": 1025
                     },
                     "snippet": "<section class=\"content-section\">",
-                    "nodeLabel": "// USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolin…"
+                    "nodeLabel": "// USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolin\u2026"
                   }
                 }
               ]
@@ -2021,7 +2030,7 @@
                 "height": 55
               },
               "snippet": "<p style=\"font-size: 24px;\">",
-              "nodeLabel": "Find a Tour on a SegwayÂ® PT now!",
+              "nodeLabel": "Find a Tour on a Segway\u00c2\u00ae PT now!",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.42 (foreground color: #ffffff, background color: #2cb9b0, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1"
             },
             "subItems": {
@@ -2042,7 +2051,7 @@
                       "height": 219
                     },
                     "snippet": "<section style=\"background-color: #2cb9b0; padding: 40px; text-align: center; color: #fff;\">",
-                    "nodeLabel": "Find a Tour on a SegwayÂ® PT now!\n\nFind a Tour Now"
+                    "nodeLabel": "Find a Tour on a Segway\u00c2\u00ae PT now!\n\nFind a Tour Now"
                   }
                 }
               ]
@@ -2117,7 +2126,7 @@
                       "height": 168
                     },
                     "snippet": "<div class=\"bottom-footer\">",
-                    "nodeLabel": "HOME\n\nFIND SEGWAY TOURS\n\nBROWSE TOURS\n\nABOUT SGT\n\nSEGWAY MINIPRO\n\nFOR TOUR OPER…"
+                    "nodeLabel": "HOME\n\nFIND SEGWAY TOURS\n\nBROWSE TOURS\n\nABOUT SGT\n\nSEGWAY MINIPRO\n\nFOR TOUR OPER\u2026"
                   }
                 }
               ]
@@ -2166,7 +2175,7 @@
                       "height": 168
                     },
                     "snippet": "<div class=\"bottom-footer\">",
-                    "nodeLabel": "HOME\n\nFIND SEGWAY TOURS\n\nBROWSE TOURS\n\nABOUT SGT\n\nSEGWAY MINIPRO\n\nFOR TOUR OPER…"
+                    "nodeLabel": "HOME\n\nFIND SEGWAY TOURS\n\nBROWSE TOURS\n\nABOUT SGT\n\nSEGWAY MINIPRO\n\nFOR TOUR OPER\u2026"
                   }
                 }
               ]
@@ -2215,7 +2224,7 @@
                       "height": 168
                     },
                     "snippet": "<div class=\"bottom-footer\">",
-                    "nodeLabel": "HOME\n\nFIND SEGWAY TOURS\n\nBROWSE TOURS\n\nABOUT SGT\n\nSEGWAY MINIPRO\n\nFOR TOUR OPER…"
+                    "nodeLabel": "HOME\n\nFIND SEGWAY TOURS\n\nBROWSE TOURS\n\nABOUT SGT\n\nSEGWAY MINIPRO\n\nFOR TOUR OPER\u2026"
                   }
                 }
               ]
@@ -2264,7 +2273,7 @@
                       "height": 168
                     },
                     "snippet": "<div class=\"bottom-footer\">",
-                    "nodeLabel": "HOME\n\nFIND SEGWAY TOURS\n\nBROWSE TOURS\n\nABOUT SGT\n\nSEGWAY MINIPRO\n\nFOR TOUR OPER…"
+                    "nodeLabel": "HOME\n\nFIND SEGWAY TOURS\n\nBROWSE TOURS\n\nABOUT SGT\n\nSEGWAY MINIPRO\n\nFOR TOUR OPER\u2026"
                   }
                 }
               ]
@@ -2313,7 +2322,7 @@
                       "height": 168
                     },
                     "snippet": "<div class=\"bottom-footer\">",
-                    "nodeLabel": "HOME\n\nFIND SEGWAY TOURS\n\nBROWSE TOURS\n\nABOUT SGT\n\nSEGWAY MINIPRO\n\nFOR TOUR OPER…"
+                    "nodeLabel": "HOME\n\nFIND SEGWAY TOURS\n\nBROWSE TOURS\n\nABOUT SGT\n\nSEGWAY MINIPRO\n\nFOR TOUR OPER\u2026"
                   }
                 }
               ]
@@ -2362,7 +2371,7 @@
                       "height": 168
                     },
                     "snippet": "<div class=\"bottom-footer\">",
-                    "nodeLabel": "HOME\n\nFIND SEGWAY TOURS\n\nBROWSE TOURS\n\nABOUT SGT\n\nSEGWAY MINIPRO\n\nFOR TOUR OPER…"
+                    "nodeLabel": "HOME\n\nFIND SEGWAY TOURS\n\nBROWSE TOURS\n\nABOUT SGT\n\nSEGWAY MINIPRO\n\nFOR TOUR OPER\u2026"
                   }
                 }
               ]
@@ -2411,7 +2420,7 @@
                       "height": 168
                     },
                     "snippet": "<div class=\"bottom-footer\">",
-                    "nodeLabel": "HOME\n\nFIND SEGWAY TOURS\n\nBROWSE TOURS\n\nABOUT SGT\n\nSEGWAY MINIPRO\n\nFOR TOUR OPER…"
+                    "nodeLabel": "HOME\n\nFIND SEGWAY TOURS\n\nBROWSE TOURS\n\nABOUT SGT\n\nSEGWAY MINIPRO\n\nFOR TOUR OPER\u2026"
                   }
                 }
               ]
@@ -2460,7 +2469,7 @@
                       "height": 168
                     },
                     "snippet": "<div class=\"bottom-footer\">",
-                    "nodeLabel": "HOME\n\nFIND SEGWAY TOURS\n\nBROWSE TOURS\n\nABOUT SGT\n\nSEGWAY MINIPRO\n\nFOR TOUR OPER…"
+                    "nodeLabel": "HOME\n\nFIND SEGWAY TOURS\n\nBROWSE TOURS\n\nABOUT SGT\n\nSEGWAY MINIPRO\n\nFOR TOUR OPER\u2026"
                   }
                 }
               ]
@@ -2591,7 +2600,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<p style=\"font-size: 24px;\">Find a Tour on a SegwayÂ® PT now!</p>",
+            "html": "<p style=\"font-size: 24px;\">Find a Tour on a Segway\u00c2\u00ae PT now!</p>",
             "target": [
               "section:nth-child(5) > p"
             ],

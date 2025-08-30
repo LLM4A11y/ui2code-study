@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -536,7 +528,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer>\n        <p>Â© The Pink Rose College 2021 | All Rights Reserved</p>\n        <p>Privacy Policy | Terms &amp; Conditions</p>\n    </footer>",
+                    "html": "<footer>\n        <p>\u00c2\u00a9 The Pink Rose College 2021 | All Rights Reserved</p>\n        <p>Privacy Policy | Terms &amp; Conditions</p>\n    </footer>",
                     "target": [
                       "footer"
                     ]
@@ -555,7 +547,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>Â© The Pink Rose College 2021 | All Rights Reserved</p>",
+            "html": "<p>\u00c2\u00a9 The Pink Rose College 2021 | All Rights Reserved</p>",
             "target": [
               "p:nth-child(1)"
             ],
@@ -584,7 +576,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer>\n        <p>Â© The Pink Rose College 2021 | All Rights Reserved</p>\n        <p>Privacy Policy | Terms &amp; Conditions</p>\n    </footer>",
+                    "html": "<footer>\n        <p>\u00c2\u00a9 The Pink Rose College 2021 | All Rights Reserved</p>\n        <p>Privacy Policy | Terms &amp; Conditions</p>\n    </footer>",
                     "target": [
                       "footer"
                     ]
@@ -969,7 +961,7 @@
                       "height": 323
                     },
                     "snippet": "<div class=\"hero-section\">",
-                    "nodeLabel": "The Pink Rose College\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit.…"
+                    "nodeLabel": "The Pink Rose College\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\u2026"
                   }
                 },
                 {
@@ -1015,7 +1007,7 @@
                 "height": 90
               },
               "snippet": "<p class=\"hero-content\">",
-              "nodeLabel": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in aliquid. Fus…",
+              "nodeLabel": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in aliquid. Fus\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.92 (foreground color: #ffffff, background color: #92998e, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1036,7 +1028,7 @@
                       "height": 323
                     },
                     "snippet": "<div class=\"hero-section\">",
-                    "nodeLabel": "The Pink Rose College\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit.…"
+                    "nodeLabel": "The Pink Rose College\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\u2026"
                   }
                 },
                 {
@@ -1103,7 +1095,7 @@
                       "height": 323
                     },
                     "snippet": "<div class=\"hero-section\">",
-                    "nodeLabel": "The Pink Rose College\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit.…"
+                    "nodeLabel": "The Pink Rose College\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\u2026"
                   }
                 },
                 {
@@ -1170,7 +1162,7 @@
                       "height": 184
                     },
                     "snippet": "<div class=\"about-section\">",
-                    "nodeLabel": "About Us\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod …"
+                    "nodeLabel": "About Us\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod \u2026"
                   }
                 },
                 {
@@ -1216,7 +1208,7 @@
                 "height": 72
               },
               "snippet": "<p class=\"about-paragraphs\">",
-              "nodeLabel": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod quam vitae…",
+              "nodeLabel": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod quam vitae\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.44 (foreground color: #ffffff, background color: #8fabaa, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1237,7 +1229,7 @@
                       "height": 184
                     },
                     "snippet": "<div class=\"about-section\">",
-                    "nodeLabel": "About Us\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod …"
+                    "nodeLabel": "About Us\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod \u2026"
                   }
                 },
                 {
@@ -1283,7 +1275,7 @@
                 "height": 18
               },
               "snippet": "<p>",
-              "nodeLabel": "Â© The Pink Rose College 2021 | All Rights Reserved",
+              "nodeLabel": "\u00c2\u00a9 The Pink Rose College 2021 | All Rights Reserved",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.92 (foreground color: #ffffff, background color: #92998e, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1304,7 +1296,7 @@
                       "height": 86
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Â© The Pink Rose College 2021 | All Rights Reserved\n\nPrivacy Policy | Terms & C…"
+                    "nodeLabel": "\u00c2\u00a9 The Pink Rose College 2021 | All Rights Reserved\n\nPrivacy Policy | Terms & C\u2026"
                   }
                 },
                 {
@@ -1371,7 +1363,7 @@
                       "height": 86
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Â© The Pink Rose College 2021 | All Rights Reserved\n\nPrivacy Policy | Terms & C…"
+                    "nodeLabel": "\u00c2\u00a9 The Pink Rose College 2021 | All Rights Reserved\n\nPrivacy Policy | Terms & C\u2026"
                   }
                 },
                 {

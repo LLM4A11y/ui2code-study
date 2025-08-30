@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -167,7 +159,7 @@
                 "height": 72
               },
               "snippet": "<p>",
-              "nodeLabel": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quam eros…",
+              "nodeLabel": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quam eros\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.73 (foreground color: #000000, background color: #243656, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -188,7 +180,7 @@
                       "height": 887
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "THE ROSADO WRAP BRACELET\nHome\nShop\nContact\n\nLorem ipsum dolor sit amet, consect…"
+                    "nodeLabel": "THE ROSADO WRAP BRACELET\nHome\nShop\nContact\n\nLorem ipsum dolor sit amet, consect\u2026"
                   }
                 }
               ]
@@ -237,7 +229,7 @@
                       "height": 887
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "THE ROSADO WRAP BRACELET\nHome\nShop\nContact\n\nLorem ipsum dolor sit amet, consect…"
+                    "nodeLabel": "THE ROSADO WRAP BRACELET\nHome\nShop\nContact\n\nLorem ipsum dolor sit amet, consect\u2026"
                   }
                 }
               ]

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -932,7 +924,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer-bottom\">\n        <p>HOME | FIND SEGWAY TOURS | BROWSE TOURS</p>\n        <p>ABOUT SGT | SEGWAY MINIPRO | FOR TOUR OPERATORS</p>\n        <p>LEGALESE | SITEMAP</p>\n        <p>Â©2004-2023 SegwayGuidedTours.com</p>\n    </div>",
+                    "html": "<div class=\"footer-bottom\">\n        <p>HOME | FIND SEGWAY TOURS | BROWSE TOURS</p>\n        <p>ABOUT SGT | SEGWAY MINIPRO | FOR TOUR OPERATORS</p>\n        <p>LEGALESE | SITEMAP</p>\n        <p>\u00c2\u00a92004-2023 SegwayGuidedTours.com</p>\n    </div>",
                     "target": [
                       ".footer-bottom"
                     ]
@@ -974,7 +966,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer-bottom\">\n        <p>HOME | FIND SEGWAY TOURS | BROWSE TOURS</p>\n        <p>ABOUT SGT | SEGWAY MINIPRO | FOR TOUR OPERATORS</p>\n        <p>LEGALESE | SITEMAP</p>\n        <p>Â©2004-2023 SegwayGuidedTours.com</p>\n    </div>",
+                    "html": "<div class=\"footer-bottom\">\n        <p>HOME | FIND SEGWAY TOURS | BROWSE TOURS</p>\n        <p>ABOUT SGT | SEGWAY MINIPRO | FOR TOUR OPERATORS</p>\n        <p>LEGALESE | SITEMAP</p>\n        <p>\u00c2\u00a92004-2023 SegwayGuidedTours.com</p>\n    </div>",
                     "target": [
                       ".footer-bottom"
                     ]
@@ -1016,7 +1008,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer-bottom\">\n        <p>HOME | FIND SEGWAY TOURS | BROWSE TOURS</p>\n        <p>ABOUT SGT | SEGWAY MINIPRO | FOR TOUR OPERATORS</p>\n        <p>LEGALESE | SITEMAP</p>\n        <p>Â©2004-2023 SegwayGuidedTours.com</p>\n    </div>",
+                    "html": "<div class=\"footer-bottom\">\n        <p>HOME | FIND SEGWAY TOURS | BROWSE TOURS</p>\n        <p>ABOUT SGT | SEGWAY MINIPRO | FOR TOUR OPERATORS</p>\n        <p>LEGALESE | SITEMAP</p>\n        <p>\u00c2\u00a92004-2023 SegwayGuidedTours.com</p>\n    </div>",
                     "target": [
                       ".footer-bottom"
                     ]
@@ -1058,7 +1050,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer-bottom\">\n        <p>HOME | FIND SEGWAY TOURS | BROWSE TOURS</p>\n        <p>ABOUT SGT | SEGWAY MINIPRO | FOR TOUR OPERATORS</p>\n        <p>LEGALESE | SITEMAP</p>\n        <p>Â©2004-2023 SegwayGuidedTours.com</p>\n    </div>",
+                    "html": "<div class=\"footer-bottom\">\n        <p>HOME | FIND SEGWAY TOURS | BROWSE TOURS</p>\n        <p>ABOUT SGT | SEGWAY MINIPRO | FOR TOUR OPERATORS</p>\n        <p>LEGALESE | SITEMAP</p>\n        <p>\u00c2\u00a92004-2023 SegwayGuidedTours.com</p>\n    </div>",
                     "target": [
                       ".footer-bottom"
                     ]
@@ -1071,7 +1063,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>Â©2004-2023 SegwayGuidedTours.com</p>",
+            "html": "<p>\u00c2\u00a92004-2023 SegwayGuidedTours.com</p>",
             "target": [
               ".footer-bottom > p:nth-child(4)"
             ],
@@ -1473,14 +1465,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
-          "description": "<p>Â©2004-2023 SegwayGuidedTours.c...</p>",
+          "description": "<p>\u00c2\u00a92004-2023 SegwayGuidedTours.c...</p>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
-            "context": "<p>Â©2004-2023 SegwayGuidedTours.c...</p>",
+            "context": "<p>\u00c2\u00a92004-2023 SegwayGuidedTours.c...</p>",
             "selector": "html > body > div:nth-child(6) > div:nth-child(6) > p:nth-child(4)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1652,7 +1644,7 @@
                       "height": 935
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout\u2026"
                   }
                 }
               ]
@@ -1727,7 +1719,7 @@
                       "height": 935
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout\u2026"
                   }
                 }
               ]
@@ -1776,7 +1768,7 @@
                       "height": 935
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout\u2026"
                   }
                 }
               ]
@@ -1825,7 +1817,7 @@
                       "height": 935
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout\u2026"
                   }
                 }
               ]
@@ -1874,7 +1866,7 @@
                       "height": 935
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout\u2026"
                   }
                 }
               ]
@@ -1923,7 +1915,7 @@
                       "height": 935
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout\u2026"
                   }
                 }
               ]
@@ -1972,7 +1964,7 @@
                       "height": 935
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout\u2026"
                   }
                 }
               ]
@@ -2021,7 +2013,7 @@
                       "height": 935
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout\u2026"
                   }
                 }
               ]
@@ -2070,7 +2062,7 @@
                       "height": 935
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout\u2026"
                   }
                 }
               ]
@@ -2119,7 +2111,7 @@
                       "height": 935
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout\u2026"
                   }
                 }
               ]
@@ -2168,7 +2160,7 @@
                       "height": 935
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout\u2026"
                   }
                 }
               ]
@@ -2217,7 +2209,7 @@
                       "height": 935
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout\u2026"
                   }
                 }
               ]
@@ -2266,7 +2258,7 @@
                       "height": 935
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\nSouth Carolina List Date: 11/3/23\nSout\u2026"
                   }
                 }
               ]
@@ -2341,7 +2333,7 @@
                       "height": 154
                     },
                     "snippet": "<div class=\"footer-bottom\">",
-                    "nodeLabel": "HOME | FIND SEGWAY TOURS | BROWSE TOURS\n\nABOUT SGT | SEGWAY MINIPRO | FOR TOUR …"
+                    "nodeLabel": "HOME | FIND SEGWAY TOURS | BROWSE TOURS\n\nABOUT SGT | SEGWAY MINIPRO | FOR TOUR \u2026"
                   }
                 }
               ]
@@ -2390,7 +2382,7 @@
                       "height": 154
                     },
                     "snippet": "<div class=\"footer-bottom\">",
-                    "nodeLabel": "HOME | FIND SEGWAY TOURS | BROWSE TOURS\n\nABOUT SGT | SEGWAY MINIPRO | FOR TOUR …"
+                    "nodeLabel": "HOME | FIND SEGWAY TOURS | BROWSE TOURS\n\nABOUT SGT | SEGWAY MINIPRO | FOR TOUR \u2026"
                   }
                 }
               ]
@@ -2439,7 +2431,7 @@
                       "height": 154
                     },
                     "snippet": "<div class=\"footer-bottom\">",
-                    "nodeLabel": "HOME | FIND SEGWAY TOURS | BROWSE TOURS\n\nABOUT SGT | SEGWAY MINIPRO | FOR TOUR …"
+                    "nodeLabel": "HOME | FIND SEGWAY TOURS | BROWSE TOURS\n\nABOUT SGT | SEGWAY MINIPRO | FOR TOUR \u2026"
                   }
                 }
               ]
@@ -2467,7 +2459,7 @@
                 "height": 16
               },
               "snippet": "<p>",
-              "nodeLabel": "Â©2004-2023 SegwayGuidedTours.com",
+              "nodeLabel": "\u00c2\u00a92004-2023 SegwayGuidedTours.com",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #999999, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2488,7 +2480,7 @@
                       "height": 154
                     },
                     "snippet": "<div class=\"footer-bottom\">",
-                    "nodeLabel": "HOME | FIND SEGWAY TOURS | BROWSE TOURS\n\nABOUT SGT | SEGWAY MINIPRO | FOR TOUR …"
+                    "nodeLabel": "HOME | FIND SEGWAY TOURS | BROWSE TOURS\n\nABOUT SGT | SEGWAY MINIPRO | FOR TOUR \u2026"
                   }
                 }
               ]
@@ -2883,7 +2875,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<h4>Find a Tour on a SegwayÂ® PT now!</h4>",
+            "html": "<h4>Find a Tour on a Segway\u00c2\u00ae PT now!</h4>",
             "target": [
               ".cta > h4"
             ],
@@ -2911,7 +2903,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer-bottom\">\n        <p>HOME | FIND SEGWAY TOURS | BROWSE TOURS</p>\n        <p>ABOUT SGT | SEGWAY MINIPRO | FOR TOUR OPERATORS</p>\n        <p>LEGALESE | SITEMAP</p>\n        <p>Â©2004-2023 SegwayGuidedTours.com</p>\n    </div>",
+            "html": "<div class=\"footer-bottom\">\n        <p>HOME | FIND SEGWAY TOURS | BROWSE TOURS</p>\n        <p>ABOUT SGT | SEGWAY MINIPRO | FOR TOUR OPERATORS</p>\n        <p>LEGALESE | SITEMAP</p>\n        <p>\u00c2\u00a92004-2023 SegwayGuidedTours.com</p>\n    </div>",
             "target": [
               ".footer-bottom"
             ],

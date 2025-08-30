@@ -171,7 +171,7 @@ def _get_cli_arguments():
     parser.add_argument(
         "--model", "-m",
         default=DEFAULT_MODEL,
-        choices=["gemini", "openai", "qwen", "mistral"],
+        choices=["gemini", "openai", "qwen", "llava"],
         help=f"LLM-Model (default: {DEFAULT_MODEL})"
     )
     parser.add_argument(

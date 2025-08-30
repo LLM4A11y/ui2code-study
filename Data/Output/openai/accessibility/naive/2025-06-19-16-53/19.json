@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -273,7 +265,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"footer\">\n        © COPYRIGHT 2000 â 2023 FROM YOUR FRIENDS AT FETCH SOFTWORKS\n    </div>",
+            "html": "<div class=\"footer\">\n        \u00a9 COPYRIGHT 2000 \u00e2\u0080\u0094 2023 FROM YOUR FRIENDS AT FETCH SOFTWORKS\n    </div>",
             "target": [
               "body > .footer"
             ],
@@ -318,7 +310,7 @@
                 "height": 76
               },
               "snippet": "<div class=\"note\">",
-              "nodeLabel": "This is an archived topic. The information in it is likely to be out-of-date an…",
+              "nodeLabel": "This is an archived topic. The information in it is likely to be out-of-date an\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.6 (foreground color: #a94442, background color: #f6beb5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -474,7 +466,7 @@
                 "height": 54
               },
               "snippet": "<div class=\"footer\">",
-              "nodeLabel": "© COPYRIGHT 2000 â 2023 FROM YOUR FRIENDS AT FETCH SOFTWORKS",
+              "nodeLabel": "\u00a9 COPYRIGHT 2000 \u00e2\u0080\u0094 2023 FROM YOUR FRIENDS AT FETCH SOFTWORKS",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #aaaaaa, background color: #ffffff, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -603,7 +595,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        © COPYRIGHT 2000 â 2023 FROM YOUR FRIENDS AT FETCH SOFTWORKS\n    </div>",
+            "html": "<div class=\"footer\">\n        \u00a9 COPYRIGHT 2000 \u00e2\u0080\u0094 2023 FROM YOUR FRIENDS AT FETCH SOFTWORKS\n    </div>",
             "target": [
               "body > .footer"
             ],

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -1120,7 +1112,7 @@
                 "height": 72
               },
               "snippet": "<p>",
-              "nodeLabel": "Finding singles in Bonogin is fun and easy with justsaygday.com. As one of Aust…",
+              "nodeLabel": "Finding singles in Bonogin is fun and easy with justsaygday.com. As one of Aust\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.58 (foreground color: #000000, background color: #1a237e, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1169,7 +1161,7 @@
                 "height": 144
               },
               "snippet": "<p>",
-              "nodeLabel": "Life as a single girl of guy in Bonogin can be fun but most of us are looking f…",
+              "nodeLabel": "Life as a single girl of guy in Bonogin can be fun but most of us are looking f\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.58 (foreground color: #000000, background color: #1a237e, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1218,7 +1210,7 @@
                 "height": 54
               },
               "snippet": "<p>",
-              "nodeLabel": "Who's near me - find singles near you with the latest geo-location technologies…",
+              "nodeLabel": "Who's near me - find singles near you with the latest geo-location technologies\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.58 (foreground color: #000000, background color: #1a237e, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1463,7 +1455,7 @@
                 "height": 36
               },
               "snippet": "<p>",
-              "nodeLabel": "What's your idea of the perfect guy? Outgoing, sensitive, wild, gentle, tall, b…",
+              "nodeLabel": "What's your idea of the perfect guy? Outgoing, sensitive, wild, gentle, tall, b\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.58 (foreground color: #000000, background color: #1a237e, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1512,7 +1504,7 @@
                 "height": 36
               },
               "snippet": "<p>",
-              "nodeLabel": "Find someone to share your life with. The next person you say g'day to might be…",
+              "nodeLabel": "Find someone to share your life with. The next person you say g'day to might be\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.58 (foreground color: #000000, background color: #1a237e, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {

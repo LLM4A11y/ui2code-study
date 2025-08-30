@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 2,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -63,7 +72,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<span style=\"color: red;\">â</span>",
+            "html": "<span style=\"color: red;\">\u00e2\u0097\u008f</span>",
             "target": [
               "span:nth-child(2)"
             ],
@@ -105,7 +114,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<span style=\"color: red;\">â</span>",
+            "html": "<span style=\"color: red;\">\u00e2\u0097\u008f</span>",
             "target": [
               "span:nth-child(3)"
             ],
@@ -116,14 +125,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.49:1. Recommendation:  change text colour to #070000.",
-          "description": "<span style=\"color: red;\">â</span>",
+          "description": "<span style=\"color: red;\">\u00e2\u0097\u008f</span>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.49:1. Recommendation:  change text colour to #070000.",
-            "context": "<span style=\"color: red;\">â</span>",
+            "context": "<span style=\"color: red;\">\u00e2\u0097\u008f</span>",
             "selector": "html > body > div:nth-child(3) > div:nth-child(1) > div > span:nth-child(2)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -133,14 +142,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.49:1. Recommendation:  change text colour to #070000.",
-          "description": "<span style=\"color: red;\">â</span>",
+          "description": "<span style=\"color: red;\">\u00e2\u0097\u008f</span>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.49:1. Recommendation:  change text colour to #070000.",
-            "context": "<span style=\"color: red;\">â</span>",
+            "context": "<span style=\"color: red;\">\u00e2\u0097\u008f</span>",
             "selector": "html > body > div:nth-child(3) > div:nth-child(1) > div > span:nth-child(3)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -167,7 +176,7 @@
                 "height": 19
               },
               "snippet": "<span style=\"color: red;\">",
-              "nodeLabel": "â",
+              "nodeLabel": "\u00e2\u0097\u008f",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.49 (foreground color: #ff0000, background color: #f5efe4, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -188,7 +197,7 @@
                       "height": 1791
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "Cozy Cottage and Farmhouse Decor\nVintage & Antique Linens\nVintage Bride & Weddi…"
+                    "nodeLabel": "Cozy Cottage and Farmhouse Decor\nVintage & Antique Linens\nVintage Bride & Weddi\u2026"
                   }
                 }
               ]
@@ -216,7 +225,7 @@
                 "height": 19
               },
               "snippet": "<span style=\"color: red;\">",
-              "nodeLabel": "â",
+              "nodeLabel": "\u00e2\u0097\u008f",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.49 (foreground color: #ff0000, background color: #f5efe4, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -237,7 +246,7 @@
                       "height": 1791
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "Cozy Cottage and Farmhouse Decor\nVintage & Antique Linens\nVintage Bride & Weddi…"
+                    "nodeLabel": "Cozy Cottage and Farmhouse Decor\nVintage & Antique Linens\nVintage Bride & Weddi\u2026"
                   }
                 }
               ]
@@ -480,7 +489,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div>\n                <span style=\"color: blue;\">â</span>\n                <span style=\"color: red;\">â</span>\n                <span style=\"color: red;\">â</span>\n            </div>",
+            "html": "<div>\n                <span style=\"color: blue;\">\u00e2\u0097\u008f</span>\n                <span style=\"color: red;\">\u00e2\u0097\u008f</span>\n                <span style=\"color: red;\">\u00e2\u0097\u008f</span>\n            </div>",
             "target": [
               ".sidebar > div"
             ],

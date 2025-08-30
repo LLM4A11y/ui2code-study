@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -1780,7 +1772,7 @@
                       "height": 1032
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Home > Facts on India > General Knowledge > Years\nThe Indian Oil Corporation wa…"
+                    "nodeLabel": "Home > Facts on India > General Knowledge > Years\nThe Indian Oil Corporation wa\u2026"
                   }
                 }
               ]
@@ -1829,7 +1821,7 @@
                       "height": 1032
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Home > Facts on India > General Knowledge > Years\nThe Indian Oil Corporation wa…"
+                    "nodeLabel": "Home > Facts on India > General Knowledge > Years\nThe Indian Oil Corporation wa\u2026"
                   }
                 }
               ]
@@ -1878,7 +1870,7 @@
                       "height": 1032
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Home > Facts on India > General Knowledge > Years\nThe Indian Oil Corporation wa…"
+                    "nodeLabel": "Home > Facts on India > General Knowledge > Years\nThe Indian Oil Corporation wa\u2026"
                   }
                 }
               ]
@@ -1927,7 +1919,7 @@
                       "height": 1032
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Home > Facts on India > General Knowledge > Years\nThe Indian Oil Corporation wa…"
+                    "nodeLabel": "Home > Facts on India > General Knowledge > Years\nThe Indian Oil Corporation wa\u2026"
                   }
                 }
               ]
@@ -1976,7 +1968,7 @@
                       "height": 1032
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Home > Facts on India > General Knowledge > Years\nThe Indian Oil Corporation wa…"
+                    "nodeLabel": "Home > Facts on India > General Knowledge > Years\nThe Indian Oil Corporation wa\u2026"
                   }
                 }
               ]
@@ -2103,7 +2095,7 @@
                       "height": 1032
                     },
                     "snippet": "<div class=\"side-bar\">",
-                    "nodeLabel": "LATEST QUESTIONS\n\nLet us go for a walk, Question tag?\n\nWho conducted Panthi Bho…"
+                    "nodeLabel": "LATEST QUESTIONS\n\nLet us go for a walk, Question tag?\n\nWho conducted Panthi Bho\u2026"
                   }
                 }
               ]
@@ -2152,7 +2144,7 @@
                       "height": 1032
                     },
                     "snippet": "<div class=\"side-bar\">",
-                    "nodeLabel": "LATEST QUESTIONS\n\nLet us go for a walk, Question tag?\n\nWho conducted Panthi Bho…"
+                    "nodeLabel": "LATEST QUESTIONS\n\nLet us go for a walk, Question tag?\n\nWho conducted Panthi Bho\u2026"
                   }
                 }
               ]
@@ -2201,7 +2193,7 @@
                       "height": 1032
                     },
                     "snippet": "<div class=\"side-bar\">",
-                    "nodeLabel": "LATEST QUESTIONS\n\nLet us go for a walk, Question tag?\n\nWho conducted Panthi Bho…"
+                    "nodeLabel": "LATEST QUESTIONS\n\nLet us go for a walk, Question tag?\n\nWho conducted Panthi Bho\u2026"
                   }
                 }
               ]
@@ -2250,7 +2242,7 @@
                       "height": 1032
                     },
                     "snippet": "<div class=\"side-bar\">",
-                    "nodeLabel": "LATEST QUESTIONS\n\nLet us go for a walk, Question tag?\n\nWho conducted Panthi Bho…"
+                    "nodeLabel": "LATEST QUESTIONS\n\nLet us go for a walk, Question tag?\n\nWho conducted Panthi Bho\u2026"
                   }
                 }
               ]
@@ -2299,7 +2291,7 @@
                       "height": 1032
                     },
                     "snippet": "<div class=\"side-bar\">",
-                    "nodeLabel": "LATEST QUESTIONS\n\nLet us go for a walk, Question tag?\n\nWho conducted Panthi Bho…"
+                    "nodeLabel": "LATEST QUESTIONS\n\nLet us go for a walk, Question tag?\n\nWho conducted Panthi Bho\u2026"
                   }
                 }
               ]
@@ -2348,7 +2340,7 @@
                       "height": 1032
                     },
                     "snippet": "<div class=\"side-bar\">",
-                    "nodeLabel": "LATEST QUESTIONS\n\nLet us go for a walk, Question tag?\n\nWho conducted Panthi Bho…"
+                    "nodeLabel": "LATEST QUESTIONS\n\nLet us go for a walk, Question tag?\n\nWho conducted Panthi Bho\u2026"
                   }
                 }
               ]
@@ -2397,7 +2389,7 @@
                       "height": 1032
                     },
                     "snippet": "<div class=\"side-bar\">",
-                    "nodeLabel": "LATEST QUESTIONS\n\nLet us go for a walk, Question tag?\n\nWho conducted Panthi Bho…"
+                    "nodeLabel": "LATEST QUESTIONS\n\nLet us go for a walk, Question tag?\n\nWho conducted Panthi Bho\u2026"
                   }
                 }
               ]
@@ -2425,7 +2417,7 @@
                 "height": 176
               },
               "snippet": "<p>",
-              "nodeLabel": "Who, among the following, has the final right to sanction the expenditure of pu…",
+              "nodeLabel": "Who, among the following, has the final right to sanction the expenditure of pu\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.69 (foreground color: #ff0000, background color: #f8f6ee, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2446,7 +2438,7 @@
                       "height": 1032
                     },
                     "snippet": "<div class=\"side-bar\">",
-                    "nodeLabel": "LATEST QUESTIONS\n\nLet us go for a walk, Question tag?\n\nWho conducted Panthi Bho…"
+                    "nodeLabel": "LATEST QUESTIONS\n\nLet us go for a walk, Question tag?\n\nWho conducted Panthi Bho\u2026"
                   }
                 }
               ]

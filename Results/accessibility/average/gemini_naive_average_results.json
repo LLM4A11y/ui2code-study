@@ -1,4 +1,4 @@
-  {
+{
   "model": "gemini",
   "prompt_strategy": "naive",
   "dates": [
@@ -8,8 +8,8 @@
   ],
   "result_files_processed": 3,
   "dataset_files_processed": 159,
-  "total_automatic_nodes_failed": 818.67,
-  "average_automatic_nodes_failed_per_file": 15.44,
+  "total_automatic_nodes_failed": 917.0,
+  "average_automatic_nodes_failed_per_file": 17.3,
   "accessibility_issues": [
     [
       "Color Contrast; Text;",
@@ -30,6 +30,13 @@
       {
         "impact": "critical",
         "amount_nodes_failed": 105.33
+      }
+    ],
+    [
+      "Alt-Text; Images;",
+      {
+        "impact": "critical",
+        "amount_nodes_failed": 103.0
       }
     ],
     [
@@ -65,13 +72,6 @@
       {
         "impact": "minor",
         "amount_nodes_failed": 6.67
-      }
-    ],
-    [
-      "Alt-Text; Images;",
-      {
-        "impact": "critical",
-        "amount_nodes_failed": 4.67
       }
     ],
     [

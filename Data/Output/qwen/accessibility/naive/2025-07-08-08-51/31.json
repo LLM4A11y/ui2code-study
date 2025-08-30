@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -554,7 +546,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer>\n        About Us &amp; Contact Us\n        <br>\n        Copyright Â© 1998-2023 All rights reserved.\n    </footer>",
+                    "html": "<footer>\n        About Us &amp; Contact Us\n        <br>\n        Copyright \u00c2\u00a9 1998-2023 All rights reserved.\n    </footer>",
                     "target": [
                       "footer"
                     ]
@@ -567,7 +559,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<footer>\n        About Us &amp; Contact Us\n        <br>\n        Copyright Â© 1998-2023 All rights reserved.\n    </footer>",
+            "html": "<footer>\n        About Us &amp; Contact Us\n        <br>\n        Copyright \u00c2\u00a9 1998-2023 All rights reserved.\n    </footer>",
             "target": [
               "footer"
             ],
@@ -1010,7 +1002,7 @@
                       "height": 264
                     },
                     "snippet": "<div class=\"question\">",
-                    "nodeLabel": "Asked by Mr.eric from israel | Jun. 02, 2009 04:24\nAbout:How do you get from Gu…"
+                    "nodeLabel": "Asked by Mr.eric from israel | Jun. 02, 2009 04:24\nAbout:How do you get from Gu\u2026"
                   }
                 }
               ]
@@ -1059,7 +1051,7 @@
                       "height": 228
                     },
                     "snippet": "<div class=\"question\">",
-                    "nodeLabel": "Answered by Mr.Qi from China | Jun. 03, 2009 22:11\nHello!\n1. Suggest you take a…"
+                    "nodeLabel": "Answered by Mr.Qi from China | Jun. 03, 2009 22:11\nHello!\n1. Suggest you take a\u2026"
                   }
                 }
               ]
@@ -1108,7 +1100,7 @@
                       "height": 120
                     },
                     "snippet": "<div class=\"question\">",
-                    "nodeLabel": "Is Guangzhou Baiyun Airport far away from my hotel in Liwan District?\nAsked by …"
+                    "nodeLabel": "Is Guangzhou Baiyun Airport far away from my hotel in Liwan District?\nAsked by \u2026"
                   }
                 }
               ]
@@ -1157,7 +1149,7 @@
                       "height": 120
                     },
                     "snippet": "<div class=\"question\">",
-                    "nodeLabel": "how to go to changsha shuyuan international youth hostel from airport?anyon...\n…"
+                    "nodeLabel": "how to go to changsha shuyuan international youth hostel from airport?anyon...\n\u2026"
                   }
                 }
               ]
@@ -1206,7 +1198,7 @@
                       "height": 120
                     },
                     "snippet": "<div class=\"question\">",
-                    "nodeLabel": "Hi I will arrive in Pudong Airport at 10.15 p.m. We will stay at MINGTOWN ...\nA…"
+                    "nodeLabel": "Hi I will arrive in Pudong Airport at 10.15 p.m. We will stay at MINGTOWN ...\nA\u2026"
                   }
                 }
               ]
@@ -1234,7 +1226,7 @@
                 "height": 36
               },
               "snippet": "<div class=\"asked\">",
-              "nodeLabel": "The best transportation from Tianjin Airport to Peking Uni Airport Internationa…",
+              "nodeLabel": "The best transportation from Tianjin Airport to Peking Uni Airport Internationa\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.98 (foreground color: #ff6300, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1255,7 +1247,7 @@
                       "height": 120
                     },
                     "snippet": "<div class=\"question\">",
-                    "nodeLabel": "The best transportation from Tianjin Airport to Peking Uni Airport Internationa…"
+                    "nodeLabel": "The best transportation from Tianjin Airport to Peking Uni Airport Internationa\u2026"
                   }
                 }
               ]
@@ -1304,7 +1296,7 @@
                       "height": 120
                     },
                     "snippet": "<div class=\"question\">",
-                    "nodeLabel": "How to go to Guilin airport from Ming Palace International Youth Hostel?\nAsked …"
+                    "nodeLabel": "How to go to Guilin airport from Ming Palace International Youth Hostel?\nAsked \u2026"
                   }
                 }
               ]
@@ -1358,7 +1350,7 @@
                 "height": 56
               },
               "snippet": "<footer>",
-              "nodeLabel": "About Us & Contact Us\nCopyright Â© 1998-2023 All rights reserved.",
+              "nodeLabel": "About Us & Contact Us\nCopyright \u00c2\u00a9 1998-2023 All rights reserved.",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.98 (foreground color: #ffffff, background color: #ff6300, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }

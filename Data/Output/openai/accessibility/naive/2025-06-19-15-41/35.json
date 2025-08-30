@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -231,7 +223,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"footer-link\">\n            Mountain bike trail development organization ADSVMQ officially transfers mtn bike trail development activities to VÃ©lo QuÃ©bec\n        </div>",
+            "html": "<div class=\"footer-link\">\n            Mountain bike trail development organization ADSVMQ officially transfers mtn bike trail development activities to V\u00c3\u00a9lo Qu\u00c3\u00a9bec\n        </div>",
             "target": [
               ".footer-link"
             ],
@@ -365,7 +357,7 @@
                       "height": 562
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "The news is that the QuÃ©bec mountain bike trail development organization ADSVM…"
+                    "nodeLabel": "The news is that the Qu\u00c3\u00a9bec mountain bike trail development organization ADSVM\u2026"
                   }
                 }
               ]
@@ -414,7 +406,7 @@
                       "height": 562
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "The news is that the QuÃ©bec mountain bike trail development organization ADSVM…"
+                    "nodeLabel": "The news is that the Qu\u00c3\u00a9bec mountain bike trail development organization ADSVM\u2026"
                   }
                 }
               ]
@@ -463,7 +455,7 @@
                       "height": 562
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "The news is that the QuÃ©bec mountain bike trail development organization ADSVM…"
+                    "nodeLabel": "The news is that the Qu\u00c3\u00a9bec mountain bike trail development organization ADSVM\u2026"
                   }
                 }
               ]
@@ -517,7 +509,7 @@
                 "height": 14
               },
               "snippet": "<div class=\"footer-link\">",
-              "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi…",
+              "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2 (foreground color: #276073, background color: #272c36, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -629,7 +621,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>Don't get the impression that QuÃ©bec has no trails. <a href=\"#\">Click here</a> to go to the quebec mtn bike trail directory at Allezy.</p>",
+                    "html": "<p>Don't get the impression that Qu\u00c3\u00a9bec has no trails. <a href=\"#\">Click here</a> to go to the quebec mtn bike trail directory at Allezy.</p>",
                     "target": [
                       "p:nth-child(4)"
                     ]
@@ -643,7 +635,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>Don't get the impression that QuÃ©bec has no trails. <a href=\"#\">Click here</a> to go to the quebec mtn bike trail directory at Allezy.</p>",
+                    "html": "<p>Don't get the impression that Qu\u00c3\u00a9bec has no trails. <a href=\"#\">Click here</a> to go to the quebec mtn bike trail directory at Allezy.</p>",
                     "target": [
                       "p:nth-child(4)"
                     ]
@@ -735,7 +727,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>You can sign up to VÃ©lo QuÃ©bec's new mountain bike infoletter <a href=\"#\">here</a>. You can also join VÃ©lo QuÃ©bec because the more members they have, the greater is their ability to push for bike development on and off the roads of Quebec.</p>",
+                    "html": "<p>You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec's new mountain bike infoletter <a href=\"#\">here</a>. You can also join V\u00c3\u00a9lo Qu\u00c3\u00a9bec because the more members they have, the greater is their ability to push for bike development on and off the roads of Quebec.</p>",
                     "target": [
                       "p:nth-child(6)"
                     ]
@@ -749,7 +741,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>You can sign up to VÃ©lo QuÃ©bec's new mountain bike infoletter <a href=\"#\">here</a>. You can also join VÃ©lo QuÃ©bec because the more members they have, the greater is their ability to push for bike development on and off the roads of Quebec.</p>",
+                    "html": "<p>You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec's new mountain bike infoletter <a href=\"#\">here</a>. You can also join V\u00c3\u00a9lo Qu\u00c3\u00a9bec because the more members they have, the greater is their ability to push for bike development on and off the roads of Quebec.</p>",
                     "target": [
                       "p:nth-child(6)"
                     ]

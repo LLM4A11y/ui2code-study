@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -544,7 +536,7 @@
                       "height": 858
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Home > Singles > Gold Coast > Bonogin\nSingles Bonogin\n\nFinding singles in Bonog…"
+                    "nodeLabel": "Home > Singles > Gold Coast > Bonogin\nSingles Bonogin\n\nFinding singles in Bonog\u2026"
                   }
                 }
               ]
@@ -1145,7 +1137,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div style=\"background-color: #1b2d55; padding: 20px; color: #fff; text-align: center; font-size: 0.9em;\">\n        Â© Copyright notice - Site design and content copyright justsaygday.com\n    </div>",
+            "html": "<div style=\"background-color: #1b2d55; padding: 20px; color: #fff; text-align: center; font-size: 0.9em;\">\n        \u00c2\u00a9 Copyright notice - Site design and content copyright justsaygday.com\n    </div>",
             "target": [
               "div:nth-child(5)"
             ],

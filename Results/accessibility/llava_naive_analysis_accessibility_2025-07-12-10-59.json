@@ -2,8 +2,8 @@
   "summary": {
     "timestamp": "2025-07-12-10-59",
     "files_processed": 53,
-    "total_automatic_nodes_failed": 361,
-    "average_automatic_nodes_failed_per_file": 6.81
+    "total_automatic_nodes_failed": 365,
+    "average_automatic_nodes_failed_per_file": 6.89
   },
   "issues_automatic": [
     {
@@ -709,11 +709,11 @@
       "rank": 7,
       "name": "Alt-Text; Images;",
       "impact": "critical",
-      "amount_nodes_failed": 2,
+      "amount_nodes_failed": 6,
       "sources": {
         "Manual-Inspection": {
-          "amount": 0,
-          "amount_relative": 0,
+          "amount": 4,
+          "amount_relative": 4,
           "ids": []
         },
         "axe-core": {
@@ -787,13 +787,13 @@
   ],
   "distribution_sources_automatic": {
     "absolute": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 4,
       "axe-core": 333,
       "pa11y": 75,
       "lighthouse": 91
     },
     "relative": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 4,
       "axe-core": 329,
       "pa11y": 18,
       "lighthouse": 14

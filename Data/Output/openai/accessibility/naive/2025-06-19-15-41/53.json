@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -1780,7 +1772,7 @@
                       "height": 652
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Home Facts on India General Knowledge Years\nFacts on India General Knowledge Ye…"
+                    "nodeLabel": "Home Facts on India General Knowledge Years\nFacts on India General Knowledge Ye\u2026"
                   }
                 }
               ]
@@ -1829,7 +1821,7 @@
                       "height": 652
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Home Facts on India General Knowledge Years\nFacts on India General Knowledge Ye…"
+                    "nodeLabel": "Home Facts on India General Knowledge Years\nFacts on India General Knowledge Ye\u2026"
                   }
                 }
               ]
@@ -1878,7 +1870,7 @@
                       "height": 652
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Home Facts on India General Knowledge Years\nFacts on India General Knowledge Ye…"
+                    "nodeLabel": "Home Facts on India General Knowledge Years\nFacts on India General Knowledge Ye\u2026"
                   }
                 }
               ]
@@ -1927,7 +1919,7 @@
                       "height": 652
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Home Facts on India General Knowledge Years\nFacts on India General Knowledge Ye…"
+                    "nodeLabel": "Home Facts on India General Knowledge Years\nFacts on India General Knowledge Ye\u2026"
                   }
                 }
               ]
@@ -2080,7 +2072,7 @@
                       "height": 573
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "LATEST QUESTIONS\nLet us go for a walk, Question tag?\nWho conducted Panthi Bhoja…"
+                    "nodeLabel": "LATEST QUESTIONS\nLet us go for a walk, Question tag?\nWho conducted Panthi Bhoja\u2026"
                   }
                 }
               ]
@@ -2129,7 +2121,7 @@
                       "height": 573
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "LATEST QUESTIONS\nLet us go for a walk, Question tag?\nWho conducted Panthi Bhoja…"
+                    "nodeLabel": "LATEST QUESTIONS\nLet us go for a walk, Question tag?\nWho conducted Panthi Bhoja\u2026"
                   }
                 }
               ]
@@ -2178,7 +2170,7 @@
                       "height": 573
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "LATEST QUESTIONS\nLet us go for a walk, Question tag?\nWho conducted Panthi Bhoja…"
+                    "nodeLabel": "LATEST QUESTIONS\nLet us go for a walk, Question tag?\nWho conducted Panthi Bhoja\u2026"
                   }
                 }
               ]
@@ -2227,7 +2219,7 @@
                       "height": 573
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "LATEST QUESTIONS\nLet us go for a walk, Question tag?\nWho conducted Panthi Bhoja…"
+                    "nodeLabel": "LATEST QUESTIONS\nLet us go for a walk, Question tag?\nWho conducted Panthi Bhoja\u2026"
                   }
                 }
               ]
@@ -2276,7 +2268,7 @@
                       "height": 573
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "LATEST QUESTIONS\nLet us go for a walk, Question tag?\nWho conducted Panthi Bhoja…"
+                    "nodeLabel": "LATEST QUESTIONS\nLet us go for a walk, Question tag?\nWho conducted Panthi Bhoja\u2026"
                   }
                 }
               ]
@@ -2325,7 +2317,7 @@
                       "height": 573
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "LATEST QUESTIONS\nLet us go for a walk, Question tag?\nWho conducted Panthi Bhoja…"
+                    "nodeLabel": "LATEST QUESTIONS\nLet us go for a walk, Question tag?\nWho conducted Panthi Bhoja\u2026"
                   }
                 }
               ]
@@ -2374,7 +2366,7 @@
                       "height": 573
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "LATEST QUESTIONS\nLet us go for a walk, Question tag?\nWho conducted Panthi Bhoja…"
+                    "nodeLabel": "LATEST QUESTIONS\nLet us go for a walk, Question tag?\nWho conducted Panthi Bhoja\u2026"
                   }
                 }
               ]
@@ -2423,7 +2415,7 @@
                       "height": 573
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "LATEST QUESTIONS\nLet us go for a walk, Question tag?\nWho conducted Panthi Bhoja…"
+                    "nodeLabel": "LATEST QUESTIONS\nLet us go for a walk, Question tag?\nWho conducted Panthi Bhoja\u2026"
                   }
                 }
               ]
@@ -2472,7 +2464,7 @@
                       "height": 573
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "LATEST QUESTIONS\nLet us go for a walk, Question tag?\nWho conducted Panthi Bhoja…"
+                    "nodeLabel": "LATEST QUESTIONS\nLet us go for a walk, Question tag?\nWho conducted Panthi Bhoja\u2026"
                   }
                 }
               ]
@@ -2500,7 +2492,7 @@
                 "height": 74
               },
               "snippet": "<li>",
-              "nodeLabel": "Who, among the following, has the final right to sanction the expenditure of pu…",
+              "nodeLabel": "Who, among the following, has the final right to sanction the expenditure of pu\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #d42d1d, background color: #f4f0e9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2521,7 +2513,7 @@
                       "height": 573
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "LATEST QUESTIONS\nLet us go for a walk, Question tag?\nWho conducted Panthi Bhoja…"
+                    "nodeLabel": "LATEST QUESTIONS\nLet us go for a walk, Question tag?\nWho conducted Panthi Bhoja\u2026"
                   }
                 }
               ]
@@ -2708,7 +2700,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n    Created with by YeeLearners.com â YeeLearners\n</div>",
+            "html": "<div class=\"footer\">\n    Created with by YeeLearners.com \u00e2\u0080\u0093 YeeLearners\n</div>",
             "target": [
               ".footer"
             ],

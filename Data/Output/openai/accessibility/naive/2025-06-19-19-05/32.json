@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -973,7 +965,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<li><img src=\"src/placeholder.jpg\" alt=\"icon\"><a href=\"#\">Rotoworld.com Podcast</a> â Headache-Inducing Players</li>",
+                    "html": "<li><img src=\"src/placeholder.jpg\" alt=\"icon\"><a href=\"#\">Rotoworld.com Podcast</a> \u00e2\u0080\u0093 Headache-Inducing Players</li>",
                     "target": [
                       "li:nth-child(10)"
                     ]
@@ -987,7 +979,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<li><img src=\"src/placeholder.jpg\" alt=\"icon\"><a href=\"#\">Rotoworld.com Podcast</a> â Headache-Inducing Players</li>",
+                    "html": "<li><img src=\"src/placeholder.jpg\" alt=\"icon\"><a href=\"#\">Rotoworld.com Podcast</a> \u00e2\u0080\u0093 Headache-Inducing Players</li>",
                     "target": [
                       "li:nth-child(10)"
                     ]
@@ -1102,7 +1094,7 @@
                       "height": 51
                     },
                     "snippet": "<li>",
-                    "nodeLabel": "DraftKings.com identifies the injuries, matchups, situations, and fades for Wed…"
+                    "nodeLabel": "DraftKings.com identifies the injuries, matchups, situations, and fades for Wed\u2026"
                   }
                 }
               ]
@@ -1151,7 +1143,7 @@
                       "height": 77
                     },
                     "snippet": "<li>",
-                    "nodeLabel": "Rotoworld.com explores the impressive play of Collin Sexton, Damyean Dotson, an…"
+                    "nodeLabel": "Rotoworld.com explores the impressive play of Collin Sexton, Damyean Dotson, an\u2026"
                   }
                 }
               ]
@@ -1200,7 +1192,7 @@
                       "height": 77
                     },
                     "snippet": "<li>",
-                    "nodeLabel": "Razzball.com looks at some of the best buy and sell candidates in fantasy hoops…"
+                    "nodeLabel": "Razzball.com looks at some of the best buy and sell candidates in fantasy hoops\u2026"
                   }
                 }
               ]
@@ -1249,7 +1241,7 @@
                       "height": 77
                     },
                     "snippet": "<li>",
-                    "nodeLabel": "DraftKings.com has studied the Wednesday schedule to help you identify the play…"
+                    "nodeLabel": "DraftKings.com has studied the Wednesday schedule to help you identify the play\u2026"
                   }
                 }
               ]
@@ -1298,7 +1290,7 @@
                       "height": 128
                     },
                     "snippet": "<li>",
-                    "nodeLabel": "With Giannis Antetokounmpo, LeBron James and Joel Embiid all sidelined, D'Angel…"
+                    "nodeLabel": "With Giannis Antetokounmpo, LeBron James and Joel Embiid all sidelined, D'Angel\u2026"
                   }
                 }
               ]
@@ -1347,7 +1339,7 @@
                       "height": 77
                     },
                     "snippet": "<li>",
-                    "nodeLabel": "Razzball.com offers their take on everything that happened in the NBA on Tuesda…"
+                    "nodeLabel": "Razzball.com offers their take on everything that happened in the NBA on Tuesda\u2026"
                   }
                 }
               ]
@@ -1396,7 +1388,7 @@
                       "height": 77
                     },
                     "snippet": "<li>",
-                    "nodeLabel": "DraftKings.com sifts through the bargain bin and provides their top value optio…"
+                    "nodeLabel": "DraftKings.com sifts through the bargain bin and provides their top value optio\u2026"
                   }
                 }
               ]
@@ -1445,7 +1437,7 @@
                       "height": 77
                     },
                     "snippet": "<li>",
-                    "nodeLabel": "DailyFantasySportsRankings.com names the best players at every position for you…"
+                    "nodeLabel": "DailyFantasySportsRankings.com names the best players at every position for you\u2026"
                   }
                 }
               ]
@@ -1494,7 +1486,7 @@
                       "height": 102
                     },
                     "snippet": "<li>",
-                    "nodeLabel": "Brook Lopez continues to shine in Milwaukee. ESPN.com takes a look back at othe…"
+                    "nodeLabel": "Brook Lopez continues to shine in Milwaukee. ESPN.com takes a look back at othe\u2026"
                   }
                 }
               ]
@@ -1543,7 +1535,7 @@
                       "height": 51
                     },
                     "snippet": "<li>",
-                    "nodeLabel": "Rotoworld.com Podcast â Headache-Inducing Players"
+                    "nodeLabel": "Rotoworld.com Podcast \u00e2\u0080\u0093 Headache-Inducing Players"
                   }
                 }
               ]
@@ -1592,7 +1584,7 @@
                       "height": 166
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Copyright 2023. All rights reserved. Privacy Policy - Terms & Conditions\n\nIf yo…"
+                    "nodeLabel": "Copyright 2023. All rights reserved. Privacy Policy - Terms & Conditions\n\nIf yo\u2026"
                   }
                 }
               ]

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -1009,7 +1001,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"header\">\n        â Citrus fruits price inflation since 2022\n    </div>",
+            "html": "<div class=\"header\">\n        \u00e2\u0098\u0085 Citrus fruits price inflation since 2022\n    </div>",
             "target": [
               ".header"
             ],
@@ -1037,7 +1029,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"main-title\">\n        Citrus fruits priced at $20 in 2022 â $19.66 in 2023\n    </div>",
+            "html": "<div class=\"main-title\">\n        Citrus fruits priced at $20 in 2022 \u00e2\u0086\u0092 $19.66 in 2023\n    </div>",
             "target": [
               ".main-title"
             ],
@@ -1317,7 +1309,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        Â© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> Â· <a href=\"#\">Privacy policy</a>\n    </div>",
+            "html": "<div class=\"footer\">\n        \u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> \u00c2\u00b7 <a href=\"#\">Privacy policy</a>\n    </div>",
             "target": [
               ".footer"
             ],
@@ -1356,7 +1348,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        Â© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> Â· <a href=\"#\">Privacy policy</a>\n    </div>",
+                    "html": "<div class=\"footer\">\n        \u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> \u00c2\u00b7 <a href=\"#\">Privacy policy</a>\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -1370,7 +1362,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        Â© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> Â· <a href=\"#\">Privacy policy</a>\n    </div>",
+                    "html": "<div class=\"footer\">\n        \u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> \u00c2\u00b7 <a href=\"#\">Privacy policy</a>\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -1409,7 +1401,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        Â© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> Â· <a href=\"#\">Privacy policy</a>\n    </div>",
+                    "html": "<div class=\"footer\">\n        \u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> \u00c2\u00b7 <a href=\"#\">Privacy policy</a>\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -1423,7 +1415,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        Â© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> Â· <a href=\"#\">Privacy policy</a>\n    </div>",
+                    "html": "<div class=\"footer\">\n        \u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> \u00c2\u00b7 <a href=\"#\">Privacy policy</a>\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -1485,7 +1477,7 @@
                       "height": 34
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Â© Official Data Foundation / Alioth LLC. Contact Â· Privacy policy"
+                    "nodeLabel": "\u00c2\u00a9 Official Data Foundation / Alioth LLC. Contact \u00c2\u00b7 Privacy policy"
                   }
                 }
               ]
@@ -1534,7 +1526,7 @@
                       "height": 34
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Â© Official Data Foundation / Alioth LLC. Contact Â· Privacy policy"
+                    "nodeLabel": "\u00c2\u00a9 Official Data Foundation / Alioth LLC. Contact \u00c2\u00b7 Privacy policy"
                   }
                 }
               ]

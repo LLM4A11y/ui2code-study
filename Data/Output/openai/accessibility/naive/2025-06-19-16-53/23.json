@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -50,7 +42,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<header>\n        <h1>Alexito's World</h1>\n        <p>A world of coding <span>ð»</span>, by Alejandro Martinez</p>\n        <nav>\n            <a href=\"#\">|</a>\n            <a href=\"#\">Swift</a>\n            <a href=\"#\">Development</a>\n        </nav>\n    </header>",
+                    "html": "<header>\n        <h1>Alexito's World</h1>\n        <p>A world of coding <span>\u00f0\u009f\u0092\u00bb</span>, by Alejandro Martinez</p>\n        <nav>\n            <a href=\"#\">|</a>\n            <a href=\"#\">Swift</a>\n            <a href=\"#\">Development</a>\n        </nav>\n    </header>",
                     "target": [
                       "header"
                     ]
@@ -63,7 +55,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>A world of coding <span>ð»</span>, by Alejandro Martinez</p>",
+            "html": "<p>A world of coding <span>\u00f0\u009f\u0092\u00bb</span>, by Alejandro Martinez</p>",
             "target": [
               "header > p"
             ],
@@ -92,7 +84,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<header>\n        <h1>Alexito's World</h1>\n        <p>A world of coding <span>ð»</span>, by Alejandro Martinez</p>\n        <nav>\n            <a href=\"#\">|</a>\n            <a href=\"#\">Swift</a>\n            <a href=\"#\">Development</a>\n        </nav>\n    </header>",
+                    "html": "<header>\n        <h1>Alexito's World</h1>\n        <p>A world of coding <span>\u00f0\u009f\u0092\u00bb</span>, by Alejandro Martinez</p>\n        <nav>\n            <a href=\"#\">|</a>\n            <a href=\"#\">Swift</a>\n            <a href=\"#\">Development</a>\n        </nav>\n    </header>",
                     "target": [
                       "header"
                     ]
@@ -105,7 +97,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<span>ð»</span>",
+            "html": "<span>\u00f0\u009f\u0092\u00bb</span>",
             "target": [
               "header > p > span"
             ],
@@ -200,14 +192,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.22:1. Recommendation:  change background to #0d0d0d.",
-          "description": "<p>A world of coding <span>ð»</s...</p>",
+          "description": "<p>A world of coding <span>\u00f0\u009f\u0092\u00bb</s...</p>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.22:1. Recommendation:  change background to #0d0d0d.",
-            "context": "<p>A world of coding <span>ð»</s...</p>",
+            "context": "<p>A world of coding <span>\u00f0\u009f\u0092\u00bb</s...</p>",
             "selector": "html > body > header > p",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -217,14 +209,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.22:1. Recommendation:  change background to #0d0d0d.",
-          "description": "<span>ð»</span>",
+          "description": "<span>\u00f0\u009f\u0092\u00bb</span>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.22:1. Recommendation:  change background to #0d0d0d.",
-            "context": "<span>ð»</span>",
+            "context": "<span>\u00f0\u009f\u0092\u00bb</span>",
             "selector": "html > body > header > p > span",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -285,7 +277,7 @@
                 "height": 22
               },
               "snippet": "<p>",
-              "nodeLabel": "A world of coding ð», by Alejandro Martinez",
+              "nodeLabel": "A world of coding \u00f0\u009f\u0092\u00bb, by Alejandro Martinez",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #7a7a7a, background color: #161616, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -306,7 +298,7 @@
                       "height": 213
                     },
                     "snippet": "<header>",
-                    "nodeLabel": "Alexito's World\n\nA world of coding ð», by Alejandro Martinez\n\n|\nSwift\nDevelop…"
+                    "nodeLabel": "Alexito's World\n\nA world of coding \u00f0\u009f\u0092\u00bb, by Alejandro Martinez\n\n|\nSwift\nDevelop\u2026"
                   }
                 }
               ]
@@ -334,7 +326,7 @@
                 "height": 17
               },
               "snippet": "<span>",
-              "nodeLabel": "ð»",
+              "nodeLabel": "\u00f0\u009f\u0092\u00bb",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #7a7a7a, background color: #161616, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -355,7 +347,7 @@
                       "height": 213
                     },
                     "snippet": "<header>",
-                    "nodeLabel": "Alexito's World\n\nA world of coding ð», by Alejandro Martinez\n\n|\nSwift\nDevelop…"
+                    "nodeLabel": "Alexito's World\n\nA world of coding \u00f0\u009f\u0092\u00bb, by Alejandro Martinez\n\n|\nSwift\nDevelop\u2026"
                   }
                 }
               ]

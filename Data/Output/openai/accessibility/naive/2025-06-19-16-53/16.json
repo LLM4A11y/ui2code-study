@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -105,7 +97,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>Copyright Â© 2023 The Pink Rose Cottage . All Rights Reserved.</p>",
+            "html": "<p>Copyright \u00c2\u00a9 2023 The Pink Rose Cottage . All Rights Reserved.</p>",
             "target": [
               ".footer > p:nth-child(3)"
             ],
@@ -133,14 +125,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.13:1. Recommendation:  change text colour to #040300.",
-          "description": "<p>Copyright Â© 2023 The Pink Rose...</p>",
+          "description": "<p>Copyright \u00c2\u00a9 2023 The Pink Rose...</p>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.13:1. Recommendation:  change text colour to #040300.",
-            "context": "<p>Copyright Â© 2023 The Pink Rose...</p>",
+            "context": "<p>Copyright \u00c2\u00a9 2023 The Pink Rose...</p>",
             "selector": "html > body > div > div:nth-child(2) > p:nth-child(3)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -188,7 +180,7 @@
                       "height": 187
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Search | Contact | About Us | Cleaning Silver\n\n      \n\nCopyright Â© 2023 The Pi…"
+                    "nodeLabel": "Search | Contact | About Us | Cleaning Silver\n\n      \n\nCopyright \u00c2\u00a9 2023 The Pi\u2026"
                   }
                 }
               ]
@@ -216,7 +208,7 @@
                 "height": 16
               },
               "snippet": "<p>",
-              "nodeLabel": "Copyright Â© 2023 The Pink Rose Cottage . All Rights Reserved.",
+              "nodeLabel": "Copyright \u00c2\u00a9 2023 The Pink Rose Cottage . All Rights Reserved.",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.13 (foreground color: #a29e8d, background color: #d7e8ec, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -237,7 +229,7 @@
                       "height": 187
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Search | Contact | About Us | Cleaning Silver\n\n      \n\nCopyright Â© 2023 The Pi…"
+                    "nodeLabel": "Search | Contact | About Us | Cleaning Silver\n\n      \n\nCopyright \u00c2\u00a9 2023 The Pi\u2026"
                   }
                 }
               ]

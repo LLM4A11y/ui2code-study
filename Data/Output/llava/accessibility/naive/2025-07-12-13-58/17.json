@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -358,7 +350,7 @@
                       "height": 684
                     },
                     "snippet": "<div class=\"card\">",
-                    "nodeLabel": "Temperature in Quebec\n9Â°C\n\nCurrent: 8Â°C\n\nHigh: 10Â°C\n\nLow: 6Â°C\n\nWind: 5 km/h…"
+                    "nodeLabel": "Temperature in Quebec\n9\u00c2\u00b0C\n\nCurrent: 8\u00c2\u00b0C\n\nHigh: 10\u00c2\u00b0C\n\nLow: 6\u00c2\u00b0C\n\nWind: 5 km/h\u2026"
                   }
                 }
               ]
@@ -425,7 +417,7 @@
                       "height": 684
                     },
                     "snippet": "<div class=\"card\">",
-                    "nodeLabel": "Temperature in Quebec\n9Â°C\n\nCurrent: 8Â°C\n\nHigh: 10Â°C\n\nLow: 6Â°C\n\nWind: 5 km/h…"
+                    "nodeLabel": "Temperature in Quebec\n9\u00c2\u00b0C\n\nCurrent: 8\u00c2\u00b0C\n\nHigh: 10\u00c2\u00b0C\n\nLow: 6\u00c2\u00b0C\n\nWind: 5 km/h\u2026"
                   }
                 }
               ]
@@ -492,7 +484,7 @@
                       "height": 684
                     },
                     "snippet": "<div class=\"card\">",
-                    "nodeLabel": "Temperature in Quebec\n9Â°C\n\nCurrent: 8Â°C\n\nHigh: 10Â°C\n\nLow: 6Â°C\n\nWind: 5 km/h…"
+                    "nodeLabel": "Temperature in Quebec\n9\u00c2\u00b0C\n\nCurrent: 8\u00c2\u00b0C\n\nHigh: 10\u00c2\u00b0C\n\nLow: 6\u00c2\u00b0C\n\nWind: 5 km/h\u2026"
                   }
                 }
               ]
@@ -541,7 +533,7 @@
                       "height": 684
                     },
                     "snippet": "<div class=\"card\">",
-                    "nodeLabel": "Temperature in Ontario\n10Â°C\n\nCurrent: 9Â°C\n\nHigh: 12Â°C\n\nLow: 8Â°C\n\nWind: 10 k…"
+                    "nodeLabel": "Temperature in Ontario\n10\u00c2\u00b0C\n\nCurrent: 9\u00c2\u00b0C\n\nHigh: 12\u00c2\u00b0C\n\nLow: 8\u00c2\u00b0C\n\nWind: 10 k\u2026"
                   }
                 }
               ]
@@ -608,7 +600,7 @@
                       "height": 684
                     },
                     "snippet": "<div class=\"card\">",
-                    "nodeLabel": "Temperature in Ontario\n10Â°C\n\nCurrent: 9Â°C\n\nHigh: 12Â°C\n\nLow: 8Â°C\n\nWind: 10 k…"
+                    "nodeLabel": "Temperature in Ontario\n10\u00c2\u00b0C\n\nCurrent: 9\u00c2\u00b0C\n\nHigh: 12\u00c2\u00b0C\n\nLow: 8\u00c2\u00b0C\n\nWind: 10 k\u2026"
                   }
                 }
               ]
@@ -675,7 +667,7 @@
                       "height": 684
                     },
                     "snippet": "<div class=\"card\">",
-                    "nodeLabel": "Temperature in Ontario\n10Â°C\n\nCurrent: 9Â°C\n\nHigh: 12Â°C\n\nLow: 8Â°C\n\nWind: 10 k…"
+                    "nodeLabel": "Temperature in Ontario\n10\u00c2\u00b0C\n\nCurrent: 9\u00c2\u00b0C\n\nHigh: 12\u00c2\u00b0C\n\nLow: 8\u00c2\u00b0C\n\nWind: 10 k\u2026"
                   }
                 }
               ]

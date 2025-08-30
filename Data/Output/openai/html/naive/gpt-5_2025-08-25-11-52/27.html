@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Shopping Cart - Mockup</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  :root{
+    --dark:#2f2f2f;
+    --text:#3e3e3e;
+    --muted:#8c8c8c;
+    --border:#e3e3e3;
+    --light:#f7f7f7;
+    --cta:#19bcd0;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:var(--text);
+    background:#fff;
+  }
+
+  /* Header */
+  .header{
+    background:var(--dark);
+    color:#eaeaea;
+    padding-bottom:18px;
+    position:relative;
+  }
+  .topbar{
+    max-width:980px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 0 6px;
+    font-size:11px;
+    letter-spacing:.4px;
+  }
+  .topbar a{ color:#d0d0d0; text-decoration:none; }
+  .topbar a:hover{ text-decoration:underline; }
+  .right-tools{
+    display:flex; align-items:center; gap:14px;
+  }
+  .search{
+    position:relative;
+  }
+  .search input{
+    background:transparent;
+    border:1px solid #707070;
+    border-radius:16px;
+    height:22px;
+    width:150px;
+    padding:0 26px 0 10px;
+    color:#fff;
+    font-size:11px;
+    outline:none;
+  }
+  .search .icon{
+    position:absolute;
+    right:7px; top:3px;
+    color:#cfcfcf; font-size:13px;
+  }
+
+  .brand-row{
+    max-width:980px;
+    margin:6px auto 0;
+    display:flex;
+    align-items:flex-start;
+    gap:30px;
+    padding:14px 0 8px;
+  }
+  .brand-row img{
+    width:220px; height:220px; object-fit:cover; background:#1434ff; display:block;
+    box-shadow:0 0 0 4px #1434ff; /* visually blue block */
+  }
+  .phone-copy{
+    color:#fff;
+    margin-top:26px;
+    font-size:16px;
+    line-height:1.4;
+    max-width:260px;
+  }
+  .hamburger{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    bottom:-12px;
+    background:transparent;
+    color:#fff;
+    font-size:28px;
+    line-height:1;
+  }
+
+  /* Main */
+  .main{
+    max-width:980px;
+    margin:46px auto 40px;
+    padding:0 16px;
+  }
+  .page-title{
+    text-align:center;
+    font-size:12px;
+    color:#6f6f6f;
+    font-weight:bold;
+    margin:8px 0 22px;
+  }
+  .actions-top{
+    display:flex;
+    justify-content:flex-start;
+    margin-bottom:18px;
+  }
+  .btn{
+    display:inline-block;
+    background:var(--cta);
+    color:#fff;
+    text-transform:uppercase;
+    letter-spacing:.6px;
+    font-size:12px;
+    padding:11px 22px;
+    border-radius:3px;
+    text-decoration:none;
+    border:none;
+    cursor:pointer;
+    box-shadow:0 1px 0 rgba(0,0,0,.15);
+  }
+  .btn.gray{
+    background:#bfbfbf;
+    color:#333;
+    text-transform:none;
+  }
+  .cart-box{
+    border:1px solid var(--border);
+    margin:0 0 14px;
+  }
+  .cart-head{
+    background:#f3f3f3;
+    border-bottom:1px solid var(--border);
+    padding:10px 12px;
+    color:#696969;
+    font-size:13px;
+  }
+  .cart-empty{
+    padding:36px 0;
+    text-align:center;
+    color:#888;
+    text-transform:uppercase;
+    font-size:12px;
+    letter-spacing:.4px;
+  }
+
+  .total-row{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    gap:26px;
+    margin:8px 4px 22px;
+    font-size:14px;
+    font-weight:bold;
+  }
+  .total-row .amount{
+    font-size:18px;
+  }
+
+  .bottom-actions{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:22px 0 24px;
+  }
+  .link{
+    margin-left:12px;
+    color:#19bcd0;
+    font-size:12px;
+    text-decoration:none;
+  }
+  .link:hover{text-decoration:underline}
+
+  /* Info / checkbox */
+  .options{
+    max-width:980px;
+    margin:0 auto;
+    padding:0 16px 30px;
+    color:#777;
+    font-size:11px;
+    line-height:1.6;
+  }
+  .opt-inline{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin:6px 0 10px;
+    color:#1b1b1b;
+  }
+  .opt-inline input{ transform:translateY(1px); }
+
+  .footer-space{
+    height:60px;
+    background:#2f2f2f;
+    margin-top:26px;
+  }
+
+  /* Minor responsiveness */
+  @media (max-width:760px){
+    .brand-row{ flex-direction:column; align-items:center; text-align:center; }
+    .phone-copy{ max-width:none; }
+    .bottom-actions{ flex-direction:column; gap:16px; align-items:flex-start; }
+    .total-row{ justify-content:space-between; }
+  }
+</style>
+</head>
+<body>
+  <header class="header">
+    <div class="topbar">
+      <div class="left-links">
+        <a href="#">CLICK HERE TO SIGN IN</a>
+        <span style="opacity:.7;">&nbsp;&nbsp;OR&nbsp;&nbsp;</span>
+        <a href="#">CLICK HERE TO REGISTER</a>
+      </div>
+      <div class="right-tools">
+        <span>VIEW CART</span>
+        <div class="search">
+          <input type="text" placeholder="SEARCH">
+          <span class="icon">ð</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="brand-row">
+      <img src="src/placeholder.jpg" alt="">
+      <div class="phone-copy">
+        <div>Talk to a real person!</div>
+        <div style="font-weight:bold; margin-top:4px;">[PHONE REDACTED]</div>
+      </div>
+    </div>
+    <div class="hamburger">â¡</div>
+  </header>
+
+  <main class="main">
+    <div class="page-title">Your Shopping Cart</div>
+
+    <div class="actions-top">
+      <a class="btn" href="#">Continue Shopping</a>
+    </div>
+
+    <div class="cart-box">
+      <div class="cart-head">Your Shopping Cart</div>
+      <div class="cart-empty">YOUR SHOPPING CART IS EMPTY.</div>
+    </div>
+
+    <div class="total-row">
+      <div>TOTAL</div>
+      <div class="amount">$0.00</div>
+    </div>
+
+    <div class="bottom-actions">
+      <div>
+        <button class="btn gray">Recalculate</button>
+        <a href="#" class="link">Empty Cart</a>
+      </div>
+      <a class="btn" style="min-width:220px; text-align:center;" href="#">Checkout</a>
+    </div>
+  </main>
+
+  <section class="options">
+    <label class="opt-inline">
+      <input type="checkbox" checked>
+      <span>Show me my shopping cart every time I order something.</span>
+    </label>
+
+    <p>
+      This site does not do live transactions. If you provide a credit card number it will not be billed immediately. Due to the custom nature of these products, you will be contacted by a sales person at Century 2001 to coordinate getting any custom artwork or other special handling instructions you require. There is a note area when you check out to provide any special instructions you may have regarding your order. Once the sales person has all the information they need and have verified the charges on this order, you will have the order acknowledgement mailed, emailed or faxed to your attention. If at that time you are satisfied with the order it will then be processed using the payment of your choice. If you would like to use your own custom logo for imprinting on any of our products contact us for instructions on the best way of getting your logo to us. For information on acceptable digital artwork, see our artwork information page. *** Tax will only be applicable on goods delivered to Florida.
+    </p>
+  </section>
+
+  <div class="footer-space"></div>
+</body>
+</html>
