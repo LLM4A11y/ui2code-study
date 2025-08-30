@@ -11,18 +11,18 @@ such as screenshots, their role in accelerating web development is growing. Whil
 
 
 ## Repository Structure
-.
-├─ Data/
-  ├─- Data/Analysis   # Tools for Analysis of MLLM-generated code <br>
-  ├─- Data/Input      # Benchmark dataset <br>
-  ├─- Data/Output     # Output of MLLMs, including accessibility violations, HTML/CSS, screenshots <br>
-├─ Data_leakage_test/ # Data Leakage Dataset (Synthetic and Fresh), including results <br>
-├─ LLMs/              # Strategies for MLLM communication<br>
-├─ Results/           # Overall results (accessibility and benchmark) <br>
-├─ Utils/             # Utility functions <br>
-├─ pipeline.py        # Main pipeline for data processing and model evaluation <br>
-├─ requirements.txt   <br>
-└─ README.md          <br>
+| Path                | Description                                      |
+|---------------------|--------------------------------------------------|
+| `Data/Analysis/`    | Tools for analysis of MLLM-generated code         |
+| `Data/Input/`       | Benchmark dataset                                |
+| `Data/Output/`      | Outputs of MLLMs (HTML/CSS, screenshots, reports)|
+| `Data_leakage_test/`| Synthetic + Fresh datasets (data leakage study)  |
+| `LLMs/`             | Model client strategies                          |
+| `Results/`          | Aggregated results (accessibility & benchmarks)  |
+| `Utils/`            | Utility functions                                |
+| `pipeline.py`       | Main pipeline for processing & evaluation        |
+| `requirements.txt`  | Python dependencies                              |
+| `README.md`         | Project documentation                            |
 
 
 ## Quickstart
