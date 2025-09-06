@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -365,7 +357,7 @@
                       "height": 954
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi…"
+                    "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi\u2026"
                   }
                 }
               ]
@@ -414,7 +406,7 @@
                       "height": 954
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi…"
+                    "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi\u2026"
                   }
                 }
               ]
@@ -463,7 +455,7 @@
                       "height": 954
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi…"
+                    "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi\u2026"
                   }
                 }
               ]
@@ -512,7 +504,7 @@
                       "height": 954
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi…"
+                    "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi\u2026"
                   }
                 }
               ]
@@ -561,7 +553,7 @@
                       "height": 954
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi…"
+                    "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi\u2026"
                   }
                 }
               ]
@@ -600,7 +592,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>Donât get the impression that QuÃ©bec has no trails. <a href=\"#\">Click here</a> to go to the quebec mtn bike trail directory at Allezy.</p>",
+                    "html": "<p>Don\u00e2\u0080\u0099t get the impression that Qu\u00c3\u00a9bec has no trails. <a href=\"#\">Click here</a> to go to the quebec mtn bike trail directory at Allezy.</p>",
                     "target": [
                       ".post > p:nth-child(4)"
                     ]
@@ -614,7 +606,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>Donât get the impression that QuÃ©bec has no trails. <a href=\"#\">Click here</a> to go to the quebec mtn bike trail directory at Allezy.</p>",
+                    "html": "<p>Don\u00e2\u0080\u0099t get the impression that Qu\u00c3\u00a9bec has no trails. <a href=\"#\">Click here</a> to go to the quebec mtn bike trail directory at Allezy.</p>",
                     "target": [
                       ".post > p:nth-child(4)"
                     ]
@@ -706,7 +698,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>You can sign up to VÃ©lo QuÃ©becâs new mountain bike infoletter <a href=\"#\">here</a>. You can also join VÃ©lo QuÃ©bec because the more members they have, the greater is their ability to push for bike development on and off the roads of Quebec.</p>",
+                    "html": "<p>You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec\u00e2\u0080\u0099s new mountain bike infoletter <a href=\"#\">here</a>. You can also join V\u00c3\u00a9lo Qu\u00c3\u00a9bec because the more members they have, the greater is their ability to push for bike development on and off the roads of Quebec.</p>",
                     "target": [
                       "p:nth-child(6)"
                     ]
@@ -720,7 +712,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>You can sign up to VÃ©lo QuÃ©becâs new mountain bike infoletter <a href=\"#\">here</a>. You can also join VÃ©lo QuÃ©bec because the more members they have, the greater is their ability to push for bike development on and off the roads of Quebec.</p>",
+                    "html": "<p>You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec\u00e2\u0080\u0099s new mountain bike infoletter <a href=\"#\">here</a>. You can also join V\u00c3\u00a9lo Qu\u00c3\u00a9bec because the more members they have, the greater is their ability to push for bike development on and off the roads of Quebec.</p>",
                     "target": [
                       "p:nth-child(6)"
                     ]
@@ -782,7 +774,7 @@
                       "height": 67
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Donât get the impression that QuÃ©bec has no trails. Click here to go to the …"
+                    "nodeLabel": "Don\u00e2\u0080\u0099t get the impression that Qu\u00c3\u00a9bec has no trails. Click here to go to the \u2026"
                   }
                 }
               ]
@@ -880,7 +872,7 @@
                       "height": 112
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "You can sign up to VÃ©lo QuÃ©becâs new mountain bike infoletter here. You can…"
+                    "nodeLabel": "You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec\u00e2\u0080\u0099s new mountain bike infoletter here. You can\u2026"
                   }
                 }
               ]

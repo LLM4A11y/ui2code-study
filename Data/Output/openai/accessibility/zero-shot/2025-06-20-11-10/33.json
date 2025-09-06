@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -544,7 +553,7 @@
                       "height": 342
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Fintech Express is a dedicated media platform that brings you educative posts a…"
+                    "nodeLabel": "Fintech Express is a dedicated media platform that brings you educative posts a\u2026"
                   }
                 }
               ]
@@ -593,7 +602,7 @@
                       "height": 342
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Fintech Express is a dedicated media platform that brings you educative posts a…"
+                    "nodeLabel": "Fintech Express is a dedicated media platform that brings you educative posts a\u2026"
                   }
                 }
               ]
@@ -642,7 +651,7 @@
                       "height": 342
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Fintech Express is a dedicated media platform that brings you educative posts a…"
+                    "nodeLabel": "Fintech Express is a dedicated media platform that brings you educative posts a\u2026"
                   }
                 }
               ]
@@ -691,7 +700,7 @@
                       "height": 342
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Fintech Express is a dedicated media platform that brings you educative posts a…"
+                    "nodeLabel": "Fintech Express is a dedicated media platform that brings you educative posts a\u2026"
                   }
                 }
               ]
@@ -740,7 +749,7 @@
                       "height": 342
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Fintech Express is a dedicated media platform that brings you educative posts a…"
+                    "nodeLabel": "Fintech Express is a dedicated media platform that brings you educative posts a\u2026"
                   }
                 }
               ]
@@ -789,7 +798,7 @@
                       "height": 342
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Fintech Express is a dedicated media platform that brings you educative posts a…"
+                    "nodeLabel": "Fintech Express is a dedicated media platform that brings you educative posts a\u2026"
                   }
                 }
               ]
@@ -838,7 +847,7 @@
                       "height": 342
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Fintech Express is a dedicated media platform that brings you educative posts a…"
+                    "nodeLabel": "Fintech Express is a dedicated media platform that brings you educative posts a\u2026"
                   }
                 }
               ]

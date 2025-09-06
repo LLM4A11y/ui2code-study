@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -374,7 +366,7 @@
                       "height": 424
                     },
                     "snippet": "<div class=\"dark\">",
-                    "nodeLabel": "Recent Posts\nApril Blog Posts!\nMarch Blog Posts!\nFebruary Blog Posts!\nSeptember…"
+                    "nodeLabel": "Recent Posts\nApril Blog Posts!\nMarch Blog Posts!\nFebruary Blog Posts!\nSeptember\u2026"
                   }
                 }
               ]
@@ -423,7 +415,7 @@
                       "height": 424
                     },
                     "snippet": "<div class=\"dark\">",
-                    "nodeLabel": "Recent Posts\nApril Blog Posts!\nMarch Blog Posts!\nFebruary Blog Posts!\nSeptember…"
+                    "nodeLabel": "Recent Posts\nApril Blog Posts!\nMarch Blog Posts!\nFebruary Blog Posts!\nSeptember\u2026"
                   }
                 }
               ]
@@ -472,7 +464,7 @@
                       "height": 424
                     },
                     "snippet": "<div class=\"dark\">",
-                    "nodeLabel": "Recent Posts\nApril Blog Posts!\nMarch Blog Posts!\nFebruary Blog Posts!\nSeptember…"
+                    "nodeLabel": "Recent Posts\nApril Blog Posts!\nMarch Blog Posts!\nFebruary Blog Posts!\nSeptember\u2026"
                   }
                 }
               ]
@@ -521,7 +513,7 @@
                       "height": 424
                     },
                     "snippet": "<div class=\"dark\">",
-                    "nodeLabel": "Recent Posts\nApril Blog Posts!\nMarch Blog Posts!\nFebruary Blog Posts!\nSeptember…"
+                    "nodeLabel": "Recent Posts\nApril Blog Posts!\nMarch Blog Posts!\nFebruary Blog Posts!\nSeptember\u2026"
                   }
                 }
               ]

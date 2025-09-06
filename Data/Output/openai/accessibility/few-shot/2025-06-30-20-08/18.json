@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -491,7 +483,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<blockquote>\n                <p>Following upgrade to Confluence 5.5.1 the values of parameters in user macros cannot be evaluated the same way. Discovered this the hard way</p>\n                <footer>â Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>\n            </blockquote>",
+                    "html": "<blockquote>\n                <p>Following upgrade to Confluence 5.5.1 the values of parameters in user macros cannot be evaluated the same way. Discovered this the hard way</p>\n                <footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>\n            </blockquote>",
                     "target": [
                       "blockquote:nth-child(3)"
                     ]
@@ -533,7 +525,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<blockquote>\n                <p>Following upgrade to Confluence 5.5.1 the values of parameters in user macros cannot be evaluated the same way. Discovered this the hard way</p>\n                <footer>â Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>\n            </blockquote>",
+                    "html": "<blockquote>\n                <p>Following upgrade to Confluence 5.5.1 the values of parameters in user macros cannot be evaluated the same way. Discovered this the hard way</p>\n                <footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>\n            </blockquote>",
                     "target": [
                       "blockquote:nth-child(3)"
                     ]
@@ -546,7 +538,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<footer>â Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>",
+            "html": "<footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>",
             "target": [
               "blockquote:nth-child(3) > footer"
             ],
@@ -575,7 +567,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<blockquote>\n                <p>Following upgrade to Confluence 5.5.1 the values of parameters in user macros cannot be evaluated the same way. Discovered this the hard way</p>\n                <footer>â Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>\n            </blockquote>",
+                    "html": "<blockquote>\n                <p>Following upgrade to Confluence 5.5.1 the values of parameters in user macros cannot be evaluated the same way. Discovered this the hard way</p>\n                <footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>\n            </blockquote>",
                     "target": [
                       "blockquote:nth-child(3)"
                     ]
@@ -714,7 +706,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<footer>â Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>",
+            "html": "<footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>",
             "target": [
               "blockquote:nth-child(4) > footer"
             ],
@@ -924,7 +916,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<footer>â Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>",
+            "html": "<footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>",
             "target": [
               "blockquote:nth-child(5) > footer"
             ],
@@ -1134,7 +1126,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<footer>â Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>",
+            "html": "<footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>",
             "target": [
               "blockquote:nth-child(6) > footer"
             ],
@@ -1205,7 +1197,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<blockquote>\n                <p>@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability double-check that it's upgraded xwork to 1.17. Ours wasnât.</p>\n                <footer>â Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>\n            </blockquote>",
+                    "html": "<blockquote>\n                <p>@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability double-check that it's upgraded xwork to 1.17. Ours wasn\u00e2\u0080\u0099t.</p>\n                <footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>\n            </blockquote>",
                     "target": [
                       "blockquote:nth-child(7)"
                     ]
@@ -1218,7 +1210,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability double-check that it's upgraded xwork to 1.17. Ours wasnât.</p>",
+            "html": "<p>@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability double-check that it's upgraded xwork to 1.17. Ours wasn\u00e2\u0080\u0099t.</p>",
             "target": [
               "blockquote:nth-child(7) > p"
             ],
@@ -1247,7 +1239,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<blockquote>\n                <p>@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability double-check that it's upgraded xwork to 1.17. Ours wasnât.</p>\n                <footer>â Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>\n            </blockquote>",
+                    "html": "<blockquote>\n                <p>@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability double-check that it's upgraded xwork to 1.17. Ours wasn\u00e2\u0080\u0099t.</p>\n                <footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>\n            </blockquote>",
                     "target": [
                       "blockquote:nth-child(7)"
                     ]
@@ -1260,7 +1252,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<footer>â Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>",
+            "html": "<footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>",
             "target": [
               "blockquote:nth-child(7) > footer"
             ],
@@ -1289,7 +1281,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<blockquote>\n                <p>@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability double-check that it's upgraded xwork to 1.17. Ours wasnât.</p>\n                <footer>â Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>\n            </blockquote>",
+                    "html": "<blockquote>\n                <p>@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability double-check that it's upgraded xwork to 1.17. Ours wasn\u00e2\u0080\u0099t.</p>\n                <footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@BergerofLondon</a>) May 22, 2014</footer>\n            </blockquote>",
                     "target": [
                       "blockquote:nth-child(7)"
                     ]
@@ -1501,14 +1493,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.69:1. Recommendation:  change text colour to #2f851d.",
-          "description": "<footer>â Berger (<a href=\"#\">@Berger...</footer>",
+          "description": "<footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@Berger...</footer>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.69:1. Recommendation:  change text colour to #2f851d.",
-            "context": "<footer>â Berger (<a href=\"#\">@Berger...</footer>",
+            "context": "<footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@Berger...</footer>",
             "selector": "html > body > div > article > blockquote:nth-child(3) > footer",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1569,14 +1561,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.69:1. Recommendation:  change text colour to #2f851d.",
-          "description": "<footer>â Berger (<a href=\"#\">@Berger...</footer>",
+          "description": "<footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@Berger...</footer>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.69:1. Recommendation:  change text colour to #2f851d.",
-            "context": "<footer>â Berger (<a href=\"#\">@Berger...</footer>",
+            "context": "<footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@Berger...</footer>",
             "selector": "html > body > div > article > blockquote:nth-child(4) > footer",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1654,14 +1646,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.69:1. Recommendation:  change text colour to #2f851d.",
-          "description": "<footer>â Berger (<a href=\"#\">@Berger...</footer>",
+          "description": "<footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@Berger...</footer>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.69:1. Recommendation:  change text colour to #2f851d.",
-            "context": "<footer>â Berger (<a href=\"#\">@Berger...</footer>",
+            "context": "<footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@Berger...</footer>",
             "selector": "html > body > div > article > blockquote:nth-child(5) > footer",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1739,14 +1731,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.69:1. Recommendation:  change text colour to #2f851d.",
-          "description": "<footer>â Berger (<a href=\"#\">@Berger...</footer>",
+          "description": "<footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@Berger...</footer>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.69:1. Recommendation:  change text colour to #2f851d.",
-            "context": "<footer>â Berger (<a href=\"#\">@Berger...</footer>",
+            "context": "<footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@Berger...</footer>",
             "selector": "html > body > div > article > blockquote:nth-child(6) > footer",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1790,14 +1782,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.69:1. Recommendation:  change text colour to #2f851d.",
-          "description": "<footer>â Berger (<a href=\"#\">@Berger...</footer>",
+          "description": "<footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@Berger...</footer>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.69:1. Recommendation:  change text colour to #2f851d.",
-            "context": "<footer>â Berger (<a href=\"#\">@Berger...</footer>",
+            "context": "<footer>\u00e2\u0080\u0094 Berger (<a href=\"#\">@Berger...</footer>",
             "selector": "html > body > div > article > blockquote:nth-child(7) > footer",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -2234,7 +2226,7 @@
                       "height": 1077
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence, it looks like …"
+                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence, it looks like \u2026"
                   }
                 }
               ]
@@ -2283,7 +2275,7 @@
                       "height": 1077
                     },
                     "snippet": "<article>",
-                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence, it looks like …"
+                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence, it looks like \u2026"
                   }
                 }
               ]
@@ -2311,7 +2303,7 @@
                 "height": 102
               },
               "snippet": "<p>",
-              "nodeLabel": "Following upgrade to Confluence 5.5.1 the values of parameters in user macros c…",
+              "nodeLabel": "Following upgrade to Confluence 5.5.1 the values of parameters in user macros c\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.42 (foreground color: #888888, background color: #fbfbfb, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2332,7 +2324,7 @@
                       "height": 192
                     },
                     "snippet": "<blockquote>",
-                    "nodeLabel": "Following upgrade to Confluence 5.5.1 the values of parameters in user macros c…"
+                    "nodeLabel": "Following upgrade to Confluence 5.5.1 the values of parameters in user macros c\u2026"
                   }
                 }
               ]
@@ -2360,7 +2352,7 @@
                 "height": 19
               },
               "snippet": "<footer>",
-              "nodeLabel": "â Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.68 (foreground color: #58ae46, background color: #fbfbfb, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2381,7 +2373,7 @@
                       "height": 192
                     },
                     "snippet": "<blockquote>",
-                    "nodeLabel": "Following upgrade to Confluence 5.5.1 the values of parameters in user macros c…"
+                    "nodeLabel": "Following upgrade to Confluence 5.5.1 the values of parameters in user macros c\u2026"
                   }
                 }
               ]
@@ -2430,7 +2422,7 @@
                       "height": 192
                     },
                     "snippet": "<blockquote>",
-                    "nodeLabel": "Following upgrade to Confluence 5.5.1 the values of parameters in user macros c…"
+                    "nodeLabel": "Following upgrade to Confluence 5.5.1 the values of parameters in user macros c\u2026"
                   }
                 }
               ]
@@ -2458,7 +2450,7 @@
                 "height": 102
               },
               "snippet": "<p>",
-              "nodeLabel": "You can't use the same shorthand you use for standard variables. #if ($paramist…",
+              "nodeLabel": "You can't use the same shorthand you use for standard variables. #if ($paramist\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.42 (foreground color: #888888, background color: #fbfbfb, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2479,7 +2471,7 @@
                       "height": 192
                     },
                     "snippet": "<blockquote>",
-                    "nodeLabel": "You can't use the same shorthand you use for standard variables. #if ($paramist…"
+                    "nodeLabel": "You can't use the same shorthand you use for standard variables. #if ($paramist\u2026"
                   }
                 }
               ]
@@ -2528,7 +2520,7 @@
                       "height": 192
                     },
                     "snippet": "<blockquote>",
-                    "nodeLabel": "You can't use the same shorthand you use for standard variables. #if ($paramist…"
+                    "nodeLabel": "You can't use the same shorthand you use for standard variables. #if ($paramist\u2026"
                   }
                 }
               ]
@@ -2556,7 +2548,7 @@
                 "height": 19
               },
               "snippet": "<footer>",
-              "nodeLabel": "â Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.68 (foreground color: #58ae46, background color: #fbfbfb, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2577,7 +2569,7 @@
                       "height": 192
                     },
                     "snippet": "<blockquote>",
-                    "nodeLabel": "You can't use the same shorthand you use for standard variables. #if ($paramist…"
+                    "nodeLabel": "You can't use the same shorthand you use for standard variables. #if ($paramist\u2026"
                   }
                 }
               ]
@@ -2626,7 +2618,7 @@
                       "height": 192
                     },
                     "snippet": "<blockquote>",
-                    "nodeLabel": "You can't use the same shorthand you use for standard variables. #if ($paramist…"
+                    "nodeLabel": "You can't use the same shorthand you use for standard variables. #if ($paramist\u2026"
                   }
                 }
               ]
@@ -2654,7 +2646,7 @@
                 "height": 77
               },
               "snippet": "<p>",
-              "nodeLabel": "You now have to use things like #if ($paramistrue == true) or #if ($paramistrue…",
+              "nodeLabel": "You now have to use things like #if ($paramistrue == true) or #if ($paramistrue\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.42 (foreground color: #888888, background color: #fbfbfb, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2675,7 +2667,7 @@
                       "height": 166
                     },
                     "snippet": "<blockquote>",
-                    "nodeLabel": "You now have to use things like #if ($paramistrue == true) or #if ($paramistrue…"
+                    "nodeLabel": "You now have to use things like #if ($paramistrue == true) or #if ($paramistrue\u2026"
                   }
                 }
               ]
@@ -2724,7 +2716,7 @@
                       "height": 166
                     },
                     "snippet": "<blockquote>",
-                    "nodeLabel": "You now have to use things like #if ($paramistrue == true) or #if ($paramistrue…"
+                    "nodeLabel": "You now have to use things like #if ($paramistrue == true) or #if ($paramistrue\u2026"
                   }
                 }
               ]
@@ -2773,7 +2765,7 @@
                       "height": 166
                     },
                     "snippet": "<blockquote>",
-                    "nodeLabel": "You now have to use things like #if ($paramistrue == true) or #if ($paramistrue…"
+                    "nodeLabel": "You now have to use things like #if ($paramistrue == true) or #if ($paramistrue\u2026"
                   }
                 }
               ]
@@ -2801,7 +2793,7 @@
                 "height": 19
               },
               "snippet": "<footer>",
-              "nodeLabel": "â Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.68 (foreground color: #58ae46, background color: #fbfbfb, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2822,7 +2814,7 @@
                       "height": 166
                     },
                     "snippet": "<blockquote>",
-                    "nodeLabel": "You now have to use things like #if ($paramistrue == true) or #if ($paramistrue…"
+                    "nodeLabel": "You now have to use things like #if ($paramistrue == true) or #if ($paramistrue\u2026"
                   }
                 }
               ]
@@ -2871,7 +2863,7 @@
                       "height": 166
                     },
                     "snippet": "<blockquote>",
-                    "nodeLabel": "You now have to use things like #if ($paramistrue == true) or #if ($paramistrue…"
+                    "nodeLabel": "You now have to use things like #if ($paramistrue == true) or #if ($paramistrue\u2026"
                   }
                 }
               ]
@@ -2899,7 +2891,7 @@
                 "height": 77
               },
               "snippet": "<p>",
-              "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par…",
+              "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.42 (foreground color: #888888, background color: #fbfbfb, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2920,7 +2912,7 @@
                       "height": 166
                     },
                     "snippet": "<blockquote>",
-                    "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par…"
+                    "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par\u2026"
                   }
                 }
               ]
@@ -2969,7 +2961,7 @@
                       "height": 166
                     },
                     "snippet": "<blockquote>",
-                    "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par…"
+                    "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par\u2026"
                   }
                 }
               ]
@@ -3018,7 +3010,7 @@
                       "height": 166
                     },
                     "snippet": "<blockquote>",
-                    "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par…"
+                    "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par\u2026"
                   }
                 }
               ]
@@ -3046,7 +3038,7 @@
                 "height": 19
               },
               "snippet": "<footer>",
-              "nodeLabel": "â Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.68 (foreground color: #58ae46, background color: #fbfbfb, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -3067,7 +3059,7 @@
                       "height": 166
                     },
                     "snippet": "<blockquote>",
-                    "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par…"
+                    "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par\u2026"
                   }
                 }
               ]
@@ -3116,7 +3108,7 @@
                       "height": 166
                     },
                     "snippet": "<blockquote>",
-                    "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par…"
+                    "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par\u2026"
                   }
                 }
               ]
@@ -3144,7 +3136,7 @@
                 "height": 102
               },
               "snippet": "<p>",
-              "nodeLabel": "@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability d…",
+              "nodeLabel": "@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability d\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.42 (foreground color: #888888, background color: #fbfbfb, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -3165,7 +3157,7 @@
                       "height": 192
                     },
                     "snippet": "<blockquote>",
-                    "nodeLabel": "@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability d…"
+                    "nodeLabel": "@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability d\u2026"
                   }
                 }
               ]
@@ -3193,7 +3185,7 @@
                 "height": 19
               },
               "snippet": "<footer>",
-              "nodeLabel": "â Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.68 (foreground color: #58ae46, background color: #fbfbfb, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -3214,7 +3206,7 @@
                       "height": 192
                     },
                     "snippet": "<blockquote>",
-                    "nodeLabel": "@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability d…"
+                    "nodeLabel": "@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability d\u2026"
                   }
                 }
               ]
@@ -3263,7 +3255,7 @@
                       "height": 192
                     },
                     "snippet": "<blockquote>",
-                    "nodeLabel": "@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability d…"
+                    "nodeLabel": "@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability d\u2026"
                   }
                 }
               ]

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -365,7 +357,7 @@
                       "height": 2687
                     },
                     "snippet": "<form>",
-                    "nodeLabel": "Producer Application\n\nTell us a little about you and your experience. FAQ for m…"
+                    "nodeLabel": "Producer Application\n\nTell us a little about you and your experience. FAQ for m\u2026"
                   }
                 }
               ]
@@ -414,7 +406,7 @@
                       "height": 2687
                     },
                     "snippet": "<form>",
-                    "nodeLabel": "Producer Application\n\nTell us a little about you and your experience. FAQ for m…"
+                    "nodeLabel": "Producer Application\n\nTell us a little about you and your experience. FAQ for m\u2026"
                   }
                 }
               ]
@@ -463,7 +455,7 @@
                       "height": 2687
                     },
                     "snippet": "<form>",
-                    "nodeLabel": "Producer Application\n\nTell us a little about you and your experience. FAQ for m…"
+                    "nodeLabel": "Producer Application\n\nTell us a little about you and your experience. FAQ for m\u2026"
                   }
                 }
               ]
@@ -512,7 +504,7 @@
                       "height": 2687
                     },
                     "snippet": "<form>",
-                    "nodeLabel": "Producer Application\n\nTell us a little about you and your experience. FAQ for m…"
+                    "nodeLabel": "Producer Application\n\nTell us a little about you and your experience. FAQ for m\u2026"
                   }
                 }
               ]

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -50,7 +42,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"main-title\">\n            Mountain bike trail development organization ADSVMQ officially transfers mtn bike trail development activities to VÃ©lo QuÃ©bec\n        </div>",
+                    "html": "<div class=\"main-title\">\n            Mountain bike trail development organization ADSVMQ officially transfers mtn bike trail development activities to V\u00c3\u00a9lo Qu\u00c3\u00a9bec\n        </div>",
                     "target": [
                       ".main-title"
                     ]
@@ -63,7 +55,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"main-title\">\n            Mountain bike trail development organization ADSVMQ officially transfers mtn bike trail development activities to VÃ©lo QuÃ©bec\n        </div>",
+            "html": "<div class=\"main-title\">\n            Mountain bike trail development organization ADSVMQ officially transfers mtn bike trail development activities to V\u00c3\u00a9lo Qu\u00c3\u00a9bec\n        </div>",
             "target": [
               ".main-title"
             ],
@@ -226,7 +218,7 @@
                 "height": 94
               },
               "snippet": "<div class=\"main-title\">",
-              "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi…",
+              "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.57 (foreground color: #cccccc, background color: #666666, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -273,7 +265,7 @@
                       "height": 871
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "The news is that the QuÃ©bec mountain bike trail development organization ADSVM…"
+                    "nodeLabel": "The news is that the Qu\u00c3\u00a9bec mountain bike trail development organization ADSVM\u2026"
                   }
                 }
               ]
@@ -322,7 +314,7 @@
                       "height": 715
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "About Me\n\nName: Cycle Fun Montreal\n\nView my complete profile\nPrevious Posts\nAve…"
+                    "nodeLabel": "About Me\n\nName: Cycle Fun Montreal\n\nView my complete profile\nPrevious Posts\nAve\u2026"
                   }
                 }
               ]
@@ -493,7 +485,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"main-title\">\n            Mountain bike trail development organization ADSVMQ officially transfers mtn bike trail development activities to VÃ©lo QuÃ©bec\n        </div>",
+            "html": "<div class=\"main-title\">\n            Mountain bike trail development organization ADSVMQ officially transfers mtn bike trail development activities to V\u00c3\u00a9lo Qu\u00c3\u00a9bec\n        </div>",
             "target": [
               ".main-title"
             ],
@@ -549,7 +541,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"comments\">\n            <div>0 comments</div>\n            <div>ðð</div>\n        </div>",
+            "html": "<div class=\"comments\">\n            <div>0 comments</div>\n            <div>\u00f0\u009f\u0094\u008d\u00f0\u009f\u0094\u008d</div>\n        </div>",
             "target": [
               ".comments"
             ],

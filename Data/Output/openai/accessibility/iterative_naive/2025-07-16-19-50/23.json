@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -181,7 +173,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"header\">\n        <h1>Alexito's World</h1>\n        <p>A world of coding ð», by Alejandro Martinez</p>\n    </div>",
+            "html": "<div class=\"header\">\n        <h1>Alexito's World</h1>\n        <p>A world of coding \u00f0\u009f\u0092\u00bb, by Alejandro Martinez</p>\n    </div>",
             "target": [
               ".header"
             ],
@@ -601,7 +593,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        <p>\n            <a href=\"#\">RSS</a> |\n            <a href=\"#\">alexito4</a> |\n            <a href=\"#\">alexito4</a> |\n            <a href=\"#\">alexito4</a>\n        </p>\n        <p>Generated using <a href=\"#\">Publish</a></p>\n        <p>Â©2016 </p>\n    </div>",
+            "html": "<div class=\"footer\">\n        <p>\n            <a href=\"#\">RSS</a> |\n            <a href=\"#\">alexito4</a> |\n            <a href=\"#\">alexito4</a> |\n            <a href=\"#\">alexito4</a>\n        </p>\n        <p>Generated using <a href=\"#\">Publish</a></p>\n        <p>\u00c2\u00a92016 </p>\n    </div>",
             "target": [
               ".footer"
             ],

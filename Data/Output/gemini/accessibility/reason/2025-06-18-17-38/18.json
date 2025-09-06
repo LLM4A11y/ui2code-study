@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -344,7 +336,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        <div class=\"container\">\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï¡</a>\n            <a href=\"#\"> ï&nbsp;</a>\n        </div>\n    </div>",
+                    "html": "<div class=\"footer\">\n        <div class=\"container\">\n            <a href=\"#\">\u00ef\u0082\u009a</a>\n            <a href=\"#\">\u00ef\u0083\u0095</a>\n            <a href=\"#\">\u00ef\u0082\u0099</a>\n            <a href=\"#\">\u00ef\u0083\u00a1</a>\n            <a href=\"#\"> \u00ef\u0083&nbsp;</a>\n        </div>\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -357,7 +349,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ï</a>",
+            "html": "<a href=\"#\">\u00ef\u0082\u009a</a>",
             "target": [
               ".container > a:nth-child(1)"
             ],
@@ -386,7 +378,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        <div class=\"container\">\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï¡</a>\n            <a href=\"#\"> ï&nbsp;</a>\n        </div>\n    </div>",
+                    "html": "<div class=\"footer\">\n        <div class=\"container\">\n            <a href=\"#\">\u00ef\u0082\u009a</a>\n            <a href=\"#\">\u00ef\u0083\u0095</a>\n            <a href=\"#\">\u00ef\u0082\u0099</a>\n            <a href=\"#\">\u00ef\u0083\u00a1</a>\n            <a href=\"#\"> \u00ef\u0083&nbsp;</a>\n        </div>\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -399,7 +391,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ï</a>",
+            "html": "<a href=\"#\">\u00ef\u0083\u0095</a>",
             "target": [
               ".container > a:nth-child(2)"
             ],
@@ -428,7 +420,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        <div class=\"container\">\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï¡</a>\n            <a href=\"#\"> ï&nbsp;</a>\n        </div>\n    </div>",
+                    "html": "<div class=\"footer\">\n        <div class=\"container\">\n            <a href=\"#\">\u00ef\u0082\u009a</a>\n            <a href=\"#\">\u00ef\u0083\u0095</a>\n            <a href=\"#\">\u00ef\u0082\u0099</a>\n            <a href=\"#\">\u00ef\u0083\u00a1</a>\n            <a href=\"#\"> \u00ef\u0083&nbsp;</a>\n        </div>\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -441,7 +433,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ï</a>",
+            "html": "<a href=\"#\">\u00ef\u0082\u0099</a>",
             "target": [
               "a:nth-child(3)"
             ],
@@ -470,7 +462,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        <div class=\"container\">\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï¡</a>\n            <a href=\"#\"> ï&nbsp;</a>\n        </div>\n    </div>",
+                    "html": "<div class=\"footer\">\n        <div class=\"container\">\n            <a href=\"#\">\u00ef\u0082\u009a</a>\n            <a href=\"#\">\u00ef\u0083\u0095</a>\n            <a href=\"#\">\u00ef\u0082\u0099</a>\n            <a href=\"#\">\u00ef\u0083\u00a1</a>\n            <a href=\"#\"> \u00ef\u0083&nbsp;</a>\n        </div>\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -483,7 +475,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ï¡</a>",
+            "html": "<a href=\"#\">\u00ef\u0083\u00a1</a>",
             "target": [
               "a:nth-child(4)"
             ],
@@ -512,7 +504,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        <div class=\"container\">\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï¡</a>\n            <a href=\"#\"> ï&nbsp;</a>\n        </div>\n    </div>",
+                    "html": "<div class=\"footer\">\n        <div class=\"container\">\n            <a href=\"#\">\u00ef\u0082\u009a</a>\n            <a href=\"#\">\u00ef\u0083\u0095</a>\n            <a href=\"#\">\u00ef\u0082\u0099</a>\n            <a href=\"#\">\u00ef\u0083\u00a1</a>\n            <a href=\"#\"> \u00ef\u0083&nbsp;</a>\n        </div>\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -525,7 +517,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\"> ï&nbsp;</a>",
+            "html": "<a href=\"#\"> \u00ef\u0083&nbsp;</a>",
             "target": [
               "a:nth-child(5)"
             ],
@@ -655,14 +647,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4:1. Recommendation:  change text colour to #6e6e6e.",
-          "description": "<a href=\"#\">ï</a>",
+          "description": "<a href=\"#\">\u00ef\u0082\u009a</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4:1. Recommendation:  change text colour to #6e6e6e.",
-            "context": "<a href=\"#\">ï</a>",
+            "context": "<a href=\"#\">\u00ef\u0082\u009a</a>",
             "selector": "html > body > div:nth-child(3) > div > a:nth-child(1)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -672,14 +664,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4:1. Recommendation:  change text colour to #6e6e6e.",
-          "description": "<a href=\"#\">ï</a>",
+          "description": "<a href=\"#\">\u00ef\u0083\u0095</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4:1. Recommendation:  change text colour to #6e6e6e.",
-            "context": "<a href=\"#\">ï</a>",
+            "context": "<a href=\"#\">\u00ef\u0083\u0095</a>",
             "selector": "html > body > div:nth-child(3) > div > a:nth-child(2)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -689,14 +681,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4:1. Recommendation:  change text colour to #6e6e6e.",
-          "description": "<a href=\"#\">ï</a>",
+          "description": "<a href=\"#\">\u00ef\u0082\u0099</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4:1. Recommendation:  change text colour to #6e6e6e.",
-            "context": "<a href=\"#\">ï</a>",
+            "context": "<a href=\"#\">\u00ef\u0082\u0099</a>",
             "selector": "html > body > div:nth-child(3) > div > a:nth-child(3)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -706,14 +698,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4:1. Recommendation:  change text colour to #6e6e6e.",
-          "description": "<a href=\"#\">ï¡</a>",
+          "description": "<a href=\"#\">\u00ef\u0083\u00a1</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4:1. Recommendation:  change text colour to #6e6e6e.",
-            "context": "<a href=\"#\">ï¡</a>",
+            "context": "<a href=\"#\">\u00ef\u0083\u00a1</a>",
             "selector": "html > body > div:nth-child(3) > div > a:nth-child(4)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -723,14 +715,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4:1. Recommendation:  change text colour to #6e6e6e.",
-          "description": "<a href=\"#\"> ï&nbsp;</a>",
+          "description": "<a href=\"#\"> \u00ef\u0083&nbsp;</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4:1. Recommendation:  change text colour to #6e6e6e.",
-            "context": "<a href=\"#\"> ï&nbsp;</a>",
+            "context": "<a href=\"#\"> \u00ef\u0083&nbsp;</a>",
             "selector": "html > body > div:nth-child(3) > div > a:nth-child(5)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1072,7 +1064,7 @@
                       "height": 1553
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1100,7 +1092,7 @@
                 "height": 15
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ï",
+              "nodeLabel": "\u00ef\u0082\u009a",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #777777, background color: #f2f2f2, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1121,7 +1113,7 @@
                       "height": 58
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "ï ï ï ï¡ ï "
+                    "nodeLabel": "\u00ef\u0082\u009a \u00ef\u0083\u0095 \u00ef\u0082\u0099 \u00ef\u0083\u00a1 \u00ef\u0083\u00a0"
                   }
                 }
               ]
@@ -1149,7 +1141,7 @@
                 "height": 15
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ï",
+              "nodeLabel": "\u00ef\u0083\u0095",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #777777, background color: #f2f2f2, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1170,7 +1162,7 @@
                       "height": 58
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "ï ï ï ï¡ ï "
+                    "nodeLabel": "\u00ef\u0082\u009a \u00ef\u0083\u0095 \u00ef\u0082\u0099 \u00ef\u0083\u00a1 \u00ef\u0083\u00a0"
                   }
                 }
               ]
@@ -1198,7 +1190,7 @@
                 "height": 15
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ï",
+              "nodeLabel": "\u00ef\u0082\u0099",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #777777, background color: #f2f2f2, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1219,7 +1211,7 @@
                       "height": 58
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "ï ï ï ï¡ ï "
+                    "nodeLabel": "\u00ef\u0082\u009a \u00ef\u0083\u0095 \u00ef\u0082\u0099 \u00ef\u0083\u00a1 \u00ef\u0083\u00a0"
                   }
                 }
               ]
@@ -1247,7 +1239,7 @@
                 "height": 15
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ï¡",
+              "nodeLabel": "\u00ef\u0083\u00a1",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #777777, background color: #f2f2f2, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1268,7 +1260,7 @@
                       "height": 58
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "ï ï ï ï¡ ï "
+                    "nodeLabel": "\u00ef\u0082\u009a \u00ef\u0083\u0095 \u00ef\u0082\u0099 \u00ef\u0083\u00a1 \u00ef\u0083\u00a0"
                   }
                 }
               ]
@@ -1296,7 +1288,7 @@
                 "height": 15
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ï ",
+              "nodeLabel": "\u00ef\u0083\u00a0",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4 (foreground color: #777777, background color: #f2f2f2, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1317,7 +1309,7 @@
                       "height": 58
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "ï ï ï ï¡ ï "
+                    "nodeLabel": "\u00ef\u0082\u009a \u00ef\u0083\u0095 \u00ef\u0082\u0099 \u00ef\u0083\u00a1 \u00ef\u0083\u00a0"
                   }
                 }
               ]
@@ -1448,7 +1440,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        <div class=\"container\">\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï</a>\n            <a href=\"#\">ï¡</a>\n            <a href=\"#\"> ï&nbsp;</a>\n        </div>\n    </div>",
+            "html": "<div class=\"footer\">\n        <div class=\"container\">\n            <a href=\"#\">\u00ef\u0082\u009a</a>\n            <a href=\"#\">\u00ef\u0083\u0095</a>\n            <a href=\"#\">\u00ef\u0082\u0099</a>\n            <a href=\"#\">\u00ef\u0083\u00a1</a>\n            <a href=\"#\"> \u00ef\u0083&nbsp;</a>\n        </div>\n    </div>",
             "target": [
               ".footer"
             ],

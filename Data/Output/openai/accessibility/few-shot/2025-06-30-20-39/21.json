@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -129,7 +138,7 @@
                       "height": 1071
                     },
                     "snippet": "<div class=\"left\">",
-                    "nodeLabel": "Pritchard Memorial Baptist Church\n\nPritchard Memorial Baptist Church has a grea…"
+                    "nodeLabel": "Pritchard Memorial Baptist Church\n\nPritchard Memorial Baptist Church has a grea\u2026"
                   }
                 }
               ]
@@ -324,7 +333,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>Charlotte Culture Guide\n            <a href=\"#\">About ASC</a> Â· <a href=\"#\">FAQs</a> Â· <a href=\"#\">Directory</a> Â· <a href=\"#\">Privacy policy</a> Â· [EMAIL REDACTED]\n        </p>",
+                    "html": "<p>Charlotte Culture Guide\n            <a href=\"#\">About ASC</a> \u00c2\u00b7 <a href=\"#\">FAQs</a> \u00c2\u00b7 <a href=\"#\">Directory</a> \u00c2\u00b7 <a href=\"#\">Privacy policy</a> \u00c2\u00b7 [EMAIL REDACTED]\n        </p>",
                     "target": [
                       ".footer > p:nth-child(2)"
                     ]
@@ -338,7 +347,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>Charlotte Culture Guide\n            <a href=\"#\">About ASC</a> Â· <a href=\"#\">FAQs</a> Â· <a href=\"#\">Directory</a> Â· <a href=\"#\">Privacy policy</a> Â· [EMAIL REDACTED]\n        </p>",
+                    "html": "<p>Charlotte Culture Guide\n            <a href=\"#\">About ASC</a> \u00c2\u00b7 <a href=\"#\">FAQs</a> \u00c2\u00b7 <a href=\"#\">Directory</a> \u00c2\u00b7 <a href=\"#\">Privacy policy</a> \u00c2\u00b7 [EMAIL REDACTED]\n        </p>",
                     "target": [
                       ".footer > p:nth-child(2)"
                     ]
@@ -377,7 +386,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>Charlotte Culture Guide\n            <a href=\"#\">About ASC</a> Â· <a href=\"#\">FAQs</a> Â· <a href=\"#\">Directory</a> Â· <a href=\"#\">Privacy policy</a> Â· [EMAIL REDACTED]\n        </p>",
+                    "html": "<p>Charlotte Culture Guide\n            <a href=\"#\">About ASC</a> \u00c2\u00b7 <a href=\"#\">FAQs</a> \u00c2\u00b7 <a href=\"#\">Directory</a> \u00c2\u00b7 <a href=\"#\">Privacy policy</a> \u00c2\u00b7 [EMAIL REDACTED]\n        </p>",
                     "target": [
                       ".footer > p:nth-child(2)"
                     ]
@@ -391,7 +400,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>Charlotte Culture Guide\n            <a href=\"#\">About ASC</a> Â· <a href=\"#\">FAQs</a> Â· <a href=\"#\">Directory</a> Â· <a href=\"#\">Privacy policy</a> Â· [EMAIL REDACTED]\n        </p>",
+                    "html": "<p>Charlotte Culture Guide\n            <a href=\"#\">About ASC</a> \u00c2\u00b7 <a href=\"#\">FAQs</a> \u00c2\u00b7 <a href=\"#\">Directory</a> \u00c2\u00b7 <a href=\"#\">Privacy policy</a> \u00c2\u00b7 [EMAIL REDACTED]\n        </p>",
                     "target": [
                       ".footer > p:nth-child(2)"
                     ]
@@ -430,7 +439,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>Charlotte Culture Guide\n            <a href=\"#\">About ASC</a> Â· <a href=\"#\">FAQs</a> Â· <a href=\"#\">Directory</a> Â· <a href=\"#\">Privacy policy</a> Â· [EMAIL REDACTED]\n        </p>",
+                    "html": "<p>Charlotte Culture Guide\n            <a href=\"#\">About ASC</a> \u00c2\u00b7 <a href=\"#\">FAQs</a> \u00c2\u00b7 <a href=\"#\">Directory</a> \u00c2\u00b7 <a href=\"#\">Privacy policy</a> \u00c2\u00b7 [EMAIL REDACTED]\n        </p>",
                     "target": [
                       ".footer > p:nth-child(2)"
                     ]
@@ -444,7 +453,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>Charlotte Culture Guide\n            <a href=\"#\">About ASC</a> Â· <a href=\"#\">FAQs</a> Â· <a href=\"#\">Directory</a> Â· <a href=\"#\">Privacy policy</a> Â· [EMAIL REDACTED]\n        </p>",
+                    "html": "<p>Charlotte Culture Guide\n            <a href=\"#\">About ASC</a> \u00c2\u00b7 <a href=\"#\">FAQs</a> \u00c2\u00b7 <a href=\"#\">Directory</a> \u00c2\u00b7 <a href=\"#\">Privacy policy</a> \u00c2\u00b7 [EMAIL REDACTED]\n        </p>",
                     "target": [
                       ".footer > p:nth-child(2)"
                     ]
@@ -483,7 +492,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>Charlotte Culture Guide\n            <a href=\"#\">About ASC</a> Â· <a href=\"#\">FAQs</a> Â· <a href=\"#\">Directory</a> Â· <a href=\"#\">Privacy policy</a> Â· [EMAIL REDACTED]\n        </p>",
+                    "html": "<p>Charlotte Culture Guide\n            <a href=\"#\">About ASC</a> \u00c2\u00b7 <a href=\"#\">FAQs</a> \u00c2\u00b7 <a href=\"#\">Directory</a> \u00c2\u00b7 <a href=\"#\">Privacy policy</a> \u00c2\u00b7 [EMAIL REDACTED]\n        </p>",
                     "target": [
                       ".footer > p:nth-child(2)"
                     ]
@@ -497,7 +506,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>Charlotte Culture Guide\n            <a href=\"#\">About ASC</a> Â· <a href=\"#\">FAQs</a> Â· <a href=\"#\">Directory</a> Â· <a href=\"#\">Privacy policy</a> Â· [EMAIL REDACTED]\n        </p>",
+                    "html": "<p>Charlotte Culture Guide\n            <a href=\"#\">About ASC</a> \u00c2\u00b7 <a href=\"#\">FAQs</a> \u00c2\u00b7 <a href=\"#\">Directory</a> \u00c2\u00b7 <a href=\"#\">Privacy policy</a> \u00c2\u00b7 [EMAIL REDACTED]\n        </p>",
                     "target": [
                       ".footer > p:nth-child(2)"
                     ]
@@ -536,7 +545,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>Charlotte Culture Guide is a project of <a href=\"#\">ASC</a>.<br>\n            Copyright © 2023, Arts and Science Council. All rights reserved.<br>\n            Website developed by <a href=\"#\">Zero Defect Design LLC</a>.\n        </p>",
+                    "html": "<p>Charlotte Culture Guide is a project of <a href=\"#\">ASC</a>.<br>\n            Copyright \u00a9 2023, Arts and Science Council. All rights reserved.<br>\n            Website developed by <a href=\"#\">Zero Defect Design LLC</a>.\n        </p>",
                     "target": [
                       ".footer > p:nth-child(4)"
                     ]
@@ -550,7 +559,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>Charlotte Culture Guide is a project of <a href=\"#\">ASC</a>.<br>\n            Copyright © 2023, Arts and Science Council. All rights reserved.<br>\n            Website developed by <a href=\"#\">Zero Defect Design LLC</a>.\n        </p>",
+                    "html": "<p>Charlotte Culture Guide is a project of <a href=\"#\">ASC</a>.<br>\n            Copyright \u00a9 2023, Arts and Science Council. All rights reserved.<br>\n            Website developed by <a href=\"#\">Zero Defect Design LLC</a>.\n        </p>",
                     "target": [
                       ".footer > p:nth-child(4)"
                     ]
@@ -612,7 +621,7 @@
                       "height": 51
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Charlotte Culture Guide About ASC Â· FAQs Â· Directory Â· Privacy policy Â· [EM…"
+                    "nodeLabel": "Charlotte Culture Guide About ASC \u00c2\u00b7 FAQs \u00c2\u00b7 Directory \u00c2\u00b7 Privacy policy \u00c2\u00b7 [EM\u2026"
                   }
                 }
               ]
@@ -661,7 +670,7 @@
                       "height": 51
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Charlotte Culture Guide About ASC Â· FAQs Â· Directory Â· Privacy policy Â· [EM…"
+                    "nodeLabel": "Charlotte Culture Guide About ASC \u00c2\u00b7 FAQs \u00c2\u00b7 Directory \u00c2\u00b7 Privacy policy \u00c2\u00b7 [EM\u2026"
                   }
                 }
               ]
@@ -710,7 +719,7 @@
                       "height": 51
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Charlotte Culture Guide About ASC Â· FAQs Â· Directory Â· Privacy policy Â· [EM…"
+                    "nodeLabel": "Charlotte Culture Guide About ASC \u00c2\u00b7 FAQs \u00c2\u00b7 Directory \u00c2\u00b7 Privacy policy \u00c2\u00b7 [EM\u2026"
                   }
                 }
               ]
@@ -759,7 +768,7 @@
                       "height": 51
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Charlotte Culture Guide About ASC Â· FAQs Â· Directory Â· Privacy policy Â· [EM…"
+                    "nodeLabel": "Charlotte Culture Guide About ASC \u00c2\u00b7 FAQs \u00c2\u00b7 Directory \u00c2\u00b7 Privacy policy \u00c2\u00b7 [EM\u2026"
                   }
                 }
               ]
@@ -808,7 +817,7 @@
                       "height": 102
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Charlotte Culture Guide is a project of ASC.\nCopyright © 2023, Arts and Science…"
+                    "nodeLabel": "Charlotte Culture Guide is a project of ASC.\nCopyright \u00a9 2023, Arts and Science\u2026"
                   }
                 }
               ]

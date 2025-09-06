@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -1132,7 +1124,7 @@
                       "height": 436
                     },
                     "snippet": "<div class=\"header\">",
-                    "nodeLabel": "David Simpson\n\ndeliver. iterate.\n\nBlog\nAbout\nProjects\nApps\nUpdate your user mac…"
+                    "nodeLabel": "David Simpson\n\ndeliver. iterate.\n\nBlog\nAbout\nProjects\nApps\nUpdate your user mac\u2026"
                   }
                 }
               ]
@@ -1181,7 +1173,7 @@
                       "height": 436
                     },
                     "snippet": "<div class=\"header\">",
-                    "nodeLabel": "David Simpson\n\ndeliver. iterate.\n\nBlog\nAbout\nProjects\nApps\nUpdate your user mac…"
+                    "nodeLabel": "David Simpson\n\ndeliver. iterate.\n\nBlog\nAbout\nProjects\nApps\nUpdate your user mac\u2026"
                   }
                 }
               ]
@@ -1230,7 +1222,7 @@
                       "height": 436
                     },
                     "snippet": "<div class=\"header\">",
-                    "nodeLabel": "David Simpson\n\ndeliver. iterate.\n\nBlog\nAbout\nProjects\nApps\nUpdate your user mac…"
+                    "nodeLabel": "David Simpson\n\ndeliver. iterate.\n\nBlog\nAbout\nProjects\nApps\nUpdate your user mac\u2026"
                   }
                 }
               ]
@@ -1279,7 +1271,7 @@
                       "height": 953
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like…"
+                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like\u2026"
                   }
                 }
               ]
@@ -1328,7 +1320,7 @@
                       "height": 953
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like…"
+                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like\u2026"
                   }
                 }
               ]
@@ -1377,7 +1369,7 @@
                       "height": 953
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like…"
+                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like\u2026"
                   }
                 }
               ]
@@ -1426,7 +1418,7 @@
                       "height": 953
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like…"
+                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like\u2026"
                   }
                 }
               ]
@@ -1475,7 +1467,7 @@
                       "height": 953
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like…"
+                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like\u2026"
                   }
                 }
               ]
@@ -1524,7 +1516,7 @@
                       "height": 953
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like…"
+                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like\u2026"
                   }
                 }
               ]
@@ -1573,7 +1565,7 @@
                       "height": 953
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like…"
+                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like\u2026"
                   }
                 }
               ]
@@ -1622,7 +1614,7 @@
                       "height": 953
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like…"
+                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like\u2026"
                   }
                 }
               ]
@@ -1671,7 +1663,7 @@
                       "height": 953
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like…"
+                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like\u2026"
                   }
                 }
               ]
@@ -1720,7 +1712,7 @@
                       "height": 953
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like…"
+                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like\u2026"
                   }
                 }
               ]
@@ -1769,7 +1761,7 @@
                       "height": 953
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like…"
+                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like\u2026"
                   }
                 }
               ]
@@ -1818,7 +1810,7 @@
                       "height": 953
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like…"
+                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like\u2026"
                   }
                 }
               ]
@@ -1867,7 +1859,7 @@
                       "height": 953
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like…"
+                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like\u2026"
                   }
                 }
               ]
@@ -1916,7 +1908,7 @@
                       "height": 953
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like…"
+                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like\u2026"
                   }
                 }
               ]
@@ -1965,7 +1957,7 @@
                       "height": 953
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like…"
+                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like\u2026"
                   }
                 }
               ]

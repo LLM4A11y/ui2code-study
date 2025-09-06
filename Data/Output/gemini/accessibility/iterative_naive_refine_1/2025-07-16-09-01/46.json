@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -251,7 +243,7 @@
                       "height": 269
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17)…"
+                    "nodeLabel": "So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17)\u2026"
                   }
                 }
               ]

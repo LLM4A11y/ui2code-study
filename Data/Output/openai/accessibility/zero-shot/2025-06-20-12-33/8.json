@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -428,7 +437,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"cta\">\n            <h2>Find a Tour on a SegwayÂ® PT now!</h2>\n            <a href=\"#\" class=\"cta-button\">Find a Tour Now</a>\n        </div>",
+                    "html": "<div class=\"cta\">\n            <h2>Find a Tour on a Segway\u00c2\u00ae PT now!</h2>\n            <a href=\"#\" class=\"cta-button\">Find a Tour Now</a>\n        </div>",
                     "target": [
                       ".cta"
                     ]
@@ -631,7 +640,7 @@
                 "height": 23
               },
               "snippet": "<div class=\"breadcrumb\">",
-              "nodeLabel": "/   / USA / SOUTH CAROLINA",
+              "nodeLabel": "/ \u00a0 / USA / SOUTH CAROLINA",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.7 (foreground color: #999999, background color: #f9f9f9, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -652,7 +661,7 @@
                       "height": 2963
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "/   / USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Caro…"
+                    "nodeLabel": "/ \u00a0 / USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Caro\u2026"
                   }
                 }
               ]
@@ -727,7 +736,7 @@
                       "height": 2478
                     },
                     "snippet": "<div class=\"content-main\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSo…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSo\u2026"
                   }
                 }
               ]
@@ -776,7 +785,7 @@
                       "height": 2478
                     },
                     "snippet": "<div class=\"content-main\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSo…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSo\u2026"
                   }
                 }
               ]
@@ -825,7 +834,7 @@
                       "height": 2478
                     },
                     "snippet": "<div class=\"content-main\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSo…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSo\u2026"
                   }
                 }
               ]
@@ -874,7 +883,7 @@
                       "height": 2478
                     },
                     "snippet": "<div class=\"content-main\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSo…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSo\u2026"
                   }
                 }
               ]
@@ -923,7 +932,7 @@
                       "height": 2478
                     },
                     "snippet": "<div class=\"content-main\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSo…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSo\u2026"
                   }
                 }
               ]
@@ -972,7 +981,7 @@
                       "height": 2478
                     },
                     "snippet": "<div class=\"content-main\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSo…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSo\u2026"
                   }
                 }
               ]
@@ -1021,7 +1030,7 @@
                       "height": 182
                     },
                     "snippet": "<div class=\"cta\">",
-                    "nodeLabel": "Find a Tour on a SegwayÂ® PT now!\nFind a Tour Now"
+                    "nodeLabel": "Find a Tour on a Segway\u00c2\u00ae PT now!\nFind a Tour Now"
                   }
                 }
               ]

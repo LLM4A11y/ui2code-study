@@ -2,12 +2,41 @@
   "summary": {
     "timestamp": "2025-07-16-19-50",
     "files_processed": 53,
-    "total_automatic_nodes_failed": 31,
-    "average_automatic_nodes_failed_per_file": 0.58
+    "total_automatic_nodes_failed": 76,
+    "average_automatic_nodes_failed_per_file": 1.43
   },
   "issues_automatic": [
     {
       "rank": 1,
+      "name": "Alt-Text; Images;",
+      "impact": "critical",
+      "amount_nodes_failed": 45,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 45,
+          "amount_relative": 45,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      },
+      "ids_distribution": {}
+    },
+    {
+      "rank": 2,
       "name": "Color Contrast; Text;",
       "impact": "serious",
       "amount_nodes_failed": 18,
@@ -91,7 +120,7 @@
       }
     },
     {
-      "rank": 2,
+      "rank": 3,
       "name": "Size; Target Size; Element too small",
       "impact": "serious",
       "amount_nodes_failed": 6,
@@ -129,7 +158,7 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "Landmark & Region; Missing & Unique Landmarks;",
       "impact": "moderate",
       "amount_nodes_failed": 4,
@@ -168,7 +197,7 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "Headings; Wrong Order, Empty & Missing Headings;",
       "impact": "moderate",
       "amount_nodes_failed": 2,
@@ -205,7 +234,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "Links; Distinguishable Color;",
       "impact": "serious",
       "amount_nodes_failed": 1,
@@ -242,13 +271,13 @@
   ],
   "distribution_sources_automatic": {
     "absolute": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 45,
       "axe-core": 25,
       "pa11y": 18,
       "lighthouse": 21
     },
     "relative": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 45,
       "axe-core": 25,
       "pa11y": 0,
       "lighthouse": 6

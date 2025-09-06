@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -728,7 +720,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"footer\">\nÂ© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n</div>",
+            "html": "<div class=\"footer\">\n\u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n</div>",
             "target": [
               ".footer"
             ],
@@ -1320,7 +1312,7 @@
                 "height": 20
               },
               "snippet": "<div class=\"footer\">",
-              "nodeLabel": "Â© Official Data Foundation / Alioth LLC. Contact Privacy policy",
+              "nodeLabel": "\u00c2\u00a9 Official Data Foundation / Alioth LLC. Contact Privacy policy",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -1445,7 +1437,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"red-header\">â Citrus fruits price inflation since 2022</div>",
+            "html": "<div class=\"red-header\">\u00e2\u0098\u0085 Citrus fruits price inflation since 2022</div>",
             "target": [
               ".red-header"
             ],
@@ -1473,7 +1465,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<h1>Citrus fruits priced at $20 in 2022 â $19.66 in 2023</h1>",
+            "html": "<h1>Citrus fruits priced at $20 in 2022 \u00e2\u0086\u0092 $19.66 in 2023</h1>",
             "target": [
               "h1"
             ],
@@ -1781,7 +1773,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\nÂ© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n</div>",
+            "html": "<div class=\"footer\">\n\u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n</div>",
             "target": [
               ".footer"
             ],
@@ -1820,7 +1812,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\nÂ© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n</div>",
+                    "html": "<div class=\"footer\">\n\u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n</div>",
                     "target": [
                       ".footer"
                     ]
@@ -1834,7 +1826,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\nÂ© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n</div>",
+                    "html": "<div class=\"footer\">\n\u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n</div>",
                     "target": [
                       ".footer"
                     ]
@@ -1873,7 +1865,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\nÂ© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n</div>",
+                    "html": "<div class=\"footer\">\n\u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n</div>",
                     "target": [
                       ".footer"
                     ]
@@ -1887,7 +1879,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\nÂ© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n</div>",
+                    "html": "<div class=\"footer\">\n\u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n</div>",
                     "target": [
                       ".footer"
                     ]
@@ -1949,7 +1941,7 @@
                       "height": 20
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Â© Official Data Foundation / Alioth LLC. Contact Privacy policy"
+                    "nodeLabel": "\u00c2\u00a9 Official Data Foundation / Alioth LLC. Contact Privacy policy"
                   }
                 }
               ]
@@ -1998,7 +1990,7 @@
                       "height": 20
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Â© Official Data Foundation / Alioth LLC. Contact Privacy policy"
+                    "nodeLabel": "\u00c2\u00a9 Official Data Foundation / Alioth LLC. Contact Privacy policy"
                   }
                 }
               ]

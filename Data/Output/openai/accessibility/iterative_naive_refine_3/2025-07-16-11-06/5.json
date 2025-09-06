@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -43,7 +35,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<footer class=\"footer\">\n        Powered by Blogger<br>\n        2004ÃÂ¢2023 Digital Inspiration\n    </footer>",
+                    "html": "<footer class=\"footer\">\n        Powered by Blogger<br>\n        2004\u00c3\u0083\u00c2\u00a2\u0080\u00932023 Digital Inspiration\n    </footer>",
                     "target": [
                       ".footer"
                     ]
@@ -79,7 +71,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer class=\"footer\">\n        Powered by Blogger<br>\n        2004ÃÂ¢2023 Digital Inspiration\n    </footer>",
+                    "html": "<footer class=\"footer\">\n        Powered by Blogger<br>\n        2004\u00c3\u0083\u00c2\u00a2\u0080\u00932023 Digital Inspiration\n    </footer>",
                     "target": [
                       ".footer"
                     ]

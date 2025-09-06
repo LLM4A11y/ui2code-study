@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -188,7 +180,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"tagline\">Physician entrepreneur disrupting the healthcare status quo ð</div>",
+            "html": "<div class=\"tagline\">Physician entrepreneur disrupting the healthcare status quo \u00f0\u009f\u009a\u0080</div>",
             "target": [
               ".tagline"
             ],
@@ -216,7 +208,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<a href=\"#\" class=\"button\">Join Medicine Forward! â©</a>",
+            "html": "<a href=\"#\" class=\"button\">Join Medicine Forward! \u00e2\u008f\u00a9</a>",
             "target": [
               "a:nth-child(4)"
             ],
@@ -244,7 +236,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<a href=\"#\" class=\"button\">Burnout Warriors ð</a>",
+            "html": "<a href=\"#\" class=\"button\">Burnout Warriors \u00f0\u009f\u0091\u0095</a>",
             "target": [
               "a:nth-child(6)"
             ],
@@ -272,7 +264,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<a href=\"#\" class=\"button\">Check burnout risk (2-min) ð¥</a>",
+            "html": "<a href=\"#\" class=\"button\">Check burnout risk (2-min) \u00f0\u009f\u0094\u00a5</a>",
             "target": [
               "a:nth-child(8)"
             ],
@@ -300,7 +292,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<a href=\"#\" class=\"button\">Download SwiftWire EHR macro app (free &amp; open source) ð»</a>",
+            "html": "<a href=\"#\" class=\"button\">Download SwiftWire EHR macro app (free &amp; open source) \u00f0\u009f\u0092\u00bb</a>",
             "target": [
               "a:nth-child(10)"
             ],
@@ -328,7 +320,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"mission\">On a mission to â¬ï¸ compassion &amp; flourishing for everyone â¤ï¸</div>",
+            "html": "<div class=\"mission\">On a mission to \u00e2\u00ac\u0086\u00ef\u00b8\u008f compassion &amp; flourishing for everyone \u00e2\u009d\u00a4\u00ef\u00b8\u008f</div>",
             "target": [
               ".mission"
             ],

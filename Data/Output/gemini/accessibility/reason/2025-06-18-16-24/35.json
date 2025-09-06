@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -399,7 +408,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">Far from home...in the GaspÃ©.</a>",
+            "html": "<a href=\"#\">Far from home...in the Gasp\u00c3\u00a9.</a>",
             "target": [
               "li:nth-child(2) > a"
             ],
@@ -777,7 +786,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>Mountain bike trail development organization ADSVMQ officially transfers mtn bike trail development activities to VÃ©lo QuÃ©bec</p>",
+            "html": "<p>Mountain bike trail development organization ADSVMQ officially transfers mtn bike trail development activities to V\u00c3\u00a9lo Qu\u00c3\u00a9bec</p>",
             "target": [
               ".footer > p"
             ],
@@ -924,14 +933,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.16:1. Recommendation:  change background to #001730.",
-          "description": "<a href=\"#\">Far from home...in the GaspÃ©.</a>",
+          "description": "<a href=\"#\">Far from home...in the Gasp\u00c3\u00a9.</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.16:1. Recommendation:  change background to #001730.",
-            "context": "<a href=\"#\">Far from home...in the GaspÃ©.</a>",
+            "context": "<a href=\"#\">Far from home...in the Gasp\u00c3\u00a9.</a>",
             "selector": "html > body > div > div:nth-child(7) > ul > li:nth-child(2) > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1149,7 +1158,7 @@
                       "height": 2278
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, …"
+                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, \u2026"
                   }
                 }
               ]
@@ -1198,7 +1207,7 @@
                       "height": 2278
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, …"
+                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, \u2026"
                   }
                 }
               ]
@@ -1247,7 +1256,7 @@
                       "height": 2278
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, …"
+                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, \u2026"
                   }
                 }
               ]
@@ -1296,7 +1305,7 @@
                       "height": 2278
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, …"
+                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, \u2026"
                   }
                 }
               ]
@@ -1345,7 +1354,7 @@
                       "height": 2278
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, …"
+                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, \u2026"
                   }
                 }
               ]
@@ -1394,7 +1403,7 @@
                       "height": 2278
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, …"
+                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, \u2026"
                   }
                 }
               ]
@@ -1443,7 +1452,7 @@
                       "height": 2278
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, …"
+                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, \u2026"
                   }
                 }
               ]
@@ -1492,7 +1501,7 @@
                       "height": 2278
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, …"
+                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, \u2026"
                   }
                 }
               ]
@@ -1520,7 +1529,7 @@
                 "height": 18
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "Far from home...in the GaspÃ©.",
+              "nodeLabel": "Far from home...in the Gasp\u00c3\u00a9.",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #007bff, background color: #001f3f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1541,7 +1550,7 @@
                       "height": 2278
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, …"
+                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, \u2026"
                   }
                 }
               ]
@@ -1590,7 +1599,7 @@
                       "height": 2278
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, …"
+                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, \u2026"
                   }
                 }
               ]
@@ -1639,7 +1648,7 @@
                       "height": 2278
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, …"
+                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, \u2026"
                   }
                 }
               ]
@@ -1688,7 +1697,7 @@
                       "height": 2278
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, …"
+                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, \u2026"
                   }
                 }
               ]
@@ -1737,7 +1746,7 @@
                       "height": 2278
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, …"
+                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, \u2026"
                   }
                 }
               ]
@@ -1786,7 +1795,7 @@
                       "height": 2278
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, …"
+                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, \u2026"
                   }
                 }
               ]
@@ -1835,7 +1844,7 @@
                       "height": 2278
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, …"
+                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, \u2026"
                   }
                 }
               ]
@@ -1884,7 +1893,7 @@
                       "height": 2278
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, …"
+                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, \u2026"
                   }
                 }
               ]
@@ -1933,7 +1942,7 @@
                       "height": 2278
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, …"
+                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, \u2026"
                   }
                 }
               ]
@@ -1961,7 +1970,7 @@
                 "height": 54
               },
               "snippet": "<p>",
-              "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi…",
+              "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.69 (foreground color: #777777, background color: #001f3f, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1982,7 +1991,7 @@
                       "height": 2278
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, …"
+                    "nodeLabel": "Cycle Fun Montreal\n\nCycling inside and outside Montreal.\n\nTHURSDAY, AUGUST 09, \u2026"
                   }
                 }
               ]
@@ -2096,7 +2105,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p class=\"post-content\">Don't get the impression that QuÃ©bec has no trails. <a href=\"#\">Click here</a> to go to the quÃ©bec mtn bike trail directory at AllezY.</p>",
+                    "html": "<p class=\"post-content\">Don't get the impression that Qu\u00c3\u00a9bec has no trails. <a href=\"#\">Click here</a> to go to the qu\u00c3\u00a9bec mtn bike trail directory at AllezY.</p>",
                     "target": [
                       ".post-content:nth-child(5)"
                     ]
@@ -2110,7 +2119,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p class=\"post-content\">Don't get the impression that QuÃ©bec has no trails. <a href=\"#\">Click here</a> to go to the quÃ©bec mtn bike trail directory at AllezY.</p>",
+                    "html": "<p class=\"post-content\">Don't get the impression that Qu\u00c3\u00a9bec has no trails. <a href=\"#\">Click here</a> to go to the qu\u00c3\u00a9bec mtn bike trail directory at AllezY.</p>",
                     "target": [
                       ".post-content:nth-child(5)"
                     ]
@@ -2202,7 +2211,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p class=\"post-content\">You can sign up to VÃ©lo QuÃ©bec's new mountain bike infolettre <a href=\"#\">here</a>. You can also join VÃ©lo QuÃ©bec because the more members they have, the greater is their ability to push for bike development on and off the roads of Quebec.</p>",
+                    "html": "<p class=\"post-content\">You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec's new mountain bike infolettre <a href=\"#\">here</a>. You can also join V\u00c3\u00a9lo Qu\u00c3\u00a9bec because the more members they have, the greater is their ability to push for bike development on and off the roads of Quebec.</p>",
                     "target": [
                       ".post-content:nth-child(7)"
                     ]
@@ -2216,7 +2225,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p class=\"post-content\">You can sign up to VÃ©lo QuÃ©bec's new mountain bike infolettre <a href=\"#\">here</a>. You can also join VÃ©lo QuÃ©bec because the more members they have, the greater is their ability to push for bike development on and off the roads of Quebec.</p>",
+                    "html": "<p class=\"post-content\">You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec's new mountain bike infolettre <a href=\"#\">here</a>. You can also join V\u00c3\u00a9lo Qu\u00c3\u00a9bec because the more members they have, the greater is their ability to push for bike development on and off the roads of Quebec.</p>",
                     "target": [
                       ".post-content:nth-child(7)"
                     ]
@@ -2278,7 +2287,7 @@
                       "height": 67
                     },
                     "snippet": "<p class=\"post-content\">",
-                    "nodeLabel": "Don't get the impression that QuÃ©bec has no trails. Click here to go to the qu…"
+                    "nodeLabel": "Don't get the impression that Qu\u00c3\u00a9bec has no trails. Click here to go to the qu\u2026"
                   }
                 }
               ]
@@ -2376,7 +2385,7 @@
                       "height": 134
                     },
                     "snippet": "<p class=\"post-content\">",
-                    "nodeLabel": "You can sign up to VÃ©lo QuÃ©bec's new mountain bike infolettre here. You can a…"
+                    "nodeLabel": "You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec's new mountain bike infolettre here. You can a\u2026"
                   }
                 }
               ]
@@ -2446,7 +2455,7 @@
                 "height": 357
               },
               "snippet": "<ul>",
-              "nodeLabel": "More gravel, vacation pics\nFar from home...in the GaspÃ©.\nn\nSainte-Anne-des-Mon…",
+              "nodeLabel": "More gravel, vacation pics\nFar from home...in the Gasp\u00c3\u00a9.\nn\nSainte-Anne-des-Mon\u2026",
               "explanation": "Fix all of the following:\n  List element has direct children that are not allowed: #text"
             }
           }

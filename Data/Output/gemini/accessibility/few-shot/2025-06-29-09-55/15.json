@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -546,7 +538,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"footer\">\n        JokeBuddha.com Â© 2010-2023 <a href=\"#\">Terms &amp; Privacy</a><br>\n        We love <a href=\"#\">good humor</a> and obviously <a href=\"#\">hilarious jokes</a> followed by a healthy\n        laughter!\n    </div>",
+            "html": "<div class=\"footer\">\n        JokeBuddha.com \u00c2\u00a9 2010-2023 <a href=\"#\">Terms &amp; Privacy</a><br>\n        We love <a href=\"#\">good humor</a> and obviously <a href=\"#\">hilarious jokes</a> followed by a healthy\n        laughter!\n    </div>",
             "target": [
               ".footer"
             ],
@@ -1043,7 +1035,7 @@
                 "height": 95
               },
               "snippet": "<div class=\"footer\">",
-              "nodeLabel": "JokeBuddha.com Â© 2010-2023 Terms & Privacy\nWe love good humor and obviously hi…",
+              "nodeLabel": "JokeBuddha.com \u00c2\u00a9 2010-2023 Terms & Privacy\nWe love good humor and obviously hi\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -2329,7 +2321,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        JokeBuddha.com Â© 2010-2023 <a href=\"#\">Terms &amp; Privacy</a><br>\n        We love <a href=\"#\">good humor</a> and obviously <a href=\"#\">hilarious jokes</a> followed by a healthy\n        laughter!\n    </div>",
+            "html": "<div class=\"footer\">\n        JokeBuddha.com \u00c2\u00a9 2010-2023 <a href=\"#\">Terms &amp; Privacy</a><br>\n        We love <a href=\"#\">good humor</a> and obviously <a href=\"#\">hilarious jokes</a> followed by a healthy\n        laughter!\n    </div>",
             "target": [
               ".footer"
             ],
@@ -2368,7 +2360,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        JokeBuddha.com Â© 2010-2023 <a href=\"#\">Terms &amp; Privacy</a><br>\n        We love <a href=\"#\">good humor</a> and obviously <a href=\"#\">hilarious jokes</a> followed by a healthy\n        laughter!\n    </div>",
+                    "html": "<div class=\"footer\">\n        JokeBuddha.com \u00c2\u00a9 2010-2023 <a href=\"#\">Terms &amp; Privacy</a><br>\n        We love <a href=\"#\">good humor</a> and obviously <a href=\"#\">hilarious jokes</a> followed by a healthy\n        laughter!\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -2382,7 +2374,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        JokeBuddha.com Â© 2010-2023 <a href=\"#\">Terms &amp; Privacy</a><br>\n        We love <a href=\"#\">good humor</a> and obviously <a href=\"#\">hilarious jokes</a> followed by a healthy\n        laughter!\n    </div>",
+                    "html": "<div class=\"footer\">\n        JokeBuddha.com \u00c2\u00a9 2010-2023 <a href=\"#\">Terms &amp; Privacy</a><br>\n        We love <a href=\"#\">good humor</a> and obviously <a href=\"#\">hilarious jokes</a> followed by a healthy\n        laughter!\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -2421,7 +2413,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        JokeBuddha.com Â© 2010-2023 <a href=\"#\">Terms &amp; Privacy</a><br>\n        We love <a href=\"#\">good humor</a> and obviously <a href=\"#\">hilarious jokes</a> followed by a healthy\n        laughter!\n    </div>",
+                    "html": "<div class=\"footer\">\n        JokeBuddha.com \u00c2\u00a9 2010-2023 <a href=\"#\">Terms &amp; Privacy</a><br>\n        We love <a href=\"#\">good humor</a> and obviously <a href=\"#\">hilarious jokes</a> followed by a healthy\n        laughter!\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -2435,7 +2427,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        JokeBuddha.com Â© 2010-2023 <a href=\"#\">Terms &amp; Privacy</a><br>\n        We love <a href=\"#\">good humor</a> and obviously <a href=\"#\">hilarious jokes</a> followed by a healthy\n        laughter!\n    </div>",
+                    "html": "<div class=\"footer\">\n        JokeBuddha.com \u00c2\u00a9 2010-2023 <a href=\"#\">Terms &amp; Privacy</a><br>\n        We love <a href=\"#\">good humor</a> and obviously <a href=\"#\">hilarious jokes</a> followed by a healthy\n        laughter!\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -2474,7 +2466,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        JokeBuddha.com Â© 2010-2023 <a href=\"#\">Terms &amp; Privacy</a><br>\n        We love <a href=\"#\">good humor</a> and obviously <a href=\"#\">hilarious jokes</a> followed by a healthy\n        laughter!\n    </div>",
+                    "html": "<div class=\"footer\">\n        JokeBuddha.com \u00c2\u00a9 2010-2023 <a href=\"#\">Terms &amp; Privacy</a><br>\n        We love <a href=\"#\">good humor</a> and obviously <a href=\"#\">hilarious jokes</a> followed by a healthy\n        laughter!\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -2488,7 +2480,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        JokeBuddha.com Â© 2010-2023 <a href=\"#\">Terms &amp; Privacy</a><br>\n        We love <a href=\"#\">good humor</a> and obviously <a href=\"#\">hilarious jokes</a> followed by a healthy\n        laughter!\n    </div>",
+                    "html": "<div class=\"footer\">\n        JokeBuddha.com \u00c2\u00a9 2010-2023 <a href=\"#\">Terms &amp; Privacy</a><br>\n        We love <a href=\"#\">good humor</a> and obviously <a href=\"#\">hilarious jokes</a> followed by a healthy\n        laughter!\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -2550,7 +2542,7 @@
                       "height": 95
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "JokeBuddha.com Â© 2010-2023 Terms & Privacy\nWe love good humor and obviously hi…"
+                    "nodeLabel": "JokeBuddha.com \u00c2\u00a9 2010-2023 Terms & Privacy\nWe love good humor and obviously hi\u2026"
                   }
                 }
               ]
@@ -2599,7 +2591,7 @@
                       "height": 95
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "JokeBuddha.com Â© 2010-2023 Terms & Privacy\nWe love good humor and obviously hi…"
+                    "nodeLabel": "JokeBuddha.com \u00c2\u00a9 2010-2023 Terms & Privacy\nWe love good humor and obviously hi\u2026"
                   }
                 }
               ]
@@ -2648,7 +2640,7 @@
                       "height": 95
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "JokeBuddha.com Â© 2010-2023 Terms & Privacy\nWe love good humor and obviously hi…"
+                    "nodeLabel": "JokeBuddha.com \u00c2\u00a9 2010-2023 Terms & Privacy\nWe love good humor and obviously hi\u2026"
                   }
                 }
               ]

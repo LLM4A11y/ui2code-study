@@ -2,8 +2,8 @@
   "summary": {
     "timestamp": "2025-07-16-09-01",
     "files_processed": 53,
-    "total_automatic_nodes_failed": 270,
-    "average_automatic_nodes_failed_per_file": 5.09
+    "total_automatic_nodes_failed": 368,
+    "average_automatic_nodes_failed_per_file": 6.94
   },
   "issues_automatic": [
     {
@@ -555,6 +555,35 @@
     },
     {
       "rank": 2,
+      "name": "Alt-Text; Images;",
+      "impact": "critical",
+      "amount_nodes_failed": 98,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 98,
+          "amount_relative": 98,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      },
+      "ids_distribution": {}
+    },
+    {
+      "rank": 3,
       "name": "Links; Distinguishable Color;",
       "impact": "serious",
       "amount_nodes_failed": 18,
@@ -619,7 +648,7 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "Landmark & Region; Missing & Unique Landmarks;",
       "impact": "moderate",
       "amount_nodes_failed": 17,
@@ -669,7 +698,7 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "Size; Target Size; Element too small",
       "impact": "serious",
       "amount_nodes_failed": 9,
@@ -710,7 +739,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "Headings; Wrong Order, Empty & Missing Headings;",
       "impact": "moderate",
       "amount_nodes_failed": 2,
@@ -747,7 +776,7 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "Tables; Scope Attribute;",
       "impact": "serious",
       "amount_nodes_failed": 1,
@@ -780,7 +809,7 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "Tables; Table Headers;",
       "impact": "minor",
       "amount_nodes_failed": 1,
@@ -815,13 +844,13 @@
   ],
   "distribution_sources_automatic": {
     "absolute": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 98,
       "axe-core": 250,
       "pa11y": 93,
       "lighthouse": 231
     },
     "relative": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 98,
       "axe-core": 250,
       "pa11y": 11,
       "lighthouse": 9

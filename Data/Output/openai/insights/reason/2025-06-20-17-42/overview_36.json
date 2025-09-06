@@ -11,10 +11,6 @@
     "total_nodes_checked": 51,
     "total_nodes_failed": 3
   },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
-  },
   "details_checks": {
     "Color Contrast; Text;": {
       "impact": "serious",
@@ -59,8 +55,8 @@
           "amount": 2,
           "amount_relative": 0,
           "ids": [
-            "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main",
-            "https://dequeuniversity.com/rules/axe/4.10/region"
+            "https://dequeuniversity.com/rules/axe/4.10/region",
+            "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main"
           ]
         },
         "pa11y": {

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -568,7 +560,7 @@
                       "height": 84
                     },
                     "snippet": "<div>",
-                    "nodeLabel": "Charlotte Culture Guide is a project of ASC.\nCopyright ÃÃÂ© 2023, Arts and S…"
+                    "nodeLabel": "Charlotte Culture Guide is a project of ASC.\nCopyright \u00c3\u0083\u0082\u00c3\u0082\u00c2\u00a9 2023, Arts and S\u2026"
                   }
                 }
               ]

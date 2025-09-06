@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 4,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -691,7 +700,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n            <a href=\"#\">Lo-Fi Version</a>\n            Time is now: 30th November 2023 - 10:02 AM\n            <br>\n            Powered By <a href=\"#\">IP.Board</a> Â© 2023 <a href=\"#\">IPS, Inc.</a>\n            <br>\n            Licensed to: Seahorse Dot Org Limited\n        </div>",
+                    "html": "<div class=\"footer\">\n            <a href=\"#\">Lo-Fi Version</a>\n            Time is now: 30th November 2023 - 10:02 AM\n            <br>\n            Powered By <a href=\"#\">IP.Board</a> \u00c2\u00a9 2023 <a href=\"#\">IPS, Inc.</a>\n            <br>\n            Licensed to: Seahorse Dot Org Limited\n        </div>",
                     "target": [
                       ".footer"
                     ]
@@ -705,7 +714,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n            <a href=\"#\">Lo-Fi Version</a>\n            Time is now: 30th November 2023 - 10:02 AM\n            <br>\n            Powered By <a href=\"#\">IP.Board</a> Â© 2023 <a href=\"#\">IPS, Inc.</a>\n            <br>\n            Licensed to: Seahorse Dot Org Limited\n        </div>",
+                    "html": "<div class=\"footer\">\n            <a href=\"#\">Lo-Fi Version</a>\n            Time is now: 30th November 2023 - 10:02 AM\n            <br>\n            Powered By <a href=\"#\">IP.Board</a> \u00c2\u00a9 2023 <a href=\"#\">IPS, Inc.</a>\n            <br>\n            Licensed to: Seahorse Dot Org Limited\n        </div>",
                     "target": [
                       ".footer"
                     ]
@@ -744,7 +753,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n            <a href=\"#\">Lo-Fi Version</a>\n            Time is now: 30th November 2023 - 10:02 AM\n            <br>\n            Powered By <a href=\"#\">IP.Board</a> Â© 2023 <a href=\"#\">IPS, Inc.</a>\n            <br>\n            Licensed to: Seahorse Dot Org Limited\n        </div>",
+                    "html": "<div class=\"footer\">\n            <a href=\"#\">Lo-Fi Version</a>\n            Time is now: 30th November 2023 - 10:02 AM\n            <br>\n            Powered By <a href=\"#\">IP.Board</a> \u00c2\u00a9 2023 <a href=\"#\">IPS, Inc.</a>\n            <br>\n            Licensed to: Seahorse Dot Org Limited\n        </div>",
                     "target": [
                       ".footer"
                     ]
@@ -758,7 +767,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n            <a href=\"#\">Lo-Fi Version</a>\n            Time is now: 30th November 2023 - 10:02 AM\n            <br>\n            Powered By <a href=\"#\">IP.Board</a> Â© 2023 <a href=\"#\">IPS, Inc.</a>\n            <br>\n            Licensed to: Seahorse Dot Org Limited\n        </div>",
+                    "html": "<div class=\"footer\">\n            <a href=\"#\">Lo-Fi Version</a>\n            Time is now: 30th November 2023 - 10:02 AM\n            <br>\n            Powered By <a href=\"#\">IP.Board</a> \u00c2\u00a9 2023 <a href=\"#\">IPS, Inc.</a>\n            <br>\n            Licensed to: Seahorse Dot Org Limited\n        </div>",
                     "target": [
                       ".footer"
                     ]
@@ -797,7 +806,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n            <a href=\"#\">Lo-Fi Version</a>\n            Time is now: 30th November 2023 - 10:02 AM\n            <br>\n            Powered By <a href=\"#\">IP.Board</a> Â© 2023 <a href=\"#\">IPS, Inc.</a>\n            <br>\n            Licensed to: Seahorse Dot Org Limited\n        </div>",
+                    "html": "<div class=\"footer\">\n            <a href=\"#\">Lo-Fi Version</a>\n            Time is now: 30th November 2023 - 10:02 AM\n            <br>\n            Powered By <a href=\"#\">IP.Board</a> \u00c2\u00a9 2023 <a href=\"#\">IPS, Inc.</a>\n            <br>\n            Licensed to: Seahorse Dot Org Limited\n        </div>",
                     "target": [
                       ".footer"
                     ]
@@ -811,7 +820,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n            <a href=\"#\">Lo-Fi Version</a>\n            Time is now: 30th November 2023 - 10:02 AM\n            <br>\n            Powered By <a href=\"#\">IP.Board</a> Â© 2023 <a href=\"#\">IPS, Inc.</a>\n            <br>\n            Licensed to: Seahorse Dot Org Limited\n        </div>",
+                    "html": "<div class=\"footer\">\n            <a href=\"#\">Lo-Fi Version</a>\n            Time is now: 30th November 2023 - 10:02 AM\n            <br>\n            Powered By <a href=\"#\">IP.Board</a> \u00c2\u00a9 2023 <a href=\"#\">IPS, Inc.</a>\n            <br>\n            Licensed to: Seahorse Dot Org Limited\n        </div>",
                     "target": [
                       ".footer"
                     ]
@@ -1020,7 +1029,7 @@
                       "height": 59
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Lo-Fi Version Time is now: 30th November 2023 - 10:02 AM\nPowered By IP.Board Â©…"
+                    "nodeLabel": "Lo-Fi Version Time is now: 30th November 2023 - 10:02 AM\nPowered By IP.Board \u00c2\u00a9\u2026"
                   }
                 }
               ]
@@ -1069,7 +1078,7 @@
                       "height": 59
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Lo-Fi Version Time is now: 30th November 2023 - 10:02 AM\nPowered By IP.Board Â©…"
+                    "nodeLabel": "Lo-Fi Version Time is now: 30th November 2023 - 10:02 AM\nPowered By IP.Board \u00c2\u00a9\u2026"
                   }
                 }
               ]
@@ -1118,7 +1127,7 @@
                       "height": 59
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Lo-Fi Version Time is now: 30th November 2023 - 10:02 AM\nPowered By IP.Board Â©…"
+                    "nodeLabel": "Lo-Fi Version Time is now: 30th November 2023 - 10:02 AM\nPowered By IP.Board \u00c2\u00a9\u2026"
                   }
                 }
               ]

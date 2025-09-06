@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -126,7 +135,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p class=\"user-bio\">I have more doppelgÃ¤ngers than you have\n                                friends.</p>",
+            "html": "<p class=\"user-bio\">I have more doppelg\u00c3\u00a4ngers than you have\n                                friends.</p>",
             "target": [
               "li:nth-child(5) > .info-container > p"
             ],
@@ -180,7 +189,7 @@
                 "height": 42
               },
               "snippet": "<p class=\"user-bio\">",
-              "nodeLabel": "Thinker. Author. Explorer of edges. Top writer in Writing. Founder, \"Just Curio…",
+              "nodeLabel": "Thinker. Author. Explorer of edges. Top writer in Writing. Founder, \"Just Curio\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -206,7 +215,7 @@
                 "height": 14
               },
               "snippet": "<p class=\"user-bio\">",
-              "nodeLabel": "I have more doppelgÃ¤ngers than you have friends.",
+              "nodeLabel": "I have more doppelg\u00c3\u00a4ngers than you have friends.",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -515,7 +524,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"info-container\">\n                            <h4 class=\"user-name\">Suparnna Anilkumar</h4>\n                            <p class=\"user-bio\">I have more doppelgÃ¤ngers than you have\n                                friends.</p>\n                        </div>",
+            "html": "<div class=\"info-container\">\n                            <h4 class=\"user-name\">Suparnna Anilkumar</h4>\n                            <p class=\"user-bio\">I have more doppelg\u00c3\u00a4ngers than you have\n                                friends.</p>\n                        </div>",
             "target": [
               "li:nth-child(5) > .info-container"
             ],

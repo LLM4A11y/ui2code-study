@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -50,7 +42,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer>\n            Designed &amp; Hosted by Wrenchtech Guy | Â©2017 Exchange Club of the Round Lake Area\n        </footer>",
+                    "html": "<footer>\n            Designed &amp; Hosted by Wrenchtech Guy | \u00c2\u00a92017 Exchange Club of the Round Lake Area\n        </footer>",
                     "target": [
                       "footer"
                     ]
@@ -63,7 +55,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<footer>\n            Designed &amp; Hosted by Wrenchtech Guy | Â©2017 Exchange Club of the Round Lake Area\n        </footer>",
+            "html": "<footer>\n            Designed &amp; Hosted by Wrenchtech Guy | \u00c2\u00a92017 Exchange Club of the Round Lake Area\n        </footer>",
             "target": [
               "footer"
             ],
@@ -108,7 +100,7 @@
                 "height": 79
               },
               "snippet": "<footer>",
-              "nodeLabel": "Designed & Hosted by Wrenchtech Guy | Â©2017 Exchange Club of the Round Lake Ar…",
+              "nodeLabel": "Designed & Hosted by Wrenchtech Guy | \u00c2\u00a92017 Exchange Club of the Round Lake Ar\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.36 (foreground color: #888888, background color: #f8f9fa, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -181,7 +173,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<h1>May 2011 Hero â U.S. Marine LCpl Alejandro Macias</h1>",
+            "html": "<h1>May 2011 Hero \u00e2\u0080\u0093 U.S. Marine LCpl Alejandro Macias</h1>",
             "target": [
               "h1"
             ],

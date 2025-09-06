@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -225,7 +217,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<h1>Citrus fruits priced at $20 in 2022 â $19.66 in 2023</h1>",
+            "html": "<h1>Citrus fruits priced at $20 in 2022 \u00e2\u0086\u0092 $19.66 in 2023</h1>",
             "target": [
               "h1"
             ],
@@ -897,7 +889,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<p>Â» <a href=\"#\">Read more about inflation and investment.</a></p>",
+            "html": "<p>\u00c2\u00bb <a href=\"#\">Read more about inflation and investment.</a></p>",
             "target": [
               "p:nth-child(17)"
             ],

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -67,7 +59,7 @@
                 "height": 387
               },
               "snippet": "<section class=\"content\" role=\"region\">",
-              "nodeLabel": "Singles Bonogin\n\nFinding singles in Bonogin is fun and easy with justsaygday.co…",
+              "nodeLabel": "Singles Bonogin\n\nFinding singles in Bonogin is fun and easy with justsaygday.co\u2026",
               "explanation": "Fix any of the following:\n  ARIA role region is not allowed for given element"
             }
           }
@@ -210,7 +202,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"site-info\" role=\"contentinfo\">\n        <span>ÃÂ© Copyright notice - Site design and content copyright justsaygday.com</span>\n        <span>Individuals pictured are models and are used for illustrative purposes only.</span>\n    </div>",
+                    "html": "<div class=\"site-info\" role=\"contentinfo\">\n        <span>\u00c3\u0082\u00c2\u00a9 Copyright notice - Site design and content copyright justsaygday.com</span>\n        <span>Individuals pictured are models and are used for illustrative purposes only.</span>\n    </div>",
                     "target": [
                       ".site-info"
                     ]

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -63,7 +55,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">Continue Reading â</a>",
+            "html": "<a href=\"#\">Continue Reading \u00e2\u0086\u0092</a>",
             "target": [
               "a"
             ],
@@ -105,7 +97,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<footer class=\"footer\">\n        Â© 2023 free mp4 movie. All rights reserved.<br>\n        by aThemes\n    </footer>",
+            "html": "<footer class=\"footer\">\n        \u00c2\u00a9 2023 free mp4 movie. All rights reserved.<br>\n        by aThemes\n    </footer>",
             "target": [
               "footer"
             ],
@@ -116,14 +108,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4:1. Recommendation:  change text colour to #e00.",
-          "description": "<a href=\"#\">Continue Reading â</a>",
+          "description": "<a href=\"#\">Continue Reading \u00e2\u0086\u0092</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4:1. Recommendation:  change text colour to #e00.",
-            "context": "<a href=\"#\">Continue Reading â</a>",
+            "context": "<a href=\"#\">Continue Reading \u00e2\u0086\u0092</a>",
             "selector": "html > body > div > div > div:nth-child(2) > p:nth-child(5) > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -133,14 +125,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.61:1. Recommendation:  change text colour to #707070.",
-          "description": "<footer class=\"footer\">\n        Â© 2023 free mp4 movie...</footer>",
+          "description": "<footer class=\"footer\">\n        \u00c2\u00a9 2023 free mp4 movie...</footer>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.61:1. Recommendation:  change text colour to #707070.",
-            "context": "<footer class=\"footer\">\n        Â© 2023 free mp4 movie...</footer>",
+            "context": "<footer class=\"footer\">\n        \u00c2\u00a9 2023 free mp4 movie...</footer>",
             "selector": "html > body > footer",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -167,7 +159,7 @@
                 "height": 18
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "Continue Reading â",
+              "nodeLabel": "Continue Reading \u00e2\u0086\u0092",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -188,7 +180,7 @@
                       "height": 975
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "Captain Marvel (2019)\n\nPosted on May 28, 2019 by Jessica Smith\n\nThe story follo…"
+                    "nodeLabel": "Captain Marvel (2019)\n\nPosted on May 28, 2019 by Jessica Smith\n\nThe story follo\u2026"
                   }
                 }
               ]
@@ -216,7 +208,7 @@
                 "height": 73
               },
               "snippet": "<footer class=\"footer\">",
-              "nodeLabel": "Â© 2023 free mp4 movie. All rights reserved.\nby aThemes",
+              "nodeLabel": "\u00c2\u00a9 2023 free mp4 movie. All rights reserved.\nby aThemes",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.61 (foreground color: #999999, background color: #f5f5f5, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {

@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -140,7 +149,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>Copyright Â© 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by <a href=\"#\">Corrective Crew</a></p>",
+            "html": "<p>Copyright \u00c2\u00a9 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by <a href=\"#\">Corrective Crew</a></p>",
             "target": [
               ".footer > p"
             ],
@@ -289,7 +298,7 @@
                 "height": 28
               },
               "snippet": "<p>",
-              "nodeLabel": "Copyright Â© 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by …",
+              "nodeLabel": "Copyright \u00c2\u00a9 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by \u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.32 (foreground color: #aaaaaa, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -500,7 +509,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        <p>Copyright Â© 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by <a href=\"#\">Corrective Crew</a></p>\n    </div>",
+            "html": "<div class=\"footer\">\n        <p>Copyright \u00c2\u00a9 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by <a href=\"#\">Corrective Crew</a></p>\n    </div>",
             "target": [
               ".footer"
             ],

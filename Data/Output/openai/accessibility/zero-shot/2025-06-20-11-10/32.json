@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -560,7 +552,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">top value options for Wednesdayâs nine-game slate</a>",
+            "html": "<a href=\"#\">top value options for Wednesday\u00e2\u0080\u0099s nine-game slate</a>",
             "target": [
               "li:nth-child(7) > a"
             ],
@@ -630,7 +622,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">other highlights from Tuesdayâs fantasy action</a>",
+            "html": "<a href=\"#\">other highlights from Tuesday\u00e2\u0080\u0099s fantasy action</a>",
             "target": [
               "li:nth-child(9) > a"
             ],
@@ -1164,7 +1156,7 @@
                 "height": 72
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "top value options for Wednesdayâs nine-game slate",
+              "nodeLabel": "top value options for Wednesday\u00e2\u0080\u0099s nine-game slate",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #3498db, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -1216,7 +1208,7 @@
                 "height": 96
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "other highlights from Tuesdayâs fantasy action",
+              "nodeLabel": "other highlights from Tuesday\u00e2\u0080\u0099s fantasy action",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #3498db, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }

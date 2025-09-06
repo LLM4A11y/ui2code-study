@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -247,7 +256,7 @@
                       "height": 353
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "The news is that the QuÃ©bec mountain bike trail development organization ADSVM…"
+                    "nodeLabel": "The news is that the Qu\u00c3\u00a9bec mountain bike trail development organization ADSVM\u2026"
                   }
                 }
               ]
@@ -296,7 +305,7 @@
                       "height": 353
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "The news is that the QuÃ©bec mountain bike trail development organization ADSVM…"
+                    "nodeLabel": "The news is that the Qu\u00c3\u00a9bec mountain bike trail development organization ADSVM\u2026"
                   }
                 }
               ]
@@ -345,7 +354,7 @@
                       "height": 353
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "The news is that the QuÃ©bec mountain bike trail development organization ADSVM…"
+                    "nodeLabel": "The news is that the Qu\u00c3\u00a9bec mountain bike trail development organization ADSVM\u2026"
                   }
                 }
               ]
@@ -448,7 +457,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<h2>Mountain bike trail development organization ADSVMQ officially transfers mtn bike trail development activities to VÃ©lo QuÃ©bec</h2>",
+            "html": "<h2>Mountain bike trail development organization ADSVMQ officially transfers mtn bike trail development activities to V\u00c3\u00a9lo Qu\u00c3\u00a9bec</h2>",
             "target": [
               "h2"
             ],
@@ -571,7 +580,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>QuÃ©bec is a goldmine of mountain bike tourism waiting for the trails to be built... <a href=\"#\">more</a></p>",
+                    "html": "<p>Qu\u00c3\u00a9bec is a goldmine of mountain bike tourism waiting for the trails to be built... <a href=\"#\">more</a></p>",
                     "target": [
                       ".content > p:nth-child(2)"
                     ]
@@ -585,7 +594,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>QuÃ©bec is a goldmine of mountain bike tourism waiting for the trails to be built... <a href=\"#\">more</a></p>",
+                    "html": "<p>Qu\u00c3\u00a9bec is a goldmine of mountain bike tourism waiting for the trails to be built... <a href=\"#\">more</a></p>",
                     "target": [
                       ".content > p:nth-child(2)"
                     ]
@@ -624,7 +633,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>You can sign up to VÃ©lo QuÃ©becâs new mountain bike infoletter <a href=\"#\">here</a>...</p>",
+                    "html": "<p>You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec\u00e2\u0080\u0099s new mountain bike infoletter <a href=\"#\">here</a>...</p>",
                     "target": [
                       "p:nth-child(3)"
                     ]
@@ -638,7 +647,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>You can sign up to VÃ©lo QuÃ©becâs new mountain bike infoletter <a href=\"#\">here</a>...</p>",
+                    "html": "<p>You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec\u00e2\u0080\u0099s new mountain bike infoletter <a href=\"#\">here</a>...</p>",
                     "target": [
                       "p:nth-child(3)"
                     ]
@@ -753,7 +762,7 @@
                       "height": 54
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "QuÃ©bec is a goldmine of mountain bike tourism waiting for the trails to be bui…"
+                    "nodeLabel": "Qu\u00c3\u00a9bec is a goldmine of mountain bike tourism waiting for the trails to be bui\u2026"
                   }
                 }
               ]
@@ -802,7 +811,7 @@
                       "height": 58
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "You can sign up to VÃ©lo QuÃ©becâs new mountain bike infoletter here..."
+                    "nodeLabel": "You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec\u00e2\u0080\u0099s new mountain bike infoletter here..."
                   }
                 }
               ]

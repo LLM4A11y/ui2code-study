@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -403,7 +395,7 @@
                 "height": 168
               },
               "snippet": "<p>",
-              "nodeLabel": "The mission of the Hargreaves Home Sales Team is to provide the premier custome…",
+              "nodeLabel": "The mission of the Hargreaves Home Sales Team is to provide the premier custome\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.18 (foreground color: #777777, background color: #f7f7f7, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -424,7 +416,7 @@
                       "height": 519
                     },
                     "snippet": "<div class=\"main-section\">",
-                    "nodeLabel": "Be part of our story\n\nThe mission of the Hargreaves Home Sales Team is to provi…"
+                    "nodeLabel": "Be part of our story\n\nThe mission of the Hargreaves Home Sales Team is to provi\u2026"
                   }
                 }
               ]
@@ -473,7 +465,7 @@
                       "height": 545
                     },
                     "snippet": "<div class=\"jobs-section\">",
-                    "nodeLabel": "We're hiring!\n\nWe're always looking for great talent. Check out our open jobs b…"
+                    "nodeLabel": "We're hiring!\n\nWe're always looking for great talent. Check out our open jobs b\u2026"
                   }
                 }
               ]
@@ -548,7 +540,7 @@
                       "height": 213
                     },
                     "snippet": "<div class=\"job-card\">",
-                    "nodeLabel": "Real Estate Sales Buyer's Agent\n\nEllicott City, MD, US\n\nThe Buyer Agent is an i…"
+                    "nodeLabel": "Real Estate Sales Buyer's Agent\n\nEllicott City, MD, US\n\nThe Buyer Agent is an i\u2026"
                   }
                 }
               ]
@@ -576,7 +568,7 @@
                 "height": 80
               },
               "snippet": "<p>",
-              "nodeLabel": "The Buyer Agent is an individual who is highly sociable, draws energy from work…",
+              "nodeLabel": "The Buyer Agent is an individual who is highly sociable, draws energy from work\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -597,7 +589,7 @@
                       "height": 213
                     },
                     "snippet": "<div class=\"job-card\">",
-                    "nodeLabel": "Real Estate Sales Buyer's Agent\n\nEllicott City, MD, US\n\nThe Buyer Agent is an i…"
+                    "nodeLabel": "Real Estate Sales Buyer's Agent\n\nEllicott City, MD, US\n\nThe Buyer Agent is an i\u2026"
                   }
                 }
               ]

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -1583,7 +1575,7 @@
                       "height": 152
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "Copyright 2023. All rights reserved. Privacy Policy - Terms & Conditions\nIf you…"
+                    "nodeLabel": "Copyright 2023. All rights reserved. Privacy Policy - Terms & Conditions\nIf you\u2026"
                   }
                 }
               ]
@@ -1632,7 +1624,7 @@
                       "height": 152
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "Copyright 2023. All rights reserved. Privacy Policy - Terms & Conditions\nIf you…"
+                    "nodeLabel": "Copyright 2023. All rights reserved. Privacy Policy - Terms & Conditions\nIf you\u2026"
                   }
                 }
               ]

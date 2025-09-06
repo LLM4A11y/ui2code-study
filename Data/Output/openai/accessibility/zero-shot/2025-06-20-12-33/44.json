@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -189,7 +198,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>I have more doppelgÃ¤ngers than you have friends.</p>",
+            "html": "<p>I have more doppelg\u00c3\u00a4ngers than you have friends.</p>",
             "target": [
               ".follower:nth-child(6) > .follower-info > p"
             ],
@@ -251,14 +260,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.95:1. Recommendation:  change text colour to #767676.",
-          "description": "<p>I have more doppelgÃ¤ngers than...</p>",
+          "description": "<p>I have more doppelg\u00c3\u00a4ngers than...</p>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.95:1. Recommendation:  change text colour to #767676.",
-            "context": "<p>I have more doppelgÃ¤ngers than...</p>",
+            "context": "<p>I have more doppelg\u00c3\u00a4ngers than...</p>",
             "selector": "html > body > div:nth-child(3) > div:nth-child(6) > div > p",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -383,7 +392,7 @@
                 "height": 64
               },
               "snippet": "<p>",
-              "nodeLabel": "Thinker. Author. Explorer of edges. Top writer in Writing, Founder, \"Just Curio…",
+              "nodeLabel": "Thinker. Author. Explorer of edges. Top writer in Writing, Founder, \"Just Curio\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -432,7 +441,7 @@
                 "height": 32
               },
               "snippet": "<p>",
-              "nodeLabel": "I have more doppelgÃ¤ngers than you have friends.",
+              "nodeLabel": "I have more doppelg\u00c3\u00a4ngers than you have friends.",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -864,7 +873,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"follower-info\">\n            <h2>Suparna Anilkumar</h2>\n            <p>I have more doppelgÃ¤ngers than you have friends.</p>\n        </div>",
+            "html": "<div class=\"follower-info\">\n            <h2>Suparna Anilkumar</h2>\n            <p>I have more doppelg\u00c3\u00a4ngers than you have friends.</p>\n        </div>",
             "target": [
               ".follower:nth-child(6) > .follower-info"
             ],

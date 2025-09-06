@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -368,7 +360,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        <img src=\"src/placeholder.jpg\" alt=\"Image Placeholder\">\n        <p>Â© Copyright 2009 COL Group, Indiana University</p>\n        <a href=\"#\">Web design released by Flash Gallery</a>\n    </div>",
+            "html": "<div class=\"footer\">\n        <img src=\"src/placeholder.jpg\" alt=\"Image Placeholder\">\n        <p>\u00c2\u00a9 Copyright 2009 COL Group, Indiana University</p>\n        <a href=\"#\">Web design released by Flash Gallery</a>\n    </div>",
             "target": [
               ".footer"
             ],
@@ -407,7 +399,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        <img src=\"src/placeholder.jpg\" alt=\"Image Placeholder\">\n        <p>Â© Copyright 2009 COL Group, Indiana University</p>\n        <a href=\"#\">Web design released by Flash Gallery</a>\n    </div>",
+                    "html": "<div class=\"footer\">\n        <img src=\"src/placeholder.jpg\" alt=\"Image Placeholder\">\n        <p>\u00c2\u00a9 Copyright 2009 COL Group, Indiana University</p>\n        <a href=\"#\">Web design released by Flash Gallery</a>\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -421,7 +413,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        <img src=\"src/placeholder.jpg\" alt=\"Image Placeholder\">\n        <p>Â© Copyright 2009 COL Group, Indiana University</p>\n        <a href=\"#\">Web design released by Flash Gallery</a>\n    </div>",
+                    "html": "<div class=\"footer\">\n        <img src=\"src/placeholder.jpg\" alt=\"Image Placeholder\">\n        <p>\u00c2\u00a9 Copyright 2009 COL Group, Indiana University</p>\n        <a href=\"#\">Web design released by Flash Gallery</a>\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -483,7 +475,7 @@
                       "height": 162
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Â© Copyright 2009 COL Group, Indiana University\n\nWeb design released by Flash G…"
+                    "nodeLabel": "\u00c2\u00a9 Copyright 2009 COL Group, Indiana University\n\nWeb design released by Flash G\u2026"
                   }
                 }
               ]

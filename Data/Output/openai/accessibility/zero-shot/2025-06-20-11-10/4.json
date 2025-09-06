@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -326,7 +318,7 @@
                       "height": 77
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Students accepted into the program will receive financial support consisting of…"
+                    "nodeLabel": "Students accepted into the program will receive financial support consisting of\u2026"
                   }
                 }
               ]
@@ -375,7 +367,7 @@
                       "height": 77
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Students accepted into the program will receive financial support consisting of…"
+                    "nodeLabel": "Students accepted into the program will receive financial support consisting of\u2026"
                   }
                 }
               ]
@@ -424,7 +416,7 @@
                       "height": 77
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "(See this student's sample spreadsheet showing calculation of pillar units and …"
+                    "nodeLabel": "(See this student's sample spreadsheet showing calculation of pillar units and \u2026"
                   }
                 }
               ]

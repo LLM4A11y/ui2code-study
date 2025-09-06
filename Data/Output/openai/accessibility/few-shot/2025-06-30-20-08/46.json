@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -189,7 +181,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"credit\">\n            So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17) | Copyright Â© 2012 - 2021 <a href=\"#\">Christian Watch</a><br>\n            Registered UK Charity Number 1095108\n        </div>",
+            "html": "<div class=\"credit\">\n            So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17) | Copyright \u00c2\u00a9 2012 - 2021 <a href=\"#\">Christian Watch</a><br>\n            Registered UK Charity Number 1095108\n        </div>",
             "target": [
               ".credit"
             ],
@@ -306,7 +298,7 @@
                       "height": 1506
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "26th May 2020\n\"Sanctify them through thy truth: thy word is truth.\" John 17:17\n…"
+                    "nodeLabel": "26th May 2020\n\"Sanctify them through thy truth: thy word is truth.\" John 17:17\n\u2026"
                   }
                 }
               ]
@@ -355,7 +347,7 @@
                       "height": 1506
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "26th May 2020\n\"Sanctify them through thy truth: thy word is truth.\" John 17:17\n…"
+                    "nodeLabel": "26th May 2020\n\"Sanctify them through thy truth: thy word is truth.\" John 17:17\n\u2026"
                   }
                 }
               ]
@@ -404,7 +396,7 @@
                       "height": 1506
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "26th May 2020\n\"Sanctify them through thy truth: thy word is truth.\" John 17:17\n…"
+                    "nodeLabel": "26th May 2020\n\"Sanctify them through thy truth: thy word is truth.\" John 17:17\n\u2026"
                   }
                 }
               ]
@@ -432,7 +424,7 @@
                 "height": 41
               },
               "snippet": "<div class=\"credit\">",
-              "nodeLabel": "So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17)…",
+              "nodeLabel": "So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17)\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #999999, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -453,7 +445,7 @@
                       "height": 1506
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "26th May 2020\n\"Sanctify them through thy truth: thy word is truth.\" John 17:17\n…"
+                    "nodeLabel": "26th May 2020\n\"Sanctify them through thy truth: thy word is truth.\" John 17:17\n\u2026"
                   }
                 }
               ]

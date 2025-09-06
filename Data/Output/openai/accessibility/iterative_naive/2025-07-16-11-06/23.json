@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -50,7 +42,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<header>\n        <h1>Alexito's World</h1>\n        <h2>A world of coding <span>ð»</span>, by Alejandro Martinez</h2>\n    </header>",
+                    "html": "<header>\n        <h1>Alexito's World</h1>\n        <h2>A world of coding <span>\u00f0\u009f\u0092\u00bb</span>, by Alejandro Martinez</h2>\n    </header>",
                     "target": [
                       "header"
                     ]
@@ -63,7 +55,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<h2>A world of coding <span>ð»</span>, by Alejandro Martinez</h2>",
+            "html": "<h2>A world of coding <span>\u00f0\u009f\u0092\u00bb</span>, by Alejandro Martinez</h2>",
             "target": [
               "header > h2"
             ],
@@ -92,7 +84,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<header>\n        <h1>Alexito's World</h1>\n        <h2>A world of coding <span>ð»</span>, by Alejandro Martinez</h2>\n    </header>",
+                    "html": "<header>\n        <h1>Alexito's World</h1>\n        <h2>A world of coding <span>\u00f0\u009f\u0092\u00bb</span>, by Alejandro Martinez</h2>\n    </header>",
                     "target": [
                       "header"
                     ]
@@ -105,7 +97,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<span>ð»</span>",
+            "html": "<span>\u00f0\u009f\u0092\u00bb</span>",
             "target": [
               "h2 > span"
             ],
@@ -326,14 +318,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.82:1. Recommendation:  change background to #060606.",
-          "description": "<h2>A world of coding <span>ð»</s...</h2>",
+          "description": "<h2>A world of coding <span>\u00f0\u009f\u0092\u00bb</s...</h2>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.82:1. Recommendation:  change background to #060606.",
-            "context": "<h2>A world of coding <span>ð»</s...</h2>",
+            "context": "<h2>A world of coding <span>\u00f0\u009f\u0092\u00bb</s...</h2>",
             "selector": "html > body > header > h2",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -343,14 +335,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.82:1. Recommendation:  change background to #060606.",
-          "description": "<span>ð»</span>",
+          "description": "<span>\u00f0\u009f\u0092\u00bb</span>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.82:1. Recommendation:  change background to #060606.",
-            "context": "<span>ð»</span>",
+            "context": "<span>\u00f0\u009f\u0092\u00bb</span>",
             "selector": "html > body > header > h2 > span",
             "runner": "htmlcs",
             "runnerExtras": {}

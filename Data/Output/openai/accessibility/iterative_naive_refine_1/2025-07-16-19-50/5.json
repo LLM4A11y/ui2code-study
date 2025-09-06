@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -223,7 +215,7 @@
                       "height": 126
                     },
                     "snippet": "<p class=\"author\">",
-                    "nodeLabel": "Richard, who works for a large Fortune 100 company, recently wrote on Facebook …"
+                    "nodeLabel": "Richard, who works for a large Fortune 100 company, recently wrote on Facebook \u2026"
                   }
                 }
               ]
@@ -272,7 +264,7 @@
                       "height": 90
                     },
                     "snippet": "<p class=\"post-content\">",
-                    "nodeLabel": "One of the available options is to use your mobile phone for uploading videos o…"
+                    "nodeLabel": "One of the available options is to use your mobile phone for uploading videos o\u2026"
                   }
                 }
               ]
@@ -321,7 +313,7 @@
                       "height": 72
                     },
                     "snippet": "<p class=\"post-content\">",
-                    "nodeLabel": "The second more versatile option is the one-to-many Hey!Spread - this is an onl…"
+                    "nodeLabel": "The second more versatile option is the one-to-many Hey!Spread - this is an onl\u2026"
                   }
                 }
               ]

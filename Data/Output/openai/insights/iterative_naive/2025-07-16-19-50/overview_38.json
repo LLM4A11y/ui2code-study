@@ -11,10 +11,6 @@
     "total_nodes_checked": 127,
     "total_nodes_failed": 8
   },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
-  },
   "details_checks": {
     "Headings; Wrong Order, Empty & Missing Headings;": {
       "impact": "moderate",
@@ -66,9 +62,9 @@
           "amount": 7,
           "amount_relative": 0,
           "ids": [
-            "Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
-            "Principle1.Guideline1_3.1_3_1.F68",
             "Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+            "Principle1.Guideline1_3.1_3_1.F68",
+            "Principle4.Guideline4_1.4_1_2.H91.Textarea.Name",
             "Principle4.Guideline4_1.4_1_2.H91.InputEmail.Name"
           ]
         },

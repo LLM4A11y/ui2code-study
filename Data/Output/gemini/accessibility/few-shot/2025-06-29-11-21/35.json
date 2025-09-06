@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -483,7 +492,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">Far from home... in the GaspÃ©!</a>",
+            "html": "<a href=\"#\">Far from home... in the Gasp\u00c3\u00a9!</a>",
             "target": [
               "li:nth-child(2) > a"
             ],
@@ -1000,14 +1009,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4:1. Recommendation:  change background to #002b56.",
-          "description": "<a href=\"#\">Far from home... in the GaspÃ©!</a>",
+          "description": "<a href=\"#\">Far from home... in the Gasp\u00c3\u00a9!</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4:1. Recommendation:  change background to #002b56.",
-            "context": "<a href=\"#\">Far from home... in the GaspÃ©!</a>",
+            "context": "<a href=\"#\">Far from home... in the Gasp\u00c3\u00a9!</a>",
             "selector": "html > body > div > div:nth-child(6) > ul > li:nth-child(2) > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1191,7 +1200,7 @@
                       "height": 1071
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "The news is that the QuÃ©bec mountain bike trail development organization ADSVM…"
+                    "nodeLabel": "The news is that the Qu\u00c3\u00a9bec mountain bike trail development organization ADSVM\u2026"
                   }
                 }
               ]
@@ -1240,7 +1249,7 @@
                       "height": 1071
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "The news is that the QuÃ©bec mountain bike trail development organization ADSVM…"
+                    "nodeLabel": "The news is that the Qu\u00c3\u00a9bec mountain bike trail development organization ADSVM\u2026"
                   }
                 }
               ]
@@ -1289,7 +1298,7 @@
                       "height": 1071
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "The news is that the QuÃ©bec mountain bike trail development organization ADSVM…"
+                    "nodeLabel": "The news is that the Qu\u00c3\u00a9bec mountain bike trail development organization ADSVM\u2026"
                   }
                 }
               ]
@@ -1338,7 +1347,7 @@
                       "height": 1071
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "The news is that the QuÃ©bec mountain bike trail development organization ADSVM…"
+                    "nodeLabel": "The news is that the Qu\u00c3\u00a9bec mountain bike trail development organization ADSVM\u2026"
                   }
                 }
               ]
@@ -1534,7 +1543,7 @@
                       "height": 749
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo\u2026"
                   }
                 }
               ]
@@ -1583,7 +1592,7 @@
                       "height": 749
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo\u2026"
                   }
                 }
               ]
@@ -1632,7 +1641,7 @@
                       "height": 749
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo\u2026"
                   }
                 }
               ]
@@ -1660,7 +1669,7 @@
                 "height": 18
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "Far from home... in the GaspÃ©!",
+              "nodeLabel": "Far from home... in the Gasp\u00c3\u00a9!",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #3498db, background color: #003366, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1681,7 +1690,7 @@
                       "height": 749
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo\u2026"
                   }
                 }
               ]
@@ -1730,7 +1739,7 @@
                       "height": 749
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo\u2026"
                   }
                 }
               ]
@@ -1779,7 +1788,7 @@
                       "height": 749
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo\u2026"
                   }
                 }
               ]
@@ -1828,7 +1837,7 @@
                       "height": 749
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo\u2026"
                   }
                 }
               ]
@@ -1877,7 +1886,7 @@
                       "height": 749
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo\u2026"
                   }
                 }
               ]
@@ -1926,7 +1935,7 @@
                       "height": 749
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo\u2026"
                   }
                 }
               ]
@@ -1975,7 +1984,7 @@
                       "height": 749
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo\u2026"
                   }
                 }
               ]
@@ -2024,7 +2033,7 @@
                       "height": 749
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo\u2026"
                   }
                 }
               ]
@@ -2073,7 +2082,7 @@
                       "height": 749
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo…"
+                    "nodeLabel": "About Me\n\nName:\nCycle Fun Montreal\n\nView my complete profile\n\nPrevious Posts\nMo\u2026"
                   }
                 }
               ]

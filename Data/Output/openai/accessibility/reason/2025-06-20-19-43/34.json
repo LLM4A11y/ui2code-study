@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -256,7 +248,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>Copyright © 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by <a href=\"#\">Corrective Crew</a></p>",
+                    "html": "<p>Copyright \u00a9 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by <a href=\"#\">Corrective Crew</a></p>",
                     "target": [
                       "footer > p"
                     ]
@@ -270,7 +262,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>Copyright © 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by <a href=\"#\">Corrective Crew</a></p>",
+                    "html": "<p>Copyright \u00a9 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by <a href=\"#\">Corrective Crew</a></p>",
                     "target": [
                       "footer > p"
                     ]
@@ -332,7 +324,7 @@
                       "height": 51
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Copyright © 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by C…"
+                    "nodeLabel": "Copyright \u00a9 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by C\u2026"
                   }
                 }
               ]

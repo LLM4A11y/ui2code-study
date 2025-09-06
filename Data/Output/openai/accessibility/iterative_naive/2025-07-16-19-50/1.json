@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -134,7 +126,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer>\n        <p>Â© Copyright 2009 COL Group, Indiana University</p>\n        <p class=\"copyright\"><span style=\"color: #F0BB1C;\">Web design released by Flash Gallery</span></p>\n    </footer>",
+                    "html": "<footer>\n        <p>\u00c2\u00a9 Copyright 2009 COL Group, Indiana University</p>\n        <p class=\"copyright\"><span style=\"color: #F0BB1C;\">Web design released by Flash Gallery</span></p>\n    </footer>",
                     "target": [
                       "footer"
                     ]
@@ -147,7 +139,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>Â© Copyright 2009 COL Group, Indiana University</p>",
+            "html": "<p>\u00c2\u00a9 Copyright 2009 COL Group, Indiana University</p>",
             "target": [
               "p:nth-child(1)"
             ],
@@ -176,7 +168,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer>\n        <p>Â© Copyright 2009 COL Group, Indiana University</p>\n        <p class=\"copyright\"><span style=\"color: #F0BB1C;\">Web design released by Flash Gallery</span></p>\n    </footer>",
+                    "html": "<footer>\n        <p>\u00c2\u00a9 Copyright 2009 COL Group, Indiana University</p>\n        <p class=\"copyright\"><span style=\"color: #F0BB1C;\">Web design released by Flash Gallery</span></p>\n    </footer>",
                     "target": [
                       "footer"
                     ]
@@ -234,14 +226,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.08:1. Recommendation:  change background to #6c6c6c.",
-          "description": "<p>Â© Copyright 2009 COL Group, In...</p>",
+          "description": "<p>\u00c2\u00a9 Copyright 2009 COL Group, In...</p>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.08:1. Recommendation:  change background to #6c6c6c.",
-            "context": "<p>Â© Copyright 2009 COL Group, In...</p>",
+            "context": "<p>\u00c2\u00a9 Copyright 2009 COL Group, In...</p>",
             "selector": "html > body > footer > p:nth-child(1)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -383,7 +375,7 @@
                 "height": 14
               },
               "snippet": "<p>",
-              "nodeLabel": "Â© Copyright 2009 COL Group, Indiana University",
+              "nodeLabel": "\u00c2\u00a9 Copyright 2009 COL Group, Indiana University",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.08 (foreground color: #efefef, background color: #888888, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -404,7 +396,7 @@
                       "height": 84
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Â© Copyright 2009 COL Group, Indiana University\n\nWeb design released by Flash G…"
+                    "nodeLabel": "\u00c2\u00a9 Copyright 2009 COL Group, Indiana University\n\nWeb design released by Flash G\u2026"
                   }
                 }
               ]
@@ -453,7 +445,7 @@
                       "height": 84
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Â© Copyright 2009 COL Group, Indiana University\n\nWeb design released by Flash G…"
+                    "nodeLabel": "\u00c2\u00a9 Copyright 2009 COL Group, Indiana University\n\nWeb design released by Flash G\u2026"
                   }
                 }
               ]

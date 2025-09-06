@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -223,7 +215,7 @@
                       "height": 495
                     },
                     "snippet": "<header>",
-                    "nodeLabel": "DIGITAL INSPIRATION\n\nTips and Tricks for Google Workspace users\n\nSEARCH\nHow to …"
+                    "nodeLabel": "DIGITAL INSPIRATION\n\nTips and Tricks for Google Workspace users\n\nSEARCH\nHow to \u2026"
                   }
                 }
               ]
@@ -272,7 +264,7 @@
                       "height": 495
                     },
                     "snippet": "<header>",
-                    "nodeLabel": "DIGITAL INSPIRATION\n\nTips and Tricks for Google Workspace users\n\nSEARCH\nHow to …"
+                    "nodeLabel": "DIGITAL INSPIRATION\n\nTips and Tricks for Google Workspace users\n\nSEARCH\nHow to \u2026"
                   }
                 }
               ]

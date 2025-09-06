@@ -3,17 +3,13 @@
     "automatic": "Yellow"
   },
   "benchmark": {
-    "automatic_ir": 0.011857707509881422,
-    "automatic_iw-ir": 0.5
+    "automatic_ir": 0.03162055335968379,
+    "automatic_iw-ir": 0.8125
   },
   "automatic_checks": {
     "lighthouse_accessibility_score": 0.93,
     "total_nodes_checked": 253,
-    "total_nodes_failed": 3
-  },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
+    "total_nodes_failed": 8
   },
   "details_checks": {
     "Color Contrast; Text;": {
@@ -63,6 +59,32 @@
           "ids": [
             "https://dequeuniversity.com/rules/axe/4.10/region"
           ]
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      }
+    },
+    "Alt-Text; Images;": {
+      "impact": "critical",
+      "amount_nodes_failed": 5,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 5,
+          "amount_relative": 5,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
         },
         "pa11y": {
           "amount": 0,

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -91,7 +83,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<footer>\n        Designed &amp; Hosted by <a href=\"#\">Wrenchtech Guy | ©2017 Exchange Club of the Round Lake Area</a>\n    </footer>",
+            "html": "<footer>\n        Designed &amp; Hosted by <a href=\"#\">Wrenchtech Guy | \u00a92017 Exchange Club of the Round Lake Area</a>\n    </footer>",
             "target": [
               "footer"
             ],
@@ -126,7 +118,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">Wrenchtech Guy | ©2017 Exchange Club of the Round Lake Area</a>",
+            "html": "<a href=\"#\">Wrenchtech Guy | \u00a92017 Exchange Club of the Round Lake Area</a>",
             "target": [
               "footer > a"
             ],
@@ -180,7 +172,7 @@
                 "height": 53
               },
               "snippet": "<footer>",
-              "nodeLabel": "Designed & Hosted by Wrenchtech Guy | ©2017 Exchange Club of the Round Lake Area",
+              "nodeLabel": "Designed & Hosted by Wrenchtech Guy | \u00a92017 Exchange Club of the Round Lake Area",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -206,7 +198,7 @@
                 "height": 27
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "Wrenchtech Guy | ©2017 Exchange Club of the Round Lake Area",
+              "nodeLabel": "Wrenchtech Guy | \u00a92017 Exchange Club of the Round Lake Area",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -279,7 +271,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<h1>May 2011 Hero â U.S. Marine LCpl Alejandro Macias</h1>",
+            "html": "<h1>May 2011 Hero \u00e2\u0080\u0093 U.S. Marine LCpl Alejandro Macias</h1>",
             "target": [
               "h1"
             ],

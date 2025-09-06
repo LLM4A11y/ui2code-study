@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -204,7 +196,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        Copyright Â© tradeingoldbullion.com 2023\n    </div>",
+                    "html": "<div class=\"footer\">\n        Copyright \u00c2\u00a9 tradeingoldbullion.com 2023\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -217,7 +209,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"footer\">\n        Copyright Â© tradeingoldbullion.com 2023\n    </div>",
+            "html": "<div class=\"footer\">\n        Copyright \u00c2\u00a9 tradeingoldbullion.com 2023\n    </div>",
             "target": [
               ".footer"
             ],
@@ -262,14 +254,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.66:1. Recommendation:  change background to #247eac.",
-          "description": "<div class=\"footer\">\n        Copyright Â© tradeingo...</div>",
+          "description": "<div class=\"footer\">\n        Copyright \u00c2\u00a9 tradeingo...</div>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.66:1. Recommendation:  change background to #247eac.",
-            "context": "<div class=\"footer\">\n        Copyright Â© tradeingo...</div>",
+            "context": "<div class=\"footer\">\n        Copyright \u00c2\u00a9 tradeingo...</div>",
             "selector": "html > body > div:nth-child(3)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -400,7 +392,7 @@
                 "height": 34
               },
               "snippet": "<div class=\"footer\">",
-              "nodeLabel": "Copyright Â© tradeingoldbullion.com 2023",
+              "nodeLabel": "Copyright \u00c2\u00a9 tradeingoldbullion.com 2023",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.65 (foreground color: #ffffff, background color: #348ebc, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -529,7 +521,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        Copyright Â© tradeingoldbullion.com 2023\n    </div>",
+            "html": "<div class=\"footer\">\n        Copyright \u00c2\u00a9 tradeingoldbullion.com 2023\n    </div>",
             "target": [
               ".footer"
             ],

@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 2,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -56,7 +65,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">Continue Reading â</a>",
+            "html": "<a href=\"#\">Continue Reading \u00e2\u0086\u0092</a>",
             "target": [
               "div:nth-child(2) > a"
             ],
@@ -1029,7 +1038,7 @@
                 "height": 58
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "Continue Reading â",
+              "nodeLabel": "Continue Reading \u00e2\u0086\u0092",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #007bff, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -2144,7 +2153,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        <p>Â© 2023 free mp4 movie. All rights reserved.</p>\n    </div>",
+            "html": "<div class=\"footer\">\n        <p>\u00c2\u00a9 2023 free mp4 movie. All rights reserved.</p>\n    </div>",
             "target": [
               ".footer"
             ],

@@ -11,10 +11,6 @@
     "total_nodes_checked": 125,
     "total_nodes_failed": 1
   },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
-  },
   "details_checks": {
     "Headings; Wrong Order, Empty & Missing Headings;": {
       "impact": "moderate",

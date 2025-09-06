@@ -11,10 +11,6 @@
     "total_nodes_checked": 39,
     "total_nodes_failed": 5
   },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
-  },
   "details_checks": {
     "Landmark & Region; Missing & Unique Landmarks;": {
       "impact": "moderate",
@@ -29,8 +25,8 @@
           "amount": 4,
           "amount_relative": 0,
           "ids": [
-            "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main",
-            "https://dequeuniversity.com/rules/axe/4.10/region"
+            "https://dequeuniversity.com/rules/axe/4.10/region",
+            "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main"
           ]
         },
         "pa11y": {

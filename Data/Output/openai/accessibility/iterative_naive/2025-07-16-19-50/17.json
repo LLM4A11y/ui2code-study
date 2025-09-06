@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -1281,7 +1273,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"footer\">\n                Copyright Â© 2004 - 2023 by EmInf. All rights reserved.\n            </div>",
+            "html": "<div class=\"footer\">\n                Copyright \u00c2\u00a9 2004 - 2023 by EmInf. All rights reserved.\n            </div>",
             "target": [
               ".footer"
             ],
@@ -2219,7 +2211,7 @@
                 "height": 32
               },
               "snippet": "<div class=\"footer\">",
-              "nodeLabel": "Copyright Â© 2004 - 2023 by EmInf. All rights reserved.",
+              "nodeLabel": "Copyright \u00c2\u00a9 2004 - 2023 by EmInf. All rights reserved.",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.91 (foreground color: #bbbbbb, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }

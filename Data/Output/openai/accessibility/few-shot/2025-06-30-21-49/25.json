@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 2,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -770,7 +779,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"footer-bottom\">\n        © Copyright notice - Site design and content copyright justsaygday.com Individuals pictured are models and are used for illustrative purposes only.\n    </div>",
+            "html": "<div class=\"footer-bottom\">\n        \u00a9 Copyright notice - Site design and content copyright justsaygday.com Individuals pictured are models and are used for illustrative purposes only.\n    </div>",
             "target": [
               ".footer-bottom"
             ],
@@ -1356,7 +1365,7 @@
                       "height": 1071
                     },
                     "snippet": "<section class=\"section-info\">",
-                    "nodeLabel": "Singles Bonogin\n\nFinding singles in Bonogin is fun and easy with justsaygday.co…"
+                    "nodeLabel": "Singles Bonogin\n\nFinding singles in Bonogin is fun and easy with justsaygday.co\u2026"
                   }
                 }
               ]
@@ -1405,7 +1414,7 @@
                       "height": 356
                     },
                     "snippet": "<footer class=\"section-footer\">",
-                    "nodeLabel": "Just Say G'day\nSSL secureScamalytics\nPages\nLocal singles\nMature dating\nBlog\nCom…"
+                    "nodeLabel": "Just Say G'day\nSSL secureScamalytics\nPages\nLocal singles\nMature dating\nBlog\nCom\u2026"
                   }
                 }
               ]
@@ -1454,7 +1463,7 @@
                       "height": 356
                     },
                     "snippet": "<footer class=\"section-footer\">",
-                    "nodeLabel": "Just Say G'day\nSSL secureScamalytics\nPages\nLocal singles\nMature dating\nBlog\nCom…"
+                    "nodeLabel": "Just Say G'day\nSSL secureScamalytics\nPages\nLocal singles\nMature dating\nBlog\nCom\u2026"
                   }
                 }
               ]
@@ -1503,7 +1512,7 @@
                       "height": 356
                     },
                     "snippet": "<footer class=\"section-footer\">",
-                    "nodeLabel": "Just Say G'day\nSSL secureScamalytics\nPages\nLocal singles\nMature dating\nBlog\nCom…"
+                    "nodeLabel": "Just Say G'day\nSSL secureScamalytics\nPages\nLocal singles\nMature dating\nBlog\nCom\u2026"
                   }
                 }
               ]
@@ -1552,7 +1561,7 @@
                       "height": 356
                     },
                     "snippet": "<footer class=\"section-footer\">",
-                    "nodeLabel": "Just Say G'day\nSSL secureScamalytics\nPages\nLocal singles\nMature dating\nBlog\nCom…"
+                    "nodeLabel": "Just Say G'day\nSSL secureScamalytics\nPages\nLocal singles\nMature dating\nBlog\nCom\u2026"
                   }
                 }
               ]
@@ -1601,7 +1610,7 @@
                       "height": 356
                     },
                     "snippet": "<footer class=\"section-footer\">",
-                    "nodeLabel": "Just Say G'day\nSSL secureScamalytics\nPages\nLocal singles\nMature dating\nBlog\nCom…"
+                    "nodeLabel": "Just Say G'day\nSSL secureScamalytics\nPages\nLocal singles\nMature dating\nBlog\nCom\u2026"
                   }
                 }
               ]
@@ -1650,7 +1659,7 @@
                       "height": 356
                     },
                     "snippet": "<footer class=\"section-footer\">",
-                    "nodeLabel": "Just Say G'day\nSSL secureScamalytics\nPages\nLocal singles\nMature dating\nBlog\nCom…"
+                    "nodeLabel": "Just Say G'day\nSSL secureScamalytics\nPages\nLocal singles\nMature dating\nBlog\nCom\u2026"
                   }
                 }
               ]
@@ -1699,7 +1708,7 @@
                       "height": 356
                     },
                     "snippet": "<footer class=\"section-footer\">",
-                    "nodeLabel": "Just Say G'day\nSSL secureScamalytics\nPages\nLocal singles\nMature dating\nBlog\nCom…"
+                    "nodeLabel": "Just Say G'day\nSSL secureScamalytics\nPages\nLocal singles\nMature dating\nBlog\nCom\u2026"
                   }
                 }
               ]
@@ -1748,7 +1757,7 @@
                       "height": 356
                     },
                     "snippet": "<footer class=\"section-footer\">",
-                    "nodeLabel": "Just Say G'day\nSSL secureScamalytics\nPages\nLocal singles\nMature dating\nBlog\nCom…"
+                    "nodeLabel": "Just Say G'day\nSSL secureScamalytics\nPages\nLocal singles\nMature dating\nBlog\nCom\u2026"
                   }
                 }
               ]
@@ -1797,7 +1806,7 @@
                       "height": 356
                     },
                     "snippet": "<footer class=\"section-footer\">",
-                    "nodeLabel": "Just Say G'day\nSSL secureScamalytics\nPages\nLocal singles\nMature dating\nBlog\nCom…"
+                    "nodeLabel": "Just Say G'day\nSSL secureScamalytics\nPages\nLocal singles\nMature dating\nBlog\nCom\u2026"
                   }
                 }
               ]
@@ -1825,7 +1834,7 @@
                 "height": 64
               },
               "snippet": "<div class=\"footer-bottom\">",
-              "nodeLabel": "© Copyright notice - Site design and content copyright justsaygday.com Individu…",
+              "nodeLabel": "\u00a9 Copyright notice - Site design and content copyright justsaygday.com Individu\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -1994,7 +2003,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer-bottom\">\n        © Copyright notice - Site design and content copyright justsaygday.com Individuals pictured are models and are used for illustrative purposes only.\n    </div>",
+            "html": "<div class=\"footer-bottom\">\n        \u00a9 Copyright notice - Site design and content copyright justsaygday.com Individuals pictured are models and are used for illustrative purposes only.\n    </div>",
             "target": [
               ".footer-bottom"
             ],

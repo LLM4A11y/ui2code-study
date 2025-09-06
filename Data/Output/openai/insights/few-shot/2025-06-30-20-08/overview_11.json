@@ -11,10 +11,6 @@
     "total_nodes_checked": 254,
     "total_nodes_failed": 3
   },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
-  },
   "details_checks": {
     "List; Incorrect Structure;": {
       "impact": "serious",

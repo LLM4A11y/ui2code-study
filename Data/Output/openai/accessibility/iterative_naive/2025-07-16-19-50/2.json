@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -315,7 +324,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<span style=\"color: red;\">wmuâ14 (member)</span>",
+            "html": "<span style=\"color: red;\">wmu\u00e2\u0080\u009914 (member)</span>",
             "target": [
               "tr:nth-child(3) > td:nth-child(2) > span:nth-child(2)"
             ],
@@ -470,14 +479,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4:1. Recommendation:  change text colour to #e00.",
-          "description": "<span style=\"color: red;\">wmuâ14 (member)</span>",
+          "description": "<span style=\"color: red;\">wmu\u00e2\u0080\u009914 (member)</span>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4:1. Recommendation:  change text colour to #e00.",
-            "context": "<span style=\"color: red;\">wmuâ14 (member)</span>",
+            "context": "<span style=\"color: red;\">wmu\u00e2\u0080\u009914 (member)</span>",
             "selector": "html > body > div:nth-child(2) > div:nth-child(2) > table > tbody > tr:nth-child(3) > td:nth-child(2) > span:nth-child(2)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -568,7 +577,7 @@
                       "height": 617
                     },
                     "snippet": "<table class=\"navbox-table\">",
-                    "nodeLabel": " Incels.is\tSergeantIncel (former admin) • Master (former admin) • Fat Link (mod…"
+                    "nodeLabel": " Incels.is\tSergeantIncel (former admin) \u2022 Master (former admin) \u2022 Fat Link (mod\u2026"
                   }
                 }
               ]
@@ -617,7 +626,7 @@
                       "height": 617
                     },
                     "snippet": "<table class=\"navbox-table\">",
-                    "nodeLabel": " Incels.is\tSergeantIncel (former admin) • Master (former admin) • Fat Link (mod…"
+                    "nodeLabel": " Incels.is\tSergeantIncel (former admin) \u2022 Master (former admin) \u2022 Fat Link (mod\u2026"
                   }
                 }
               ]
@@ -666,7 +675,7 @@
                       "height": 617
                     },
                     "snippet": "<table class=\"navbox-table\">",
-                    "nodeLabel": " Incels.is\tSergeantIncel (former admin) • Master (former admin) • Fat Link (mod…"
+                    "nodeLabel": " Incels.is\tSergeantIncel (former admin) \u2022 Master (former admin) \u2022 Fat Link (mod\u2026"
                   }
                 }
               ]
@@ -715,7 +724,7 @@
                       "height": 617
                     },
                     "snippet": "<table class=\"navbox-table\">",
-                    "nodeLabel": " Incels.is\tSergeantIncel (former admin) • Master (former admin) • Fat Link (mod…"
+                    "nodeLabel": " Incels.is\tSergeantIncel (former admin) \u2022 Master (former admin) \u2022 Fat Link (mod\u2026"
                   }
                 }
               ]
@@ -743,7 +752,7 @@
                 "height": 16
               },
               "snippet": "<span style=\"color: red;\">",
-              "nodeLabel": "wmuâ14 (member)",
+              "nodeLabel": "wmu\u00e2\u0080\u009914 (member)",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -764,7 +773,7 @@
                       "height": 617
                     },
                     "snippet": "<table class=\"navbox-table\">",
-                    "nodeLabel": " Incels.is\tSergeantIncel (former admin) • Master (former admin) • Fat Link (mod…"
+                    "nodeLabel": " Incels.is\tSergeantIncel (former admin) \u2022 Master (former admin) \u2022 Fat Link (mod\u2026"
                   }
                 }
               ]
@@ -813,7 +822,7 @@
                       "height": 617
                     },
                     "snippet": "<table class=\"navbox-table\">",
-                    "nodeLabel": " Incels.is\tSergeantIncel (former admin) • Master (former admin) • Fat Link (mod…"
+                    "nodeLabel": " Incels.is\tSergeantIncel (former admin) \u2022 Master (former admin) \u2022 Fat Link (mod\u2026"
                   }
                 }
               ]

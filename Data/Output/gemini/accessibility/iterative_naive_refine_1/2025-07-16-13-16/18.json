@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -651,7 +643,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a style=\"color:#007bff;\" href=\"#\">Ã¯Â¿Â½</a>",
+            "html": "<a style=\"color:#007bff;\" href=\"#\">\u00c3\u00af\u00c2\u00bf\u00c2\u00bd</a>",
             "target": [
               "div > a:nth-child(1)"
             ],
@@ -693,7 +685,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a style=\"color:#007bff;\" href=\"#\">Ã¯Â¿Â½</a>",
+            "html": "<a style=\"color:#007bff;\" href=\"#\">\u00c3\u00af\u00c2\u00bf\u00c2\u00bd</a>",
             "target": [
               "div > a:nth-child(2)"
             ],
@@ -735,7 +727,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a style=\"color:#007bff;\" href=\"#\">Ã¯Â¿Â½</a>",
+            "html": "<a style=\"color:#007bff;\" href=\"#\">\u00c3\u00af\u00c2\u00bf\u00c2\u00bd</a>",
             "target": [
               "div > a:nth-child(3)"
             ],
@@ -777,7 +769,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a style=\"color:#007bff;\" href=\"#\">Ã¯Â¿Â½</a>",
+            "html": "<a style=\"color:#007bff;\" href=\"#\">\u00c3\u00af\u00c2\u00bf\u00c2\u00bd</a>",
             "target": [
               "div > a:nth-child(4)"
             ],
@@ -819,7 +811,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a style=\"color:#007bff;\" href=\"#\">Ã¢ÂÂ</a>",
+            "html": "<a style=\"color:#007bff;\" href=\"#\">\u00c3\u00a2\u00c2\u009c\u00c2\u0089</a>",
             "target": [
               "a:nth-child(5)"
             ],
@@ -1068,14 +1060,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.55:1. Recommendation:  change text colour to #006bde.",
-          "description": "<a style=\"color:#007bff;\" href=\"#\">Ã¯Â¿Â½</a>",
+          "description": "<a style=\"color:#007bff;\" href=\"#\">\u00c3\u00af\u00c2\u00bf\u00c2\u00bd</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.55:1. Recommendation:  change text colour to #006bde.",
-            "context": "<a style=\"color:#007bff;\" href=\"#\">Ã¯Â¿Â½</a>",
+            "context": "<a style=\"color:#007bff;\" href=\"#\">\u00c3\u00af\u00c2\u00bf\u00c2\u00bd</a>",
             "selector": "html > body > footer > div > a:nth-child(1)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1085,14 +1077,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.55:1. Recommendation:  change text colour to #006bde.",
-          "description": "<a style=\"color:#007bff;\" href=\"#\">Ã¯Â¿Â½</a>",
+          "description": "<a style=\"color:#007bff;\" href=\"#\">\u00c3\u00af\u00c2\u00bf\u00c2\u00bd</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.55:1. Recommendation:  change text colour to #006bde.",
-            "context": "<a style=\"color:#007bff;\" href=\"#\">Ã¯Â¿Â½</a>",
+            "context": "<a style=\"color:#007bff;\" href=\"#\">\u00c3\u00af\u00c2\u00bf\u00c2\u00bd</a>",
             "selector": "html > body > footer > div > a:nth-child(2)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1102,14 +1094,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.55:1. Recommendation:  change text colour to #006bde.",
-          "description": "<a style=\"color:#007bff;\" href=\"#\">Ã¯Â¿Â½</a>",
+          "description": "<a style=\"color:#007bff;\" href=\"#\">\u00c3\u00af\u00c2\u00bf\u00c2\u00bd</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.55:1. Recommendation:  change text colour to #006bde.",
-            "context": "<a style=\"color:#007bff;\" href=\"#\">Ã¯Â¿Â½</a>",
+            "context": "<a style=\"color:#007bff;\" href=\"#\">\u00c3\u00af\u00c2\u00bf\u00c2\u00bd</a>",
             "selector": "html > body > footer > div > a:nth-child(3)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1119,14 +1111,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.55:1. Recommendation:  change text colour to #006bde.",
-          "description": "<a style=\"color:#007bff;\" href=\"#\">Ã¯Â¿Â½</a>",
+          "description": "<a style=\"color:#007bff;\" href=\"#\">\u00c3\u00af\u00c2\u00bf\u00c2\u00bd</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.55:1. Recommendation:  change text colour to #006bde.",
-            "context": "<a style=\"color:#007bff;\" href=\"#\">Ã¯Â¿Â½</a>",
+            "context": "<a style=\"color:#007bff;\" href=\"#\">\u00c3\u00af\u00c2\u00bf\u00c2\u00bd</a>",
             "selector": "html > body > footer > div > a:nth-child(4)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1136,14 +1128,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.55:1. Recommendation:  change text colour to #006bde.",
-          "description": "<a style=\"color:#007bff;\" href=\"#\">Ã¢ÂÂ</a>",
+          "description": "<a style=\"color:#007bff;\" href=\"#\">\u00c3\u00a2\u00c2\u009c\u00c2\u0089</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.55:1. Recommendation:  change text colour to #006bde.",
-            "context": "<a style=\"color:#007bff;\" href=\"#\">Ã¢ÂÂ</a>",
+            "context": "<a style=\"color:#007bff;\" href=\"#\">\u00c3\u00a2\u00c2\u009c\u00c2\u0089</a>",
             "selector": "html > body > footer > div > a:nth-child(5)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1856,7 +1848,7 @@
                 "height": 18
               },
               "snippet": "<a style=\"color:#007bff;\" href=\"#\">",
-              "nodeLabel": "Ã¯Â¿Â½",
+              "nodeLabel": "\u00c3\u00af\u00c2\u00bf\u00c2\u00bd",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f2, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1877,7 +1869,7 @@
                       "height": 131
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Ã¯Â¿Â½ Ã¯Â¿Â½ Ã¯Â¿Â½ Ã¯Â¿Â½ Ã¢ÂÂ"
+                    "nodeLabel": "\u00c3\u00af\u00c2\u00bf\u00c2\u00bd \u00c3\u00af\u00c2\u00bf\u00c2\u00bd \u00c3\u00af\u00c2\u00bf\u00c2\u00bd \u00c3\u00af\u00c2\u00bf\u00c2\u00bd \u00c3\u00a2\u00c2\u009c\u00c2\u0089"
                   }
                 }
               ]
@@ -1905,7 +1897,7 @@
                 "height": 18
               },
               "snippet": "<a style=\"color:#007bff;\" href=\"#\">",
-              "nodeLabel": "Ã¯Â¿Â½",
+              "nodeLabel": "\u00c3\u00af\u00c2\u00bf\u00c2\u00bd",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f2, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1926,7 +1918,7 @@
                       "height": 131
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Ã¯Â¿Â½ Ã¯Â¿Â½ Ã¯Â¿Â½ Ã¯Â¿Â½ Ã¢ÂÂ"
+                    "nodeLabel": "\u00c3\u00af\u00c2\u00bf\u00c2\u00bd \u00c3\u00af\u00c2\u00bf\u00c2\u00bd \u00c3\u00af\u00c2\u00bf\u00c2\u00bd \u00c3\u00af\u00c2\u00bf\u00c2\u00bd \u00c3\u00a2\u00c2\u009c\u00c2\u0089"
                   }
                 }
               ]
@@ -1954,7 +1946,7 @@
                 "height": 18
               },
               "snippet": "<a style=\"color:#007bff;\" href=\"#\">",
-              "nodeLabel": "Ã¯Â¿Â½",
+              "nodeLabel": "\u00c3\u00af\u00c2\u00bf\u00c2\u00bd",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f2, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1975,7 +1967,7 @@
                       "height": 131
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Ã¯Â¿Â½ Ã¯Â¿Â½ Ã¯Â¿Â½ Ã¯Â¿Â½ Ã¢ÂÂ"
+                    "nodeLabel": "\u00c3\u00af\u00c2\u00bf\u00c2\u00bd \u00c3\u00af\u00c2\u00bf\u00c2\u00bd \u00c3\u00af\u00c2\u00bf\u00c2\u00bd \u00c3\u00af\u00c2\u00bf\u00c2\u00bd \u00c3\u00a2\u00c2\u009c\u00c2\u0089"
                   }
                 }
               ]
@@ -2003,7 +1995,7 @@
                 "height": 18
               },
               "snippet": "<a style=\"color:#007bff;\" href=\"#\">",
-              "nodeLabel": "Ã¯Â¿Â½",
+              "nodeLabel": "\u00c3\u00af\u00c2\u00bf\u00c2\u00bd",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f2, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2024,7 +2016,7 @@
                       "height": 131
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Ã¯Â¿Â½ Ã¯Â¿Â½ Ã¯Â¿Â½ Ã¯Â¿Â½ Ã¢ÂÂ"
+                    "nodeLabel": "\u00c3\u00af\u00c2\u00bf\u00c2\u00bd \u00c3\u00af\u00c2\u00bf\u00c2\u00bd \u00c3\u00af\u00c2\u00bf\u00c2\u00bd \u00c3\u00af\u00c2\u00bf\u00c2\u00bd \u00c3\u00a2\u00c2\u009c\u00c2\u0089"
                   }
                 }
               ]
@@ -2052,7 +2044,7 @@
                 "height": 18
               },
               "snippet": "<a style=\"color:#007bff;\" href=\"#\">",
-              "nodeLabel": "Ã¢ÂÂ",
+              "nodeLabel": "\u00c3\u00a2\u00c2\u009c\u00c2\u0089",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.55 (foreground color: #007bff, background color: #f2f2f2, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2073,7 +2065,7 @@
                       "height": 131
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Ã¯Â¿Â½ Ã¯Â¿Â½ Ã¯Â¿Â½ Ã¯Â¿Â½ Ã¢ÂÂ"
+                    "nodeLabel": "\u00c3\u00af\u00c2\u00bf\u00c2\u00bd \u00c3\u00af\u00c2\u00bf\u00c2\u00bd \u00c3\u00af\u00c2\u00bf\u00c2\u00bd \u00c3\u00af\u00c2\u00bf\u00c2\u00bd \u00c3\u00a2\u00c2\u009c\u00c2\u0089"
                   }
                 }
               ]

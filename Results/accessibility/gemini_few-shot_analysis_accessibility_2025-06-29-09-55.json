@@ -2,8 +2,8 @@
   "summary": {
     "timestamp": "2025-06-29-09-55",
     "files_processed": 53,
-    "total_automatic_nodes_failed": 812,
-    "average_automatic_nodes_failed_per_file": 15.32
+    "total_automatic_nodes_failed": 889,
+    "average_automatic_nodes_failed_per_file": 16.77
   },
   "issues_automatic": [
     {
@@ -1378,6 +1378,35 @@
     },
     {
       "rank": 4,
+      "name": "Alt-Text; Images;",
+      "impact": "critical",
+      "amount_nodes_failed": 77,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 77,
+          "amount_relative": 77,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      },
+      "ids_distribution": {}
+    },
+    {
+      "rank": 5,
       "name": "Links; Distinguishable Color;",
       "impact": "serious",
       "amount_nodes_failed": 34,
@@ -1475,7 +1504,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "Headings; Wrong Order, Empty & Missing Headings;",
       "impact": "moderate",
       "amount_nodes_failed": 14,
@@ -1527,7 +1556,7 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "Size; Target Size; Element too small",
       "impact": "serious",
       "amount_nodes_failed": 12,
@@ -1571,7 +1600,7 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "Links; Missing descriptive content of <a>;",
       "impact": "serious",
       "amount_nodes_failed": 7,
@@ -1627,7 +1656,7 @@
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "Tables; Table Headers;",
       "impact": "minor",
       "amount_nodes_failed": 6,
@@ -1668,7 +1697,7 @@
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "Label; Select; Missing Label",
       "impact": "critical",
       "amount_nodes_failed": 2,
@@ -1709,7 +1738,7 @@
       }
     },
     {
-      "rank": 10,
+      "rank": 11,
       "name": "Label; Button; Missing Label",
       "impact": "critical",
       "amount_nodes_failed": 2,
@@ -1749,7 +1778,7 @@
       }
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "Elements; Form; No Submit Button",
       "impact": "serious",
       "amount_nodes_failed": 2,
@@ -1783,7 +1812,7 @@
       }
     },
     {
-      "rank": 12,
+      "rank": 13,
       "name": "Title; Document Title;",
       "impact": "serious",
       "amount_nodes_failed": 1,
@@ -1821,7 +1850,7 @@
       }
     },
     {
-      "rank": 13,
+      "rank": 14,
       "name": "List; Incorrect Structure;",
       "impact": "serious",
       "amount_nodes_failed": 1,
@@ -1858,13 +1887,13 @@
   ],
   "distribution_sources_automatic": {
     "absolute": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 77,
       "axe-core": 727,
       "pa11y": 300,
       "lighthouse": 374
     },
     "relative": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 77,
       "axe-core": 668,
       "pa11y": 129,
       "lighthouse": 15

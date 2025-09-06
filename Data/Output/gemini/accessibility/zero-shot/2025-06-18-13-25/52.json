@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -213,7 +205,7 @@
                       "height": 340
                     },
                     "snippet": "<div class=\"login-box\">",
-                    "nodeLabel": "X\nLogin\n \nForgot password?\nDon't have an Account? Register Now!\nForgot Password…"
+                    "nodeLabel": "X\nLogin\n \nForgot password?\nDon't have an Account? Register Now!\nForgot Password\u2026"
                   }
                 }
               ]
@@ -262,7 +254,7 @@
                       "height": 340
                     },
                     "snippet": "<div class=\"login-box\">",
-                    "nodeLabel": "X\nLogin\n \nForgot password?\nDon't have an Account? Register Now!\nForgot Password…"
+                    "nodeLabel": "X\nLogin\n \nForgot password?\nDon't have an Account? Register Now!\nForgot Password\u2026"
                   }
                 }
               ]
@@ -311,7 +303,7 @@
                       "height": 340
                     },
                     "snippet": "<div class=\"login-box\">",
-                    "nodeLabel": "X\nLogin\n \nForgot password?\nDon't have an Account? Register Now!\nForgot Password…"
+                    "nodeLabel": "X\nLogin\n \nForgot password?\nDon't have an Account? Register Now!\nForgot Password\u2026"
                   }
                 }
               ]

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -105,7 +97,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\" class=\"read-more\">Continue Reading â</a>",
+            "html": "<a href=\"#\" class=\"read-more\">Continue Reading \u00e2\u0086\u0092</a>",
             "target": [
               ".read-more"
             ],
@@ -189,7 +181,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"footer\">\n        Â© 2023 free mp4 movie. All rights reserved.\n    </div>",
+            "html": "<div class=\"footer\">\n        \u00c2\u00a9 2023 free mp4 movie. All rights reserved.\n    </div>",
             "target": [
               ".footer"
             ],
@@ -217,14 +209,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.96:1. Recommendation:  change text colour to #ce4844.",
-          "description": "<a href=\"#\" class=\"read-more\">Continue Reading â</a>",
+          "description": "<a href=\"#\" class=\"read-more\">Continue Reading \u00e2\u0086\u0092</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.96:1. Recommendation:  change text colour to #ce4844.",
-            "context": "<a href=\"#\" class=\"read-more\">Continue Reading â</a>",
+            "context": "<a href=\"#\" class=\"read-more\">Continue Reading \u00e2\u0086\u0092</a>",
             "selector": "html > body > div:nth-child(2) > div > div:nth-child(1) > div > div > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -251,14 +243,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
-          "description": "<div class=\"footer\">\n        Â© 2023 free mp4 movie...</div>",
+          "description": "<div class=\"footer\">\n        \u00c2\u00a9 2023 free mp4 movie...</div>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
-            "context": "<div class=\"footer\">\n        Â© 2023 free mp4 movie...</div>",
+            "context": "<div class=\"footer\">\n        \u00c2\u00a9 2023 free mp4 movie...</div>",
             "selector": "html > body > div:nth-child(3)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -334,7 +326,7 @@
                 "height": 18
               },
               "snippet": "<a href=\"#\" class=\"read-more\">",
-              "nodeLabel": "Continue Reading â",
+              "nodeLabel": "Continue Reading \u00e2\u0086\u0092",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.96 (foreground color: #d9534f, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -383,7 +375,7 @@
                 "height": 60
               },
               "snippet": "<div class=\"footer\">",
-              "nodeLabel": "Â© 2023 free mp4 movie. All rights reserved.",
+              "nodeLabel": "\u00c2\u00a9 2023 free mp4 movie. All rights reserved.",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -819,7 +811,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        Â© 2023 free mp4 movie. All rights reserved.\n    </div>",
+            "html": "<div class=\"footer\">\n        \u00c2\u00a9 2023 free mp4 movie. All rights reserved.\n    </div>",
             "target": [
               ".footer"
             ],

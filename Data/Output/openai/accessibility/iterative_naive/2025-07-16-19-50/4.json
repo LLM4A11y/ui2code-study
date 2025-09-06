@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -250,7 +242,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"note\">(See this studentâs <a href=\"#\">sample spreadsheet</a> showing calculation of pillar units and approval signature slots.)</div>",
+                    "html": "<div class=\"note\">(See this student\u00e2\u0080\u0099s <a href=\"#\">sample spreadsheet</a> showing calculation of pillar units and approval signature slots.)</div>",
                     "target": [
                       ".note:nth-child(2)"
                     ]
@@ -264,7 +256,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"note\">(See this studentâs <a href=\"#\">sample spreadsheet</a> showing calculation of pillar units and approval signature slots.)</div>",
+                    "html": "<div class=\"note\">(See this student\u00e2\u0080\u0099s <a href=\"#\">sample spreadsheet</a> showing calculation of pillar units and approval signature slots.)</div>",
                     "target": [
                       ".note:nth-child(2)"
                     ]
@@ -326,7 +318,7 @@
                       "height": 486
                     },
                     "snippet": "<div class=\"text\">",
-                    "nodeLabel": "The CREATE H2O program includes five pillars offering in-depth training.\n\nWithi…"
+                    "nodeLabel": "The CREATE H2O program includes five pillars offering in-depth training.\n\nWithi\u2026"
                   }
                 }
               ]
@@ -375,7 +367,7 @@
                       "height": 486
                     },
                     "snippet": "<div class=\"text\">",
-                    "nodeLabel": "The CREATE H2O program includes five pillars offering in-depth training.\n\nWithi…"
+                    "nodeLabel": "The CREATE H2O program includes five pillars offering in-depth training.\n\nWithi\u2026"
                   }
                 }
               ]
@@ -424,7 +416,7 @@
                       "height": 38
                     },
                     "snippet": "<div class=\"note\">",
-                    "nodeLabel": "(See this studentâs sample spreadsheet showing calculation of pillar units an…"
+                    "nodeLabel": "(See this student\u00e2\u0080\u0099s sample spreadsheet showing calculation of pillar units an\u2026"
                   }
                 }
               ]

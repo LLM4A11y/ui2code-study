@@ -11,10 +11,6 @@
     "total_nodes_checked": 334,
     "total_nodes_failed": 11
   },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
-  },
   "details_checks": {
     "Color Contrast; Text;": {
       "impact": "serious",
@@ -62,8 +58,8 @@
           "amount_relative": 0,
           "ids": [
             "https://dequeuniversity.com/rules/axe/4.10/landmark-main-is-top-level",
-            "https://dequeuniversity.com/rules/axe/4.10/landmark-contentinfo-is-top-level",
-            "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-main"
+            "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-main",
+            "https://dequeuniversity.com/rules/axe/4.10/landmark-contentinfo-is-top-level"
           ]
         },
         "pa11y": {

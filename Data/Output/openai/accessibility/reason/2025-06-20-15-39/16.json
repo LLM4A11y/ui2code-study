@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -161,7 +153,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div>Stay in touch\n                <div>\n                    <span style=\"color: blue;\">●</span>\n                    <span style=\"color: red;\">●</span>\n                    <span style=\"color: red;\">●</span>\n                </div>\n            </div>",
+            "html": "<div>Stay in touch\n                <div>\n                    <span style=\"color: blue;\">\u25cf</span>\n                    <span style=\"color: red;\">\u25cf</span>\n                    <span style=\"color: red;\">\u25cf</span>\n                </div>\n            </div>",
             "target": [
               "#sidebar > div"
             ],
@@ -303,14 +295,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.36:1. Recommendation:  change text colour to #060000.",
-          "description": "<span style=\"color: red;\">●</span>",
+          "description": "<span style=\"color: red;\">\u25cf</span>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.36:1. Recommendation:  change text colour to #060000.",
-            "context": "<span style=\"color: red;\">●</span>",
+            "context": "<span style=\"color: red;\">\u25cf</span>",
             "selector": "#sidebar > div > div > span:nth-child(2)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -320,14 +312,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.36:1. Recommendation:  change text colour to #060000.",
-          "description": "<span style=\"color: red;\">●</span>",
+          "description": "<span style=\"color: red;\">\u25cf</span>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.36:1. Recommendation:  change text colour to #060000.",
-            "context": "<span style=\"color: red;\">●</span>",
+            "context": "<span style=\"color: red;\">\u25cf</span>",
             "selector": "#sidebar > div > div > span:nth-child(3)",
             "runner": "htmlcs",
             "runnerExtras": {}

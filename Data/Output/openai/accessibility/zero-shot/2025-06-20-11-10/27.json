@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -623,7 +615,7 @@
                       "height": 192
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "This site does not do live transactions. If you provide a credit card number it…"
+                    "nodeLabel": "This site does not do live transactions. If you provide a credit card number it\u2026"
                   }
                 }
               ]

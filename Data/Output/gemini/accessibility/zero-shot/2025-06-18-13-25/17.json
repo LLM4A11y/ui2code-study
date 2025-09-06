@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -188,7 +180,7 @@
                       "height": 128
                     },
                     "snippet": "<th colspan=\"3\">",
-                    "nodeLabel": "AVERAGE DAILY TEMPERATURES (C) FOR OTTAWA, ONTARIO\nLOWER BOUND AVERAGE TEMPERAT…"
+                    "nodeLabel": "AVERAGE DAILY TEMPERATURES (C) FOR OTTAWA, ONTARIO\nLOWER BOUND AVERAGE TEMPERAT\u2026"
                   }
                 }
               ]
@@ -237,7 +229,7 @@
                       "height": 128
                     },
                     "snippet": "<th colspan=\"3\">",
-                    "nodeLabel": "AVERAGE DAILY TEMPERATURES (C) FOR OTTAWA, ONTARIO\nLOWER BOUND AVERAGE TEMPERAT…"
+                    "nodeLabel": "AVERAGE DAILY TEMPERATURES (C) FOR OTTAWA, ONTARIO\nLOWER BOUND AVERAGE TEMPERAT\u2026"
                   }
                 }
               ]
@@ -501,7 +493,7 @@
                 "height": 382
               },
               "snippet": "<table>",
-              "nodeLabel": "\tAVERAGE DAILY TEMPERATURES (C) FOR OTTAWA, ONTARIO\nLOWER BOUND AVERAGE TEMPERA…",
+              "nodeLabel": "\tAVERAGE DAILY TEMPERATURES (C) FOR OTTAWA, ONTARIO\nLOWER BOUND AVERAGE TEMPERA\u2026",
               "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers"
             },
             "subItems": {

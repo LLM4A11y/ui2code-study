@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -644,7 +653,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p><a>Log in</a> Â· <a>List your organization</a> Â· <a>Submit an event</a></p>",
+            "html": "<p><a>Log in</a> \u00c2\u00b7 <a>List your organization</a> \u00c2\u00b7 <a>Submit an event</a></p>",
             "target": [
               ".footer > p:nth-child(2)"
             ],
@@ -819,7 +828,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p><a>About ASC</a> Â· <a>FAQs</a> Â· <a>Directory</a> Â· <a>Privacy policy</a> Â· <a>[EMAIL REDACTED]</a></p>",
+            "html": "<p><a>About ASC</a> \u00c2\u00b7 <a>FAQs</a> \u00c2\u00b7 <a>Directory</a> \u00c2\u00b7 <a>Privacy policy</a> \u00c2\u00b7 <a>[EMAIL REDACTED]</a></p>",
             "target": [
               "p:nth-child(4)"
             ],
@@ -1099,7 +1108,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>Copyright Â© 2023, Arts and Science Council. All rights reserved.</p>",
+            "html": "<p>Copyright \u00c2\u00a9 2023, Arts and Science Council. All rights reserved.</p>",
             "target": [
               "p:nth-child(6)"
             ],
@@ -1773,7 +1782,7 @@
                 "height": 18
               },
               "snippet": "<p>",
-              "nodeLabel": "Log in Â· List your organization Â· Submit an event",
+              "nodeLabel": "Log in \u00c2\u00b7 List your organization \u00c2\u00b7 Submit an event",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -1903,7 +1912,7 @@
                 "height": 36
               },
               "snippet": "<p>",
-              "nodeLabel": "About ASC Â· FAQs Â· Directory Â· Privacy policy Â· [EMAIL REDACTED]",
+              "nodeLabel": "About ASC \u00c2\u00b7 FAQs \u00c2\u00b7 Directory \u00c2\u00b7 Privacy policy \u00c2\u00b7 [EMAIL REDACTED]",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -2111,7 +2120,7 @@
                 "height": 36
               },
               "snippet": "<p>",
-              "nodeLabel": "Copyright Â© 2023, Arts and Science Council. All rights reserved.",
+              "nodeLabel": "Copyright \u00c2\u00a9 2023, Arts and Science Council. All rights reserved.",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }

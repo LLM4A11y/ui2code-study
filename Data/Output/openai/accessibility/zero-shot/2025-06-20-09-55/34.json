@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -189,7 +181,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<p><span class=\"bold\">Global Reach, Local Commitment:</span> Whether your freight needs span across North America or extend to destinations around the world, weâve got you covered. Our network ensures that your cargo reaches its destination safely and on time, every time.</p>",
+            "html": "<p><span class=\"bold\">Global Reach, Local Commitment:</span> Whether your freight needs span across North America or extend to destinations around the world, we\u00e2\u0080\u0099ve got you covered. Our network ensures that your cargo reaches its destination safely and on time, every time.</p>",
             "target": [
               "p:nth-child(5)"
             ],
@@ -217,7 +209,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<p><span class=\"bold\">Founderâs Vision:</span> Traffic Management, Inc. was founded in 1997 by the visionary Dawn Montez. Her commitment to excellence and passion for delivering top-tier logistics solutions have been the driving force behind our companyâs success.</p>",
+            "html": "<p><span class=\"bold\">Founder\u00e2\u0080\u0099s Vision:</span> Traffic Management, Inc. was founded in 1997 by the visionary Dawn Montez. Her commitment to excellence and passion for delivering top-tier logistics solutions have been the driving force behind our company\u00e2\u0080\u0099s success.</p>",
             "target": [
               "p:nth-child(6)"
             ],
@@ -469,7 +461,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer-text\">\n            Copyright Â© 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by <a href=\"#\">Corrective Crew</a>\n        </div>",
+            "html": "<div class=\"footer-text\">\n            Copyright \u00c2\u00a9 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by <a href=\"#\">Corrective Crew</a>\n        </div>",
             "target": [
               ".footer-text"
             ],

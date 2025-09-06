@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -1015,7 +1007,7 @@
                       "height": 868
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "CulturePicks!\n\nSign up for our weekly highlights email and never miss an event!…"
+                    "nodeLabel": "CulturePicks!\n\nSign up for our weekly highlights email and never miss an event!\u2026"
                   }
                 }
               ]
@@ -1064,7 +1056,7 @@
                       "height": 868
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "CulturePicks!\n\nSign up for our weekly highlights email and never miss an event!…"
+                    "nodeLabel": "CulturePicks!\n\nSign up for our weekly highlights email and never miss an event!\u2026"
                   }
                 }
               ]
@@ -1113,7 +1105,7 @@
                       "height": 868
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "CulturePicks!\n\nSign up for our weekly highlights email and never miss an event!…"
+                    "nodeLabel": "CulturePicks!\n\nSign up for our weekly highlights email and never miss an event!\u2026"
                   }
                 }
               ]
@@ -1162,7 +1154,7 @@
                       "height": 868
                     },
                     "snippet": "<div class=\"sidebar\">",
-                    "nodeLabel": "CulturePicks!\n\nSign up for our weekly highlights email and never miss an event!…"
+                    "nodeLabel": "CulturePicks!\n\nSign up for our weekly highlights email and never miss an event!\u2026"
                   }
                 }
               ]

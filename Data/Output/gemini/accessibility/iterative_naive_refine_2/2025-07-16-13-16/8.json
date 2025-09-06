@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 2,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -231,7 +240,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>Discover South Carolina on one of these six Segway tours. Experience the sights and sounds of South Carolina's\n                cities and landmarks with an up-close and personal tour on the SegwayÃÃÂ® PT.</p>",
+            "html": "<p>Discover South Carolina on one of these six Segway tours. Experience the sights and sounds of South Carolina's\n                cities and landmarks with an up-close and personal tour on the Segway\u00c3\u0083\u0082\u00c3\u0082\u00c2\u00ae PT.</p>",
             "target": [
               ".tour-details:nth-child(5) > p:nth-child(2)"
             ],
@@ -1449,7 +1458,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p class=\"copyright\">ÃÃÂ©2004-2023 SegwayGuidedTours.com</p>",
+            "html": "<p class=\"copyright\">\u00c3\u0083\u0082\u00c3\u0082\u00c2\u00a92004-2023 SegwayGuidedTours.com</p>",
             "target": [
               ".copyright"
             ],
@@ -2021,14 +2030,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change background to #767676.",
-          "description": "<p class=\"copyright\">ÃÃÂ©2004-2023 SegwayGuidedTo...</p>",
+          "description": "<p class=\"copyright\">\u00c3\u0083\u0082\u00c3\u0082\u00c2\u00a92004-2023 SegwayGuidedTo...</p>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change background to #767676.",
-            "context": "<p class=\"copyright\">ÃÃÂ©2004-2023 SegwayGuidedTo...</p>",
+            "context": "<p class=\"copyright\">\u00c3\u0083\u0082\u00c3\u0082\u00c2\u00a92004-2023 SegwayGuidedTo...</p>",
             "selector": "html > body > footer > p",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -2102,7 +2111,7 @@
                       "height": 1514
                     },
                     "snippet": "<main class=\"main-content\">",
-                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L…"
+                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L\u2026"
                   }
                 }
               ]
@@ -2151,7 +2160,7 @@
                       "height": 1514
                     },
                     "snippet": "<main class=\"main-content\">",
-                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L…"
+                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L\u2026"
                   }
                 }
               ]
@@ -2205,7 +2214,7 @@
                 "height": 128
               },
               "snippet": "<p>",
-              "nodeLabel": "Discover South Carolina on one of these six Segway tours. Experience the sights…",
+              "nodeLabel": "Discover South Carolina on one of these six Segway tours. Experience the sights\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #777777, background color: #f9f9f9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2226,7 +2235,7 @@
                       "height": 1514
                     },
                     "snippet": "<main class=\"main-content\">",
-                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L…"
+                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L\u2026"
                   }
                 }
               ]
@@ -2275,7 +2284,7 @@
                       "height": 1514
                     },
                     "snippet": "<main class=\"main-content\">",
-                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L…"
+                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L\u2026"
                   }
                 }
               ]
@@ -2324,7 +2333,7 @@
                       "height": 1514
                     },
                     "snippet": "<main class=\"main-content\">",
-                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L…"
+                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L\u2026"
                   }
                 }
               ]
@@ -2373,7 +2382,7 @@
                       "height": 1514
                     },
                     "snippet": "<main class=\"main-content\">",
-                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L…"
+                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L\u2026"
                   }
                 }
               ]
@@ -2422,7 +2431,7 @@
                       "height": 1514
                     },
                     "snippet": "<main class=\"main-content\">",
-                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L…"
+                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L\u2026"
                   }
                 }
               ]
@@ -2471,7 +2480,7 @@
                       "height": 1514
                     },
                     "snippet": "<main class=\"main-content\">",
-                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L…"
+                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L\u2026"
                   }
                 }
               ]
@@ -2520,7 +2529,7 @@
                       "height": 1514
                     },
                     "snippet": "<main class=\"main-content\">",
-                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L…"
+                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L\u2026"
                   }
                 }
               ]
@@ -2569,7 +2578,7 @@
                       "height": 1514
                     },
                     "snippet": "<main class=\"main-content\">",
-                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L…"
+                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L\u2026"
                   }
                 }
               ]
@@ -2618,7 +2627,7 @@
                       "height": 1514
                     },
                     "snippet": "<main class=\"main-content\">",
-                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L…"
+                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L\u2026"
                   }
                 }
               ]
@@ -2667,7 +2676,7 @@
                       "height": 1514
                     },
                     "snippet": "<main class=\"main-content\">",
-                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L…"
+                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L\u2026"
                   }
                 }
               ]
@@ -2716,7 +2725,7 @@
                       "height": 1514
                     },
                     "snippet": "<main class=\"main-content\">",
-                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L…"
+                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L\u2026"
                   }
                 }
               ]
@@ -2765,7 +2774,7 @@
                       "height": 1514
                     },
                     "snippet": "<main class=\"main-content\">",
-                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L…"
+                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L\u2026"
                   }
                 }
               ]
@@ -2814,7 +2823,7 @@
                       "height": 1514
                     },
                     "snippet": "<main class=\"main-content\">",
-                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L…"
+                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L\u2026"
                   }
                 }
               ]
@@ -2863,7 +2872,7 @@
                       "height": 1514
                     },
                     "snippet": "<main class=\"main-content\">",
-                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L…"
+                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L\u2026"
                   }
                 }
               ]
@@ -2891,7 +2900,7 @@
                 "height": 128
               },
               "snippet": "<p>",
-              "nodeLabel": "Whether South Carolina is your home state or your next travel destination, one …",
+              "nodeLabel": "Whether South Carolina is your home state or your next travel destination, one \u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #777777, background color: #f9f9f9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2912,7 +2921,7 @@
                       "height": 1514
                     },
                     "snippet": "<main class=\"main-content\">",
-                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L…"
+                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L\u2026"
                   }
                 }
               ]
@@ -2940,7 +2949,7 @@
                 "height": 154
               },
               "snippet": "<p>",
-              "nodeLabel": "Looking for adventure tours beyond South Carolina's six Segway tours? Use our D…",
+              "nodeLabel": "Looking for adventure tours beyond South Carolina's six Segway tours? Use our D\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #777777, background color: #f9f9f9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2961,7 +2970,7 @@
                       "height": 1514
                     },
                     "snippet": "<main class=\"main-content\">",
-                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L…"
+                    "nodeLabel": "USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\n\nSouth Carolina L\u2026"
                   }
                 }
               ]
@@ -3010,7 +3019,7 @@
                       "height": 417
                     },
                     "snippet": "<footer style=\"background-color: #777; color: white; text-align: center; padding: 40px;\">",
-                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw…"
+                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw\u2026"
                   }
                 }
               ]
@@ -3059,7 +3068,7 @@
                       "height": 417
                     },
                     "snippet": "<footer style=\"background-color: #777; color: white; text-align: center; padding: 40px;\">",
-                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw…"
+                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw\u2026"
                   }
                 }
               ]
@@ -3108,7 +3117,7 @@
                       "height": 417
                     },
                     "snippet": "<footer style=\"background-color: #777; color: white; text-align: center; padding: 40px;\">",
-                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw…"
+                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw\u2026"
                   }
                 }
               ]
@@ -3157,7 +3166,7 @@
                       "height": 417
                     },
                     "snippet": "<footer style=\"background-color: #777; color: white; text-align: center; padding: 40px;\">",
-                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw…"
+                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw\u2026"
                   }
                 }
               ]
@@ -3232,7 +3241,7 @@
                       "height": 417
                     },
                     "snippet": "<footer style=\"background-color: #777; color: white; text-align: center; padding: 40px;\">",
-                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw…"
+                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw\u2026"
                   }
                 }
               ]
@@ -3281,7 +3290,7 @@
                       "height": 417
                     },
                     "snippet": "<footer style=\"background-color: #777; color: white; text-align: center; padding: 40px;\">",
-                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw…"
+                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw\u2026"
                   }
                 }
               ]
@@ -3309,7 +3318,7 @@
                 "height": 18
               },
               "snippet": "<p class=\"copyright\">",
-              "nodeLabel": "ÃÃÂ©2004-2023 SegwayGuidedTours.com",
+              "nodeLabel": "\u00c3\u0083\u0082\u00c3\u0082\u00c2\u00a92004-2023 SegwayGuidedTours.com",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #ffffff, background color: #777777, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -3330,7 +3339,7 @@
                       "height": 417
                     },
                     "snippet": "<footer style=\"background-color: #777; color: white; text-align: center; padding: 40px;\">",
-                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw…"
+                    "nodeLabel": "636\n\nWORLDWIDE\n\n56\n\nCOUNTRIES\n\n198\n\nREGIONS\n\n442\n\nCITIES\n\nFind a Tour on a Segw\u2026"
                   }
                 }
               ]
@@ -3422,7 +3431,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div>\n             <!-- Find a Tour on a SegwayÃÃÂ® PT now! -->\n            <h2 style=\"color: white;\">Find a Tour on a SegwayÃÃÂ® PT now!</h2>\n            <a href=\"#\" class=\"green-button\">Find a Tour Now</a>\n        </div>",
+                    "html": "<div>\n             <!-- Find a Tour on a Segway\u00c3\u0083\u0082\u00c3\u0082\u00c2\u00ae PT now! -->\n            <h2 style=\"color: white;\">Find a Tour on a Segway\u00c3\u0083\u0082\u00c3\u0082\u00c2\u00ae PT now!</h2>\n            <a href=\"#\" class=\"green-button\">Find a Tour Now</a>\n        </div>",
                     "target": [
                       "footer > div:nth-child(2)"
                     ]
@@ -3436,7 +3445,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<div>\n             <!-- Find a Tour on a SegwayÃÃÂ® PT now! -->\n            <h2 style=\"color: white;\">Find a Tour on a SegwayÃÃÂ® PT now!</h2>\n            <a href=\"#\" class=\"green-button\">Find a Tour Now</a>\n        </div>",
+                    "html": "<div>\n             <!-- Find a Tour on a Segway\u00c3\u0083\u0082\u00c3\u0082\u00c2\u00ae PT now! -->\n            <h2 style=\"color: white;\">Find a Tour on a Segway\u00c3\u0083\u0082\u00c3\u0082\u00c2\u00ae PT now!</h2>\n            <a href=\"#\" class=\"green-button\">Find a Tour Now</a>\n        </div>",
                     "target": [
                       "footer > div:nth-child(2)"
                     ]

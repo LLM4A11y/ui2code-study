@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -127,7 +119,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        Â© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> Â· <a href=\"#\">Privacy policy</a>\n    </div>",
+                    "html": "<div class=\"footer\">\n        \u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> \u00c2\u00b7 <a href=\"#\">Privacy policy</a>\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -140,7 +132,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"footer\">\n        Â© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> Â· <a href=\"#\">Privacy policy</a>\n    </div>",
+            "html": "<div class=\"footer\">\n        \u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> \u00c2\u00b7 <a href=\"#\">Privacy policy</a>\n    </div>",
             "target": [
               ".footer"
             ],
@@ -169,7 +161,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        Â© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> Â· <a href=\"#\">Privacy policy</a>\n    </div>",
+                    "html": "<div class=\"footer\">\n        \u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> \u00c2\u00b7 <a href=\"#\">Privacy policy</a>\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -211,7 +203,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        Â© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> Â· <a href=\"#\">Privacy policy</a>\n    </div>",
+                    "html": "<div class=\"footer\">\n        \u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> \u00c2\u00b7 <a href=\"#\">Privacy policy</a>\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -252,14 +244,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.7:1. Recommendation:  change text colour to #252525.",
-          "description": "<div class=\"footer\">\n        Â© Official Data Found...</div>",
+          "description": "<div class=\"footer\">\n        \u00c2\u00a9 Official Data Found...</div>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.7:1. Recommendation:  change text colour to #252525.",
-            "context": "<div class=\"footer\">\n        Â© Official Data Found...</div>",
+            "context": "<div class=\"footer\">\n        \u00c2\u00a9 Official Data Found...</div>",
             "selector": "html > body > div:nth-child(4)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -372,7 +364,7 @@
                 "height": 72
               },
               "snippet": "<div class=\"footer\">",
-              "nodeLabel": "Â© Official Data Foundation / Alioth LLC. Contact Â· Privacy policy",
+              "nodeLabel": "\u00c2\u00a9 Official Data Foundation / Alioth LLC. Contact \u00c2\u00b7 Privacy policy",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.7 (foreground color: #999999, background color: #f8f9fa, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -419,7 +411,7 @@
                       "height": 72
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Â© Official Data Foundation / Alioth LLC. Contact Â· Privacy policy"
+                    "nodeLabel": "\u00c2\u00a9 Official Data Foundation / Alioth LLC. Contact \u00c2\u00b7 Privacy policy"
                   }
                 }
               ]
@@ -468,7 +460,7 @@
                       "height": 72
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Â© Official Data Foundation / Alioth LLC. Contact Â· Privacy policy"
+                    "nodeLabel": "\u00c2\u00a9 Official Data Foundation / Alioth LLC. Contact \u00c2\u00b7 Privacy policy"
                   }
                 }
               ]
@@ -571,7 +563,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"main-title\">\n        Citrus fruits priced at $20 in 2022 â $19.66 in 2023\n    </div>",
+            "html": "<div class=\"main-title\">\n        Citrus fruits priced at $20 in 2022 \u00e2\u0086\u0092 $19.66 in 2023\n    </div>",
             "target": [
               ".main-title"
             ],
@@ -627,7 +619,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        Â© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> Â· <a href=\"#\">Privacy policy</a>\n    </div>",
+            "html": "<div class=\"footer\">\n        \u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> \u00c2\u00b7 <a href=\"#\">Privacy policy</a>\n    </div>",
             "target": [
               ".footer"
             ],

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -540,7 +532,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        Powered by Blogger<br>\n        2004â2023 Digital Inspiration\n    </div>",
+                    "html": "<div class=\"footer\">\n        Powered by Blogger<br>\n        2004\u00e2\u0080\u00932023 Digital Inspiration\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -553,7 +545,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"footer\">\n        Powered by Blogger<br>\n        2004â2023 Digital Inspiration\n    </div>",
+            "html": "<div class=\"footer\">\n        Powered by Blogger<br>\n        2004\u00e2\u0080\u00932023 Digital Inspiration\n    </div>",
             "target": [
               ".footer"
             ],
@@ -962,7 +954,7 @@
                 "height": 76
               },
               "snippet": "<div class=\"footer\">",
-              "nodeLabel": "Powered by Blogger\n2004â2023 Digital Inspiration",
+              "nodeLabel": "Powered by Blogger\n2004\u00e2\u0080\u00932023 Digital Inspiration",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #777777, background color: #f5f5f5, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -1203,7 +1195,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        Powered by Blogger<br>\n        2004â2023 Digital Inspiration\n    </div>",
+            "html": "<div class=\"footer\">\n        Powered by Blogger<br>\n        2004\u00e2\u0080\u00932023 Digital Inspiration\n    </div>",
             "target": [
               ".footer"
             ],

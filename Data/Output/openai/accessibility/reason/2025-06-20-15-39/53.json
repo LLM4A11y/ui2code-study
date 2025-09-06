@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -941,7 +933,7 @@
                       "height": 1199
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Home > Facts on India > General Knowledge > Years\nFacts on India General Knowle…"
+                    "nodeLabel": "Home > Facts on India > General Knowledge > Years\nFacts on India General Knowle\u2026"
                   }
                 }
               ]
@@ -990,7 +982,7 @@
                       "height": 1199
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Home > Facts on India > General Knowledge > Years\nFacts on India General Knowle…"
+                    "nodeLabel": "Home > Facts on India > General Knowledge > Years\nFacts on India General Knowle\u2026"
                   }
                 }
               ]
@@ -1039,7 +1031,7 @@
                       "height": 1199
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Home > Facts on India > General Knowledge > Years\nFacts on India General Knowle…"
+                    "nodeLabel": "Home > Facts on India > General Knowledge > Years\nFacts on India General Knowle\u2026"
                   }
                 }
               ]
@@ -1088,7 +1080,7 @@
                       "height": 1199
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Home > Facts on India > General Knowledge > Years\nFacts on India General Knowle…"
+                    "nodeLabel": "Home > Facts on India > General Knowledge > Years\nFacts on India General Knowle\u2026"
                   }
                 }
               ]
@@ -1137,7 +1129,7 @@
                       "height": 1199
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "Home > Facts on India > General Knowledge > Years\nFacts on India General Knowle…"
+                    "nodeLabel": "Home > Facts on India > General Knowledge > Years\nFacts on India General Knowle\u2026"
                   }
                 }
               ]

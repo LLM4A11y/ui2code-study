@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -189,7 +198,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p class=\"form-note\" style=\"text-align: right;\">Powered by <span style=\"color: blue;\">■</span></p>",
+            "html": "<p class=\"form-note\" style=\"text-align: right;\">Powered by <span style=\"color: blue;\">\u25a0</span></p>",
             "target": [
               "p:nth-child(6)"
             ],
@@ -306,7 +315,7 @@
                       "height": 2365
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Producer Application\n\nTell us a little about you and your experience. FAQ for m…"
+                    "nodeLabel": "Producer Application\n\nTell us a little about you and your experience. FAQ for m\u2026"
                   }
                 }
               ]
@@ -381,7 +390,7 @@
                       "height": 2365
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Producer Application\n\nTell us a little about you and your experience. FAQ for m…"
+                    "nodeLabel": "Producer Application\n\nTell us a little about you and your experience. FAQ for m\u2026"
                   }
                 }
               ]
@@ -409,7 +418,7 @@
                 "height": 14
               },
               "snippet": "<p class=\"form-note\" style=\"text-align: right;\">",
-              "nodeLabel": "Powered by ■",
+              "nodeLabel": "Powered by \u25a0",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -430,7 +439,7 @@
                       "height": 2365
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Producer Application\n\nTell us a little about you and your experience. FAQ for m…"
+                    "nodeLabel": "Producer Application\n\nTell us a little about you and your experience. FAQ for m\u2026"
                   }
                 }
               ]
@@ -1093,7 +1102,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<p class=\"form-note\" style=\"text-align: right;\">Powered by <span style=\"color: blue;\">■</span></p>",
+            "html": "<p class=\"form-note\" style=\"text-align: right;\">Powered by <span style=\"color: blue;\">\u25a0</span></p>",
             "target": [
               "p:nth-child(6)"
             ],

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -1036,7 +1028,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"copyright\">DANA &amp; JAROSLAV MOHAPL<br>COPYRIGHT Â© 2004 - 2023 BY EmInf. ALL RIGHTS RESERVED.</div>",
+            "html": "<div class=\"copyright\">DANA &amp; JAROSLAV MOHAPL<br>COPYRIGHT \u00c2\u00a9 2004 - 2023 BY EmInf. ALL RIGHTS RESERVED.</div>",
             "target": [
               ".copyright"
             ],
@@ -1792,7 +1784,7 @@
                 "height": 32
               },
               "snippet": "<div class=\"copyright\">",
-              "nodeLabel": "DANA & JAROSLAV MOHAPL\nCOPYRIGHT Â© 2004 - 2023 BY EmInf. ALL RIGHTS RESERVED.",
+              "nodeLabel": "DANA & JAROSLAV MOHAPL\nCOPYRIGHT \u00c2\u00a9 2004 - 2023 BY EmInf. ALL RIGHTS RESERVED.",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.99 (foreground color: #f2a94b, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -1992,7 +1984,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"copyright\">DANA &amp; JAROSLAV MOHAPL<br>COPYRIGHT Â© 2004 - 2023 BY EmInf. ALL RIGHTS RESERVED.</div>",
+            "html": "<div class=\"copyright\">DANA &amp; JAROSLAV MOHAPL<br>COPYRIGHT \u00c2\u00a9 2004 - 2023 BY EmInf. ALL RIGHTS RESERVED.</div>",
             "target": [
               ".copyright"
             ],
@@ -2033,7 +2025,7 @@
                 "height": 325
               },
               "snippet": "<table>",
-              "nodeLabel": "\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovember\tD…",
+              "nodeLabel": "\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovember\tD\u2026",
               "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers"
             },
             "subItems": {

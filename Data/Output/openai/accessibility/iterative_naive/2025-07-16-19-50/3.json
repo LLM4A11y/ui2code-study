@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -3164,7 +3156,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n                <a href=\"#\">Report abuse</a>\n                <span> Â· </span>\n                <a href=\"#\">Powered by </a>\n                <img src=\"src/placeholder.jpg\" alt=\"Logo\" style=\"width: 20px; height: 20px;\">\n            </div>",
+            "html": "<div class=\"footer\">\n                <a href=\"#\">Report abuse</a>\n                <span> \u00c2\u00b7 </span>\n                <a href=\"#\">Powered by </a>\n                <img src=\"src/placeholder.jpg\" alt=\"Logo\" style=\"width: 20px; height: 20px;\">\n            </div>",
             "target": [
               ".footer"
             ],

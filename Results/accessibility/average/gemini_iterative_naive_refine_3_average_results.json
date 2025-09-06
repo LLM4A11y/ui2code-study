@@ -8,14 +8,21 @@
   ],
   "result_files_processed": 3,
   "dataset_files_processed": 159,
-  "total_automatic_nodes_failed": 147.0,
-  "average_automatic_nodes_failed_per_file": 2.77,
+  "total_automatic_nodes_failed": 234.0,
+  "average_automatic_nodes_failed_per_file": 4.42,
   "accessibility_issues": [
     [
       "Color Contrast; Text;",
       {
         "impact": "serious",
         "amount_nodes_failed": 128.0
+      }
+    ],
+    [
+      "Alt-Text; Images;",
+      {
+        "impact": "critical",
+        "amount_nodes_failed": 87.0
       }
     ],
     [

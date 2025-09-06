@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -584,7 +576,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer-icons\">\n        <a href=\"#\">ï¡</a>\n        <a href=\"#\">ï</a>\n        <a href=\"#\">ï±</a>\n        <a href=\"#\">ï§</a>\n        <a href=\"#\">ï­</a>\n    </div>",
+            "html": "<div class=\"footer-icons\">\n        <a href=\"#\">\u00ef\u0083\u00a1</a>\n        <a href=\"#\">\u00ef\u0082\u0099</a>\n        <a href=\"#\">\u00ef\u0088\u00b1</a>\n        <a href=\"#\">\u00ef\u0085\u00a7</a>\n        <a href=\"#\">\u00ef\u0085\u00ad</a>\n    </div>",
             "target": [
               ".footer-icons"
             ],

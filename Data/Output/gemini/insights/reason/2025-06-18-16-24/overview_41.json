@@ -11,10 +11,6 @@
     "total_nodes_checked": 87,
     "total_nodes_failed": 7
   },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
-  },
   "details_checks": {
     "Color Contrast; Text;": {
       "impact": "serious",
@@ -61,8 +57,8 @@
           "amount": 2,
           "amount_relative": 0,
           "ids": [
-            "https://dequeuniversity.com/rules/axe/4.10/heading-order",
-            "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one"
+            "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one",
+            "https://dequeuniversity.com/rules/axe/4.10/heading-order"
           ]
         },
         "pa11y": {

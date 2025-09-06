@@ -3,17 +3,13 @@
     "automatic": "Yellow"
   },
   "benchmark": {
-    "automatic_ir": 0.15625,
-    "automatic_iw-ir": 0.575
+    "automatic_ir": 0.1875,
+    "automatic_iw-ir": 0.6458333333333334
   },
   "automatic_checks": {
     "lighthouse_accessibility_score": 0.64,
     "total_nodes_checked": 128,
-    "total_nodes_failed": 20
-  },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
+    "total_nodes_failed": 24
   },
   "details_checks": {
     "Label; Button; Missing Label": {
@@ -68,8 +64,8 @@
           "amount": 6,
           "amount_relative": 0,
           "ids": [
-            "Principle1.Guideline1_3.1_3_1.F68",
-            "Principle4.Guideline4_1.4_1_2.H91.InputText.Name"
+            "Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+            "Principle1.Guideline1_3.1_3_1.F68"
           ]
         },
         "lighthouse": {
@@ -94,8 +90,8 @@
           "amount": 10,
           "amount_relative": 0,
           "ids": [
-            "https://dequeuniversity.com/rules/axe/4.10/region",
-            "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main"
+            "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main",
+            "https://dequeuniversity.com/rules/axe/4.10/region"
           ]
         },
         "pa11y": {
@@ -193,6 +189,32 @@
           "ids": [
             "https://dequeuniversity.com/rules/axe/4.10/target-size"
           ]
+        }
+      }
+    },
+    "Alt-Text; Images;": {
+      "impact": "critical",
+      "amount_nodes_failed": 4,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 4,
+          "amount_relative": 4,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
         }
       }
     }

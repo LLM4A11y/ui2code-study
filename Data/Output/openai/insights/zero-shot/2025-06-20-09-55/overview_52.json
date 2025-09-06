@@ -11,10 +11,6 @@
     "total_nodes_checked": 182,
     "total_nodes_failed": 17
   },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
-  },
   "details_checks": {
     "Label; Multiple Elements; Content missing": {
       "impact": "critical",
@@ -36,8 +32,8 @@
           "amount": 6,
           "amount_relative": 0,
           "ids": [
-            "Principle4.Guideline4_1.4_1_2.H91.InputPassword.Name",
             "Principle4.Guideline4_1.4_1_2.H91.InputText.Name",
+            "Principle4.Guideline4_1.4_1_2.H91.InputPassword.Name",
             "Principle1.Guideline1_3.1_3_1.F68"
           ]
         },

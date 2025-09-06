@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 2,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -945,7 +954,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"copyright\">\n        Â© Copyright notice - Site design and content copyright justsaygday.com Individuals pictured are models and are used for illustrative purposes only.\n    </div>",
+            "html": "<div class=\"copyright\">\n        \u00c2\u00a9 Copyright notice - Site design and content copyright justsaygday.com Individuals pictured are models and are used for illustrative purposes only.\n    </div>",
             "target": [
               ".copyright"
             ],
@@ -1313,14 +1322,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.17:1. Recommendation:  change background to #1f303f.",
-          "description": "<div class=\"copyright\">\n        Â© Copyright notice - ...</div>",
+          "description": "<div class=\"copyright\">\n        \u00c2\u00a9 Copyright notice - ...</div>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.17:1. Recommendation:  change background to #1f303f.",
-            "context": "<div class=\"copyright\">\n        Â© Copyright notice - ...</div>",
+            "context": "<div class=\"copyright\">\n        \u00c2\u00a9 Copyright notice - ...</div>",
             "selector": "html > body > div:nth-child(4) > div:nth-child(2)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1446,7 +1455,7 @@
                       "height": 1283
                     },
                     "snippet": "<div class=\"section\">",
-                    "nodeLabel": "Home > Singles > Gold Coast > Bonogin\nSingles Bonogin\n\nFinding singles in Bonog…"
+                    "nodeLabel": "Home > Singles > Gold Coast > Bonogin\nSingles Bonogin\n\nFinding singles in Bonog\u2026"
                   }
                 }
               ]
@@ -1495,7 +1504,7 @@
                       "height": 1283
                     },
                     "snippet": "<div class=\"section\">",
-                    "nodeLabel": "Home > Singles > Gold Coast > Bonogin\nSingles Bonogin\n\nFinding singles in Bonog…"
+                    "nodeLabel": "Home > Singles > Gold Coast > Bonogin\nSingles Bonogin\n\nFinding singles in Bonog\u2026"
                   }
                 }
               ]
@@ -1622,7 +1631,7 @@
                       "height": 361
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics…"
+                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics\u2026"
                   }
                 }
               ]
@@ -1671,7 +1680,7 @@
                       "height": 361
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics…"
+                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics\u2026"
                   }
                 }
               ]
@@ -1720,7 +1729,7 @@
                       "height": 361
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics…"
+                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics\u2026"
                   }
                 }
               ]
@@ -1769,7 +1778,7 @@
                       "height": 361
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics…"
+                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics\u2026"
                   }
                 }
               ]
@@ -1818,7 +1827,7 @@
                       "height": 361
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics…"
+                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics\u2026"
                   }
                 }
               ]
@@ -1867,7 +1876,7 @@
                       "height": 361
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics…"
+                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics\u2026"
                   }
                 }
               ]
@@ -1916,7 +1925,7 @@
                       "height": 361
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics…"
+                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics\u2026"
                   }
                 }
               ]
@@ -1965,7 +1974,7 @@
                       "height": 361
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics…"
+                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics\u2026"
                   }
                 }
               ]
@@ -2014,7 +2023,7 @@
                       "height": 361
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics…"
+                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics\u2026"
                   }
                 }
               ]
@@ -2063,7 +2072,7 @@
                       "height": 361
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics…"
+                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics\u2026"
                   }
                 }
               ]
@@ -2112,7 +2121,7 @@
                       "height": 361
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics…"
+                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics\u2026"
                   }
                 }
               ]
@@ -2161,7 +2170,7 @@
                       "height": 361
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics…"
+                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics\u2026"
                   }
                 }
               ]
@@ -2210,7 +2219,7 @@
                       "height": 361
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics…"
+                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics\u2026"
                   }
                 }
               ]
@@ -2238,7 +2247,7 @@
                 "height": 48
               },
               "snippet": "<div class=\"copyright\">",
-              "nodeLabel": "Â© Copyright notice - Site design and content copyright justsaygday.com Individ…",
+              "nodeLabel": "\u00c2\u00a9 Copyright notice - Site design and content copyright justsaygday.com Individ\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #8897aa, background color: #253645, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2259,7 +2268,7 @@
                       "height": 361
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics…"
+                    "nodeLabel": "Singles in\nAdvancetown\nArundel\nArundel Dc\nJust Say G'day\nSSL secure\nScamalytics\u2026"
                   }
                 }
               ]

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -260,7 +252,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<p>Iâve added a script, <a href=\"#\">export_google_site_news</a>, to my catchall repository on github.</p>",
+            "html": "<p>I\u00e2\u0080\u0099ve added a script, <a href=\"#\">export_google_site_news</a>, to my catchall repository on github.</p>",
             "target": [
               "body > p:nth-child(4)"
             ],
@@ -372,7 +364,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<p>When Free It Athens moved our website from Google Sites to Drupal, we started from scratch rather than importing our old content. I realized on Wednesday that the news posts on the site were interesting historical information, yet Iâd never archived them.</p>",
+            "html": "<p>When Free It Athens moved our website from Google Sites to Drupal, we started from scratch rather than importing our old content. I realized on Wednesday that the news posts on the site were interesting historical information, yet I\u00e2\u0080\u0099d never archived them.</p>",
             "target": [
               "p:nth-child(8)"
             ],
@@ -484,7 +476,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<p>Next I found and tried to use the google-sites-export tool from Googleâs Data Liberation Team, but I was never able to authenticate successfully from it.</p>",
+            "html": "<p>Next I found and tried to use the google-sites-export tool from Google\u00e2\u0080\u0099s Data Liberation Team, but I was never able to authenticate successfully from it.</p>",
             "target": [
               "p:nth-child(12)"
             ],
@@ -512,7 +504,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<p>At this point I was worried Iâd need to use a tool like Selenium to run the javascript, but then I realized the news listing pages took a single parameter to determine how far along in the pagination they were. It wouldnât take more than a C-style for loop to download them all.</p>",
+            "html": "<p>At this point I was worried I\u00e2\u0080\u0099d need to use a tool like Selenium to run the javascript, but then I realized the news listing pages took a single parameter to determine how far along in the pagination they were. It wouldn\u00e2\u0080\u0099t take more than a C-style for loop to download them all.</p>",
             "target": [
               "p:nth-child(13)"
             ],
@@ -680,7 +672,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<p>Since I didnât find any other guides to doing this, I decided to flesh out what Iâd done into a simple tool and write about it here.</p>",
+            "html": "<p>Since I didn\u00e2\u0080\u0099t find any other guides to doing this, I decided to flesh out what I\u00e2\u0080\u0099d done into a simple tool and write about it here.</p>",
             "target": [
               "p:nth-child(19)"
             ],

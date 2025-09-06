@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -357,7 +349,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<span>â Berger (@BergerofLondon) May 22, 2014</span>",
+            "html": "<span>\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014</span>",
             "target": [
               ".quote:nth-child(5) > span"
             ],
@@ -399,7 +391,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<span>â Berger (@BergerofLondon) May 22, 2014</span>",
+            "html": "<span>\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014</span>",
             "target": [
               ".quote:nth-child(6) > span"
             ],
@@ -441,7 +433,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<span>â Berger (@BergerofLondon) May 22, 2014</span>",
+            "html": "<span>\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014</span>",
             "target": [
               ".quote:nth-child(7) > span"
             ],
@@ -483,7 +475,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<span>â Berger (@BergerofLondon) May 22, 2014</span>",
+            "html": "<span>\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014</span>",
             "target": [
               ".quote:nth-child(8) > span"
             ],
@@ -525,7 +517,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<span>â Berger (@BergerofLondon) May 22, 2014</span>",
+            "html": "<span>\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014</span>",
             "target": [
               ".quote:nth-child(9) > span"
             ],
@@ -655,14 +647,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.48:1. Recommendation:  change text colour to #098419.",
-          "description": "<span>â Berger (@BergerofLondon) Ma...</span>",
+          "description": "<span>\u00e2\u0080\u0094 Berger (@BergerofLondon) Ma...</span>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.48:1. Recommendation:  change text colour to #098419.",
-            "context": "<span>â Berger (@BergerofLondon) Ma...</span>",
+            "context": "<span>\u00e2\u0080\u0094 Berger (@BergerofLondon) Ma...</span>",
             "selector": "html > body > main > div:nth-child(5) > span",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -672,14 +664,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.48:1. Recommendation:  change text colour to #098419.",
-          "description": "<span>â Berger (@BergerofLondon) Ma...</span>",
+          "description": "<span>\u00e2\u0080\u0094 Berger (@BergerofLondon) Ma...</span>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.48:1. Recommendation:  change text colour to #098419.",
-            "context": "<span>â Berger (@BergerofLondon) Ma...</span>",
+            "context": "<span>\u00e2\u0080\u0094 Berger (@BergerofLondon) Ma...</span>",
             "selector": "html > body > main > div:nth-child(6) > span",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -689,14 +681,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.48:1. Recommendation:  change text colour to #098419.",
-          "description": "<span>â Berger (@BergerofLondon) Ma...</span>",
+          "description": "<span>\u00e2\u0080\u0094 Berger (@BergerofLondon) Ma...</span>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.48:1. Recommendation:  change text colour to #098419.",
-            "context": "<span>â Berger (@BergerofLondon) Ma...</span>",
+            "context": "<span>\u00e2\u0080\u0094 Berger (@BergerofLondon) Ma...</span>",
             "selector": "html > body > main > div:nth-child(7) > span",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -706,14 +698,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.48:1. Recommendation:  change text colour to #098419.",
-          "description": "<span>â Berger (@BergerofLondon) Ma...</span>",
+          "description": "<span>\u00e2\u0080\u0094 Berger (@BergerofLondon) Ma...</span>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.48:1. Recommendation:  change text colour to #098419.",
-            "context": "<span>â Berger (@BergerofLondon) Ma...</span>",
+            "context": "<span>\u00e2\u0080\u0094 Berger (@BergerofLondon) Ma...</span>",
             "selector": "html > body > main > div:nth-child(8) > span",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -723,14 +715,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.48:1. Recommendation:  change text colour to #098419.",
-          "description": "<span>â Berger (@BergerofLondon) Ma...</span>",
+          "description": "<span>\u00e2\u0080\u0094 Berger (@BergerofLondon) Ma...</span>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.48:1. Recommendation:  change text colour to #098419.",
-            "context": "<span>â Berger (@BergerofLondon) Ma...</span>",
+            "context": "<span>\u00e2\u0080\u0094 Berger (@BergerofLondon) Ma...</span>",
             "selector": "html > body > main > div:nth-child(9) > span",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1072,7 +1064,7 @@
                       "height": 1153
                     },
                     "snippet": "<main class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1100,7 +1092,7 @@
                 "height": 24
               },
               "snippet": "<span>",
-              "nodeLabel": "â Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.48 (foreground color: #3ab54a, background color: #f7f7f7, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1121,7 +1113,7 @@
                       "height": 1153
                     },
                     "snippet": "<main class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1149,7 +1141,7 @@
                 "height": 24
               },
               "snippet": "<span>",
-              "nodeLabel": "â Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.48 (foreground color: #3ab54a, background color: #f7f7f7, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1170,7 +1162,7 @@
                       "height": 1153
                     },
                     "snippet": "<main class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1198,7 +1190,7 @@
                 "height": 24
               },
               "snippet": "<span>",
-              "nodeLabel": "â Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.48 (foreground color: #3ab54a, background color: #f7f7f7, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1219,7 +1211,7 @@
                       "height": 1153
                     },
                     "snippet": "<main class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1247,7 +1239,7 @@
                 "height": 24
               },
               "snippet": "<span>",
-              "nodeLabel": "â Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.48 (foreground color: #3ab54a, background color: #f7f7f7, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1268,7 +1260,7 @@
                       "height": 1153
                     },
                     "snippet": "<main class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1296,7 +1288,7 @@
                 "height": 24
               },
               "snippet": "<span>",
-              "nodeLabel": "â Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.48 (foreground color: #3ab54a, background color: #f7f7f7, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1317,7 +1309,7 @@
                       "height": 1153
                     },
                     "snippet": "<main class=\"content\">",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]

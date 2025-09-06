@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -195,7 +187,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>Charlotte Culture Guide is a project of <a href=\"#\">ASC</a>.<br>\n    Copyright ÃÂ© 2023, Arts and Science Council. All rights reserved.<br>\n    Website developed by <a href=\"#\">Zero Defect Design LLC</a>.</p>",
+                    "html": "<p>Charlotte Culture Guide is a project of <a href=\"#\">ASC</a>.<br>\n    Copyright \u00c3\u0082\u00c2\u00a9 2023, Arts and Science Council. All rights reserved.<br>\n    Website developed by <a href=\"#\">Zero Defect Design LLC</a>.</p>",
                     "target": [
                       "footer > p:nth-child(4)"
                     ]
@@ -209,7 +201,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>Charlotte Culture Guide is a project of <a href=\"#\">ASC</a>.<br>\n    Copyright ÃÂ© 2023, Arts and Science Council. All rights reserved.<br>\n    Website developed by <a href=\"#\">Zero Defect Design LLC</a>.</p>",
+                    "html": "<p>Charlotte Culture Guide is a project of <a href=\"#\">ASC</a>.<br>\n    Copyright \u00c3\u0082\u00c2\u00a9 2023, Arts and Science Council. All rights reserved.<br>\n    Website developed by <a href=\"#\">Zero Defect Design LLC</a>.</p>",
                     "target": [
                       "footer > p:nth-child(4)"
                     ]
@@ -271,7 +263,7 @@
                       "height": 76
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Charlotte Culture Guide is a project of ASC.\nCopyright ÃÂ© 2023, Arts and Scie…"
+                    "nodeLabel": "Charlotte Culture Guide is a project of ASC.\nCopyright \u00c3\u0082\u00c2\u00a9 2023, Arts and Scie\u2026"
                   }
                 }
               ]

@@ -8,8 +8,8 @@
   ],
   "result_files_processed": 3,
   "dataset_files_processed": 159,
-  "total_automatic_nodes_failed": 756.0,
-  "average_automatic_nodes_failed_per_file": 14.26,
+  "total_automatic_nodes_failed": 843.0,
+  "average_automatic_nodes_failed_per_file": 15.91,
   "accessibility_issues": [
     [
       "Color Contrast; Text;",
@@ -30,6 +30,13 @@
       {
         "impact": "critical",
         "amount_nodes_failed": 126.67
+      }
+    ],
+    [
+      "Alt-Text; Images;",
+      {
+        "impact": "critical",
+        "amount_nodes_failed": 90.67
       }
     ],
     [
@@ -72,13 +79,6 @@
       {
         "impact": "minor",
         "amount_nodes_failed": 4.33
-      }
-    ],
-    [
-      "Alt-Text; Images;",
-      {
-        "impact": "critical",
-        "amount_nodes_failed": 3.67
       }
     ],
     [

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -512,7 +504,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"cta\">\n        <h2>Find a Tour on a SegwayÂ® PT now!</h2>\n        <button>Find a Tour Now</button>\n    </div>",
+                    "html": "<div class=\"cta\">\n        <h2>Find a Tour on a Segway\u00c2\u00ae PT now!</h2>\n        <button>Find a Tour Now</button>\n    </div>",
                     "target": [
                       ".cta"
                     ]
@@ -525,7 +517,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<h2>Find a Tour on a SegwayÂ® PT now!</h2>",
+            "html": "<h2>Find a Tour on a Segway\u00c2\u00ae PT now!</h2>",
             "target": [
               ".cta > h2"
             ],
@@ -1059,14 +1051,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G145.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change background to #35a686.",
-          "description": "<h2>Find a Tour on a SegwayÂ® PT no...</h2>",
+          "description": "<h2>Find a Tour on a Segway\u00c2\u00ae PT no...</h2>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change background to #35a686.",
-            "context": "<h2>Find a Tour on a SegwayÂ® PT no...</h2>",
+            "context": "<h2>Find a Tour on a Segway\u00c2\u00ae PT no...</h2>",
             "selector": "html > body > div:nth-child(7) > h2",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1255,7 +1247,7 @@
                 "height": 56
               },
               "snippet": "<div class=\"breadcrumb\">",
-              "nodeLabel": "/   USA / SOUTH CAROLINA",
+              "nodeLabel": "/ \u00a0 USA / SOUTH CAROLINA",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.25 (foreground color: #888888, background color: #f5f5f5, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1325,7 +1317,7 @@
                       "height": 319
                     },
                     "snippet": "<div class=\"content-main\">",
-                    "nodeLabel": "South Carolina Segway Tours\n\nWhether South Carolina is your home state or your …"
+                    "nodeLabel": "South Carolina Segway Tours\n\nWhether South Carolina is your home state or your \u2026"
                   }
                 }
               ]
@@ -1745,7 +1737,7 @@
                 "height": 56
               },
               "snippet": "<h2>",
-              "nodeLabel": "Find a Tour on a SegwayÂ® PT now!",
+              "nodeLabel": "Find a Tour on a Segway\u00c2\u00ae PT now!",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #ffffff, background color: #3aab8b, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 3:1"
             },
             "subItems": {
@@ -1766,7 +1758,7 @@
                       "height": 144
                     },
                     "snippet": "<div class=\"cta\">",
-                    "nodeLabel": "Find a Tour on a SegwayÂ® PT now!\nFIND A TOUR NOW"
+                    "nodeLabel": "Find a Tour on a Segway\u00c2\u00ae PT now!\nFIND A TOUR NOW"
                   }
                 }
               ]
@@ -1815,7 +1807,7 @@
                       "height": 145
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Home Find Segway Tours Browse Tours About SGT Segway MINIPRO For Tour Operators…"
+                    "nodeLabel": "Home Find Segway Tours Browse Tours About SGT Segway MINIPRO For Tour Operators\u2026"
                   }
                 }
               ]
@@ -1864,7 +1856,7 @@
                       "height": 145
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Home Find Segway Tours Browse Tours About SGT Segway MINIPRO For Tour Operators…"
+                    "nodeLabel": "Home Find Segway Tours Browse Tours About SGT Segway MINIPRO For Tour Operators\u2026"
                   }
                 }
               ]
@@ -1913,7 +1905,7 @@
                       "height": 145
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Home Find Segway Tours Browse Tours About SGT Segway MINIPRO For Tour Operators…"
+                    "nodeLabel": "Home Find Segway Tours Browse Tours About SGT Segway MINIPRO For Tour Operators\u2026"
                   }
                 }
               ]
@@ -1962,7 +1954,7 @@
                       "height": 145
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Home Find Segway Tours Browse Tours About SGT Segway MINIPRO For Tour Operators…"
+                    "nodeLabel": "Home Find Segway Tours Browse Tours About SGT Segway MINIPRO For Tour Operators\u2026"
                   }
                 }
               ]
@@ -2011,7 +2003,7 @@
                       "height": 145
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Home Find Segway Tours Browse Tours About SGT Segway MINIPRO For Tour Operators…"
+                    "nodeLabel": "Home Find Segway Tours Browse Tours About SGT Segway MINIPRO For Tour Operators\u2026"
                   }
                 }
               ]
@@ -2060,7 +2052,7 @@
                       "height": 145
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Home Find Segway Tours Browse Tours About SGT Segway MINIPRO For Tour Operators…"
+                    "nodeLabel": "Home Find Segway Tours Browse Tours About SGT Segway MINIPRO For Tour Operators\u2026"
                   }
                 }
               ]
@@ -2109,7 +2101,7 @@
                       "height": 145
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Home Find Segway Tours Browse Tours About SGT Segway MINIPRO For Tour Operators…"
+                    "nodeLabel": "Home Find Segway Tours Browse Tours About SGT Segway MINIPRO For Tour Operators\u2026"
                   }
                 }
               ]
@@ -2158,7 +2150,7 @@
                       "height": 145
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Home Find Segway Tours Browse Tours About SGT Segway MINIPRO For Tour Operators…"
+                    "nodeLabel": "Home Find Segway Tours Browse Tours About SGT Segway MINIPRO For Tour Operators\u2026"
                   }
                 }
               ]
@@ -2409,7 +2401,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<h2>Find a Tour on a SegwayÂ® PT now!</h2>",
+            "html": "<h2>Find a Tour on a Segway\u00c2\u00ae PT now!</h2>",
             "target": [
               ".cta > h2"
             ],

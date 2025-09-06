@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -63,7 +55,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<span>â edited on 2018/10/28 11:00</span>",
+            "html": "<span>\u00e2\u0080\u0094 edited on 2018/10/28 11:00</span>",
             "target": [
               "span"
             ],
@@ -74,14 +66,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.68:1. Recommendation:  change text colour to #727272.",
-          "description": "<span>â edited on 2018/10/28 11:00</span>",
+          "description": "<span>\u00e2\u0080\u0094 edited on 2018/10/28 11:00</span>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.68:1. Recommendation:  change text colour to #727272.",
-            "context": "<span>â edited on 2018/10/28 11:00</span>",
+            "context": "<span>\u00e2\u0080\u0094 edited on 2018/10/28 11:00</span>",
             "selector": "html > body > div:nth-child(3) > div:nth-child(2) > span",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -250,7 +242,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"post-meta\">\n            <a href=\"#\"><img src=\"src/placeholder.jpg\" alt=\"Avatar\"> Shyzuna </a>\n            on 2018/10/27 23:53 \n            <span>â edited on 2018/10/28 11:00</span>\n        </div>",
+                    "html": "<div class=\"post-meta\">\n            <a href=\"#\"><img src=\"src/placeholder.jpg\" alt=\"Avatar\"> Shyzuna </a>\n            on 2018/10/27 23:53 \n            <span>\u00e2\u0080\u0094 edited on 2018/10/28 11:00</span>\n        </div>",
                     "target": [
                       ".post-meta"
                     ]
@@ -264,7 +256,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"post-meta\">\n            <a href=\"#\"><img src=\"src/placeholder.jpg\" alt=\"Avatar\"> Shyzuna </a>\n            on 2018/10/27 23:53 \n            <span>â edited on 2018/10/28 11:00</span>\n        </div>",
+                    "html": "<div class=\"post-meta\">\n            <a href=\"#\"><img src=\"src/placeholder.jpg\" alt=\"Avatar\"> Shyzuna </a>\n            on 2018/10/27 23:53 \n            <span>\u00e2\u0080\u0094 edited on 2018/10/28 11:00</span>\n        </div>",
                     "target": [
                       ".post-meta"
                     ]

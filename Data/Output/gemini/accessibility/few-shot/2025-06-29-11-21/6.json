@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 3,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -1436,7 +1445,7 @@
                       "height": 430
                     },
                     "snippet": "<div class=\"sidebar-section\">",
-                    "nodeLabel": "Listen/Download ( help? )\nWhole book (zip file) Download\nSubscribe by iTunes iT…"
+                    "nodeLabel": "Listen/Download ( help? )\nWhole book (zip file) Download\nSubscribe by iTunes iT\u2026"
                   }
                 }
               ]
@@ -1563,7 +1572,7 @@
                       "height": 563
                     },
                     "snippet": "<div class=\"sidebar-section\">",
-                    "nodeLabel": "Production details\nRunning Time: 02:32:05\nZip file size: 71MB\nCatalog date: 201…"
+                    "nodeLabel": "Production details\nRunning Time: 02:32:05\nZip file size: 71MB\nCatalog date: 201\u2026"
                   }
                 }
               ]
@@ -1612,7 +1621,7 @@
                       "height": 563
                     },
                     "snippet": "<div class=\"sidebar-section\">",
-                    "nodeLabel": "Production details\nRunning Time: 02:32:05\nZip file size: 71MB\nCatalog date: 201…"
+                    "nodeLabel": "Production details\nRunning Time: 02:32:05\nZip file size: 71MB\nCatalog date: 201\u2026"
                   }
                 }
               ]
@@ -1661,7 +1670,7 @@
                       "height": 563
                     },
                     "snippet": "<div class=\"sidebar-section\">",
-                    "nodeLabel": "Production details\nRunning Time: 02:32:05\nZip file size: 71MB\nCatalog date: 201…"
+                    "nodeLabel": "Production details\nRunning Time: 02:32:05\nZip file size: 71MB\nCatalog date: 201\u2026"
                   }
                 }
               ]
@@ -1710,7 +1719,7 @@
                       "height": 563
                     },
                     "snippet": "<div class=\"sidebar-section\">",
-                    "nodeLabel": "Production details\nRunning Time: 02:32:05\nZip file size: 71MB\nCatalog date: 201…"
+                    "nodeLabel": "Production details\nRunning Time: 02:32:05\nZip file size: 71MB\nCatalog date: 201\u2026"
                   }
                 }
               ]
@@ -1759,7 +1768,7 @@
                       "height": 326
                     },
                     "snippet": "<div class=\"sidebar-section links\">",
-                    "nodeLabel": "Links\nInternet Archive Page\nOnline text\nWikipedia - Josephine Brown\nM4B Audiobo…"
+                    "nodeLabel": "Links\nInternet Archive Page\nOnline text\nWikipedia - Josephine Brown\nM4B Audiobo\u2026"
                   }
                 }
               ]
@@ -1808,7 +1817,7 @@
                       "height": 326
                     },
                     "snippet": "<div class=\"sidebar-section links\">",
-                    "nodeLabel": "Links\nInternet Archive Page\nOnline text\nWikipedia - Josephine Brown\nM4B Audiobo…"
+                    "nodeLabel": "Links\nInternet Archive Page\nOnline text\nWikipedia - Josephine Brown\nM4B Audiobo\u2026"
                   }
                 }
               ]

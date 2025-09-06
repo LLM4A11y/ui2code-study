@@ -11,10 +11,6 @@
     "total_nodes_checked": 161,
     "total_nodes_failed": 12
   },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
-  },
   "details_checks": {
     "Color Contrast; Text;": {
       "impact": "serious",

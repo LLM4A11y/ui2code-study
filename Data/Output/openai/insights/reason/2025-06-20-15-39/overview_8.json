@@ -3,17 +3,13 @@
     "automatic": "Yellow"
   },
   "benchmark": {
-    "automatic_ir": 0.1901840490797546,
-    "automatic_iw-ir": 0.5129032258064516
+    "automatic_ir": 0.19631901840490798,
+    "automatic_iw-ir": 0.528125
   },
   "automatic_checks": {
     "lighthouse_accessibility_score": 0.91,
     "total_nodes_checked": 163,
-    "total_nodes_failed": 31
-  },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
+    "total_nodes_failed": 32
   },
   "details_checks": {
     "Color Contrast; Text;": {
@@ -103,6 +99,32 @@
           "ids": [
             "https://dequeuniversity.com/rules/axe/4.10/target-size"
           ]
+        }
+      }
+    },
+    "Alt-Text; Images;": {
+      "impact": "critical",
+      "amount_nodes_failed": 1,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 1,
+          "amount_relative": 1,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
         }
       }
     }

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -273,7 +265,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>JokeBuddha.com Â© 2010-2023 Terms &amp; Privacy</p>",
+            "html": "<p>JokeBuddha.com \u00c2\u00a9 2010-2023 Terms &amp; Privacy</p>",
             "target": [
               "footer > p:nth-child(1)"
             ],
@@ -411,14 +403,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
-          "description": "<p>JokeBuddha.com Â© 2010-2023 Ter...</p>",
+          "description": "<p>JokeBuddha.com \u00c2\u00a9 2010-2023 Ter...</p>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.85:1. Recommendation:  change text colour to #767676.",
-            "context": "<p>JokeBuddha.com Â© 2010-2023 Ter...</p>",
+            "context": "<p>JokeBuddha.com \u00c2\u00a9 2010-2023 Ter...</p>",
             "selector": "html > body > div > footer > p:nth-child(1)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -483,7 +475,7 @@
                       "height": 426
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Capacity Jokes\nPicard \"Mr\n\nPicard \"Mr. LaForge, have you had any success with y…"
+                    "nodeLabel": "Capacity Jokes\nPicard \"Mr\n\nPicard \"Mr. LaForge, have you had any success with y\u2026"
                   }
                 }
               ]
@@ -532,7 +524,7 @@
                       "height": 426
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Capacity Jokes\nPicard \"Mr\n\nPicard \"Mr. LaForge, have you had any success with y…"
+                    "nodeLabel": "Capacity Jokes\nPicard \"Mr\n\nPicard \"Mr. LaForge, have you had any success with y\u2026"
                   }
                 }
               ]
@@ -581,7 +573,7 @@
                       "height": 426
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Capacity Jokes\nPicard \"Mr\n\nPicard \"Mr. LaForge, have you had any success with y…"
+                    "nodeLabel": "Capacity Jokes\nPicard \"Mr\n\nPicard \"Mr. LaForge, have you had any success with y\u2026"
                   }
                 }
               ]
@@ -630,7 +622,7 @@
                       "height": 426
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Capacity Jokes\nPicard \"Mr\n\nPicard \"Mr. LaForge, have you had any success with y…"
+                    "nodeLabel": "Capacity Jokes\nPicard \"Mr\n\nPicard \"Mr. LaForge, have you had any success with y\u2026"
                   }
                 }
               ]
@@ -679,7 +671,7 @@
                       "height": 426
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Capacity Jokes\nPicard \"Mr\n\nPicard \"Mr. LaForge, have you had any success with y…"
+                    "nodeLabel": "Capacity Jokes\nPicard \"Mr\n\nPicard \"Mr. LaForge, have you had any success with y\u2026"
                   }
                 }
               ]
@@ -707,7 +699,7 @@
                 "height": 18
               },
               "snippet": "<p>",
-              "nodeLabel": "JokeBuddha.com Â© 2010-2023 Terms & Privacy",
+              "nodeLabel": "JokeBuddha.com \u00c2\u00a9 2010-2023 Terms & Privacy",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #999999, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -728,7 +720,7 @@
                       "height": 426
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Capacity Jokes\nPicard \"Mr\n\nPicard \"Mr. LaForge, have you had any success with y…"
+                    "nodeLabel": "Capacity Jokes\nPicard \"Mr\n\nPicard \"Mr. LaForge, have you had any success with y\u2026"
                   }
                 }
               ]
@@ -777,7 +769,7 @@
                       "height": 426
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Capacity Jokes\nPicard \"Mr\n\nPicard \"Mr. LaForge, have you had any success with y…"
+                    "nodeLabel": "Capacity Jokes\nPicard \"Mr\n\nPicard \"Mr. LaForge, have you had any success with y\u2026"
                   }
                 }
               ]

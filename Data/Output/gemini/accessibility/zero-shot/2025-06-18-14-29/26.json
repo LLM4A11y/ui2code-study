@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -275,7 +267,7 @@
                 "height": 83
               },
               "snippet": "<p>",
-              "nodeLabel": "The Buyer Agent is an individual who is highly sociable, draws energy from work…",
+              "nodeLabel": "The Buyer Agent is an individual who is highly sociable, draws energy from work\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.21 (foreground color: #777777, background color: #f8f8f8, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {

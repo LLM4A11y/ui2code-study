@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -424,7 +416,7 @@
                       "height": 918
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "No Jackpot After all for German Lottery Player\nWednesday, November 26, 2014\nA l…"
+                    "nodeLabel": "No Jackpot After all for German Lottery Player\nWednesday, November 26, 2014\nA l\u2026"
                   }
                 }
               ]
@@ -452,7 +444,7 @@
                 "height": 70
               },
               "snippet": "<div class=\"post-footer\">",
-              "nodeLabel": "Posted by Unknown at 5:28 PM\nEmail This BlogThis! Share to Twitter Share to Fac…",
+              "nodeLabel": "Posted by Unknown at 5:28 PM\nEmail This BlogThis! Share to Twitter Share to Fac\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #999999, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -473,7 +465,7 @@
                       "height": 918
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "No Jackpot After all for German Lottery Player\nWednesday, November 26, 2014\nA l…"
+                    "nodeLabel": "No Jackpot After all for German Lottery Player\nWednesday, November 26, 2014\nA l\u2026"
                   }
                 }
               ]
@@ -522,7 +514,7 @@
                       "height": 918
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "No Jackpot After all for German Lottery Player\nWednesday, November 26, 2014\nA l…"
+                    "nodeLabel": "No Jackpot After all for German Lottery Player\nWednesday, November 26, 2014\nA l\u2026"
                   }
                 }
               ]

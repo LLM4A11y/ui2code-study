@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -50,7 +42,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer>\n        © Copyright 2009 COL Group, Indiana University\n        <a href=\"#\">Web design released by Flash Gallery</a>\n    </footer>",
+                    "html": "<footer>\n        \u00a9 Copyright 2009 COL Group, Indiana University\n        <a href=\"#\">Web design released by Flash Gallery</a>\n    </footer>",
                     "target": [
                       "footer"
                     ]
@@ -129,7 +121,7 @@
                       "height": 69
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "© Copyright 2009 COL Group, Indiana University Web design released by Flash Gal…"
+                    "nodeLabel": "\u00a9 Copyright 2009 COL Group, Indiana University Web design released by Flash Gal\u2026"
                   }
                 }
               ]
@@ -355,7 +347,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer>\n        © Copyright 2009 COL Group, Indiana University\n        <a href=\"#\">Web design released by Flash Gallery</a>\n    </footer>",
+                    "html": "<footer>\n        \u00a9 Copyright 2009 COL Group, Indiana University\n        <a href=\"#\">Web design released by Flash Gallery</a>\n    </footer>",
                     "target": [
                       "footer"
                     ]
@@ -369,7 +361,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<footer>\n        © Copyright 2009 COL Group, Indiana University\n        <a href=\"#\">Web design released by Flash Gallery</a>\n    </footer>",
+                    "html": "<footer>\n        \u00a9 Copyright 2009 COL Group, Indiana University\n        <a href=\"#\">Web design released by Flash Gallery</a>\n    </footer>",
                     "target": [
                       "footer"
                     ]
@@ -431,7 +423,7 @@
                       "height": 69
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "© Copyright 2009 COL Group, Indiana University Web design released by Flash Gal…"
+                    "nodeLabel": "\u00a9 Copyright 2009 COL Group, Indiana University Web design released by Flash Gal\u2026"
                   }
                 }
               ]

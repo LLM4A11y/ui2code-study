@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 2,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -512,7 +521,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"bottom-cta\">\n        <h2>Find a Tour on a SegwayÂ® PT now!</h2>\n        <button class=\"cta-button\">Find a Tour Now</button>\n    </div>",
+                    "html": "<div class=\"bottom-cta\">\n        <h2>Find a Tour on a Segway\u00c2\u00ae PT now!</h2>\n        <button class=\"cta-button\">Find a Tour Now</button>\n    </div>",
                     "target": [
                       ".bottom-cta"
                     ]
@@ -525,7 +534,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<h2>Find a Tour on a SegwayÂ® PT now!</h2>",
+            "html": "<h2>Find a Tour on a Segway\u00c2\u00ae PT now!</h2>",
             "target": [
               ".bottom-cta > h2"
             ],
@@ -765,14 +774,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G145.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.29:1. Recommendation:  change background to #12a796.",
-          "description": "<h2>Find a Tour on a SegwayÂ® PT no...</h2>",
+          "description": "<h2>Find a Tour on a Segway\u00c2\u00ae PT no...</h2>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G145.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 3:1, but text in this element has a contrast ratio of 2.29:1. Recommendation:  change background to #12a796.",
-            "context": "<h2>Find a Tour on a SegwayÂ® PT no...</h2>",
+            "context": "<h2>Find a Tour on a Segway\u00c2\u00ae PT no...</h2>",
             "selector": "html > body > div:nth-child(5) > h2",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -863,7 +872,7 @@
                       "height": 1213
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "// USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\nSouth Carolina…"
+                    "nodeLabel": "// USA / SOUTH CAROLINA\nList of 6 Segway Tours in South Carolina\nSouth Carolina\u2026"
                   }
                 }
               ]
@@ -1309,7 +1318,7 @@
                 "height": 56
               },
               "snippet": "<h2>",
-              "nodeLabel": "Find a Tour on a SegwayÂ® PT now!",
+              "nodeLabel": "Find a Tour on a Segway\u00c2\u00ae PT now!",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.29 (foreground color: #ffffff, background color: #2abfae, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 3:1"
             },
             "subItems": {
@@ -1330,7 +1339,7 @@
                       "height": 191
                     },
                     "snippet": "<div class=\"bottom-cta\">",
-                    "nodeLabel": "Find a Tour on a SegwayÂ® PT now!\nFind a Tour Now"
+                    "nodeLabel": "Find a Tour on a Segway\u00c2\u00ae PT now!\nFind a Tour Now"
                   }
                 }
               ]
@@ -1543,7 +1552,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<h2>Find a Tour on a SegwayÂ® PT now!</h2>",
+            "html": "<h2>Find a Tour on a Segway\u00c2\u00ae PT now!</h2>",
             "target": [
               ".bottom-cta > h2"
             ],

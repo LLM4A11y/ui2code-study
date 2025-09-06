@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -442,7 +434,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<blockquote class=\"quote\">\n            Following upgrade to Confluence 5.5.1 the values of parameters in user macros cannot be evaluated the same way. Discovered this the hard way\n            <cite>â Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
+                    "html": "<blockquote class=\"quote\">\n            Following upgrade to Confluence 5.5.1 the values of parameters in user macros cannot be evaluated the same way. Discovered this the hard way\n            <cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
                     "target": [
                       "blockquote:nth-child(6)"
                     ]
@@ -455,7 +447,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<cite>â Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>",
+            "html": "<cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>",
             "target": [
               "blockquote:nth-child(6) > cite"
             ],
@@ -484,7 +476,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<blockquote class=\"quote\">\n            Following upgrade to Confluence 5.5.1 the values of parameters in user macros cannot be evaluated the same way. Discovered this the hard way\n            <cite>â Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
+                    "html": "<blockquote class=\"quote\">\n            Following upgrade to Confluence 5.5.1 the values of parameters in user macros cannot be evaluated the same way. Discovered this the hard way\n            <cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
                     "target": [
                       "blockquote:nth-child(6)"
                     ]
@@ -526,7 +518,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<blockquote class=\"quote\">\n            You canât use the same shorthand you use for standard variables. #if ($paramistrue) will always evaluate as true.\n            <cite>â Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
+                    "html": "<blockquote class=\"quote\">\n            You can\u00e2\u0080\u0099t use the same shorthand you use for standard variables. #if ($paramistrue) will always evaluate as true.\n            <cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
                     "target": [
                       "blockquote:nth-child(7)"
                     ]
@@ -539,7 +531,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<cite>â Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>",
+            "html": "<cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>",
             "target": [
               "blockquote:nth-child(7) > cite"
             ],
@@ -568,7 +560,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<blockquote class=\"quote\">\n            You canât use the same shorthand you use for standard variables. #if ($paramistrue) will always evaluate as true.\n            <cite>â Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
+                    "html": "<blockquote class=\"quote\">\n            You can\u00e2\u0080\u0099t use the same shorthand you use for standard variables. #if ($paramistrue) will always evaluate as true.\n            <cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
                     "target": [
                       "blockquote:nth-child(7)"
                     ]
@@ -610,7 +602,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<blockquote class=\"quote\">\n            You now have to use things like #if ($paramistrue == true) or #if ($paramistrue == false).\n            <cite>â Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
+                    "html": "<blockquote class=\"quote\">\n            You now have to use things like #if ($paramistrue == true) or #if ($paramistrue == false).\n            <cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
                     "target": [
                       "blockquote:nth-child(8)"
                     ]
@@ -623,7 +615,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<cite>â Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>",
+            "html": "<cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>",
             "target": [
               "blockquote:nth-child(8) > cite"
             ],
@@ -652,7 +644,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<blockquote class=\"quote\">\n            You now have to use things like #if ($paramistrue == true) or #if ($paramistrue == false).\n            <cite>â Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
+                    "html": "<blockquote class=\"quote\">\n            You now have to use things like #if ($paramistrue == true) or #if ($paramistrue == false).\n            <cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
                     "target": [
                       "blockquote:nth-child(8)"
                     ]
@@ -694,7 +686,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<blockquote class=\"quote\">\n            <a href=\"#\">@baitman</a> For strings I can no longer do #if ($paramfoo), I have to do #if ($paramfoo.length() &gt; 0. Which is crazy.\n            <cite>â Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
+                    "html": "<blockquote class=\"quote\">\n            <a href=\"#\">@baitman</a> For strings I can no longer do #if ($paramfoo), I have to do #if ($paramfoo.length() &gt; 0. Which is crazy.\n            <cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
                     "target": [
                       "blockquote:nth-child(9)"
                     ]
@@ -736,7 +728,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<blockquote class=\"quote\">\n            <a href=\"#\">@baitman</a> For strings I can no longer do #if ($paramfoo), I have to do #if ($paramfoo.length() &gt; 0. Which is crazy.\n            <cite>â Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
+                    "html": "<blockquote class=\"quote\">\n            <a href=\"#\">@baitman</a> For strings I can no longer do #if ($paramfoo), I have to do #if ($paramfoo.length() &gt; 0. Which is crazy.\n            <cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
                     "target": [
                       "blockquote:nth-child(9)"
                     ]
@@ -749,7 +741,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<cite>â Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>",
+            "html": "<cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>",
             "target": [
               "blockquote:nth-child(9) > cite"
             ],
@@ -778,7 +770,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<blockquote class=\"quote\">\n            <a href=\"#\">@baitman</a> For strings I can no longer do #if ($paramfoo), I have to do #if ($paramfoo.length() &gt; 0. Which is crazy.\n            <cite>â Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
+                    "html": "<blockquote class=\"quote\">\n            <a href=\"#\">@baitman</a> For strings I can no longer do #if ($paramfoo), I have to do #if ($paramfoo.length() &gt; 0. Which is crazy.\n            <cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
                     "target": [
                       "blockquote:nth-child(9)"
                     ]
@@ -820,7 +812,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<blockquote class=\"quote\">\n            <a href=\"#\">@baitman</a> Also, if you're upgrading to 5.5.1 to fix the security vulnerability double-check that it's upgraded xwork to 1.17. Ours wasn't.\n            <cite>â Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
+                    "html": "<blockquote class=\"quote\">\n            <a href=\"#\">@baitman</a> Also, if you're upgrading to 5.5.1 to fix the security vulnerability double-check that it's upgraded xwork to 1.17. Ours wasn't.\n            <cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
                     "target": [
                       "blockquote:nth-child(10)"
                     ]
@@ -862,7 +854,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<blockquote class=\"quote\">\n            <a href=\"#\">@baitman</a> Also, if you're upgrading to 5.5.1 to fix the security vulnerability double-check that it's upgraded xwork to 1.17. Ours wasn't.\n            <cite>â Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
+                    "html": "<blockquote class=\"quote\">\n            <a href=\"#\">@baitman</a> Also, if you're upgrading to 5.5.1 to fix the security vulnerability double-check that it's upgraded xwork to 1.17. Ours wasn't.\n            <cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
                     "target": [
                       "blockquote:nth-child(10)"
                     ]
@@ -875,7 +867,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<cite>â Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>",
+            "html": "<cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>",
             "target": [
               "blockquote:nth-child(10) > cite"
             ],
@@ -904,7 +896,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<blockquote class=\"quote\">\n            <a href=\"#\">@baitman</a> Also, if you're upgrading to 5.5.1 to fix the security vulnerability double-check that it's upgraded xwork to 1.17. Ours wasn't.\n            <cite>â Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
+                    "html": "<blockquote class=\"quote\">\n            <a href=\"#\">@baitman</a> Also, if you're upgrading to 5.5.1 to fix the security vulnerability double-check that it's upgraded xwork to 1.17. Ours wasn't.\n            <cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a href=\"#\">May 22, 2014</a></cite>\n        </blockquote>",
                     "target": [
                       "blockquote:nth-child(10)"
                     ]
@@ -1065,14 +1057,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.34:1. Recommendation:  change text colour to #2077b9.",
-          "description": "<cite>â Berger (@BergerofLondon) <a...</cite>",
+          "description": "<cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a...</cite>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.34:1. Recommendation:  change text colour to #2077b9.",
-            "context": "<cite>â Berger (@BergerofLondon) <a...</cite>",
+            "context": "<cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a...</cite>",
             "selector": "html > body > div > blockquote:nth-child(6) > cite",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1099,14 +1091,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.34:1. Recommendation:  change text colour to #2077b9.",
-          "description": "<cite>â Berger (@BergerofLondon) <a...</cite>",
+          "description": "<cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a...</cite>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.34:1. Recommendation:  change text colour to #2077b9.",
-            "context": "<cite>â Berger (@BergerofLondon) <a...</cite>",
+            "context": "<cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a...</cite>",
             "selector": "html > body > div > blockquote:nth-child(7) > cite",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1133,14 +1125,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.34:1. Recommendation:  change text colour to #2077b9.",
-          "description": "<cite>â Berger (@BergerofLondon) <a...</cite>",
+          "description": "<cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a...</cite>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.34:1. Recommendation:  change text colour to #2077b9.",
-            "context": "<cite>â Berger (@BergerofLondon) <a...</cite>",
+            "context": "<cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a...</cite>",
             "selector": "html > body > div > blockquote:nth-child(8) > cite",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1184,14 +1176,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.34:1. Recommendation:  change text colour to #2077b9.",
-          "description": "<cite>â Berger (@BergerofLondon) <a...</cite>",
+          "description": "<cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a...</cite>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.34:1. Recommendation:  change text colour to #2077b9.",
-            "context": "<cite>â Berger (@BergerofLondon) <a...</cite>",
+            "context": "<cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a...</cite>",
             "selector": "html > body > div > blockquote:nth-child(9) > cite",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1235,14 +1227,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.34:1. Recommendation:  change text colour to #2077b9.",
-          "description": "<cite>â Berger (@BergerofLondon) <a...</cite>",
+          "description": "<cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a...</cite>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.34:1. Recommendation:  change text colour to #2077b9.",
-            "context": "<cite>â Berger (@BergerofLondon) <a...</cite>",
+            "context": "<cite>\u00e2\u0080\u0094 Berger (@BergerofLondon) <a...</cite>",
             "selector": "html > body > div > blockquote:nth-child(10) > cite",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1684,7 +1676,7 @@
                 "height": 51
               },
               "snippet": "<cite>",
-              "nodeLabel": "â Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.34 (foreground color: #55acee, background color: #f9f9f9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1705,7 +1697,7 @@
                       "height": 204
                     },
                     "snippet": "<blockquote class=\"quote\">",
-                    "nodeLabel": "Following upgrade to Confluence 5.5.1 the values of parameters in user macros c…"
+                    "nodeLabel": "Following upgrade to Confluence 5.5.1 the values of parameters in user macros c\u2026"
                   }
                 }
               ]
@@ -1754,7 +1746,7 @@
                       "height": 204
                     },
                     "snippet": "<blockquote class=\"quote\">",
-                    "nodeLabel": "Following upgrade to Confluence 5.5.1 the values of parameters in user macros c…"
+                    "nodeLabel": "Following upgrade to Confluence 5.5.1 the values of parameters in user macros c\u2026"
                   }
                 }
               ]
@@ -1782,7 +1774,7 @@
                 "height": 51
               },
               "snippet": "<cite>",
-              "nodeLabel": "â Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.34 (foreground color: #55acee, background color: #f9f9f9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1803,7 +1795,7 @@
                       "height": 204
                     },
                     "snippet": "<blockquote class=\"quote\">",
-                    "nodeLabel": "You canât use the same shorthand you use for standard variables. #if ($parami…"
+                    "nodeLabel": "You can\u00e2\u0080\u0099t use the same shorthand you use for standard variables. #if ($parami\u2026"
                   }
                 }
               ]
@@ -1852,7 +1844,7 @@
                       "height": 204
                     },
                     "snippet": "<blockquote class=\"quote\">",
-                    "nodeLabel": "You canât use the same shorthand you use for standard variables. #if ($parami…"
+                    "nodeLabel": "You can\u00e2\u0080\u0099t use the same shorthand you use for standard variables. #if ($parami\u2026"
                   }
                 }
               ]
@@ -1880,7 +1872,7 @@
                 "height": 51
               },
               "snippet": "<cite>",
-              "nodeLabel": "â Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.34 (foreground color: #55acee, background color: #f9f9f9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1901,7 +1893,7 @@
                       "height": 178
                     },
                     "snippet": "<blockquote class=\"quote\">",
-                    "nodeLabel": "You now have to use things like #if ($paramistrue == true) or #if ($paramistrue…"
+                    "nodeLabel": "You now have to use things like #if ($paramistrue == true) or #if ($paramistrue\u2026"
                   }
                 }
               ]
@@ -1950,7 +1942,7 @@
                       "height": 178
                     },
                     "snippet": "<blockquote class=\"quote\">",
-                    "nodeLabel": "You now have to use things like #if ($paramistrue == true) or #if ($paramistrue…"
+                    "nodeLabel": "You now have to use things like #if ($paramistrue == true) or #if ($paramistrue\u2026"
                   }
                 }
               ]
@@ -1999,7 +1991,7 @@
                       "height": 178
                     },
                     "snippet": "<blockquote class=\"quote\">",
-                    "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par…"
+                    "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par\u2026"
                   }
                 }
               ]
@@ -2027,7 +2019,7 @@
                 "height": 51
               },
               "snippet": "<cite>",
-              "nodeLabel": "â Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.34 (foreground color: #55acee, background color: #f9f9f9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2048,7 +2040,7 @@
                       "height": 178
                     },
                     "snippet": "<blockquote class=\"quote\">",
-                    "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par…"
+                    "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par\u2026"
                   }
                 }
               ]
@@ -2097,7 +2089,7 @@
                       "height": 178
                     },
                     "snippet": "<blockquote class=\"quote\">",
-                    "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par…"
+                    "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par\u2026"
                   }
                 }
               ]
@@ -2146,7 +2138,7 @@
                       "height": 204
                     },
                     "snippet": "<blockquote class=\"quote\">",
-                    "nodeLabel": "@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability d…"
+                    "nodeLabel": "@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability d\u2026"
                   }
                 }
               ]
@@ -2174,7 +2166,7 @@
                 "height": 51
               },
               "snippet": "<cite>",
-              "nodeLabel": "â Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u00e2\u0080\u0094 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.34 (foreground color: #55acee, background color: #f9f9f9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2195,7 +2187,7 @@
                       "height": 204
                     },
                     "snippet": "<blockquote class=\"quote\">",
-                    "nodeLabel": "@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability d…"
+                    "nodeLabel": "@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability d\u2026"
                   }
                 }
               ]
@@ -2244,7 +2236,7 @@
                       "height": 204
                     },
                     "snippet": "<blockquote class=\"quote\">",
-                    "nodeLabel": "@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability d…"
+                    "nodeLabel": "@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability d\u2026"
                   }
                 }
               ]

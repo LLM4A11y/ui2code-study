@@ -2,8 +2,8 @@
   "summary": {
     "timestamp": "2025-07-16-19-50",
     "files_processed": 53,
-    "total_automatic_nodes_failed": 792,
-    "average_automatic_nodes_failed_per_file": 14.94
+    "total_automatic_nodes_failed": 837,
+    "average_automatic_nodes_failed_per_file": 15.79
   },
   "issues_automatic": [
     {
@@ -1377,6 +1377,44 @@
     },
     {
       "rank": 4,
+      "name": "Alt-Text; Images;",
+      "impact": "critical",
+      "amount_nodes_failed": 46,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 45,
+          "amount_relative": 45,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 1,
+          "amount_relative": 1,
+          "ids": [
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt"
+          ]
+        },
+        "pa11y": {
+          "amount": 1,
+          "amount_relative": 0,
+          "ids": [
+            "Principle1.Guideline1_1.1_1_1.H37"
+          ]
+        },
+        "lighthouse": {
+          "amount": 1,
+          "amount_relative": 0,
+          "ids": [
+            "https://dequeuniversity.com/rules/axe/4.10/image-alt"
+          ]
+        }
+      },
+      "ids_distribution": {
+        "https://dequeuniversity.com/rules/axe/4.10/image-alt": 2,
+        "Principle1.Guideline1_1.1_1_1.H37": 1
+      }
+    },
+    {
+      "rank": 5,
       "name": "Links; Distinguishable Color;",
       "impact": "serious",
       "amount_nodes_failed": 31,
@@ -1471,7 +1509,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "Headings; Wrong Order, Empty & Missing Headings;",
       "impact": "moderate",
       "amount_nodes_failed": 23,
@@ -1532,7 +1570,7 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "Size; Target Size; Element too small",
       "impact": "serious",
       "amount_nodes_failed": 17,
@@ -1581,7 +1619,7 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "Fieldset; Legend;",
       "impact": "serious",
       "amount_nodes_failed": 16,
@@ -1629,7 +1667,7 @@
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "Title; Document Title;",
       "impact": "serious",
       "amount_nodes_failed": 5,
@@ -1679,7 +1717,7 @@
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "Label; Select; Missing Label",
       "impact": "critical",
       "amount_nodes_failed": 2,
@@ -1720,44 +1758,6 @@
       }
     },
     {
-      "rank": 10,
-      "name": "Alt-Text; Images;",
-      "impact": "critical",
-      "amount_nodes_failed": 1,
-      "sources": {
-        "Manual-Inspection": {
-          "amount": 0,
-          "amount_relative": 0,
-          "ids": []
-        },
-        "axe-core": {
-          "amount": 1,
-          "amount_relative": 1,
-          "ids": [
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt"
-          ]
-        },
-        "pa11y": {
-          "amount": 1,
-          "amount_relative": 0,
-          "ids": [
-            "Principle1.Guideline1_1.1_1_1.H37"
-          ]
-        },
-        "lighthouse": {
-          "amount": 1,
-          "amount_relative": 0,
-          "ids": [
-            "https://dequeuniversity.com/rules/axe/4.10/image-alt"
-          ]
-        }
-      },
-      "ids_distribution": {
-        "https://dequeuniversity.com/rules/axe/4.10/image-alt": 2,
-        "Principle1.Guideline1_1.1_1_1.H37": 1
-      }
-    },
-    {
       "rank": 11,
       "name": "Elements; Align;",
       "impact": "minor",
@@ -1793,13 +1793,13 @@
   ],
   "distribution_sources_automatic": {
     "absolute": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 45,
       "axe-core": 671,
       "pa11y": 368,
       "lighthouse": 365
     },
     "relative": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 45,
       "axe-core": 585,
       "pa11y": 189,
       "lighthouse": 18

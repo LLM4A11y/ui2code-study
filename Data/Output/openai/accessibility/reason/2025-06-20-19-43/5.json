@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -322,7 +314,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<footer>\n        Powered by Blogger<br>\n        © 2004-2023 Digital Inspiration\n    </footer>",
+            "html": "<footer>\n        Powered by Blogger<br>\n        \u00a9 2004-2023 Digital Inspiration\n    </footer>",
             "target": [
               "footer"
             ],
@@ -652,7 +644,7 @@
                 "height": 78
               },
               "snippet": "<footer>",
-              "nodeLabel": "Powered by Blogger\n© 2004-2023 Digital Inspiration",
+              "nodeLabel": "Powered by Blogger\n\u00a9 2004-2023 Digital Inspiration",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }

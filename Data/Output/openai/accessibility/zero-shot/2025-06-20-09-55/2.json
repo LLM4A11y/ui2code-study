@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -273,7 +265,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<td>ChrisA (founder) â¢ Andrew \"Drew\" Mohebbi (third admin/dead) â¢ wmu'14 (member) â¢ ravens (member) â¢ DesiseAfterAll (banned)</td>",
+            "html": "<td>ChrisA (founder) \u00e2\u0080\u00a2 Andrew \"Drew\" Mohebbi (third admin/dead) \u00e2\u0080\u00a2 wmu'14 (member) \u00e2\u0080\u00a2 ravens (member) \u00e2\u0080\u00a2 DesiseAfterAll (banned)</td>",
             "target": [
               "tr:nth-child(3) > td"
             ],
@@ -301,14 +293,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.09:1. Recommendation:  change background to #088808.",
-          "description": "<td>SergeantIncel (former admin) â...</td>",
+          "description": "<td>SergeantIncel (former admin) \u00e2\u0080...</td>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.09:1. Recommendation:  change background to #088808.",
-            "context": "<td>SergeantIncel (former admin) â...</td>",
+            "context": "<td>SergeantIncel (former admin) \u00e2\u0080...</td>",
             "selector": "html > body > div > section > div > table > tbody > tr:nth-child(1) > td",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -369,14 +361,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.09:1. Recommendation:  change background to #088808.",
-          "description": "<td>ChrisA (founder) â¢ Andrew \"Dr...</td>",
+          "description": "<td>ChrisA (founder) \u00e2\u0080\u00a2 Andrew \"Dr...</td>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.09:1. Recommendation:  change background to #088808.",
-            "context": "<td>ChrisA (founder) â¢ Andrew \"Dr...</td>",
+            "context": "<td>ChrisA (founder) \u00e2\u0080\u00a2 Andrew \"Dr...</td>",
             "selector": "html > body > div > section > div > table > tbody > tr:nth-child(3) > td",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -429,7 +421,7 @@
                 "height": 393
               },
               "snippet": "<td>",
-              "nodeLabel": "SergeantIncel (former admin) â¢ Master (former admin) â¢ Fat Link (mod) â¢ A…",
+              "nodeLabel": "SergeantIncel (former admin) \u00e2\u0080\u00a2 Master (former admin) \u00e2\u0080\u00a2 Fat Link (mod) \u00e2\u0080\u00a2 A\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.08 (foreground color: #000000, background color: #008000, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -450,7 +442,7 @@
                       "height": 621
                     },
                     "snippet": "<div class=\"navbox\">",
-                    "nodeLabel": "Incel Forum Navbox\nIncels.is\tSergeantIncel (former admin) â¢ Master (former ad…"
+                    "nodeLabel": "Incel Forum Navbox\nIncels.is\tSergeantIncel (former admin) \u00e2\u0080\u00a2 Master (former ad\u2026"
                   }
                 }
               ]
@@ -499,7 +491,7 @@
                       "height": 621
                     },
                     "snippet": "<div class=\"navbox\">",
-                    "nodeLabel": "Incel Forum Navbox\nIncels.is\tSergeantIncel (former admin) â¢ Master (former ad…"
+                    "nodeLabel": "Incel Forum Navbox\nIncels.is\tSergeantIncel (former admin) \u00e2\u0080\u00a2 Master (former ad\u2026"
                   }
                 }
               ]
@@ -548,7 +540,7 @@
                       "height": 621
                     },
                     "snippet": "<div class=\"navbox\">",
-                    "nodeLabel": "Incel Forum Navbox\nIncels.is\tSergeantIncel (former admin) â¢ Master (former ad…"
+                    "nodeLabel": "Incel Forum Navbox\nIncels.is\tSergeantIncel (former admin) \u00e2\u0080\u00a2 Master (former ad\u2026"
                   }
                 }
               ]
@@ -597,7 +589,7 @@
                       "height": 621
                     },
                     "snippet": "<div class=\"navbox\">",
-                    "nodeLabel": "Incel Forum Navbox\nIncels.is\tSergeantIncel (former admin) â¢ Master (former ad…"
+                    "nodeLabel": "Incel Forum Navbox\nIncels.is\tSergeantIncel (former admin) \u00e2\u0080\u00a2 Master (former ad\u2026"
                   }
                 }
               ]
@@ -625,7 +617,7 @@
                 "height": 119
               },
               "snippet": "<td>",
-              "nodeLabel": "ChrisA (founder) â¢ Andrew \"Drew\" Mohebbi (third admin/dead) â¢ wmu'14 (membe…",
+              "nodeLabel": "ChrisA (founder) \u00e2\u0080\u00a2 Andrew \"Drew\" Mohebbi (third admin/dead) \u00e2\u0080\u00a2 wmu'14 (membe\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.08 (foreground color: #000000, background color: #008000, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -646,7 +638,7 @@
                       "height": 621
                     },
                     "snippet": "<div class=\"navbox\">",
-                    "nodeLabel": "Incel Forum Navbox\nIncels.is\tSergeantIncel (former admin) â¢ Master (former ad…"
+                    "nodeLabel": "Incel Forum Navbox\nIncels.is\tSergeantIncel (former admin) \u00e2\u0080\u00a2 Master (former ad\u2026"
                   }
                 }
               ]

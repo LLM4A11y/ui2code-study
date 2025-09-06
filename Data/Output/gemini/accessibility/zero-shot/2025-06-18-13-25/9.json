@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 9,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -357,7 +366,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"edit-date\">\n                â edited on 2018/10/28 11:00\n            </div>",
+            "html": "<div class=\"edit-date\">\n                \u00e2\u0080\u0094 edited on 2018/10/28 11:00\n            </div>",
             "target": [
               ".edit-date"
             ],
@@ -823,14 +832,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
-          "description": "<div class=\"edit-date\">\n                â edited on ...</div>",
+          "description": "<div class=\"edit-date\">\n                \u00e2\u0080\u0094 edited on ...</div>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
-            "context": "<div class=\"edit-date\">\n                â edited on ...</div>",
+            "context": "<div class=\"edit-date\">\n                \u00e2\u0080\u0094 edited on ...</div>",
             "selector": "html > body > div > div:nth-child(3) > div:nth-child(3)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1287,7 +1296,7 @@
                 "height": 23
               },
               "snippet": "<div class=\"edit-date\">",
-              "nodeLabel": "â edited on 2018/10/28 11:00",
+              "nodeLabel": "\u00e2\u0080\u0094 edited on 2018/10/28 11:00",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {

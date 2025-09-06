@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -525,7 +517,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">Laurentians scenic RiviÃ¨re Roug...</a>",
+            "html": "<a href=\"#\">Laurentians scenic Rivi\u00c3\u00a8re Roug...</a>",
             "target": [
               "li:nth-child(4) > a"
             ],
@@ -693,7 +685,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">Ridiculously scenic RiviÃ¨re Rou...</a>",
+            "html": "<a href=\"#\">Ridiculously scenic Rivi\u00c3\u00a8re Rou...</a>",
             "target": [
               "li:nth-child(8) > a"
             ],
@@ -975,14 +967,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.499:1. Recommendation:  change background to #2a2d2d.",
-          "description": "<a href=\"#\">Laurentians scenic RiviÃ¨re Rou...</a>",
+          "description": "<a href=\"#\">Laurentians scenic Rivi\u00c3\u00a8re Rou...</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.499:1. Recommendation:  change background to #2a2d2d.",
-            "context": "<a href=\"#\">Laurentians scenic RiviÃ¨re Rou...</a>",
+            "context": "<a href=\"#\">Laurentians scenic Rivi\u00c3\u00a8re Rou...</a>",
             "selector": "html > body > div > div:nth-child(7) > ul > li:nth-child(4) > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1043,14 +1035,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.499:1. Recommendation:  change background to #2a2d2d.",
-          "description": "<a href=\"#\">Ridiculously scenic RiviÃ¨re Ro...</a>",
+          "description": "<a href=\"#\">Ridiculously scenic Rivi\u00c3\u00a8re Ro...</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.499:1. Recommendation:  change background to #2a2d2d.",
-            "context": "<a href=\"#\">Ridiculously scenic RiviÃ¨re Ro...</a>",
+            "context": "<a href=\"#\">Ridiculously scenic Rivi\u00c3\u00a8re Ro...</a>",
             "selector": "html > body > div > div:nth-child(7) > ul > li:nth-child(8) > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1158,7 +1150,7 @@
                       "height": 453
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "The news is that the QuÃ©bec mountain bike trail development organization ADSVM…"
+                    "nodeLabel": "The news is that the Qu\u00c3\u00a9bec mountain bike trail development organization ADSVM\u2026"
                   }
                 }
               ]
@@ -1207,7 +1199,7 @@
                       "height": 453
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "The news is that the QuÃ©bec mountain bike trail development organization ADSVM…"
+                    "nodeLabel": "The news is that the Qu\u00c3\u00a9bec mountain bike trail development organization ADSVM\u2026"
                   }
                 }
               ]
@@ -1256,7 +1248,7 @@
                       "height": 453
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "The news is that the QuÃ©bec mountain bike trail development organization ADSVM…"
+                    "nodeLabel": "The news is that the Qu\u00c3\u00a9bec mountain bike trail development organization ADSVM\u2026"
                   }
                 }
               ]
@@ -1305,7 +1297,7 @@
                       "height": 453
                     },
                     "snippet": "<div class=\"post\">",
-                    "nodeLabel": "The news is that the QuÃ©bec mountain bike trail development organization ADSVM…"
+                    "nodeLabel": "The news is that the Qu\u00c3\u00a9bec mountain bike trail development organization ADSVM\u2026"
                   }
                 }
               ]
@@ -1627,7 +1619,7 @@
                 "height": 16
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "Laurentians scenic RiviÃ¨re Roug...",
+              "nodeLabel": "Laurentians scenic Rivi\u00c3\u00a8re Roug...",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.49 (foreground color: #459ebf, background color: #2b2e2e, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1823,7 +1815,7 @@
                 "height": 16
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "Ridiculously scenic RiviÃ¨re Rou...",
+              "nodeLabel": "Ridiculously scenic Rivi\u00c3\u00a8re Rou...",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.49 (foreground color: #459ebf, background color: #2b2e2e, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2056,7 +2048,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>Don't get the impression that QuÃ©bec has no trails. <a href=\"#\">Click here</a> to go to the quebec mtn bike trail directory at Allezy.</p>",
+                    "html": "<p>Don't get the impression that Qu\u00c3\u00a9bec has no trails. <a href=\"#\">Click here</a> to go to the quebec mtn bike trail directory at Allezy.</p>",
                     "target": [
                       "p:nth-child(4)"
                     ]
@@ -2070,7 +2062,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>Don't get the impression that QuÃ©bec has no trails. <a href=\"#\">Click here</a> to go to the quebec mtn bike trail directory at Allezy.</p>",
+                    "html": "<p>Don't get the impression that Qu\u00c3\u00a9bec has no trails. <a href=\"#\">Click here</a> to go to the quebec mtn bike trail directory at Allezy.</p>",
                     "target": [
                       "p:nth-child(4)"
                     ]
@@ -2162,7 +2154,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>You can sign up to VÃ©lo QuÃ©bec's new mountain bike infolettre <a href=\"#\">here</a>. You can also join VÃ©lo QuÃ©bec because the more members they have, the greater is their ability to push for bike development on and off the roads of Quebec.</p>",
+                    "html": "<p>You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec's new mountain bike infolettre <a href=\"#\">here</a>. You can also join V\u00c3\u00a9lo Qu\u00c3\u00a9bec because the more members they have, the greater is their ability to push for bike development on and off the roads of Quebec.</p>",
                     "target": [
                       "p:nth-child(6)"
                     ]
@@ -2176,7 +2168,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>You can sign up to VÃ©lo QuÃ©bec's new mountain bike infolettre <a href=\"#\">here</a>. You can also join VÃ©lo QuÃ©bec because the more members they have, the greater is their ability to push for bike development on and off the roads of Quebec.</p>",
+                    "html": "<p>You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec's new mountain bike infolettre <a href=\"#\">here</a>. You can also join V\u00c3\u00a9lo Qu\u00c3\u00a9bec because the more members they have, the greater is their ability to push for bike development on and off the roads of Quebec.</p>",
                     "target": [
                       "p:nth-child(6)"
                     ]
@@ -2353,7 +2345,7 @@
                       "height": 16
                     },
                     "snippet": "<a href=\"#\">",
-                    "nodeLabel": "Ridiculously scenic RiviÃ¨re Rou..."
+                    "nodeLabel": "Ridiculously scenic Rivi\u00c3\u00a8re Rou..."
                   }
                 }
               ]

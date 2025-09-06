@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -140,7 +132,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"footer\">\n            DANA &amp; JAROSLAV MOHAPL\n            <br>\n            COPYRIGHT Â© 2004 - 2023 BY EmInf. ALL RIGHTS RESERVED.\n        </div>",
+            "html": "<div class=\"footer\">\n            DANA &amp; JAROSLAV MOHAPL\n            <br>\n            COPYRIGHT \u00c2\u00a9 2004 - 2023 BY EmInf. ALL RIGHTS RESERVED.\n        </div>",
             "target": [
               ".footer"
             ],
@@ -223,7 +215,7 @@
                       "height": 68
                     },
                     "snippet": "<th colspan=\"12\">",
-                    "nodeLabel": "AVERAGE DAILY TEMPERATURES (C) FOR OTTAWA, ONTARIO\nLOWER BOUND AVERAGE TEMPERAT…"
+                    "nodeLabel": "AVERAGE DAILY TEMPERATURES (C) FOR OTTAWA, ONTARIO\nLOWER BOUND AVERAGE TEMPERAT\u2026"
                   }
                 }
               ]
@@ -272,7 +264,7 @@
                       "height": 68
                     },
                     "snippet": "<th colspan=\"12\">",
-                    "nodeLabel": "AVERAGE DAILY TEMPERATURES (C) FOR OTTAWA, ONTARIO\nLOWER BOUND AVERAGE TEMPERAT…"
+                    "nodeLabel": "AVERAGE DAILY TEMPERATURES (C) FOR OTTAWA, ONTARIO\nLOWER BOUND AVERAGE TEMPERAT\u2026"
                   }
                 }
               ]
@@ -300,7 +292,7 @@
                 "height": 61
               },
               "snippet": "<div class=\"footer\">",
-              "nodeLabel": "DANA & JAROSLAV MOHAPL\nCOPYRIGHT Â© 2004 - 2023 BY EmInf. ALL RIGHTS RESERVED.",
+              "nodeLabel": "DANA & JAROSLAV MOHAPL\nCOPYRIGHT \u00c2\u00a9 2004 - 2023 BY EmInf. ALL RIGHTS RESERVED.",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -517,7 +509,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n            DANA &amp; JAROSLAV MOHAPL\n            <br>\n            COPYRIGHT Â© 2004 - 2023 BY EmInf. ALL RIGHTS RESERVED.\n        </div>",
+            "html": "<div class=\"footer\">\n            DANA &amp; JAROSLAV MOHAPL\n            <br>\n            COPYRIGHT \u00c2\u00a9 2004 - 2023 BY EmInf. ALL RIGHTS RESERVED.\n        </div>",
             "target": [
               ".footer"
             ],
@@ -558,7 +550,7 @@
                 "height": 393
               },
               "snippet": "<table>",
-              "nodeLabel": "\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovember\tD…",
+              "nodeLabel": "\tJanuary\tFebruary\tMarch\tApril\tMay\tJune\tJuly\tAugust\tSeptember\tOctober\tNovember\tD\u2026",
               "explanation": "Fix all of the following:\n  Some non-empty data cells do not have table headers"
             },
             "subItems": {

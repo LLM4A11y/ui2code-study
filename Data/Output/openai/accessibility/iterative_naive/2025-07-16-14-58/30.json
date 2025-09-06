@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -105,7 +97,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>The story follows Carol Danvers as she becomes one of the most powerful heroes in the universe when Earth\n                is trapped in the middle of a galactic war between two alien races. Set in the 90s, Captain Marvel is\n                aâ¦</p>",
+            "html": "<p>The story follows Carol Danvers as she becomes one of the most powerful heroes in the universe when Earth\n                is trapped in the middle of a galactic war between two alien races. Set in the 90s, Captain Marvel is\n                a\u00e2\u0080\u00a6</p>",
             "target": [
               "p:nth-child(4)"
             ],
@@ -147,7 +139,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a class=\"read-more\" href=\"#\">Continue Reading â</a>",
+            "html": "<a class=\"read-more\" href=\"#\">Continue Reading \u00e2\u0086\u0092</a>",
             "target": [
               "a"
             ],
@@ -231,7 +223,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>Â© 2023 free mp4 movie. All rights reserved.</p>",
+            "html": "<p>\u00c2\u00a9 2023 free mp4 movie. All rights reserved.</p>",
             "target": [
               ".footer > p"
             ],
@@ -276,14 +268,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4:1. Recommendation:  change text colour to #e00.",
-          "description": "<a class=\"read-more\" href=\"#\">Continue Reading â</a>",
+          "description": "<a class=\"read-more\" href=\"#\">Continue Reading \u00e2\u0086\u0092</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4:1. Recommendation:  change text colour to #e00.",
-            "context": "<a class=\"read-more\" href=\"#\">Continue Reading â</a>",
+            "context": "<a class=\"read-more\" href=\"#\">Continue Reading \u00e2\u0086\u0092</a>",
             "selector": "html > body > div:nth-child(2) > div:nth-child(1) > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -310,14 +302,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.34:1. Recommendation:  change text colour to #727272.",
-          "description": "<p>Â© 2023 free mp4 movie. All rig...</p>",
+          "description": "<p>\u00c2\u00a9 2023 free mp4 movie. All rig...</p>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.34:1. Recommendation:  change text colour to #727272.",
-            "context": "<p>Â© 2023 free mp4 movie. All rig...</p>",
+            "context": "<p>\u00c2\u00a9 2023 free mp4 movie. All rig...</p>",
             "selector": "html > body > div:nth-child(3) > p",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -365,7 +357,7 @@
                       "height": 1227
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Captain Marvel (2019)\n\nPosted on May 28, 2019 by Jessica Smith\n\nThe story follo…"
+                    "nodeLabel": "Captain Marvel (2019)\n\nPosted on May 28, 2019 by Jessica Smith\n\nThe story follo\u2026"
                   }
                 }
               ]
@@ -393,7 +385,7 @@
                 "height": 200
               },
               "snippet": "<p>",
-              "nodeLabel": "The story follows Carol Danvers as she becomes one of the most powerful heroes …",
+              "nodeLabel": "The story follows Carol Danvers as she becomes one of the most powerful heroes \u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -414,7 +406,7 @@
                       "height": 1227
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Captain Marvel (2019)\n\nPosted on May 28, 2019 by Jessica Smith\n\nThe story follo…"
+                    "nodeLabel": "Captain Marvel (2019)\n\nPosted on May 28, 2019 by Jessica Smith\n\nThe story follo\u2026"
                   }
                 }
               ]
@@ -442,7 +434,7 @@
                 "height": 38
               },
               "snippet": "<a class=\"read-more\" href=\"#\">",
-              "nodeLabel": "Continue Reading â",
+              "nodeLabel": "Continue Reading \u00e2\u0086\u0092",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -463,7 +455,7 @@
                       "height": 1227
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Captain Marvel (2019)\n\nPosted on May 28, 2019 by Jessica Smith\n\nThe story follo…"
+                    "nodeLabel": "Captain Marvel (2019)\n\nPosted on May 28, 2019 by Jessica Smith\n\nThe story follo\u2026"
                   }
                 }
               ]
@@ -491,7 +483,7 @@
                 "height": 324
               },
               "snippet": "<p>",
-              "nodeLabel": "2019 Movies, Action Movies, Adventure Movies, Sci-Fi Movies Download Ben Mendel…",
+              "nodeLabel": "2019 Movies, Action Movies, Adventure Movies, Sci-Fi Movies Download Ben Mendel\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -512,7 +504,7 @@
                       "height": 1227
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Captain Marvel (2019)\n\nPosted on May 28, 2019 by Jessica Smith\n\nThe story follo…"
+                    "nodeLabel": "Captain Marvel (2019)\n\nPosted on May 28, 2019 by Jessica Smith\n\nThe story follo\u2026"
                   }
                 }
               ]
@@ -540,7 +532,7 @@
                 "height": 14
               },
               "snippet": "<p>",
-              "nodeLabel": "Â© 2023 free mp4 movie. All rights reserved.",
+              "nodeLabel": "\u00c2\u00a9 2023 free mp4 movie. All rights reserved.",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.33 (foreground color: #888888, background color: #f8f8f8, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -692,7 +684,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        <p>Â© 2023 free mp4 movie. All rights reserved.</p>\n    </div>",
+            "html": "<div class=\"footer\">\n        <p>\u00c2\u00a9 2023 free mp4 movie. All rights reserved.</p>\n    </div>",
             "target": [
               ".footer"
             ],

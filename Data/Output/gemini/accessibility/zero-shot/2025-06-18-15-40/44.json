@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -385,7 +377,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"user-info\">\n                    <div class=\"user-name\">Suparnna Anilkumar</div>\n                    <div class=\"user-description\">I have more doppelgÃ¤ngers than you have friends.</div>\n                </div>",
+            "html": "<div class=\"user-info\">\n                    <div class=\"user-name\">Suparnna Anilkumar</div>\n                    <div class=\"user-description\">I have more doppelg\u00c3\u00a4ngers than you have friends.</div>\n                </div>",
             "target": [
               ".user:nth-child(5) > .user-info"
             ],

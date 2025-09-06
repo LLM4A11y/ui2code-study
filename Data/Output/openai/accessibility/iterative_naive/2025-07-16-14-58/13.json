@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -318,7 +310,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>Iâve added a script, <a href=\"#\">export_google_site_news</a>, to my catchall repository on github.</p>",
+                    "html": "<p>I\u00e2\u0080\u0099ve added a script, <a href=\"#\">export_google_site_news</a>, to my catchall repository on github.</p>",
                     "target": [
                       "p:nth-child(3)"
                     ]
@@ -332,7 +324,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>Iâve added a script, <a href=\"#\">export_google_site_news</a>, to my catchall repository on github.</p>",
+                    "html": "<p>I\u00e2\u0080\u0099ve added a script, <a href=\"#\">export_google_site_news</a>, to my catchall repository on github.</p>",
                     "target": [
                       "p:nth-child(3)"
                     ]
@@ -394,7 +386,7 @@
                       "height": 51
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Iâve added a script, export_google_site_news, to my catchall repository on gi…"
+                    "nodeLabel": "I\u00e2\u0080\u0099ve added a script, export_google_site_news, to my catchall repository on gi\u2026"
                   }
                 }
               ]

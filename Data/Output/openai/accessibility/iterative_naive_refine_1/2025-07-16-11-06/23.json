@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -440,7 +432,7 @@
                       "height": 250
                     },
                     "snippet": "<div class=\"article\">",
-                    "nodeLabel": "Based on tag Scripting\nSwift script to export lists from Reminders.app\nMay 8, 2…"
+                    "nodeLabel": "Based on tag Scripting\nSwift script to export lists from Reminders.app\nMay 8, 2\u2026"
                   }
                 }
               ]
@@ -489,7 +481,7 @@
                       "height": 250
                     },
                     "snippet": "<div class=\"article\">",
-                    "nodeLabel": "Based on tag Tips and Tricks\nSwift Collection's prefix for quick tests\nMarch 16…"
+                    "nodeLabel": "Based on tag Tips and Tricks\nSwift Collection's prefix for quick tests\nMarch 16\u2026"
                   }
                 }
               ]

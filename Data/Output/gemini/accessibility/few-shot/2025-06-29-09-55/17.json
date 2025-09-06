@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -245,7 +237,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>Copyright Â© 2004 - 2023 by EmInf. All rights reserved.</p>",
+            "html": "<p>Copyright \u00c2\u00a9 2004 - 2023 by EmInf. All rights reserved.</p>",
             "target": [
               ".footer > p:nth-child(2)"
             ],
@@ -483,7 +475,7 @@
                 "height": 70
               },
               "snippet": "<p>",
-              "nodeLabel": "Copyright Â© 2004 - 2023 by EmInf. All rights reserved.",
+              "nodeLabel": "Copyright \u00c2\u00a9 2004 - 2023 by EmInf. All rights reserved.",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }

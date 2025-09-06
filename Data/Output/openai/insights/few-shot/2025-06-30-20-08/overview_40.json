@@ -3,17 +3,13 @@
     "automatic": "Yellow"
   },
   "benchmark": {
-    "automatic_ir": 0.13513513513513514,
-    "automatic_iw-ir": 0.51
+    "automatic_ir": 0.14864864864864866,
+    "automatic_iw-ir": 0.5545454545454546
   },
   "automatic_checks": {
     "lighthouse_accessibility_score": 0.81,
     "total_nodes_checked": 74,
-    "total_nodes_failed": 10
-  },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
+    "total_nodes_failed": 11
   },
   "details_checks": {
     "Color Contrast; Text;": {
@@ -122,6 +118,32 @@
           "ids": [
             "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one"
           ]
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      }
+    },
+    "Alt-Text; Images;": {
+      "impact": "critical",
+      "amount_nodes_failed": 1,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 1,
+          "amount_relative": 1,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
         },
         "pa11y": {
           "amount": 0,

@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -105,7 +114,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>Physician entrepreneur disrupting the healthcare status quo <span style=\"font-size: 1em;\">ð</span></p>",
+            "html": "<p>Physician entrepreneur disrupting the healthcare status quo <span style=\"font-size: 1em;\">\u00f0\u009f\u009a\u0080</span></p>",
             "target": [
               "p"
             ],
@@ -147,7 +156,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<span style=\"font-size: 1em;\">ð</span>",
+            "html": "<span style=\"font-size: 1em;\">\u00f0\u009f\u009a\u0080</span>",
             "target": [
               "p > span"
             ],
@@ -189,7 +198,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"footer\">On a mission to  <span style=\"font-size: 1em;\">â¬ï¸</span> compassion &amp; flourishing for everyone <span style=\"font-size: 1em;\">â¤ï¸</span></div>",
+            "html": "<div class=\"footer\">On a mission to  <span style=\"font-size: 1em;\">\u00e2\u00ac\u0086\u00ef\u00b8\u008f</span> compassion &amp; flourishing for everyone <span style=\"font-size: 1em;\">\u00e2\u009d\u00a4\u00ef\u00b8\u008f</span></div>",
             "target": [
               ".footer"
             ],
@@ -231,7 +240,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<span style=\"font-size: 1em;\">â¬ï¸</span>",
+            "html": "<span style=\"font-size: 1em;\">\u00e2\u00ac\u0086\u00ef\u00b8\u008f</span>",
             "target": [
               ".footer > span:nth-child(1)"
             ],
@@ -273,7 +282,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<span style=\"font-size: 1em;\">â¤ï¸</span>",
+            "html": "<span style=\"font-size: 1em;\">\u00e2\u009d\u00a4\u00ef\u00b8\u008f</span>",
             "target": [
               "span:nth-child(2)"
             ],
@@ -318,14 +327,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change background to #128579.",
-          "description": "<span style=\"font-size: 1em;\">ð</span>",
+          "description": "<span style=\"font-size: 1em;\">\u00f0\u009f\u009a\u0080</span>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change background to #128579.",
-            "context": "<span style=\"font-size: 1em;\">ð</span>",
+            "context": "<span style=\"font-size: 1em;\">\u00f0\u009f\u009a\u0080</span>",
             "selector": "html > body > div > p > span",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -352,14 +361,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change background to #128579.",
-          "description": "<span style=\"font-size: 1em;\">â¬ï¸</span>",
+          "description": "<span style=\"font-size: 1em;\">\u00e2\u00ac\u0086\u00ef\u00b8\u008f</span>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change background to #128579.",
-            "context": "<span style=\"font-size: 1em;\">â¬ï¸</span>",
+            "context": "<span style=\"font-size: 1em;\">\u00e2\u00ac\u0086\u00ef\u00b8\u008f</span>",
             "selector": "html > body > div > div:nth-child(8) > span:nth-child(1)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -369,14 +378,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change background to #128579.",
-          "description": "<span style=\"font-size: 1em;\">â¤ï¸</span>",
+          "description": "<span style=\"font-size: 1em;\">\u00e2\u009d\u00a4\u00ef\u00b8\u008f</span>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change background to #128579.",
-            "context": "<span style=\"font-size: 1em;\">â¤ï¸</span>",
+            "context": "<span style=\"font-size: 1em;\">\u00e2\u009d\u00a4\u00ef\u00b8\u008f</span>",
             "selector": "html > body > div > div:nth-child(8) > span:nth-child(2)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -452,7 +461,7 @@
                 "height": 41
               },
               "snippet": "<p>",
-              "nodeLabel": "Physician entrepreneur disrupting the healthcare status quo ð",
+              "nodeLabel": "Physician entrepreneur disrupting the healthcare status quo \u00f0\u009f\u009a\u0080",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.41 (foreground color: #ffffff, background color: #45b8ac, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -501,7 +510,7 @@
                 "height": 19
               },
               "snippet": "<span style=\"font-size: 1em;\">",
-              "nodeLabel": "ð",
+              "nodeLabel": "\u00f0\u009f\u009a\u0080",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.41 (foreground color: #ffffff, background color: #45b8ac, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -550,7 +559,7 @@
                 "height": 37
               },
               "snippet": "<div class=\"footer\">",
-              "nodeLabel": "On a mission to\nâ¬ï¸\ncompassion & flourishing for everyone\nâ¤ï¸",
+              "nodeLabel": "On a mission to\n\u00e2\u00ac\u0086\u00ef\u00b8\u008f\ncompassion & flourishing for everyone\n\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.41 (foreground color: #ffffff, background color: #45b8ac, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -599,7 +608,7 @@
                 "height": 23
               },
               "snippet": "<span style=\"font-size: 1em;\">",
-              "nodeLabel": "â¬ï¸",
+              "nodeLabel": "\u00e2\u00ac\u0086\u00ef\u00b8\u008f",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.41 (foreground color: #ffffff, background color: #45b8ac, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -648,7 +657,7 @@
                 "height": 23
               },
               "snippet": "<span style=\"font-size: 1em;\">",
-              "nodeLabel": "â¤ï¸",
+              "nodeLabel": "\u00e2\u009d\u00a4\u00ef\u00b8\u008f",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.41 (foreground color: #ffffff, background color: #45b8ac, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {

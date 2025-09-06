@@ -2,8 +2,8 @@
   "summary": {
     "timestamp": "2025-07-16-13-16",
     "files_processed": 53,
-    "total_automatic_nodes_failed": 162,
-    "average_automatic_nodes_failed_per_file": 3.06
+    "total_automatic_nodes_failed": 242,
+    "average_automatic_nodes_failed_per_file": 4.57
   },
   "issues_automatic": [
     {
@@ -341,6 +341,35 @@
     },
     {
       "rank": 2,
+      "name": "Alt-Text; Images;",
+      "impact": "critical",
+      "amount_nodes_failed": 80,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 80,
+          "amount_relative": 80,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      },
+      "ids_distribution": {}
+    },
+    {
+      "rank": 3,
       "name": "Landmark & Region; Missing & Unique Landmarks;",
       "impact": "moderate",
       "amount_nodes_failed": 11,
@@ -386,7 +415,7 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "Headings; Wrong Order, Empty & Missing Headings;",
       "impact": "moderate",
       "amount_nodes_failed": 2,
@@ -422,7 +451,7 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "Size; Target Size; Element too small",
       "impact": "serious",
       "amount_nodes_failed": 2,
@@ -456,7 +485,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "Tables; Table Headers;",
       "impact": "minor",
       "amount_nodes_failed": 1,
@@ -492,7 +521,7 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "Links; Distinguishable Color;",
       "impact": "serious",
       "amount_nodes_failed": 1,
@@ -527,13 +556,13 @@
   ],
   "distribution_sources_automatic": {
     "absolute": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 80,
       "axe-core": 159,
       "pa11y": 62,
       "lighthouse": 96
     },
     "relative": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 80,
       "axe-core": 159,
       "pa11y": 0,
       "lighthouse": 3

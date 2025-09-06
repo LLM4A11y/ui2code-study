@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -343,7 +335,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">MinneapolisâSt Paul, Minnesota</a>",
+            "html": "<a href=\"#\">Minneapolis\u00e2\u0080\u0093St Paul, Minnesota</a>",
             "target": [
               ".calculator > ul > li:nth-child(2) > a"
             ],
@@ -728,7 +720,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">Â» Read more about inflation and investment.</a>",
+            "html": "<a href=\"#\">\u00c2\u00bb Read more about inflation and investment.</a>",
             "target": [
               "p:nth-child(22) > a"
             ],
@@ -938,7 +930,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<footer class=\"footer\">\n            Â© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n        </footer>",
+            "html": "<footer class=\"footer\">\n            \u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n        </footer>",
             "target": [
               "footer"
             ],
@@ -1261,7 +1253,7 @@
                 "height": 18
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "MinneapolisâSt Paul, Minnesota",
+              "nodeLabel": "Minneapolis\u00e2\u0080\u0093St Paul, Minnesota",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #007bff, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -1547,7 +1539,7 @@
                 "height": 18
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "Â» Read more about inflation and investment.",
+              "nodeLabel": "\u00c2\u00bb Read more about inflation and investment.",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.97 (foreground color: #007bff, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -1703,7 +1695,7 @@
                 "height": 41
               },
               "snippet": "<footer class=\"footer\">",
-              "nodeLabel": "Â© Official Data Foundation / Alioth LLC. Contact Privacy policy",
+              "nodeLabel": "\u00c2\u00a9 Official Data Foundation / Alioth LLC. Contact Privacy policy",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -1828,7 +1820,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div id=\"header\">â Citrus fruits price inflation since 2022</div>",
+            "html": "<div id=\"header\">\u00e2\u0098\u0085 Citrus fruits price inflation since 2022</div>",
             "target": [
               "#header"
             ],
@@ -1884,7 +1876,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<h1>Citrus fruits priced at $20 in 2022 â $19.66 in 2023</h1>",
+            "html": "<h1>Citrus fruits priced at $20 in 2022 \u00e2\u0086\u0092 $19.66 in 2023</h1>",
             "target": [
               "h1"
             ],
@@ -2136,7 +2128,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<ul>\n                <li><a href=\"#\">Wireless telephone services</a></li>\n                <li><a href=\"#\">MinneapolisâSt Paul, Minnesota</a></li>\n                <li><a href=\"#\">Televisions</a></li>\n                <li><a href=\"#\">Full list of CPI categories</a></li>\n            </ul>",
+            "html": "<ul>\n                <li><a href=\"#\">Wireless telephone services</a></li>\n                <li><a href=\"#\">Minneapolis\u00e2\u0080\u0093St Paul, Minnesota</a></li>\n                <li><a href=\"#\">Televisions</a></li>\n                <li><a href=\"#\">Full list of CPI categories</a></li>\n            </ul>",
             "target": [
               ".calculator > ul"
             ],
@@ -2203,7 +2195,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer class=\"footer\">\n            Â© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n        </footer>",
+                    "html": "<footer class=\"footer\">\n            \u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n        </footer>",
                     "target": [
                       "footer"
                     ]
@@ -2217,7 +2209,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<footer class=\"footer\">\n            Â© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n        </footer>",
+                    "html": "<footer class=\"footer\">\n            \u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n        </footer>",
                     "target": [
                       "footer"
                     ]
@@ -2256,7 +2248,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer class=\"footer\">\n            Â© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n        </footer>",
+                    "html": "<footer class=\"footer\">\n            \u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n        </footer>",
                     "target": [
                       "footer"
                     ]
@@ -2270,7 +2262,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<footer class=\"footer\">\n            Â© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n        </footer>",
+                    "html": "<footer class=\"footer\">\n            \u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n        </footer>",
                     "target": [
                       "footer"
                     ]
@@ -2332,7 +2324,7 @@
                       "height": 41
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "Â© Official Data Foundation / Alioth LLC. Contact Privacy policy"
+                    "nodeLabel": "\u00c2\u00a9 Official Data Foundation / Alioth LLC. Contact Privacy policy"
                   }
                 }
               ]
@@ -2381,7 +2373,7 @@
                       "height": 41
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "Â© Official Data Foundation / Alioth LLC. Contact Privacy policy"
+                    "nodeLabel": "\u00c2\u00a9 Official Data Foundation / Alioth LLC. Contact Privacy policy"
                   }
                 }
               ]

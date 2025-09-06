@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -189,7 +198,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<span style=\"color:#ff0000\">Fat Link (mod) â¢ AmIjustDreaming (mod)</span>",
+            "html": "<span style=\"color:#ff0000\">Fat Link (mod) \u00e2\u0080\u00a2 AmIjustDreaming (mod)</span>",
             "target": [
               "tr:nth-child(1) > td > ul > li > span"
             ],
@@ -357,7 +366,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<span style=\"color:#ff0000\">wmu'14 (member) â¢ ravens (member)</span>",
+            "html": "<span style=\"color:#ff0000\">wmu'14 (member) \u00e2\u0080\u00a2 ravens (member)</span>",
             "target": [
               "tr:nth-child(3) > td > ul > li > span"
             ],
@@ -419,14 +428,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.05:1. Recommendation:  change background to #001c00.",
-          "description": "<span style=\"color:#ff0000\">Fat Link (mod) â¢ AmIjustDream...</span>",
+          "description": "<span style=\"color:#ff0000\">Fat Link (mod) \u00e2\u0080\u00a2 AmIjustDream...</span>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.05:1. Recommendation:  change background to #001c00.",
-            "context": "<span style=\"color:#ff0000\">Fat Link (mod) â¢ AmIjustDream...</span>",
+            "context": "<span style=\"color:#ff0000\">Fat Link (mod) \u00e2\u0080\u00a2 AmIjustDream...</span>",
             "selector": "html > body > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > table > tbody > tr:nth-child(1) > td > ul > li > span",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -487,14 +496,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.05:1. Recommendation:  change background to #001c00.",
-          "description": "<span style=\"color:#ff0000\">wmu'14 (member) â¢ ravens (mem...</span>",
+          "description": "<span style=\"color:#ff0000\">wmu'14 (member) \u00e2\u0080\u00a2 ravens (mem...</span>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.05:1. Recommendation:  change background to #001c00.",
-            "context": "<span style=\"color:#ff0000\">wmu'14 (member) â¢ ravens (mem...</span>",
+            "context": "<span style=\"color:#ff0000\">wmu'14 (member) \u00e2\u0080\u00a2 ravens (mem...</span>",
             "selector": "html > body > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) > table > tbody > tr:nth-child(3) > td > ul > li > span",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -568,7 +577,7 @@
                       "height": 1122
                     },
                     "snippet": "<div class=\"green-box\">",
-                    "nodeLabel": "Incel Forum Navbox\nIncels.is\nSergeantIncel (former admin) â¢ Master (former ad…"
+                    "nodeLabel": "Incel Forum Navbox\nIncels.is\nSergeantIncel (former admin) \u00e2\u0080\u00a2 Master (former ad\u2026"
                   }
                 }
               ]
@@ -617,7 +626,7 @@
                       "height": 1122
                     },
                     "snippet": "<div class=\"green-box\">",
-                    "nodeLabel": "Incel Forum Navbox\nIncels.is\nSergeantIncel (former admin) â¢ Master (former ad…"
+                    "nodeLabel": "Incel Forum Navbox\nIncels.is\nSergeantIncel (former admin) \u00e2\u0080\u00a2 Master (former ad\u2026"
                   }
                 }
               ]
@@ -645,7 +654,7 @@
                 "height": 69
               },
               "snippet": "<span style=\"color:#ff0000\">",
-              "nodeLabel": "Fat Link (mod) â¢ AmIjustDreaming (mod)",
+              "nodeLabel": "Fat Link (mod) \u00e2\u0080\u00a2 AmIjustDreaming (mod)",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.05 (foreground color: #ff0000, background color: #009000, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -666,7 +675,7 @@
                       "height": 1122
                     },
                     "snippet": "<div class=\"green-box\">",
-                    "nodeLabel": "Incel Forum Navbox\nIncels.is\nSergeantIncel (former admin) â¢ Master (former ad…"
+                    "nodeLabel": "Incel Forum Navbox\nIncels.is\nSergeantIncel (former admin) \u00e2\u0080\u00a2 Master (former ad\u2026"
                   }
                 }
               ]
@@ -715,7 +724,7 @@
                       "height": 1122
                     },
                     "snippet": "<div class=\"green-box\">",
-                    "nodeLabel": "Incel Forum Navbox\nIncels.is\nSergeantIncel (former admin) â¢ Master (former ad…"
+                    "nodeLabel": "Incel Forum Navbox\nIncels.is\nSergeantIncel (former admin) \u00e2\u0080\u00a2 Master (former ad\u2026"
                   }
                 }
               ]
@@ -764,7 +773,7 @@
                       "height": 1122
                     },
                     "snippet": "<div class=\"green-box\">",
-                    "nodeLabel": "Incel Forum Navbox\nIncels.is\nSergeantIncel (former admin) â¢ Master (former ad…"
+                    "nodeLabel": "Incel Forum Navbox\nIncels.is\nSergeantIncel (former admin) \u00e2\u0080\u00a2 Master (former ad\u2026"
                   }
                 }
               ]
@@ -813,7 +822,7 @@
                       "height": 1122
                     },
                     "snippet": "<div class=\"green-box\">",
-                    "nodeLabel": "Incel Forum Navbox\nIncels.is\nSergeantIncel (former admin) â¢ Master (former ad…"
+                    "nodeLabel": "Incel Forum Navbox\nIncels.is\nSergeantIncel (former admin) \u00e2\u0080\u00a2 Master (former ad\u2026"
                   }
                 }
               ]
@@ -841,7 +850,7 @@
                 "height": 44
               },
               "snippet": "<span style=\"color:#ff0000\">",
-              "nodeLabel": "wmu'14 (member) â¢ ravens (member)",
+              "nodeLabel": "wmu'14 (member) \u00e2\u0080\u00a2 ravens (member)",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.05 (foreground color: #ff0000, background color: #009000, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -862,7 +871,7 @@
                       "height": 1122
                     },
                     "snippet": "<div class=\"green-box\">",
-                    "nodeLabel": "Incel Forum Navbox\nIncels.is\nSergeantIncel (former admin) â¢ Master (former ad…"
+                    "nodeLabel": "Incel Forum Navbox\nIncels.is\nSergeantIncel (former admin) \u00e2\u0080\u00a2 Master (former ad\u2026"
                   }
                 }
               ]

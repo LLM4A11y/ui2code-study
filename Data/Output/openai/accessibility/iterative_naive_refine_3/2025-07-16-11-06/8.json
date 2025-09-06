@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 2,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -399,7 +408,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div>ÃÂ©2004-2023 SegwayGuidedTours.com</div>",
+            "html": "<div>\u00c3\u0082\u00c2\u00a92004-2023 SegwayGuidedTours.com</div>",
             "target": [
               "div:nth-child(9)"
             ],
@@ -546,14 +555,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.11:1. Recommendation:  change background to #767676.",
-          "description": "<div>ÃÂ©2004-2023 SegwayGuidedTours...</div>",
+          "description": "<div>\u00c3\u0082\u00c2\u00a92004-2023 SegwayGuidedTours...</div>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.11:1. Recommendation:  change background to #767676.",
-            "context": "<div>ÃÂ©2004-2023 SegwayGuidedTours...</div>",
+            "context": "<div>\u00c3\u0082\u00c2\u00a92004-2023 SegwayGuidedTours...</div>",
             "selector": "html > body > footer > div:nth-child(2) > div:nth-child(9)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -802,7 +811,7 @@
                 "height": 48
               },
               "snippet": "<div>",
-              "nodeLabel": "ÃÂ©2004-2023 SegwayGuidedTours.com",
+              "nodeLabel": "\u00c3\u0082\u00c2\u00a92004-2023 SegwayGuidedTours.com",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.1 (foreground color: #ffffff, background color: #f3f3f3, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }

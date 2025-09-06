@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -50,7 +42,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer class=\"footer\">\n            <div>ÃÂ© Copyright 2009 COL Group, Indiana University</div>\n            <div>Web design released by <a href=\"#\">Flash Gallery</a></div>\n        </footer>",
+                    "html": "<footer class=\"footer\">\n            <div>\u00c3\u0082\u00c2\u00a9 Copyright 2009 COL Group, Indiana University</div>\n            <div>Web design released by <a href=\"#\">Flash Gallery</a></div>\n        </footer>",
                     "target": [
                       "footer"
                     ]
@@ -129,7 +121,7 @@
                       "height": 76
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "ÃÂ© Copyright 2009 COL Group, Indiana University\nWeb design released by Flash …"
+                    "nodeLabel": "\u00c3\u0082\u00c2\u00a9 Copyright 2009 COL Group, Indiana University\nWeb design released by Flash \u2026"
                   }
                 }
               ]

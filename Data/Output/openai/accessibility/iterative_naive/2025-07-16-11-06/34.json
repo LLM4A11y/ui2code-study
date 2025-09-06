@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -50,7 +42,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer class=\"footer-content\">\n        Copyright Â© 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by <a href=\"#\">Corrective Crew</a>\n    </footer>",
+                    "html": "<footer class=\"footer-content\">\n        Copyright \u00c2\u00a9 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by <a href=\"#\">Corrective Crew</a>\n    </footer>",
                     "target": [
                       "footer"
                     ]
@@ -63,7 +55,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<footer class=\"footer-content\">\n        Copyright Â© 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by <a href=\"#\">Corrective Crew</a>\n    </footer>",
+            "html": "<footer class=\"footer-content\">\n        Copyright \u00c2\u00a9 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by <a href=\"#\">Corrective Crew</a>\n    </footer>",
             "target": [
               "footer"
             ],
@@ -92,7 +84,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer class=\"footer-content\">\n        Copyright Â© 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by <a href=\"#\">Corrective Crew</a>\n    </footer>",
+                    "html": "<footer class=\"footer-content\">\n        Copyright \u00c2\u00a9 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by <a href=\"#\">Corrective Crew</a>\n    </footer>",
                     "target": [
                       "footer"
                     ]
@@ -116,14 +108,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.66:1. Recommendation:  change text colour to #717171.",
-          "description": "<footer class=\"footer-content\">\n        Copyright Â© 2021 Traf...</footer>",
+          "description": "<footer class=\"footer-content\">\n        Copyright \u00c2\u00a9 2021 Traf...</footer>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.66:1. Recommendation:  change text colour to #717171.",
-            "context": "<footer class=\"footer-content\">\n        Copyright Â© 2021 Traf...</footer>",
+            "context": "<footer class=\"footer-content\">\n        Copyright \u00c2\u00a9 2021 Traf...</footer>",
             "selector": "html > body > footer",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -167,7 +159,7 @@
                 "height": 72
               },
               "snippet": "<footer class=\"footer-content\">",
-              "nodeLabel": "Copyright Â© 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by …",
+              "nodeLabel": "Copyright \u00c2\u00a9 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by \u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.65 (foreground color: #999999, background color: #f7f7f7, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -214,7 +206,7 @@
                       "height": 72
                     },
                     "snippet": "<footer class=\"footer-content\">",
-                    "nodeLabel": "Copyright Â© 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by …"
+                    "nodeLabel": "Copyright \u00c2\u00a9 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by \u2026"
                   }
                 }
               ]

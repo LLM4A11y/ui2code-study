@@ -11,10 +11,6 @@
     "total_nodes_checked": 93,
     "total_nodes_failed": 11
   },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
-  },
   "details_checks": {
     "Landmark & Region; Missing & Unique Landmarks;": {
       "impact": "moderate",
@@ -29,8 +25,8 @@
           "amount": 7,
           "amount_relative": 0,
           "ids": [
-            "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main",
-            "https://dequeuniversity.com/rules/axe/4.10/region"
+            "https://dequeuniversity.com/rules/axe/4.10/region",
+            "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main"
           ]
         },
         "pa11y": {
@@ -119,8 +115,8 @@
           "amount": 2,
           "amount_relative": 0,
           "ids": [
-            "Principle1.Guideline1_3.1_3_1.F68",
-            "Principle4.Guideline4_1.4_1_2.H91.InputPassword.Name"
+            "Principle4.Guideline4_1.4_1_2.H91.InputPassword.Name",
+            "Principle1.Guideline1_3.1_3_1.F68"
           ]
         },
         "lighthouse": {

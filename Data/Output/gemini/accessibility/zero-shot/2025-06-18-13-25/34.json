@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -266,7 +258,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"header-nav\">\n        <a href=\"#\">Home</a>\n        <a href=\"#\">About</a>\n        <a href=\"#\">Services</a>\n        <a href=\"#\">GET A QUOTE</a>\n        <a href=\"#\">Jobs at Traffic Management</a>\n        <a href=\"#\">News</a>\n        <a href=\"#\">Â© Contact</a>\n    </div>",
+            "html": "<div class=\"header-nav\">\n        <a href=\"#\">Home</a>\n        <a href=\"#\">About</a>\n        <a href=\"#\">Services</a>\n        <a href=\"#\">GET A QUOTE</a>\n        <a href=\"#\">Jobs at Traffic Management</a>\n        <a href=\"#\">News</a>\n        <a href=\"#\">\u00c2\u00a9 Contact</a>\n    </div>",
             "target": [
               ".header-nav"
             ],
@@ -462,7 +454,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        Copyright Â© 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by <a href=\"#\">Corrective Crew</a>\n    </div>",
+            "html": "<div class=\"footer\">\n        Copyright \u00c2\u00a9 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by <a href=\"#\">Corrective Crew</a>\n    </div>",
             "target": [
               ".footer"
             ],

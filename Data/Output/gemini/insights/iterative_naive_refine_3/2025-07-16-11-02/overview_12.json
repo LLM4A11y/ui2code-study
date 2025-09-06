@@ -11,9 +11,5 @@
     "total_nodes_checked": 145,
     "total_nodes_failed": 0
   },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
-  },
   "details_checks": {}
 }

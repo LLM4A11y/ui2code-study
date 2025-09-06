@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -147,7 +156,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>Powered By IP.Board Â© 2023 IPS, Inc.<br>\n            Licensed to: Seahorse Dot Org Limited</p>",
+            "html": "<p>Powered By IP.Board \u00c2\u00a9 2023 IPS, Inc.<br>\n            Licensed to: Seahorse Dot Org Limited</p>",
             "target": [
               "footer > p"
             ],
@@ -192,14 +201,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.11:1. Recommendation:  change text colour to #5f5f5f.",
-          "description": "<p>Powered By IP.Board Â© 2023 IPS...</p>",
+          "description": "<p>Powered By IP.Board \u00c2\u00a9 2023 IPS...</p>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.11:1. Recommendation:  change text colour to #5f5f5f.",
-            "context": "<p>Powered By IP.Board Â© 2023 IPS...</p>",
+            "context": "<p>Powered By IP.Board \u00c2\u00a9 2023 IPS...</p>",
             "selector": "html > body > footer > p",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -324,7 +333,7 @@
                 "height": 23
               },
               "snippet": "<p>",
-              "nodeLabel": "Powered By IP.Board Â© 2023 IPS, Inc.\nLicensed to: Seahorse Dot Org Limited",
+              "nodeLabel": "Powered By IP.Board \u00c2\u00a9 2023 IPS, Inc.\nLicensed to: Seahorse Dot Org Limited",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #666666, background color: #d7dae3, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {

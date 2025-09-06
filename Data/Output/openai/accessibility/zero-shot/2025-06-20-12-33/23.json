@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -50,7 +42,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"header\">\n        <h1>Alexito's World</h1>\n        <p>A world of coding ð», by Alejandro Martinez</p>\n        <div class=\"menu\">\n            <a href=\"#\" class=\"menu-item\">| Swift</a>\n            <a href=\"#\" class=\"menu-item\">Development |</a>\n        </div>\n    </div>",
+                    "html": "<div class=\"header\">\n        <h1>Alexito's World</h1>\n        <p>A world of coding \u00f0\u009f\u0092\u00bb, by Alejandro Martinez</p>\n        <div class=\"menu\">\n            <a href=\"#\" class=\"menu-item\">| Swift</a>\n            <a href=\"#\" class=\"menu-item\">Development |</a>\n        </div>\n    </div>",
                     "target": [
                       ".header"
                     ]
@@ -63,7 +55,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>A world of coding ð», by Alejandro Martinez</p>",
+            "html": "<p>A world of coding \u00f0\u009f\u0092\u00bb, by Alejandro Martinez</p>",
             "target": [
               ".header > p"
             ],
@@ -105,7 +97,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div style=\"float:right; color:#7f7f7f;\">ð 1 min read</div>",
+            "html": "<div style=\"float:right; color:#7f7f7f;\">\u00f0\u009f\u0095\u0092 1 min read</div>",
             "target": [
               ".content > div:nth-child(2)"
             ],
@@ -494,14 +486,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.16:1. Recommendation:  change background to #161616.",
-          "description": "<p>A world of coding ð», by Alej...</p>",
+          "description": "<p>A world of coding \u00f0\u009f\u0092\u00bb, by Alej...</p>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.16:1. Recommendation:  change background to #161616.",
-            "context": "<p>A world of coding ð», by Alej...</p>",
+            "context": "<p>A world of coding \u00f0\u009f\u0092\u00bb, by Alej...</p>",
             "selector": "html > body > div:nth-child(1) > p",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -511,14 +503,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.34:1. Recommendation:  change background to #161616.",
-          "description": "<div style=\"float:right; color:#7f7f7f;\">ð 1 min read</div>",
+          "description": "<div style=\"float:right; color:#7f7f7f;\">\u00f0\u009f\u0095\u0092 1 min read</div>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.34:1. Recommendation:  change background to #161616.",
-            "context": "<div style=\"float:right; color:#7f7f7f;\">ð 1 min read</div>",
+            "context": "<div style=\"float:right; color:#7f7f7f;\">\u00f0\u009f\u0095\u0092 1 min read</div>",
             "selector": "html > body > div:nth-child(2) > div:nth-child(2)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -698,7 +690,7 @@
                 "height": 26
               },
               "snippet": "<p>",
-              "nodeLabel": "A world of coding ð», by Alejandro Martinez",
+              "nodeLabel": "A world of coding \u00f0\u009f\u0092\u00bb, by Alejandro Martinez",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #7f7f7f, background color: #1e1e1e, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -719,7 +711,7 @@
                       "height": 172
                     },
                     "snippet": "<div class=\"header\">",
-                    "nodeLabel": "Alexito's World\n\nA world of coding ð», by Alejandro Martinez\n\n| Swift\nDevelop…"
+                    "nodeLabel": "Alexito's World\n\nA world of coding \u00f0\u009f\u0092\u00bb, by Alejandro Martinez\n\n| Swift\nDevelop\u2026"
                   }
                 }
               ]
@@ -747,7 +739,7 @@
                 "height": 26
               },
               "snippet": "<div style=\"float:right; color:#7f7f7f;\">",
-              "nodeLabel": "ð 1 min read",
+              "nodeLabel": "\u00f0\u009f\u0095\u0092 1 min read",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.34 (foreground color: #7f7f7f, background color: #2f2f2f, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1146,7 +1138,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"header\">\n        <h1>Alexito's World</h1>\n        <p>A world of coding ð», by Alejandro Martinez</p>\n        <div class=\"menu\">\n            <a href=\"#\" class=\"menu-item\">| Swift</a>\n            <a href=\"#\" class=\"menu-item\">Development |</a>\n        </div>\n    </div>",
+            "html": "<div class=\"header\">\n        <h1>Alexito's World</h1>\n        <p>A world of coding \u00f0\u009f\u0092\u00bb, by Alejandro Martinez</p>\n        <div class=\"menu\">\n            <a href=\"#\" class=\"menu-item\">| Swift</a>\n            <a href=\"#\" class=\"menu-item\">Development |</a>\n        </div>\n    </div>",
             "target": [
               ".header"
             ],
@@ -1631,7 +1623,7 @@
                       "height": 490
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "To implement that I just used a repeat loop creating  s that called the same sc…"
+                    "nodeLabel": "To implement that I just used a repeat loop creating  s that called the same sc\u2026"
                   }
                 }
               ]
@@ -1680,7 +1672,7 @@
                       "height": 490
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "To implement that I just used a repeat loop creating  s that called the same sc…"
+                    "nodeLabel": "To implement that I just used a repeat loop creating  s that called the same sc\u2026"
                   }
                 }
               ]

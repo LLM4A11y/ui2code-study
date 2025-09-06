@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -133,7 +125,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17) | Copyright Â© 2012 â 2021 <a href=\"#\">Christian Watch</a></p>",
+            "html": "<p>So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17) | Copyright \u00c2\u00a9 2012 \u00e2\u0080\u0093 2021 <a href=\"#\">Christian Watch</a></p>",
             "target": [
               "p:nth-child(1)"
             ],
@@ -407,7 +399,7 @@
                 "height": 45
               },
               "snippet": "<p>",
-              "nodeLabel": "So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17)…",
+              "nodeLabel": "So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17)\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.61 (foreground color: #999999, background color: #f5f5f5, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -428,7 +420,7 @@
                       "height": 358
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17)…"
+                    "nodeLabel": "So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17)\u2026"
                   }
                 }
               ]
@@ -477,7 +469,7 @@
                       "height": 358
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17)…"
+                    "nodeLabel": "So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17)\u2026"
                   }
                 }
               ]
@@ -526,7 +518,7 @@
                       "height": 358
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17)…"
+                    "nodeLabel": "So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17)\u2026"
                   }
                 }
               ]
@@ -575,7 +567,7 @@
                       "height": 358
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17)…"
+                    "nodeLabel": "So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17)\u2026"
                   }
                 }
               ]
@@ -745,7 +737,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17) | Copyright Â© 2012 â 2021 <a href=\"#\">Christian Watch</a></p>",
+                    "html": "<p>So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17) | Copyright \u00c2\u00a9 2012 \u00e2\u0080\u0093 2021 <a href=\"#\">Christian Watch</a></p>",
                     "target": [
                       "p:nth-child(1)"
                     ]
@@ -759,7 +751,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17) | Copyright Â© 2012 â 2021 <a href=\"#\">Christian Watch</a></p>",
+                    "html": "<p>So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17) | Copyright \u00c2\u00a9 2012 \u00e2\u0080\u0093 2021 <a href=\"#\">Christian Watch</a></p>",
                     "target": [
                       "p:nth-child(1)"
                     ]
@@ -821,7 +813,7 @@
                       "height": 45
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17)…"
+                    "nodeLabel": "So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17)\u2026"
                   }
                 }
               ]

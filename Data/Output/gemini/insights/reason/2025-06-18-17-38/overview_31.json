@@ -3,17 +3,13 @@
     "automatic": "Yellow"
   },
   "benchmark": {
-    "automatic_ir": 0.1968503937007874,
-    "automatic_iw-ir": 0.348
+    "automatic_ir": 0.25196850393700787,
+    "automatic_iw-ir": 0.490625
   },
   "automatic_checks": {
     "lighthouse_accessibility_score": 0.93,
     "total_nodes_checked": 127,
-    "total_nodes_failed": 25
-  },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
+    "total_nodes_failed": 32
   },
   "details_checks": {
     "Color Contrast; Text;": {
@@ -91,9 +87,35 @@
           "amount": 20,
           "amount_relative": 0,
           "ids": [
-            "https://dequeuniversity.com/rules/axe/4.10/region",
-            "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main"
+            "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main",
+            "https://dequeuniversity.com/rules/axe/4.10/region"
           ]
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      }
+    },
+    "Alt-Text; Images;": {
+      "impact": "critical",
+      "amount_nodes_failed": 7,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 7,
+          "amount_relative": 7,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
         },
         "pa11y": {
           "amount": 0,

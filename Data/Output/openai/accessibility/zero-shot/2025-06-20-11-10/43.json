@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -239,7 +231,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        Copyright Â© tradeingoldbullion.com 2023\n    </div>",
+                    "html": "<div class=\"footer\">\n        Copyright \u00c2\u00a9 tradeingoldbullion.com 2023\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -252,7 +244,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"footer\">\n        Copyright Â© tradeingoldbullion.com 2023\n    </div>",
+            "html": "<div class=\"footer\">\n        Copyright \u00c2\u00a9 tradeingoldbullion.com 2023\n    </div>",
             "target": [
               ".footer"
             ],
@@ -444,7 +436,7 @@
                 "height": 38
               },
               "snippet": "<div class=\"footer\">",
-              "nodeLabel": "Copyright Â© tradeingoldbullion.com 2023",
+              "nodeLabel": "Copyright \u00c2\u00a9 tradeingoldbullion.com 2023",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.24 (foreground color: #ffffff, background color: #0083b9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -657,7 +649,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        Copyright Â© tradeingoldbullion.com 2023\n    </div>",
+            "html": "<div class=\"footer\">\n        Copyright \u00c2\u00a9 tradeingoldbullion.com 2023\n    </div>",
             "target": [
               ".footer"
             ],

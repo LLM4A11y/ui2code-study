@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 2,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -147,7 +156,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>Discover South Carolina on one of these six Segway tours. Experience the sights and sounds of South Carolina's cities and landmarks with an up-close and personal tour on the Segway® PT.</p>",
+            "html": "<p>Discover South Carolina on one of these six Segway tours. Experience the sights and sounds of South Carolina's cities and landmarks with an up-close and personal tour on the Segway\u00ae PT.</p>",
             "target": [
               ".content > p:nth-child(6)"
             ],
@@ -1512,7 +1521,7 @@
                       "height": 957
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1540,7 +1549,7 @@
                 "height": 80
               },
               "snippet": "<p>",
-              "nodeLabel": "Discover South Carolina on one of these six Segway tours. Experience the sights…",
+              "nodeLabel": "Discover South Carolina on one of these six Segway tours. Experience the sights\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #999999, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1561,7 +1570,7 @@
                       "height": 957
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1610,7 +1619,7 @@
                       "height": 957
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1659,7 +1668,7 @@
                       "height": 957
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1708,7 +1717,7 @@
                       "height": 957
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1757,7 +1766,7 @@
                       "height": 957
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1806,7 +1815,7 @@
                       "height": 957
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1855,7 +1864,7 @@
                       "height": 957
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1904,7 +1913,7 @@
                       "height": 957
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -1953,7 +1962,7 @@
                       "height": 957
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -2002,7 +2011,7 @@
                       "height": 957
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -2051,7 +2060,7 @@
                       "height": 957
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -2100,7 +2109,7 @@
                       "height": 957
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -2149,7 +2158,7 @@
                       "height": 957
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -2198,7 +2207,7 @@
                       "height": 957
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO…"
+                    "nodeLabel": "List of 6 Segway Tours in South Carolina\n\nSouth Carolina List Date: 11/3/23\n\nSO\u2026"
                   }
                 }
               ]
@@ -2247,7 +2256,7 @@
                       "height": 226
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "Home\nFind Segway Tours\nBrowse Tours\nAbout SGT\nSegway MINIPRO\nFor Tour Operators…"
+                    "nodeLabel": "Home\nFind Segway Tours\nBrowse Tours\nAbout SGT\nSegway MINIPRO\nFor Tour Operators\u2026"
                   }
                 }
               ]
@@ -2296,7 +2305,7 @@
                       "height": 226
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "Home\nFind Segway Tours\nBrowse Tours\nAbout SGT\nSegway MINIPRO\nFor Tour Operators…"
+                    "nodeLabel": "Home\nFind Segway Tours\nBrowse Tours\nAbout SGT\nSegway MINIPRO\nFor Tour Operators\u2026"
                   }
                 }
               ]
@@ -2345,7 +2354,7 @@
                       "height": 226
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "Home\nFind Segway Tours\nBrowse Tours\nAbout SGT\nSegway MINIPRO\nFor Tour Operators…"
+                    "nodeLabel": "Home\nFind Segway Tours\nBrowse Tours\nAbout SGT\nSegway MINIPRO\nFor Tour Operators\u2026"
                   }
                 }
               ]
@@ -2394,7 +2403,7 @@
                       "height": 226
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "Home\nFind Segway Tours\nBrowse Tours\nAbout SGT\nSegway MINIPRO\nFor Tour Operators…"
+                    "nodeLabel": "Home\nFind Segway Tours\nBrowse Tours\nAbout SGT\nSegway MINIPRO\nFor Tour Operators\u2026"
                   }
                 }
               ]
@@ -2443,7 +2452,7 @@
                       "height": 226
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "Home\nFind Segway Tours\nBrowse Tours\nAbout SGT\nSegway MINIPRO\nFor Tour Operators…"
+                    "nodeLabel": "Home\nFind Segway Tours\nBrowse Tours\nAbout SGT\nSegway MINIPRO\nFor Tour Operators\u2026"
                   }
                 }
               ]
@@ -2492,7 +2501,7 @@
                       "height": 226
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "Home\nFind Segway Tours\nBrowse Tours\nAbout SGT\nSegway MINIPRO\nFor Tour Operators…"
+                    "nodeLabel": "Home\nFind Segway Tours\nBrowse Tours\nAbout SGT\nSegway MINIPRO\nFor Tour Operators\u2026"
                   }
                 }
               ]
@@ -2541,7 +2550,7 @@
                       "height": 226
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "Home\nFind Segway Tours\nBrowse Tours\nAbout SGT\nSegway MINIPRO\nFor Tour Operators…"
+                    "nodeLabel": "Home\nFind Segway Tours\nBrowse Tours\nAbout SGT\nSegway MINIPRO\nFor Tour Operators\u2026"
                   }
                 }
               ]
@@ -2590,7 +2599,7 @@
                       "height": 226
                     },
                     "snippet": "<footer class=\"footer\">",
-                    "nodeLabel": "Home\nFind Segway Tours\nBrowse Tours\nAbout SGT\nSegway MINIPRO\nFor Tour Operators…"
+                    "nodeLabel": "Home\nFind Segway Tours\nBrowse Tours\nAbout SGT\nSegway MINIPRO\nFor Tour Operators\u2026"
                   }
                 }
               ]
@@ -2805,7 +2814,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<p>Discover South Carolina on one of these six Segway tours. Experience the sights and sounds of South Carolina's cities and landmarks with an up-close and personal tour on the Segway® PT.</p>",
+            "html": "<p>Discover South Carolina on one of these six Segway tours. Experience the sights and sounds of South Carolina's cities and landmarks with an up-close and personal tour on the Segway\u00ae PT.</p>",
             "target": [
               ".content > p:nth-child(6)"
             ],
@@ -2889,7 +2898,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<h2>Find a Tour on a Segway® PT now!</h2>",
+            "html": "<h2>Find a Tour on a Segway\u00ae PT now!</h2>",
             "target": [
               ".discover > h2"
             ],

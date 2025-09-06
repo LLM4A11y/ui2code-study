@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -91,7 +100,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p class=\"spreadsheet-note\">\n                Note that these are general examples. Each studentâs background will be assessed by supervisors at the start of the program to design a specific set of unit requirements that will complement the studentâs strengths.\n            </p>",
+            "html": "<p class=\"spreadsheet-note\">\n                Note that these are general examples. Each student\u00e2\u0080\u0099s background will be assessed by supervisors at the start of the program to design a specific set of unit requirements that will complement the student\u00e2\u0080\u0099s strengths.\n            </p>",
             "target": [
               ".spreadsheet-note:nth-child(6)"
             ],
@@ -119,7 +128,7 @@
                 "height": 39
               },
               "snippet": "<p class=\"spreadsheet-note\">",
-              "nodeLabel": "(See this student's sample spreadsheet showing calculation of pillar units and …",
+              "nodeLabel": "(See this student's sample spreadsheet showing calculation of pillar units and \u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -145,7 +154,7 @@
                 "height": 78
               },
               "snippet": "<p class=\"spreadsheet-note\">",
-              "nodeLabel": "Note that these are general examples. Each studentâs background will be asses…",
+              "nodeLabel": "Note that these are general examples. Each student\u00e2\u0080\u0099s background will be asses\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 9.8pt (13px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -467,7 +476,7 @@
                       "height": 72
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Students accepted into the program will receive financial support consisting of…"
+                    "nodeLabel": "Students accepted into the program will receive financial support consisting of\u2026"
                   }
                 }
               ]
@@ -516,7 +525,7 @@
                       "height": 72
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Students accepted into the program will receive financial support consisting of…"
+                    "nodeLabel": "Students accepted into the program will receive financial support consisting of\u2026"
                   }
                 }
               ]
@@ -565,7 +574,7 @@
                       "height": 39
                     },
                     "snippet": "<p class=\"spreadsheet-note\">",
-                    "nodeLabel": "(See this student's sample spreadsheet showing calculation of pillar units and …"
+                    "nodeLabel": "(See this student's sample spreadsheet showing calculation of pillar units and \u2026"
                   }
                 }
               ]

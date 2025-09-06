@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -105,7 +114,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>Physician entrepreneur disrupting the healthcare status quoð</p>",
+            "html": "<p>Physician entrepreneur disrupting the healthcare status quo\u00f0\u009f\u009a\u0080</p>",
             "target": [
               "p:nth-child(3)"
             ],
@@ -134,7 +143,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<a href=\"#\" class=\"button\">Join Medicine Forward! â¡ï¸</a>",
+                    "html": "<a href=\"#\" class=\"button\">Join Medicine Forward! \u00e2\u009e\u00a1\u00ef\u00b8\u008f</a>",
                     "target": [
                       "a:nth-child(4)"
                     ]
@@ -147,7 +156,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\" class=\"button\">Join Medicine Forward! â¡ï¸</a>",
+            "html": "<a href=\"#\" class=\"button\">Join Medicine Forward! \u00e2\u009e\u00a1\u00ef\u00b8\u008f</a>",
             "target": [
               "a:nth-child(4)"
             ],
@@ -176,7 +185,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<a href=\"#\" class=\"button\">Burnout Warriors ð</a>",
+                    "html": "<a href=\"#\" class=\"button\">Burnout Warriors \u00f0\u009f\u0091\u0095</a>",
                     "target": [
                       "a:nth-child(5)"
                     ]
@@ -189,7 +198,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\" class=\"button\">Burnout Warriors ð</a>",
+            "html": "<a href=\"#\" class=\"button\">Burnout Warriors \u00f0\u009f\u0091\u0095</a>",
             "target": [
               "a:nth-child(5)"
             ],
@@ -218,7 +227,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<a href=\"#\" class=\"button\">Check burnout risk (2-min)ð¥</a>",
+                    "html": "<a href=\"#\" class=\"button\">Check burnout risk (2-min)\u00f0\u009f\u0094\u00a5</a>",
                     "target": [
                       "a:nth-child(6)"
                     ]
@@ -231,7 +240,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\" class=\"button\">Check burnout risk (2-min)ð¥</a>",
+            "html": "<a href=\"#\" class=\"button\">Check burnout risk (2-min)\u00f0\u009f\u0094\u00a5</a>",
             "target": [
               "a:nth-child(6)"
             ],
@@ -260,7 +269,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<a href=\"#\" class=\"button\">Download SwiftWire EHR macro app (free &amp; open source) ð»</a>",
+                    "html": "<a href=\"#\" class=\"button\">Download SwiftWire EHR macro app (free &amp; open source) \u00f0\u009f\u0092\u00bb</a>",
                     "target": [
                       "a:nth-child(7)"
                     ]
@@ -273,7 +282,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\" class=\"button\">Download SwiftWire EHR macro app (free &amp; open source) ð»</a>",
+            "html": "<a href=\"#\" class=\"button\">Download SwiftWire EHR macro app (free &amp; open source) \u00f0\u009f\u0092\u00bb</a>",
             "target": [
               "a:nth-child(7)"
             ],
@@ -315,7 +324,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p class=\"footer-text\">On a mission to â¬ï¸ compassion &amp; flourishing for everyone â¤ï¸</p>",
+            "html": "<p class=\"footer-text\">On a mission to \u00e2\u00ac\u0086\u00ef\u00b8\u008f compassion &amp; flourishing for everyone \u00e2\u009d\u00a4\u00ef\u00b8\u008f</p>",
             "target": [
               ".footer-text"
             ],
@@ -360,14 +369,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.95:1. Recommendation:  change background to #aa6708.",
-          "description": "<a href=\"#\" class=\"button\">Join Medicine Forward! â¡ï¸</a>",
+          "description": "<a href=\"#\" class=\"button\">Join Medicine Forward! \u00e2\u009e\u00a1\u00ef\u00b8\u008f</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.95:1. Recommendation:  change background to #aa6708.",
-            "context": "<a href=\"#\" class=\"button\">Join Medicine Forward! â¡ï¸</a>",
+            "context": "<a href=\"#\" class=\"button\">Join Medicine Forward! \u00e2\u009e\u00a1\u00ef\u00b8\u008f</a>",
             "selector": "html > body > a:nth-child(4)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -377,14 +386,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.95:1. Recommendation:  change background to #aa6708.",
-          "description": "<a href=\"#\" class=\"button\">Burnout Warriors ð</a>",
+          "description": "<a href=\"#\" class=\"button\">Burnout Warriors \u00f0\u009f\u0091\u0095</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.95:1. Recommendation:  change background to #aa6708.",
-            "context": "<a href=\"#\" class=\"button\">Burnout Warriors ð</a>",
+            "context": "<a href=\"#\" class=\"button\">Burnout Warriors \u00f0\u009f\u0091\u0095</a>",
             "selector": "html > body > a:nth-child(5)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -394,14 +403,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.95:1. Recommendation:  change background to #aa6708.",
-          "description": "<a href=\"#\" class=\"button\">Check burnout risk (2-min)ð¥</a>",
+          "description": "<a href=\"#\" class=\"button\">Check burnout risk (2-min)\u00f0\u009f\u0094\u00a5</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 1.95:1. Recommendation:  change background to #aa6708.",
-            "context": "<a href=\"#\" class=\"button\">Check burnout risk (2-min)ð¥</a>",
+            "context": "<a href=\"#\" class=\"button\">Check burnout risk (2-min)\u00f0\u009f\u0094\u00a5</a>",
             "selector": "html > body > a:nth-child(6)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -428,14 +437,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.54:1. Recommendation:  change background to #16847a.",
-          "description": "<p class=\"footer-text\">On a mission to â¬ï¸ compassi...</p>",
+          "description": "<p class=\"footer-text\">On a mission to \u00e2\u00ac\u0086\u00ef\u00b8\u008f compassi...</p>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.54:1. Recommendation:  change background to #16847a.",
-            "context": "<p class=\"footer-text\">On a mission to â¬ï¸ compassi...</p>",
+            "context": "<p class=\"footer-text\">On a mission to \u00e2\u00ac\u0086\u00ef\u00b8\u008f compassi...</p>",
             "selector": "html > body > p:nth-child(8)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -511,7 +520,7 @@
                 "height": 41
               },
               "snippet": "<p>",
-              "nodeLabel": "Physician entrepreneur disrupting the healthcare status quoð",
+              "nodeLabel": "Physician entrepreneur disrupting the healthcare status quo\u00f0\u009f\u009a\u0080",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #ffffff, background color: #45b3a9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -560,7 +569,7 @@
                 "height": 55
               },
               "snippet": "<a href=\"#\" class=\"button\">",
-              "nodeLabel": "Join Medicine Forward! â¡ï¸",
+              "nodeLabel": "Join Medicine Forward! \u00e2\u009e\u00a1\u00ef\u00b8\u008f",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.94 (foreground color: #ffffff, background color: #f0ad4e, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -586,7 +595,7 @@
                 "height": 55
               },
               "snippet": "<a href=\"#\" class=\"button\">",
-              "nodeLabel": "Burnout Warriors ð",
+              "nodeLabel": "Burnout Warriors \u00f0\u009f\u0091\u0095",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.94 (foreground color: #ffffff, background color: #f0ad4e, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -612,7 +621,7 @@
                 "height": 55
               },
               "snippet": "<a href=\"#\" class=\"button\">",
-              "nodeLabel": "Check burnout risk (2-min)ð¥",
+              "nodeLabel": "Check burnout risk (2-min)\u00f0\u009f\u0094\u00a5",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.94 (foreground color: #ffffff, background color: #f0ad4e, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -638,7 +647,7 @@
                 "height": 75
               },
               "snippet": "<a href=\"#\" class=\"button\">",
-              "nodeLabel": "Download SwiftWire EHR macro app (free & open source) ð»",
+              "nodeLabel": "Download SwiftWire EHR macro app (free & open source) \u00f0\u009f\u0092\u00bb",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.94 (foreground color: #ffffff, background color: #f0ad4e, font size: 13.2pt (17.6px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -664,7 +673,7 @@
                 "height": 45
               },
               "snippet": "<p class=\"footer-text\">",
-              "nodeLabel": "On a mission to â¬ï¸ compassion & flourishing for everyone â¤ï¸",
+              "nodeLabel": "On a mission to \u00e2\u00ac\u0086\u00ef\u00b8\u008f compassion & flourishing for everyone \u00e2\u009d\u00a4\u00ef\u00b8\u008f",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.53 (foreground color: #ffffff, background color: #45b3a9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -788,7 +797,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<p>Physician entrepreneur disrupting the healthcare status quoð</p>",
+            "html": "<p>Physician entrepreneur disrupting the healthcare status quo\u00f0\u009f\u009a\u0080</p>",
             "target": [
               "p:nth-child(3)"
             ],
@@ -816,7 +825,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<a href=\"#\" class=\"button\">Join Medicine Forward! â¡ï¸</a>",
+            "html": "<a href=\"#\" class=\"button\">Join Medicine Forward! \u00e2\u009e\u00a1\u00ef\u00b8\u008f</a>",
             "target": [
               "a:nth-child(4)"
             ],
@@ -844,7 +853,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<a href=\"#\" class=\"button\">Burnout Warriors ð</a>",
+            "html": "<a href=\"#\" class=\"button\">Burnout Warriors \u00f0\u009f\u0091\u0095</a>",
             "target": [
               "a:nth-child(5)"
             ],
@@ -872,7 +881,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<a href=\"#\" class=\"button\">Check burnout risk (2-min)ð¥</a>",
+            "html": "<a href=\"#\" class=\"button\">Check burnout risk (2-min)\u00f0\u009f\u0094\u00a5</a>",
             "target": [
               "a:nth-child(6)"
             ],
@@ -900,7 +909,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<a href=\"#\" class=\"button\">Download SwiftWire EHR macro app (free &amp; open source) ð»</a>",
+            "html": "<a href=\"#\" class=\"button\">Download SwiftWire EHR macro app (free &amp; open source) \u00f0\u009f\u0092\u00bb</a>",
             "target": [
               "a:nth-child(7)"
             ],
@@ -928,7 +937,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<p class=\"footer-text\">On a mission to â¬ï¸ compassion &amp; flourishing for everyone â¤ï¸</p>",
+            "html": "<p class=\"footer-text\">On a mission to \u00e2\u00ac\u0086\u00ef\u00b8\u008f compassion &amp; flourishing for everyone \u00e2\u009d\u00a4\u00ef\u00b8\u008f</p>",
             "target": [
               ".footer-text"
             ],

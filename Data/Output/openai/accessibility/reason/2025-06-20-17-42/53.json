@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -954,7 +946,7 @@
                       "height": 1592
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "The Indian Oil Corporation was set up in which year?\nA - 1964\nB - 1965\nC - 1966…"
+                    "nodeLabel": "The Indian Oil Corporation was set up in which year?\nA - 1964\nB - 1965\nC - 1966\u2026"
                   }
                 }
               ]
@@ -1003,7 +995,7 @@
                       "height": 1592
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "The Indian Oil Corporation was set up in which year?\nA - 1964\nB - 1965\nC - 1966…"
+                    "nodeLabel": "The Indian Oil Corporation was set up in which year?\nA - 1964\nB - 1965\nC - 1966\u2026"
                   }
                 }
               ]
@@ -1052,7 +1044,7 @@
                       "height": 1592
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "The Indian Oil Corporation was set up in which year?\nA - 1964\nB - 1965\nC - 1966…"
+                    "nodeLabel": "The Indian Oil Corporation was set up in which year?\nA - 1964\nB - 1965\nC - 1966\u2026"
                   }
                 }
               ]
@@ -1101,7 +1093,7 @@
                       "height": 1592
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "The Indian Oil Corporation was set up in which year?\nA - 1964\nB - 1965\nC - 1966…"
+                    "nodeLabel": "The Indian Oil Corporation was set up in which year?\nA - 1964\nB - 1965\nC - 1966\u2026"
                   }
                 }
               ]

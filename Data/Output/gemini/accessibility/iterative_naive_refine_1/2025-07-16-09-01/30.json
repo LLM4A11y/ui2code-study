@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -91,7 +83,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\" class=\"continue-reading\">Continue Reading Ã¢ÂÂ&nbsp;</a>",
+            "html": "<a href=\"#\" class=\"continue-reading\">Continue Reading \u00c3\u00a2\u00c2\u0086\u00c2&nbsp;</a>",
             "target": [
               ".continue-reading"
             ],
@@ -180,7 +172,7 @@
                 "height": 18
               },
               "snippet": "<a href=\"#\" class=\"continue-reading\">",
-              "nodeLabel": "Continue Reading Ã¢ÂÂ ",
+              "nodeLabel": "Continue Reading \u00c3\u00a2\u00c2\u0086\u00c2\u00a0",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
             }
           }
@@ -206,7 +198,7 @@
                 "height": 48
               },
               "snippet": "<p>",
-              "nodeLabel": "ÃÂ© 2023 free mp4 movie. All rights reserved.                                 …",
+              "nodeLabel": "\u00c3\u0082\u00c2\u00a9 2023 free mp4 movie. All rights reserved. \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }

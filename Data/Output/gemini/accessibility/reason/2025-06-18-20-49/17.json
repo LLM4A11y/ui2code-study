@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -175,7 +167,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<footer>\n DANA &amp; JAROSLAV MOHAPL<br>\n COPYRIGHT Â© 2004 - 2023 BY EmInf. ALL RIGHTS RESERVED.\n</footer>",
+            "html": "<footer>\n DANA &amp; JAROSLAV MOHAPL<br>\n COPYRIGHT \u00c2\u00a9 2004 - 2023 BY EmInf. ALL RIGHTS RESERVED.\n</footer>",
             "target": [
               "footer"
             ],
@@ -284,7 +276,7 @@
                       "height": 53
                     },
                     "snippet": "<th colspan=\"13\">",
-                    "nodeLabel": "AVERAGE DAILY TEMPERATURES (C) FOR OTTAWA, ONTARIO\nLOWER BOUND AVERAGE TEMPERAT…"
+                    "nodeLabel": "AVERAGE DAILY TEMPERATURES (C) FOR OTTAWA, ONTARIO\nLOWER BOUND AVERAGE TEMPERAT\u2026"
                   }
                 }
               ]
@@ -333,7 +325,7 @@
                       "height": 53
                     },
                     "snippet": "<th colspan=\"13\">",
-                    "nodeLabel": "AVERAGE DAILY TEMPERATURES (C) FOR OTTAWA, ONTARIO\nLOWER BOUND AVERAGE TEMPERAT…"
+                    "nodeLabel": "AVERAGE DAILY TEMPERATURES (C) FOR OTTAWA, ONTARIO\nLOWER BOUND AVERAGE TEMPERAT\u2026"
                   }
                 }
               ]
@@ -361,7 +353,7 @@
                 "height": 433
               },
               "snippet": "<footer>",
-              "nodeLabel": "DANA & JAROSLAV MOHAPL\nCOPYRIGHT Ã‚Â© 2004 - 2023 BY EmInf. ALL RIGHTS RESERVED.",
+              "nodeLabel": "DANA & JAROSLAV MOHAPL\nCOPYRIGHT \u00c3\u201a\u00c2\u00a9 2004 - 2023 BY EmInf. ALL RIGHTS RESERVED.",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.19 (foreground color: #808000, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -602,7 +594,7 @@
                 "height": 302
               },
               "snippet": "<table class=\"temperature-table\">",
-              "nodeLabel": "AVERAGE DAILY TEMPERATURES (C) FOR OTTAWA, ONTARIO\nLOWER BOUND AVERAGE TEMPERAT…",
+              "nodeLabel": "AVERAGE DAILY TEMPERATURES (C) FOR OTTAWA, ONTARIO\nLOWER BOUND AVERAGE TEMPERAT\u2026",
               "explanation": "Fix all of the following:\n  The first child of the table should be a caption instead of a table cell"
             }
           }

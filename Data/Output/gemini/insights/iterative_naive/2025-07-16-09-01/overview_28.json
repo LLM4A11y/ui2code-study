@@ -11,10 +11,6 @@
     "total_nodes_checked": 22,
     "total_nodes_failed": 8
   },
-  "manual_checks": {
-    "total_checks": "tbd",
-    "failed_checks": "tbd"
-  },
   "details_checks": {
     "Language; Document Lang; Missing & Invalid": {
       "impact": "serious",
@@ -94,8 +90,8 @@
           "amount": 4,
           "amount_relative": 0,
           "ids": [
-            "https://dequeuniversity.com/rules/axe/4.10/region",
-            "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main"
+            "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main",
+            "https://dequeuniversity.com/rules/axe/4.10/region"
           ]
         },
         "pa11y": {

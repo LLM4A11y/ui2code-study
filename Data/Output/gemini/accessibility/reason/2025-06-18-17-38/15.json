@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -1799,7 +1791,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"footer\">\n            JokeBuddha.com Â© 2010-2023\n            <a href=\"#\">Terms &amp; Privacy</a>\n            <br>\n            We love good humor and obviously hilarious jokes followed by a healthy laughter!\n        </div>",
+            "html": "<div class=\"footer\">\n            JokeBuddha.com \u00c2\u00a9 2010-2023\n            <a href=\"#\">Terms &amp; Privacy</a>\n            <br>\n            We love good humor and obviously hilarious jokes followed by a healthy laughter!\n        </div>",
             "target": [
               ".footer"
             ],
@@ -3464,7 +3456,7 @@
                 "height": 46
               },
               "snippet": "<div class=\"footer\">",
-              "nodeLabel": "JokeBuddha.com Â© 2010-2023 Terms & Privacy\nWe love good humor and obviously hi…",
+              "nodeLabel": "JokeBuddha.com \u00c2\u00a9 2010-2023 Terms & Privacy\nWe love good humor and obviously hi\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -4013,7 +4005,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n            JokeBuddha.com Â© 2010-2023\n            <a href=\"#\">Terms &amp; Privacy</a>\n            <br>\n            We love good humor and obviously hilarious jokes followed by a healthy laughter!\n        </div>",
+            "html": "<div class=\"footer\">\n            JokeBuddha.com \u00c2\u00a9 2010-2023\n            <a href=\"#\">Terms &amp; Privacy</a>\n            <br>\n            We love good humor and obviously hilarious jokes followed by a healthy laughter!\n        </div>",
             "target": [
               ".footer"
             ],

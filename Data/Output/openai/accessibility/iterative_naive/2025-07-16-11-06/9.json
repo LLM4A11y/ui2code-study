@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -483,7 +475,7 @@
                       "height": 1393
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "[Solved] - Cannot Upload =@(\nShyzuna on 2018/10/27 23:53\nâedited on 2018/10/2…"
+                    "nodeLabel": "[Solved] - Cannot Upload =@(\nShyzuna on 2018/10/27 23:53\n\u00e2\u0080\u0094edited on 2018/10/2\u2026"
                   }
                 }
               ]
@@ -532,7 +524,7 @@
                       "height": 1393
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "[Solved] - Cannot Upload =@(\nShyzuna on 2018/10/27 23:53\nâedited on 2018/10/2…"
+                    "nodeLabel": "[Solved] - Cannot Upload =@(\nShyzuna on 2018/10/27 23:53\n\u00e2\u0080\u0094edited on 2018/10/2\u2026"
                   }
                 }
               ]
@@ -581,7 +573,7 @@
                       "height": 1393
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "[Solved] - Cannot Upload =@(\nShyzuna on 2018/10/27 23:53\nâedited on 2018/10/2…"
+                    "nodeLabel": "[Solved] - Cannot Upload =@(\nShyzuna on 2018/10/27 23:53\n\u00e2\u0080\u0094edited on 2018/10/2\u2026"
                   }
                 }
               ]
@@ -630,7 +622,7 @@
                       "height": 1393
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "[Solved] - Cannot Upload =@(\nShyzuna on 2018/10/27 23:53\nâedited on 2018/10/2…"
+                    "nodeLabel": "[Solved] - Cannot Upload =@(\nShyzuna on 2018/10/27 23:53\n\u00e2\u0080\u0094edited on 2018/10/2\u2026"
                   }
                 }
               ]
@@ -679,7 +671,7 @@
                       "height": 1393
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "[Solved] - Cannot Upload =@(\nShyzuna on 2018/10/27 23:53\nâedited on 2018/10/2…"
+                    "nodeLabel": "[Solved] - Cannot Upload =@(\nShyzuna on 2018/10/27 23:53\n\u00e2\u0080\u0094edited on 2018/10/2\u2026"
                   }
                 }
               ]
@@ -728,7 +720,7 @@
                       "height": 1393
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "[Solved] - Cannot Upload =@(\nShyzuna on 2018/10/27 23:53\nâedited on 2018/10/2…"
+                    "nodeLabel": "[Solved] - Cannot Upload =@(\nShyzuna on 2018/10/27 23:53\n\u00e2\u0080\u0094edited on 2018/10/2\u2026"
                   }
                 }
               ]
@@ -777,7 +769,7 @@
                       "height": 1393
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "[Solved] - Cannot Upload =@(\nShyzuna on 2018/10/27 23:53\nâedited on 2018/10/2…"
+                    "nodeLabel": "[Solved] - Cannot Upload =@(\nShyzuna on 2018/10/27 23:53\n\u00e2\u0080\u0094edited on 2018/10/2\u2026"
                   }
                 }
               ]

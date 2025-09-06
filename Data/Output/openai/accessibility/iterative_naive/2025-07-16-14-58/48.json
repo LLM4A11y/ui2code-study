@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -568,7 +560,7 @@
                       "height": 2557
                     },
                     "snippet": "<div class=\"info\">",
-                    "nodeLabel": "Prices for Citrus Fruits, 2022-2023 ($20)\n\nAccording to the U.S. Bureau of Labo…"
+                    "nodeLabel": "Prices for Citrus Fruits, 2022-2023 ($20)\n\nAccording to the U.S. Bureau of Labo\u2026"
                   }
                 }
               ]
@@ -617,7 +609,7 @@
                       "height": 2557
                     },
                     "snippet": "<div class=\"info\">",
-                    "nodeLabel": "Prices for Citrus Fruits, 2022-2023 ($20)\n\nAccording to the U.S. Bureau of Labo…"
+                    "nodeLabel": "Prices for Citrus Fruits, 2022-2023 ($20)\n\nAccording to the U.S. Bureau of Labo\u2026"
                   }
                 }
               ]
@@ -666,7 +658,7 @@
                       "height": 2557
                     },
                     "snippet": "<div class=\"info\">",
-                    "nodeLabel": "Prices for Citrus Fruits, 2022-2023 ($20)\n\nAccording to the U.S. Bureau of Labo…"
+                    "nodeLabel": "Prices for Citrus Fruits, 2022-2023 ($20)\n\nAccording to the U.S. Bureau of Labo\u2026"
                   }
                 }
               ]
@@ -715,7 +707,7 @@
                       "height": 2557
                     },
                     "snippet": "<div class=\"info\">",
-                    "nodeLabel": "Prices for Citrus Fruits, 2022-2023 ($20)\n\nAccording to the U.S. Bureau of Labo…"
+                    "nodeLabel": "Prices for Citrus Fruits, 2022-2023 ($20)\n\nAccording to the U.S. Bureau of Labo\u2026"
                   }
                 }
               ]
@@ -764,7 +756,7 @@
                       "height": 164
                     },
                     "snippet": "<div style=\"background-color: #f9f9f9; padding: 10px; margin-top: 10px;\">",
-                    "nodeLabel": "Price Inflation for Citrus fruits since 1997\nConsumer Price Index, U.S. Bureau …"
+                    "nodeLabel": "Price Inflation for Citrus fruits since 1997\nConsumer Price Index, U.S. Bureau \u2026"
                   }
                 }
               ]
@@ -813,7 +805,7 @@
                       "height": 2557
                     },
                     "snippet": "<div class=\"info\">",
-                    "nodeLabel": "Prices for Citrus Fruits, 2022-2023 ($20)\n\nAccording to the U.S. Bureau of Labo…"
+                    "nodeLabel": "Prices for Citrus Fruits, 2022-2023 ($20)\n\nAccording to the U.S. Bureau of Labo\u2026"
                   }
                 }
               ]
@@ -862,7 +854,7 @@
                       "height": 2557
                     },
                     "snippet": "<div class=\"info\">",
-                    "nodeLabel": "Prices for Citrus Fruits, 2022-2023 ($20)\n\nAccording to the U.S. Bureau of Labo…"
+                    "nodeLabel": "Prices for Citrus Fruits, 2022-2023 ($20)\n\nAccording to the U.S. Bureau of Labo\u2026"
                   }
                 }
               ]
@@ -937,7 +929,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"header\">\n    <span>â Citrus fruits price inflation since 2022</span>\n    <a href=\"#\">U.S. Canada U.K. Australia Europe More</a>\n</div>",
+            "html": "<div class=\"header\">\n    <span>\u00e2\u0098\u0085 Citrus fruits price inflation since 2022</span>\n    <a href=\"#\">U.S. Canada U.K. Australia Europe More</a>\n</div>",
             "target": [
               ".header"
             ],
@@ -965,7 +957,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"title\">\n    Citrus fruits priced at $20 in 2022 â $19.66 in 2023\n</div>",
+            "html": "<div class=\"title\">\n    Citrus fruits priced at $20 in 2022 \u00e2\u0086\u0092 $19.66 in 2023\n</div>",
             "target": [
               ".title"
             ],
@@ -1273,7 +1265,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n    Â© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> Â· <a href=\"#\">Privacy policy</a>\n</div>",
+            "html": "<div class=\"footer\">\n    \u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> \u00c2\u00b7 <a href=\"#\">Privacy policy</a>\n</div>",
             "target": [
               ".footer"
             ],

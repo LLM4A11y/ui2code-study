@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -161,7 +153,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<section>\n            <h2>Mountain bike trail development organization ADSVMQ officially transfers mtn bike trail development activities to VÃ©lo QuÃ©bec</h2>\n        </section>",
+            "html": "<section>\n            <h2>Mountain bike trail development organization ADSVMQ officially transfers mtn bike trail development activities to V\u00c3\u00a9lo Qu\u00c3\u00a9bec</h2>\n        </section>",
             "target": [
               "section:nth-child(6)"
             ],
@@ -200,7 +192,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>Don't get the impression that QuÃ©bec has no trails. <a href=\"#\">Click here</a> to go to the quÃ©bec mtn bike trail directory at AllezY.</p>",
+                    "html": "<p>Don't get the impression that Qu\u00c3\u00a9bec has no trails. <a href=\"#\">Click here</a> to go to the qu\u00c3\u00a9bec mtn bike trail directory at AllezY.</p>",
                     "target": [
                       ".post-content > p:nth-child(4)"
                     ]
@@ -214,7 +206,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>Don't get the impression that QuÃ©bec has no trails. <a href=\"#\">Click here</a> to go to the quÃ©bec mtn bike trail directory at AllezY.</p>",
+                    "html": "<p>Don't get the impression that Qu\u00c3\u00a9bec has no trails. <a href=\"#\">Click here</a> to go to the qu\u00c3\u00a9bec mtn bike trail directory at AllezY.</p>",
                     "target": [
                       ".post-content > p:nth-child(4)"
                     ]
@@ -306,7 +298,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>You can sign up to VÃ©lo QuÃ©bec's new mountain bike infolettre <a href=\"#\">here</a>. You can also join VÃ©lo QuÃ©bec because the more members they have, the greater is their ability to push for bike development on and off the roads of Quebec.</p>",
+                    "html": "<p>You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec's new mountain bike infolettre <a href=\"#\">here</a>. You can also join V\u00c3\u00a9lo Qu\u00c3\u00a9bec because the more members they have, the greater is their ability to push for bike development on and off the roads of Quebec.</p>",
                     "target": [
                       "p:nth-child(6)"
                     ]
@@ -320,7 +312,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>You can sign up to VÃ©lo QuÃ©bec's new mountain bike infolettre <a href=\"#\">here</a>. You can also join VÃ©lo QuÃ©bec because the more members they have, the greater is their ability to push for bike development on and off the roads of Quebec.</p>",
+                    "html": "<p>You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec's new mountain bike infolettre <a href=\"#\">here</a>. You can also join V\u00c3\u00a9lo Qu\u00c3\u00a9bec because the more members they have, the greater is their ability to push for bike development on and off the roads of Quebec.</p>",
                     "target": [
                       "p:nth-child(6)"
                     ]
@@ -382,7 +374,7 @@
                       "height": 60
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Don't get the impression that QuÃ©bec has no trails. Click here to go to the qu…"
+                    "nodeLabel": "Don't get the impression that Qu\u00c3\u00a9bec has no trails. Click here to go to the qu\u2026"
                   }
                 }
               ]
@@ -480,7 +472,7 @@
                       "height": 121
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "You can sign up to VÃ©lo QuÃ©bec's new mountain bike infolettre here. You can a…"
+                    "nodeLabel": "You can sign up to V\u00c3\u00a9lo Qu\u00c3\u00a9bec's new mountain bike infolettre here. You can a\u2026"
                   }
                 }
               ]

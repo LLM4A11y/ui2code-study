@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -402,14 +394,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.95:1. Recommendation:  change text colour to #767676.",
-          "description": "<div class=\"footer\">\n        Â© | Expertise Finder ...</div>",
+          "description": "<div class=\"footer\">\n        \u00c2\u00a9 | Expertise Finder ...</div>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.95:1. Recommendation:  change text colour to #767676.",
-            "context": "<div class=\"footer\">\n        Â© | Expertise Finder ...</div>",
+            "context": "<div class=\"footer\">\n        \u00c2\u00a9 | Expertise Finder ...</div>",
             "selector": "html > body > div:nth-child(4)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -577,7 +569,7 @@
                       "height": 68
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Â© | Expertise Finder | Toronto (Canada) | 1-888-978-5418 | info@expertisefinde…"
+                    "nodeLabel": "\u00c2\u00a9 | Expertise Finder | Toronto (Canada) | 1-888-978-5418 | info@expertisefinde\u2026"
                   }
                 }
               ]
@@ -626,7 +618,7 @@
                       "height": 68
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Â© | Expertise Finder | Toronto (Canada) | 1-888-978-5418 | info@expertisefinde…"
+                    "nodeLabel": "\u00c2\u00a9 | Expertise Finder | Toronto (Canada) | 1-888-978-5418 | info@expertisefinde\u2026"
                   }
                 }
               ]

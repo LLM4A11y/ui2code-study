@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -1169,7 +1161,7 @@
                 "height": 430
               },
               "snippet": "<p class=\"description\">",
-              "nodeLabel": "Dyed pink, wooden tube beads, 4mm turquoise beads, & gold pewter spacers strung…",
+              "nodeLabel": "Dyed pink, wooden tube beads, 4mm turquoise beads, & gold pewter spacers strung\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.73 (foreground color: #88d1d1, background color: #ffffff, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {

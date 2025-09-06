@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -301,7 +293,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"date\">\n                 â edited on 2018/10/28 11:00\n            </div>",
+            "html": "<div class=\"date\">\n                 \u00e2\u0080\u0094 edited on 2018/10/28 11:00\n            </div>",
             "target": [
               ".content > .date"
             ],
@@ -756,7 +748,7 @@
                 "height": 15
               },
               "snippet": "<div class=\"date\">",
-              "nodeLabel": "â edited on 2018/10/28 11:00",
+              "nodeLabel": "\u00e2\u0080\u0094 edited on 2018/10/28 11:00",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }

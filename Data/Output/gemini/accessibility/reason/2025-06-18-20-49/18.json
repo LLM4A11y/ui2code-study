@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -231,7 +223,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<cite>— Berger (<a href=\"#\">@BergerofLondon</a>) <span style=\"color: #90EE90;\">May 22, 2014</span></cite>",
+            "html": "<cite>\u2014 Berger (<a href=\"#\">@BergerofLondon</a>) <span style=\"color: #90EE90;\">May 22, 2014</span></cite>",
             "target": [
               ".comment:nth-child(5) > cite"
             ],
@@ -357,7 +349,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<cite>— Berger (<a href=\"#\">@BergerofLondon</a>) <span style=\"color: #90EE90;\">May 22, 2014</span></cite>",
+            "html": "<cite>\u2014 Berger (<a href=\"#\">@BergerofLondon</a>) <span style=\"color: #90EE90;\">May 22, 2014</span></cite>",
             "target": [
               ".comment:nth-child(6) > cite"
             ],
@@ -483,7 +475,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<cite>— Berger (<a href=\"#\">@BergerofLondon</a>) <span style=\"color: #90EE90;\">May 22, 2014</span></cite>",
+            "html": "<cite>\u2014 Berger (<a href=\"#\">@BergerofLondon</a>) <span style=\"color: #90EE90;\">May 22, 2014</span></cite>",
             "target": [
               ".comment:nth-child(7) > cite"
             ],
@@ -651,7 +643,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<cite>— Berger (<a href=\"#\">@BergerofLondon</a>) <span style=\"color: #90EE90;\">May 22, 2014</span></cite>",
+            "html": "<cite>\u2014 Berger (<a href=\"#\">@BergerofLondon</a>) <span style=\"color: #90EE90;\">May 22, 2014</span></cite>",
             "target": [
               ".comment:nth-child(8) > cite"
             ],
@@ -819,7 +811,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<cite>— Berger (<a href=\"#\">@BergerofLondon</a>) <span style=\"color: #90EE90;\">May 22, 2014</span></cite>",
+            "html": "<cite>\u2014 Berger (<a href=\"#\">@BergerofLondon</a>) <span style=\"color: #90EE90;\">May 22, 2014</span></cite>",
             "target": [
               ".comment:nth-child(9) > cite"
             ],
@@ -987,7 +979,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ï</a>",
+            "html": "<a href=\"#\">\u00ef\u0083\u0094</a>",
             "target": [
               "li:nth-child(1) > a"
             ],
@@ -1029,7 +1021,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ï</a>",
+            "html": "<a href=\"#\">\u00ef\u0082\u0099</a>",
             "target": [
               "li:nth-child(2) > a"
             ],
@@ -1071,7 +1063,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ï</a>",
+            "html": "<a href=\"#\">\u00ef\u0082\u009a</a>",
             "target": [
               "li:nth-child(3) > a"
             ],
@@ -1113,7 +1105,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ï­</a>",
+            "html": "<a href=\"#\">\u00ef\u0085\u00ad</a>",
             "target": [
               "li:nth-child(4) > a"
             ],
@@ -1155,7 +1147,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">ï§</a>",
+            "html": "<a href=\"#\">\u00ef\u0085\u00a7</a>",
             "target": [
               "li:nth-child(5) > a"
             ],
@@ -1234,14 +1226,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
-          "description": "<cite>— Berger (<a href=\"#\">@Bergerof...</cite>",
+          "description": "<cite>\u2014 Berger (<a href=\"#\">@Bergerof...</cite>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
-            "context": "<cite>— Berger (<a href=\"#\">@Bergerof...</cite>",
+            "context": "<cite>\u2014 Berger (<a href=\"#\">@Bergerof...</cite>",
             "selector": "html > body > main > div > div:nth-child(5) > cite",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1285,14 +1277,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
-          "description": "<cite>— Berger (<a href=\"#\">@Bergerof...</cite>",
+          "description": "<cite>\u2014 Berger (<a href=\"#\">@Bergerof...</cite>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
-            "context": "<cite>— Berger (<a href=\"#\">@Bergerof...</cite>",
+            "context": "<cite>\u2014 Berger (<a href=\"#\">@Bergerof...</cite>",
             "selector": "html > body > main > div > div:nth-child(6) > cite",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1336,14 +1328,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
-          "description": "<cite>— Berger (<a href=\"#\">@Bergerof...</cite>",
+          "description": "<cite>\u2014 Berger (<a href=\"#\">@Bergerof...</cite>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
-            "context": "<cite>— Berger (<a href=\"#\">@Bergerof...</cite>",
+            "context": "<cite>\u2014 Berger (<a href=\"#\">@Bergerof...</cite>",
             "selector": "html > body > main > div > div:nth-child(7) > cite",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1404,14 +1396,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
-          "description": "<cite>— Berger (<a href=\"#\">@Bergerof...</cite>",
+          "description": "<cite>\u2014 Berger (<a href=\"#\">@Bergerof...</cite>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
-            "context": "<cite>— Berger (<a href=\"#\">@Bergerof...</cite>",
+            "context": "<cite>\u2014 Berger (<a href=\"#\">@Bergerof...</cite>",
             "selector": "html > body > main > div > div:nth-child(8) > cite",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1472,14 +1464,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
-          "description": "<cite>— Berger (<a href=\"#\">@Bergerof...</cite>",
+          "description": "<cite>\u2014 Berger (<a href=\"#\">@Bergerof...</cite>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.48:1. Recommendation:  change text colour to #767676.",
-            "context": "<cite>— Berger (<a href=\"#\">@Bergerof...</cite>",
+            "context": "<cite>\u2014 Berger (<a href=\"#\">@Bergerof...</cite>",
             "selector": "html > body > main > div > div:nth-child(9) > cite",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1540,14 +1532,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.25:1. Recommendation:  change text colour to #737373.",
-          "description": "<a href=\"#\">ï</a>",
+          "description": "<a href=\"#\">\u00ef\u0083\u0094</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.25:1. Recommendation:  change text colour to #737373.",
-            "context": "<a href=\"#\">ï</a>",
+            "context": "<a href=\"#\">\u00ef\u0083\u0094</a>",
             "selector": "html > body > footer > div > ul > li:nth-child(1) > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1557,14 +1549,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.25:1. Recommendation:  change text colour to #737373.",
-          "description": "<a href=\"#\">ï</a>",
+          "description": "<a href=\"#\">\u00ef\u0082\u0099</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.25:1. Recommendation:  change text colour to #737373.",
-            "context": "<a href=\"#\">ï</a>",
+            "context": "<a href=\"#\">\u00ef\u0082\u0099</a>",
             "selector": "html > body > footer > div > ul > li:nth-child(2) > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1574,14 +1566,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.25:1. Recommendation:  change text colour to #737373.",
-          "description": "<a href=\"#\">ï</a>",
+          "description": "<a href=\"#\">\u00ef\u0082\u009a</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.25:1. Recommendation:  change text colour to #737373.",
-            "context": "<a href=\"#\">ï</a>",
+            "context": "<a href=\"#\">\u00ef\u0082\u009a</a>",
             "selector": "html > body > footer > div > ul > li:nth-child(3) > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1591,14 +1583,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.25:1. Recommendation:  change text colour to #737373.",
-          "description": "<a href=\"#\">ï­</a>",
+          "description": "<a href=\"#\">\u00ef\u0085\u00ad</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.25:1. Recommendation:  change text colour to #737373.",
-            "context": "<a href=\"#\">ï­</a>",
+            "context": "<a href=\"#\">\u00ef\u0085\u00ad</a>",
             "selector": "html > body > footer > div > ul > li:nth-child(4) > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1608,14 +1600,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.25:1. Recommendation:  change text colour to #737373.",
-          "description": "<a href=\"#\">ï§</a>",
+          "description": "<a href=\"#\">\u00ef\u0085\u00a7</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 4.25:1. Recommendation:  change text colour to #737373.",
-            "context": "<a href=\"#\">ï§</a>",
+            "context": "<a href=\"#\">\u00ef\u0085\u00a7</a>",
             "selector": "html > body > footer > div > ul > li:nth-child(5) > a",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1663,7 +1655,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1712,7 +1704,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1761,7 +1753,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1810,7 +1802,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1838,7 +1830,7 @@
                 "height": 26
               },
               "snippet": "<cite>",
-              "nodeLabel": "— Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u2014 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1859,7 +1851,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1908,7 +1900,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1957,7 +1949,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -1985,7 +1977,7 @@
                 "height": 26
               },
               "snippet": "<cite>",
-              "nodeLabel": "— Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u2014 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2006,7 +1998,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2055,7 +2047,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2104,7 +2096,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2132,7 +2124,7 @@
                 "height": 26
               },
               "snippet": "<cite>",
-              "nodeLabel": "— Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u2014 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2153,7 +2145,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2202,7 +2194,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2251,7 +2243,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2300,7 +2292,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2328,7 +2320,7 @@
                 "height": 26
               },
               "snippet": "<cite>",
-              "nodeLabel": "— Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u2014 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2349,7 +2341,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2398,7 +2390,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2447,7 +2439,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2496,7 +2488,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2524,7 +2516,7 @@
                 "height": 26
               },
               "snippet": "<cite>",
-              "nodeLabel": "— Berger (@BergerofLondon) May 22, 2014",
+              "nodeLabel": "\u2014 Berger (@BergerofLondon) May 22, 2014",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2545,7 +2537,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2594,7 +2586,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2643,7 +2635,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2692,7 +2684,7 @@
                       "height": 1209
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost…"
+                    "nodeLabel": "Update your user macros on Confluence 5.5.1 and atlassian-xwork-core-1.17\n\nPost\u2026"
                   }
                 }
               ]
@@ -2720,7 +2712,7 @@
                 "height": 17
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ï",
+              "nodeLabel": "\u00ef\u0083\u0094",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #777777, background color: #f9f9f9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2769,7 +2761,7 @@
                 "height": 17
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ï",
+              "nodeLabel": "\u00ef\u0082\u0099",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #777777, background color: #f9f9f9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2818,7 +2810,7 @@
                 "height": 17
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ï",
+              "nodeLabel": "\u00ef\u0082\u009a",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #777777, background color: #f9f9f9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2867,7 +2859,7 @@
                 "height": 17
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ï­",
+              "nodeLabel": "\u00ef\u0085\u00ad",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #777777, background color: #f9f9f9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -2916,7 +2908,7 @@
                 "height": 17
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "ï§",
+              "nodeLabel": "\u00ef\u0085\u00a7",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.25 (foreground color: #777777, background color: #f9f9f9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {

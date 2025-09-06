@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -562,7 +554,7 @@
                       "height": 113
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "The other day, while I was writing a Swift script, I added an option to make it…"
+                    "nodeLabel": "The other day, while I was writing a Swift script, I added an option to make it\u2026"
                   }
                 }
               ]
@@ -611,7 +603,7 @@
                       "height": 56
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Remember that you can use OS signals to stop the task when the main script is k…"
+                    "nodeLabel": "Remember that you can use OS signals to stop the task when the main script is k\u2026"
                   }
                 }
               ]

@@ -2,8 +2,8 @@
   "summary": {
     "timestamp": "2025-06-29-11-21",
     "files_processed": 53,
-    "total_automatic_nodes_failed": 820,
-    "average_automatic_nodes_failed_per_file": 15.47
+    "total_automatic_nodes_failed": 901,
+    "average_automatic_nodes_failed_per_file": 17.0
   },
   "issues_automatic": [
     {
@@ -1445,6 +1445,35 @@
     },
     {
       "rank": 4,
+      "name": "Alt-Text; Images;",
+      "impact": "critical",
+      "amount_nodes_failed": 81,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 81,
+          "amount_relative": 81,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      },
+      "ids_distribution": {}
+    },
+    {
+      "rank": 5,
       "name": "Links; Distinguishable Color;",
       "impact": "serious",
       "amount_nodes_failed": 24,
@@ -1522,7 +1551,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "Headings; Wrong Order, Empty & Missing Headings;",
       "impact": "moderate",
       "amount_nodes_failed": 18,
@@ -1583,7 +1612,7 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "Links; Missing descriptive content of <a>;",
       "impact": "serious",
       "amount_nodes_failed": 17,
@@ -1669,7 +1698,7 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "Size; Target Size; Element too small",
       "impact": "serious",
       "amount_nodes_failed": 17,
@@ -1718,7 +1747,7 @@
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "Tables; Table Headers;",
       "impact": "minor",
       "amount_nodes_failed": 5,
@@ -1759,7 +1788,7 @@
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "Label; Select; Missing Label",
       "impact": "critical",
       "amount_nodes_failed": 2,
@@ -1800,7 +1829,7 @@
       }
     },
     {
-      "rank": 10,
+      "rank": 11,
       "name": "Navigation; Scrollable Region without keyboard access;",
       "impact": "serious",
       "amount_nodes_failed": 2,
@@ -1834,7 +1863,7 @@
       }
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "List; Incorrect Structure;",
       "impact": "serious",
       "amount_nodes_failed": 1,
@@ -1869,7 +1898,7 @@
       }
     },
     {
-      "rank": 12,
+      "rank": 13,
       "name": "Title; Document Title;",
       "impact": "serious",
       "amount_nodes_failed": 1,
@@ -1909,13 +1938,13 @@
   ],
   "distribution_sources_automatic": {
     "absolute": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 81,
       "axe-core": 727,
       "pa11y": 327,
       "lighthouse": 431
     },
     "relative": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 81,
       "axe-core": 679,
       "pa11y": 124,
       "lighthouse": 17

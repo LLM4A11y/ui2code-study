@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -218,7 +210,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer>\n        JokeBuddha.com Â© 2010-2023 | <a href=\"#\" class=\"more-link\">Terms &amp; Privacy</a><br>\n        We love good humor and obviously hilarious jokes followed by a healthy laughter!\n    </footer>",
+                    "html": "<footer>\n        JokeBuddha.com \u00c2\u00a9 2010-2023 | <a href=\"#\" class=\"more-link\">Terms &amp; Privacy</a><br>\n        We love good humor and obviously hilarious jokes followed by a healthy laughter!\n    </footer>",
                     "target": [
                       "footer"
                     ]
@@ -469,7 +461,7 @@
                       "height": 99
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "JokeBuddha.com Â© 2010-2023 | Terms & Privacy\nWe love good humor and obviously …"
+                    "nodeLabel": "JokeBuddha.com \u00c2\u00a9 2010-2023 | Terms & Privacy\nWe love good humor and obviously \u2026"
                   }
                 }
               ]
@@ -667,7 +659,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<footer>\n        JokeBuddha.com Â© 2010-2023 | <a href=\"#\" class=\"more-link\">Terms &amp; Privacy</a><br>\n        We love good humor and obviously hilarious jokes followed by a healthy laughter!\n    </footer>",
+                    "html": "<footer>\n        JokeBuddha.com \u00c2\u00a9 2010-2023 | <a href=\"#\" class=\"more-link\">Terms &amp; Privacy</a><br>\n        We love good humor and obviously hilarious jokes followed by a healthy laughter!\n    </footer>",
                     "target": [
                       "footer"
                     ]
@@ -681,7 +673,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<footer>\n        JokeBuddha.com Â© 2010-2023 | <a href=\"#\" class=\"more-link\">Terms &amp; Privacy</a><br>\n        We love good humor and obviously hilarious jokes followed by a healthy laughter!\n    </footer>",
+                    "html": "<footer>\n        JokeBuddha.com \u00c2\u00a9 2010-2023 | <a href=\"#\" class=\"more-link\">Terms &amp; Privacy</a><br>\n        We love good humor and obviously hilarious jokes followed by a healthy laughter!\n    </footer>",
                     "target": [
                       "footer"
                     ]
@@ -743,7 +735,7 @@
                       "height": 128
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Picard \"Mr\nPicard \"Mr. LaForge, have you had any success with your attempts at …"
+                    "nodeLabel": "Picard \"Mr\nPicard \"Mr. LaForge, have you had any success with your attempts at \u2026"
                   }
                 }
               ]
@@ -792,7 +784,7 @@
                       "height": 128
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Bell Labs Proves Existence of Dark Suckers\nFor years it has been believed that …"
+                    "nodeLabel": "Bell Labs Proves Existence of Dark Suckers\nFor years it has been believed that \u2026"
                   }
                 }
               ]
@@ -841,7 +833,7 @@
                       "height": 870
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Picard: \"Mr. LaForge, have you had any success with your attempts at finding a …"
+                    "nodeLabel": "Picard: \"Mr. LaForge, have you had any success with your attempts at finding a \u2026"
                   }
                 }
               ]
@@ -890,7 +882,7 @@
                       "height": 99
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "JokeBuddha.com Â© 2010-2023 | Terms & Privacy\nWe love good humor and obviously …"
+                    "nodeLabel": "JokeBuddha.com \u00c2\u00a9 2010-2023 | Terms & Privacy\nWe love good humor and obviously \u2026"
                   }
                 }
               ]

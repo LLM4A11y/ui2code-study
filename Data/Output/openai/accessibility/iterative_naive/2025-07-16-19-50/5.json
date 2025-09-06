@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -1414,7 +1406,7 @@
                       "height": 638
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "July 25, 2007\n\nRichard, who works for a large Fortune 100 company, recently wro…"
+                    "nodeLabel": "July 25, 2007\n\nRichard, who works for a large Fortune 100 company, recently wro\u2026"
                   }
                 }
               ]
@@ -1463,7 +1455,7 @@
                       "height": 638
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "July 25, 2007\n\nRichard, who works for a large Fortune 100 company, recently wro…"
+                    "nodeLabel": "July 25, 2007\n\nRichard, who works for a large Fortune 100 company, recently wro\u2026"
                   }
                 }
               ]
@@ -1512,7 +1504,7 @@
                       "height": 638
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "July 25, 2007\n\nRichard, who works for a large Fortune 100 company, recently wro…"
+                    "nodeLabel": "July 25, 2007\n\nRichard, who works for a large Fortune 100 company, recently wro\u2026"
                   }
                 }
               ]
@@ -1561,7 +1553,7 @@
                       "height": 638
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "July 25, 2007\n\nRichard, who works for a large Fortune 100 company, recently wro…"
+                    "nodeLabel": "July 25, 2007\n\nRichard, who works for a large Fortune 100 company, recently wro\u2026"
                   }
                 }
               ]
@@ -1610,7 +1602,7 @@
                       "height": 638
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "July 25, 2007\n\nRichard, who works for a large Fortune 100 company, recently wro…"
+                    "nodeLabel": "July 25, 2007\n\nRichard, who works for a large Fortune 100 company, recently wro\u2026"
                   }
                 }
               ]
@@ -1659,7 +1651,7 @@
                       "height": 638
                     },
                     "snippet": "<div class=\"content\">",
-                    "nodeLabel": "July 25, 2007\n\nRichard, who works for a large Fortune 100 company, recently wro…"
+                    "nodeLabel": "July 25, 2007\n\nRichard, who works for a large Fortune 100 company, recently wro\u2026"
                   }
                 }
               ]
@@ -1708,7 +1700,7 @@
                       "height": 348
                     },
                     "snippet": "<div class=\"popular-posts\">",
-                    "nodeLabel": "Popular posts from this blog\nHow to Download Contacts from Facebook To Outlook …"
+                    "nodeLabel": "Popular posts from this blog\nHow to Download Contacts from Facebook To Outlook \u2026"
                   }
                 }
               ]
@@ -1757,7 +1749,7 @@
                       "height": 348
                     },
                     "snippet": "<div class=\"popular-posts\">",
-                    "nodeLabel": "Popular posts from this blog\nHow to Download Contacts from Facebook To Outlook …"
+                    "nodeLabel": "Popular posts from this blog\nHow to Download Contacts from Facebook To Outlook \u2026"
                   }
                 }
               ]
@@ -1806,7 +1798,7 @@
                       "height": 348
                     },
                     "snippet": "<div class=\"popular-posts\">",
-                    "nodeLabel": "Popular posts from this blog\nHow to Download Contacts from Facebook To Outlook …"
+                    "nodeLabel": "Popular posts from this blog\nHow to Download Contacts from Facebook To Outlook \u2026"
                   }
                 }
               ]
@@ -1855,7 +1847,7 @@
                       "height": 262
                     },
                     "snippet": "<div class=\"popular-posts\">",
-                    "nodeLabel": "Learn to Create a Firefox Search Plugin in Less Than 2 Minutes\nSeptember 23, 20…"
+                    "nodeLabel": "Learn to Create a Firefox Search Plugin in Less Than 2 Minutes\nSeptember 23, 20\u2026"
                   }
                 }
               ]
@@ -1904,7 +1896,7 @@
                       "height": 262
                     },
                     "snippet": "<div class=\"popular-posts\">",
-                    "nodeLabel": "Learn to Create a Firefox Search Plugin in Less Than 2 Minutes\nSeptember 23, 20…"
+                    "nodeLabel": "Learn to Create a Firefox Search Plugin in Less Than 2 Minutes\nSeptember 23, 20\u2026"
                   }
                 }
               ]
@@ -1953,7 +1945,7 @@
                       "height": 262
                     },
                     "snippet": "<div class=\"popular-posts\">",
-                    "nodeLabel": "Learn to Create a Firefox Search Plugin in Less Than 2 Minutes\nSeptember 23, 20…"
+                    "nodeLabel": "Learn to Create a Firefox Search Plugin in Less Than 2 Minutes\nSeptember 23, 20\u2026"
                   }
                 }
               ]
@@ -2002,7 +1994,7 @@
                       "height": 254
                     },
                     "snippet": "<div class=\"popular-posts\">",
-                    "nodeLabel": "Digital Inspiration\nOctober 25, 2007\n\nDigital Inspiration is a popular tech blo…"
+                    "nodeLabel": "Digital Inspiration\nOctober 25, 2007\n\nDigital Inspiration is a popular tech blo\u2026"
                   }
                 }
               ]
@@ -2051,7 +2043,7 @@
                       "height": 254
                     },
                     "snippet": "<div class=\"popular-posts\">",
-                    "nodeLabel": "Digital Inspiration\nOctober 25, 2007\n\nDigital Inspiration is a popular tech blo…"
+                    "nodeLabel": "Digital Inspiration\nOctober 25, 2007\n\nDigital Inspiration is a popular tech blo\u2026"
                   }
                 }
               ]
@@ -2100,7 +2092,7 @@
                       "height": 254
                     },
                     "snippet": "<div class=\"popular-posts\">",
-                    "nodeLabel": "Digital Inspiration\nOctober 25, 2007\n\nDigital Inspiration is a popular tech blo…"
+                    "nodeLabel": "Digital Inspiration\nOctober 25, 2007\n\nDigital Inspiration is a popular tech blo\u2026"
                   }
                 }
               ]

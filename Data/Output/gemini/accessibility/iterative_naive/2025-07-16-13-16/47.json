@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -1149,7 +1141,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div style=\"background-color:#D1DCEB\">\n    <div class=\"footer-links\" style=\"float:left; padding: 5px;\">\n        Powered By <a href=\"#\">IP.Board</a> Â© 2023 <a href=\"#\">IPS, Inc.</a><br>\n        Licensed to: Seahorse Dot Org Limited\n    </div>\n</div>",
+            "html": "<div style=\"background-color:#D1DCEB\">\n    <div class=\"footer-links\" style=\"float:left; padding: 5px;\">\n        Powered By <a href=\"#\">IP.Board</a> \u00c2\u00a9 2023 <a href=\"#\">IPS, Inc.</a><br>\n        Licensed to: Seahorse Dot Org Limited\n    </div>\n</div>",
             "target": [
               "body > div:nth-child(2)"
             ],

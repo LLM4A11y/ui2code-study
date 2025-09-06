@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -525,7 +517,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>Copyright Â© 2004 - 2023 by EmInf. All rights reserved.</p>",
+            "html": "<p>Copyright \u00c2\u00a9 2004 - 2023 by EmInf. All rights reserved.</p>",
             "target": [
               ".footer > p"
             ],
@@ -723,14 +715,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.03:1. Recommendation:  change text colour to #8f6e00.",
-          "description": "<p>Copyright Â© 2004 - 2023 by EmI...</p>",
+          "description": "<p>Copyright \u00c2\u00a9 2004 - 2023 by EmI...</p>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.03:1. Recommendation:  change text colour to #8f6e00.",
-            "context": "<p>Copyright Â© 2004 - 2023 by EmI...</p>",
+            "context": "<p>Copyright \u00c2\u00a9 2004 - 2023 by EmI...</p>",
             "selector": "html > body > div:nth-child(4) > p",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1124,7 +1116,7 @@
                       "height": 272
                     },
                     "snippet": "<div class=\"table-container\">",
-                    "nodeLabel": "AVERAGE DAILY TEMPERATURES (C) FOR OTTAWA, ONTARIO\n\nLower Bound Average Tempera…"
+                    "nodeLabel": "AVERAGE DAILY TEMPERATURES (C) FOR OTTAWA, ONTARIO\n\nLower Bound Average Tempera\u2026"
                   }
                 }
               ]
@@ -1152,7 +1144,7 @@
                 "height": 16
               },
               "snippet": "<p>",
-              "nodeLabel": "Copyright Â© 2004 - 2023 by EmInf. All rights reserved.",
+              "nodeLabel": "Copyright \u00c2\u00a9 2004 - 2023 by EmInf. All rights reserved.",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.03 (foreground color: #ddaa00, background color: #f9f9f9, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1400,7 +1392,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        <p>Copyright Â© 2004 - 2023 by EmInf. All rights reserved.</p>\n    </div>",
+            "html": "<div class=\"footer\">\n        <p>Copyright \u00c2\u00a9 2004 - 2023 by EmInf. All rights reserved.</p>\n    </div>",
             "target": [
               ".footer"
             ],

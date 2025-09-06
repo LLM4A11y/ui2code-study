@@ -2,8 +2,8 @@
   "summary": {
     "timestamp": "2025-06-30-20-08",
     "files_processed": 53,
-    "total_automatic_nodes_failed": 538,
-    "average_automatic_nodes_failed_per_file": 10.15
+    "total_automatic_nodes_failed": 574,
+    "average_automatic_nodes_failed_per_file": 10.83
   },
   "issues_automatic": [
     {
@@ -934,6 +934,35 @@
     },
     {
       "rank": 3,
+      "name": "Alt-Text; Images;",
+      "impact": "critical",
+      "amount_nodes_failed": 36,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 36,
+          "amount_relative": 36,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      },
+      "ids_distribution": {}
+    },
+    {
+      "rank": 4,
       "name": "Links; Distinguishable Color;",
       "impact": "serious",
       "amount_nodes_failed": 23,
@@ -1010,7 +1039,7 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "Label; Multiple Elements; Content missing",
       "impact": "critical",
       "amount_nodes_failed": 20,
@@ -1077,7 +1106,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "Headings; Wrong Order, Empty & Missing Headings;",
       "impact": "moderate",
       "amount_nodes_failed": 18,
@@ -1133,7 +1162,7 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "Size; Target Size; Element too small",
       "impact": "serious",
       "amount_nodes_failed": 18,
@@ -1183,7 +1212,7 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "Links; Missing descriptive content of <a>;",
       "impact": "serious",
       "amount_nodes_failed": 5,
@@ -1233,7 +1262,7 @@
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "List; Incorrect Structure;",
       "impact": "serious",
       "amount_nodes_failed": 2,
@@ -1272,13 +1301,13 @@
   ],
   "distribution_sources_automatic": {
     "absolute": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 36,
       "axe-core": 500,
       "pa11y": 221,
       "lighthouse": 268
     },
     "relative": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 36,
       "axe-core": 457,
       "pa11y": 59,
       "lighthouse": 22

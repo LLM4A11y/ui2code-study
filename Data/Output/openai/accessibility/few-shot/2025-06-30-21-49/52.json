@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -282,14 +274,14 @@
           "id": "Principle2.Guideline2_4.2_4_1.G1,G123,G124.NoSuchID",
           "source": "pa11y",
           "title": "This link points to a named anchor \"register\" within the document, but no anchor exists with that name.",
-          "description": "<a class=\"link\" href=\"#register\">Donât have an Account? Regist...</a>",
+          "description": "<a class=\"link\" href=\"#register\">Don\u00e2\u0080\u0099t have an Account? Regist...</a>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle2.Guideline2_4.2_4_1.G1,G123,G124.NoSuchID",
             "type": "error",
             "typeCode": 1,
             "message": "This link points to a named anchor \"register\" within the document, but no anchor exists with that name.",
-            "context": "<a class=\"link\" href=\"#register\">Donât have an Account? Regist...</a>",
+            "context": "<a class=\"link\" href=\"#register\">Don\u00e2\u0080\u0099t have an Account? Regist...</a>",
             "selector": "html > body > div > div:nth-child(2) > a:nth-child(7)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -342,7 +334,7 @@
                 "height": 18
               },
               "snippet": "<a class=\"link\" href=\"#register\">",
-              "nodeLabel": "Donât have an Account? Register Now!",
+              "nodeLabel": "Don\u00e2\u0080\u0099t have an Account? Register Now!",
               "explanation": "Fix any of the following:\n  No skip link target"
             }
           }

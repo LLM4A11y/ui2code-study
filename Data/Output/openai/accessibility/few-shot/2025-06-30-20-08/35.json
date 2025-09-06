@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -567,7 +559,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<a href=\"#\">Mountain bike trail development organization ADSVMQ officially transfers mtn bike trail\n                development activities to VÃ©lo QuÃ©bec</a>",
+            "html": "<a href=\"#\">Mountain bike trail development organization ADSVMQ officially transfers mtn bike trail\n                development activities to V\u00c3\u00a9lo Qu\u00c3\u00a9bec</a>",
             "target": [
               ".footer:nth-child(9) > a"
             ],
@@ -1404,7 +1396,7 @@
                 "height": 60
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi…",
+              "nodeLabel": "Mountain bike trail development organization ADSVMQ officially transfers mtn bi\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.44 (foreground color: #0000ee, background color: #2c2e34, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1528,7 +1520,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"title\">\n            Mountain bike trail development organization ADSVMQ officially transfers mtn bike trail development\n            activities to VÃ©lo QuÃ©bec\n        </div>",
+            "html": "<div class=\"title\">\n            Mountain bike trail development organization ADSVMQ officially transfers mtn bike trail development\n            activities to V\u00c3\u00a9lo Qu\u00c3\u00a9bec\n        </div>",
             "target": [
               ".title"
             ],
@@ -1696,7 +1688,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\" style=\"text-align: center;\">\n            <a href=\"#\">Mountain bike trail development organization ADSVMQ officially transfers mtn bike trail\n                development activities to VÃ©lo QuÃ©bec</a>\n        </div>",
+            "html": "<div class=\"footer\" style=\"text-align: center;\">\n            <a href=\"#\">Mountain bike trail development organization ADSVMQ officially transfers mtn bike trail\n                development activities to V\u00c3\u00a9lo Qu\u00c3\u00a9bec</a>\n        </div>",
             "target": [
               ".footer:nth-child(9)"
             ],

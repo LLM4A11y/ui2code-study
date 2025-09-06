@@ -2,8 +2,8 @@
   "summary": {
     "timestamp": "2025-06-18-13-25",
     "files_processed": 53,
-    "total_automatic_nodes_failed": 807,
-    "average_automatic_nodes_failed_per_file": 15.23
+    "total_automatic_nodes_failed": 889,
+    "average_automatic_nodes_failed_per_file": 16.77
   },
   "issues_automatic": [
     {
@@ -1516,6 +1516,35 @@
     },
     {
       "rank": 4,
+      "name": "Alt-Text; Images;",
+      "impact": "critical",
+      "amount_nodes_failed": 82,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 82,
+          "amount_relative": 82,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      },
+      "ids_distribution": {}
+    },
+    {
+      "rank": 5,
       "name": "Links; Distinguishable Color;",
       "impact": "serious",
       "amount_nodes_failed": 27,
@@ -1597,7 +1626,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "Headings; Wrong Order, Empty & Missing Headings;",
       "impact": "moderate",
       "amount_nodes_failed": 17,
@@ -1653,7 +1682,7 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "Size; Target Size; Element too small",
       "impact": "serious",
       "amount_nodes_failed": 14,
@@ -1699,7 +1728,7 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "Tables; Table Headers;",
       "impact": "minor",
       "amount_nodes_failed": 3,
@@ -1738,7 +1767,7 @@
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "Links; Missing descriptive content of <a>;",
       "impact": "serious",
       "amount_nodes_failed": 3,
@@ -1782,7 +1811,7 @@
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "Language; Document Lang; Missing & Invalid",
       "impact": "serious",
       "amount_nodes_failed": 2,
@@ -1823,7 +1852,7 @@
       }
     },
     {
-      "rank": 10,
+      "rank": 11,
       "name": "Tables; Table Data must have Table Header;",
       "impact": "critical",
       "amount_nodes_failed": 1,
@@ -1856,7 +1885,7 @@
       }
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "Elements; Center;",
       "impact": "minor",
       "amount_nodes_failed": 1,
@@ -1889,7 +1918,7 @@
       }
     },
     {
-      "rank": 12,
+      "rank": 13,
       "name": "Label; Button; Missing Label",
       "impact": "critical",
       "amount_nodes_failed": 1,
@@ -1922,7 +1951,7 @@
       }
     },
     {
-      "rank": 13,
+      "rank": 14,
       "name": "Label; Select; Missing Label",
       "impact": "critical",
       "amount_nodes_failed": 1,
@@ -1960,7 +1989,7 @@
       }
     },
     {
-      "rank": 14,
+      "rank": 15,
       "name": "Title; Document Title;",
       "impact": "serious",
       "amount_nodes_failed": 1,
@@ -1998,7 +2027,7 @@
       }
     },
     {
-      "rank": 15,
+      "rank": 16,
       "name": "Navigation; Scrollable Region without keyboard access;",
       "impact": "serious",
       "amount_nodes_failed": 1,
@@ -2031,7 +2060,7 @@
       }
     },
     {
-      "rank": 16,
+      "rank": 17,
       "name": "Elements; Form; No Submit Button",
       "impact": "serious",
       "amount_nodes_failed": 1,
@@ -2066,13 +2095,13 @@
   ],
   "distribution_sources_automatic": {
     "absolute": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 82,
       "axe-core": 700,
       "pa11y": 365,
       "lighthouse": 450
     },
     "relative": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 82,
       "axe-core": 653,
       "pa11y": 138,
       "lighthouse": 16

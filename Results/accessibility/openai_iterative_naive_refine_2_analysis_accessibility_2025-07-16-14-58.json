@@ -2,8 +2,8 @@
   "summary": {
     "timestamp": "2025-07-16-14-58",
     "files_processed": 53,
-    "total_automatic_nodes_failed": 61,
-    "average_automatic_nodes_failed_per_file": 1.15
+    "total_automatic_nodes_failed": 94,
+    "average_automatic_nodes_failed_per_file": 1.77
   },
   "issues_automatic": [
     {
@@ -162,6 +162,35 @@
     },
     {
       "rank": 2,
+      "name": "Alt-Text; Images;",
+      "impact": "critical",
+      "amount_nodes_failed": 33,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 33,
+          "amount_relative": 33,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      },
+      "ids_distribution": {}
+    },
+    {
+      "rank": 3,
       "name": "Size; Target Size; Element too small",
       "impact": "serious",
       "amount_nodes_failed": 8,
@@ -201,7 +230,7 @@
       }
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "Landmark & Region; Missing & Unique Landmarks;",
       "impact": "moderate",
       "amount_nodes_failed": 6,
@@ -239,7 +268,7 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "Links; Distinguishable Color;",
       "impact": "serious",
       "amount_nodes_failed": 4,
@@ -277,7 +306,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "Headings; Wrong Order, Empty & Missing Headings;",
       "impact": "moderate",
       "amount_nodes_failed": 1,
@@ -314,13 +343,13 @@
   ],
   "distribution_sources_automatic": {
     "absolute": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 33,
       "axe-core": 50,
       "pa11y": 40,
       "lighthouse": 49
     },
     "relative": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 33,
       "axe-core": 50,
       "pa11y": 0,
       "lighthouse": 11

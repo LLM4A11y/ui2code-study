@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -63,7 +72,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div>Wednesday, March 20, 2019 â Fantasy Basketball Links</div>",
+            "html": "<div>Wednesday, March 20, 2019 \u00e2\u0080\u0093 Fantasy Basketball Links</div>",
             "target": [
               "div"
             ],
@@ -788,14 +797,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.65:1. Recommendation:  change background to #1679c9.",
-          "description": "<div>Wednesday, March 20, 2019 â F...</div>",
+          "description": "<div>Wednesday, March 20, 2019 \u00e2\u0080\u0093 F...</div>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.65:1. Recommendation:  change background to #1679c9.",
-            "context": "<div>Wednesday, March 20, 2019 â F...</div>",
+            "context": "<div>Wednesday, March 20, 2019 \u00e2\u0080\u0093 F...</div>",
             "selector": "html > body > header > div",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -1111,7 +1120,7 @@
                 "height": 102
               },
               "snippet": "<div>",
-              "nodeLabel": "Wednesday, March 20, 2019 â Fantasy Basketball Links",
+              "nodeLabel": "Wednesday, March 20, 2019 \u00e2\u0080\u0093 Fantasy Basketball Links",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.64 (foreground color: #ffffff, background color: #42a5f5, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1132,7 +1141,7 @@
                       "height": 122
                     },
                     "snippet": "<header>",
-                    "nodeLabel": "Wednesday, March 20, 2019 â Fantasy Basketball Links\nHome Sports Betting Rund…"
+                    "nodeLabel": "Wednesday, March 20, 2019 \u00e2\u0080\u0093 Fantasy Basketball Links\nHome Sports Betting Rund\u2026"
                   }
                 }
               ]
@@ -1181,7 +1190,7 @@
                       "height": 122
                     },
                     "snippet": "<header>",
-                    "nodeLabel": "Wednesday, March 20, 2019 â Fantasy Basketball Links\nHome Sports Betting Rund…"
+                    "nodeLabel": "Wednesday, March 20, 2019 \u00e2\u0080\u0093 Fantasy Basketball Links\nHome Sports Betting Rund\u2026"
                   }
                 }
               ]
@@ -1230,7 +1239,7 @@
                       "height": 122
                     },
                     "snippet": "<header>",
-                    "nodeLabel": "Wednesday, March 20, 2019 â Fantasy Basketball Links\nHome Sports Betting Rund…"
+                    "nodeLabel": "Wednesday, March 20, 2019 \u00e2\u0080\u0093 Fantasy Basketball Links\nHome Sports Betting Rund\u2026"
                   }
                 }
               ]
@@ -1279,7 +1288,7 @@
                       "height": 122
                     },
                     "snippet": "<header>",
-                    "nodeLabel": "Wednesday, March 20, 2019 â Fantasy Basketball Links\nHome Sports Betting Rund…"
+                    "nodeLabel": "Wednesday, March 20, 2019 \u00e2\u0080\u0093 Fantasy Basketball Links\nHome Sports Betting Rund\u2026"
                   }
                 }
               ]
@@ -1328,7 +1337,7 @@
                       "height": 122
                     },
                     "snippet": "<header>",
-                    "nodeLabel": "Wednesday, March 20, 2019 â Fantasy Basketball Links\nHome Sports Betting Rund…"
+                    "nodeLabel": "Wednesday, March 20, 2019 \u00e2\u0080\u0093 Fantasy Basketball Links\nHome Sports Betting Rund\u2026"
                   }
                 }
               ]
@@ -1377,7 +1386,7 @@
                       "height": 122
                     },
                     "snippet": "<header>",
-                    "nodeLabel": "Wednesday, March 20, 2019 â Fantasy Basketball Links\nHome Sports Betting Rund…"
+                    "nodeLabel": "Wednesday, March 20, 2019 \u00e2\u0080\u0093 Fantasy Basketball Links\nHome Sports Betting Rund\u2026"
                   }
                 }
               ]
@@ -1426,7 +1435,7 @@
                       "height": 122
                     },
                     "snippet": "<header>",
-                    "nodeLabel": "Wednesday, March 20, 2019 â Fantasy Basketball Links\nHome Sports Betting Rund…"
+                    "nodeLabel": "Wednesday, March 20, 2019 \u00e2\u0080\u0093 Fantasy Basketball Links\nHome Sports Betting Rund\u2026"
                   }
                 }
               ]
@@ -1475,7 +1484,7 @@
                       "height": 122
                     },
                     "snippet": "<header>",
-                    "nodeLabel": "Wednesday, March 20, 2019 â Fantasy Basketball Links\nHome Sports Betting Rund…"
+                    "nodeLabel": "Wednesday, March 20, 2019 \u00e2\u0080\u0093 Fantasy Basketball Links\nHome Sports Betting Rund\u2026"
                   }
                 }
               ]
@@ -1524,7 +1533,7 @@
                       "height": 1274
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Wednesday, March 20, 2019 â Fantasy Basketball Links\nMar 20, 2019\nDraftKings.…"
+                    "nodeLabel": "Wednesday, March 20, 2019 \u00e2\u0080\u0093 Fantasy Basketball Links\nMar 20, 2019\nDraftKings.\u2026"
                   }
                 }
               ]
@@ -1573,7 +1582,7 @@
                       "height": 1274
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Wednesday, March 20, 2019 â Fantasy Basketball Links\nMar 20, 2019\nDraftKings.…"
+                    "nodeLabel": "Wednesday, March 20, 2019 \u00e2\u0080\u0093 Fantasy Basketball Links\nMar 20, 2019\nDraftKings.\u2026"
                   }
                 }
               ]
@@ -1622,7 +1631,7 @@
                       "height": 1274
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Wednesday, March 20, 2019 â Fantasy Basketball Links\nMar 20, 2019\nDraftKings.…"
+                    "nodeLabel": "Wednesday, March 20, 2019 \u00e2\u0080\u0093 Fantasy Basketball Links\nMar 20, 2019\nDraftKings.\u2026"
                   }
                 }
               ]
@@ -1671,7 +1680,7 @@
                       "height": 1274
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Wednesday, March 20, 2019 â Fantasy Basketball Links\nMar 20, 2019\nDraftKings.…"
+                    "nodeLabel": "Wednesday, March 20, 2019 \u00e2\u0080\u0093 Fantasy Basketball Links\nMar 20, 2019\nDraftKings.\u2026"
                   }
                 }
               ]
@@ -1746,7 +1755,7 @@
                       "height": 1274
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Wednesday, March 20, 2019 â Fantasy Basketball Links\nMar 20, 2019\nDraftKings.…"
+                    "nodeLabel": "Wednesday, March 20, 2019 \u00e2\u0080\u0093 Fantasy Basketball Links\nMar 20, 2019\nDraftKings.\u2026"
                   }
                 }
               ]
@@ -1795,7 +1804,7 @@
                       "height": 1274
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Wednesday, March 20, 2019 â Fantasy Basketball Links\nMar 20, 2019\nDraftKings.…"
+                    "nodeLabel": "Wednesday, March 20, 2019 \u00e2\u0080\u0093 Fantasy Basketball Links\nMar 20, 2019\nDraftKings.\u2026"
                   }
                 }
               ]
@@ -1844,7 +1853,7 @@
                       "height": 1274
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Wednesday, March 20, 2019 â Fantasy Basketball Links\nMar 20, 2019\nDraftKings.…"
+                    "nodeLabel": "Wednesday, March 20, 2019 \u00e2\u0080\u0093 Fantasy Basketball Links\nMar 20, 2019\nDraftKings.\u2026"
                   }
                 }
               ]
@@ -1893,7 +1902,7 @@
                       "height": 1274
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Wednesday, March 20, 2019 â Fantasy Basketball Links\nMar 20, 2019\nDraftKings.…"
+                    "nodeLabel": "Wednesday, March 20, 2019 \u00e2\u0080\u0093 Fantasy Basketball Links\nMar 20, 2019\nDraftKings.\u2026"
                   }
                 }
               ]
@@ -1942,7 +1951,7 @@
                       "height": 1274
                     },
                     "snippet": "<main>",
-                    "nodeLabel": "Wednesday, March 20, 2019 â Fantasy Basketball Links\nMar 20, 2019\nDraftKings.…"
+                    "nodeLabel": "Wednesday, March 20, 2019 \u00e2\u0080\u0093 Fantasy Basketball Links\nMar 20, 2019\nDraftKings.\u2026"
                   }
                 }
               ]
@@ -2057,7 +2066,7 @@
                       "height": 328
                     },
                     "snippet": "<footer>",
-                    "nodeLabel": "Copyright 2023. All rights reserved. Privacy Policy - Terms & Conditions\n\nIf yo…"
+                    "nodeLabel": "Copyright 2023. All rights reserved. Privacy Policy - Terms & Conditions\n\nIf yo\u2026"
                   }
                 }
               ]

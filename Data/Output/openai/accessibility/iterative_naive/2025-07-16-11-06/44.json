@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -147,7 +139,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"follower-text\">I have more doppelgÃ¤ngers than you have friends.</div>",
+            "html": "<div class=\"follower-text\">I have more doppelg\u00c3\u00a4ngers than you have friends.</div>",
             "target": [
               ".follower:nth-child(7) > div > .follower-text"
             ],
@@ -192,14 +184,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.54:1. Recommendation:  change text colour to #767676.",
-          "description": "<div class=\"follower-text\">I have more doppelgÃ¤ngers than...</div>",
+          "description": "<div class=\"follower-text\">I have more doppelg\u00c3\u00a4ngers than...</div>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.54:1. Recommendation:  change text colour to #767676.",
-            "context": "<div class=\"follower-text\">I have more doppelgÃ¤ngers than...</div>",
+            "context": "<div class=\"follower-text\">I have more doppelg\u00c3\u00a4ngers than...</div>",
             "selector": "html > body > main > div:nth-child(7) > div > div",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -275,7 +267,7 @@
                 "height": 56
               },
               "snippet": "<div class=\"follower-text\">",
-              "nodeLabel": "Thinker. Author. Explorer of edges. Top writer in Writing, Founder, \"Just Curio…",
+              "nodeLabel": "Thinker. Author. Explorer of edges. Top writer in Writing, Founder, \"Just Curio\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -324,7 +316,7 @@
                 "height": 28
               },
               "snippet": "<div class=\"follower-text\">",
-              "nodeLabel": "I have more doppelgÃ¤ngers than you have friends.",
+              "nodeLabel": "I have more doppelg\u00c3\u00a4ngers than you have friends.",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {

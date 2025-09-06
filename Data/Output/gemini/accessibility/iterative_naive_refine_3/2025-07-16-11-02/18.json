@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -382,7 +374,7 @@
                       "height": 102
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like…"
+                    "nodeLabel": "Following yesterdays Atlassian security advisory for Confluence , it looks like\u2026"
                   }
                 }
               ]
@@ -480,7 +472,7 @@
                       "height": 77
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par…"
+                    "nodeLabel": "@baitman For strings I can no longer do #if ($paramfoo), I have to do #if ($par\u2026"
                   }
                 }
               ]
@@ -529,7 +521,7 @@
                       "height": 77
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability d…"
+                    "nodeLabel": "@baitman Also, if you're upgrading to 5.5.1 to fix the security vulnerability d\u2026"
                   }
                 }
               ]
@@ -578,7 +570,7 @@
                       "height": 77
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "The update to atlassian-xwork-core-1.17.jar means you have to be more specific …"
+                    "nodeLabel": "The update to atlassian-xwork-core-1.17.jar means you have to be more specific \u2026"
                   }
                 }
               ]
@@ -627,7 +619,7 @@
                       "height": 77
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "The update to atlassian-xwork-core-1.17.jar means you have to be more specific …"
+                    "nodeLabel": "The update to atlassian-xwork-core-1.17.jar means you have to be more specific \u2026"
                   }
                 }
               ]

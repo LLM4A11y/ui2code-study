@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -1336,7 +1345,7 @@
                 "height": 138
               },
               "snippet": "<p class=\"product-description\">",
-              "nodeLabel": "Dyed pink, wooden tube beads, 4mm turquoise beads, & gold pewter spacers strung…",
+              "nodeLabel": "Dyed pink, wooden tube beads, 4mm turquoise beads, & gold pewter spacers strung\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.48 (foreground color: #90e0ef, background color: #ffffff, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1385,7 +1394,7 @@
                 "height": 115
               },
               "snippet": "<p class=\"product-description\">",
-              "nodeLabel": "This listing is for one wrap bracelet. Each wrap bracelet is sold individually …",
+              "nodeLabel": "This listing is for one wrap bracelet. Each wrap bracelet is sold individually \u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.48 (foreground color: #90e0ef, background color: #ffffff, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -1434,7 +1443,7 @@
                 "height": 138
               },
               "snippet": "<p class=\"product-description\">",
-              "nodeLabel": "**For sizing measurements, please refer to the Size Chart Page.** **This bracel…",
+              "nodeLabel": "**For sizing measurements, please refer to the Size Chart Page.** **This bracel\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 1.48 (foreground color: #90e0ef, background color: #ffffff, font size: 10.8pt (14.4px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {

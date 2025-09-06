@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -730,7 +722,7 @@
                 "height": 1821
               },
               "snippet": "<ul>",
-              "nodeLabel": "` and `\n` tags for list. 2. **CSS Styling:** * Use an external CSS file for sty…",
+              "nodeLabel": "` and `\n` tags for list. 2. **CSS Styling:** * Use an external CSS file for sty\u2026",
               "explanation": "Fix all of the following:\n  List element has direct children that are not allowed: #text"
             }
           }

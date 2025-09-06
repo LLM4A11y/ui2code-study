@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -98,7 +90,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"footer\">\nÂ© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n</div>",
+            "html": "<div class=\"footer\">\n\u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n</div>",
             "target": [
               ".footer"
             ],
@@ -169,7 +161,7 @@
                 "height": 30
               },
               "snippet": "<div class=\"footer\">",
-              "nodeLabel": "Â© Official Data Foundation / Alioth LLC. Contact Privacy policy",
+              "nodeLabel": "\u00c2\u00a9 Official Data Foundation / Alioth LLC. Contact Privacy policy",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #888888, background color: #ffffff, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -242,7 +234,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"red-bar\">â Citrus fruits price inflation since 2022</div>",
+            "html": "<div class=\"red-bar\">\u00e2\u0098\u0085 Citrus fruits price inflation since 2022</div>",
             "target": [
               ".red-bar"
             ],
@@ -298,7 +290,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<h1>Citrus fruits priced at $20 in 2022 â $19.66 in 2023</h1>",
+            "html": "<h1>Citrus fruits priced at $20 in 2022 \u00e2\u0086\u0092 $19.66 in 2023</h1>",
             "target": [
               "h1"
             ],
@@ -550,7 +542,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<ul>\n<li><a href=\"#\">Wireless telephone services</a></li>\n<li><a href=\"#\">MinneapolisâSt Paul, Minnesota</a></li>\n<li><a href=\"#\">Televisions</a></li>\n<li><a href=\"#\">Full list of CPI categories</a></li>\n</ul>",
+            "html": "<ul>\n<li><a href=\"#\">Wireless telephone services</a></li>\n<li><a href=\"#\">Minneapolis\u00e2\u0080\u0093St Paul, Minnesota</a></li>\n<li><a href=\"#\">Televisions</a></li>\n<li><a href=\"#\">Full list of CPI categories</a></li>\n</ul>",
             "target": [
               ".calculator > ul"
             ],
@@ -606,7 +598,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\nÂ© Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n</div>",
+            "html": "<div class=\"footer\">\n\u00c2\u00a9 Official Data Foundation / Alioth LLC. <a href=\"#\">Contact</a> <a href=\"#\">Privacy policy</a>\n</div>",
             "target": [
               ".footer"
             ],

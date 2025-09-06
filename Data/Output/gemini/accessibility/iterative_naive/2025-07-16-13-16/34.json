@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -140,7 +132,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p>Copyright Â© 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by Corrective Crew</p>",
+            "html": "<p>Copyright \u00c2\u00a9 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by Corrective Crew</p>",
             "target": [
               "footer > p"
             ],
@@ -254,7 +246,7 @@
                 "height": 41
               },
               "snippet": "<p>",
-              "nodeLabel": "Copyright Â© 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by …",
+              "nodeLabel": "Copyright \u00c2\u00a9 2021 Traffic Management, Inc. | Trucking Minneapolis | Digital by \u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.47 (foreground color: #777777, background color: #ffffff, font size: 9.6pt (12.8px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -480,7 +472,7 @@
                 "height": 17
               },
               "snippet": "<a href=\"#\">",
-              "nodeLabel": "Â© Contact",
+              "nodeLabel": "\u00c2\u00a9 Contact",
               "explanation": "Fix any of the following:\n  Target has insufficient size (82px by 17px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 17px instead of at least 24px."
             },
             "subItems": {

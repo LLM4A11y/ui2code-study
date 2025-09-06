@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -105,7 +114,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"description\">Physician entrepreneur disrupting the healthcare status quo ð</div>",
+            "html": "<div class=\"description\">Physician entrepreneur disrupting the healthcare status quo \u00f0\u009f\u009a\u0080</div>",
             "target": [
               ".description"
             ],
@@ -147,7 +156,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"mission\">On a mission to â¬ï¸ compassion &amp; flourishing for everyone â¤ï¸</div>",
+            "html": "<div class=\"mission\">On a mission to \u00e2\u00ac\u0086\u00ef\u00b8\u008f compassion &amp; flourishing for everyone \u00e2\u009d\u00a4\u00ef\u00b8\u008f</div>",
             "target": [
               ".mission"
             ],
@@ -192,14 +201,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change background to #128579.",
-          "description": "<div class=\"mission\">On a mission to â¬ï¸ compassi...</div>",
+          "description": "<div class=\"mission\">On a mission to \u00e2\u00ac\u0086\u00ef\u00b8\u008f compassi...</div>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.41:1. Recommendation:  change background to #128579.",
-            "context": "<div class=\"mission\">On a mission to â¬ï¸ compassi...</div>",
+            "context": "<div class=\"mission\">On a mission to \u00e2\u00ac\u0086\u00ef\u00b8\u008f compassi...</div>",
             "selector": "html > body > div > div:nth-child(8)",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -275,7 +284,7 @@
                 "height": 40
               },
               "snippet": "<div class=\"description\">",
-              "nodeLabel": "Physician entrepreneur disrupting the healthcare status quo ð",
+              "nodeLabel": "Physician entrepreneur disrupting the healthcare status quo \u00f0\u009f\u009a\u0080",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.41 (foreground color: #ffffff, background color: #45b8ac, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -324,7 +333,7 @@
                 "height": 44
               },
               "snippet": "<div class=\"mission\">",
-              "nodeLabel": "On a mission to â¬ï¸ compassion & flourishing for everyone â¤ï¸",
+              "nodeLabel": "On a mission to \u00e2\u00ac\u0086\u00ef\u00b8\u008f compassion & flourishing for everyone \u00e2\u009d\u00a4\u00ef\u00b8\u008f",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.41 (foreground color: #ffffff, background color: #45b8ac, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {

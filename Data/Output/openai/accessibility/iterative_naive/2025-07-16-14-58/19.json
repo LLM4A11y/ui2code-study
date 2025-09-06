@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -204,7 +196,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div class=\"footer\">\n        <a href=\"#\">Return to Message Board</a>\n        <div class=\"footer-text\">Â© COPYRIGHT 2000 â 2023 FROM YOUR FRIENDS AT FETCH SOFTWORKS</div>\n    </div>",
+                    "html": "<div class=\"footer\">\n        <a href=\"#\">Return to Message Board</a>\n        <div class=\"footer-text\">\u00c2\u00a9 COPYRIGHT 2000 \u00e2\u0080\u0094 2023 FROM YOUR FRIENDS AT FETCH SOFTWORKS</div>\n    </div>",
                     "target": [
                       ".footer"
                     ]
@@ -217,7 +209,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<div class=\"footer-text\">Â© COPYRIGHT 2000 â 2023 FROM YOUR FRIENDS AT FETCH SOFTWORKS</div>",
+            "html": "<div class=\"footer-text\">\u00c2\u00a9 COPYRIGHT 2000 \u00e2\u0080\u0094 2023 FROM YOUR FRIENDS AT FETCH SOFTWORKS</div>",
             "target": [
               ".footer-text"
             ],
@@ -262,14 +254,14 @@
           "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
           "source": "pa11y",
           "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.71:1. Recommendation:  change text colour to #737373.",
-          "description": "<div class=\"footer-text\">Â© COPYRIGHT 2000 â 2023 FROM...</div>",
+          "description": "<div class=\"footer-text\">\u00c2\u00a9 COPYRIGHT 2000 \u00e2\u0080\u0094 2023 FROM...</div>",
           "impact": "error",
           "original_issue": {
             "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
             "type": "error",
             "typeCode": 1,
             "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.71:1. Recommendation:  change text colour to #737373.",
-            "context": "<div class=\"footer-text\">Â© COPYRIGHT 2000 â 2023 FROM...</div>",
+            "context": "<div class=\"footer-text\">\u00c2\u00a9 COPYRIGHT 2000 \u00e2\u0080\u0094 2023 FROM...</div>",
             "selector": "html > body > div:nth-child(3) > div",
             "runner": "htmlcs",
             "runnerExtras": {}
@@ -345,7 +337,7 @@
                 "height": 94
               },
               "snippet": "<div class=\"alert\">",
-              "nodeLabel": "This is an archived topic. The information in it is likely to be out-of-date an…",
+              "nodeLabel": "This is an archived topic. The information in it is likely to be out-of-date an\u2026",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.61 (foreground color: #ffffff, background color: #df5c56, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
             }
           }
@@ -423,7 +415,7 @@
                 "height": 36
               },
               "snippet": "<div class=\"footer-text\">",
-              "nodeLabel": "Â© COPYRIGHT 2000 â 2023 FROM YOUR FRIENDS AT FETCH SOFTWORKS",
+              "nodeLabel": "\u00c2\u00a9 COPYRIGHT 2000 \u00e2\u0080\u0094 2023 FROM YOUR FRIENDS AT FETCH SOFTWORKS",
               "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.7 (foreground color: #999999, background color: #f9f9f9, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
             },
             "subItems": {
@@ -444,7 +436,7 @@
                       "height": 112
                     },
                     "snippet": "<div class=\"footer\">",
-                    "nodeLabel": "Return to Message Board\nÂ© COPYRIGHT 2000 â 2023 FROM YOUR FRIENDS AT FETCH S…"
+                    "nodeLabel": "Return to Message Board\n\u00c2\u00a9 COPYRIGHT 2000 \u00e2\u0080\u0094 2023 FROM YOUR FRIENDS AT FETCH S\u2026"
                   }
                 }
               ]
@@ -575,7 +567,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"footer\">\n        <a href=\"#\">Return to Message Board</a>\n        <div class=\"footer-text\">Â© COPYRIGHT 2000 â 2023 FROM YOUR FRIENDS AT FETCH SOFTWORKS</div>\n    </div>",
+            "html": "<div class=\"footer\">\n        <a href=\"#\">Return to Message Board</a>\n        <div class=\"footer-text\">\u00c2\u00a9 COPYRIGHT 2000 \u00e2\u0080\u0094 2023 FROM YOUR FRIENDS AT FETCH SOFTWORKS</div>\n    </div>",
             "target": [
               ".footer"
             ],

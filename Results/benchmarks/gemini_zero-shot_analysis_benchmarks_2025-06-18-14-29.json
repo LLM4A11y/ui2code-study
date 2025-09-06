@@ -4,12 +4,12 @@
   "date": "2025-06-18-14-29",
   "overview": {
     "files_processed": 53,
-    "mean_ir": 0.09818558916004883,
-    "mean_iwir": 0.47869969859490213,
+    "mean_ir": 0.11293151842700393,
+    "mean_iwir": 0.5811835328267616,
     "status_counts": {
-      "Green": 6,
-      "Yellow": 46,
-      "Red": 1
+      "Green": 1,
+      "Yellow": 50,
+      "Red": 2
     }
   },
   "benchmarks": {

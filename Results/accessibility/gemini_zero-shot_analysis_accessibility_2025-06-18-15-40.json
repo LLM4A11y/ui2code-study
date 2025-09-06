@@ -2,8 +2,8 @@
   "summary": {
     "timestamp": "2025-06-18-15-40",
     "files_processed": 53,
-    "total_automatic_nodes_failed": 747,
-    "average_automatic_nodes_failed_per_file": 14.09
+    "total_automatic_nodes_failed": 826,
+    "average_automatic_nodes_failed_per_file": 15.58
   },
   "issues_automatic": [
     {
@@ -1238,6 +1238,35 @@
     },
     {
       "rank": 4,
+      "name": "Alt-Text; Images;",
+      "impact": "critical",
+      "amount_nodes_failed": 79,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 79,
+          "amount_relative": 79,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      },
+      "ids_distribution": {}
+    },
+    {
+      "rank": 5,
       "name": "Links; Distinguishable Color;",
       "impact": "serious",
       "amount_nodes_failed": 26,
@@ -1320,7 +1349,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "Headings; Wrong Order, Empty & Missing Headings;",
       "impact": "moderate",
       "amount_nodes_failed": 18,
@@ -1377,7 +1406,7 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "Size; Target Size; Element too small",
       "impact": "serious",
       "amount_nodes_failed": 15,
@@ -1424,7 +1453,7 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "Tables; Table Headers;",
       "impact": "minor",
       "amount_nodes_failed": 5,
@@ -1465,7 +1494,7 @@
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "Links; Missing descriptive content of <a>;",
       "impact": "serious",
       "amount_nodes_failed": 3,
@@ -1509,7 +1538,7 @@
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "Label; Select; Missing Label",
       "impact": "critical",
       "amount_nodes_failed": 3,
@@ -1553,7 +1582,7 @@
       }
     },
     {
-      "rank": 10,
+      "rank": 11,
       "name": "Language; Document Lang; Missing & Invalid",
       "impact": "serious",
       "amount_nodes_failed": 2,
@@ -1594,7 +1623,7 @@
       }
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "Elements; Align;",
       "impact": "minor",
       "amount_nodes_failed": 1,
@@ -1627,7 +1656,7 @@
       }
     },
     {
-      "rank": 12,
+      "rank": 13,
       "name": "Label; Button; Missing Label",
       "impact": "critical",
       "amount_nodes_failed": 1,
@@ -1660,7 +1689,7 @@
       }
     },
     {
-      "rank": 13,
+      "rank": 14,
       "name": "Navigation; Scrollable Region without keyboard access;",
       "impact": "serious",
       "amount_nodes_failed": 1,
@@ -1695,13 +1724,13 @@
   ],
   "distribution_sources_automatic": {
     "absolute": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 79,
       "axe-core": 634,
       "pa11y": 285,
       "lighthouse": 323
     },
     "relative": {
-      "Manual-Inspection": 0,
+      "Manual-Inspection": 79,
       "axe-core": 548,
       "pa11y": 179,
       "lighthouse": 20

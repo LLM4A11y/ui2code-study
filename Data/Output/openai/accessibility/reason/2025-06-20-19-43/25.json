@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -1065,7 +1057,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<p>Finding singles in Bonogin is fun and easy with justsaygday.com. As one of Australiaâs leading matchmaking websites you have a great chance of meeting that special someone missing in your life.</p>",
+            "html": "<p>Finding singles in Bonogin is fun and easy with justsaygday.com. As one of Australia\u00e2\u0080\u0099s leading matchmaking websites you have a great chance of meeting that special someone missing in your life.</p>",
             "target": [
               "p:nth-child(2)"
             ],
@@ -1289,7 +1281,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"copyright\">\n        Â© Copyright notice Â· Site design and content copyright justsaygday.com Individuals pictured are models and are used for illustrative purposes only.\n    </div>",
+            "html": "<div class=\"copyright\">\n        \u00c2\u00a9 Copyright notice \u00c2\u00b7 Site design and content copyright justsaygday.com Individuals pictured are models and are used for illustrative purposes only.\n    </div>",
             "target": [
               ".copyright"
             ],

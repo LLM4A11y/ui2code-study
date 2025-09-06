@@ -1,14 +1,23 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
   },
   "automatic": [
     {
@@ -486,7 +495,7 @@
                       "height": 858
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Your Shopping Cart\nCONTINUE SHOPPING\nYour Shopping Cart\nYOUR SHOPPING CART IS E…"
+                    "nodeLabel": "Your Shopping Cart\nCONTINUE SHOPPING\nYour Shopping Cart\nYOUR SHOPPING CART IS E\u2026"
                   }
                 }
               ]
@@ -535,7 +544,7 @@
                       "height": 858
                     },
                     "snippet": "<div class=\"main-content\">",
-                    "nodeLabel": "Your Shopping Cart\nCONTINUE SHOPPING\nYour Shopping Cart\nYOUR SHOPPING CART IS E…"
+                    "nodeLabel": "Your Shopping Cart\nCONTINUE SHOPPING\nYour Shopping Cart\nYOUR SHOPPING CART IS E\u2026"
                   }
                 }
               ]
@@ -638,7 +647,7 @@
             "all": [],
             "none": [],
             "impact": "moderate",
-            "html": "<div class=\"logo-area\">\n        <div class=\"logo-placeholder\"></div>\n        <div class=\"contact-info\">Talk to a real person!<br>[PHONE REDACTED]</div>\n        <div class=\"menu-icon\">â°</div>\n    </div>",
+            "html": "<div class=\"logo-area\">\n        <div class=\"logo-placeholder\"></div>\n        <div class=\"contact-info\">Talk to a real person!<br>[PHONE REDACTED]</div>\n        <div class=\"menu-icon\">\u00e2\u0098\u00b0</div>\n    </div>",
             "target": [
               ".logo-area"
             ],

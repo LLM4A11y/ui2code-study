@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -270,7 +262,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>One of the available options is to use your <a href=\"#\">mobile phone</a> for uploading videos on YouTube — just create a mobile profile on YouTube from a computer outside the organization's firewall and then email the video to YouTube as an MMS message.</p>",
+                    "html": "<p>One of the available options is to use your <a href=\"#\">mobile phone</a> for uploading videos on YouTube \u2014 just create a mobile profile on YouTube from a computer outside the organization's firewall and then email the video to YouTube as an MMS message.</p>",
                     "target": [
                       ".content > div > p:nth-child(3)"
                     ]
@@ -284,7 +276,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>One of the available options is to use your <a href=\"#\">mobile phone</a> for uploading videos on YouTube — just create a mobile profile on YouTube from a computer outside the organization's firewall and then email the video to YouTube as an MMS message.</p>",
+                    "html": "<p>One of the available options is to use your <a href=\"#\">mobile phone</a> for uploading videos on YouTube \u2014 just create a mobile profile on YouTube from a computer outside the organization's firewall and then email the video to YouTube as an MMS message.</p>",
                     "target": [
                       ".content > div > p:nth-child(3)"
                     ]
@@ -323,7 +315,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<p>The second more versatile option is the one-to-many <a href=\"#\">Hey!Spread</a> — this is an online service to help you upload a video clip to multiple video sharing websites in one go.</p>",
+                    "html": "<p>The second more versatile option is the one-to-many <a href=\"#\">Hey!Spread</a> \u2014 this is an online service to help you upload a video clip to multiple video sharing websites in one go.</p>",
                     "target": [
                       "p:nth-child(5)"
                     ]
@@ -337,7 +329,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<p>The second more versatile option is the one-to-many <a href=\"#\">Hey!Spread</a> — this is an online service to help you upload a video clip to multiple video sharing websites in one go.</p>",
+                    "html": "<p>The second more versatile option is the one-to-many <a href=\"#\">Hey!Spread</a> \u2014 this is an online service to help you upload a video clip to multiple video sharing websites in one go.</p>",
                     "target": [
                       "p:nth-child(5)"
                     ]
@@ -399,7 +391,7 @@
                       "height": 114
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "ichard, who works for a large Fortune 100 company, recently wrote on Facebook t…"
+                    "nodeLabel": "ichard, who works for a large Fortune 100 company, recently wrote on Facebook t\u2026"
                   }
                 }
               ]
@@ -448,7 +440,7 @@
                       "height": 95
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "One of the available options is to use your mobile phone for uploading videos o…"
+                    "nodeLabel": "One of the available options is to use your mobile phone for uploading videos o\u2026"
                   }
                 }
               ]
@@ -497,7 +489,7 @@
                       "height": 76
                     },
                     "snippet": "<p>",
-                    "nodeLabel": "The second more versatile option is the one-to-many Hey!Spread — this is an onl…"
+                    "nodeLabel": "The second more versatile option is the one-to-many Hey!Spread \u2014 this is an onl\u2026"
                   }
                 }
               ]

@@ -1,14 +1,6 @@
 {
   "manual": {
-    "checks": {
-      "1.4.4": "tbd",
-      "1.4.10": "tbd",
-      "1.4.12": "tbd",
-      "2.1.1+2.1.2": "tbd",
-      "2.4.3": "tbd",
-      "2.4.6": "tbd",
-      "2.4.7": "tbd"
-    }
+    "checks": []
   },
   "automatic": [
     {
@@ -365,7 +357,7 @@
                       "height": 1459
                     },
                     "snippet": "<div class=\"container\">",
-                    "nodeLabel": "Free! Festivals Kids & Families Last Chance\nPritchard Memorial Baptist Church\nP…"
+                    "nodeLabel": "Free! Festivals Kids & Families Last Chance\nPritchard Memorial Baptist Church\nP\u2026"
                   }
                 }
               ]
@@ -600,7 +592,7 @@
                 },
                 "relatedNodes": [
                   {
-                    "html": "<div>\n            Charlotte Culture Guide is a project of <a href=\"#\" style=\"padding: 10px;\">ASC</a>.\n            <br>Copyright ÃÂ© 2023, Arts and Science Council. All rights reserved.\n            <br>Website developed by <a href=\"#\" style=\"padding: 10px;\">Zero Defect Design LLC</a>.\n        </div>",
+                    "html": "<div>\n            Charlotte Culture Guide is a project of <a href=\"#\" style=\"padding: 10px;\">ASC</a>.\n            <br>Copyright \u00c3\u0082\u00c2\u00a9 2023, Arts and Science Council. All rights reserved.\n            <br>Website developed by <a href=\"#\" style=\"padding: 10px;\">Zero Defect Design LLC</a>.\n        </div>",
                     "target": [
                       "footer > div:nth-child(6)"
                     ]
@@ -614,7 +606,7 @@
                 "data": null,
                 "relatedNodes": [
                   {
-                    "html": "<div>\n            Charlotte Culture Guide is a project of <a href=\"#\" style=\"padding: 10px;\">ASC</a>.\n            <br>Copyright ÃÂ© 2023, Arts and Science Council. All rights reserved.\n            <br>Website developed by <a href=\"#\" style=\"padding: 10px;\">Zero Defect Design LLC</a>.\n        </div>",
+                    "html": "<div>\n            Charlotte Culture Guide is a project of <a href=\"#\" style=\"padding: 10px;\">ASC</a>.\n            <br>Copyright \u00c3\u0082\u00c2\u00a9 2023, Arts and Science Council. All rights reserved.\n            <br>Website developed by <a href=\"#\" style=\"padding: 10px;\">Zero Defect Design LLC</a>.\n        </div>",
                     "target": [
                       "footer > div:nth-child(6)"
                     ]
@@ -676,7 +668,7 @@
                       "height": 84
                     },
                     "snippet": "<div>",
-                    "nodeLabel": "Charlotte Culture Guide is a project of ASC.\nCopyright ÃÂ© 2023, Arts and Scie…"
+                    "nodeLabel": "Charlotte Culture Guide is a project of ASC.\nCopyright \u00c3\u0082\u00c2\u00a9 2023, Arts and Scie\u2026"
                   }
                 }
               ]
