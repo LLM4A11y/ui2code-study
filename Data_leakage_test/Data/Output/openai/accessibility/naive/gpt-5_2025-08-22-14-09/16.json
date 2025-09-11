@@ -1,0 +1,451 @@
+{
+  "manual": {
+    "checks": {
+      "1.4.4": "tbd",
+      "1.4.10": "tbd",
+      "1.4.12": "tbd",
+      "2.1.1+2.1.2": "tbd",
+      "2.4.3": "tbd",
+      "2.4.6": "tbd",
+      "2.4.7": "tbd"
+    }
+  },
+  "automatic": [
+    {
+      "wcag_id": [
+        null
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr"
+      ],
+      "impact": "serious",
+      "name": "Aria Attributes; Prohibited Attributes;",
+      "amount_nodes_failed": 3,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr",
+          "source": "axe-core",
+          "title": "Elements must only use permitted ARIA attributes",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "impact": "serious",
+          "nodes": {
+            "any": [],
+            "all": [],
+            "none": [
+              {
+                "id": "aria-prohibited-attr",
+                "data": {
+                  "role": null,
+                  "nodeName": "span",
+                  "messageKey": "noRoleSingular",
+                  "prohibited": [
+                    "aria-label"
+                  ]
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute cannot be used on a span with no valid role attribute."
+              }
+            ],
+            "impact": "serious",
+            "html": "<span class=\"dot teal\" aria-label=\"Social link\"></span>",
+            "target": [
+              ".teal"
+            ],
+            "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr",
+          "source": "axe-core",
+          "title": "Elements must only use permitted ARIA attributes",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "impact": "serious",
+          "nodes": {
+            "any": [],
+            "all": [],
+            "none": [
+              {
+                "id": "aria-prohibited-attr",
+                "data": {
+                  "role": null,
+                  "nodeName": "span",
+                  "messageKey": "noRoleSingular",
+                  "prohibited": [
+                    "aria-label"
+                  ]
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute cannot be used on a span with no valid role attribute."
+              }
+            ],
+            "impact": "serious",
+            "html": "<span class=\"dot red\" aria-label=\"Social link\"></span>",
+            "target": [
+              ".red"
+            ],
+            "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr",
+          "source": "axe-core",
+          "title": "Elements must only use permitted ARIA attributes",
+          "description": "Ensure ARIA attributes are not prohibited for an element's role",
+          "impact": "serious",
+          "nodes": {
+            "any": [],
+            "all": [],
+            "none": [
+              {
+                "id": "aria-prohibited-attr",
+                "data": {
+                  "role": null,
+                  "nodeName": "span",
+                  "messageKey": "noRoleSingular",
+                  "prohibited": [
+                    "aria-label"
+                  ]
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute cannot be used on a span with no valid role attribute."
+              }
+            ],
+            "impact": "serious",
+            "html": "<span class=\"dot purple\" aria-label=\"Social link\"></span>",
+            "target": [
+              ".purple"
+            ],
+            "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr",
+          "source": "lighthouse",
+          "title": "Elements use prohibited ARIA attributes",
+          "description": "Using ARIA attributes in roles where they are prohibited can mean that important information is not communicated to users of assistive technologies. [Learn more about prohibited ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-0-SPAN",
+              "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,DIV,0,ASIDE,2,DIV,1,DIV,0,SPAN",
+              "selector": "aside > div.panel > div.dots > span.dot",
+              "boundingRect": {
+                "top": 1573,
+                "bottom": 1589,
+                "left": 46,
+                "right": 62,
+                "width": 16,
+                "height": 16
+              },
+              "snippet": "<span class=\"dot teal\" aria-label=\"Social link\">",
+              "nodeLabel": "Social link",
+              "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr",
+          "source": "lighthouse",
+          "title": "Elements use prohibited ARIA attributes",
+          "description": "Using ARIA attributes in roles where they are prohibited can mean that important information is not communicated to users of assistive technologies. [Learn more about prohibited ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-1-SPAN",
+              "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,DIV,0,ASIDE,2,DIV,1,DIV,1,SPAN",
+              "selector": "aside > div.panel > div.dots > span.dot",
+              "boundingRect": {
+                "top": 1573,
+                "bottom": 1589,
+                "left": 72,
+                "right": 88,
+                "width": 16,
+                "height": 16
+              },
+              "snippet": "<span class=\"dot red\" aria-label=\"Social link\">",
+              "nodeLabel": "Social link",
+              "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr",
+          "source": "lighthouse",
+          "title": "Elements use prohibited ARIA attributes",
+          "description": "Using ARIA attributes in roles where they are prohibited can mean that important information is not communicated to users of assistive technologies. [Learn more about prohibited ARIA roles](https://dequeuniversity.com/rules/axe/4.10/aria-prohibited-attr).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-2-SPAN",
+              "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,DIV,0,ASIDE,2,DIV,1,DIV,2,SPAN",
+              "selector": "aside > div.panel > div.dots > span.dot",
+              "boundingRect": {
+                "top": 1573,
+                "bottom": 1589,
+                "left": 98,
+                "right": 114,
+                "width": 16,
+                "height": 16
+              },
+              "snippet": "<span class=\"dot purple\" aria-label=\"Social link\">",
+              "nodeLabel": "Social link",
+              "explanation": "Fix all of the following:\n  aria-label attribute cannot be used on a span with no valid role attribute."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": null,
+      "url": "https://dequeuniversity.com/rules/axe/4.10/aria-required-children",
+      "impact": "tbd",
+      "name": "tbd",
+      "amount_nodes_failed": 1,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/aria-required-children",
+          "source": "axe-core",
+          "title": "Certain ARIA roles must contain particular children",
+          "description": "Ensure elements with an ARIA role that require child roles contain them",
+          "impact": "critical",
+          "nodes": {
+            "any": [
+              {
+                "id": "aria-required-children",
+                "data": {
+                  "messageKey": "unallowed",
+                  "values": "span[aria-label]"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<span class=\"dot teal\" aria-label=\"Social link\"></span>",
+                    "target": [
+                      ".teal"
+                    ]
+                  },
+                  {
+                    "html": "<span class=\"dot red\" aria-label=\"Social link\"></span>",
+                    "target": [
+                      ".red"
+                    ]
+                  },
+                  {
+                    "html": "<span class=\"dot purple\" aria-label=\"Social link\"></span>",
+                    "target": [
+                      ".purple"
+                    ]
+                  }
+                ],
+                "impact": "critical",
+                "message": "Element has children which are not allowed: span[aria-label]"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<div class=\"dots\" role=\"list\">\n            <span class=\"dot teal\" aria-label=\"Social link\"></span>\n            <span class=\"dot red\" aria-label=\"Social link\"></span>\n            <span class=\"dot purple\" aria-label=\"Social link\"></span>\n          </div>",
+            "target": [
+              ".dots"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has children which are not allowed: span[aria-label]"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/aria-required-children",
+          "source": "lighthouse",
+          "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+          "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more about roles and required children elements](https://dequeuniversity.com/rules/axe/4.10/aria-required-children).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-3-DIV",
+              "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,DIV,0,ASIDE,2,DIV,1,DIV",
+              "selector": "div.page > aside > div.panel > div.dots",
+              "boundingRect": {
+                "top": 1573,
+                "bottom": 1589,
+                "left": 46,
+                "right": 292,
+                "width": 246,
+                "height": 16
+              },
+              "snippet": "<div class=\"dots\" role=\"list\">",
+              "nodeLabel": "Social link",
+              "explanation": "Fix any of the following:\n  Element has children which are not allowed: span[aria-label]"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-0-SPAN",
+                    "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,DIV,0,ASIDE,2,DIV,1,DIV,0,SPAN",
+                    "selector": "aside > div.panel > div.dots > span.dot",
+                    "boundingRect": {
+                      "top": 1573,
+                      "bottom": 1589,
+                      "left": 46,
+                      "right": 62,
+                      "width": 16,
+                      "height": 16
+                    },
+                    "snippet": "<span class=\"dot teal\" aria-label=\"Social link\">",
+                    "nodeLabel": "Social link"
+                  }
+                },
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-1-SPAN",
+                    "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,DIV,0,ASIDE,2,DIV,1,DIV,1,SPAN",
+                    "selector": "aside > div.panel > div.dots > span.dot",
+                    "boundingRect": {
+                      "top": 1573,
+                      "bottom": 1589,
+                      "left": 72,
+                      "right": 88,
+                      "width": 16,
+                      "height": 16
+                    },
+                    "snippet": "<span class=\"dot red\" aria-label=\"Social link\">",
+                    "nodeLabel": "Social link"
+                  }
+                },
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-2-SPAN",
+                    "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,DIV,0,ASIDE,2,DIV,1,DIV,2,SPAN",
+                    "selector": "aside > div.panel > div.dots > span.dot",
+                    "boundingRect": {
+                      "top": 1573,
+                      "bottom": 1589,
+                      "left": 98,
+                      "right": 114,
+                      "width": 16,
+                      "height": 16
+                    },
+                    "snippet": "<span class=\"dot purple\" aria-label=\"Social link\">",
+                    "nodeLabel": "Social link"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        "Principle1.Guideline1_4.1_4_3.G18",
+        "Principle1.Guideline1_4.1_4_3.G18.Fail",
+        "Principle1.Guideline1_4.1_4_3.G145",
+        "Principle1.Guideline1_4.1_4_3.G145.Fail",
+        "Principle1.Guideline1_4.1_4_6.G17",
+        "Principle1.Guideline1_4.1_4_6.G18"
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+        "https://dequeuniversity.com/rules/axe/4.10/color-contrast-enhanced"
+      ],
+      "impact": "serious",
+      "name": "Color Contrast; Text;",
+      "amount_nodes_failed": 1,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#ffffff",
+                  "bgColor": "#5fa29f",
+                  "contrastRatio": 2.93,
+                  "fontSize": "10.0pt (13.3333px)",
+                  "fontWeight": "bold",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<button class=\"btn\" type=\"button\">Join</button>",
+                    "target": [
+                      "button"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 2.93 (foreground color: #ffffff, background color: #5fa29f, font size: 10.0pt (13.3333px), font weight: bold). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button class=\"btn\" type=\"button\">Join</button>",
+            "target": [
+              "button"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.93 (foreground color: #ffffff, background color: #5fa29f, font size: 10.0pt (13.3333px), font weight: bold). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.93:1. Recommendation:  change background to #3e817e.",
+          "description": "<button class=\"btn\" type=\"button\">Join</button>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 2.93:1. Recommendation:  change background to #3e817e.",
+            "context": "<button class=\"btn\" type=\"button\">Join</button>",
+            "selector": "html > body > div > div > div > aside > div:nth-child(4) > button",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-4-BUTTON",
+              "path": "1,HTML,1,BODY,2,DIV,0,DIV,0,DIV,0,ASIDE,3,DIV,3,BUTTON",
+              "selector": "div.page > aside > div.panel > button.btn",
+              "boundingRect": {
+                "top": 1753,
+                "bottom": 1784,
+                "left": 46,
+                "right": 105,
+                "width": 59,
+                "height": 31
+              },
+              "snippet": "<button class=\"btn\" type=\"button\">",
+              "nodeLabel": "Join",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.93 (foreground color: #ffffff, background color: #5fa29f, font size: 10.0pt (13.3333px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

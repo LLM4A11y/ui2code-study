@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #222;
+            margin-right: 20px;
+        }
+
+        .navbar a:last-child {
+            margin-right: 0;
+        }
+
+        .navbar a.active {
+            font-weight: bold;
+        }
+
+        .content {
+            display: flex;
+            padding: 50px;
+            justify-content: center;
+            align-items: flex-start;
+            margin-bottom: 50px;
+        }
+
+        .product-title {
+            text-align: center;
+            color: #00c5d4;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .product-title h1 {
+            font-size: 20px;
+        }
+
+        .product-image {
+            width: 300px;
+            height: 300px;
+            background-color: blue;
+            margin-bottom: 20px;
+        }
+
+        .thumbnails img {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            margin: 10px;
+        }
+
+        .product-details {
+            max-width: 300px;
+            margin-left: 50px;
+            line-height: 1.8;
+        }
+
+        .price {
+            color: #00c5d4;
+            margin-bottom: 20px;
+        }
+
+        .product-details p {
+            font-size: 14px;
+            color: #606060;
+        }
+
+        .product-details .notice {
+            font-size: 12px;
+        }
+
+        .form-control, .btn {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #00c5d4;
+            margin-bottom: 20px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .btn {
+            background-color: white;
+            color: #00c5d4;
+            cursor: pointer;
+        }
+
+        .footer {
+            background-color: #334950;
+            color: #ffffff;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .footer h3 {
+            margin: 0;
+            margin-bottom: 20px;
+            font-size: 12px;
+            letter-spacing: 2px;
+        }
+
+        .footer .links {
+            list-style-type: none;
+            padding: 0;
+            display: inline-flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .footer .links li {
+            margin: 10px;
+            font-size: 12px;
+            color: #c3d2d3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Segway</a>
+        <a href="#" class="active">Escorted Excursions</a>
+        <a href="#">Main</a>
+        <a href="#">Find Segway Excursions</a>
+        <a href="#">View Excursions</a>
+        <a href="#">For Trip Providers</a>
+    </div>
+    
+    <div class="content">
+        <div class="product-display">
+            <div class="product-title">
+                <h1>THE SUNSET<br>WRISTBAND</h1>
+            </div>
+            <div class="product-image">
+                <img src="src/placeholder.jpg" alt="Product Image">
+            </div>
+            <div class="thumbnails">
+                <img src="src/placeholder.jpg" alt="Thumbnail">
+                <img src="src/placeholder.jpg" alt="Thumbnail">
+            </div>
+        </div>
+        <div class="product-details">
+            <div class="price">
+                <span>$ 20.00</span>
+            </div>
+            <p>Pink-tinted, lumber cylinder gems. 4cm sky-blue gems, with shiny gold-colored pieces attached on string to create a 4-times turn!</p>
+            <p>The following is for one roll-around wristband. Every roll-around wristband is retailed on its own for $20.00 a piece.</p>
+
+            <p class="notice">**To see fitting details, please consult the Fit Guide Webpage**</p>
+            <p class="notice">**This wristband may be altered using light grey-colored pieces.**</p>
+
+            <div>
+                <div class="form-control">Tiny (S)</div>
+                <div class="btn">Add to Cart</div>
+            </div>
+            
+            <div class="form-control">S H A R E</div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div><img src="src/placeholder.jpg" alt="Logo"></div>
+        <h3>FOR ORGANIZATIONS INFO CENTER COMPANY GET IN TOUCH</h3>
+        <ul class="links">
+            <li>Training Platform</li>
+            <li>Documentation</li>
+            <li>About Us</li>
+            <li>Facebook</li>
+            <li>Sales Demo Automation</li>
+            <li>Our Blog</li>
+            <li>Open Source</li>
+            <li>Twitter</li>
+            <li>New User Guide</li>
+            <li>LinkedIn</li>
+            <li>Email Support</li>
+        </ul>
+    </div>
+</body>
+</html>

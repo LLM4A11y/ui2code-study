@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #eee;
+        }
+        .header {
+            background-color: white;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            width: 80px;
+            height: 40px;
+            background-color: blue;
+            margin-right: 10px;
+        }
+        .logo h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .options {
+            text-align: right;
+            font-size: 14px;
+        }
+        .options a {
+            color: black;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        .search-bar {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+        }
+        .search-bar input {
+            padding: 8px;
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+        }
+        .search-bar a {
+            display: block;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+        .main-search {
+            background-color: #e8e8e8;
+            padding: 15px;
+            text-align: center;
+        }
+        .main-search input {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            margin-right: 10px;
+        }
+        .main-search button {
+            padding: 10px 20px;
+            background-color: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .breadcrumb, .content {
+            width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .breadcrumb {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .content h2 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+        .content-section {
+            display: flex;
+        }
+        .content-section .text, .content-section .image {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .content-section .text {
+            flex: 1;
+            margin-right: 10px;
+        }
+        .content-section .image {
+            width: 200px;
+            height: 150px;
+        }
+        .content-section .image img {
+            width: 100%;
+            height: 100%;
+            background-color: blue;
+        }
+        .content-footer {
+            font-size: 12px;
+            text-align: right;
+            padding-top: 10px;
+        }
+        .info-box {
+            margin-top: 20px;
+        }
+        .footer {
+            background-color: teal;
+            padding: 40px;
+            text-align: center;
+            color: white;
+        }
+        .footer .info {
+            display: flex;
+            justify-content: space-around;
+            font-size: 18px;
+            padding-bottom: 30px;
+        }
+        .footer .info div {
+            text-align: center;
+        }
+        .footer h2 {
+            font-size: 20px;
+        }
+        .footer button {
+            padding: 10px 20px;
+            background-color: darkgreen;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .footer-links {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="src/placeholder.jpg" alt="Logo">
+            <h1>LibriVox Audiobooks</h1>
+        </div>
+        <div class="options">
+            <div>Options</div>
+            <div>
+                <a href="#">Go to content</a> |
+                <a href="#">Info</a> |
+                <a href="#">Email</a> |
+                <a href="#">Community</a> |
+                <a href="#">FAQ</a>
+            </div>
+        </div>
+    </div>
+    <div class="search-bar">
+        Free audiobooks read by volunteers
+        <br>
+        <input type="text" placeholder="Find by Writer, Story or Narrator">
+        <br>
+        <a href="#">More search options</a>
+    </div>
+    <div class="main-search">
+        <input type="text" placeholder="Trip Spot...">
+        <button>SEARCH</button>
+    </div>
+    <div class="breadcrumb">
+        / <a href="#">USA</a> / <a href="#">SOUTH CAROLINA</a>
+    </div>
+    <div class="content">
+        <h2>List of 6 Segway Trips around South Carolina</h2>
+        <div>South Carolina Listing Date: 11/3/23</div>
+        <div class="content-section">
+            <div class="text">
+                <strong>SOUTH CAROLINA SEGWAY EXCURSIONS</strong><br><br>
+                Explore South Carolina with one of our six Segway excursions.<br>
+                Discover the attractions and sounds of South Carolina's towns and attractions with a closer and more personal tour on the SegwayÂ® PT.<br><br>
+                <strong>USA &gt;&gt;</strong><br>
+                <strong>SOUTH CAROLINA &gt;&gt;</strong><br>
+                <ul>
+                    <li><strong>CHARLESTON &gt;&gt;</strong>
+                        <ul>
+                            <li>Segway of Charleston &gt;&gt;</li>
+                        </ul>
+                    </li>
+                    <li><strong>GREENVILLE &gt;&gt;</strong>
+                        <ul>
+                            <li>Carolina Segway &gt;&gt;</li>
+                            <li>Greenville Glides &gt;&gt;</li>
+                        </ul>
+                    </li>
+                    <li><strong>HILTON HEAD ISLAND &gt;&gt;</strong>
+                        <ul>
+                            <li>Hilton Head Segway &gt;&gt;</li>
+                        </ul>
+                    </li>
+                    <li><strong>LITTLE RIVER &gt;&gt;</strong>
+                        <ul>
+                            <li>Myrtle Beach Segway &gt;&gt;</li>
+                            <li>Myrtle Beach Segway &gt;&gt;</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="src/placeholder.jpg" alt="South Carolina">
+            </div>
+        </div>
+        <div class="content-footer">
+            Displaying 6 South Carolina trips of 636 trips World Wide
+        </div>
+        <div class="info-box">
+            <h2>South Carolina Segway Tours</h2>
+            <p>
+                Whether South Carolina is your home state or your next destination for travel, one of these Segway trips will add cool new excitement to your next company trip, vacation or weekend outing.
+            </p>
+            <p>
+                Want adventure outings beyond South Carolina's six Segway trips? Check out our Directory to <a href="#">find Segway Tours</a> across the United States and across the globe and try touring on a Segway PT for yourself!
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="info">
+            <div>
+                <strong>636</strong><br>GLOBAL
+            </div>
+            <div>
+                <strong>56</strong><br>NATIONS
+            </div>
+            <div>
+                <strong>198</strong><br>TERRITORIES
+            </div>
+            <div>
+                <strong>442</strong><br>TOWNS
+            </div>
+        </div>
+        <h2>Locate a Trip on a Segway PT right now!</h2>
+        <button>Search a Trip Now</button>
+        <div class="footer-links">
+            <a href="#">Home</a> | <a href="#">Contact</a>
+            <br><br>
+            <a href="#">FB</a> | <a href="#">IG</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosebud Treasures</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #c8d8e4;
+            font-family: 'Georgia', serif;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        .main-content {
+            width: 70%;
+            background-color: #fdfbe3;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: blue;
+            margin-right: 20px;
+        }
+        .profile-info h1 {
+            margin: 0;
+        }
+        .profile-info p {
+            color: grey;
+            margin: 0;
+        }
+        .sidebar {
+            width: 25%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .search-bar {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        .menu-section {
+            background-color: #f4f0df;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .menu-item {
+            padding: 10px;
+            color: #a09e9e;
+            border-bottom: 1px solid #d1cdc1;
+        }
+        .social-media {
+            background-color: #fddfcf;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .social-media div {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: red;
+            margin: 0 5px;
+        }
+        .mailing-list {
+            background-color: #f4f0df;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .main-image {
+            background-color: blue;
+            width: 100%;
+            height: 250px;
+            margin-bottom: 20px;
+        }
+        .intro-text {
+            text-align: center;
+            font-size: 15px;
+            margin: 20px 0;
+        }
+        .products-title {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .product-item {
+            text-align: center;
+            background-color: #fdfbe3;
+            width: 30%;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            border: 2px solid #f1da7d;
+        }
+        .product-image {
+            background-color: blue;
+            width: 100%;
+            height: 150px;
+            margin-bottom: 10px;
+        }
+        .product-price {
+            font-weight: bold;
+            color: #775100;
+        }
+        .footer {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 12px;
+        }
+        .footer a {
+            color: white;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <input type="text" class="search-bar" placeholder="Search...">
+            <div class="menu-section">
+                <div class="menu-item">Charming Home and Cottage Style</div>
+                <div class="menu-item">Old & Collectible Fabrics</div>
+                <div class="menu-item">Classic Bride & Wedding</div>
+                <div class="menu-item">Afternoon Tea</div>
+                <div class="menu-item">Old Hand Painted China</div>
+                <div class="menu-item">Rustic & Polished Silver</div>
+                <div class="menu-item">Old Time Kitchen</div>
+                <div class="menu-item">Fiestaware Pottery</div>
+                <div class="menu-item">Classic Laundry Room</div>
+                <div class="menu-item">Ladies Classic Dressing</div>
+                <div class="menu-item">Accessories</div>
+                <div class="menu-item">Cottage Outdoors</div>
+                <div class="menu-item">Old Paper Memorabilia</div>
+                <div class="menu-item">Old Trip Memories</div>
+                <div class="menu-item">Old Kids' Toys</div>
+                <div class="menu-item">Old Sewing Items</div>
+                <div class="menu-item">Old Time Holidays</div>
+                <div class="menu-item">Book Corner</div>
+            </div>
+            <div class="social-media">
+                <span>Stay Connected</span>
+                <div></div>
+                <div style="background-color: lightblue;"></div>
+                <div style="background-color: pink;"></div>
+            </div>
+            <div class="mailing-list">
+                <span>Join Mailing List</span>
+                <p>Join our mailing list for the latest news and sales...</p>
+                <input type="text" class="search-bar" placeholder="Enter your email...">
+                <button>Join</button>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="header">
+                <div class="profile-pic"></div>
+                <div class="profile-info">
+                    <h1>Gabe C.</h1>
+                    <p>Doctor pioneering a new healthcare system.</p>
+                </div>
+            </div>
+            <div class="main-image"></div>
+            <div class="intro-text">
+                <p><em>Thank you for visiting Rosebud Treasures today!</em></p>
+                <p>Here you will discover all the precious items to make your home charming.</p>
+                <p>We also have amazing things for women, including vintage makeup kits, rare vintage purses and satchels, plus stunning designer jewelry.</p>
+                <p>Your online shop for cottage style, shabby chic treasures and collectibles!</p>
+            </div>
+            <div class="products-title">Top Selections</div>
+            <div class="products">
+                <div class="product-item">
+                    <div class="product-image"></div>
+                    <p>Heidi Daus Cornucopia Brooch Heidi's Harvest...</p>
+                    <p class="product-price">$150.00</p>
+                </div>
+                <div class="product-item">
+                    <div class="product-image"></div>
+                    <p>Heidi Daus Squirrel Sparkle Fall Rhinestone...</p>
+                    <p class="product-price">$125.00</p>
+                </div>
+                <div class="product-item">
+                    <div class="product-image"></div>
+                    <p>Heidi Daus Precious Pumpkin PavÃÂ© Fall...</p>
+                    <p class="product-price">$150.00</p>
+                </div>
+            </div>
+            <div class="products">
+                <div class="product-item" style="width: 100%;">
+                    <div class="product-image" style="height: 250px;"></div>
+                    <p>Vintage McCoy Pottery Purple and White Chrysanthemum Vase</p>
+                    <p class="product-price">$55.00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>RSS</p>
+        <p>user123 | user123 | user123</p>
+        <p>Generated using StaticSite</p>
+    </div>
+</body>
+</html>

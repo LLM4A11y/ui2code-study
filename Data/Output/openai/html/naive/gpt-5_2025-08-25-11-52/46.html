@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Devotional</title>
+<style>
+  @font-face{
+    font-family: "GeorgiaAlt";
+    src: local("Georgia");
+  }
+  :root{
+    --text:#2f2f2f;
+    --muted:#666666;
+    --light:#f3f3f3;
+    --link:#2aa55e;
+    --blue:#1e73be;
+  }
+  *{box-sizing:border-box}
+  html,body{
+    margin:0;
+    height:100%;
+    background:#ffffff;
+    color:var(--text);
+    font-family: GeorgiaAlt, Georgia, "Times New Roman", serif;
+  }
+
+  /* Top spacer strip */
+  .topline{
+    height:28px;
+    background:#fafafa;
+    border-bottom:1px solid #eee;
+  }
+
+  /* Navigation */
+  .nav{
+    width:100%;
+    background:#ffffff;
+    position:relative;
+  }
+  .nav ul{
+    list-style:none;
+    margin:22px auto 26px;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    gap:54px;
+    max-width:1100px;
+  }
+  .nav a{
+    text-decoration:none;
+    color:#222;
+    font-size:20px;
+    letter-spacing:.3px;
+  }
+  .nav a:hover{ text-decoration:underline }
+
+  /* Banner placeholder (light, like a faded hero) */
+  .hero-wrap{
+    width:86%;
+    height:120px;
+    background:var(--light);
+    margin:0 auto 54px;
+    border:1px solid #efefef;
+  }
+  .hero-wrap img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    opacity:.08;             /* keep it very light like the screenshot */
+    display:block;
+  }
+
+  /* Article */
+  .container{
+    max-width:980px;
+    margin:0 auto 70px;
+  }
+  .date{
+    font-size:44px;
+    color:#3a3a3a;
+    letter-spacing:.4px;
+    margin:0 0 26px 0;
+  }
+  .title{
+    text-align:center;
+    font-size:28px;
+    letter-spacing:.2px;
+    color:#3d3d3d;
+    margin:6px 0 28px;
+  }
+  .content{
+    max-width:890px;
+    margin:0 auto;
+  }
+  .content p{
+    font-size:15px;
+    line-height:1.95;
+    color:#4e4e4e;
+    margin:0 0 16px 0;
+  }
+  .signature{
+    margin-top:26px;
+    color:#3a3a3a;
+  }
+  .meta{
+    margin-top:26px;
+    font-size:14px;
+    color:#777;
+    letter-spacing:.3px;
+  }
+  .meta a{
+    color:var(--link);
+    text-decoration:none;
+    border-bottom:1px solid rgba(42,165,94,.3);
+  }
+  .meta a:hover{ border-color:transparent; text-decoration:underline }
+
+  /* Footer */
+  .footer{
+    text-align:center;
+    margin:70px auto 20px;
+    color:#6c6c6c;
+    font-size:14px;
+    line-height:1.9;
+    max-width:1100px;
+  }
+  .footer a{ color:#1e73be; text-decoration:none }
+  .footer a:hover{ text-decoration:underline }
+  .charity{
+    text-align:center;
+    color:#7b7b7b;
+    font-size:13px;
+    margin-top:10px;
+  }
+
+  /* Plugin pill */
+  .plugin{
+    width:520px;
+    max-width:86%;
+    margin:26px auto 40px;
+    background:#111;
+    color:#d8d8d8;
+    border-radius:3px;
+    padding:10px 14px 12px;
+    text-align:left;
+    box-shadow:0 1px 0 rgba(0,0,0,.25);
+  }
+  .plugin .row{
+    display:flex; align-items:center; gap:10px;
+    font-size:14px; color:#eaeaea;
+  }
+  .plugin .dot{
+    width:14px;height:14px;background:#3bd16b;border-radius:2px;flex:0 0 14px;
+  }
+  .plugin small{
+    display:block; margin-left:24px; color:#9a9a9a; font-size:11px; margin-top:3px;
+  }
+
+  @media (max-width:900px){
+    .nav ul{ gap:28px; flex-wrap:wrap }
+    .date{ font-size:38px }
+    .title{ font-size:24px }
+  }
+</style>
+</head>
+<body>
+  <div class="topline"></div>
+
+  <nav class="nav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Support Us</a></li>
+      <li><a href="#">Resources</a></li>
+      <li><a href="#">Diary of Events</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero-wrap">
+    <img src="src/placeholder.jpg" alt="">
+  </div>
+
+  <main class="container">
+    <h1 class="date">26th May 2020</h1>
+    <h2 class="title">"Sanctify them through thy truth: thy word is truth." John 17:17</h2>
+
+    <div class="content">
+      <p>When the gospel comes "not in word only, but also in power," it comes "in the Holy Ghost," that is, in and with the teaching and testimony of the Holy Ghost. It is this coming "in the Holy Ghost" which gives truth in its power such a sanctifying influence on the heart. But you will ask, perhaps, What is a sanctifying influence? It is the communication of holy feelings, heavenly desires, and gracious affections; in a word, it is the breathing into the soul of that sweet spirituality of mind which is life and peace. If we are among the people of God, he chose us in Christ "before the foundation of the world, that we should be holy and without blame before him in love." If he chasten us in this time-state, it is "for our profit, that we might be partakers of his holiness" (Heb. 12:10). It is this holiness of heart, this heavenly-mindedness which I mean when I speak of the sanctifying influence of truth in its power. Now did truth ever come into your soul with any measure of this sanctifying influence? Did you ever long to get away from the chapel, go home to your room, fall upon your knees, and have blessed fellowship with the Father and his Son Jesus Christ? And were you ever so favoured when you did get home? Or sometimes when alone, in reading, or meditation, or secret prayer, did the word of God ever come into your soul with that sweet unction, savour, and dew that it seemed to make the very room in which you were holy ground? I remember when God was pleased to reveal his dear Son to my soul in my sick room many years ago, I was afraid almost to go out of my room lest I should lose the sweet, holy feelings and blessed spirituality of mind which I then and there enjoyed. Depend upon it, there is a holiness of heart and affection, an inward holiness, without which no man shall see the Lord; and depend upon it, whenever truth comes into a believer's soul, it comes with that sanctifying influence, which not only gives him a meetness for, but is a blessed foretaste of the inheritance of the saints in light.</p>
+
+      <p class="signature">J. C. Philpot 1802-1869</p>
+
+      <p class="meta">Written by <a href="#">Christian Watch</a> on . Posted in <a href="#">Devotionals</a></p>
+    </div>
+  </main>
+
+  <div class="footer">
+    So then faith cometh by hearing, and hearing by the word of God. (Romans 10.17) | Copyright Â© 2012 â 2021
+    <a href="#">Christian Watch</a>
+  </div>
+  <div class="charity">Registered UK Charity Number 1095108</div>
+
+  <div class="plugin">
+    <div class="row">
+      <span class="dot"></span>
+      <strong>Optimized by Seraphinite Accelerator</strong>
+    </div>
+    <small>Turns on site high speed to be attractive for people and search engines.</small>
+  </div>
+</body>
+</html>

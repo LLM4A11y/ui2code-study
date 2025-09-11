@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Question Page Mock</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  :root{
+    --cream:#f4efe6;
+    --paper:#ffffff;
+    --border:#e7e0d6;
+    --text:#2d2d2d;
+    --muted:#8b8b8b;
+    --link:#cf3a2e;
+    --gold:#f8c928;
+  }
+  html,body{margin:0;padding:0;background:var(--cream);color:var(--text);font-family: "Helvetica Neue", Arial, sans-serif;}
+  a{color:var(--link);text-decoration:none;}
+  .topbar{
+    background:#efe9df;
+    text-align:center;
+    padding:10px 0 12px;
+    border-bottom:1px solid #ece3d8;
+    font-size:11px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:#e16b53;
+  }
+  .topbar a{margin:0 14px;color:#e16b53;}
+  .hero{padding:28px 0 24px;text-align:center;}
+  .hero img{width:420px;height:260px;object-fit:cover;display:inline-block;border-radius:2px;box-shadow:0 0 0 1px #e6dfd5;}
+  .mainnav{
+    background:#f6f1ea;
+    border-top:1px solid #ece4d9;
+    border-bottom:1px solid #ece4d9;
+  }
+  .mainnav .inner{max-width:1060px;margin:0 auto;padding:14px 8px;text-align:center;}
+  .mainnav a{margin:0 18px;color:#6f6b66;font-size:14px}
+  .wrap{max-width:1060px;margin:22px auto;display:flex;gap:28px;align-items:flex-start;}
+  .left{flex:1;min-width:0;}
+  .right{width:310px;}
+  .card{
+    background:var(--paper);
+    border:1px solid var(--border);
+    box-shadow:0 1px 0 #f0e9df inset;
+  }
+  .crumbs{padding:10px 16px;margin-bottom:14px}
+  .crumbs small{color:#9f9a94}
+  .adbox{padding:14px;border:1px solid var(--border);background:#faf7f2;}
+  .adbox .bar{height:44px;background:#ffe07a;border-radius:2px;position:relative;border:1px solid #f0d06d}
+  .adbox .bar::before{content:"";position:absolute;left:16px;top:10px;width:120px;height:24px;background:#fff;border-radius:2px;box-shadow:inset 0 0 0 8px #f3c214;}
+  .sidecard{background:var(--paper);border:1px solid var(--border);}
+  .sidecard h4{margin:0;padding:16px 18px;border-bottom:1px solid var(--border);font-size:12px;letter-spacing:2px;color:#8c857d;text-transform:uppercase;}
+  .sidecard ul{list-style:none;margin:0;padding:12px 18px 18px;}
+  .sidecard li{margin:10px 0;color:var(--link);font-size:14px;line-height:1.35}
+  .content{background:var(--paper);border:1px solid var(--border);padding:20px 24px}
+  .tags{margin:6px 0 12px}
+  .tag{
+    display:inline-block;background:#f4c22b;color:#fff;font-weight:700;border-radius:3px;
+    padding:6px 10px;margin-right:6px;font-size:12px;text-transform:none;
+  }
+  h1{font-family:Georgia, "Times New Roman", serif;font-size:22px;margin:10px 0 14px}
+  .options{margin:4px 0 18px}
+  .options div{color:#d3463b;margin:10px 0;font-size:16px}
+  .answer{font-family:Georgia, "Times New Roman", serif;font-weight:700;font-size:18px;margin:18px 0 6px}
+  .exp{font-family:Georgia, "Times New Roman", serif;font-weight:700;margin:6px 0 10px}
+  .bodytext{color:#6e6b66;line-height:1.6;font-size:14px;max-width:670px}
+  .btn{
+    display:inline-block;border:1px solid #bdb7ad;background:#f6f2ec;color:#58534b;border-radius:3px;
+    padding:6px 10px;font-size:13px;margin-top:16px;
+  }
+  .sharebar{display:flex;gap:16px;margin:24px 0 8px}
+  .share{flex:none;min-width:120px;border-radius:4px;color:#fff;text-align:center;padding:12px 14px;font-weight:700;font-size:13px}
+  .s1{background:#4aa6df}
+  .s2{background:#425aa0}
+  .s3{background:#ef6a4f}
+  .s4{background:#1283b2}
+  .s5{background:#c7342f}
+  .section-title{background:#f6f1ea;border:1px solid var(--border);padding:12px 16px;color:#8d897f;font-size:12px;letter-spacing:2px;text-transform:uppercase;margin:18px 0 10px}
+  .comments .head{background:#f6f1ea;border:1px solid var(--border);padding:12px 16px;margin-top:14px;color:#8d897f;font-size:12px;letter-spacing:2px;text-transform:uppercase}
+  .comments .box{background:#fff;border:1px solid var(--border);height:360px;margin:0 0 26px;padding:10px}
+  footer{background:#1c1c1c;color:#fff;text-align:center;padding:22px 10px;font-size:12px;margin-top:28px}
+  /* breadcrumbs subtle bar above content like in screenshot */
+  .ghost-row{
+    display:grid;grid-template-columns:2fr 1fr;gap:24px;max-width:1060px;margin:0 auto 16px;
+  }
+  .ghost{
+    height:38px;border:1px solid var(--border);background:#faf7f2;
+  }
+  @media (max-width:1000px){
+    .wrap{flex-direction:column}
+    .right{width:auto}
+  }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <a href="#">About</a>
+  <a href="#">Disclaimer</a>
+  <a href="#">Sitemap</a>
+  <a href="#">Contact</a>
+  <a href="#">Privacy Policy</a>
+  <a href="#">Visit Kerala PSC</a>
+</div>
+
+<div class="hero">
+  <img src="src/placeholder.jpg" alt="Hero Placeholder">
+</div>
+
+<nav class="mainnav">
+  <div class="inner">
+    <a href="#">Home</a>
+    <a href="#">Notifications</a>
+    <a href="#">Mock Exams</a>
+    <a href="#">Previous Questions</a>
+    <a href="#">Syllabus</a>
+    <a href="#">Answer Key</a>
+    <a href="#">Study Materials</a>
+    <a href="#">Youtube</a>
+  </div>
+</nav>
+
+<div class="ghost-row">
+  <div class="ghost"></div>
+  <div class="ghost"></div>
+</div>
+
+<div class="wrap">
+  <div class="left">
+    <div class="card crumbs">
+      <small>Home  >  Facts on India  >  General Knowledge  >  Years</small>
+    </div>
+
+    <div class="content">
+      <div class="tags">
+        <span class="tag">Facts on India</span>
+        <span class="tag">General Knowledge</span>
+        <span class="tag">Years</span>
+      </div>
+
+      <h1>The Indian Oil Corporation was set up in which year?</h1>
+
+      <div class="options">
+        <div>A - 1964</div>
+        <div>B - 1965</div>
+        <div>C - 1966</div>
+        <div>D - 1970</div>
+      </div>
+
+      <div class="answer">Answer : A</div>
+      <div class="exp">Explanation</div>
+      <p class="bodytext">
+        Indian Oil Corporation is an Indian state owned oil and gas company primarily headquartered in New Delhi. It is the largest commercial oil company in the country.
+      </p>
+
+      <a class="btn" href="#">Show Answer</a>
+
+      <div class="sharebar">
+        <div class="share s1">Tweet</div>
+        <div class="share s2">Share</div>
+        <div class="share s3">Share</div>
+        <div class="share s4">Share</div>
+        <div class="share s5">Share</div>
+      </div>
+    </div>
+
+    <div class="section-title">Related Posts</div>
+
+    <div class="comments">
+      <div class="head">0 Comments:</div>
+      <div class="box"></div>
+    </div>
+  </div>
+
+  <aside class="right">
+    <div class="adbox">
+      <div class="bar"></div>
+    </div>
+
+    <div class="sidecard" style="margin-top:16px;">
+      <h4>Latest Questions</h4>
+      <ul>
+        <li><a href="#">Let us go for a walk, Question tag?</a></li>
+        <li><a href="#">Who conducted Panthi Bhojanam first time in India ?</a></li>
+        <li><a href="#">She sang well, ______ ? (Question Tag)</a></li>
+        <li><a href="#">I congratulate you ______ your success.</a></li>
+        <li><a href="#">The founder of 'Samathwa Samajam'</a></li>
+        <li><a href="#">There is an exception ______ every rule.</a></li>
+        <li><a href="#">He died _____ a severe head injury.</a></li>
+        <li><a href="#">Who conducted "Panthi Bhojanam" for the first time in India?</a></li>
+        <li><a href="#">Who founded the Vidya Poshini Sabha?</a></li>
+        <li><a href="#">Who, among the following, has the final right to sanction the expenditure of public money in India ?</a></li>
+      </ul>
+    </div>
+  </aside>
+</div>
+
+<footer>
+  Created with by YeeLearners.com - YeLearners
+</footer>
+
+</body>
+</html>

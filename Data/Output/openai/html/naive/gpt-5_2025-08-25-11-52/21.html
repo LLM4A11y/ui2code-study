@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pritchard Memorial Baptist Church</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --text:#222;
+    --muted:#6b6f77;
+    --link:#2f6db4;
+    --red:#ce1a2b;
+    --lime:#b4c149;
+    --sky:#9fc0da;
+    --btn:#0c0c0c;
+    --bg-light:#f4f4f4;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:#fff;
+    color:var(--text);
+    font-family:"Source Sans Pro",system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  }
+
+  /* top spacer like site header bottom divider */
+  .topbar{
+    height:78px;
+    border-bottom:1px solid #e8e8e8;
+    background:#fff;
+  }
+
+  .container{
+    max-width:1040px;
+    margin:0 auto;
+    padding:24px 16px 0;
+  }
+
+  /* breadcrumb/tags */
+  .tags{
+    display:flex;
+    gap:18px;
+    font-size:14px;
+    color:#6e9acc;
+    margin:2px 0 20px;
+  }
+  .tags a{color:#6e9acc;text-decoration:none}
+  .tags a:hover{text-decoration:underline}
+
+  .content{
+    display:grid;
+    grid-template-columns: 1fr 320px;
+    gap:48px;
+    align-items:start;
+  }
+
+  /* left column */
+  h1{
+    font-size:38px;
+    line-height:1.15;
+    margin:8px 0 14px;
+    font-weight:700;
+    letter-spacing:.1px;
+  }
+  .lead{
+    font-size:17px;
+    line-height:1.7;
+    color:var(--muted);
+    max-width:560px;
+    margin-bottom:16px;
+  }
+
+  .left-wrap{
+    position:relative;
+  }
+  .feature{
+    float:right;
+    width:240px;
+    height:240px;
+    margin:4px 0 18px 28px;
+    background:#1f2cff;
+    border-radius:2px;
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .feature img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    opacity:.0; /* reserve space but keep the blue placeholder look */
+  }
+
+  .section-label{
+    margin:6px 0 8px;
+    font-weight:700;
+    font-size:14px;
+    color:var(--red);
+    text-transform:uppercase;
+    letter-spacing:.7px;
+  }
+  .hours{
+    color:var(--text);
+    font-size:16px;
+    line-height:1.8;
+  }
+  .edit-link{
+    margin-top:12px;
+    font-size:15px;
+  }
+  .edit-link a{color:#3f79c2;text-decoration:none}
+  .edit-link a:hover{text-decoration:underline}
+
+  /* right column cards */
+  aside{position:relative}
+  .sticker{
+    position:absolute;
+    right:18px;
+    top:-26px;
+    width:56px;height:56px;border-radius:50%;
+    background:#8fb2d5;
+    box-shadow:0 2px 0 rgba(0,0,0,.08);
+  }
+  .sticker.red{
+    right:-6px; top:-10px;
+    width:46px;height:46px;background:#c83132;
+  }
+
+  .card{
+    border-radius:2px;
+    padding:18px 18px 20px;
+    color:#fff;
+    margin-bottom:18px;
+  }
+  .card.lime{background:var(--lime)}
+  .card.sky{background:var(--sky)}
+  .card h3{
+    margin:2px 0 8px;
+    font-size:26px;
+    line-height:1.2;
+    font-weight:800;
+    letter-spacing:.2px;
+  }
+  .card p{
+    margin:0;
+    font-size:15px;
+    line-height:1.6;
+  }
+
+  .findus{
+    background:var(--btn);
+    color:#fff;
+    text-align:center;
+    padding:12px 14px;
+    font-weight:800;
+    letter-spacing:2px;
+    font-size:14px;
+    margin:10px 0 22px;
+  }
+
+  .side-info{
+    color:var(--muted);
+    font-size:15px;
+    line-height:1.8;
+  }
+  .side-info h4{
+    color:var(--link);
+    margin:0 0 8px;
+    font-size:20px;
+    font-weight:700;
+  }
+  .side-info a{
+    color:var(--link);
+    text-decoration:none;
+  }
+  .side-info a:hover{text-decoration:underline}
+
+  .nearby{
+    margin-top:18px;
+  }
+  .nearby h5{
+    color:var(--red);
+    font-weight:800;
+    font-size:13px;
+    letter-spacing:.8px;
+    margin:6px 0 8px;
+  }
+  .nearby ul{
+    list-style:none;
+    padding:0;margin:0;
+  }
+  .nearby li{
+    margin:6px 0;
+  }
+
+  /* footer */
+  .footer{
+    margin-top:70px;
+    background:var(--bg-light);
+    border-top:1px solid #e8e8e8;
+  }
+  .footer .inner{
+    max-width:1040px;
+    margin:0 auto;
+    padding:26px 16px 48px;
+    font-size:15px;
+    color:var(--muted);
+    line-height:1.9;
+  }
+  .footer a{color:#3f79c2;text-decoration:none}
+  .footer a:hover{text-decoration:underline}
+  .dotrow{
+    display:flex;
+    gap:12px;
+    margin:10px 0 14px;
+  }
+  .dot{
+    width:16px;height:16px;border-radius:50%;
+    background:#3a73c6;
+  }
+  .dot.teal{background:#2c7db1}
+  .dot.red{background:#d33a44}
+  .dot.pink{background:#d3299a}
+</style>
+</head>
+<body>
+  <div class="topbar"></div>
+
+  <div class="container">
+    <div class="tags">
+      <a href="#">Free!</a>
+      <a href="#">Festivals</a>
+      <a href="#">Kids & Families</a>
+      <a href="#">Last Chance</a>
+    </div>
+
+    <div class="content">
+      <div class="left-wrap">
+        <div class="feature">
+          <img src="src/placeholder.jpg" alt="">
+        </div>
+
+        <h1>Pritchard Memorial Baptist Church</h1>
+
+        <p class="lead">
+          Pritchard Memorial Baptist Church has a great deal to offer families here in Charlotte. Pritchard has a history of being a warm, loving family of faith, open to embracing new people.
+        </p>
+
+        <div class="section-label">Hours & Admission</div>
+        <div class="hours">
+          Sunday: 9:15 am - Sunday School 10:30 am - Worship Celebration Wednesdays: 5:00 pm - Fellowship Dinner 6:00 pm - Prayer and Bible Study
+        </div>
+
+        <div class="edit-link"><a href="#">Update this page</a></div>
+      </div>
+
+      <aside>
+        <div class="sticker"></div>
+        <div class="sticker red"></div>
+
+        <div class="card lime">
+          <h3>CulturePicks!</h3>
+          <p>Sign up for our weekly highlights email and never miss an event!</p>
+        </div>
+
+        <div class="card sky">
+          <h3>Connect to Cultural Community</h3>
+          <p>The latest stories from ASC's blog</p>
+        </div>
+
+        <div class="findus">FIND US</div>
+
+        <div class="side-info">
+          <h4>Pritchard Memorial Baptist Church</h4>
+          1117 South Boulevard<br>
+          Charlotte, NC 28203<br>
+          [PHONE REDACTED] phone
+          <br><br>
+          <a href="#">Visit official website</a><br>
+          <a href="#">Directions</a><br>
+          <a href="#">Add to favorites</a>
+
+          <div class="nearby">
+            <h5>Whatâs Nearby</h5>
+            <ul>
+              <li><a href="#">YMCA of Greater Charlotte</a></li>
+              <li><a href="#">YMCA - Dowd</a></li>
+              <li><a href="#">The Packhouse</a></li>
+              <li><a href="#">Charlotte Magazine</a></li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="inner">
+      <div><strong>Contributing Organizations</strong></div>
+      <div><a href="#">Log in</a> Â· <a href="#">List your organization</a> Â· <a href="#">Submit an event</a></div>
+
+      <div style="margin-top:16px;"><strong>Charlotte Culture Guide</strong></div>
+      <div>
+        About ASC Â· <a href="#">FAQs</a> Â· <a href="#">Directory</a> Â· <a href="#">Privacy policy</a> Â· [EMAIL REDACTED]
+      </div>
+
+      <div class="dotrow">
+        <span class="dot"></span>
+        <span class="dot teal"></span>
+        <span class="dot red"></span>
+        <span class="dot pink"></span>
+      </div>
+
+      <div>
+        Charlotte Culture Guide is a project of <a href="#">ASC</a>.<br>
+        Copyright Â© 2023, Arts and Science Council. All rights reserved.<br>
+        Website developed by <a href="#">Zero Defect Design LLC</a>.
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

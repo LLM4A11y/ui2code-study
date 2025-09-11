@@ -1,0 +1,22 @@
+{
+  "model": "openai",
+  "prompt_strategy": "naive",
+  "dates": [
+    "2025-08-18-12-10",
+    "2025-08-18-11-52",
+    "2025-08-18-12-24"
+  ],
+  "result_files_processed": 3,
+  "average_final_score": 0.8854,
+  "average_final_size_score": 0.8487,
+  "average_final_matched_text_score": 0.9705,
+  "average_final_position_score": 0.864,
+  "average_final_text_color_score": 0.8355,
+  "average_final_clip_score": 0.9081,
+  "total_ir": 0.1172,
+  "total_iwir": 0.4765,
+  "total_status_counts": {
+    "Yellow": 27,
+    "Green": 3
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "manual": {
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 4,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
+  },
+  "automatic": [
+    {
+      "wcag_id": null,
+      "url": "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-banner",
+      "impact": "tbd",
+      "name": "tbd",
+      "amount_nodes_failed": 1,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-banner",
+          "source": "axe-core",
+          "title": "Document should not have more than one banner landmark",
+          "description": "Ensure the document has at most one banner landmark",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "page-no-duplicate-banner",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<header class=\"header\">\n        <h1>Page Title</h1>\n        <div class=\"nav-links\">\n            <div>Community</div>\n            <div>Answers</div>\n            <div>App</div>\n        </div>\n    </header>",
+                    "target": [
+                      ".header"
+                    ]
+                  }
+                ],
+                "impact": "moderate",
+                "message": "Document has more than one banner landmark"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<header class=\"top-bar\" aria-label=\"Main menu\">\n        <a href=\"#\">Home</a>\n        <a href=\"#\">Answers</a>\n        <a href=\"#\">Destinations</a>\n        <a href=\"#\">Guangzhou</a>\n        <a href=\"#\">Transportation</a>\n    </header>",
+            "target": [
+              ".top-bar"
+            ],
+            "failureSummary": "Fix any of the following:\n  Document has more than one banner landmark"
+          }
+        }
+      ]
+    }
+  ]
+}

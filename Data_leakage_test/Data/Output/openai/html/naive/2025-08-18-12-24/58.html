@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        .navbar {
+            background-color: #0080ff;
+            padding: 10px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .navbar input[type="text"] {
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .main {
+            display: flex;
+            padding: 20px 50px;
+            background-color: white;
+            justify-content: space-between;
+        }
+        .sidebar {
+            width: 200px;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        .sidebar-item {
+            margin: 5px 0;
+            cursor: pointer;
+        }
+        .content {
+            flex-grow: 1;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .content img {
+            width: 400px;
+            height: 300px;
+            margin-bottom: 15px;
+            background-color: blue;
+        }
+        .product {
+            text-align: center;
+            margin: 0 15px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .footer img {
+            position: absolute;
+            right: 50px;
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div>
+            <a href="#">ShopVora</a>
+            <a href="#">Home</a>
+            <a href="#">Electronics <span>&#9660;</span></a>
+            <a href="#">Fashion <span>&#9660;</span></a>
+        </div>
+        <div>
+            <input type="text" placeholder="Search">
+            <a href="#">Login</a>
+            <a href="#">Registration</a>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="sidebar">
+            <div class="sidebar-item">All Mobile</div>
+            <div class="sidebar-item">Apple</div>
+            <div class="sidebar-item">Xiaomi</div>
+            <div class="sidebar-item">Samsung</div>
+            <div class="sidebar-item">Below 15000</div>
+            <div class="sidebar-item">Above 15000</div>
+        </div>
+        <div class="content">
+            <div class="product">
+                <img src="src/placeholder.jpg" alt="Product Image">
+                <div>Mobile 1</div>
+                <div><strong>66155.0 TL</strong> <span style="text-decoration: line-through;">68999.0</span></div>
+            </div>
+            <div class="product">
+                <div>Mobile 2</div>
+                <div><strong>33499.0 TL</strong> <span style="text-decoration: line-through;">34999.0</span></div>
+            </div>
+            <div class="product">
+                <div>Mobile 3</div>
+                <div><strong>8820.0 TL</strong> <span style="text-decoration: line-through;">9000.0</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div>Copyright Â© 2025 || Re-edited by NuranFerhan ||</div>
+        <img src="src/placeholder.jpg" alt="Product Image">
+    </div>
+
+</body>
+</html>

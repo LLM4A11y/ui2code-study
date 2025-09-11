@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bookstore</title>
+<style>
+  :root{
+    --text:#0b0b0b;
+    --muted:#333;
+    --blue:#1e33ff;
+  }
+  html,body{
+    height:100%;
+  }
+  body{
+    margin:0;
+    background:#fff;
+    color:var(--text);
+    font-family: Helvetica, Arial, sans-serif;
+    line-height:1.45;
+  }
+
+  .wrap{
+    max-width:1180px;
+    margin:0 auto;
+    padding:28px 24px 60px;
+    display:grid;
+    grid-template-columns:280px 1fr 320px;
+    column-gap:24px;
+    min-height:100vh;
+    box-sizing:border-box;
+  }
+
+  /* Left column */
+  .logo{
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight:700;
+    font-size:92px;
+    line-height:0.9;
+    letter-spacing:-1px;
+    display:flex;
+    gap:68px;
+    align-items:flex-start;
+    margin-top:6px;
+  }
+
+  .nav{
+    display:flex;
+    gap:64px;
+    margin-top:18px;
+  }
+  .nav ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+  }
+  .nav li{
+    font-size:13px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    margin:7px 0;
+  }
+
+  .address{
+    margin-top:260px;
+    font-size:14px;
+    color:var(--muted);
+  }
+
+  .icons{
+    display:grid;
+    grid-template-columns:repeat(3,36px);
+    gap:16px 22px;
+    margin-top:14px;
+    width:max-content;
+  }
+  .icons img{
+    width:36px;
+    height:36px;
+    display:block;
+    background:var(--blue);
+    object-fit:cover;
+  }
+
+  /* Center column */
+  .center{
+    text-align:center;
+    padding-top:10px;
+  }
+  h1{
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight:700;
+    font-size:68px;
+    margin:8px 0 28px;
+  }
+  .intro{
+    max-width:640px;
+    margin:0 auto 56px;
+    font-size:16px;
+    color:var(--muted);
+  }
+  .intro a{
+    color:#000;
+    text-decoration:underline;
+  }
+  h2{
+    font-family: Georgia, "Times New Roman", serif;
+    font-size:36px;
+    letter-spacing:1px;
+    margin:0 0 24px;
+  }
+  .hours{
+    font-size:16px;
+    text-transform:uppercase;
+    letter-spacing:.5px;
+    margin:6px 0 16px;
+  }
+  .note{
+    color:var(--muted);
+    font-size:15px;
+    margin-top:10px;
+  }
+
+  /* Right column */
+  .right{
+    padding-top:210px;
+  }
+  .contact h3{
+    margin:0 0 6px;
+    font-size:13px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+  }
+  .contact p{
+    margin:0 0 18px;
+    font-size:15px;
+    color:var(--muted);
+  }
+
+  @media (max-width:1024px){
+    .wrap{
+      grid-template-columns:220px 1fr 260px;
+    }
+    .logo{font-size:76px; gap:48px;}
+  }
+
+  @media (max-width:860px){
+    .wrap{
+      grid-template-columns:1fr;
+      row-gap:30px;
+    }
+    .right{padding-top:0;}
+    .address{margin-top:40px;}
+    .center{order:3;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <aside class="left">
+      <div class="logo"><span>vi</span><span>per</span></div>
+
+      <div class="nav">
+        <ul>
+          <li>EXHIBITIONS</li>
+          <li>EVENTS</li>
+          <li>NEWS</li>
+          <li>ABOUT</li>
+        </ul>
+        <ul>
+          <li>NEWSLETTER</li>
+          <li>FACEBOOK</li>
+          <li>TWITTER</li>
+          <li>INSTAGRAM</li>
+        </ul>
+      </div>
+
+      <div class="address">
+        <div>[ADDRESS REDACTED]</div>
+        <div>[ADDRESS REDACTED]</div>
+        <div>Czech Republic</div>
+        <div>WEDâFRI 13â19, SAT 14â18</div>
+
+        <div class="icons">
+          <img src="src/placeholder.jpg" alt="">
+          <img src="src/placeholder.jpg" alt="">
+          <img src="src/placeholder.jpg" alt="">
+          <img src="src/placeholder.jpg" alt="">
+          <img src="src/placeholder.jpg" alt="">
+        </div>
+      </div>
+    </aside>
+
+    <main class="center">
+      <h1>Bookstore</h1>
+      <p class="intro">
+        The gallery space includes a bookstore that specialises in architecture.<br>
+        It is also possible to order books via email on <a href="#">[EMAIL REDACTED]</a>.
+      </p>
+
+      <h2>OPENING HOURS</h2>
+      <p class="hours">WEDâFRI 13â19, SAT 14â18</p>
+      <p class="note">It opens during the gallery opening hours.</p>
+    </main>
+
+    <aside class="right">
+      <div class="contact">
+        <h3>CONTACT</h3>
+        <p>[EMAIL REDACTED]<br>[PHONE REDACTED]</p>
+
+        <h3>CORRESPONDENCE<br>& DELIVERY ADDRESS</h3>
+        <p>[ADDRESS REDACTED]<br>Pernerova 293/11<br>186 00 Praha 8<br>Czech Republic</p>
+
+        <h3>COMPANY & BILLING<br>ADDRESS</h3>
+        <p>Ing. Jana MargoldovÃ¡<br>PÅedvoje 430/22<br>162 00 Praha 6<br>Czech Republic</p>
+      </div>
+    </aside>
+  </div>
+</body>
+</html>

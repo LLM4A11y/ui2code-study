@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #212529;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .header {
+            width: 100%;
+            background-color: #008080;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+        .header img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .header h1 {
+            font-size: 18px;
+            color: white;
+            margin: 0;
+        }
+        .content {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .content h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .content p {
+            font-size: 16px;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 30px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        .card h3 {
+            margin-top: 0;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .input-group {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .input-group input {
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ced4da;
+            border-radius: 10px;
+            width: 200px;
+            margin-right: 10px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 14px;
+            border-radius: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+            margin-right: 10px;
+        }
+        .teach {
+            background-color: #6a5acd;
+        }
+        .learn {
+            background-color: #ff7f50;
+        }
+        .card p {
+            margin: 0;
+            color: #6c757d;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="src/placeholder.jpg" alt="Logo">
+        <h1>Alpha One Labs</h1>
+    </div>
+
+    <div class="content">
+        <h2>Explore Subjects</h2>
+        <p>Browse exciting topics, see how many people are interested, and find out if there's already a teacher or not.</p>
+        
+        <div class="card">
+            <h3>Express Your Interest</h3>
+            <div class="input-group">
+                <input type="text" placeholder="Enter a subject...">
+                <a href="#" class="button teach">â¡ Teach</a>
+                <a href="#" class="button learn">â¡ Learn</a>
+            </div>
+            <p>Share what you'd like to learn or teach, and we'll help make it happen!</p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>aws_autoscaling_lifecycle_hook</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root{
+    --bg:#f5f7fa;
+    --text:#2a2f36;
+    --muted:#7b8794;
+    --link:#2b7bbb;
+    --border:#e4e7eb;
+    --code-bg:#f9fbff;
+    --code-border:#e5ecf6;
+    --heading:#1f2933;
+    --footer:#2b313a;
+    --footer-text:#c9d2dc;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  }
+
+  /* Top navigation */
+  .topbar{
+    height:68px;
+    background:#fff;
+    border-bottom:1px solid var(--border);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:sticky;
+    top:0;
+    z-index:5;
+  }
+  .topbar .inner{
+    width:1150px;
+    padding:0 24px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+  .nav{
+    display:flex;
+    gap:28px;
+    letter-spacing:.02em;
+  }
+  .nav a{
+    text-decoration:none;
+    color:#6b7787;
+    font-weight:600;
+    font-size:13px;
+    text-transform:uppercase;
+  }
+  .nav a:hover{color:var(--link)}
+  .nav.right{gap:22px}
+
+  /* Layout */
+  .wrap{
+    width:1150px;
+    margin:28px auto 60px;
+    padding:0 24px;
+    display:grid;
+    grid-template-columns:260px 1fr;
+    gap:38px;
+  }
+
+  /* Sidebar */
+  .side{
+    color:#49525c;
+  }
+  .side h4{
+    margin:14px 0 8px;
+    font-size:13px;
+    color:#8a94a3;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:.04em;
+  }
+  .side a,
+  .side li{
+    color:#405261;
+    text-decoration:none;
+    font-size:14px;
+    line-height:1.8;
+    display:block;
+  }
+  .side .group{
+    margin-bottom:10px;
+  }
+  .side ul{list-style:none; padding-left:0; margin:0}
+  .side .indent{padding-left:12px}
+  .side .section{margin:10px 0}
+  .side .active{
+    color:var(--link);
+    font-weight:700;
+  }
+  .side .stack-title{
+    font-weight:700;
+    color:#2f3b46;
+    margin:18px 0 6px;
+  }
+
+  /* Main content */
+  .content h1{
+    margin:6px 0 6px;
+    font-size:34px;
+    line-height:1.2;
+    color:var(--heading);
+    font-weight:700;
+  }
+  .content p{color:#4b5563; margin:8px 0 18px}
+
+  .section-title{
+    font-size:20px;
+    font-weight:700;
+    color:#2d3640;
+    margin:26px 0 12px;
+  }
+
+  /* Code block */
+  .code-wrap{
+    position:relative;
+    background:#fff;
+    border:1px solid var(--code-border);
+    border-radius:4px;
+    box-shadow:0 1px 0 rgba(10,22,70,0.05);
+    overflow:hidden;
+  }
+  .code-tabs{
+    position:absolute;
+    top:10px; right:12px;
+    display:flex; gap:6px;
+    z-index:2;
+  }
+  .code-tab{
+    padding:4px 10px;
+    border-radius:3px;
+    font-size:12px;
+    color:#6b7684;
+    background:transparent;
+    border:1px solid transparent;
+    cursor:default;
+  }
+  .code-tab.active{
+    color:#2b6cb0;
+    border-color:#cfe3ff;
+    background:#eef6ff;
+    font-weight:600;
+  }
+  pre{
+    margin:0; padding:18px 18px 18px 18px;
+    background:var(--code-bg);
+    font:13px/1.55 SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;
+    overflow:auto;
+    color:#334155;
+    white-space:pre;
+  }
+  .k{color:#1f6feb}      /* keys */
+  .s{color:#c41a16}      /* strings */
+  .n{color:#0550ae}      /* names */
+  .c{color:#9aa4b2}      /* comments / muted */
+  .v{color:#b07e00}      /* numbers/values */
+  .b{color:#0a7a29}      /* booleans */
+  .o{color:#6b7280}      /* operators/dashes */
+
+  /* Bullets */
+  .bullets{
+    margin:6px 0 26px;
+    padding-left:20px;
+  }
+  .bullets li{
+    margin:10px 0;
+    color:#4b5563;
+  }
+  .bullets b{color:#111827}
+
+  .source{
+    color:#6b7787;
+    font-size:14px;
+    margin:30px 0 60px;
+  }
+  .source a{color:var(--link); text-decoration:none}
+  .source a:hover{text-decoration:underline}
+
+  /* Footer */
+  .footer{
+    background:var(--footer);
+    color:var(--footer-text);
+    padding:36px 0 50px;
+  }
+  .footer .inner{
+    width:1150px;
+    margin:0 auto;
+    padding:0 24px;
+    display:grid;
+    grid-template-columns:1.2fr 1fr 1fr 1fr 1fr;
+    gap:28px;
+  }
+  .brand{
+    font-size:20px;
+    color:#fff;
+    font-weight:800;
+    margin-bottom:14px;
+  }
+  .foot h5{
+    margin:8px 0 12px;
+    color:#e5e9ef;
+    font-size:14px;
+    letter-spacing:.02em;
+    text-transform:uppercase;
+  }
+  .foot a{
+    display:block;
+    text-decoration:none;
+    color:var(--footer-text);
+    font-size:14px;
+    line-height:1.9;
+  }
+  .foot a:hover{color:#fff}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="inner">
+    <nav class="nav left">
+      <a href="#">Features</a>
+      <a href="#">Open Source</a>
+      <a href="#">About</a>
+      <a href="#">Docs</a>
+    </nav>
+    <nav class="nav right">
+      <a href="#">Login</a>
+      <a href="#">Register</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <aside class="side">
+    <div class="group">
+      <a href="#" class="section">Videos</a>
+      <a href="#" class="section">Getting started</a>
+      <a href="#" class="section">Getting more from Koding</a>
+    </div>
+
+    <div class="stack-title">Stack Documentation</div>
+
+    <div class="group">
+      <h4>Configuration</h4>
+      <a href="#" class="section">Providers</a>
+      <ul class="indent">
+        <li><a href="#">Archive</a></li>
+        <li><a href="#">Atlas</a></li>
+        <li><a class="active" href="#">AWS</a></li>
+      </ul>
+    </div>
+
+    <div class="group">
+      <h4>Data Sources</h4>
+    </div>
+
+    <div class="group">
+      <h4>Resources</h4>
+      <ul class="indent">
+        <li><a href="#">aws_alb</a></li>
+        <li><a href="#">aws_alb_listener</a></li>
+        <li><a href="#">aws_alb_listener_rule</a></li>
+        <li><a href="#">aws_alb_target_group</a></li>
+      </ul>
+    </div>
+
+    <div class="group">
+      <h4>Azure Service Management</h4>
+    </div>
+    <div class="group">
+      <h4>Provisioners</h4>
+    </div>
+  </aside>
+
+  <section class="content">
+    <h1>aws_autoscaling_lifecycle_hook</h1>
+    <p>Provides an AutoScaling Lifecycle Hook resource.</p>
+
+    <div class="section-title">Example Usage</div>
+    <div class="code-wrap">
+      <div class="code-tabs">
+        <span class="code-tab active">yaml</span>
+        <span class="code-tab">hcl</span>
+      </div>
+<pre><span class="k">resource</span>:
+  <span class="k">aws_autoscaling_group</span>:
+    <span class="n">foobar</span>:
+      <span class="k">availability_zones</span>:
+        <span class="o">-</span> <span class="s">us-west-2a</span>
+      <span class="k">name</span>: <span class="s">'terraform-test-foobar5'</span>
+      <span class="k">health_check_type</span>: <span class="s">EC2</span>
+      <span class="k">termination_policies</span>:
+        <span class="o">-</span> <span class="s">OldestInstance</span>
+      <span class="k">tag</span>:
+        <span class="k">key</span>: <span class="s">Foo</span>
+        <span class="k">value</span>: <span class="s">foo-bar</span>
+        <span class="k">propagate_at_launch</span>: <span class="b">true</span>
+  <span class="k">aws_autoscaling_lifecycle_hook</span>:
+    <span class="n">foobar</span>:
+      <span class="k">name</span>: <span class="s">foobar</span>
+      <span class="k">autoscaling_group_name</span>: <span class="s">'${aws_autoscaling_group.foobar.name}'</span>
+      <span class="k">default_result</span>: <span class="s">CONTINUE</span>
+      <span class="k">heartbeat_timeout</span>: <span class="v">2000</span>
+      <span class="k">lifecycle_transition</span>: <span class="s">'autoscaling:EC2_INSTANCE_LAUNCHING'</span>
+      <span class="k">notification_metadata</span>: <span class="s">"{
+  "foo": "bar"
+}"</span>
+      <span class="k">notification_target_arn</span>: <span class="s">'arn:aws:sqs:us-east-1:444455556666:queue1'</span>
+      <span class="k">role_arn</span>: <span class="s">'arn:aws:iam::123456789012:role/S3Access'</span></pre>
+    </div>
+
+    <div class="section-title">Argument Reference</div>
+    <p>The following arguments are supported:</p>
+    <ul class="bullets">
+      <li><b>name</b> - (Required) The name of the lifecycle hook.</li>
+      <li><b>autoscaling_group_name</b> - (Required) The name of the Auto Scaling group to which you want to assign the lifecycle hook</li>
+      <li><b>default_result</b> - (Optional) Defines the action the Auto Scaling group should take when the lifecycle hook timeout elapses or if an unexpected failure occurs.</li>
+      <li><b>heartbeat_timeout</b> - (Optional) Defines the amount of time, in seconds, that can elapse before the lifecycle hook times out. When the lifecycle hook times out, Auto Scaling performs the action defined in the DefaultResult parameter</li>
+    </ul>
+
+    <p class="source">See the source of this document at <a href="#">Terraform.io</a></p>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="inner">
+    <div class="foot">
+      <div class="brand">Koding</div>
+    </div>
+    <div class="foot">
+      <h5>For Teams</h5>
+      <a href="#">Platform for Training</a>
+      <a href="#">Pre-Sales Automation</a>
+    </div>
+    <div class="foot">
+      <h5>Resources</h5>
+      <a href="#">Documentation</a>
+      <a href="#">Blog</a>
+      <a href="#">Get Started</a>
+    </div>
+    <div class="foot">
+      <h5>About</h5>
+      <a href="#">About Us</a>
+      <a href="#">Open Source</a>
+    </div>
+    <div class="foot">
+      <h5>Contact</h5>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Email Us</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

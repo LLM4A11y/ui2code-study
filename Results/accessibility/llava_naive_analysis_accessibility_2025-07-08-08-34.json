@@ -1,0 +1,13 @@
+{
+  "summary": {
+    "timestamp": "2025-07-08-08-34",
+    "files_processed": 0,
+    "total_automatic_nodes_failed": 0,
+    "average_automatic_nodes_failed_per_file": 0
+  },
+  "issues_automatic": [],
+  "distribution_sources_automatic": {
+    "absolute": {},
+    "relative": {}
+  }
+}

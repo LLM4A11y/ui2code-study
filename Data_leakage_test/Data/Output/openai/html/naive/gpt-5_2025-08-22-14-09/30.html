@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Captain Marvel (2019) - Movie Point</title>
+<link href="https://fonts.googleapis.com/css2?family=Georgia:wght@700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#f5f5f5;
+    --text:#555;
+    --muted:#8a8a8a;
+    --dark:#333;
+    --accent:#ff3b65;
+    --link:#ff506e;
+    --divider:#e9e9e9;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:#ffffff;color:var(--text);font-family:Inter, Arial, Helvetica, sans-serif;}
+  a{color:var(--link);text-decoration:none}
+  .topline{
+    text-align:center;
+    padding:18px 0 10px;
+    font-size:11px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:#f07b7b;
+  }
+  .topline a{color:#ff6d7f;margin:0 14px;}
+  .wrap{
+    width:1000px;
+    margin:0 auto;
+    padding-bottom:40px;
+  }
+  .layout{
+    display:flex;
+    gap:40px;
+  }
+  aside{
+    width:230px;
+    border-right:1px solid var(--divider);
+    padding-right:20px;
+  }
+  .follow{
+    color:#ff6d7f;
+    font-size:14px;
+    margin:10px 0 12px;
+  }
+  .search{
+    display:flex;
+    gap:6px;
+    margin-bottom:22px;
+  }
+  .search input{
+    width:150px;height:22px;border:1px solid #dcdcdc;padding:3px 6px;font-size:12px;background:#fafafa;
+  }
+  .search button{
+    width:24px;height:22px;border:1px solid #dcdcdc;background:#efefef;font-size:11px;color:#777;
+  }
+  .cat-title{
+    font-weight:800;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    font-size:16px;
+    border-left:4px solid #222;
+    padding-left:10px;
+    margin:16px 0 10px;
+  }
+  .cats{
+    list-style:none;margin:0;padding:0;
+  }
+  .cats li{
+    padding:10px 0;
+    border-bottom:1px solid var(--divider);
+    font-size:13px;
+    color:#666;
+  }
+
+  main{flex:1;}
+  .notice{
+    background:#efefef;
+    border:1px solid #e0e0e0;
+    box-shadow:0 2px 0 rgba(0,0,0,0.06);
+    padding:14px 18px;
+    margin:10px 0 18px;
+    font-weight:900;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    color:#1a1a1a;
+    width:650px;
+  }
+
+  h1{
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:44px;
+    line-height:1.05;
+    color:#5a5a5a;
+    margin:8px 0 2px;
+  }
+  .meta{
+    font-size:12px;color:#9a9a9a;margin-bottom:18px;
+  }
+
+  .post{
+    position:relative;
+    padding-bottom:20px;
+  }
+  .post .thumb-left{
+    float:left;
+    width:170px;height:170px;
+    margin:0 22px 10px 0;
+    object-fit:cover;background:#1827ff;display:block;
+  }
+  .post .text{
+    font-size:14px;line-height:1.7;color:#575757;max-width:400px;
+  }
+  .readmore{
+    display:inline-block;margin-top:8px;color:var(--link);
+  }
+  .thumb-right{
+    position:absolute;
+    right:10px;
+    top:55px;
+    width:250px;height:210px;object-fit:cover;background:#1827ff;display:block;
+  }
+  .tags{
+    clear:both;
+    font-size:12px;color:#9a9a9a;
+    border-top:1px solid var(--divider);
+    padding-top:14px;margin-top:26px;
+  }
+
+  /* Footer */
+  .footer{
+    background:#222;
+    color:#d9d9d9;
+    margin-top:60px;
+  }
+  .footer .inner{
+    width:1000px;margin:0 auto;padding:40px 0 20px;
+  }
+  .footer .promo{
+    width:560px;height:170px;background:#1827ff;margin:0 auto 20px;display:block;object-fit:cover;
+  }
+  .footer .about{
+    width:100%;
+    text-align:left;
+    margin:10px auto 24px;
+    line-height:1.6;
+    color:#cfcfcf;
+  }
+  .cols{
+    display:flex;
+    gap:80px;
+  }
+  .col h4{
+    color:#46e1cf;
+    margin:0 0 8px;font-size:14px;
+  }
+  .col ul{margin:0;padding-left:18px;}
+  .col li{margin:6px 0; color:#f1f1f1; font-size:13px;}
+  .subnav{
+    background:#2f2f2f;color:#eee;
+  }
+  .subnav .bar{
+    width:1000px;margin:0 auto;padding:10px 0;font-size:13px;
+    display:flex;gap:24px;
+  }
+  .subnav a{color:#e8e8e8}
+  .copyright{
+    background:#111;color:#9a9a9a;font-size:12px;
+  }
+  .copyright .bar{width:1000px;margin:0 auto;padding:14px 0;}
+  @media (max-width:1060px){
+    .wrap,.footer .inner,.subnav .bar,.copyright .bar{width:92%;}
+    .notice{width:100%;}
+    .thumb-right{display:none;position:static;margin-top:20px;}
+  }
+</style>
+</head>
+<body>
+  <div class="topline">
+    <a href="#">About</a>
+    <a href="#">Disclaim</a>
+    <a href="#">Sitemap</a>
+    <a href="#">Contact</a>
+    <a href="#">Privacy</a>
+    <a href="#">Kerala PSC</a>
+  </div>
+
+  <div class="wrap">
+    <div class="layout">
+      <aside>
+        <div class="follow">Follow @freemp4movies</div>
+        <div class="search">
+          <input type="text">
+          <button>Go</button>
+        </div>
+        <div class="cat-title">Categories</div>
+        <ul class="cats">
+          <li>Films of 2016</li>
+          <li>Films of 2017</li>
+          <li>2018 movies</li>
+          <li>2019 Movies</li>
+          <li>2020 Movies</li>
+          <li>Action Movies</li>
+          <li>Adventure Movies</li>
+          <li>Animated Films</li>
+          <li>Biographical Films</li>
+          <li>Comedy Films</li>
+          <li>Crime Movies</li>
+          <li>Documentaries</li>
+          <li>Dramatic Films</li>
+          <li>Family Movies</li>
+          <li>Fantasy Films</li>
+          <li>Historical Films</li>
+          <li>Horror Films</li>
+          <li>Musical Films</li>
+          <li>Mystery Movies</li>
+          <li>Romance Films</li>
+          <li>Romantic Movies</li>
+          <li>Sci-Fi Movies</li>
+          <li>Sports Films</li>
+          <li>Thriller Films</li>
+          <li>Uncategorized</li>
+          <li>War Movies</li>
+          <li>Will Smith Films</li>
+        </ul>
+      </aside>
+
+      <main>
+        <div class="notice">Download Captain Marvel 2019 HD Movie Point</div>
+
+        <h1>Captain Marvel (2019)</h1>
+        <div class="meta">Posted on May 28, 2019 by Jessica Smith</div>
+
+        <article class="post">
+          <img class="thumb-left" src="src/placeholder.jpg" alt="">
+          <div class="text">
+            This is the journey of Carol Danvers becoming one of the strongest heroes in the galaxy after Earth gets caught in the crossfire of a galactic war between alien forces. Taking place during the 90s, Captain Marvel is a...
+            <div><a href="#" class="readmore">Read More â</a></div>
+          </div>
+          <img class="thumb-right" src="src/placeholder.jpg" alt="">
+          <div class="tags">
+            2019 Movies, Action Movies, Adventure Movies, Sci-Fi Movies â Download Ben Mendelsohn Movies, Download Captain Marvel 2019 hd movie point, Download Captain Marvel 2019 movies, Download Captain Marvel 2019 openload Movie, Download Captain Marvel 2019 sd movie point, Download Samuel L. Jackson Movies
+          </div>
+        </article>
+      </main>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="inner">
+      <img class="promo" src="src/placeholder.jpg" alt="">
+      <div class="about">
+        Fintech Express is a dedicated media platform delivering informative articles and the latest news about the financial world as they unfold.
+      </div>
+      <div class="cols">
+        <div class="col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li>home</li>
+            <li>contact us</li>
+            <li>About Fintech Express</li>
+            <li>terms and conditions</li>
+            <li>Glossary</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>Top Categories</h4>
+          <ul>
+            <li>Banking</li>
+            <li>Cryptocurrencies</li>
+            <li>Markets</li>
+            <li>Podcast</li>
+            <li>Technology</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="subnav">
+      <div class="bar">
+        <a href="#">home</a>
+        <a href="#">contact us</a>
+        <a href="#">About Fintech Express</a>
+        <a href="#">terms and conditions</a>
+        <a href="#">Glossary</a>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="bar">Â© 2023 Fintech Express. All Rights Reserved</div>
+    </div>
+  </footer>
+</body>
+</html>

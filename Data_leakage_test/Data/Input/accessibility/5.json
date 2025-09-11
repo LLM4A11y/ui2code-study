@@ -1,0 +1,2123 @@
+{
+  "manual": {
+    "checks": {
+      "1.4.4": "tbd",
+      "1.4.10": "tbd",
+      "1.4.12": "tbd",
+      "2.1.1+2.1.2": "tbd",
+      "2.4.3": "tbd",
+      "2.4.6": "tbd",
+      "2.4.7": "tbd"
+    }
+  },
+  "automatic": [
+    {
+      "wcag_id": [
+        null
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value",
+        "https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr"
+      ],
+      "impact": "critical",
+      "name": "Aria Attributes; Valid Values;",
+      "amount_nodes_failed": 2,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value",
+          "source": "axe-core",
+          "title": "ARIA attributes must conform to valid values",
+          "description": "Ensure all ARIA attributes have valid values",
+          "impact": "critical",
+          "nodes": {
+            "any": [],
+            "all": [
+              {
+                "id": "aria-valid-attr-value",
+                "data": [
+                  "aria-owns=\"sharing-popup-Blog1-normalpostsidebar-4916919632384803484\""
+                ],
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Invalid ARIA attribute value: aria-owns=\"sharing-popup-Blog1-normalpostsidebar-4916919632384803484\""
+              }
+            ],
+            "none": [],
+            "impact": "critical",
+            "html": "<div aria-owns=\"sharing-popup-Blog1-normalpostsidebar-4916919632384803484\" class=\"sharing\" data-title=\"Workaround for Uploading Videos to YouTube When Website Access Is Restricted\">",
+            "target": [
+              ".post-share-buttons-top > .goog-inline-block.post-share-buttons.byline > .sharing"
+            ],
+            "failureSummary": "Fix all of the following:\n  Invalid ARIA attribute value: aria-owns=\"sharing-popup-Blog1-normalpostsidebar-4916919632384803484\""
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value",
+          "source": "axe-core",
+          "title": "ARIA attributes must conform to valid values",
+          "description": "Ensure all ARIA attributes have valid values",
+          "impact": "critical",
+          "nodes": {
+            "any": [],
+            "all": [
+              {
+                "id": "aria-valid-attr-value",
+                "data": [
+                  "aria-owns=\"sharing-popup-Blog1-byline-4916919632384803484\""
+                ],
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Invalid ARIA attribute value: aria-owns=\"sharing-popup-Blog1-byline-4916919632384803484\""
+              }
+            ],
+            "none": [],
+            "impact": "critical",
+            "html": "<div aria-owns=\"sharing-popup-Blog1-byline-4916919632384803484\" class=\"sharing\" data-title=\"Workaround for Uploading Videos to YouTube When Website Access Is Restricted\">",
+            "target": [
+              ".post-share-buttons-bottom > .goog-inline-block.post-share-buttons.byline > .sharing"
+            ],
+            "failureSummary": "Fix all of the following:\n  Invalid ARIA attribute value: aria-owns=\"sharing-popup-Blog1-byline-4916919632384803484\""
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value",
+          "source": "lighthouse",
+          "title": "`[aria-*]` attributes do not have valid values",
+          "description": "Assistive technologies, like screen readers, can't interpret ARIA attributes with invalid values. [Learn more about valid values for ARIA attributes](https://dequeuniversity.com/rules/axe/4.10/aria-valid-attr-value).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-0-DIV",
+              "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV",
+              "selector": "div.post-bottom > div.post-share-buttons > div.byline > div.sharing",
+              "boundingRect": {
+                "top": 1540,
+                "bottom": 1559,
+                "left": 796,
+                "right": 840,
+                "width": 44,
+                "height": 19
+              },
+              "snippet": "<div aria-owns=\"sharing-popup-Blog1-byline-4916919632384803484\" class=\"sharing\" data-title=\"Workaround for Uploading Videos to YouTube When Website Access Is Restrict…\">",
+              "nodeLabel": "SHARE",
+              "explanation": "Fix all of the following:\n  Invalid ARIA attribute value: aria-owns=\"sharing-popup-Blog1-byline-4916919632384803484\""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        "Principle4.Guideline4_1.4_1_2.H91.InputButton.Name",
+        "Principle4.Guideline4_1.4_1_2.H91.Button.Name"
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/input-button-name",
+        "https://dequeuniversity.com/rules/axe/4.10/button-name"
+      ],
+      "impact": "critical",
+      "name": "Label; Button; Missing Label",
+      "amount_nodes_failed": 1,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/button-name",
+          "source": "axe-core",
+          "title": "Buttons must have discernible text",
+          "description": "Ensure buttons have discernible text",
+          "impact": "critical",
+          "nodes": {
+            "any": [
+              {
+                "id": "button-has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have inner text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element has no title attribute"
+              },
+              {
+                "id": "implicit-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an implicit (wrapped) <label>"
+              },
+              {
+                "id": "explicit-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element does not have an explicit <label>"
+              },
+              {
+                "id": "presentational-role",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "critical",
+                "message": "Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "critical",
+            "html": "<button class=\"svg-icon-24-button sidebar-back flat-icon-button ripple\"></button>",
+            "target": [
+              ".svg-icon-24-button"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "id": "Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+          "source": "pa11y",
+          "title": "This button element does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+          "description": "<button class=\"svg-icon-24-button sidebar-back flat-icon-button ripple\"></button>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.Button.Name",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This button element does not have a name available to an accessibility API. Valid names are: title undefined, element content, aria-label undefined, aria-labelledby undefined.",
+            "context": "<button class=\"svg-icon-24-button sidebar-back flat-icon-button ripple\"></button>",
+            "selector": "html > body > div > div:nth-child(3) > aside > div:nth-child(1) > button",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/button-name",
+          "source": "lighthouse",
+          "title": "Buttons do not have an accessible name",
+          "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn how to make buttons more accessible](https://dequeuniversity.com/rules/axe/4.10/button-name).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-1-BUTTON",
+              "path": "1,HTML,1,BODY,1,DIV,2,DIV,1,ASIDE,0,DIV,0,BUTTON",
+              "selector": "div.main_content_container > aside.sidebar-container > div.navigation > button.svg-icon-24-button",
+              "boundingRect": {
+                "top": 94,
+                "bottom": 142,
+                "left": 268,
+                "right": 316,
+                "width": 48,
+                "height": 48
+              },
+              "snippet": "<button class=\"svg-icon-24-button sidebar-back flat-icon-button ripple\">",
+              "nodeLabel": "div.main_content_container > aside.sidebar-container > div.navigation > button.svg-icon-24-button",
+              "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        "Principle1.Guideline1_4.1_4_3.G18",
+        "Principle1.Guideline1_4.1_4_3.G18.Fail",
+        "Principle1.Guideline1_4.1_4_3.G145",
+        "Principle1.Guideline1_4.1_4_3.G145.Fail",
+        "Principle1.Guideline1_4.1_4_6.G17",
+        "Principle1.Guideline1_4.1_4_6.G18"
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+        "https://dequeuniversity.com/rules/axe/4.10/color-contrast-enhanced"
+      ],
+      "impact": "serious",
+      "name": "Color Contrast; Text;",
+      "amount_nodes_failed": 8,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#1ca65a",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.15,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<body class=\"container item-view version-1-3-3 variant-rockpool_light\" data-js-state=\"loaded\">",
+                    "target": [
+                      "body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button aria-controls=\"sharing-popup-Blog1-normalpostsidebar-4916919632384803484\" aria-expanded=\"false\" aria-haspopup=\"true\" aria-label=\"Share\" class=\"sharing-button touch-icon-button flat-button ripple\" id=\"sharing-button-Blog1-normalpostsidebar-4916919632384803484\" role=\"button\">",
+            "target": [
+              "#sharing-button-Blog1-normalpostsidebar-4916919632384803484"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#1ca65a",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.15,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<body class=\"container item-view version-1-3-3 variant-rockpool_light\" data-js-state=\"loaded\">",
+                    "target": [
+                      "body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button aria-controls=\"sharing-popup-Blog1-byline-4916919632384803484\" aria-expanded=\"false\" aria-haspopup=\"true\" aria-label=\"Share\" class=\"sharing-button touch-icon-button flat-button ripple\" id=\"sharing-button-Blog1-byline-4916919632384803484\" role=\"button\">",
+            "target": [
+              "#sharing-button-Blog1-byline-4916919632384803484"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#1ca65a",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.15,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<body class=\"container item-view version-1-3-3 variant-rockpool_light\" data-js-state=\"loaded\">",
+                    "target": [
+                      "body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button aria-controls=\"sharing-popup-PopularPosts1-footer-0-6999603960827175865\" aria-expanded=\"false\" aria-haspopup=\"true\" aria-label=\"Share\" class=\"sharing-button touch-icon-button flat-button ripple\" id=\"sharing-button-PopularPosts1-footer-0-6999603960827175865\" role=\"button\">",
+            "target": [
+              "#sharing-button-PopularPosts1-footer-0-6999603960827175865"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#1ca65a",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.15,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<body class=\"container item-view version-1-3-3 variant-rockpool_light\" data-js-state=\"loaded\">",
+                    "target": [
+                      "body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"flat-button ripple\" href=\"#\" title=\"How to Download Contacts from Facebook To Outlook Address Book\">\n                                    Read more\n                                  </a>",
+            "target": [
+              ".post[role=\"article\"]:nth-child(1) > .post-outer-container > .post-outer > .post-content.container > .post-bottom > .jump-link.byline > .flat-button.ripple"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#1ca65a",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.15,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<body class=\"container item-view version-1-3-3 variant-rockpool_light\" data-js-state=\"loaded\">",
+                    "target": [
+                      "body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button aria-controls=\"sharing-popup-PopularPosts1-footer-0-115904922898396311\" aria-expanded=\"false\" aria-haspopup=\"true\" aria-label=\"Share\" class=\"sharing-button touch-icon-button flat-button ripple\" id=\"sharing-button-PopularPosts1-footer-0-115904922898396311\" role=\"button\">",
+            "target": [
+              "#sharing-button-PopularPosts1-footer-0-115904922898396311"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#1ca65a",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.15,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<body class=\"container item-view version-1-3-3 variant-rockpool_light\" data-js-state=\"loaded\">",
+                    "target": [
+                      "body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"flat-button ripple\" href=\"#\" title=\"Learn to Create a Firefox Search Plugin in Less Than 2 Minutes\">\n                                    Read more\n                                  </a>",
+            "target": [
+              ".post[role=\"article\"]:nth-child(2) > .post-outer-container > .post-outer > .post-content.container > .post-bottom > .jump-link.byline > .flat-button.ripple"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#1ca65a",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.15,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<body class=\"container item-view version-1-3-3 variant-rockpool_light\" data-js-state=\"loaded\">",
+                    "target": [
+                      "body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<button aria-controls=\"sharing-popup-PopularPosts1-footer-0-6974969501681430010\" aria-expanded=\"false\" aria-haspopup=\"true\" aria-label=\"Share\" class=\"sharing-button touch-icon-button flat-button ripple\" id=\"sharing-button-PopularPosts1-footer-0-6974969501681430010\" role=\"button\">",
+            "target": [
+              "#sharing-button-PopularPosts1-footer-0-6974969501681430010"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "axe-core",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "color-contrast",
+                "data": {
+                  "fgColor": "#1ca65a",
+                  "bgColor": "#ffffff",
+                  "contrastRatio": 3.15,
+                  "fontSize": "10.5pt (14px)",
+                  "fontWeight": "normal",
+                  "messageKey": null,
+                  "expectedContrastRatio": "4.5:1",
+                  "shadowColor": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<body class=\"container item-view version-1-3-3 variant-rockpool_light\" data-js-state=\"loaded\">",
+                    "target": [
+                      "body"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a class=\"flat-button ripple\" href=\"#\" title=\"Digital Inspiration\">\n                                    Read more\n                                  </a>",
+            "target": [
+              "a[title=\"Digital Inspiration\"]"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.16:1. Recommendation:  change text colour to #00893e.",
+          "description": "<button aria-controls=\"sharing-popup-Blog1-byline-4916919632384803484\" aria-expanded=\"false\" aria-haspopup=\"true\" aria-label=\"Share\" class=\"sharing-button touch-icon-button flat-button ripple\" id=\"sharing-button-Blog1-byline-4916919632384803484\" role...",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.16:1. Recommendation:  change text colour to #00893e.",
+            "context": "<button aria-controls=\"sharing-popup-Blog1-byline-4916919632384803484\" aria-expanded=\"false\" aria-haspopup=\"true\" aria-label=\"Share\" class=\"sharing-button touch-icon-button flat-button ripple\" id=\"sharing-button-Blog1-byline-4916919632384803484\" role...",
+            "selector": "#sharing-button-Blog1-byline-4916919632384803484",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.16:1. Recommendation:  change text colour to #00893e.",
+          "description": "<button aria-controls=\"sharing-popup-PopularPosts1-footer-0-6999603960827175865\" aria-expanded=\"false\" aria-haspopup=\"true\" aria-label=\"Share\" class=\"sharing-button touch-icon-button flat-button ripple\" id=\"sharing-button-PopularPosts1-footer-0-69996...",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.16:1. Recommendation:  change text colour to #00893e.",
+            "context": "<button aria-controls=\"sharing-popup-PopularPosts1-footer-0-6999603960827175865\" aria-expanded=\"false\" aria-haspopup=\"true\" aria-label=\"Share\" class=\"sharing-button touch-icon-button flat-button ripple\" id=\"sharing-button-PopularPosts1-footer-0-69996...",
+            "selector": "#sharing-button-PopularPosts1-footer-0-6999603960827175865",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.16:1. Recommendation:  change text colour to #00893e.",
+          "description": "<a class=\"flat-button ripple\" href=\"#\" title=\"How to Download Contacts from Facebook To Outlook Address Book\">\n                              ...</a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.16:1. Recommendation:  change text colour to #00893e.",
+            "context": "<a class=\"flat-button ripple\" href=\"#\" title=\"How to Download Contacts from Facebook To Outlook Address Book\">\n                              ...</a>",
+            "selector": "#PopularPosts1 > div > article:nth-child(1) > div > div > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.16:1. Recommendation:  change text colour to #00893e.",
+          "description": "<button aria-controls=\"sharing-popup-PopularPosts1-footer-0-115904922898396311\" aria-expanded=\"false\" aria-haspopup=\"true\" aria-label=\"Share\" class=\"sharing-button touch-icon-button flat-button ripple\" id=\"sharing-button-PopularPosts1-footer-0-115904...",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.16:1. Recommendation:  change text colour to #00893e.",
+            "context": "<button aria-controls=\"sharing-popup-PopularPosts1-footer-0-115904922898396311\" aria-expanded=\"false\" aria-haspopup=\"true\" aria-label=\"Share\" class=\"sharing-button touch-icon-button flat-button ripple\" id=\"sharing-button-PopularPosts1-footer-0-115904...",
+            "selector": "#sharing-button-PopularPosts1-footer-0-115904922898396311",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.16:1. Recommendation:  change text colour to #00893e.",
+          "description": "<a class=\"flat-button ripple\" href=\"#\" title=\"Learn to Create a Firefox Search Plugin in Less Than 2 Minutes\">\n                              ...</a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.16:1. Recommendation:  change text colour to #00893e.",
+            "context": "<a class=\"flat-button ripple\" href=\"#\" title=\"Learn to Create a Firefox Search Plugin in Less Than 2 Minutes\">\n                              ...</a>",
+            "selector": "#PopularPosts1 > div > article:nth-child(2) > div > div > div > div:nth-child(4) > div:nth-child(2) > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.16:1. Recommendation:  change text colour to #00893e.",
+          "description": "<button aria-controls=\"sharing-popup-PopularPosts1-footer-0-6974969501681430010\" aria-expanded=\"false\" aria-haspopup=\"true\" aria-label=\"Share\" class=\"sharing-button touch-icon-button flat-button ripple\" id=\"sharing-button-PopularPosts1-footer-0-69749...",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.16:1. Recommendation:  change text colour to #00893e.",
+            "context": "<button aria-controls=\"sharing-popup-PopularPosts1-footer-0-6974969501681430010\" aria-expanded=\"false\" aria-haspopup=\"true\" aria-label=\"Share\" class=\"sharing-button touch-icon-button flat-button ripple\" id=\"sharing-button-PopularPosts1-footer-0-69749...",
+            "selector": "#sharing-button-PopularPosts1-footer-0-6974969501681430010",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle1.Guideline1_4.1_4_3.G18.Fail",
+          "source": "pa11y",
+          "title": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.16:1. Recommendation:  change text colour to #00893e.",
+          "description": "<a class=\"flat-button ripple\" href=\"#\" title=\"Digital Inspiration\">\n                              ...</a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail",
+            "type": "error",
+            "typeCode": 1,
+            "message": "This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.16:1. Recommendation:  change text colour to #00893e.",
+            "context": "<a class=\"flat-button ripple\" href=\"#\" title=\"Digital Inspiration\">\n                              ...</a>",
+            "selector": "#PopularPosts1 > div > article:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-2-BUTTON",
+              "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,3,DIV,1,DIV,0,DIV,0,DIV,0,BUTTON",
+              "selector": "div.post-share-buttons > div.byline > div.sharing > button#sharing-button-Blog1-byline-4916919632384803484",
+              "boundingRect": {
+                "top": 1532,
+                "bottom": 1567,
+                "left": 788,
+                "right": 848,
+                "width": 60,
+                "height": 35
+              },
+              "snippet": "<button aria-controls=\"sharing-popup-Blog1-byline-4916919632384803484\" aria-expanded=\"false\" aria-haspopup=\"true\" aria-label=\"Share\" class=\"sharing-button touch-icon-button flat-button ripple\" id=\"sharing-button-Blog1-byline-4916919632384803484\" role=\"button\">",
+              "nodeLabel": "SHARE",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-3-BUTTON",
+              "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,BUTTON",
+              "selector": "div.post-footer-line > div.byline > div.sharing > button#sharing-button-PopularPosts1-footer-0-6999603960827175865",
+              "boundingRect": {
+                "top": 1885,
+                "bottom": 1920,
+                "left": 336,
+                "right": 396,
+                "width": 60,
+                "height": 35
+              },
+              "snippet": "<button aria-controls=\"sharing-popup-PopularPosts1-footer-0-6999603960827175865\" aria-expanded=\"false\" aria-haspopup=\"true\" aria-label=\"Share\" class=\"sharing-button touch-icon-button flat-button ripple\" id=\"sharing-button-PopularPosts1-footer-0-6999603960827175865\" role=\"button\">",
+              "nodeLabel": "SHARE",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-4-BODY",
+                    "path": "1,HTML,1,BODY",
+                    "selector": "body.container",
+                    "boundingRect": {
+                      "top": 0,
+                      "bottom": 3403,
+                      "left": 0,
+                      "right": 412,
+                      "width": 412,
+                      "height": 3403
+                    },
+                    "snippet": "<body class=\"container item-view version-1-3-3 variant-rockpool_light\" data-js-state=\"loaded\">",
+                    "nodeLabel": "body.container"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-5-A",
+              "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,1,DIV,3,DIV,1,DIV,0,A",
+              "selector": "div.post-content > div.post-bottom > div.byline > a.flat-button",
+              "boundingRect": {
+                "top": 1885,
+                "bottom": 1920,
+                "left": 1175,
+                "right": 1272,
+                "width": 97,
+                "height": 35
+              },
+              "snippet": "<a class=\"flat-button ripple\" href=\"#\">",
+              "nodeLabel": "READ MORE",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-6-BUTTON",
+              "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,BUTTON",
+              "selector": "div.post-footer-line > div.byline > div.sharing > button#sharing-button-PopularPosts1-footer-0-115904922898396311",
+              "boundingRect": {
+                "top": 2894,
+                "bottom": 2929,
+                "left": 336,
+                "right": 396,
+                "width": 60,
+                "height": 35
+              },
+              "snippet": "<button aria-controls=\"sharing-popup-PopularPosts1-footer-0-115904922898396311\" aria-expanded=\"false\" aria-haspopup=\"true\" aria-label=\"Share\" class=\"sharing-button touch-icon-button flat-button ripple\" id=\"sharing-button-PopularPosts1-footer-0-115904922898396311\" role=\"button\">",
+              "nodeLabel": "SHARE",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-4-BODY",
+                    "path": "1,HTML,1,BODY",
+                    "selector": "body.container",
+                    "boundingRect": {
+                      "top": 0,
+                      "bottom": 3403,
+                      "left": 0,
+                      "right": 412,
+                      "width": 412,
+                      "height": 3403
+                    },
+                    "snippet": "<body class=\"container item-view version-1-3-3 variant-rockpool_light\" data-js-state=\"loaded\">",
+                    "nodeLabel": "body.container"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-7-A",
+              "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,1,DIV,3,DIV,1,DIV,0,A",
+              "selector": "div.post-content > div.post-bottom > div.byline > a.flat-button",
+              "boundingRect": {
+                "top": 2894,
+                "bottom": 2929,
+                "left": 1175,
+                "right": 1272,
+                "width": 97,
+                "height": 35
+              },
+              "snippet": "<a class=\"flat-button ripple\" href=\"#\">",
+              "nodeLabel": "READ MORE",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-8-BUTTON",
+              "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,1,DIV,2,ARTICLE,0,DIV,0,DIV,1,DIV,3,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,BUTTON",
+              "selector": "div.post-footer-line > div.byline > div.sharing > button#sharing-button-PopularPosts1-footer-0-6974969501681430010",
+              "boundingRect": {
+                "top": 3265,
+                "bottom": 3300,
+                "left": 336,
+                "right": 396,
+                "width": 60,
+                "height": 35
+              },
+              "snippet": "<button aria-controls=\"sharing-popup-PopularPosts1-footer-0-6974969501681430010\" aria-expanded=\"false\" aria-haspopup=\"true\" aria-label=\"Share\" class=\"sharing-button touch-icon-button flat-button ripple\" id=\"sharing-button-PopularPosts1-footer-0-6974969501681430010\" role=\"button\">",
+              "nodeLabel": "SHARE",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-4-BODY",
+                    "path": "1,HTML,1,BODY",
+                    "selector": "body.container",
+                    "boundingRect": {
+                      "top": 0,
+                      "bottom": 3403,
+                      "left": 0,
+                      "right": 412,
+                      "width": 412,
+                      "height": 3403
+                    },
+                    "snippet": "<body class=\"container item-view version-1-3-3 variant-rockpool_light\" data-js-state=\"loaded\">",
+                    "nodeLabel": "body.container"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/color-contrast",
+          "source": "lighthouse",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.10/color-contrast).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-9-A",
+              "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,1,DIV,2,ARTICLE,0,DIV,0,DIV,1,DIV,3,DIV,1,DIV,0,A",
+              "selector": "div.post-content > div.post-bottom > div.byline > a.flat-button",
+              "boundingRect": {
+                "top": 3265,
+                "bottom": 3300,
+                "left": 1175,
+                "right": 1272,
+                "width": 97,
+                "height": 35
+              },
+              "snippet": "<a class=\"flat-button ripple\" href=\"#\">",
+              "nodeLabel": "READ MORE",
+              "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #1ca65a, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        null
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-unique",
+        "https://dequeuniversity.com/rules/axe/4.10/region",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-complementary-is-top-level",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-contentinfo-is-top-level",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-contentinfo",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-banner-is-top-level",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-no-duplicate-main",
+        "https://dequeuniversity.com/rules/axe/4.10/landmark-main-is-top-level"
+      ],
+      "impact": "moderate",
+      "name": "Landmark & Region; Missing & Unique Landmarks;",
+      "amount_nodes_failed": 2,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/landmark-unique",
+          "source": "axe-core",
+          "title": "Landmarks should have a unique role or role/label/title (i.e. accessible name) combination",
+          "description": "Ensure landmarks are unique",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "landmark-is-unique",
+                "data": {
+                  "role": "navigation",
+                  "accessibleText": null
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<nav id=\"p-namespaces\" class=\"vector-menu mw-portlet vector-menu-tabs vector-menu-tabs-legacy\" aria-labelledby=\"p-namespaces-label\">",
+                    "target": [
+                      "#p-namespaces"
+                    ]
+                  }
+                ],
+                "impact": "moderate",
+                "message": "The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<nav id=\"p-personal\" class=\"vector-menu mw-portlet vector-user-menu-legacy\" aria-labelledby=\"p-personal-label\">",
+            "target": [
+              "#p-personal"
+            ],
+            "failureSummary": "Fix any of the following:\n  The landmark must have a unique aria-label, aria-labelledby, or title to make landmarks distinguishable"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/region",
+          "source": "axe-core",
+          "title": "All page content should be contained by landmarks",
+          "description": "Ensure all page content is contained by landmarks",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "region",
+                "data": {
+                  "isIframe": false
+                },
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Some page content is not contained by landmarks"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<a class=\"skip-navigation\" href=\"#\" tabindex=\"0\"> Jump to main content </a>",
+            "target": [
+              ".skip-navigation"
+            ],
+            "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks"
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        null
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block"
+      ],
+      "impact": "serious",
+      "name": "Links; Distinguishable Color;",
+      "amount_nodes_failed": 2,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block",
+          "source": "axe-core",
+          "title": "Links must be distinguishable without relying on color",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "link-in-text-block",
+                "data": {
+                  "messageKey": "fgContrast",
+                  "contrastRatio": 2.95,
+                  "requiredContrastRatio": 3,
+                  "nodeColor": "#1c6f7a",
+                  "parentColor": "#1b1b1b"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div dir=\"ltr\" style=\"text-align: left\" trbidi=\"on\">",
+                    "target": [
+                      "div[trbidi=\"on\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "The link has insufficient color contrast of 2.95:1 with the surrounding text. (Minimum contrast is 3:1, link text: #1c6f7a, surrounding text: #1b1b1b)"
+              },
+              {
+                "id": "link-in-text-block-style",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<div dir=\"ltr\" style=\"text-align: left\" trbidi=\"on\">",
+                    "target": [
+                      "div[trbidi=\"on\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "The link has no styling (such as underline) to distinguish it from the surrounding text"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"#\"> smartphone </a>",
+            "target": [
+              "a:nth-child(3)"
+            ],
+            "failureSummary": "Fix any of the following:\n  The link has insufficient color contrast of 2.95:1 with the surrounding text. (Minimum contrast is 3:1, link text: #1c6f7a, surrounding text: #1b1b1b)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block",
+          "source": "axe-core",
+          "title": "Links must be distinguishable without relying on color",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "link-in-text-block",
+                "data": {
+                  "messageKey": "fgContrast",
+                  "contrastRatio": 2.95,
+                  "requiredContrastRatio": 3,
+                  "nodeColor": "#1c6f7a",
+                  "parentColor": "#1b1b1b"
+                },
+                "relatedNodes": [
+                  {
+                    "html": "<div dir=\"ltr\" style=\"text-align: left\" trbidi=\"on\">",
+                    "target": [
+                      "div[trbidi=\"on\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "The link has insufficient color contrast of 2.95:1 with the surrounding text. (Minimum contrast is 3:1, link text: #1c6f7a, surrounding text: #1b1b1b)"
+              },
+              {
+                "id": "link-in-text-block-style",
+                "data": null,
+                "relatedNodes": [
+                  {
+                    "html": "<div dir=\"ltr\" style=\"text-align: left\" trbidi=\"on\">",
+                    "target": [
+                      "div[trbidi=\"on\"]"
+                    ]
+                  }
+                ],
+                "impact": "serious",
+                "message": "The link has no styling (such as underline) to distinguish it from the surrounding text"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "serious",
+            "html": "<a href=\"#\"> MultiStream </a>",
+            "target": [
+              "a:nth-child(9)"
+            ],
+            "failureSummary": "Fix any of the following:\n  The link has insufficient color contrast of 2.95:1 with the surrounding text. (Minimum contrast is 3:1, link text: #1c6f7a, surrounding text: #1b1b1b)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block",
+          "source": "lighthouse",
+          "title": "Links rely on color to be distinguishable.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-10-A",
+              "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,4,A",
+              "selector": "div.post-body-container > div#post-body-4916919632384803484 > div > a",
+              "boundingRect": {
+                "top": 870,
+                "bottom": 895,
+                "left": 906,
+                "right": 1024,
+                "width": 118,
+                "height": 25
+              },
+              "snippet": "<a href=\"#\">",
+              "nodeLabel": "smartphone ",
+              "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.95:1 with the surrounding text. (Minimum contrast is 3:1, link text: #1c6f7a, surrounding text: #1b1b1b)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-11-DIV",
+                    "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV",
+                    "selector": "div.post-content > div.post-body-container > div#post-body-4916919632384803484 > div",
+                    "boundingRect": {
+                      "top": 663,
+                      "bottom": 1503,
+                      "left": 484,
+                      "right": 1264,
+                      "width": 780,
+                      "height": 840
+                    },
+                    "snippet": "<div dir=\"ltr\" style=\"text-align: left\" trbidi=\"on\">",
+                    "nodeLabel": "David, who is employed by a major global corporation, recently posted on a soci…"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-in-text-block",
+          "source": "lighthouse",
+          "title": "Links rely on color to be distinguishable.",
+          "description": "Low-contrast text is difficult or impossible for many users to read. Link text that is discernible improves the experience for users with low vision. [Learn how to make links distinguishable](https://dequeuniversity.com/rules/axe/4.10/link-in-text-block).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-12-A",
+              "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,13,A",
+              "selector": "div.post-body-container > div#post-body-4916919632384803484 > div > a",
+              "boundingRect": {
+                "top": 1150,
+                "bottom": 1175,
+                "left": 995,
+                "right": 1116,
+                "width": 121,
+                "height": 25
+              },
+              "snippet": "<a href=\"#\">",
+              "nodeLabel": "MultiStream ",
+              "explanation": "Fix any of the following:\n  The link has insufficient color contrast of 2.95:1 with the surrounding text. (Minimum contrast is 3:1, link text: #1c6f7a, surrounding text: #1b1b1b)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+            },
+            "subItems": {
+              "type": "subitems",
+              "items": [
+                {
+                  "relatedNode": {
+                    "type": "node",
+                    "lhId": "1-11-DIV",
+                    "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV",
+                    "selector": "div.post-content > div.post-body-container > div#post-body-4916919632384803484 > div",
+                    "boundingRect": {
+                      "top": 663,
+                      "bottom": 1503,
+                      "left": 484,
+                      "right": 1264,
+                      "width": 780,
+                      "height": 840
+                    },
+                    "snippet": "<div dir=\"ltr\" style=\"text-align: left\" trbidi=\"on\">",
+                    "nodeLabel": "David, who is employed by a major global corporation, recently posted on a soci…"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        "Principle1.Guideline1_1.1_1_1.H30.2",
+        "Principle4.Guideline4_1.4_1_2.H91.A.EmptyNoId",
+        "Principle4.Guideline4_1.4_1_2.H91.A.NoContent"
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/link-name"
+      ],
+      "impact": "serious",
+      "name": "Links; Missing descriptive content of <a>;",
+      "amount_nodes_failed": 8,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-name",
+          "source": "axe-core",
+          "title": "Links must have discernible text",
+          "description": "Ensure links have discernible text",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element does not have text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "focusable-no-name",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is in tab order and does not have accessible text"
+              }
+            ],
+            "impact": "serious",
+            "html": "<a href=\"#\" name=\"4916919632384803484\"> </a>",
+            "target": [
+              "a[name=\"4916919632384803484\"]"
+            ],
+            "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-name",
+          "source": "axe-core",
+          "title": "Links must have discernible text",
+          "description": "Ensure links have discernible text",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element does not have text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "focusable-no-name",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is in tab order and does not have accessible text"
+              }
+            ],
+            "impact": "serious",
+            "html": "<a href=\"#\" name=\"6999603960827175865\"> </a>",
+            "target": [
+              "a[name=\"6999603960827175865\"]"
+            ],
+            "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-name",
+          "source": "axe-core",
+          "title": "Links must have discernible text",
+          "description": "Ensure links have discernible text",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element does not have text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "focusable-no-name",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is in tab order and does not have accessible text"
+              }
+            ],
+            "impact": "serious",
+            "html": "<a class=\"snippet-fade r-snippet-fade\" href=\"#\">\n</a>",
+            "target": [
+              "#post-snippet-6999603960827175865 > .post-snippet.snippet-container.r-snippet-container > .snippet-fade.r-snippet-fade"
+            ],
+            "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-name",
+          "source": "axe-core",
+          "title": "Links must have discernible text",
+          "description": "Ensure links have discernible text",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element does not have text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "focusable-no-name",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is in tab order and does not have accessible text"
+              }
+            ],
+            "impact": "serious",
+            "html": "<a class=\"snippet-thumbnail\" href=\"#\">\n<span class=\"snippet-thumbnail-img\" id=\"snippet_thumbnail_id_115904922898396311\">\n</span>\n</a>",
+            "target": [
+              ".post[role=\"article\"]:nth-child(2) > .post-outer-container > .post-outer > .snippet-thumbnail"
+            ],
+            "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-name",
+          "source": "axe-core",
+          "title": "Links must have discernible text",
+          "description": "Ensure links have discernible text",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element does not have text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "focusable-no-name",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is in tab order and does not have accessible text"
+              }
+            ],
+            "impact": "serious",
+            "html": "<a href=\"#\" name=\"115904922898396311\"> </a>",
+            "target": [
+              "a[name=\"115904922898396311\"]"
+            ],
+            "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-name",
+          "source": "axe-core",
+          "title": "Links must have discernible text",
+          "description": "Ensure links have discernible text",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element does not have text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "focusable-no-name",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is in tab order and does not have accessible text"
+              }
+            ],
+            "impact": "serious",
+            "html": "<a class=\"snippet-fade r-snippet-fade\" href=\"#\">\n</a>",
+            "target": [
+              "#post-snippet-115904922898396311 > .post-snippet.snippet-container.r-snippet-container > .snippet-fade.r-snippet-fade"
+            ],
+            "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-name",
+          "source": "axe-core",
+          "title": "Links must have discernible text",
+          "description": "Ensure links have discernible text",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element does not have text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "focusable-no-name",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is in tab order and does not have accessible text"
+              }
+            ],
+            "impact": "serious",
+            "html": "<a href=\"#\" name=\"6974969501681430010\"> </a>",
+            "target": [
+              "a[name=\"6974969501681430010\"]"
+            ],
+            "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-name",
+          "source": "axe-core",
+          "title": "Links must have discernible text",
+          "description": "Ensure links have discernible text",
+          "impact": "serious",
+          "nodes": {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element does not have text that is visible to screen readers"
+              },
+              {
+                "id": "aria-label",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-label attribute does not exist or is empty"
+              },
+              {
+                "id": "aria-labelledby",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
+              },
+              {
+                "id": "non-empty-title",
+                "data": {
+                  "messageKey": "noAttr"
+                },
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has no title attribute"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "focusable-no-name",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is in tab order and does not have accessible text"
+              }
+            ],
+            "impact": "serious",
+            "html": "<a class=\"snippet-fade r-snippet-fade\" href=\"#\">\n</a>",
+            "target": [
+              "#post-snippet-6974969501681430010 > .post-snippet.snippet-container.r-snippet-container > .snippet-fade.r-snippet-fade"
+            ],
+            "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "id": "Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "source": "pa11y",
+          "title": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "description": "<a href=\"#\" name=\"4916919632384803484\"> </a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+            "type": "error",
+            "typeCode": 1,
+            "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+            "context": "<a href=\"#\" name=\"4916919632384803484\"> </a>",
+            "selector": "#Blog1 > div > article > div > div > div:nth-child(1) > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "source": "pa11y",
+          "title": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "description": "<a href=\"#\" name=\"6999603960827175865\"> </a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+            "type": "error",
+            "typeCode": 1,
+            "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+            "context": "<a href=\"#\" name=\"6999603960827175865\"> </a>",
+            "selector": "#PopularPosts1 > div > article:nth-child(1) > div > div > div:nth-child(2) > div:nth-child(1) > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "source": "pa11y",
+          "title": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "description": "<a class=\"snippet-fade r-snippet-fade\" href=\"#\">\n</a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+            "type": "error",
+            "typeCode": 1,
+            "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+            "context": "<a class=\"snippet-fade r-snippet-fade\" href=\"#\">\n</a>",
+            "selector": "#post-snippet-6999603960827175865 > div > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "source": "pa11y",
+          "title": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "description": "<a class=\"snippet-thumbnail\" href=\"#\">\n<span class=\"snippet-thumbnail...</a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+            "type": "error",
+            "typeCode": 1,
+            "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+            "context": "<a class=\"snippet-thumbnail\" href=\"#\">\n<span class=\"snippet-thumbnail...</a>",
+            "selector": "#PopularPosts1 > div > article:nth-child(2) > div > div > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "source": "pa11y",
+          "title": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "description": "<a href=\"#\" name=\"115904922898396311\"> </a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+            "type": "error",
+            "typeCode": 1,
+            "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+            "context": "<a href=\"#\" name=\"115904922898396311\"> </a>",
+            "selector": "#PopularPosts1 > div > article:nth-child(2) > div > div > div > div:nth-child(1) > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "source": "pa11y",
+          "title": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "description": "<a class=\"snippet-fade r-snippet-fade\" href=\"#\">\n</a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+            "type": "error",
+            "typeCode": 1,
+            "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+            "context": "<a class=\"snippet-fade r-snippet-fade\" href=\"#\">\n</a>",
+            "selector": "#post-snippet-115904922898396311 > div > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "source": "pa11y",
+          "title": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "description": "<a href=\"#\" name=\"6974969501681430010\"> </a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+            "type": "error",
+            "typeCode": 1,
+            "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+            "context": "<a href=\"#\" name=\"6974969501681430010\"> </a>",
+            "selector": "#PopularPosts1 > div > article:nth-child(3) > div > div > div:nth-child(2) > div:nth-child(1) > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+          "source": "pa11y",
+          "title": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+          "description": "<a class=\"snippet-fade r-snippet-fade\" href=\"#\">\n</a>",
+          "impact": "error",
+          "original_issue": {
+            "code": "WCAG2AA.Principle4.Guideline4_1.4_1_2.H91.A.NoContent",
+            "type": "error",
+            "typeCode": 1,
+            "message": "Anchor element found with a valid href attribute, but no link content has been supplied.",
+            "context": "<a class=\"snippet-fade r-snippet-fade\" href=\"#\">\n</a>",
+            "selector": "#post-snippet-6974969501681430010 > div > a",
+            "runner": "htmlcs",
+            "runnerExtras": {}
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-name",
+          "source": "lighthouse",
+          "title": "Links do not have a discernible name",
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-13-A",
+              "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,ARTICLE,0,DIV,0,DIV,0,DIV,0,A",
+              "selector": "div.post-outer > div.post-content > div.post-title-container > a",
+              "boundingRect": {
+                "top": 214,
+                "bottom": 214,
+                "left": 484,
+                "right": 484,
+                "width": 0,
+                "height": 0
+              },
+              "snippet": "<a href=\"#\" name=\"4916919632384803484\">",
+              "nodeLabel": "div.post-outer > div.post-content > div.post-title-container > a",
+              "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-name",
+          "source": "lighthouse",
+          "title": "Links do not have a discernible name",
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-14-A",
+              "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,1,DIV,0,DIV,0,A",
+              "selector": "div.post-outer > div.post-content > div.post-title-container > a",
+              "boundingRect": {
+                "top": 1625,
+                "bottom": 1625,
+                "left": 344,
+                "right": 344,
+                "width": 0,
+                "height": 0
+              },
+              "snippet": "<a href=\"#\" name=\"6999603960827175865\">",
+              "nodeLabel": "div.post-outer > div.post-content > div.post-title-container > a",
+              "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-name",
+          "source": "lighthouse",
+          "title": "Links do not have a discernible name",
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-15-A",
+              "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,1,DIV,0,ARTICLE,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,1,A",
+              "selector": "div.post-content > div#post-snippet-6999603960827175865 > div.post-snippet > a.snippet-fade",
+              "boundingRect": {
+                "top": 1824,
+                "bottom": 1864,
+                "left": 1168,
+                "right": 1264,
+                "width": 96,
+                "height": 40
+              },
+              "snippet": "<a class=\"snippet-fade r-snippet-fade\" href=\"#\">",
+              "nodeLabel": "div.post-content > div#post-snippet-6999603960827175865 > div.post-snippet > a.snippet-fade",
+              "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-name",
+          "source": "lighthouse",
+          "title": "Links do not have a discernible name",
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-16-A",
+              "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,0,A",
+              "selector": "article.post > div.post-outer-container > div.post-outer > a.snippet-thumbnail",
+              "boundingRect": {
+                "top": 2005,
+                "bottom": 2618,
+                "left": 344,
+                "right": 1264,
+                "width": 920,
+                "height": 613
+              },
+              "snippet": "<a class=\"snippet-thumbnail\" href=\"#\">",
+              "nodeLabel": "article.post > div.post-outer-container > div.post-outer > a.snippet-thumbnail",
+              "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-name",
+          "source": "lighthouse",
+          "title": "Links do not have a discernible name",
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-17-A",
+              "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,1,DIV,0,DIV,0,A",
+              "selector": "div.post-outer > div.post-content > div.post-title-container > a",
+              "boundingRect": {
+                "top": 2634,
+                "bottom": 2634,
+                "left": 344,
+                "right": 344,
+                "width": 0,
+                "height": 0
+              },
+              "snippet": "<a href=\"#\" name=\"115904922898396311\">",
+              "nodeLabel": "div.post-outer > div.post-content > div.post-title-container > a",
+              "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-name",
+          "source": "lighthouse",
+          "title": "Links do not have a discernible name",
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-18-A",
+              "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,1,DIV,1,ARTICLE,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,1,A",
+              "selector": "div.post-content > div#post-snippet-115904922898396311 > div.post-snippet > a.snippet-fade",
+              "boundingRect": {
+                "top": 2833,
+                "bottom": 2873,
+                "left": 1168,
+                "right": 1264,
+                "width": 96,
+                "height": 40
+              },
+              "snippet": "<a class=\"snippet-fade r-snippet-fade\" href=\"#\">",
+              "nodeLabel": "div.post-content > div#post-snippet-115904922898396311 > div.post-snippet > a.snippet-fade",
+              "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-name",
+          "source": "lighthouse",
+          "title": "Links do not have a discernible name",
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-19-A",
+              "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,1,DIV,2,ARTICLE,0,DIV,0,DIV,1,DIV,0,DIV,0,A",
+              "selector": "div.post-outer > div.post-content > div.post-title-container > a",
+              "boundingRect": {
+                "top": 3014,
+                "bottom": 3014,
+                "left": 344,
+                "right": 344,
+                "width": 0,
+                "height": 0
+              },
+              "snippet": "<a href=\"#\" name=\"6974969501681430010\">",
+              "nodeLabel": "div.post-outer > div.post-content > div.post-title-container > a",
+              "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          }
+        },
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/link-name",
+          "source": "lighthouse",
+          "title": "Links do not have a discernible name",
+          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.10/link-name).",
+          "score": 0,
+          "details": {
+            "node": {
+              "type": "node",
+              "lhId": "1-20-A",
+              "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,1,DIV,2,ARTICLE,0,DIV,0,DIV,1,DIV,2,DIV,0,DIV,1,A",
+              "selector": "div.post-content > div#post-snippet-6974969501681430010 > div.post-snippet > a.snippet-fade",
+              "boundingRect": {
+                "top": 3204,
+                "bottom": 3244,
+                "left": 1168,
+                "right": 1264,
+                "width": 96,
+                "height": 40
+              },
+              "snippet": "<a class=\"snippet-fade r-snippet-fade\" href=\"#\">",
+              "nodeLabel": "div.post-content > div#post-snippet-6974969501681430010 > div.post-snippet > a.snippet-fade",
+              "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "wcag_id": [
+        "Principle1.Guideline1_3.1_3_1.H42.2",
+        "Principle1.Guideline1_3.1_3_1.G141"
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one",
+        "https://dequeuniversity.com/rules/axe/4.10/heading-order",
+        "https://dequeuniversity.com/rules/axe/4.10/empty-heading"
+      ],
+      "impact": "moderate",
+      "name": "Headings; Wrong Order, Empty & Missing Headings;",
+      "amount_nodes_failed": 1,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one",
+          "source": "axe-core",
+          "title": "Page should contain a level-one heading",
+          "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+          "impact": "moderate",
+          "nodes": {
+            "any": [],
+            "all": [
+              {
+                "id": "page-has-heading-one",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Page must have a level-one heading"
+              }
+            ],
+            "none": [],
+            "impact": "moderate",
+            "html": "<html dir=\"ltr\" lang=\"en\">",
+            "target": [
+              "html"
+            ],
+            "failureSummary": "Fix all of the following:\n  Page must have a level-one heading"
+          }
+        }
+      ]
+    }
+  ]
+}

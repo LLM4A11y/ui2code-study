@@ -1,0 +1,99 @@
+{
+  "overall_status": {
+    "automatic": "Yellow"
+  },
+  "benchmark": {
+    "automatic_ir": 0.1927710843373494,
+    "automatic_iw-ir": 0.43125
+  },
+  "automatic_checks": {
+    "lighthouse_accessibility_score": 1,
+    "total_nodes_checked": 83,
+    "total_nodes_failed": 16
+  },
+  "details_checks": {
+    "Landmark & Region; Missing & Unique Landmarks;": {
+      "impact": "moderate",
+      "amount_nodes_failed": 12,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 12,
+          "amount_relative": 0,
+          "ids": [
+            "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main",
+            "https://dequeuniversity.com/rules/axe/4.10/region"
+          ]
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      }
+    },
+    "Headings; Wrong Order, Empty & Missing Headings;": {
+      "impact": "moderate",
+      "amount_nodes_failed": 1,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 1,
+          "amount_relative": 0,
+          "ids": [
+            "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one"
+          ]
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      }
+    },
+    "Alt-Text; Images;": {
+      "impact": "critical",
+      "amount_nodes_failed": 3,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 3,
+          "amount_relative": 3,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      }
+    }
+  }
+}

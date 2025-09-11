@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segway Escorted Excursions</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #3B5B6B;
+            color: white;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            color: #3B5B6B;
+        }
+
+        /* Header */
+        .header {
+            text-align: left;
+            padding: 20px;
+        }
+        .header a {
+            color: #3B5B6B;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        /* Product Section */
+        .product-section {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        .product-images {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .main-image {
+            width: 250px;
+            height: 400px;
+            background-color: blue;
+            margin-bottom: 20px;
+        }
+
+        .thumbnail-images {
+            display: flex;
+        }
+
+        .thumbnail {
+            width: 80px;
+            height: 80px;
+            background-color: blue;
+            margin: 0 10px;
+        }
+
+        .product-details {
+            text-align: left;
+            width: 350px;
+        }
+        .product-details h1 {
+            font-size: 2em;
+            letter-spacing: 0.2em;
+            color: #7db3b3;
+            font-weight: lighter;
+        }
+
+        .product-details p {
+            font-size: 0.8em;
+            margin-bottom: 20px;
+        }
+
+        .price {
+            text-align: right;
+        }
+
+        /* Size selection */
+        .size-selection {
+            margin-bottom: 20px;
+        }
+
+        .size-selection button {
+            padding: 10px 20px;
+            border: 1px solid #7db3b3;
+            background-color: white;
+            color: #7db3b3;
+            cursor: pointer;
+            width: 100%;
+            text-align: left;
+        }
+
+        /* Add to cart */
+        .add-to-cart button {
+            padding: 10px 20px;
+            border: 1px solid #7db3b3;
+            background-color: white;
+            color: #7db3b3;
+            cursor: pointer;
+            width: 100%;
+        }
+        .share-buttons{
+            margin-top: 30px;
+        }
+        .share-buttons div{
+            border: 1px solid #7db3b3;
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: left;
+            color: #7db3b3;
+        }
+        .footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .footer li{
+            font-size: 0.7em;
+            margin-bottom: 10px;
+        }
+        .footer a{
+            color: #7db3b3;
+            text-decoration: none;
+        }
+        .footer-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .footer-section{
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+        .footer-logo{
+            margin-bottom: 15px;
+        }
+        .footer-heading{
+            font-size: 0.8em;
+            font-weight: bold;
+            letter-spacing: 0.1em;
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="#">Segway Escorted Excursions</a>
+        <a href="#">Main</a>
+        <a href="#">Find Segway Excursions</a>
+        <a href="#">View Excursions</a>
+        <a href="#">For Trip Providers</a>
+    </div>
+
+    <div class="container">
+        <section class="product-section">
+            <div class="product-images">
+                <div class="main-image"></div>
+                <div class="thumbnail-images">
+                    <div class="thumbnail"></div>
+                    <div class="thumbnail"></div>
+                </div>
+            </div>
+
+            <div class="product-details">
+                <h1 style="font-size: 20px;">THE SUNSET WRISTBAND</h1>
+                <p class="price">$ 20.00</p>
+                <p>Pink tinted, lumber cylinder gems, .4cm
+                    sky-blue gems, with shiny gold-colored
+                    pieces attached on string to create a 4-
+                    times turn!</p>
+                <p>The following is for one roll-around
+                    wristband. Every roll-around wristband is
+                    retailed on its own for $20.00 a piece.</p>
+                <p>**To see fitting details, please consult
+                    the Fit Guide Webpage.**
+                    **This wristband may be altered using
+                    light grey-colored pieces.**</p>
+
+                <div class="size-selection">
+                    <button>Tiny (S)</button>
+                </div>
+
+                <div class="add-to-cart">
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="share">
+                    <p style="letter-spacing: 0.3em; font-size: 10px;">SHARE</p>
+                    <div class="share-buttons">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    Koding
+                </div>
+                <div>
+                    <p class="footer-heading">FOR ORGANIZATIONS</p>
+                    <ul>
+                        <li><a href="#">Training Platform</a></li>
+                        <li><a href="#">Sales Demo Automation</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-section">
+                <div>
+                    <p class="footer-heading">INFO CENTER</p>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Our Blog</a></li>
+                        <li><a href="#">New User Guide</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-section">
+                 <div>
+                    <p class="footer-heading">COMPANY</p>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Open Source</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-section">
+                <div>
+                    <p class="footer-heading">GET IN TOUCH</p>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Email Support</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

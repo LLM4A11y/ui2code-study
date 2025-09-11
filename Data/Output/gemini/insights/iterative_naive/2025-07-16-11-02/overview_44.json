@@ -1,0 +1,129 @@
+{
+  "overall_status": {
+    "automatic": "Yellow"
+  },
+  "benchmark": {
+    "automatic_ir": 0.1476510067114094,
+    "automatic_iw-ir": 0.34545454545454546
+  },
+  "automatic_checks": {
+    "lighthouse_accessibility_score": null,
+    "total_nodes_checked": 149,
+    "total_nodes_failed": 22
+  },
+  "details_checks": {
+    "Headings; Wrong Order, Empty & Missing Headings;": {
+      "impact": "moderate",
+      "amount_nodes_failed": 1,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 1,
+          "amount_relative": 0,
+          "ids": [
+            "https://dequeuniversity.com/rules/axe/4.10/heading-order"
+          ]
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      }
+    },
+    "Language; Document Lang; Missing & Invalid": {
+      "impact": "serious",
+      "amount_nodes_failed": 1,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 1,
+          "amount_relative": 0,
+          "ids": [
+            "https://dequeuniversity.com/rules/axe/4.10/html-has-lang"
+          ]
+        },
+        "pa11y": {
+          "amount": 1,
+          "amount_relative": 0,
+          "ids": [
+            "Principle3.Guideline3_1.3_1_1.H57.2"
+          ]
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      }
+    },
+    "Landmark & Region; Missing & Unique Landmarks;": {
+      "impact": "moderate",
+      "amount_nodes_failed": 19,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 19,
+          "amount_relative": 0,
+          "ids": [
+            "https://dequeuniversity.com/rules/axe/4.10/landmark-one-main",
+            "https://dequeuniversity.com/rules/axe/4.10/region"
+          ]
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      }
+    },
+    "Alt-Text; Images;": {
+      "impact": "critical",
+      "amount_nodes_failed": 1,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 1,
+          "amount_relative": 1,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      }
+    }
+  }
+}

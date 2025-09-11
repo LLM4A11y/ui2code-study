@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Polibyte - What is a node in blockchain</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --text:#3a3a3a;
+    --muted:#6f6f6f;
+    --link:#2d6cdf;
+    --footer-bg:#212121;
+    --footer-text:#e8e8e8;
+    --footer-muted:#bfbfbf;
+    --accent:#f0c66a;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:#ffffff;color:var(--text);font:14px/1.7 "Inter",system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+  a{color:var(--link);text-decoration:underline}
+  h1,h2{margin:0 0 12px 0;color:#222}
+  h1{font-size:34px;font-weight:800;letter-spacing:-0.2px}
+  h2{font-size:22px;font-weight:800}
+  p{margin:0 0 16px 0;color:var(--muted)}
+  ul{margin:0 0 24px 20px;color:var(--muted)}
+  li{margin:8px 0}
+  /* top right mini header */
+  .top-links{
+    position:fixed;
+    right:120px;
+    top:34px;
+    text-align:right;
+    z-index:2;
+  }
+  .top-links a{
+    display:block;
+    color:#2b2b2b;
+    text-decoration:underline;
+    margin:2px 0;
+  }
+  /* main article container */
+  .container{
+    width:720px;
+    margin:110px 0 70px 120px;
+  }
+  .byline{
+    color:#8a8a8a;
+    font-size:12px;
+    margin-bottom:18px;
+  }
+  .hero{
+    width:100%;
+    height:470px;
+    display:block;
+    object-fit:cover;
+    background:#1f28ff; /* fallback tint */
+    border:0;
+    margin:26px 0 34px 0;
+  }
+  .mini-banner{
+    width:420px;
+    height:62px;
+    display:block;
+    object-fit:cover;
+    background:#1f28ff;
+    margin:50px auto 30px;
+    border:0;
+  }
+
+  /* footer */
+  footer{
+    background:var(--footer-bg);
+    color:var(--footer-text);
+    padding:42px 0 18px;
+  }
+  .footer-wrap{
+    width:1120px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 1.2fr 1fr 1fr 0.9fr;
+    gap:40px;
+  }
+  .f-title{
+    color:var(--accent);
+    font-weight:800;
+    letter-spacing:1px;
+    font-size:13px;
+    margin-bottom:16px;
+    text-transform:uppercase;
+  }
+  .footer-col a{
+    color:var(--footer-text);
+    text-decoration:underline;
+  }
+  .footer-col p, .footer-col li{
+    color:var(--footer-muted);
+    margin:6px 0;
+  }
+  .footer-col ul{list-style:none;margin:0;padding:0}
+  .contact-dash li::before{
+    content:"- ";
+    color:var(--footer-text);
+  }
+  .copyright{
+    width:1120px;
+    margin:26px auto 0;
+    color:#9c9c9c;
+    font-size:12px;
+  }
+
+  /* make it responsive */
+  @media (max-width:1100px){
+    .top-links{right:24px}
+    .container{margin:110px 24px 70px}
+    .footer-wrap,.copyright{width:auto;padding:0 24px}
+    .footer-wrap{grid-template-columns:1fr 1fr}
+  }
+  @media (max-width:650px){
+    .container{width:auto}
+    .mini-banner{width:80%}
+    .top-links{position:static;text-align:right;margin:20px 24px 0}
+  }
+</style>
+</head>
+<body>
+
+<div class="top-links">
+  <a href="#">Polibyte</a>
+  <a href="#">More Info</a>
+</div>
+
+<main class="container">
+  <h1>What is a node in blockchain</h1>
+  <div class="byline">by Samuel Mbaki | Jun 5, 2023 | Learn, Blockchain</div>
+
+  <ul>
+    <li>A blockchain node is a device that joins a blockchain network by operating the networkâs software, enabling it to verify transactions.</li>
+    <li>Blockchain nodes typically interact with one another to confirm and validate transactions.</li>
+    <li>The greater the number of nodes in a network, the more decentralized it becomes.</li>
+  </ul>
+
+  <h2>What exactly are blockchain nodes?</h2>
+  <p>The question âwhat is a node in blockchain?â is best understood by picturing a blockchain network. A network requires multiple interconnected devices or computers that can write, upload, and verify the data managed by the networkâs software. For example, if you want to run a node for Bitcoin (CRYPTO:BTC), you can freely download and operate the Bitcoin Core software on your computer without any restrictions.</p>
+  <p>A blockchain node is a computer or device running the networkâs software and interacting with other nodes to verify data added to the blockchain. Operating this software across multiple devices boosts the networkâs security and strengthens its decentralization.</p>
+  <p>In most blockchain networks, anyone is free to run a node; however, some networks are selective and permit only certain nodes to operate their software and take part in the network.</p>
+
+  <img class="hero" src="src/placeholder.jpg" alt="article main image placeholder">
+
+  <h2>How does a blockchain node function?</h2>
+  <p>The primary functions of a blockchain node are to broadcast and validate transactions. When a user submits a transaction, itâs picked up by one node, which then shares it with all other nodes across the network.</p>
+  <p>After all nodes read the transaction and confirm that the user has sufficient funds, they approve the transaction to proceed. Because every node takes part in verifying transactions, a transaction can only be canceled or denied if 51% of the nodes agree that itâs invalid.</p>
+  <p>While a 51% attack is technically possible, itâs difficult to carry out in a decentralized network. In such a network, numerous independent nodes operate without control by a single user or group that could manipulate or censor transactions. This means the more nodes a blockchain has, the more secure it becomes against a 51% attack.</p>
+  <p>After a node validates new transactions, they are bundled into blocks and added to the blockchain according to the networkâs established rules. Once added, no node can alter the contents of any block, ensuring that the recorded data remains permanent and unchangeable.</p>
+
+  <img class="mini-banner" src="src/placeholder.jpg" alt="small placeholder">
+</main>
+
+<footer>
+  <div class="footer-wrap">
+    <div class="footer-col">
+      <div class="f-title">Get In Touch</div>
+      <p>Justin Perrey</p>
+      <p><a href="mailto:justin@perryhometeam.com">justin@perryhometeam.com</a></p>
+      <p><a href="tel:13172866588">(317) 286-6588</a></p>
+      <p>7900 E US 36<br>Avon, IN 46123</p>
+    </div>
+
+    <div class="footer-col">
+      <div class="f-title">Explore</div>
+      <ul>
+        <li><a href="#">Meet Our Agents</a></li>
+        <li><a href="#">Client Testimonials</a></li>
+        <li><a href="#">Instant Home Evaluation</a></li>
+        <li><a href="#">Mortgage Calculator</a></li>
+        <li><a href="#">Visit our Blog</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <div class="f-title">Real Estate Search</div>
+      <ul>
+        <li><a href="#">Search Indianapolis</a></li>
+        <li><a href="#">Search West Indy</a></li>
+        <li><a href="#">Search North Indy</a></li>
+        <li><a href="#">Search Downtown Indy</a></li>
+        <li><a href="#">Search South Indy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <div class="f-title">Contact Us :</div>
+      <ul class="contact-dash">
+        <li><a href="#">Follow</a></li>
+        <li><a href="#">Follow</a></li>
+        <li><a href="#">Follow</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="copyright">Â© 2021 The Perry Home Team | All Rights Reserved</div>
+</footer>
+
+</body>
+</html>

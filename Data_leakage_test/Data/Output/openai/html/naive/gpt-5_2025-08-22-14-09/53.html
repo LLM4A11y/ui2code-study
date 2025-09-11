@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Information on India - Question</title>
+<style>
+  :root{
+    --bg:#efe4d9;
+    --magenta:#c01586;
+    --text:#2b2b2b;
+    --muted:#7f7a76;
+    --card:#ffffff;
+    --line:#e6ddd4;
+    --chip:#ff6a00;
+    --link:#b32763;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.6;
+  }
+  a{color:var(--link); text-decoration:none}
+  a:hover, a:focus{ text-decoration:underline }
+  .skip-link{
+    position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden;
+  }
+  .skip-link:focus{
+    left:1rem; top:1rem; width:auto; height:auto; padding:.5rem .75rem; background:#fff; border:2px solid #000; z-index:10000;
+  }
+
+  /* Top breaking bar */
+  .topbar{
+    background:var(--magenta);
+    color:#fff;
+    font-size:15px;
+  }
+  .topbar .wrap{
+    max-width:1100px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:.65rem 1rem;
+  }
+  .topbar .regions a{ color:#f2e6f2; margin-left:14px; }
+  .topbar .regions a:focus-visible{outline:2px solid #fff; outline-offset:2px}
+
+  /* Masthead */
+  .masthead{
+    background:#eee;
+    border-bottom:8px solid #e0d7cd;
+  }
+  .masthead .wrap{
+    max-width:1100px;
+    margin:0 auto;
+    padding:2.2rem 1rem 2.6rem;
+    position:relative;
+  }
+  .hero-media{
+    width:300px; height:240px;
+    background:#1e51ff;
+    border:6px solid #d6d0ca;
+  }
+  .hero-media img{
+    width:100%; height:100%; object-fit:cover; display:block;
+    background:#1e51ff;
+  }
+
+  /* Main navigation */
+  nav.main-nav{
+    background:#f2eeea;
+    border-bottom:4px solid #e4dcd2;
+  }
+  nav.main-nav .wrap{
+    max-width:1100px; margin:0 auto; padding:0 1rem;
+  }
+  .tabs{
+    display:flex; flex-wrap:wrap; gap:18px;
+    padding:.9rem 0;
+  }
+  .tabs a{
+    color:#6f6a66;
+    padding:.55rem .8rem;
+    border-radius:3px;
+  }
+  .tabs a[aria-current="page"]{
+    background:#fff; color:#333; box-shadow:0 2px 0 0 #d9d1c8;
+  }
+
+  /* Content grid */
+  .container{
+    max-width:1100px; margin:0 auto; padding:1rem;
+    display:grid; grid-template-columns: 1fr 320px; gap:28px;
+  }
+
+  /* Breadcrumbs / strip placeholders */
+  .crumbs{
+    grid-column:1 / -1;
+    display:grid; grid-template-columns: 1fr 320px; gap:28px;
+    margin-top:.5rem;
+  }
+  .crumb-left{
+    background:#efe9e2; color:#888;
+    padding:.85rem 1rem; border-left:4px solid #e0d7cd;
+  }
+  .crumb-right-top{
+    height:44px; background:#efe9e2; border-left:4px solid #e0d7cd;
+  }
+
+  /* Left article */
+  .card{
+    background:var(--card);
+    border:1px solid var(--line);
+    box-shadow:0 1px 0 rgba(0,0,0,.02);
+  }
+  .article{
+    padding:1.25rem 1.25rem 1rem;
+  }
+  .chips{
+    display:flex; gap:.4rem; flex-wrap:wrap; margin-bottom:10px;
+  }
+  .chip{
+    background:#ff6a00;
+    color:#fff; font-size:.85rem; font-weight:bold;
+    border-radius:3px; padding:.35rem .5rem;
+  }
+  h1{font-size:1.35rem; margin:.2rem 0 .8rem}
+  .share{
+    display:flex; gap:.6rem; margin:.8rem 0 1rem;
+  }
+  .btn{
+    display:inline-block; padding:.55rem .9rem;
+    border-radius:4px; color:#fff; font-weight:700; font-size:.9rem;
+  }
+  .btn:focus-visible{ outline:3px solid #000; outline-offset:2px }
+  .tw{ background:#3aa0d8 }
+  .fb{ background:#6c3b8a }
+  .or{ background:#d59428 }
+  .teal{ background:#2b9a8a }
+  .mustard{ background:#a06b15 }
+
+  h2, h3{margin:.9rem 0 .4rem}
+  h2{ font-size:1.1rem }
+  h3{ font-size:1rem; color:#555 }
+  .options a{
+    display:block; margin:.55rem 0; color:#c23a7a; font-weight:700;
+  }
+  .answer-btn{
+    margin-top:.7rem;
+    background:#e8e8e8; color:#222; border:1px solid #9b9b9b;
+    padding:.35rem .55rem; border-radius:3px;
+  }
+  .answer-btn:focus-visible{outline:3px solid #000; outline-offset:2px}
+
+  .section-title{
+    font-size:.95rem; letter-spacing:.1em; text-transform:uppercase;
+    color:#7b8c88; background:#efe9e2; border:1px solid var(--line);
+    padding:.9rem 1rem;
+  }
+  .related, .comments{
+    margin-top:1rem;
+  }
+  .related .box, .comments .box{
+    background:#f6f2ef; border:1px solid var(--line); height:60px;
+  }
+  .comments .box{ height:280px; }
+
+  /* Sidebar */
+  .ad{
+    background:#e9e1d8; border:1px solid var(--line); padding:10px;
+  }
+  .ad .inner{
+    background:#c0970a; height:60px;
+  }
+  .latest{
+    background:#fff; border:1px solid var(--line); padding:1rem;
+    margin-top:1rem;
+  }
+  .latest h4{
+    margin:0 0 .8rem; letter-spacing:.2em; font-size:.9rem; color:#9a9a9a;
+    text-transform:uppercase;
+  }
+  .q-list a{
+    display:block; background:#f2ebf0; color:#b32763; padding:.6rem .7rem;
+    border-left:4px solid #e1d7dc; margin-bottom:.5rem;
+  }
+
+  footer{height:40px}
+
+  /* Focus visibility general */
+  :focus-visible{outline:3px solid #0a67d0; outline-offset:2px}
+
+  /* Responsive */
+  @media (max-width: 980px){
+    .container, .crumbs{grid-template-columns:1fr}
+    .crumb-right-top{display:none}
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div class="topbar" role="banner">
+  <div class="wrap" aria-label="Breaking news and regions">
+    <div aria-live="polite">â Oranges costs increasing since 2022</div>
+    <div class="regions" aria-label="Regions">
+      <a href="#" role="button">USA</a>
+      <a href="#" role="button">CA</a>
+      <a href="#" role="button">GB</a>
+      <a href="#" role="button">AU</a>
+      <a href="#" role="button">EU</a>
+      <a href="#" role="button">More</a>
+    </div>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <figure class="hero-media" aria-label="Featured image">
+      <img src="src/placeholder.jpg" alt="Featured image placeholder">
+    </figure>
+  </div>
+</header>
+
+<nav class="main-nav" aria-label="Primary">
+  <div class="wrap">
+    <div class="tabs" role="menubar">
+      <a href="#" aria-current="page" role="menuitem">Main</a>
+      <a href="#" role="menuitem">Notifications</a>
+      <a href="#" role="menuitem">Exams</a>
+      <a href="#" role="menuitem">Old Questions</a>
+      <a href="#" role="menuitem">Syllabus</a>
+      <a href="#" role="menuitem">Answer Key</a>
+      <a href="#" role="menuitem">Study Materials</a>
+      <a href="#" role="menuitem">Youtube</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container" id="main" role="main">
+  <div class="crumbs" aria-label="Breadcrumbs and banner">
+    <div class="crumb-left">Main  Information on India  Knowledge  Years</div>
+    <div class="crumb-right-top" role="img" aria-label="Banner placeholder"></div>
+  </div>
+
+  <article class="card article">
+    <div class="chips" aria-label="Categories">
+      <span class="chip">Information on India</span>
+      <span class="chip">Knowledge</span>
+      <span class="chip">Years</span>
+    </div>
+
+    <h1>In which year was the Indian Oil Corporation established?</h1>
+
+    <div class="share" aria-label="Share">
+      <a class="btn tw" href="#" aria-label="Share on Twitter">Tweet</a>
+      <a class="btn fb" href="#" aria-label="Share on Facebook">Share</a>
+      <a class="btn or" href="#" aria-label="Share on social">Share</a>
+      <a class="btn teal" href="#" aria-label="Share on social">Share</a>
+      <a class="btn mustard" href="#" aria-label="Share on social">Share</a>
+    </div>
+
+    <h2>Answer : A</h2>
+    <h3>Explanation</h3>
+    <p>Indian Oil Corporation is a state-owned Indian oil and gas enterprise, with its primary headquarters located in New Delhi. It stands as the largest commercial oil company in the nation.</p>
+
+    <div class="options" role="list">
+      <a href="#" role="listitem">A - 1964</a>
+      <a href="#" role="listitem">B - 1965</a>
+      <a href="#" role="listitem">C - 1966</a>
+      <a href="#" role="listitem">D - 1970</a>
+    </div>
+
+    <button class="answer-btn" type="button" aria-expanded="false" aria-controls="answer">Show Answer</button>
+
+    <div class="related">
+      <div class="section-title">Related Posts</div>
+      <div class="box" role="img" aria-label="Related posts placeholder"></div>
+    </div>
+
+    <div class="comments">
+      <div class="section-title">0 Comments:</div>
+      <div class="box" role="img" aria-label="Comments placeholder"></div>
+    </div>
+  </article>
+
+  <aside aria-label="Sidebar">
+    <div class="ad" aria-label="Advertisement">
+      <div class="inner" role="img" aria-label="Ad banner"></div>
+    </div>
+
+    <section class="latest" aria-labelledby="latestq">
+      <h4 id="latestq">Latest Questions</h4>
+      <div class="q-list">
+        <a href="#">Let's go for a walk, shall we?</a>
+        <a href="#">Who organized the first Panthi Bhojanam in India?</a>
+        <a href="#">She sang well, ______? (Question Tag)</a>
+        <a href="#">I congratulate you ______ your success.</a>
+        <a href="#">The owner of 'Samathwa Samajam'</a>
+        <a href="#">There is an exception ______ every rule.</a>
+        <a href="#">He died ______ a severe head injury.</a>
+        <a href="#">Who was the first to organize "Panthi Bhojanam" in India?</a>
+        <a href="#">Who was the founder of the Vidya Poshini Sabha?</a>
+        <a href="#">Who among the following holds the ultimate authority to approve the expenditure of public funds in India?</a>
+      </div>
+    </section>
+  </aside>
+</div>
+
+<footer aria-hidden="true"></footer>
+</body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosebud Treasures</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d9eadf;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            width: 900px;
+            margin: 20px auto;
+            background-color: #fffef2;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        aside {
+            width: 250px;
+            padding-right: 20px;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        .profile {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .profile img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+        }
+
+        nav ul li:hover {
+            background-color: #f9f9f9;
+        }
+        .stay-connected {
+            background-color: #f7dbd8;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .join-mailing-list {
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .join-mailing-list input[type="email"] {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #cccccc;
+            color: black;
+            padding: 8px 12px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: #bfbfbf;
+        }
+
+        .top-selections {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .selection-item {
+            width: 30%;
+            text-align: center;
+            border: 1px solid #f0f0f0;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .selection-item img {
+            width: 100%;
+            height: 200px;
+            background-color: blue;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .mccoy-pottery{
+            width: 100%;
+            text-align: center;
+            border: 1px solid #f0f0f0;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-top: 20px;
+        }
+        .mccoy-pottery img {
+            width: 100%;
+            height: 300px;
+            background-color: blue;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .content-area {
+            background-color: blue;
+            height: 100px;
+        }
+        footer{
+            background-color: #0a0a0a;
+            color: #fff;
+            padding: 20px;
+            text-align: left;
+        }
+        .profile-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: blue;
+            margin-bottom: 5px;
+        }
+        .circle {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        .circle.facebook {
+            background-color: #3b5998; /* Facebook color */
+        }
+
+        .circle.pinterest {
+            background-color: #cb2027; /* Pinterest color */
+        }
+
+        .circle.instagram {
+            background-color: #e4405f; /* Instagram color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="profile">
+                <div class="profile-image"></div>
+                <h2>Gabe C.</h2>
+                <p>Doctor pioneering a new healthcare system.</p>
+            </div>
+            <input type="text" placeholder="Search...">
+            <nav>
+                <ul>
+                    <li>Charming Home and Cottage Style</li>
+                    <li>Old & Collectible Fabrics</li>
+                    <li>Classic Bride & Wedding</li>
+                    <li>Afternoon Tea</li>
+                    <li>Old Hand Painted China</li>
+                    <li>Rustic & Polished Silver</li>
+                    <li>Old Time Kitchen</li>
+                    <li>Fiestaware Pottery</li>
+                    <li>Classic Laundry Room</li>
+                    <li>Ladies Classic Dressing</li>
+                    <li>Accessories</li>
+                    <li>Cottage Outdoors</li>
+                    <li>Old Paper Memorabilia</li>
+                    <li>Old Trip Memories</li>
+                    <li>Old Kids' Toys</li>
+                    <li>Old Sewing Items</li>
+                    <li>Old Time Holidays</li>
+                    <li>Book Corner</li>
+                </ul>
+            </nav>
+            <div class="stay-connected">
+                <p>Stay Connected</p>
+                <div class="circle facebook"></div>
+                <div class="circle pinterest"></div>
+                <div class="circle instagram"></div>
+            </div>
+            <div class="join-mailing-list">
+                <p>Join Mailing List</p>
+                <p>Join our mailing list for the latest news and sales...</p>
+                <input type="email" placeholder="Enter your email...">
+                <button>Join</button>
+            </div>
+        </aside>
+        <main>
+            <div class="content-area"></div>
+            <p style="text-align: center;"><em>Thank you for visiting Rosebud Treasures today!</em></p>
+            <p style="text-align: center;">Here you will discover all the precious items to make your home charming.</p>
+            <p style="text-align: center;">We also have amazing things for women, including vintage makeup kits, rare vintage purses and satchels, plus</p>
+            <p style="text-align: center;">stunning designer jewelry.</p>
+            <h2 style="margin-bottom: 0px;">Top Selections</h2>
+            <p style="text-align: center;">Your online shop for cottage style, shabby chic treasures and collectibles!</p>
+            <div class="top-selections">
+                <div class="selection-item">
+                    <img src="src/placeholder.jpg" alt="Heidi Daus Cornucopia Brooch">
+                    <p>Heidi Daus Cornucopia Brooch Heidi's Harvest...</p>
+                    <p><strong>$150.00</strong></p>
+                </div>
+                <div class="selection-item">
+                    <img src="src/placeholder.jpg" alt="Heidi Daus Squirrel Sparkle">
+                    <p>Heidi Daus Squirrel Sparkle Fall Rhinestone..</p>
+                    <p><strong>$125.00</strong></p>
+                </div>
+                <div class="selection-item">
+                    <img src="src/placeholder.jpg" alt="Heidi Daus Precious Pumpkin">
+                    <p>Heidi Daus Precious Pumpkin PavÃÂ© Fall...</p>
+                    <p><strong>$150.00</strong></p>
+                </div>
+            </div>
+            <div class="mccoy-pottery">
+                <img src="src/placeholder.jpg" alt="Vintage McCoy Pottery">
+                <p>Vintage McCoy Pottery Purple and White Chrysanthemum Vase</p>
+                <p><strong>$55.00</strong></p>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <p>RSS</p>
+        <p>user123 | user123 | user123</p>
+        <p>Generated using StaticSite</p>
+    </footer>
+</body>
+</html>

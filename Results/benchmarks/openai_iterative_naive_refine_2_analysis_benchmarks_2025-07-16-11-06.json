@@ -1,0 +1,23 @@
+{
+  "model": "openai",
+  "prompting_strategy": "iterative_naive_refine_2",
+  "date": "2025-07-16-11-06",
+  "overview": {
+    "files_processed": 53,
+    "mean_ir": 0.015982044279715432,
+    "mean_iwir": 0.4289193825042882,
+    "status_counts": {
+      "Yellow": 29,
+      "Green": 24
+    }
+  },
+  "benchmarks": {
+    "mean_final_score": 0.8778109918873047,
+    "mean_final_size_score": 0.8413938387748353,
+    "mean_final_matched_text_score": 0.9649770863996925,
+    "mean_final_position_score": 0.8503977182888233,
+    "mean_final_text_color_score": 0.8207537868529969,
+    "mean_final_clip_score": 0.9115325291201753,
+    "files_analyzed": 53
+  }
+}

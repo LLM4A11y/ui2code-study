@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fetch Forum - File name characters</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root{
+    --navy:#103a59;
+    --navy-dark:#0c2f4a;
+    --sky:#5fb0ff;
+    --bg:#f5f7f9;
+    --text:#2f3440;
+    --muted:#6c7683;
+    --rule:#e6eaee;
+    --alert:#d65a52;
+    --link:#1e5f8e;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family: Georgia, "Times New Roman", serif;
+    line-height:1.55;
+    letter-spacing:.1px;
+  }
+
+  /* top stripes */
+  .stripe{height:10px;background:var(--navy)}
+  .stripe.thin{height:6px;margin-top:10px}
+
+  .wrap{width:700px;margin:0 auto}
+
+  /* hero */
+  .hero-sep{height:18px;border-bottom:1px solid #e9eef3}
+  .hero{
+    background:var(--navy);
+    margin:26px 0 34px;
+    padding:34px 38px 42px;
+    border-radius:2px;
+    box-shadow:0 1px 0 rgba(0,0,0,.02);
+  }
+  .badge{
+    display:inline-block;
+    background:var(--navy-dark);
+    color:#fff;
+    border:1px solid rgba(255,255,255,.2);
+    font-family:"Helvetica Neue", Arial, sans-serif;
+    font-size:12px;
+    letter-spacing:.15em;
+    padding:7px 10px 6px;
+    border-radius:2px;
+    margin-bottom:18px;
+  }
+  .badge .ver{color:#77c1ff;margin-left:6px}
+  .hero h1{
+    color:#fff;
+    font-size:44px;
+    font-weight:700;
+    line-height:1.1;
+    margin:0 0 18px;
+    max-width:520px;
+  }
+  .hero .sub{
+    display:inline-block;
+    color:#9bc7ea;
+    font-family:"Helvetica Neue", Arial, sans-serif;
+    text-transform:uppercase;
+    font-size:12px;
+    letter-spacing:.2em;
+    text-decoration:none;
+    border-bottom:1px solid rgba(155,199,234,.45);
+    padding-bottom:2px;
+  }
+
+  /* forum content */
+  h2.section{
+    margin:10px 0 12px;
+    font-size:14px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:.18em;
+    color:#234a6a;
+  }
+  h2.section small{
+    color:#8a95a3;
+    font-weight:400;
+    letter-spacing:normal;
+    text-transform:none;
+  }
+  .notice{
+    background:var(--alert);
+    color:#fff;
+    padding:14px 16px;
+    font-family:"Helvetica Neue", Arial, sans-serif;
+    font-size:13px;
+    border-radius:2px;
+    margin:14px 0 18px;
+  }
+  ul.meta{
+    margin:0 0 18px 18px;
+    padding:0 0 0 12px;
+  }
+  ul.meta li{
+    margin:6px 0;
+    color:#3b414c;
+  }
+  ul.meta b, ul.meta strong{font-weight:700}
+
+  .divider{border-top:1px solid var(--rule); margin:16px 0}
+
+  /* posts */
+  .post{
+    display:grid;
+    grid-template-columns:160px 1fr;
+    column-gap:20px;
+    padding:16px 0;
+    border-top:1px solid var(--rule);
+  }
+  .post:first-of-type{border-top:1px solid var(--rule)}
+  .user strong{display:block;font-weight:700}
+  .role{
+    display:block;
+    color:#8d96a5;
+    font-size:12px;
+    margin-top:2px;
+  }
+  .content p{margin:0 0 12px}
+  .posted{
+    font-family:"Helvetica Neue", Arial, sans-serif;
+    color:#8d96a5;
+    font-size:12px;
+    letter-spacing:.05em;
+    text-transform:uppercase;
+  }
+  .posted a{color:#8d96a5;text-decoration:none;margin-left:6px}
+
+  /* topic closed */
+  .closed{
+    border-top:1px solid var(--rule);
+    border-bottom:1px solid var(--rule);
+    padding:16px 0 18px;
+    margin-top:10px;
+  }
+  .closed h3{
+    margin:0 0 6px;
+    font-size:18px;
+    color:#2f4d69;
+    font-weight:400;
+  }
+  .right-link{
+    text-align:right;
+    margin:18px 0 46px;
+  }
+  .right-link a{
+    color:var(--link);
+    text-decoration:none;
+    font-family:"Helvetica Neue", Arial, sans-serif;
+  }
+
+  /* footer */
+  footer{
+    text-align:center;
+    color:#9aa3af;
+    font-family:"Helvetica Neue", Arial, sans-serif;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:.18em;
+    padding:22px 0 40px;
+    border-top:1px solid var(--rule);
+  }
+
+  /* image placeholder style (if any gets added) */
+  img.placeholder{
+    background:#b9d3f7;
+    border:1px solid #8fb7ea;
+    display:block;
+  }
+
+  @media (max-width:760px){
+    .wrap{width:90%}
+    .hero h1{font-size:36px}
+    .post{grid-template-columns:120px 1fr}
+  }
+</style>
+</head>
+<body>
+  <div class="stripe"></div>
+  <div class="stripe thin"></div>
+
+  <div class="wrap">
+    <div class="hero-sep"></div>
+    <section class="hero">
+      <div class="badge">FETCH <span class="ver">5.8</span></div>
+      <h1>Your best friend for
+      file transfer.</h1>
+      <a class="sub" href="#">Support</a>
+    </section>
+
+    <h2 class="section">File name characters <small>(2 posts)</small></h2>
+
+    <div class="notice">
+      This is an archived topic. The information in it is likely to be out-of-date and no longer applicable to current versions of Fetch.
+    </div>
+
+    <ul class="meta">
+      <li>Started 21 years ago by <b>gorenstein</b></li>
+      <li><b>Latest reply</b> 21 years ago from <b>Jim Matthews</b></li>
+    </ul>
+
+    <div class="divider"></div>
+
+    <article class="post">
+      <div class="user">
+        <strong>gorenstein</strong>
+        <span class="role">Member</span>
+      </div>
+      <div class="content">
+        <p>In uploading files from a Mac to a Windows system, certain characters that are not valid in Windows file names are "escaped". For example a forward slash (/) is converted to "%2F".</p>
+        <p>Other such characters go unescaped and cause transfers to fail. Examples are asterisks (*) and double quotes (").</p>
+        <p>Since Fetch is capable of escaping some illegal characters, is there any way to get it to do the others?</p>
+        <p>Also, is there some way to provide a more desirable substitution. For example, I would prefer to have the forward slashes wind up as dashes.</p>
+        <div class="posted">Posted 21 years ago <a href="#">#</a></div>
+      </div>
+    </article>
+
+    <article class="post">
+      <div class="user">
+        <strong>Jim Matthews</strong>
+        <span class="role">Administrator</span>
+      </div>
+      <div class="content">
+        <p>There isn't currently a way to do this, but it's a great suggestion.</p>
+        <p>Thanks,</p>
+        <p><b>Jim Matthews</b><br>Fetch Softworks</p>
+        <div class="posted">Posted 21 years ago <a href="#">#</a></div>
+      </div>
+    </article>
+
+    <div class="closed">
+      <h3>Topic closed</h3>
+      <p class="muted">This topic has been closed.</p>
+    </div>
+
+    <div class="right-link"><a href="#">Return to Message Board</a></div>
+
+  </div>
+
+  <footer>Â© Copyright 2000 â 2023 from your friends at Fetch Softworks</footer>
+</body>
+</html>

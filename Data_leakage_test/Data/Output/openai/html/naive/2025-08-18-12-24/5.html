@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage UI</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        header {
+            background-color: #f8f8f8;
+            padding: 10px 20px;
+            border-bottom: 1px solid #e7e7e7;
+        }
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+        }
+        main {
+            display: flex;
+            margin: 20px;
+        }
+        aside {
+            flex: 0 0 240px;
+            padding-right: 20px;
+            border-right: 1px solid #e7e7e7;
+        }
+        aside .profile {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        aside .profile img {
+            width: 140px;
+            height: 140px;
+            margin-bottom: 10px;
+            border-radius: 70px;
+        }
+        aside .profile h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+        aside .profile p {
+            color: #777;
+            font-size: 14px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+        aside .profile a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+            border-top: 1px solid #e7e7e7;
+            padding-top: 10px;
+        }
+        aside .report {
+            color: #007BFF;
+            text-decoration: none;
+            font-size: 12px;
+            display: inline-block;
+            margin-top: 20px;
+            border-top: 1px solid #e7e7e7;
+            padding-top: 10px;
+        }
+        article {
+            flex: 1;
+            padding-left: 40px;
+        }
+        article header {
+            background-color: #20768C;
+            color: #fff;
+            padding: 30px 40px;
+            font-size: 28px;
+            line-height: 1.3;
+            margin-bottom: 20px;
+        }
+        article .date {
+            font-size: 12px;
+            color: #999;
+            margin-bottom: 20px;
+        }
+        article p {
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        article p:first-child::first-letter {
+            font-size: 50px;
+            font-weight: bold;
+            float: left;
+            margin-right: 6px;
+            line-height: 1;
+            color: #20768C;
+        }
+        article a {
+            color: #20768C;
+            text-decoration: none;
+        }
+        .share-more {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: #20768C;
+            margin-top: 20px;
+        }
+        .sidebar {
+            margin-top: 40px;
+        }
+        .sidebar article {
+            margin-bottom: 40px;
+        }
+        .sidebar h4 {
+            font-size: 20px;
+            color: #20768C;
+            margin: 0 0 10px;
+        }
+        .sidebar .date {
+            color: #999;
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        .sidebar p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>Template</div>
+            <div>
+                <span>Talk</span>
+                <span>Contributions</span>
+                <span>Sign in</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <div class="profile">
+                <img src="src/placeholder.jpg" alt="Profile">
+                <h3>Ben Carter</h3>
+                <p>Google Apps enthusiast, web development hobbyist</p>
+                <a href="#">VIEW PROFILE</a>
+            </div>
+            <a href="#" class="report">Report Abuse</a>
+        </aside>
+        
+        <article>
+            <header>
+                A Solution for Uploading Videos to YouTube when the Site is Restricted
+            </header>
+            <div class="date">July 25, 2007</div>
+            <p>avid, who is employed by a major global corporation, recently posted on a social network that he's unable to upload video content to YouTube because his employer blocks YouTube and similar video platforms via their network security measures.</p>
+            <p>One potential solution involves utilizing your <a href="#">smartphone</a> for uploading to YouTube. Simply set up a mobile account on YouTube from a personal computer outside of your company's network and then send your video to YouTube as an MMS message.</p>
+            <p>See also: <a href="#">How to Reach Restricted Websites</a></p>
+            <p>A second, more adaptable solution, is a service such as <a href="#">MultiStream</a> - which enables you to upload the same video to multiple platforms simultaneously.</p>
+            <p>You would upload your file to MultiStream's servers, and they handle posting to various video websites, like YouTube, Vimeo, Dailymotion, Facebook, etc.</p>
+            <p>It is likely that MultiStream's website isn't blocked by your company - they will email you confirmation upon successfully publishing your clip to your selected services.</p>
+            <div class="share-more">
+                <div>SHARE</div>
+                <div>READ MORE</div>
+            </div>
+        </article>
+    </main>
+
+    <div class="sidebar">
+        <article>
+            <h4>How to Export Facebook Contacts Into an Outlook Address Book</h4>
+            <div class="date">October 15, 2007</div>
+            <p>Many Facebook users dislike its restrictive approach. While you can easily import contacts from Outlook or GMail to Facebook, the opposite isn't ...</p>
+            <div class="share-more">
+                <div>SHARE</div>
+                <div>READ MORE</div>
+            </div>
+        </article>
+        
+        <article>
+            <h4>How to Set Up a Custom Firefox Search Tool in Under 2 Minutes</h4>
+            <div class="date">September 23, 2006</div>
+            <p>Most sites offer search boxes, allowing you to enter text and search content. The problem with this is you must first load the website to find the search box. ...</p>
+            <div class="share-more">
+                <div>SHARE</div>
+                <div>READ MORE</div>
+            </div>
+        </article>
+        
+        <article>
+            <h4>Tech Blog</h4>
+            <div class="date">October 25, 2007</div>
+            <p>Tech Blog is a blog by Ben Carter. We cover topics such as Google Apps Scripts including Gmail utilities (personalized emails), and Document ...</p>
+            <div class="share-more">
+                <div>SHARE</div>
+                <div>READ MORE</div>
+            </div>
+        </article>
+    </div>
+</body>
+</html>

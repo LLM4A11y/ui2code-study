@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<title>Alpha One Labs - Learn</title>
+<style>
+  :root{
+    --teal:#0fa59a;
+    --bg:#f6f7fb;
+    --text:#0f172a;
+    --muted:#6b7280;
+    --border:#e5e7eb;
+    --field:#ffffff;
+    --orange:#f47a17;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;
+    font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);
+    color:var(--text);
+  }
+  .wrap{max-width:980px;margin:0 auto;padding:0 24px}
+  /* Header */
+  .topbar{
+    background:var(--teal);
+    height:68px;
+    display:flex;
+    align-items:center;
+    box-shadow:0 1px 0 rgba(0,0,0,.04);
+  }
+  .topbar .wrap{display:flex;align-items:center;justify-content:space-between;width:100%}
+  .brand{display:flex;align-items:center;gap:12px}
+  .brand .logo{
+    width:36px;height:36px;border-radius:4px;display:block;
+    background:#2f5bff;object-fit:cover;
+  }
+  .brand span{color:#fff;font-weight:700;font-size:16px;letter-spacing:.2px}
+  .search{position:relative;width:380px;max-width:48vw}
+  .search input{
+    width:100%;height:40px;border-radius:999px;border:1px solid rgba(255,255,255,.35);
+    background:#ffffff;font-size:14px;color:#0f172a;
+    padding:0 40px 0 40px;outline:none;
+  }
+  .search img{
+    position:absolute;top:50%;transform:translateY(-50%);
+    width:16px;height:16px;border-radius:3px;background:#2f5bff;object-fit:cover;
+  }
+  .search .s-left{left:12px}
+  .search .s-right{right:12px}
+  /* Hero */
+  .main{padding:36px 0 0}
+  .hero{text-align:center}
+  .hero-title{display:inline-flex;align-items:center;gap:10px}
+  .hero-icon{
+    width:18px;height:18px;border-radius:4px;border:1px solid #cbd5e1;
+    background:#2f5bff;object-fit:cover;
+  }
+  h1{margin:0;font-weight:800;font-size:30px;letter-spacing:-.2px}
+  .sub{margin:10px 0 0;color:var(--muted);font-size:15px}
+  /* Card/Form */
+  .card{
+    width:660px;max-width:calc(100% - 64px);
+    margin:28px auto 0;
+    background:#fff;border-radius:10px;
+    box-shadow:0 10px 28px rgba(0,0,0,.08);
+    padding:26px 28px 22px;
+  }
+  .card h2{margin:0 0 8px;font-size:22px;font-weight:700}
+  .field{margin-top:18px}
+  label{display:block;font-weight:600;font-size:14px;margin-bottom:8px}
+  input[type="text"], textarea{
+    width:100%;background:var(--field);
+    border:1px solid var(--border);border-radius:8px;
+    padding:12px 14px;font-size:14px;color:var(--text);
+    outline:none;
+  }
+  input[type="text"]{height:44px}
+  textarea{min-height:120px;resize:vertical}
+  ::placeholder{color:#9aa3ae}
+  .hint{margin-top:6px;color:var(--muted);font-size:12px}
+  .btn{
+    margin-top:18px;width:100%;height:46px;border:none;border-radius:8px;
+    background:var(--orange);color:#fff;font-weight:700;font-size:15px;
+    cursor:pointer;box-shadow:0 6px 16px rgba(244,122,23,.35);
+  }
+  /* Footer */
+  .footer{
+    margin-top:140px;border-top:1px solid var(--border);background:#fff;
+  }
+  .footer .wrap{
+    display:flex;align-items:flex-start;justify-content:space-between;
+    padding:28px 24px 40px;
+  }
+  .left p{margin:0 0 6px;color:#6b7280;font-size:13px}
+  .links{display:flex;gap:22px;margin:8px 0 0;padding:0;list-style:none;color:#6b7280;font-size:14px}
+  @media (max-width:720px){
+    .search{display:none}
+    .card{max-width:calc(100% - 32px)}
+    .footer .wrap{flex-direction:column;gap:20px}
+  }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand">
+      <img class="logo" src="src/placeholder.jpg" alt="">
+      <span>Alpha One Labs</span>
+    </div>
+    <div class="search">
+      <img class="s-left" src="src/placeholder.jpg" alt="">
+      <input type="text" placeholder="What do you want to learn?">
+      <img class="s-right" src="src/placeholder.jpg" alt="">
+    </div>
+  </div>
+</header>
+
+<main class="main">
+  <section class="hero">
+    <div class="hero-title">
+      <img src="src/placeholder.jpg" class="hero-icon" alt="">
+      <h1>Learn with Alpha One Labs</h1>
+    </div>
+    <p class="sub">Ready to expand your knowledge? Fill out the form below to get started!</p>
+  </section>
+
+  <section class="card">
+    <h2>Learning Inquiry Form</h2>
+
+    <div class="field">
+      <label>Title</label>
+      <input type="text" placeholder="What would you like to learn?">
+      <div class="hint">Give your waiting room a descriptive title</div>
+    </div>
+
+    <div class="field">
+      <label>Description</label>
+      <textarea placeholder="Describe what you want to learn"></textarea>
+    </div>
+
+    <div class="field">
+      <label>Subject</label>
+      <input type="text" placeholder="Main subject (e.g., Mathematics, Programming)">
+      <div class="hint">The main subject area for this waiting room</div>
+    </div>
+
+    <div class="field">
+      <label>Topics</label>
+      <input type="text" placeholder="e.g., Python, Machine Learning, Data Science">
+      <div class="hint">Enter topics separated by commas</div>
+    </div>
+
+    <button class="btn">Submit Inquiry</button>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="left">
+      <p>Â© 2025 Alpha One Labs. All rights reserved.</p>
+      <p class="muted">Last updated: 06/12/2025 12:19nachm.</p>
+    </div>
+    <ul class="links">
+      <li>About Us</li>
+      <li>Terms & Conditions</li>
+      <li>Privacy Policy</li>
+      <li>Cookie Policy</li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>

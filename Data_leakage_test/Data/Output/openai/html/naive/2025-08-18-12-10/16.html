@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #C8DBE4;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #F7F4E4;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: #C8DBE4;
+        }
+        .profile-img {
+            width: 80px;
+            height: 80px;
+            background-color: blue;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .profile-info {
+            font-size: 1.2em;
+        }
+        .profile-info h1 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .profile-info p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #F7F3E2;
+            padding: 20px;
+            float: left;
+            border-right: 1px solid #DDD;
+        }
+        .navigation {
+            list-style: none;
+            padding: 0;
+        }
+        .navigation li {
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #7C8487;
+        }
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+        .content img.large {
+            width: 100%;
+            height: 200px;
+            background-color: blue;
+        }
+        .welcome-text {
+            text-align: center;
+            margin: 20px;
+            font-style: italic;
+        }
+        .top-selections {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .selection-card {
+            width: 30%;
+            background-color: #FFFAE3;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #E0D9B9;
+            border-radius: 5px;
+        }
+        .selection-card img {
+            width: 100%;
+            height: 150px;
+            background-color: blue;
+        }
+        .selection-card p {
+            margin: 10px 0;
+            font-weight: bold;
+        }
+        .footer {
+            background-color: #243352;
+            color: #FFFFFF;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer a {
+            color: #FFFFFF;
+            margin: 0 10px;
+        }
+        .footer div {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="profile-img"></div>
+            <div class="profile-info">
+                <h1>Gabe C.</h1>
+                <p>Doctor pioneering a new healthcare system.</p>
+            </div>
+        </div>
+        <div class="sidebar">
+            <input type="text" placeholder="Search..." style="width:100%; padding:10px; margin-bottom: 20px;">
+            <ul class="navigation">
+                <li>Charming Home</li>
+                <li>Old & Collectible Fabrics</li>
+                <li>Classic Bride & Wedding</li>
+                <li>Afternoon Tea</li>
+                <li>Old Hand Painted China</li>
+                <li>Rustic & Polished Silver</li>
+                <li>Old Time Kitchen</li>
+                <li>Fiestaware Pottery</li>
+                <li>Classic Laundry Room</li>
+                <li>Ladies Classic Dressing</li>
+                <li>Accessories</li>
+                <li>Cottage Outdoors</li>
+                <li>Old Paper Memorabilia</li>
+                <li>Old Trip Memories</li>
+                <li>Old Kids' Toys</li>
+                <li>Old Sewing Items</li>
+                <li>Old Time Holidays</li>
+                <li>Book Corner</li>
+            </ul>
+            <div style="margin-top: 30px;">
+                <h3>Stay Connected</h3>
+                <div>
+                    <img src="src/placeholder.jpg" style="width: 30px; height: 30px; background-color:red;">
+                    <img src="src/placeholder.jpg" style="width: 30px; height: 30px; background-color:blue;">
+                    <img src="src/placeholder.jpg" style="width: 30px; height: 30px; background-color:green;">
+                </div>
+            </div>
+            <div style="margin-top: 30px;">
+                <h3>Join Mailing List</h3>
+                <p>Join our mailing list for the latest news and sales...</p>
+                <input type="email" placeholder="Enter your email..." style="width:100%; padding:10px; margin-bottom:10px;">
+                <button style="width:100%; padding:10px; background-color:#E5A585;">Join</button>
+            </div>
+        </div>
+        <div class="content">
+            <img src="src/placeholder.jpg" alt="Large Image" class="large">
+            <div class="welcome-text">
+                <p>Thank you for visiting Rosebud Treasures today!</p>
+                <p>Here you will discover all the precious items to make your home charming.</p>
+                <p>We also have amazing things for women, including vintage makeup kits, rare vintage purses and satchels, plus stunning designer jewelry.</p>
+                <p>Your online shop for cottage style, shabby chic treasures and collectibles!</p>
+            </div>
+            <h2>Top Selections</h2>
+            <div class="top-selections">
+                <div class="selection-card">
+                    <img src="src/placeholder.jpg" alt="Selection Image">
+                    <p>Heidi Daus Cornucopia Brooch Heidi's Harvest...</p>
+                    <p>$150.00</p>
+                </div>
+                <div class="selection-card">
+                    <img src="src/placeholder.jpg" alt="Selection Image">
+                    <p>Heidi Daus Squirrel Sparkle Fall Rhinestone...</p>
+                    <p>$125.00</p>
+                </div>
+                <div class="selection-card">
+                    <img src="src/placeholder.jpg" alt="Selection Image">
+                    <p>Heidi Daus Precious Pumpkin PavÃ© Fall...</p>
+                    <p>$150.00</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-bottom: 20px;">
+                <img src="src/placeholder.jpg" alt="Large Image" class="large">
+                <p>Vintage McCoy Pottery Purple and White Chrysanthemum Vase</p>
+                <p>$55.00</p>
+            </div>
+        </div>
+        <div class="footer">
+            <div>RSS</div>
+            <div>user123 | user123 | user123</div>
+            <div>Generated using StaticSite</div>
+        </div>
+    </div>
+</body>
+</html>

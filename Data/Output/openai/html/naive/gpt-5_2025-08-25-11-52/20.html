@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>3rd Annual MIIA Sporting Clay Shoot</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blue:#2977c8;
+    --text:#606062;
+    --muted:#bfbfc4;
+    --taupe:#8c7c73;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family:'Montserrat', Arial, Helvetica, sans-serif;
+    color:var(--text);
+    background:#ffffff;
+  }
+  .container{
+    width:1000px;
+    margin:26px auto 0;
+  }
+
+  /* top angled buttons */
+  .top-actions{
+    display:flex;
+    justify-content:flex-end;
+    gap:18px;
+    margin-top:10px;
+  }
+  .top-actions a{
+    text-decoration:none;
+    color:#fff;
+    font-weight:700;
+    font-size:16px;
+    letter-spacing:.4px;
+  }
+  .tab{
+    position:relative;
+    background:var(--taupe);
+    transform:skewX(-20deg);
+    padding:14px 34px;
+    box-shadow:0 2px 0 rgba(0,0,0,0.15);
+  }
+  .tab a{display:block; transform:skewX(20deg)}
+  /* main content */
+  .wrap{
+    width:1000px;
+    margin:30px auto 0;
+  }
+  h1{
+    color:var(--blue);
+    font-weight:800;
+    font-size:44px;
+    margin:42px 0 12px 0;
+    letter-spacing:.2px;
+  }
+  .date{
+    color:#6e6e6e;
+    font-weight:800;
+    font-size:32px;
+    margin:0 0 28px 0;
+  }
+  .grid{
+    display:grid;
+    grid-template-columns: 520px 1fr;
+    gap:40px;
+    align-items:start;
+  }
+  .photo{
+    width:520px;
+    height:350px;
+    background:#1820ff;
+    display:block;
+    object-fit:cover;
+  }
+  .text p{
+    margin:0 0 22px 0;
+    line-height:1.9;
+    font-weight:500;
+    font-size:16px;
+    color:#6a6a6d;
+  }
+  .text a{
+    color:var(--blue);
+    text-decoration:none;
+    font-weight:700;
+  }
+  .back{
+    color:var(--blue);
+    font-weight:700;
+    text-decoration:none;
+    display:inline-block;
+    margin-top:6px;
+  }
+  /* footer */
+  footer{
+    width:1000px;
+    margin:110px auto 60px;
+    color:#cfcfd3;
+    font-size:13px;
+    letter-spacing:.5px;
+  }
+  footer a{
+    color:#cfcfd3;
+    text-decoration:underline;
+    margin-right:18px;
+    font-weight:700;
+  }
+  .phone{
+    margin-top:16px;
+    color:#cfcfd3;
+    font-weight:700;
+  }
+
+  @media (max-width:1040px){
+    .container,.wrap,footer{width:92%}
+    .grid{grid-template-columns:1fr}
+    .photo{width:100%; height:360px}
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="top-actions">
+    <div class="tab"><a href="#">Contact Us</a></div>
+    <div class="tab"><a href="#">Members</a></div>
+  </div>
+</div>
+
+<div class="wrap">
+  <h1>3rd Annual MIIA Sporting Clay Shoot</h1>
+  <div class="date">11.9.2018</div>
+
+  <div class="grid">
+    <img class="photo" src="src/placeholder.jpg" alt="Event Photo Placeholder">
+
+    <div class="text">
+      <p>The ATA Comp Fund was one of the proud sponsors and participants in the Montgomery Independent Insurance Agents' 3rd Annual Clay Shoot at the Lower Wetumpka Shotgun Sports Club. In its 3rd year of putting on the event, the MIIA was able to raise proceeds for the Hope Inspired Ministries. Always a fun time, MIIA!</p>
+      <p>Check out more photos on our <a href="#">Facebook</a> page!</p>
+      <a class="back" href="#">&lt; Back To News</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div>
+    <a href="#">ABOUT</a>
+    <a href="#">WHY ATA FUND</a>
+    <a href="#">APPLY</a>
+    <a href="#">CLAIMS</a>
+  </div>
+  <div class="phone">[PHONE REDACTED]</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Producer Application</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  :root{
+    --pink:#e21d79;
+    --border:#e6e6e6;
+    --text:#222;
+    --muted:#6f6f6f;
+    --bg:#ffffff;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#fafafa;
+    color:var(--text);
+  }
+  .card{
+    width:600px;
+    margin:10px auto 40px;
+    background:var(--bg);
+    border:1px solid var(--border);
+  }
+
+  /* top image */
+  .top-image{
+    text-align:center;
+    padding:24px 0 6px;
+  }
+  .top-image img{
+    width:210px;
+    height:230px;
+    object-fit:cover;
+    display:inline-block;
+  }
+
+  /* title bar */
+  .title{
+    background:var(--pink);
+    color:#fff;
+    text-align:center;
+    font-weight:700;
+    font-size:20px;
+    letter-spacing:.4px;
+    padding:14px 10px;
+  }
+
+  .inner{
+    padding:18px 22px 0;
+  }
+  .intro{
+    font-size:13px;
+    color:var(--muted);
+    line-height:1.6;
+    margin-bottom:18px;
+  }
+  .intro a{color:#1a73e8; text-decoration:underline}
+
+  label, .group-title{
+    font-size:13px;
+    font-weight:700;
+    display:block;
+    margin-bottom:6px;
+  }
+  .req{color:#d93025; margin-left:3px}
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select,
+  textarea{
+    width:100%;
+    border:1px solid #dcdcdc;
+    border-radius:3px;
+    padding:9px 10px;
+    font-size:13px;
+    background:#fff;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select{height:36px}
+
+  textarea{min-height:110px; resize:vertical}
+
+  .row{
+    display:flex;
+    gap:22px;
+  }
+  .row .field{flex:1}
+
+  .field{margin-bottom:22px}
+
+  .options{
+    margin:4px 0 0 2px;
+    color:#444;
+    font-size:13px;
+  }
+  .options label{
+    font-weight:400;
+    display:inline-block;
+    margin-right:24px;
+  }
+  .counter{
+    color:#9aa0a6;
+    font-size:11px;
+    margin-top:6px;
+  }
+
+  .terms-block{
+    border-top:1px solid var(--border);
+    padding-top:14px;
+    margin-top:4px;
+  }
+  .small-link{
+    font-size:13px;
+    color:#1a73e8;
+    text-decoration:underline;
+    display:inline-block;
+    margin-top:8px;
+  }
+
+  .footer-bar{
+    border-top:1px solid var(--border);
+    margin-top:18px;
+    padding:10px 22px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:#8a8a8a;
+    font-size:12px;
+  }
+  .footer-bar a{color:#6f6f6f; text-decoration:underline}
+  .powered{
+    display:flex;
+    align-items:center;
+    gap:6px;
+  }
+  .powered img{
+    width:10px;height:10px; display:block; object-fit:cover;
+  }
+
+  .submit-wrap{
+    text-align:center;
+    padding:18px 0 26px;
+  }
+  .btn{
+    display:inline-block;
+    background:var(--pink);
+    color:#fff;
+    border:none;
+    border-radius:4px;
+    padding:12px 36px;
+    font-weight:700;
+    font-size:14px;
+    cursor:pointer;
+  }
+
+  @media (max-width:640px){
+    .card{width:92%}
+    .row{flex-direction:column; gap:0}
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="top-image">
+      <img src="src/placeholder.jpg" alt="">
+    </div>
+    <div class="title">Producer Application</div>
+
+    <div class="inner">
+      <p class="intro">Tell us a little about you and your experience. <a href="#">FAQ</a> for more information.</p>
+
+      <div class="row">
+        <div class="field">
+          <label>First Name <span class="req">*</span></label>
+          <input type="text">
+        </div>
+        <div class="field">
+          <label>Last Name <span class="req">*</span></label>
+          <input type="text">
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Email Address <span class="req">*</span></label>
+        <input type="email">
+      </div>
+
+      <div class="field">
+        <label>Phone Number <span class="req">*</span></label>
+        <input type="tel">
+      </div>
+
+      <div class="field">
+        <label>Where Do You Live? <span class="req">*</span></label>
+        <input type="text">
+      </div>
+
+      <div class="field">
+        <label>I am at Least 18 Years of Age <span class="req">*</span></label>
+        <div class="options">
+          <label><input type="checkbox"> Yes</label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Do You Have a Production Company? <span class="req">*</span></label>
+        <div class="options">
+          <label><input type="radio" name="prodco"> Yes</label>
+          <label><input type="radio" name="prodco"> No</label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Tell Us More About You. <span class="req">*</span></label>
+        <textarea></textarea>
+      </div>
+
+      <div class="field">
+        <label>Preferred Genre <span class="req">*</span></label>
+        <select>
+          <option selected disabled></option>
+          <option>Comedy</option>
+          <option>Drama</option>
+          <option>Documentary</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>Are You Confident You Can Create Full-Length Episodes (12-25 minutes) on a Low-Budget and Continue to Create Episodes if they are Renewed by Candivan Subscribers? <span class="req">*</span></label>
+        <div class="options">
+          <label><input type="radio" name="confident"> Yes</label>
+          <label><input type="radio" name="confident"> No</label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>If Selected as a Winner, Would You be Able to Start Production by this May or June (2019)? <span class="req">*</span></label>
+        <div class="options">
+          <label><input type="radio" name="start"> Yes</label>
+          <label><input type="radio" name="start"> No</label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Names of Others Plan to Collaborate with (If Applicable)</label>
+        <textarea></textarea>
+      </div>
+
+      <div class="field">
+        <label>Are you a member of the PGA? <span class="req">*</span></label>
+        <div class="options">
+          <label><input type="radio" name="pga"> Yes</label>
+          <label><input type="radio" name="pga"> No</label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>OPTIONAL: Those with large social networks are preferable. Feel free to list any large networks you are part of or your Twitter.</label>
+        <textarea></textarea>
+        <div class="counter">0/300 characters</div>
+      </div>
+
+      <div class="field">
+        <label>How did you find out about us?</label>
+        <select>
+          <option selected disabled></option>
+          <option>Friend</option>
+          <option>Social Media</option>
+          <option>Search</option>
+        </select>
+      </div>
+
+      <div class="terms-block">
+        <div class="field">
+          <label><span class="req">*</span> <input type="checkbox"> I Have Read and I Accept the Terms and Conditions Below</label>
+        </div>
+        <a class="small-link" href="#">Terms and Conditions</a>
+      </div>
+
+      <div class="footer-bar">
+        <a href="#">Report abuse</a>
+        <div class="powered">
+          <span>Powered by</span>
+          <img src="src/placeholder.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="submit-wrap">
+        <button class="btn">Submit</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

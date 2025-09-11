@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog UI</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Merriweather:wght@300;400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --teal:#1a7777;
+    --teal-dark:#176a6a;
+    --ink:#1f2933;
+    --muted:#8b9aa7;
+    --border:#e6eaee;
+    --share:#0f9b6a;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;
+    color:#2b2b2b;
+    font-family:"Merriweather", serif;
+    background:#ffffff;
+  }
+
+  /* Top bar */
+  header{
+    background:#f6f6f7;
+    border-bottom:1px solid #e5e5e6;
+    height:54px;
+    display:flex;
+    align-items:flex-end;
+    padding:0 28px;
+  }
+  .top-left,.top-right{
+    display:flex;
+    gap:28px;
+    font-family:"Inter",sans-serif;
+    font-size:14px;
+    color:#4b5563;
+  }
+  .top-left a,.top-right a{
+    text-decoration:none;
+    color:#4b5563;
+    padding:14px 0 12px;
+  }
+  .top-left a.active{
+    color:#111;
+    border-bottom:2px solid #111;
+  }
+  header .spacer{flex:1}
+
+  /* Layout */
+  .container{
+    max-width:1120px;
+    margin:26px auto 0;
+    display:grid;
+    grid-template-columns:280px 1fr;
+    gap:36px;
+    padding:0 24px;
+  }
+
+  /* Sidebar */
+  .card{
+    border:1px solid var(--border);
+    padding:24px 22px 26px;
+  }
+  .card h4{
+    margin:2px 0 20px;
+    font-family:"Inter",sans-serif;
+    font-size:13px;
+    text-transform:uppercase;
+    letter-spacing:.04em;
+    color:#7c8794;
+    text-align:center;
+  }
+  .avatar{
+    width:140px;height:140px;border-radius:50%;
+    background:#1542ff;
+    margin:0 auto 18px;
+  }
+  .name{
+    font-family:"Montserrat",sans-serif;
+    font-weight:800;
+    text-align:center;
+    font-size:20px;
+    color:#111;
+    margin-top:2px;
+  }
+  .tag{
+    text-align:center;
+    color:#7a8592;
+    font-size:12px;
+    margin:6px 8px 14px;
+    line-height:1.4;
+  }
+  .profile-btn{
+    display:block;
+    text-align:center;
+    font-family:"Inter",sans-serif;
+    font-weight:700;
+    color:var(--teal);
+    text-decoration:none;
+    font-size:12px;
+    letter-spacing:.05em;
+    text-transform:uppercase;
+    margin-top:8px;
+  }
+  .report{
+    margin-top:26px;
+    display:block;
+    color:#3f9bd6;
+    font-family:"Inter",sans-serif;
+    font-size:12px;
+    text-decoration:none;
+  }
+
+  /* Main */
+  .hero{
+    background:var(--teal);
+    min-height:280px;
+    padding:56px 56px 60px 64px;
+  }
+  .hero h1{
+    margin:0;
+    color:#fff;
+    font-family:"Montserrat",sans-serif;
+    font-weight:800;
+    font-size:44px;
+    line-height:1.18;
+    max-width:700px;
+  }
+
+  .meta{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:22px 0 6px 0;
+    padding:0 6px;
+  }
+  .meta .date{
+    color:#8b9aa7;
+    font-family:"Inter",sans-serif;
+    font-size:13px;
+  }
+  .meta .share{
+    color:var(--share);
+    font-family:"Inter",sans-serif;
+    font-weight:800;
+    font-size:12px;
+    letter-spacing:.06em;
+  }
+
+  main article{
+    max-width:700px;
+    padding:0 6px;
+    line-height:1.9;
+    color:#24323f;
+    font-size:16px;
+  }
+  article a{color:#2a9db1;text-decoration:none;border-bottom:1px solid rgba(42,157,177,.35)}
+  .lead{margin-top:22px}
+  .dropcap{
+    float:left;
+    font-family:"Merriweather",serif;
+    font-weight:700;
+    color:var(--teal-dark);
+    font-size:62px;
+    line-height:.85;
+    margin-right:14px;
+    margin-top:8px;
+  }
+  article p{margin:22px 0}
+  .share-bottom{
+    margin:26px 0 10px;
+    color:var(--share);
+    font-family:"Inter",sans-serif;
+    font-weight:800;
+    font-size:12px;
+    letter-spacing:.06em;
+  }
+
+  /* Most read section */
+  .most-read{
+    margin:62px 0 40px;
+    padding:0 6px;
+  }
+  .most-read .title{
+    color:#8b9aa7;
+    font-family:"Inter",sans-serif;
+    font-weight:700;
+    font-size:12px;
+    letter-spacing:.03em;
+    margin-bottom:18px;
+  }
+  .post-list{
+    position:relative;
+    display:block;
+    max-width:980px;
+  }
+  .post{
+    max-width:640px;
+    margin:0 0 44px 0;
+  }
+  .post h2{
+    margin:0 0 8px 0;
+    font-family:"Montserrat",sans-serif;
+    font-weight:800;
+    color:var(--teal);
+    font-size:30px;
+    line-height:1.15;
+  }
+  .post .date{
+    font-family:"Inter",sans-serif;
+    font-size:12px;
+    color:#7d8a97;
+    margin-bottom:12px;
+  }
+  .post p{
+    color:#34424e;
+    font-size:15px;
+    line-height:1.9;
+    margin:0 0 16px 0;
+  }
+  .post-actions{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .post-actions a{
+    font-family:"Inter",sans-serif;
+    font-weight:800;
+    font-size:12px;
+    letter-spacing:.06em;
+    color:var(--share);
+    text-decoration:none;
+  }
+
+  .side-image{
+    position:absolute;
+    right:0;
+    top:270px;
+    width:280px;
+    height:220px;
+    object-fit:cover;
+    border:1px solid #111;
+    background:#000;
+  }
+
+  /* Footer bar */
+  .footer{
+    background:#5f7276;
+    height:72px;
+    width:100%;
+    margin-top:80px;
+    position:relative;
+  }
+  .footer:before{
+    content:"";
+    position:absolute;
+    left:0;bottom:0;
+    width:120px;height:18px;
+    background:#1436ff;
+  }
+
+  @media (max-width:980px){
+    .container{grid-template-columns:1fr}
+    .side-image{position:static;width:100%;height:220px;margin:10px 0 0}
+    .post{max-width:100%}
+    main article{max-width:100%}
+  }
+</style>
+</head>
+<body>
+<header>
+  <nav class="top-left">
+    <a href="#" class="active">Template</a>
+    <a href="#">Discussion</a>
+  </nav>
+  <div class="spacer"></div>
+  <nav class="top-right">
+    <a href="#">Talk</a>
+    <a href="#">Contributions</a>
+    <a href="#">Sign in</a>
+  </nav>
+</header>
+
+<div class="container">
+  <aside>
+    <div class="card">
+      <h4>About Me</h4>
+      <div class="avatar"></div>
+      <div class="name">Ben Carter</div>
+      <div class="tag">Google Apps enthusiast, web development hobbyist</div>
+      <a class="profile-btn" href="#">VIEW PROFILE</a>
+    </div>
+    <a href="#" class="report">Report Abuse</a>
+  </aside>
+
+  <main>
+    <div class="hero">
+      <h1>A Solution for<br>Uploading Videos to<br>YouTube when the<br>Site is Restricted</h1>
+    </div>
+
+    <div class="meta">
+      <div class="date">July 25, 2007</div>
+      <div class="share">SHARE</div>
+    </div>
+
+    <article>
+      <p class="lead"><span class="dropcap">D</span>avid, who is employed by a major global corporation, recently posted on a social network that he's unable to upload video content to YouTube because his employer blocks YouTube and similar video platforms via their network security measures.</p>
+
+      <p>One potential solution involves utilizing your <a href="#">smartphone</a> for uploading to YouTube. Simply set up a mobile account on YouTube from a personal computer outside of your company's network and then send your video to YouTube as an MMS message.</p>
+
+      <p>See also: <a href="#">How to Reach Restricted Websites</a></p>
+
+      <p>A second, more adaptable solution, is a service such as <a href="#">MultiStream</a> - which enables you to upload the same video to multiple platforms simultaneously.</p>
+
+      <p>You would upload your file to MultiStream's servers, and they handle posting to various video websites, like YouTube, Vimeo, Dailymotion, Facebook, etc.</p>
+
+      <p>It is likely that MultiStream's website isn't blocked by your company - they will email you confirmation upon successfully publishing your clip to your selected services.</p>
+
+      <div class="share-bottom">SHARE</div>
+    </article>
+
+    <section class="most-read">
+      <div class="title">Most read articles from this blog</div>
+      <div class="post-list">
+        <article class="post">
+          <h2>How to Export Facebook Contacts Into an Outlook Address Book</h2>
+          <div class="date">October 15, 2007</div>
+          <p>Many Facebook users dislike its restrictive approach. While you can easily import contacts from Outlook or GMail to Facebook, the opposite isn't â¦</p>
+          <div class="post-actions">
+            <a href="#">SHARE</a>
+            <a href="#">READ MORE</a>
+          </div>
+        </article>
+
+        <article class="post">
+          <h2>How to Set Up a Custom Firefox Search Tool in Under 2 Minutes</h2>
+          <div class="date">September 23, 2006</div>
+          <p>Most sites offer search boxes, allowing you to enter text and search content. The problem with this is you must first load the website to find the search box. â¦</p>
+          <div class="post-actions">
+            <a href="#">SHARE</a>
+            <a href="#">READ MORE</a>
+          </div>
+        </article>
+
+        <img class="side-image" src="src/placeholder.jpg" alt="">
+
+        <article class="post">
+          <h2>Tech Blog</h2>
+          <div class="date">October 25, 2007</div>
+          <p>Tech Blog is a blog by Ben Carter. We cover topics such as Google Apps Scripts including Gmail utilities (personalized emails), and Document â¦</p>
+          <div class="post-actions">
+            <a href="#">SHARE</a>
+            <a href="#">READ MORE</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+</div>
+
+<div class="footer"></div>
+</body>
+</html>

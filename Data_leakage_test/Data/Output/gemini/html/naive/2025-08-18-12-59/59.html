@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Registration</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+
+        /* Header Styles */
+        .header {
+            background-color: #1976D2;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-left a {
+            margin-right: 15px;
+        }
+
+        .header-left h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-right input[type="text"] {
+            padding: 8px;
+            border: none;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+
+        /* Main Content Styles */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .registration-form {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        .registration-form label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .registration-form input[type="text"],
+        .registration-form input[type="email"],
+        .registration-form input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .registration-form button {
+            background-color: #1976D2;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .registration-form button:hover {
+            background-color: #1565C0;
+        }
+        .registration-form .login-link {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .registration-form .login-link a {
+            color: #d32f2f;
+            text-decoration: none;
+        }
+        .header-left a {
+            text-decoration: none;
+            color: white;
+        }
+        .header-left > *:not(:first-child) {
+            margin-left: 10px;
+        }
+        .header-left select {
+            background-color: #1976D2;
+            color: white;
+            border: none;
+            padding: 5px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <a href="#">ShopVora</a>
+            <a href="#">Home</a>
+            <a href="#">Electronics</a>
+            <select>
+                <option>Fashion</option>
+            </select>
+        </div>
+        <div class="header-right">
+            <input type="text" placeholder="Search">
+            <a href="#">Login</a>
+            <a href="#">Registration</a>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Customer Registration</h1>
+        <div class="registration-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Username">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Password">
+
+            <label for="confirm_password">Confirm Password (again):</label>
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password (again)">
+
+            <button type="submit">Submit</button>
+
+            <div class="login-link">
+                Existing User? <a href="#">Login Now</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

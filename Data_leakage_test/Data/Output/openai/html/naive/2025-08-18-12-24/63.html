@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waiting Rooms</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f9fc;
+            margin: 0;
+            padding: 0;
+            color: #3a3a3a;
+        }
+        .header {
+            background-color: #1ea092;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header img {
+            width: 50px;
+            height: 50px;
+        }
+        .header h1 {
+            color: white;
+            font-size: 24px;
+            margin: 0;
+        }
+        .button {
+            background-color: #1d4ed8;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .content {
+            padding: 30px;
+        }
+        .title {
+            font-size: 36px;
+            margin: 0 0 10px 0;
+        }
+        .subtitle {
+            font-size: 24px;
+            margin: 0 0 20px 0;
+        }
+        .description {
+            font-size: 16px;
+            color: #575757;
+            margin-bottom: 30px;
+        }
+        .open-rooms {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .open-rooms h3 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .badge {
+            background-color: #e8f4e7;
+            color: #10b981;
+            border-radius: 50%;
+            padding: 5px 10px;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px 0;
+            width: calc(50% - 10px);
+            box-sizing: border-box;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .card h4 {
+            font-size: 20px;
+            margin: 0 0 10px 0;
+        }
+        .card .status {
+            color: #10b981;
+            background-color: #e8f4e7;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 14px;
+            float: right;
+        }
+        .card .info {
+            font-size: 14px;
+            color: #6b7280;
+            margin: 10px 0;
+        }
+        .tags {
+            margin: 10px 0;
+        }
+        .tag {
+            display: inline-block;
+            background-color: #e5e7eb;
+            color: #4b5563;
+            padding: 5px 10px;
+            border-radius: 10px;
+            font-size: 14px;
+            margin-right: 5px;
+        }
+        .footer {
+            font-size: 12px;
+            color: #9ca3af;
+            text-align: center;
+            padding: 20px;
+            border-top: 1px solid #e5e7eb;
+        }
+        .footer-links {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .footer-links a {
+            color: #6b7280;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <img src="src/placeholder.jpg" alt="Placeholder Logo">
+            <h1>Alpha One Labs</h1>
+        </div>
+        <a href="#" class="button">Create Learning Request</a>
+    </div>
+    <div class="content">
+        <h2 class="title">Waiting Rooms</h2>
+        <h3 class="subtitle">What are Waiting Rooms?</h3>
+        <p class="description">Waiting rooms allow you to express interest in subjects and topics you want to learn. Join existing waiting rooms or create your own to find others interested in the same topics. Teachers can see these waiting rooms and create courses based on popular demand.</p>
+        <div class="open-rooms">
+            <h3>Open Waiting Rooms</h3>
+            <div class="badge">5</div>
+        </div>
+        <div class="card">
+            <h4>Waiting Room 5 <span class="status">â Open</span></h4>
+            <div class="info">Subject 5 â¢ 2 interested</div>
+            <p>Description for waiting room 5</p>
+            <div class="tags">
+                <span class="tag">Topic1</span>
+                <span class="tag">Topic2</span>
+                <span class="tag">Topic5</span>
+            </div>
+            <p><strong>teacher2</strong> <span class="info">19 Stunden, 28 Minuten ago</span></p>
+        </div>
+        <div class="card">
+            <h4>Waiting Room 4 <span class="status">â Open</span></h4>
+            <div class="info">Subject 4 â¢ 6 interested</div>
+            <p>Description for waiting room 4</p>
+            <div class="tags">
+                <span class="tag">Topic1</span>
+                <span class="tag">Topic2</span>
+                <span class="tag">Topic4</span>
+            </div>
+            <p><strong>teacher2</strong> <span class="info">19 Stunden, 28 Minuten ago</span></p>
+        </div>
+    </div>
+    <div class="footer">
+        Â© 2025 Alpha One Labs. All rights reserved.<br>
+        Last updated: 06/12/2025 12:19nachm.
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookie Policy</a>
+        </div>
+    </div>
+</body>
+</html>

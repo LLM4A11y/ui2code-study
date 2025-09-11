@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>[Solved] - Cannot Upload =(</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  :root{
+    --bg:#f5f2ea;
+    --panel:#ffffff;
+    --text:#333;
+    --muted:#777;
+    --line:#e6e2da;
+    --dashed:#e9e4dc;
+    --blue:#2c68c7;
+    --green:#3a8f2b;
+  }
+  html,body{
+    height:100%;
+  }
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font:14px/1.55 "Segoe UI", Tahoma, Verdana, Arial, sans-serif;
+  }
+
+  /* Top navigation */
+  .topbar{
+    background:#fff;
+    border-bottom:1px solid var(--line);
+    box-shadow:0 1px 0 rgba(0,0,0,0.02);
+  }
+  .topbar .wrap{
+    max-width:760px;
+    margin:0 auto;
+    padding:10px 12px;
+    display:flex;
+    align-items:center;
+    gap:16px;
+  }
+  .logo{
+    width:26px;
+    height:26px;
+    background:#2c68c7;
+    border-radius:2px;
+    object-fit:cover;
+  }
+  .nav{
+    display:flex;
+    gap:18px;
+    flex:1;
+    align-items:center;
+  }
+  .nav a{
+    color:#6a6a6a;
+    text-decoration:none;
+    font-size:13px;
+  }
+  .nav a:hover{ color:var(--blue); text-decoration:underline; }
+  .nav-right{
+    display:flex;
+    gap:14px;
+  }
+
+  /* Announcement */
+  .announce{
+    text-align:center;
+    font-size:13px;
+    padding:10px 0 16px;
+    color:#7b7b7b;
+  }
+  .announce a{
+    color:#3a9d57;
+    text-decoration:none;
+    border-bottom:1px dotted #3a9d57;
+  }
+
+  /* Container */
+  .container{
+    max-width:760px;
+    margin:0 auto;
+    padding:0 12px 60px;
+  }
+
+  /* Title */
+  h1{
+    margin:6px 0 6px;
+    font-size:30px;
+    font-weight:700;
+    letter-spacing:.2px;
+  }
+  h1 .solved{ color:var(--green); }
+  h1 .topic{ color:var(--blue); }
+
+  .meta{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#333;
+    padding:6px 0 14px;
+    border-bottom:1px dashed var(--dashed);
+  }
+  .avatar{
+    width:36px;
+    height:36px;
+    border-radius:3px;
+    background:#2c68c7;
+    object-fit:cover;
+  }
+  .author{
+    color:var(--blue);
+    font-weight:600;
+    text-decoration:none;
+  }
+  .date{ color:#666; }
+  .edited{
+    margin-left:8px;
+    color:#888;
+    font-style:italic;
+  }
+
+  .post{
+    padding:16px 0 18px;
+    color:#2f2f2f;
+  }
+  .post p{ margin:8px 0; }
+
+  /* Comments header */
+  .comments-head{
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+    color:#333;
+    padding:6px 0;
+  }
+  .comments-head h3{
+    margin:0;
+    font-size:18px;
+    font-weight:700;
+  }
+  .login-note{
+    color:#888;
+    font-size:12px;
+  }
+
+  /* Comment card */
+  .comment{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:8px;
+    box-shadow:0 1px 0 rgba(0,0,0,0.02);
+    padding:14px 14px 12px;
+    margin:10px 0 14px;
+  }
+  .comment .head{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#222;
+    padding-bottom:10px;
+    border-bottom:1px dashed var(--dashed);
+  }
+  .comment .name{
+    color:var(--blue);
+    font-weight:700;
+    text-decoration:none;
+  }
+  .comment .time{
+    color:#777;
+  }
+  .comment .body{
+    padding-top:10px;
+    color:#333;
+    white-space:pre-line;
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <img class="logo" src="src/placeholder.jpg" alt="">
+    <nav class="nav">
+      <a href="#">Latest Activity</a>
+      <a href="#">Last Challenge</a>
+      <a href="#">Previous Challenges</a>
+      <a href="#">Games</a>
+    </nav>
+    <div class="nav-right">
+      <a href="#" class="nav-link">Log in</a>
+      <a href="#" class="nav-link">Help</a>
+    </div>
+  </div>
+</header>
+
+<div class="announce">
+  <a href="#">September 2023</a> : "Dark matter" challenge is finished
+</div>
+
+<main class="container">
+  <h1><span class="solved">[Solved]</span> - <span class="topic">Cannot Upload =(</span></h1>
+
+  <div class="meta">
+    <img class="avatar" src="src/placeholder.jpg" alt="">
+    <div>
+      <a href="#" class="author">Shyzuna</a> <span class="date">on 2018/10/27 23:53</span>
+      <div class="edited">â edited on 2018/10/28 11:00</div>
+    </div>
+  </div>
+
+  <div class="post">
+    <p>Hey guys !</p>
+    <p>Pretty urgent, but I have been trying to upload for now half of an hour and after several minutes I got a bad gateway ?<br>
+    Any solutions ?</p>
+    <p>Thanks.</p>
+  </div>
+
+  <div class="comments-head">
+    <h3>Comments</h3>
+    <div class="login-note">(log in to comment)</div>
+  </div>
+
+  <section class="comment">
+    <div class="head">
+      <img class="avatar" src="src/placeholder.jpg" alt="">
+      <div><a class="name" href="#">yarolig</a> <span class="time">on 2018/10/27 23:58:</span></div>
+    </div>
+    <div class="body">
+Do git push!
+Rules says that you have 1 extra day for uploading your entry.
+    </div>
+  </section>
+
+  <section class="comment">
+    <div class="head">
+      <img class="avatar" src="src/placeholder.jpg" alt="">
+      <div><a class="name" href="#">Shyzuna</a> <span class="time">on 2018/10/28 00:00:</span></div>
+    </div>
+    <div class="body">
+Oh well my repo is up to date !
+Yeah I just saw that while reading the rules.
+Will try again later I guess ^^
+
+Thanks for your answer dude ;)
+    </div>
+  </section>
+
+  <section class="comment">
+    <div class="head">
+      <img class="avatar" src="src/placeholder.jpg" alt="">
+      <div><a class="name" href="#">mauve</a> <span class="time">on 2018/10/28 00:20:</span></div>
+    </div>
+    <div class="body">
+How big is your file? There have been problems with very large uploads...
+    </div>
+  </section>
+
+  <section class="comment">
+    <div class="head">
+      <img class="avatar" src="src/placeholder.jpg" alt="">
+      <div><a class="name" href="#">Shyzuna</a> <span class="time">on 2018/10/28 00:41:</span></div>
+    </div>
+    <div class="body">
+My file is about 450m !
+I think it is already a good size but do you consider it to be a very large upload ? =O
+    </div>
+  </section>
+
+  <section class="comment">
+    <div class="head">
+      <img class="avatar" src="src/placeholder.jpg" alt="">
+      <div><a class="name" href="#">mauve</a> <span class="time">on 2018/10/28 00:46:</span></div>
+    </div>
+    <div class="body">
+How long is it taking to upload, though? Timeout is set to 300 seconds; some people were tripping this last time...
+    </div>
+  </section>
+
+  <section class="comment">
+    <div class="head">
+      <img class="avatar" src="src/placeholder.jpg" alt="">
+      <div><a class="name" href="#">mauve</a> <span class="time">on 2018/10/28 00:48:</span></div>
+    </div>
+    <div class="body">
+If the worst comes to the worst, upload it to your GitHub releases page and I'll get it uploaded.
+    </div>
+  </section>
+
+  <section class="comment">
+    <div class="head">
+      <img class="avatar" src="src/placeholder.jpg" alt="">
+      <div><a class="name" href="#">Shyzuna</a> <span class="time">on 2018/10/28 11:00:</span></div>
+    </div>
+    <div class="body">
+We manage to find a solution.
+Thanks for your proposition !
+    </div>
+  </section>
+</main>
+
+</body>
+</html>

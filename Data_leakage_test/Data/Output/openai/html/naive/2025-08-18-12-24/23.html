@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosebud Treasures</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #333333;
+            color: #cccccc;
+        }
+
+        header {
+            background-color: #d8e4e2;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #6f8692;
+            font-size: 40px;
+        }
+
+        nav {
+            display: flex;
+            gap: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            background-color: #eff3f1;
+            color: #000;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .login {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 14px;
+            color: #6f8692;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .content h2 {
+            color: #ffffff;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .sub-info {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            color: #bbb;
+            margin-bottom: 10px;
+        }
+
+        .sub-info span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .tags {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .tags div {
+            background-color: #575757;
+            color: #cccccc;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .content p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .code {
+            background-color: #222;
+            border-radius: 5px;
+            padding: 10px;
+            overflow-x: auto;
+            margin-bottom: 15px;
+        }
+
+        .code span {
+            color: #ff4500;
+            font-weight: bold;
+        }
+
+        .highlight {
+            color: #e86c6c;
+            font-weight: bold;
+        }
+
+        .twitter {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #444;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .coffee {
+            display: inline-block;
+            background-color: #f64c25;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .separator {
+            border-top: 3px solid #ff7300;
+            margin-bottom: 20px;
+        }
+
+        .explore {
+            margin-bottom: 30px;
+        }
+
+        .explore-title {
+            font-size: 24px;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+
+        .posts {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .post {
+            width: 48%;
+            background-color: #444;
+            padding: 15px;
+            border-radius: 5px;
+            color: #eeeeee;
+        }
+
+        .post-title {
+            font-size: 18px;
+            color: #ff734c;
+            margin-bottom: 10px;
+        }
+
+        .post-date {
+            font-size: 14px;
+            color: #cccccc;
+        }
+
+        footer {
+            text-align: right;
+            padding: 10px 20px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Rosebud Treasures</h1>
+        <nav>
+            <a href="#">Main</a>
+            <a href="#">About</a>
+            <a href="#">New Arrivals</a>
+            <a href="#">On Sale</a>
+        </nav>
+        <div class="login">
+            <span>Login</span>
+            <span>Choose currency
+                <input type="text" value="USD" readonly style="width: 50px; text-align: center;">
+            </span>
+        </div>
+    </header>
+    <main class="content">
+        <div class="sub-info">
+            <span>June 5, 2024</span>
+            <span>|</span>
+            <span>2 min read</span>
+        </div>
+        <div class="tags">
+            <div>Automation</div>
+            <div>Swift</div>
+            <div>Quick Tips</div>
+        </div>
+        <h2>Easy Swift Script Reloading</h2>
+        <p>I was working on a <span class="highlight">Swift script</span> that needed to stay running, so I added a loop
+            to avoid
+            interruptions. <span class="highlight">Always on!</span></p>
+        <div class="code">
+            <p>My solution used a <span>while</span> loop with <span>Process</span> instances to re-run the
+                code. <span class="highlight">Script inception!</span></p>
+        </div>
+        <p>I realized this setup could be used as a basic hot-reloading tool for script development.</p>
+        <div class="code">
+            <p>let refresh = "refresh" if Process.arguments.contains(refresh) { while true { let task = Process()
+                    task.executableURL =
+                    URL(fileURLWithPath: Process.arguments[0]) task.arguments =
+                    Process.arguments.dropFirst().filter { $0 != refresh } try? task.run()
+                    task.waitUntilExit() } } Add this code to the top of your script; it loops if called with the
+                <span>refresh</span> argument.</p>
+        </div>
+        <p>You can then launch it from the terminal:</p>
+        <div class="code">
+            <p>main.swift refresh more arguments Once active, edit and save; the next run includes changes. Compile
+                errors? No
+                problem, the prior code stays in memory and retries.</p>
+        </div>
+        <p>It's not perfect and console output may be noisy, but I've found it handy for iterative development of small
+            scripts.</p>
+        <p>Remember to use <span class="highlight">signal handlers</span> to properly terminate the script when
+            necessary.</p>
+        <div class="twitter">
+            <span>Post this entry on Twitter</span>
+            <a href="#" class="coffee">Support with coffee</a>
+        </div>
+        <div class="separator"></div>
+        <div class="explore">
+            <h3 class="explore-title">More to Explore</h3>
+            <div class="posts">
+                <div class="post">
+                    <span>â Next Post</span>
+                    <h4 class="post-title">Clean code with closures</h4>
+                    <span class="post-date">June 10, 2024</span>
+                </div>
+                <div class="post">
+                    <span>Previous Post â</span>
+                    <h4 class="post-title">Handling OS signals in Swift.</h4>
+                    <span class="post-date">May 20, 2024</span>
+                </div>
+            </div>
+            <h3 class="explore-title">Similar Posts</h3>
+            <div class="posts">
+                <div class="post">
+                    <span class="post-title">Tagged Swift</span>
+                    <p>SwiftUI modifiers for older versions</p>
+                    <span class="post-date">October 22, 2024</span>
+                </div>
+                <div class="post">
+                    <span class="post-title">Tagged Automation</span>
+                    <p>Swift tool for Reminders lists</p>
+                    <span class="post-date">May 10, 2024</span>
+                </div>
+                <div class="post">
+                    <span class="post-title">Tagged Quick Tips</span>
+                    <p>Swift: Prefix tests</p>
+                    <span class="post-date">March 20, 2024</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>lisa@lisamooredesign.com</p>
+    </footer>
+</body>
+
+</html>

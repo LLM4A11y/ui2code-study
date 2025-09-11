@@ -1,0 +1,66 @@
+{
+  "manual": {
+    "checks": [
+      {
+        "wcag_id": [
+          "Principle1.Guideline1_1.1_1_1.H37",
+          "Principle1.Guideline1_1.1_1_1.H67.1",
+          "Principle1.Guideline1_1.1_1_1.H36",
+          "Principle1.Guideline1_1.1_1_1.F3"
+        ],
+        "url": [
+          "https://dequeuniversity.com/rules/axe/4.10/image-alt",
+          "https://dequeuniversity.com/rules/axe/4.10/input-image-alt"
+        ],
+        "impact": "critical",
+        "name": "Alt-Text; Images;",
+        "amount_nodes_failed": 1,
+        "description": "Failure due to representing informative images as styled <div> elements instead of semantic image elements (<img> or role='img'), making them inaccessible to assistive technologies."
+      }
+    ]
+  },
+  "automatic": [
+    {
+      "wcag_id": [
+        "Principle1.Guideline1_3.1_3_1.H42.2",
+        "Principle1.Guideline1_3.1_3_1.G141"
+      ],
+      "url": [
+        "https://dequeuniversity.com/rules/axe/4.10/page-has-heading-one",
+        "https://dequeuniversity.com/rules/axe/4.10/heading-order",
+        "https://dequeuniversity.com/rules/axe/4.10/empty-heading"
+      ],
+      "impact": "moderate",
+      "name": "Headings; Wrong Order, Empty & Missing Headings;",
+      "amount_nodes_failed": 1,
+      "issues": [
+        {
+          "id": "https://dequeuniversity.com/rules/axe/4.10/heading-order",
+          "source": "axe-core",
+          "title": "Heading levels should only increase by one",
+          "description": "Ensure the order of headings is semantically correct",
+          "impact": "moderate",
+          "nodes": {
+            "any": [
+              {
+                "id": "heading-order",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "moderate",
+                "message": "Heading order invalid"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": "moderate",
+            "html": "<h3>A&amp;M Space</h3>",
+            "target": [
+              ".follower-item:nth-child(1) > .follower-info > h3"
+            ],
+            "failureSummary": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ]
+    }
+  ]
+}

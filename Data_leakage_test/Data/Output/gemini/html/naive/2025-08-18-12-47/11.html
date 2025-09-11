@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aws_autoscaling_lifecycle_hook</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-left: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .main-content {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .sidebar {
+            width: 25%;
+            padding-right: 20px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar li {
+            padding: 5px 0;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: #007bff;
+            display: block;
+        }
+
+        .main-area {
+            width: 75%;
+        }
+
+        .main-area h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .main-area h2 {
+            font-size: 1.8em;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .main-area p {
+            margin-bottom: 1em;
+        }
+
+        pre {
+            background-color: #f5f5f5;
+            padding: 10px;
+            overflow-x: auto;
+            border: 1px solid #ddd;
+        }
+
+        code {
+            font-family: monospace;
+            font-size: 14px;
+        }
+
+        .argument-details {
+            margin-top: 20px;
+        }
+
+        .argument-details ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .argument-details li {
+            margin-bottom: 10px;
+        }
+
+        .argument-details li strong {
+            font-weight: bold;
+        }
+
+        .image-placeholder {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+        }
+
+        #top-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #top-menu-items {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        #top-menu-items a {
+            text-decoration: none;
+            color: #333;
+        }
+        #price {
+            color: #888;
+        }
+        #menu-icon {
+            color: #888;
+            font-size: 20px;
+        }
+        .tab-selector {
+            text-align: right;
+        }
+        .tab-selector a {
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            text-decoration: none;
+            color: #007bff;
+        }
+        .argument-details ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .argument-details li {
+            margin-bottom: 10px;
+        }
+
+        .argument-details li::before {
+            content: "â¢";
+            color: black;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="top-menu">
+                <div class="image-placeholder"></div>
+                <div id="top-menu-items">
+                    <a href="#">Items</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Fit Guide</a>
+                    <a href="#">Store Rules</a>
+                </div>
+                <div>
+                    <span id="price">0 / $0.00</span>
+                    <span id="menu-icon">&#9776;</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <div class="sidebar">
+                <ul>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Getting started</a></li>
+                    <li><a href="#">Learn more about Koding</a></li>
+                    <li><a href="#">Stack Documentation</a></li>
+                    <li><a href="#">Configuration</a>
+                        <ul>
+                            <li><a href="#">Providers</a></li>
+                            <li><a href="#">Archive</a>
+                                <ul>
+                                    <li><a href="#">Atlas</a></li>
+                                    <li><a href="#">AWS</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Data Sources</a>
+                        <ul>
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#">aws_alb</a></li>
+                            <li><a href="#">aws_alb_listener</a></li>
+                            <li><a href="#">aws_alb_listener_rule</a></li>
+                            <li><a href="#">aws_alb_target_group</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Azure Service Management</a></li>
+                    <li><a href="#">Provisioners</a></li>
+                </ul>
+            </div>
+
+            <div class="main-area">
+                <h1>aws_autoscaling_lifecycle_hook</h1>
+                <p>Defines an AutoScaling Lifecycle Hook resource.</p>
+
+                <h2>Example Usage</h2>
+
+                <div class="tab-selector">
+                    <a href="#">yaml</a>
+                    <a href="#">hcl</a>
+                </div>
+
+                <pre>
+                    <code>
+resource:
+  aws_autoscaling_group:
+    foobar:
+      availability_zones:
+        - us-west-2a
+      name: terraform-test-foobar5
+      health_check_type: EC2
+      termination_policies:
+        - OldestInstance
+      tag:
+        key: Foo
+        value: foo-bar
+      propagate_at_launch: true
+  aws_autoscaling_lifecycle_hook:
+    foobar:
+      name: foobar
+      autoscaling_group_name: '${aws_autoscaling_group.foobar.name}'
+      default_result: CONTINUE
+      heartbeat_timeout: 2000
+      lifecycle_transition: 'autoscaling:EC2_INSTANCE_LAUNCHING'
+      notification_metadata: "{
+        "foo": "bar"
+      }"
+      notification_target_arn: 'arn:aws:sqs:us-east-1:444455556666:queue1*'
+      role_arn: 'arn:aws:iam::123456789012:role/S3Access'
+                    </code>
+                </pre>
+
+                <h2>Argument Details</h2>
+                <p>The following arguments are supported:</p>
+
+                <div class="argument-details">
+                    <ul>
+                        <li>name - (Required) The lifecycle hook's name.</li>
+                        <li>autoscaling_group_name - (Required) Name of the Auto Scaling group for the lifecycle hook.</li>
+                        <li>default_result - (Optional) Action for the Auto Scaling group on lifecycle hook timeout or failure.</li>
+                        <li>heartbeat_timeout - (Optional) Time (in seconds) until the lifecycle hook times out. Triggers DefaultResult action.</li>
+                    </ul>
+                </div>
+                
+                <p>See the source of this document at <a href="https://www.terraform.io">Terraform.io</a></p>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

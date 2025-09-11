@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Orange Prices 2022-2023</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#efefef;
+    --text:#0d0d0d;
+    --muted:#7c7c7c;
+    --card:#ffffff;
+    --line:#e2e2e2;
+    --soft:#f7f7f7;
+    --green:#89caa2;
+    --green-btn:#5cc18a;
+    --link:#2468e5;
+    --table-head:#dcedb9;
+    --footer:#1a1a1a;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family:"Inter", Arial, Helvetica, sans-serif;
+    color:var(--text);
+    background:var(--bg);
+    line-height:1.55;
+  }
+  a{color:var(--link); text-decoration:underline}
+  /* Top mini-nav */
+  .mini-nav{
+    background:var(--bg);
+    border-bottom:1px solid var(--line);
+    font-size:12px;
+    color:#666;
+  }
+  .mini-nav .wrap{
+    max-width:980px;
+    margin:0 auto;
+    display:flex;
+    gap:22px;
+    justify-content:center;
+    padding:10px 14px;
+  }
+  .mini-nav a{color:#666; text-decoration:none}
+  .mini-nav a:hover{color:#000}
+  /* Main container */
+  .container{
+    max-width:980px;
+    margin:0 auto;
+    padding:18px 14px 0;
+  }
+  .hero{
+    text-align:center;
+    font-weight:800;
+    font-size:32px;
+    padding:18px 10px 8px;
+  }
+  .hero small{font-weight:700}
+  .content{
+    display:grid;
+    grid-template-columns: 640px 300px;
+    gap:28px;
+    align-items:start;
+    margin-top:6px;
+  }
+  /* Left article cards */
+  .card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:18px 20px;
+    box-shadow:0 1px 0 rgba(0,0,0,0.02);
+  }
+  h2{
+    margin:0 0 8px 0;
+    font-size:22px;
+    font-weight:800;
+  }
+  h3{
+    font-size:20px;
+    margin:20px 0 10px;
+  }
+  .muted{color:#6a6a6a}
+  .highlight{color:#1a9e4e; font-weight:600}
+  .subtle-box{
+    background:var(--soft);
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:14px;
+    margin:18px 0;
+  }
+  .inner-white{
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:18px 18px 14px;
+    text-align:center;
+    margin-bottom:14px;
+    font-size:16px;
+    font-weight:700;
+  }
+  .inner-white em{
+    display:block;
+    font-size:12px;
+    color:#666;
+    font-weight:500;
+    margin-top:4px;
+  }
+  .inline-links{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:14px 16px;
+    margin:16px 0 6px;
+  }
+  .table{
+    width:100%;
+    border-collapse:collapse;
+    margin:10px 0;
+    font-size:14px;
+  }
+  .table th{
+    background:var(--table-head);
+    padding:10px 12px;
+    text-align:left;
+    border:1px solid var(--line);
+  }
+  .table td{
+    padding:10px 12px;
+    border:1px solid var(--line);
+  }
+  .note{
+    font-size:12px;
+    color:#606060;
+    margin:6px 0 18px;
+  }
+  .hr{height:1px; background:var(--line); margin:18px 0}
+  /* Sidebar */
+  .sidebar .widget{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:18px;
+  }
+  .widget h4{
+    font-size:20px;
+    font-weight:800;
+    margin:0 0 12px;
+  }
+  label{
+    display:block;
+    font-size:13px;
+    color:#444;
+    margin:6px 0 6px;
+  }
+  .field{
+    display:flex;
+    align-items:center;
+    border:1px solid #d6d6d6;
+    border-radius:4px;
+    overflow:hidden;
+    background:#fff;
+  }
+  .field span{
+    padding:10px 10px;
+    color:#888;
+    border-right:1px solid #e3e3e3;
+    background:#fafafa;
+    font-weight:600;
+  }
+  input[type="text"], input[type="number"]{
+    border:0;
+    outline:none;
+    padding:10px 12px;
+    width:100%;
+    font-size:14px;
+    background:#fff;
+  }
+  .btn{
+    width:100%;
+    background:var(--green-btn);
+    color:#fff;
+    border:0;
+    padding:12px 10px;
+    border-radius:6px;
+    font-weight:700;
+    margin-top:12px;
+    cursor:pointer;
+  }
+  .side-links{
+    background:var(--soft);
+    border:1px solid var(--line);
+    border-radius:4px;
+    margin-top:16px;
+    padding:14px 16px;
+  }
+  .side-links h5{
+    margin:0 0 8px;
+    font-size:14px;
+    color:#333;
+  }
+  ul{margin:8px 0 0 18px; padding:0}
+  li{margin:6px 0}
+  /* Footer */
+  .footer-wrap{
+    margin-top:34px;
+  }
+  .banner-img{
+    background:#1e1e1e;
+    padding:30px 0 0;
+  }
+  .banner-img img{
+    display:block;
+    margin:0 auto;
+    width:190px;
+    height:34px;
+    object-fit:cover;
+    background:#1f4bff;
+  }
+  footer{
+    background:var(--footer);
+    color:#d8d8d8;
+    padding:28px 16px 26px;
+  }
+  .footer{
+    max-width:980px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: 1.2fr 1fr 1fr 1fr;
+    gap:36px;
+  }
+  .footer h6{
+    margin:0 0 12px;
+    font-size:12px;
+    letter-spacing:.02em;
+    color:#cfcfcf;
+    text-transform:uppercase;
+  }
+  .footer a{color:#dfe5ff; text-decoration:underline}
+  .footer small{display:block; margin-top:18px; color:#9a9a9a}
+  .copyright{
+    max-width:980px;
+    margin:6px auto 0;
+    font-size:12px;
+    color:#9a9a9a;
+  }
+  /* Responsive */
+  @media (max-width: 900px){
+    .content{grid-template-columns:1fr; gap:16px}
+    .mini-nav .wrap{flex-wrap:wrap}
+    .footer{grid-template-columns:1fr 1fr}
+  }
+</style>
+</head>
+<body>
+  <div class="mini-nav">
+    <div class="wrap">
+      <a href="#">home</a>
+      <a href="#">Banking</a>
+      <a href="#">Blockchain</a>
+      <a href="#">Cryptocurrencies</a>
+      <a href="#">Finance</a>
+      <a href="#">Markets</a>
+      <a href="#">Podcast</a>
+      <a href="#">Events</a>
+      <a href="#">Learn</a>
+      <a href="#">Regulation</a>
+      <a href="#">Technology</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="hero">Oranges now costing $20 in yr 2022 â $19.66 in yr 2023</div>
+
+    <div class="content">
+      <!-- Left column -->
+      <div>
+        <div class="card">
+          <h2>Orange Prices, 2022-2023 ($20)</h2>
+          <p>Per the U.S. Bureau of Labor Statistics, costs of oranges are <span class="highlight">1.69% lower</span> in the yr 2023 versus 2022 (a $0.34 change in USD value).</p>
+
+          <p><strong>Between 2022 &amp; 2023:</strong> Oranges had an avg. increase rate of <strong>-1.69%</strong> each year. To explain, oranges at $20 in the yr 2022 would now be $19.66 in yr 2023 to buy same amount. Compared to the total increase rate of 3.97% during this same time, the change for oranges was much more decreased.</p>
+
+          <p><strong>During the yr 2022:</strong> Costs changed by 11.58%, that is much more than the typical change each year for oranges during the 2022-2023 time frame. Compared to all <a href="#">item increase</a> in the yr 2022 (8%), the change for oranges was greatly higher.</p>
+
+          <div class="subtle-box">
+            <div class="inner-white">
+              Price Change for Oranges from the yr 1997
+              <em>User Price Index, U.S. Bureau of Labor Statistics</em>
+            </div>
+            <p>Years with most price differences: 1998 (<strong>28.08%</strong>), 1999 (<strong>24.12%</strong>), along with 2000 (<strong>-14.63%</strong>).</p>
+          </div>
+
+          <div class="inline-links">
+            <strong>View change in prices for other stuff</strong><br>
+            <a href="#">Funds and loans</a> Â· <a href="#">Health care</a> Â· <a href="#">Loaf of Bread</a> Â· <a href="#">T.V.s</a> Â· <a href="#">More</a>
+          </div>
+
+          <h3>Value of $20.00 from yr 2022</h3>
+          <p>Listed are figured values of equal worth in oranges, over some time, for $20 from the yr 2022. Shown sums are equal in what can be bought at the time:</p>
+
+          <table class="table">
+            <thead>
+              <tr>
+                <th style="width:33%">Year</th>
+                <th style="width:33%">USD Worth</th>
+                <th>Price Change</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2022</td>
+                <td>$20.00</td>
+                <td>11.58%</td>
+              </tr>
+              <tr>
+                <td>2023</td>
+                <td>$19.66</td>
+                <td>-1.69%*</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="note">* May change. See <a href="#">inflation over-view</a> for details.<br>** Long times of 0% usually say bad info. This could increase later.</div>
+
+          <div class="hr"></div>
+
+          <p class="muted">Raw User Price Index info via U.S. Bureau of Labor Stats. for <em>Oranges</em>:</p>
+
+          <table class="table" style="font-size:12px">
+            <thead>
+              <tr>
+                <th>Year</th>
+                <th>1997</th><th>1998</th><th>1999</th><th>2000</th><th>2001</th><th>2002</th><th>2003</th><th>2004</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>CPI</td>
+                <td>100.000</td><td>128.077</td><td>158.969</td><td>135.708</td><td>141.992</td><td>150.338</td><td>152.462</td><td>162.131</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h2>Check oranges values for increasing</h2>
+          <p>Begin the increased cost form:</p>
+          <p>CPI for yr 2023 / CPI for yr 2022 * 2022 USD worth = 2023 USD worth</p>
+          <p>Then set the old CPI numbers from above. The CPI for Oranges was 299.766 in the yr 2022 and also 294.714 in yr 2023:</p>
+          <p>294.714 / 299.766 * $20 = <strong>$19.66</strong></p>
+          <p>To Explain, per the U.S. Bureau of Labor Stats., $20 in the yr 2022 has same "worth" as $19.66 in the yr 2023 (in the CPI items of Oranges).</p>
+
+          <p><strong>Data By:</strong> U.S. Bureau of Labor Stats. did start watching the <a href="#">User Price Index</a> for Oranges from yr 1997. Plus oranges, the data makes monthly values on price differences paid by most people for all goods along with services.</p>
+
+          <p><a href="#">Â» Read more on increasing values and using funds.</a></p>
+
+          <p class="muted">In other countries:</p>
+          <ul>
+            <li><a href="#">Canada Increase</a></li>
+            <li><a href="#">U.K. Increase</a></li>
+            <li><a href="#">Australia Increase</a></li>
+            <li><a href="#">Euro Increase</a></li>
+            <li><a href="#">Venezuela Increase</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Right column -->
+      <aside class="sidebar">
+        <div class="widget">
+          <h4>Orange Price Change Calculator</h4>
+
+          <label>Price</label>
+          <div class="field">
+            <span>$</span>
+            <input type="number" placeholder="">
+          </div>
+
+          <label>Begin year</label>
+          <div class="field">
+            <input type="text" placeholder="">
+          </div>
+
+          <label>Finish year</label>
+          <div class="field">
+            <input type="text" placeholder="">
+          </div>
+
+          <button class="btn">Check Price Change</button>
+        </div>
+
+        <div class="side-links">
+          <h5>View price change for:</h5>
+          <ul>
+            <li><a href="#">Cellphone data plans</a></li>
+            <li><a href="#">Saint Paul, Minnesota</a></li>
+            <li><a href="#">T.V.s</a></li>
+            <li><a href="#">Entire CPI item list</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <div class="footer-wrap">
+    <div class="banner-img">
+      <img src="src/placeholder.jpg" alt="">
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div>
+          <h6>Get In Touch</h6>
+          <div>Justin Perrey<br><a href="#">justin@perreyhometeam.com</a><br><br>(317) 286-5588<br><br>7900 E US 36<br>Avon, IN 46123</div>
+          <small>Â© 2021 The Perry Home Team | All Rights Reserved</small>
+        </div>
+        <div>
+          <h6>Explore</h6>
+          <ul>
+            <li><a href="#">Meet Our Agents</a></li>
+            <li><a href="#">Client Testimonials</a></li>
+            <li><a href="#">Instant Home Evaluation</a></li>
+            <li><a href="#">Mortgage Calculator</a></li>
+            <li><a href="#">Visit our Blog</a></li>
+          </ul>
+        </div>
+        <div>
+          <h6>Real Estate Search</h6>
+          <ul>
+            <li><a href="#">Search Indianapolis</a></li>
+            <li><a href="#">Search West Indy</a></li>
+            <li><a href="#">Search North Indy</a></li>
+            <li><a href="#">Search Downtown Indy</a></li>
+            <li><a href="#">Search South Indy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h6>Contact Us :</h6>
+          <ul>
+            <li><a href="#">Follow</a></li>
+            <li><a href="#">Follow</a></li>
+            <li><a href="#">Follow</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright"></div>
+    </footer>
+  </div>
+</body>
+</html>

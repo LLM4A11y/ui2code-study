@@ -1,0 +1,23 @@
+{
+  "model": "gemini",
+  "prompting_strategy": "iterative_naive_refine_2",
+  "date": "2025-07-16-11-02",
+  "overview": {
+    "files_processed": 53,
+    "mean_ir": 0.029063948544768875,
+    "mean_iwir": 0.6492473599077373,
+    "status_counts": {
+      "Green": 11,
+      "Yellow": 42
+    }
+  },
+  "benchmarks": {
+    "mean_final_score": 0.860671601560978,
+    "mean_final_size_score": 0.77254801337271,
+    "mean_final_matched_text_score": 0.9662397229434654,
+    "mean_final_position_score": 0.8567462603416435,
+    "mean_final_text_color_score": 0.7992983777849668,
+    "mean_final_clip_score": 0.9085256333621043,
+    "files_analyzed": 53
+  }
+}

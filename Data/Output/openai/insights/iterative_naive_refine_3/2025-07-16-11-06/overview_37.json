@@ -1,0 +1,42 @@
+{
+  "overall_status": {
+    "automatic": "Yellow"
+  },
+  "benchmark": {
+    "automatic_ir": 0.06611570247933884,
+    "automatic_iw-ir": 1.0
+  },
+  "automatic_checks": {
+    "lighthouse_accessibility_score": 1,
+    "total_nodes_checked": 121,
+    "total_nodes_failed": 8
+  },
+  "details_checks": {
+    "Alt-Text; Images;": {
+      "impact": "critical",
+      "amount_nodes_failed": 8,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 8,
+          "amount_relative": 8,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      }
+    }
+  }
+}

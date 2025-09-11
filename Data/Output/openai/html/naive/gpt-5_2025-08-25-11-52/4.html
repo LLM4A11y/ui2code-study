@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pillars</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  :root{
+    --text:#555;
+    --muted:#6a6a6a;
+    --heading:#222;
+    --accent:#2b6cb0;
+    --border:#e1e1e1;
+    --soft:#f5f5f5;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color:var(--text);
+    background:#fff;
+    line-height:1.65;
+  }
+  /* Top bar */
+  .topbar{
+    background:#222;
+    color:#ddd;
+    padding:10px 0;
+  }
+  .nav{
+    width:980px;
+    margin:0 auto;
+    display:flex;
+    gap:24px;
+    align-items:center;
+    padding:0 10px;
+  }
+  .nav a{
+    color:#d8d8d8;
+    text-decoration:none;
+    font-size:14px;
+    padding:6px 10px;
+    border-radius:3px;
+  }
+  .nav a:hover{color:#fff;background:#2e2e2e}
+  /* Page container */
+  .wrap{
+    width:900px;
+    margin:0 auto;
+    padding:32px 20px 80px;
+  }
+  .hero{
+    width:240px;
+    height:240px;
+    background:#2b6cf0;
+    display:block;
+    object-fit:cover;
+    margin:18px 0 10px 10px;
+    outline:8px solid rgba(43,108,240,0); /* reserve exact size w/o border */
+  }
+  h1{
+    font-family: Georgia, "Times New Roman", serif;
+    text-align:center;
+    color:#333;
+    font-size:36px;
+    letter-spacing:2px;
+    margin:18px 0 14px;
+    font-weight:700;
+  }
+  .intro{
+    max-width:760px;
+    margin:0 auto 34px;
+    font-size:15px;
+    color:var(--muted);
+  }
+  .intro p{margin:10px 0}
+  .intro a{color:var(--accent);text-decoration:underline}
+  .section-title{
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:700;
+    color:#3b3b3b;
+    letter-spacing:.6px;
+    font-size:20px;
+    margin:46px auto 16px;
+    max-width:820px;
+  }
+  .lead{
+    max-width:820px;
+    margin:0 auto 18px;
+    font-size:14.5px;
+    color:#666;
+  }
+  table{
+    width:100%;
+    border-collapse:collapse;
+    margin:12px auto 34px;
+    font-size:14px;
+  }
+  th, td{
+    border:1px solid var(--border);
+    padding:12px 14px;
+    vertical-align:top;
+  }
+  thead th{
+    background:#f1f1f1;
+    color:#444;
+    font-weight:700;
+    text-align:left;
+  }
+  tbody td:first-child{
+    width:30%;
+    font-weight:600;
+    color:#444;
+  }
+  .subhead{
+    font-weight:800;
+    text-transform:uppercase;
+    color:#4a4a4a;
+    letter-spacing:.5px;
+    font-size:18px;
+    margin:28px 0 6px;
+  }
+  ul{
+    margin:8px 0 18px 22px;
+    padding:0;
+  }
+  li{margin:6px 0}
+  .note{
+    font-size:13px;
+    color:#666;
+    margin-top:6px;
+  }
+  .note a{color:var(--accent)}
+</style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="nav">
+      <a href="#">Home</a>
+      <a href="#">Back</a>
+      <a href="#">Financial Support</a>
+      <a href="#">Contact Us</a>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <img class="hero" src="src/placeholder.jpg" alt="">
+    <h1>PILLARS</h1>
+
+    <div class="intro">
+      <p>The CREATE H2O program includes five pillars offering in-depth training.</p>
+      <p>Within each of these pillars, there are many options from which students may choose. For each student accepted into the program, the pillar requirements are tailored to the student's educational background, degree course requirements, and the focus area the student wishes to pursue in First Nations water and sanitation security.</p>
+      <p>Each student accepted into the program is assigned two professors who will act as mentors. Along with the CREATE H2O program co-ordinator, these professors will assist students in designing the pillar structure and activities that best match each student's career path and goals.</p>
+      <p>Students accepted into the program will receive financial support consisting of a <a href="#">stipend</a> and <a href="#">travel</a> awards.</p>
+    </div>
+
+    <div class="section-title">Designing your program to obtain a co-curricular record in First Nations water and sanitation security</div>
+    <div class="lead">
+      Undergraduate students must choose between a relevant research-based project (Pillar 1) and a professional work term (Pillar 5). In addition, undergraduate students are required to complete 8 portfolio units across at least two of the other three program pillars before you graduate.
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Pillar</th>
+          <th>Main Task</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Pillar 1 - Research project and dissemination in collaboration with one or more First Nation communities</td>
+          <td>Undergraduate Students will often complete a summer research internship<br>Graduate Students: Required thesis or dissertation</td>
+          <td>All students will be required to present work at the annual summer CREATE H2O conference. (The first one in June 2014 will be at the University of Manitoba.)</td>
+        </tr>
+        <tr>
+          <td>Pillar 2 â Water sciences and wastewater systems knowledge</td>
+          <td>Courses, workshops, conference presentations</td>
+          <td>Courses already completed by students as part of their degree program may qualify. See approved undergraduate and graduate courses and workshops.</td>
+        </tr>
+        <tr>
+          <td>Pillar 3 â Indigenous theory, law and methodology skills</td>
+          <td>Courses, workshops, conference presentations</td>
+          <td>Courses already completed by students as part of their degree program may qualify. See approved and graduate courses and workshops.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="subhead">An example of an undergraduate student enrolled in the CREATE H2O program</div>
+    <ul>
+      <li>Summer research project under the leadership of professors at the University of Manitoba or Trent University (pillar 1)</li>
+      <li>One three-credit-hour science course from approved list (pillar 2): 3 units</li>
+      <li>One non-science course from approved list (pillar 3): 3 units</li>
+      <li>Present H2O research at Indigenous knowledge conference (pillar 3): 1 unit</li>
+    </ul>
+
+    <div class="subhead">An example of a graduate student enrolled in the CREATE H2O program</div>
+    <ul>
+      <li>Research thesis under the leadership of professors at the University of Manitoba or Trent University</li>
+      <li>Two science courses from approved list (pillar 2): 2 Ã 3 = 6 units</li>
+      <li>One non-science course from approved list (pillar 3): 3 units</li>
+      <li>Present H2O research at conference (pillar 2 or 3): 1 unit</li>
+    </ul>
+
+    <div class="note">(See the <a href="#">student's sample spreadsheet</a> showing calculation of pillar units and approval signature slots.)</div>
+    <div class="note">Note that these are general examples. Each student's background will be assessed by supervisors at the start of the program to design a specific set of unit requirements that will complement the student's strengths.</div>
+  </div>
+</body>
+</html>

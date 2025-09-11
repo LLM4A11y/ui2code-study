@@ -1,0 +1,70 @@
+{
+  "overall_status": {
+    "automatic": "Yellow"
+  },
+  "benchmark": {
+    "automatic_ir": 0.05555555555555555,
+    "automatic_iw-ir": 0.8833333333333333
+  },
+  "automatic_checks": {
+    "lighthouse_accessibility_score": 1,
+    "total_nodes_checked": 108,
+    "total_nodes_failed": 6
+  },
+  "details_checks": {
+    "Landmark & Region; Missing & Unique Landmarks;": {
+      "impact": "moderate",
+      "amount_nodes_failed": 1,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 1,
+          "amount_relative": 0,
+          "ids": [
+            "https://dequeuniversity.com/rules/axe/4.10/landmark-unique"
+          ]
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      }
+    },
+    "Alt-Text; Images;": {
+      "impact": "critical",
+      "amount_nodes_failed": 5,
+      "sources": {
+        "Manual-Inspection": {
+          "amount": 5,
+          "amount_relative": 5,
+          "ids": []
+        },
+        "axe-core": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "pa11y": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        },
+        "lighthouse": {
+          "amount": 0,
+          "amount_relative": 0,
+          "ids": []
+        }
+      }
+    }
+  }
+}

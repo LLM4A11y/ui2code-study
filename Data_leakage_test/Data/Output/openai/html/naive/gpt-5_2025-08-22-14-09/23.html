@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rosebud Treasures</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#1f1f1f;
+    --panel:#232323;
+    --panel-2:#2a2a2a;
+    --text:#e7e7e7;
+    --muted:#a8a8a8;
+    --link:#ff5e33;
+    --accent:#ff6a00;
+    --chip:#111;
+    --nav:#cfe3ea;
+    --nav-bottom:#e9dfbf;
+    --shadow:0 2px 6px rgba(0,0,0,.25);
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6;
+  }
+  /* Site title */
+  .site-title{
+    font-size:48px;
+    font-weight:300;
+    color:#d6d6d6;
+    letter-spacing:.5px;
+    padding:22px 28px 8px;
+  }
+
+  /* Nav bar */
+  .top-nav{
+    background:var(--nav);
+    border-bottom:8px solid var(--nav-bottom);
+    padding:14px 18px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    box-shadow:var(--shadow);
+  }
+  .nav-left,.nav-right{display:flex;align-items:center;gap:12px;}
+  .pill{
+    background:#fff;
+    color:#3b3b3b;
+    padding:10px 14px;
+    font-weight:700;
+    border-radius:10px;
+    border:1px solid #cfcfcf;
+    box-shadow:0 1px 0 rgba(255,255,255,.7) inset;
+  }
+  .nav-right .login{
+    color:#4a4a4a;
+    font-size:14px;
+    margin-right:8px;
+  }
+  .currency{
+    background:#fff;
+    border:1px solid #cfcfcf;
+    border-radius:8px;
+    padding:8px 10px;
+    font-weight:600;
+    color:#555;
+  }
+  .close-x{
+    background:#fff;
+    color:#6d6d6d;
+    border-radius:8px;
+    padding:8px 12px;
+    font-weight:700;
+    border:1px solid #cfcfcf;
+  }
+
+  /* Main container */
+  .container{
+    max-width:900px;
+    margin:26px auto 80px;
+    padding:0 26px;
+  }
+
+  .meta{
+    display:flex;
+    justify-content:space-between;
+    color:#bdbdbd;
+    font-size:14px;
+    margin:8px 0 18px;
+  }
+
+  .tags{
+    display:flex;
+    gap:8px;
+    margin:0 0 14px;
+  }
+  .tag{
+    background:#0c0c0c;
+    border:1px solid #3b3b3b;
+    color:#d9d9d9;
+    padding:7px 12px;
+    border-radius:8px;
+    font-size:12px;
+    letter-spacing:.2px;
+  }
+
+  .article{
+    background:var(--panel);
+    padding:26px 26px 18px;
+    border-radius:8px;
+    box-shadow:var(--shadow);
+  }
+  .article h1{
+    font-size:40px;
+    line-height:1.25;
+    font-weight:600;
+    margin:10px 0 12px;
+  }
+  .article p{
+    color:#cfcfcf;
+    margin:12px 0;
+  }
+  .article a{ color:var(--link); text-decoration:none; }
+  .chip-code{
+    display:inline-block;
+    background:#101010;
+    border:1px solid #3d3d3d;
+    color:#ff6b5e;
+    font-weight:700;
+    padding:2px 6px;
+    border-radius:5px;
+    font-size:.95em;
+  }
+  .tweet{
+    color:var(--link);
+    font-weight:800;
+    margin:18px 0 8px;
+  }
+
+  .support{
+    background:#2b2b2b;
+    border:1px solid #3c3c3c;
+    border-radius:10px;
+    padding:18px;
+    margin:10px 0 16px;
+  }
+  .support p{margin:0 0 14px;color:#c5c5c5}
+  .btn-orange{
+    display:inline-block;
+    background:#ff5e33;
+    color:#fff;
+    padding:14px 20px;
+    border-radius:8px;
+    font-weight:800;
+    box-shadow:0 4px 0 rgba(0,0,0,.35);
+  }
+
+  .divider{
+    height:4px;
+    background:linear-gradient(to right, transparent 10%, var(--accent) 10% 90%, transparent 90%);
+    border-bottom:3px solid var(--accent);
+    margin:26px 0 36px;
+  }
+
+  h2.section-title{
+    font-size:32px;
+    font-weight:600;
+    margin:18px 0 16px;
+    color:#e9e9e9;
+  }
+
+  .grid-2{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:18px;
+  }
+  .card{
+    background:#2b2b2b;
+    border-radius:10px;
+    padding:18px;
+    color:#cfcfcf;
+    border:1px solid #3a3a3a;
+    min-height:142px;
+  }
+  .card .muted{color:#b0b0b0;font-size:14px}
+  .card a{color:var(--link);text-decoration:none;font-weight:600}
+  .card .arrow{float:right;color:#bdbdbd}
+  .card small{color:#a7a7a7}
+
+  .grid-3{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:18px;
+  }
+
+  .footer-tags{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-top:10px;
+  }
+  .footer-tags .tag{
+    background:#0b0b0b;
+    border-color:#444;
+    padding:9px 14px;
+    font-weight:600;
+  }
+
+  footer{
+    padding:30px 26px 24px;
+    color:#bfbfbf;
+    text-align:right;
+    font-size:14px;
+    border-top:1px solid #2a2a2a;
+  }
+
+  /* Placeholder image rule (if needed) */
+  img{max-width:100%;display:block;border-radius:8px}
+
+  @media (max-width:820px){
+    .grid-2,.grid-3{grid-template-columns:1fr}
+    .article h1{font-size:34px}
+  }
+</style>
+</head>
+<body>
+
+<div class="site-title">Rosebud Treasures</div>
+
+<div class="top-nav">
+  <div class="nav-left">
+    <div class="pill">Main</div>
+    <div class="pill">About</div>
+    <div class="pill">New Arrivals</div>
+    <div class="pill">On Sale</div>
+  </div>
+  <div class="nav-right">
+    <div class="login">Login</div>
+    <select class="currency">
+      <option>Choose currency</option>
+      <option selected>USD</option>
+      <option>EUR</option>
+    </select>
+    <div class="close-x">x</div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="meta">
+    <div>June 5, 2024</div>
+    <div>2 min read</div>
+  </div>
+
+  <div class="tags">
+    <div class="tag">Automation</div>
+    <div class="tag">Swift</div>
+    <div class="tag">Quick Tips</div>
+  </div>
+
+  <div class="article">
+    <h1>Easy Swift Script Reloading</h1>
+
+    <p>I was working on a <a href="#">Swift script</a> that needed to stay running, so I added a loop to avoid interruptions. <em>Always on!</em></p>
+
+    <p>My solution used a <span class="chip-code">while</span> loop with <span class="chip-code">Process</span> instances to re-run the code. <em>Script inception!</em></p>
+
+    <p>I realized this setup could be used as a basic hot-reloading tool for script development.</p>
+
+    <p>let refresh = "refresh" if Process.arguments.contains(refresh) { while true { let task = Process() task.executableURL = URL(fileURLWithPath: Process.arguments[0]) task.arguments = Process.arguments.dropFirst().filter { $0 != refresh } try? task.run() task.waitUntilExit() } } Add this code to the top of your script; it loops if called with the <span class="chip-code">refresh</span> argument.</p>
+
+    <p>You can then launch it from the terminal:</p>
+
+    <p>main.swift refresh more arguments Once active, edit and save; the next run includes changes. Compile errors? No problem, the prior code stays in memory and retries.</p>
+
+    <p>It's not perfect and console output may be noisy, but I've found it handy for iterative development of small scripts.</p>
+
+    <p>Remember to use <a href="#">signal handlers</a> to properly terminate the script when necessary.</p>
+
+    <div class="tweet">Post this entry on Twitter</div>
+
+    <div class="support">
+      <p>If this was helpful, consider showing some support</p>
+      <a class="btn-orange" href="#">Support with coffee</a>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <h2 class="section-title">More to Explore</h2>
+
+  <div class="grid-2">
+    <div class="card">
+      <div class="muted">â</div>
+      <div class="muted">Next Post</div>
+      <p><a href="#">Clean code with closures</a></p>
+      <small>June 10, 2024</small>
+    </div>
+    <div class="card">
+      <div class="arrow">â</div>
+      <div class="muted" style="text-align:right">Previous Post</div>
+      <p style="text-align:right"><a href="#">Handling OS signals in Swift.</a></p>
+      <div style="text-align:right"><small>May 20, 2024</small></div>
+    </div>
+  </div>
+
+  <h2 class="section-title" style="margin-top:38px">Similar Posts</h2>
+
+  <div class="grid-3">
+    <div class="card">
+      <div class="muted">Tagged <a href="#" style="color:var(--link)">Swift</a></div>
+      <p><a href="#">SwiftUI modifiers for older versions</a></p>
+      <small>October 22, 2024</small>
+    </div>
+    <div class="card">
+      <div class="muted">Tagged <a href="#" style="color:var(--link)">Automation</a></div>
+      <p><a href="#">Swift tool for Reminders lists</a></p>
+      <small>May 10, 2024</small>
+    </div>
+    <div class="card">
+      <div class="muted">Tagged <a href="#" style="color:var(--link)">Quick Tips</a></div>
+      <p><a href="#">Swift: Prefix tests</a></p>
+      <small>March 20, 2024</small>
+    </div>
+  </div>
+
+  <h2 class="section-title" style="margin-top:38px">Article Tags</h2>
+  <div class="footer-tags">
+    <div class="tag">Automation</div>
+    <div class="tag">Swift</div>
+    <div class="tag">Quick Tips</div>
+  </div>
+</div>
+
+<footer>
+  lisa@lisamooredesign.com
+</footer>
+
+</body>
+</html>

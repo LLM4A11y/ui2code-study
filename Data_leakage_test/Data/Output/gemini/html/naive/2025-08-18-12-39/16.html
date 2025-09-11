@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosebud Treasures</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d8e9f2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 960px;
+            margin: 20px auto;
+            background-color: #fffcf2;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 30%;
+            padding: 20px;
+        }
+
+        .profile-circle {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: blue;
+            margin-bottom: 10px;
+        }
+
+        .sidebar h1 {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+        }
+
+        .sidebar p {
+            font-size: 0.9em;
+        }
+
+        .search-box {
+            margin-top: 20px;
+        }
+
+        .search-box input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .categories {
+            list-style: none;
+            padding: 0;
+        }
+
+        .categories li {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+        }
+
+        .categories li:hover {
+            background-color: #f9f9f9;
+        }
+
+        /* Main Content */
+        .main-content {
+            width: 70%;
+            padding: 20px;
+        }
+
+        .main-content h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .thank-you {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            text-align: center;
+            font-size: 0.9em;
+            margin-bottom: 20px;
+        }
+
+        /* Top Selections */
+        .top-selections {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+        }
+
+        .selection-item {
+            text-align: center;
+        }
+
+        .selection-item img {
+            width: 150px;
+            height: 200px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+
+        .join-mailing-list {
+            margin-top: 20px;
+        }
+
+        .join-mailing-list p {
+            font-size: 0.8em;
+            margin-bottom: 5px;
+        }
+
+        .join-mailing-list input[type="email"] {
+            width: 100%;
+            padding: 6px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .join-mailing-list button {
+            background-color: #5cb85c;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: left;
+            padding: 10px;
+            width: 100%;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Decorative Circles */
+        .stay-connected {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #f9ded7;
+            border-radius: 5px;
+        }
+
+        .circle-container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .circle {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .circle:nth-child(1) {
+            background-color: #03a9f4;
+        }
+
+        .circle:nth-child(2) {
+            background-color: #e91e63;
+        }
+
+        .circle:nth-child(3) {
+            background-color: #ff5722;
+        }
+
+        .menu-button {
+            background-color: #f0ad4e;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .menu-button:hover {
+            background-color: #eea236;
+        }
+
+        #Old.categories{
+            display:none;
+        }
+
+        .selection-item > img{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+
+        .selection-item-2 > img{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+
+        #join{
+            padding: 5px;
+        }
+
+        .sidebar li {
+            text-align: left;
+        }
+
+        .sidebar button{
+            margin-top: 5px;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile-circle"></div>
+            <h1>Gabe C.</h1>
+            <p>Doctor pioneering a new healthcare system.</p>
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+            </div>
+            <ul class="categories">
+                <li>Charming Home and Cottage Style</li>
+                <li>Old & Collectible Fabrics</li>
+                <li>Classic Bride & Wedding</li>
+                <li>Afternoon Tea</li>
+                <li>Old Hand Painted China</li>
+                <li>Rustic & Polished Silver</li>
+                <li>Old Time Kitchen</li>
+                <li>Fiestaware Pottery</li>
+                <li>Classic Laundry Room</li>
+                <li>Ladies Classic Dressing</li>
+                <li>Accessories</li>
+                <li>Cottage Outdoors</li>
+                <li>Old Paper Memorabilia</li>
+                <li>Old Trip Memories</li>
+                <li>Old Kids' Toys</li>
+                <li>Old Sewing Items</li>
+                <li>Old Time Holidays</li>
+                <li>Book Corner</li>
+            </ul>
+            <div class="stay-connected">
+                <div class="circle-container">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <div class="join-mailing-list">
+                <p>Join our mailing list for the latest news and sales...</p>
+                <input type="email" placeholder="Enter your email...">
+                <button id="join">Join</button>
+            </div>
+        </div>
+        <div class="main-content">
+            <img src="src/placeholder.jpg" alt="Main Image" style="width: 100%; height: 250px; background-color: blue;">
+            <p class="thank-you">Thank you for visiting Rosebud Treasures today!</p>
+            <p class="description">Here you will discover all the precious items to make your home charming.
+                We also have amazing things for women, including vintage makeup kits, rare vintage purses and satchels,
+                plus stunning designer jewelry.
+                Your online shop for cottage style, shabby chic treasures and collectibles!
+            </p>
+            <h2>Top Selections</h2>
+            <div class="top-selections">
+                <div class="selection-item">
+                    <img src="src/placeholder.jpg" alt="Heidi Daus Cornucopia Brooch">
+                    <p>Heidi Daus Cornucopia Brooch Heidi's Harvest...</p>
+                    <p>$150.00</p>
+                </div>
+                <div class="selection-item">
+                    <img src="src/placeholder.jpg" alt="Heidi Daus Squirrel Sparkle">
+                    <p>Heidi Daus Squirrel Sparkle Fall Rhinestone...</p>
+                    <p>$125.00</p>
+                </div>
+                <div class="selection-item">
+                    <img src="src/placeholder.jpg" alt="Heidi Daus Precious Pumpkin">
+                    <p>Heidi Daus Precious Pumpkin PavÃÂ© Fall...</p>
+                    <p>$150.00</p>
+                </div>
+            </div>
+            <div class="selection-item-2">
+                <img src="src/placeholder.jpg" alt="Vintage McCoy Pottery" style="width: 100%; height: 200px; background-color: blue;">
+                <p>Vintage McCoy Pottery Purple and White Chrysanthemum Vase</p>
+                <p>$55.00</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>RSS</p>
+        <p><a href="#">user123</a> | <a href="#">user123</a> | <a href="#">user123</a></p>
+        <p>Generated using <a href="#">StaticSite</a></p>
+    </footer>
+</body>
+
+</html>

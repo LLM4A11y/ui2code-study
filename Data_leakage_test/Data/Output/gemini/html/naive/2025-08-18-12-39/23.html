@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosebud Treasures</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #121212;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #E9E6DE;
+            padding: 20px;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .site-title {
+            font-size: 2em;
+            color: #333;
+            margin: 0;
+        }
+
+        .login-area {
+            display: flex;
+            align-items: center;
+        }
+
+        .login-link {
+            color: #333;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        .currency-select {
+            padding: 5px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #C1BCA7;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.1em;
+        }
+
+        /* Main Content */
+        main {
+            padding: 20px;
+        }
+
+        .post {
+            margin-bottom: 40px;
+        }
+
+        .post-date {
+            color: #aaa;
+            margin-bottom: 10px;
+        }
+
+        .post-title {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .post-tags {
+            margin-bottom: 20px;
+        }
+
+        .tag {
+            background-color: #333;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .post-content {
+            margin-bottom: 30px;
+        }
+
+        .post-actions {
+            margin-top: 30px;
+        }
+
+        .twitter-link {
+            color: #00acee;
+            text-decoration: none;
+        }
+
+        .support-button {
+            background-color: #e67e22;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* More to Explore */
+        .explore-section {
+            margin-top: 50px;
+        }
+
+        .explore-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .explore-item {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .explore-item h3 {
+            margin-top: 0;
+        }
+
+        .explore-item a {
+            color: #fff;
+            text-decoration: none;
+        }
+        /* Similar Posts */
+        .similar-posts-section {
+            margin-top: 50px;
+        }
+
+        .similar-posts-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .similar-post-item {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .similar-post-item h3 {
+            margin-top: 0;
+        }
+
+        .similar-post-item a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Article Tags */
+        .article-tags-section {
+            margin-top: 50px;
+        }
+
+        .article-tags {
+            display: flex;
+        }
+
+        .article-tag {
+            background-color: #333;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: right;
+            padding: 20px;
+            background-color: #121212;
+        }
+        .read{
+            float: right;
+        }
+        .gray-block{
+            background-color: #333;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .prev-next-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .prev-next-item{
+            background-color: #333;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .prev-next-item:first-child{
+            margin-right: auto;
+        }
+        .prev-next-item:last-child{
+            margin-left: auto;
+        }
+        .prev-next-item-p{
+            color: #aaa;
+            margin-bottom: 10px;
+        }
+        .prev-next-item-a{
+            color: #fff;
+            text-decoration: none;
+        }
+        .similar-posts-grid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .similar-post-item{
+            background-color: #333;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .similar-post-item-p{
+            color: #aaa;
+            margin-bottom: 10px;
+        }
+        .similar-post-item-a{
+            color: #fff;
+            text-decoration: none;
+        }
+        .article-tags{
+            display: flex;
+        }
+        .article-tag{
+            background-color: #333;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .tag-container{
+            display: flex;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="site-title">Rosebud Treasures</h1>
+            <div class="login-area">
+                <a href="#" class="login-link">Login</a>
+                <select class="currency-select">
+                    <option>Choose currency</option>
+                    <option>USD</option>
+                </select>
+                <button style="background-color: transparent; border: none; color: #333;">X</button>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Main</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">On Sale</a></li>
+        </ul>
+    </nav>
+    <main>
+        <p class="post-date">June 5, 2024<span class="read">2 min read</span></p>
+        <div class="tag-container">
+            <div class="tag">Automation</div>
+            <div class="tag">Swift</div>
+            <div class="tag">Quick Tips</div>
+        </div>
+        <h2 class="post-title">Easy Swift Script Reloading</h2>
+        <div class="post-content">
+            <p>I was working on a <strong>Swift script</strong> that needed to stay running, so I added a loop to avoid interruptions. <em>Always on!</em></p>
+            <p>My solution used a <strong>while</strong> loop with <strong>Process</strong> instances to re-run the code. <em>Script inception!</em></p>
+            <p>I realized this setup could be used as a basic hot-reloading tool for script development.</p>
+            <p>let refresh = "refresh" if Process.arguments.contains(refresh) { while true { let task = Process() task.executableURL = URL(fileURLWithPath: Process.arguments[0]) task.arguments = Process.arguments.dropFirst().filter { $0 != refresh } try? task.run() task.waitUntilExit() } } Add this code to the top of your script; it loops if called with the <strong>refresh</strong> argument.</p>
+            <p>You can then launch it from the terminal:</p>
+            <p>main.swift refresh more arguments Once active, edit and save; the next run includes changes. Compile errors? No problem, the prior code stays in memory and retries.</p>
+            <p>It's not perfect and console output may be noisy, but I've found it handy for iterative development of small scripts.</p>
+            <p>Remember to use <strong>signal handlers</strong> to properly terminate the script when necessary.</p>
+        </div>
+        
+        <p><a class="twitter-link" href="#">Post this entry on Twitter</a></p>
+        
+        <div class="gray-block">
+            <p>If this was helpful, consider showing some support</p>
+            <button class="support-button">Support with coffee</button>
+        </div>
+        
+        <h2 class="post-title">More to Explore</h2>
+        <div class="prev-next-container">
+            <div class="prev-next-item">
+                <p class="prev-next-item-p">Next Post</p>
+                <a class="prev-next-item-a" href="#">Clean code with closures</a>
+                <p>June 10, 2024</p>
+            </div>
+            <div class="prev-next-item">
+                <p class="prev-next-item-p">Previous Post</p>
+                <a class="prev-next-item-a" href="#">Handling OS signals in Swift.</a>
+                <p>May 20, 2024</p>
+            </div>
+        </div>
+        
+        <h2 class="post-title">Similar Posts</h2>
+        <div class="similar-posts-grid">
+            <div class="similar-post-item">
+                <p class="similar-post-item-p">Tagged Swift</p>
+                <a class="similar-post-item-a" href="#">SwiftUI modifiers for older versions</a>
+                <p>October 22, 2024</p>
+            </div>
+            <div class="similar-post-item">
+                <p class="similar-post-item-p">Tagged Automation</p>
+                <a class="similar-post-item-a" href="#">Swift tool for Reminders lists</a>
+                <p>May 10, 2024</p>
+            </div>
+            <div class="similar-post-item">
+                <p class="similar-post-item-p">Tagged Quick Tips</p>
+                <a class="similar-post-item-a" href="#">Swift: Prefix tests</a>
+                <p>March 20, 2024</p>
+            </div>
+        </div>
+        
+        <h2 class="post-title">Article Tags</h2>
+        <div class="article-tags">
+            <div class="article-tag">Automation</div>
+            <div class="article-tag">Swift</div>
+            <div class="article-tag">Quick Tips</div>
+        </div>
+    </main>
+    <footer>
+        <p>lisa@lisamooredesign.com</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosebud Treasures</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #121212;
+            color: #fff;
+        }
+
+        /* Header */
+        .header {
+            background-color: #E0E0E0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            color: #333;
+            margin: 0;
+        }
+
+        /* Navigation */
+        .nav {
+            background-color: #f0f0f0;
+            padding: 10px;
+            display: flex;
+            justify-content: flex-start;
+            gap: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+
+        .nav a:hover {
+            background-color: #ddd;
+        }
+
+        /* Currency Select */
+        .currency-select {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-left: auto;
+        }
+
+        .currency-select label {
+            color: #333;
+        }
+
+        /* Content */
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        .content h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .date {
+            color: #aaa;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .tags {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .tag {
+            background-color: #333;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+
+        .article-text {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Button */
+        .button {
+            background-color: #e67e22;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top: 20px;
+        }
+
+        .button:hover {
+            background-color: #d35400;
+        }
+
+        /* Post Navigation */
+        .post-nav {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            padding: 20px;
+            border-top: 1px solid #555;
+        }
+
+        .post-nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Similar Posts */
+        .similar-posts {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .similar-post {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .similar-post h3 {
+            margin-top: 0;
+            font-size: 1.2em;
+        }
+
+        .similar-post p {
+            color: #aaa;
+        }
+
+        .site-footer {
+            text-align: right;
+            padding: 20px;
+        }
+
+        .main-header {
+            display: flex;
+            padding: 10px;
+        }
+
+        .main-header .site-title {
+            margin-left: auto;
+            margin-right: auto;
+            color: #779084;
+            font-size: 40px;
+        }
+
+        .main-header .login-container {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .login-container select {
+            background-color: #fff;
+            color: #000;
+        }
+
+        .post-date {
+            color: #779084;
+        }
+
+        .post-title {
+            color: #fff;
+        }
+
+        .container-section {
+            background-color: #252525;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .container-section-button {
+            background-color: #e67e22;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .container-section-button a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .more-to-explore {
+            display: flex;
+            gap: 20px;
+        }
+
+        .more-to-explore-item {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 5px;
+            flex: 1;
+        }
+
+        .more-to-explore-item p {
+            color: #779084;
+        }
+
+        .article-tags {
+            display: flex;
+            gap: 20px;
+        }
+
+        .article-tags a {
+            color: #fff;
+            background-color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .similar-posts {
+            display: flex;
+            gap: 20px;
+        }
+
+        .similar-post {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 5px;
+            flex: 1;
+        }
+
+        .navigation-bar {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .navigation-bar a {
+            color: #779084;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .post-navigation {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .post-navigation a {
+            color: #779084;
+            text-decoration: none;
+        }
+
+        .close-button {
+            background-color: transparent;
+            border: none;
+            color: black;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .currency-select {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .currency-select select {
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+            background-color: #fff;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="login-container">
+            Login
+            <div class="currency-select">
+                <select>
+                    <option value="USD">USD</option>
+                </select>
+            </div>
+            <button class="close-button">X</button>
+        </div>
+        <h1 class="site-title">Rosebud Treasures</h1>
+    </header>
+    <nav class="navigation-bar">
+        <a href="#">Main</a>
+        <a href="#">About</a>
+        <a href="#">New Arrivals</a>
+        <a href="#">On Sale</a>
+    </nav>
+    <main class="main-content">
+        <section class="post">
+            <div class="container">
+                <p class="post-date">June 5, 2024 <span style="float: right; color: #779084;">2 min read</span></p>
+                <div class="tags">
+                    <a href="#" class="tag">Automation</a>
+                    <a href="#" class="tag">Swift</a>
+                    <a href="#" class="tag">Quick Tips</a>
+                </div>
+                <h2 class="post-title">Easy Swift Script Reloading</h2>
+                <article class="article-text">
+                    I was working on a <span style="color: #e28555;">Swift script</span> that needed to stay running, so I added a loop to avoid
+                    interruptions. <span style="font-style: italic;">Always on!</span>
+                    <br><br>
+                    My solution used a <span style="color: #e28555;">while</span> loop with <span style="color: #e28555;">Process</span> instances to re-run the code. <span style="font-style: italic;">Script
+                        inception!</span>
+                    <br><br>
+                    I realized this setup could be used as a basic hot-reloading tool for script development.
+                    <br><br>
+                    let refresh = "refresh" if Process.arguments.contains(refresh) { while true { let task =
+                    Process() task.executableURL = URL(fileURLWithPath: Process.arguments[0])
+                    task.arguments = Process.arguments.dropFirst().filter { $0 != refresh } try? task.run()
+                    task.waitUntilExit() } } Add this code to the top of your script; it loops if called with the
+                    <span style="color: #e28555;">refresh</span> argument.
+                    <br><br>
+                    You can then launch it from the terminal:
+                    <br><br>
+                    main.swift refresh more arguments Once active, edit and save; the next run includes
+                    changes. Compile errors? No problem, the prior code stays in memory and retries.
+                    <br><br>
+                    It's not perfect and console output may be noisy, but I've found it handy for iterative
+                    development of small scripts.
+                    <br><br>
+                    Remember to use <span style="color: #e28555;">signal handlers</span> to properly terminate the script when necessary.
+                    <br><br>
+                </article>
+                <a href="#" style="color: #e67e22; text-decoration: none;">Post this entry on Twitter</a>
+                <div class="container-section">
+                    If this was helpful, consider showing some support
+                    <div class="container-section-button">
+                        <a href="#">Support with coffee</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="more-to-explore">
+            <h2>More to Explore</h2>
+            <div class="more-to-explore">
+                <div class="more-to-explore-item">
+                    <a href="#" style="color: #779084; text-decoration: none;">â</a>
+                    <p>Next Post</p>
+                    <a href="#" style="color: #e67e22; text-decoration: none;">Clean code with closures</a>
+                    <p>June 10, 2024</p>
+                </div>
+                <div class="more-to-explore-item">
+                    <a href="#" style="color: #779084; text-decoration: none;">â</a>
+                    <p>Previous Post</p>
+                    <a href="#" style="color: #e67e22; text-decoration: none;">Handling OS signals in Swift.</a>
+                    <p>May 20, 2024</p>
+                </div>
+            </div>
+        </section>
+        <section class="similar-posts">
+            <h2>Similar Posts</h2>
+            <div class="similar-posts">
+                <div class="similar-post">
+                    <p>Tagged <a href="#" style="color: #e67e22; text-decoration: none;">Swift</a></p>
+                    <a href="#" style="color: #e67e22; text-decoration: none;">SwiftUI modifiers for older
+                        versions</a>
+                    <p>October 22, 2024</p>
+                </div>
+                <div class="similar-post">
+                    <p>Tagged <a href="#" style="color: #e67e22; text-decoration: none;">Automation</a></p>
+                    <a href="#" style="color: #e67e22; text-decoration: none;">Swift tool for Reminders lists</a>
+                    <p>May 10, 2024</p>
+                </div>
+                <div class="similar-post">
+                    <p>Tagged <a href="#" style="color: #e67e22; text-decoration: none;">Quick Tips</a></p>
+                    <a href="#" style="color: #e67e22; text-decoration: none;">Swift: Prefix tests</a>
+                    <p>March 20, 2024</p>
+                </div>
+            </div>
+        </section>
+        <section class="article-tags">
+            <h2>Article Tags</h2>
+            <div class="article-tags">
+                <a href="#">Automation</a>
+                <a href="#">Swift</a>
+                <a href="#">Quick Tips</a>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        lisa@lisamooredesign.com
+    </footer>
+</body>
+
+</html>

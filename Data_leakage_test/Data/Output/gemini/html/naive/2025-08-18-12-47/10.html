@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segway Escorted Excursions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2d4654;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        .header {
+            background-color: #fff;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        .header a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 14px;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            color: #333;
+        }
+
+        /* Product Display */
+        .product-display {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .product-images {
+            width: 45%;
+        }
+
+        .product-images img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .product-details {
+            width: 45%;
+        }
+
+        .product-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            color: #5ab5ab;
+            text-align: left;
+            letter-spacing: 3px;
+        }
+
+        .product-price {
+            font-size: 16px;
+            color: #5ab5ab;
+            margin-bottom: 10px;
+            text-align: right;
+        }
+
+        .product-description {
+            font-size: 12px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .size-selector {
+            margin-bottom: 20px;
+        }
+        .size-selector button {
+            padding: 10px 15px;
+            border: 1px solid #5ab5ab;
+            background-color: #fff;
+            color: #5ab5ab;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .add-to-cart {
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #5ab5ab;
+            border: 1px solid #5ab5ab;
+            cursor: pointer;
+        }
+
+        /* Footer Section */
+        .footer {
+            padding: 20px;
+            text-align: left;
+        }
+        .footer h4 {
+            color: #fff;
+            font-size: 13px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 5px;
+            font-size: 11px;
+        }
+
+        /* Layout and Spacing */
+        .segway-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 20px 10px;
+            background-color: #fff;
+            color: #333;
+        }
+
+        .segway-header a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 14px;
+        }
+        .segway-header a:first-child {
+            font-weight: bold;
+            font-size: 17px;
+        }
+        .segway-menu {
+            margin-left: auto;
+        }
+        .img-placeholder {
+            background-color: blue;
+            width: 400px;
+            height: 400px;
+        }
+        .img-placeholder-thumbs {
+            background-color: blue;
+            width: 120px;
+            height: 120px;
+        }
+        .product-share{
+            color: #5ab5ab;
+            font-size: 13px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .social-share {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .social-share a{
+            display: inline-block;
+            margin: 0 5px;
+            text-decoration: none;
+            border: 1px solid #5ab5ab;
+            width: 35px;
+            height: 35px;
+            border-radius: 5px;
+        }
+        .footer-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .footer-column {
+            width: 200px;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .footer-column a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 5px;
+            font-size: 11px;
+        }
+        .koding-logo {
+            margin-bottom: 25px;
+            font-size: 13px;
+        }
+        .koding-logo img {
+            vertical-align: middle;
+            margin-right: 5px;
+            width: 20px;
+            height: 20px;
+        }
+        #sizeSelector {
+            border: 1px solid #5ab5ab;
+            color: #5ab5ab;
+            padding: 10px;
+            width: 100%;
+            background-color: #fff;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="segway-header">
+        <a href="#">Segway Escorted Excursions</a>
+        <div class="segway-menu">
+            <a href="#">Main</a>
+            <a href="#">Find Segway Excursions</a>
+            <a href="#">View Excursions</a>
+            <a href="#">For Trip Providers</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="product-display">
+            <div class="product-images">
+                <div class="img-placeholder"></div>
+                <div style="display: flex;">
+                    <div class="img-placeholder-thumbs" style="margin-right: 20px;"></div>
+                    <div class="img-placeholder-thumbs"></div>
+                </div>
+            </div>
+
+            <div class="product-details">
+                <h1 class="product-title">THE SUNSET WRISTBAND</h1>
+                <p class="product-price">$ 20.00</p>
+                <p class="product-description">Pink tinted, lumber cylinder gems, .4cm
+                    sky-blue gems, with shiny gold-colored
+                    pieces attached on string to create a 4-
+                    times turn!</p>
+                <p class="product-description">The following is for one roll-around
+                    wristband. Every roll-around wristband is
+                    retailed on its own for $20.00 a piece.</p>
+                <p class="product-description">**To see fitting details, please consult
+                    the Fit Guide Webpage.**
+                    **This wristband may be altered using
+                    light grey-colored pieces.**</p>
+
+                <select id="sizeSelector">
+                    <option>Tiny (S)</option>
+                </select>
+
+                <button class="add-to-cart">Add to Cart</button>
+
+                <p class="product-share">SHARE</p>
+                <div class="social-share">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <a href="#"><img src="src/placeholder.jpg" alt="Koding" width="20" height="20" style="vertical-align: middle; margin-right: 5px;">Koding</a>
+                <h4>FOR ORGANIZATIONS</h4>
+                <a href="#">Training Platform</a>
+                <a href="#">Sales Demo Automation</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>INFO CENTER</h4>
+                <a href="#">Documentation</a>
+                <a href="#">Our Blog</a>
+                <a href="#">New User Guide</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>COMPANY</h4>
+                <a href="#">About Us</a>
+                <a href="#">Open Source</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>GET IN TOUCH</h4>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Email Support</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

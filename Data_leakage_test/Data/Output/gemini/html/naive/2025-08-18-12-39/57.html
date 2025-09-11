@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            width: 350px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+        .header {
+            background-color: #00a699;
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            color: white;
+            font-size: 20px;
+        }
+        .header > div {
+            display: flex;
+            align-items: center;
+        }
+
+        .header > div > div {
+            width: 20px;
+            height: 20px;
+            background-color: blue;
+            margin-right: 10px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #f27405;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #d46400;
+        }
+
+        .remember-forgot {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        .remember-forgot a {
+            color: #f27405;
+            text-decoration: none;
+        }
+
+        .remember-forgot a:hover {
+            text-decoration: underline;
+        }
+        .sign-in-text {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #1d253c;
+            margin-bottom: 25px;
+        }
+        .sign-in-text::before {
+            content: '023';
+            font-family: 'FontAwesome';
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+        .sign-in-button::before {
+            content: '090';
+            font-family: 'FontAwesome';
+            margin-right: 5px;
+        }
+        .remember-forgot > label,
+        .dont-have-account {
+            font-size: 0.8rem;
+        }
+        .dont-have-account > a {
+            color: #f27405;
+            text-decoration: none;
+        }
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <div>
+            <div></div>
+            Alpha One Labs
+        </div>
+    </div>
+    <div style="height: 50px;"></div>
+    <div class="container">
+        <h2 class="sign-in-text"><i class="fa fa-lock"></i>Sign in to your account</h2>
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+        </div>
+        <div class="remember-forgot">
+            <label><input type="checkbox" name="remember"> Remember me</label>
+            <a href="#">Forgot password?</a>
+        </div>
+        <button class="sign-in-button"><i class="fa fa-sign-in"></i>SIGN IN</button>
+        <div class="dont-have-account" style="text-align: center; margin-top: 20px;">
+            Don't have an account? <a href="#">Sign up</a>
+        </div>
+    </div>
+</body>
+</html>

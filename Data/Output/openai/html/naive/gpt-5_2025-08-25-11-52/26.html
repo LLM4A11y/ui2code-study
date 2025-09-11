@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<title>Careers</title>
+<style>
+  :root{
+    --text:#3b3f45;
+    --muted:#7e868e;
+    --light:#efefef;
+    --chip:#eef2f3;
+    --primary:#2d7e73;
+    --border:#dedede;
+    --footer:#f3efe7;
+    --blue:#2b33ff;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%}
+  body{
+    font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    color:var(--text);
+    background:#fff;
+  }
+  .container{max-width:980px;margin:0 auto;padding:0 24px}
+  /* Header */
+  header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:22px 24px;
+  }
+  .brand{
+    display:flex;align-items:center;gap:14px;
+  }
+  .brand img{
+    width:44px;height:44px;display:block;border-radius:2px;background:var(--blue);
+  }
+  nav ul{list-style:none;margin:0;padding:0;display:flex;gap:32px}
+  nav a{
+    text-decoration:none;
+    color:#6a7076;
+    font-weight:500;
+    font-size:14px;
+  }
+
+  /* Hero */
+  .hero{
+    background:var(--light);
+    padding:72px 0 78px;
+    text-align:center;
+  }
+  .hero h1{
+    font-weight:700;
+    font-size:34px;
+    margin:0 0 22px;
+    color:#383c41;
+    letter-spacing:-0.3px;
+  }
+  .hero p{
+    max-width:860px;
+    margin:0 auto;
+    color:var(--muted);
+    font-size:15px;
+    line-height:1.95;
+  }
+
+  /* Hiring section */
+  .hiring{
+    padding:84px 0 64px;
+    text-align:center;
+  }
+  .hiring h2{
+    margin:0 0 12px;
+    font-size:32px;
+    font-weight:800;
+    color:#3a3f45;
+    letter-spacing:-0.2px;
+  }
+  .hiring .sub{
+    color:var(--muted);
+    font-size:15px;
+    margin:0 0 26px;
+  }
+  .chips{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin-bottom:28px;
+  }
+  .chip{
+    padding:8px 14px;
+    border-radius:20px;
+    font-size:12px;
+    border:1px solid #e2e6e8;
+    color:#6f767c;
+    background:var(--chip);
+  }
+  .chip.primary{
+    background:var(--primary);
+    color:#fff;
+    border-color:transparent;
+  }
+
+  /* Job card */
+  .jobs{display:flex;justify-content:center}
+  .job-card{
+    width:640px;
+    background:#fff;
+    border:1px solid var(--border);
+    border-radius:10px;
+    box-shadow:0 1px 0 rgba(0,0,0,0.02);
+    padding:16px 18px;
+    text-align:left;
+  }
+  .job-head{
+    display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;
+  }
+  .job-title{
+    font-size:16px;font-weight:700;margin:0;color:#3c4247;
+  }
+  .view-btn{
+    background:var(--primary);
+    color:#fff;
+    padding:10px 18px;
+    border:none;border-radius:22px;
+    font-size:13px;font-weight:600;
+    cursor:pointer;
+  }
+  .job-meta{
+    color:#8b9197;
+    font-size:12.5px;
+    margin-bottom:10px;
+  }
+  .job-desc{
+    color:#6f757c;
+    font-size:12.5px;
+    line-height:1.6;
+    max-width:560px;
+  }
+
+  /* Footer */
+  footer{
+    background:var(--footer);
+    padding:70px 0 90px;
+    text-align:center;
+    margin-top:96px;
+  }
+  footer .small{
+    color:#7b8086;
+    font-size:13px;
+    margin-bottom:14px;
+  }
+  .logos{
+    display:flex;justify-content:center;gap:12px;
+  }
+  .logos img{
+    width:16px;height:16px;display:block;background:var(--blue);
+  }
+
+  @media (max-width:700px){
+    .job-card{width:100%}
+  }
+</style>
+</head>
+<body>
+  <header class="container">
+    <div class="brand">
+      <img src="src/placeholder.jpg" alt="logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Company Site</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Be part of our story</h1>
+      <p>
+        The mission of the Hargreaves Home Sales Team is to provide the premier customer service experience for each home seller and home
+        buyer we work with. Knowledge weâve gained through years of working in the local market empowers us to provide our home buyers
+        and sellers with the advice they need to make informed decisions.
+      </p>
+    </div>
+  </section>
+
+  <section class="hiring container">
+    <h2>We're hiring!</h2>
+    <p class="sub">We're always looking for great talent. Check out our open jobs below.</p>
+
+    <div class="chips">
+      <span class="chip primary">All Locations</span>
+      <span class="chip">Ellicott City, MD</span>
+    </div>
+
+    <div class="jobs">
+      <div class="job-card">
+        <div class="job-head">
+          <h3 class="job-title">Real Estate Sales Buyer's Agent</h3>
+          <button class="view-btn">View Job</button>
+        </div>
+        <div class="job-meta">Ellicott City, MD, US</div>
+        <div class="job-desc">
+          The Buyer Agent is an individual who is highly sociable, draws energy from working with people,
+          and is optimistic and outgoing. They have a strong sense of urgency, but not at the expense of
+          quality.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="small">Hiring with</div>
+      <div class="logos">
+        <img src="src/placeholder.jpg" alt="">
+        <img src="src/placeholder.jpg" alt="">
+        <img src="src/placeholder.jpg" alt="">
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

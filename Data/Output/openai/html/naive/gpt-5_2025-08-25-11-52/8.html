@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Segway Guided Tours - South Carolina</title>
+<link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#eeeeee;
+    --text:#444;
+    --muted:#8c8c8c;
+    --border:#e2e2e2;
+    --green:#1aa382;
+    --deep-green:#0f7d64;
+    --blue:#1a1aff;
+    --link:#2a6ea8;
+    --light: #f7f7f7;
+    --shadow: 0 1px 2px rgba(0,0,0,.06);
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font:14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  .wrap{width:980px; margin:0 auto}
+  /* Header */
+  .topbar{
+    background:#fff;
+    border-bottom:1px solid var(--border);
+  }
+  .topbar .wrap{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:70px;
+  }
+  .logo{
+    font-weight:900;
+    letter-spacing:.5px;
+    color:#7b868b;
+    font-size:24px;
+  }
+  .logo .segway{color:#7b868b}
+  .logo .guided{color:#a9b1b6; font-style:italic; font-weight:700}
+  .logo .tours{color:#9aa4a9; font-weight:900}
+  nav a{
+    color:#9aa1a6;
+    text-decoration:none;
+    margin-left:22px;
+    font-size:13px;
+  }
+  nav a:hover{color:#6b7377}
+
+  /* Search */
+  .searchbar{
+    padding:26px 0 18px;
+  }
+  .searchbar .search{
+    display:flex;
+    justify-content:center;
+    gap:0;
+  }
+  .searchbar input{
+    width:640px;
+    height:38px;
+    border:1px solid var(--border);
+    border-right:none;
+    border-radius:3px 0 0 3px;
+    padding:0 16px;
+    background:#fff;
+    color:#777;
+    outline:none;
+    box-shadow:var(--shadow);
+  }
+  .searchbar input::placeholder{color:#c8c8c8}
+  .searchbar button{
+    width:140px;
+    height:38px;
+    border:none;
+    border-radius:0 3px 3px 0;
+    background:var(--green);
+    color:#fff;
+    font-weight:700;
+    letter-spacing:1px;
+    cursor:pointer;
+  }
+
+  /* Content */
+  .breadcrumbs{
+    color:#b3b3b3;
+    font-size:12px;
+    margin:12px 0 10px;
+  }
+  .breadcrumbs b{color:#2a6ea8}
+  .cols{
+    display:grid;
+    grid-template-columns: 680px 1fr;
+    gap:30px;
+  }
+  .card{
+    background:#fff;
+    border:1px solid var(--border);
+    box-shadow:var(--shadow);
+    border-radius:3px;
+  }
+  .maincard{
+    padding:24px 26px;
+  }
+  h1{
+    font-size:26px;
+    margin:0 0 12px;
+    font-weight:700;
+    color:#3c3c3c;
+  }
+  .subdate{
+    font-size:12px;
+    color:#a1a1a1;
+    border-top:1px solid var(--border);
+    padding-top:10px;
+    margin-top:3px;
+    margin-bottom:14px;
+  }
+  .image-hero{
+    position:relative;
+    border:1px solid var(--border);
+    background:var(--blue);
+    height:430px;
+    overflow:hidden;
+  }
+  .image-hero img{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:cover;
+    opacity:0;
+  }
+  .image-hero .tag{
+    position:absolute;
+    top:14px;
+    left:0;
+    background:#1aa3d1;
+    color:#fff;
+    padding:8px 14px 8px 16px;
+    font-weight:700;
+    border-radius:0 2px 2px 0;
+    font-size:13px;
+  }
+  .image-hero .tag:before{
+    content:"";
+    position:absolute;
+    left:-12px; top:0;
+    border-width:12px 12px 12px 0;
+    border-style:solid;
+    border-color:transparent #148ab2 transparent transparent;
+  }
+
+  .sectiontitle{
+    margin:18px 0 4px;
+    font-size:12px;
+    letter-spacing:.5px;
+    color:#6a6a6a;
+    font-weight:700;
+  }
+  .maincard p{
+    color:#7a7a7a;
+    font-size:13px;
+    margin:10px 0 18px;
+  }
+  .divider{
+    height:1px; background:var(--border); margin:14px 0;
+  }
+
+  .dir{list-style:none; margin:0; padding-left:18px; color:#7a7a7a}
+  .dir > li{
+    color:#2d5f8d;
+    font-weight:700;
+    margin:12px 0 6px;
+  }
+  .dir .state>li{margin:10px 0 6px}
+  .city>li{
+    margin:8px 0 2px;
+    color:#2d5f8d;
+    font-weight:700;
+  }
+  .sublink{
+    margin-left:18px !important;
+    font-weight:400;
+    color:#2a6ea8;
+    font-size:13px;
+  }
+  .footnote{
+    color:#9a9a9a;
+    text-align:right;
+    font-size:12px;
+    margin-top:16px;
+  }
+
+  .sidebar .adimg{
+    width:240px;
+    height:240px;
+    background:var(--blue);
+    border:1px solid var(--border);
+    box-shadow:var(--shadow);
+  }
+  .sidebar .adimg img{
+    width:100%; height:100%; display:block; opacity:0;
+  }
+
+  .info-card{
+    margin:26px 0 40px;
+    padding:16px 18px 18px;
+    background:#fff;
+    border:1px solid var(--border);
+    border-radius:4px;
+    box-shadow:var(--shadow);
+  }
+  .info-card h3{
+    margin:6px 0 10px;
+    font-size:20px;
+    color:#444;
+  }
+  .info-card p{margin:10px 0; color:#747474; font-size:13px}
+  .info-card a{color:#2a6ea8; text-decoration:none}
+
+  /* Stats band */
+  .stats{
+    background:#7b7b7b;
+    color:#fff;
+    padding:48px 0 56px;
+  }
+  .statsrow{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:40px;
+    text-align:center;
+  }
+  .stat h4{
+    margin:0;
+    font-size:42px;
+    font-weight:700;
+  }
+  .stat p{
+    margin:6px 0 0;
+    letter-spacing:1px;
+    font-size:12px;
+    opacity:.9;
+  }
+
+  /* CTA */
+  .cta{
+    background:var(--green);
+    color:#eafff8;
+    text-align:center;
+    padding:46px 0 60px;
+  }
+  .cta h2{
+    margin:0 0 20px;
+    color:#fff;
+    font-size:26px;
+    font-weight:700;
+  }
+  .cta .btn{
+    background:#0d5f4c;
+    color:#fff;
+    padding:12px 22px;
+    border-radius:3px;
+    display:inline-block;
+    text-decoration:none;
+    font-weight:700;
+  }
+
+  /* Footer */
+  footer{
+    background:#fff;
+    border-top:1px solid var(--border);
+    padding:26px 0 40px;
+    color:#8e8e8e;
+    font-size:12px;
+  }
+  .foot-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+  }
+  .foot-col a{
+    display:block;
+    color:#9aa1a6;
+    text-decoration:none;
+    margin:6px 0;
+    text-transform:uppercase;
+    font-size:11px;
+    letter-spacing:.7px;
+  }
+  .copy{
+    text-align:right;
+    color:#9aa1a6;
+    align-self:end;
+  }
+
+  @media (max-width:1020px){
+    .wrap{width:92%}
+    .cols{grid-template-columns:1fr}
+    .sidebar{display:none}
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="logo">
+      <span class="segway">SEGWAY</span> <span class="guided">Guided</span> <span class="tours">TOURS</span>
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Find Segway Tours</a>
+      <a href="#">Browse Tours</a>
+      <a href="#">For Tour Operators</a>
+    </nav>
+  </div>
+</header>
+
+<section class="searchbar">
+  <div class="wrap">
+    <div class="search">
+      <input type="text" placeholder="Tour Location...">
+      <button>FIND</button>
+    </div>
+  </div>
+</section>
+
+<main class="wrap">
+  <div class="breadcrumbs">/  /  USA  /  <b>SOUTH CAROLINA</b></div>
+
+  <div class="cols">
+    <section class="card maincard">
+      <h1>List of 6 Segway Tours in South Carolina</h1>
+      <div class="subdate">South Carolina List Date: 11/3/23</div>
+
+      <div class="image-hero">
+        <span class="tag">South Carolina</span>
+        <img src="src/placeholder.jpg" alt="South Carolina">
+      </div>
+
+      <div class="sectiontitle">SOUTH CAROLINA SEGWAY TOURS</div>
+      <p>Discover South Carolina on one of these six Segway tours. Experience the sights and sounds of South Carolina's cities and landmarks with an up-close and personal tour on the SegwayÂ® PT.</p>
+      <div class="divider"></div>
+
+      <ul class="dir">
+        <li class="country">USA >></li>
+        <ul class="state">
+          <li>SOUTH CAROLINA >></li>
+          <ul class="city">
+            <li>CHARLESTON >></li>
+            <li class="sublink">Segway of Charleston >></li>
+
+            <li>GREENVILLE >></li>
+            <li class="sublink">Carolina Segway >></li>
+            <li class="sublink">Greenville Glides >></li>
+
+            <li>HILTON HEAD ISLAND >></li>
+            <li class="sublink">Hilton Head Segway >></li>
+
+            <li>LITTLE RIVER >></li>
+            <li class="sublink">Myrtle Beach Segway >></li>
+            <li class="sublink">Myrtle Beach Segway >></li>
+          </ul>
+        </ul>
+      </ul>
+
+      <div class="footnote">Showing 6 South Carolina tours of 636 tours Worldwide</div>
+    </section>
+
+    <aside class="sidebar">
+      <div class="adimg">
+        <img src="src/placeholder.jpg" alt="Ad">
+      </div>
+    </aside>
+  </div>
+
+  <section class="info-card">
+    <h3>South Carolina Segway Tours</h3>
+    <p>Whether South Carolina is your home state or your next travel destination, one of these Segway tours can add exciting new fun to your next business trip, vacation or weekend plans.</p>
+    <p>Looking for adventure tours beyond South Carolina's six Segway tours? Use our Directory to <a href="#">find Segway Tours</a> across the United States and around the world and experience touring on a Segway PT for yourself!</p>
+  </section>
+</main>
+
+<section class="stats">
+  <div class="wrap statsrow">
+    <div class="stat">
+      <h4>636</h4>
+      <p>WORLDWIDE</p>
+    </div>
+    <div class="stat">
+      <h4>56</h4>
+      <p>COUNTRIES</p>
+    </div>
+    <div class="stat">
+      <h4>198</h4>
+      <p>REGIONS</p>
+    </div>
+    <div class="stat">
+      <h4>442</h4>
+      <p>CITIES</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Find a Tour on a SegwayÂ® PT now!</h2>
+  <a class="btn" href="#">Find a Tour Now</a>
+</section>
+
+<footer>
+  <div class="wrap foot-grid">
+    <div class="foot-col">
+      <a href="#">Home</a>
+      <a href="#">Find Segway Tours</a>
+      <a href="#">Browse Tours</a>
+    </div>
+    <div class="foot-col">
+      <a href="#">About SGT</a>
+      <a href="#">Segway miniPRO</a>
+      <a href="#">For Tour Operators</a>
+      <a href="#">Legalese</a>
+      <a href="#">Sitemap</a>
+    </div>
+    <div class="copy">Â©2004â2023 SegwayGuidedTours.com</div>
+  </div>
+</footer>
+
+</body>
+</html>

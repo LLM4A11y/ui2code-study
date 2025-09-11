@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Replica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #666;
+        }
+
+        .main-content {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .sidebar {
+            width: 25%;
+            padding-right: 20px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        .main-section {
+            width: 75%;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            overflow-x: auto;
+        }
+
+        code {
+            font-family: monospace;
+            font-size: 1em;
+        }
+
+        .argument-details {
+            margin-top: 30px;
+        }
+
+        .argument-details ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .argument-details ul li {
+            margin-bottom: 10px;
+        }
+        .blue-placeholder {
+            width: 40px;
+            height: 40px;
+            background-color: blue;
+            margin-right: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #666;
+        }
+        .right-nav {
+            display: flex;
+            align-items: center;
+        }
+
+        .right-nav span {
+            margin-right: 20px;
+            color: #666;
+        }
+        .menu-icon {
+            display: inline-block;
+            cursor: pointer;
+            padding: 10px;
+        }
+
+        .bar {
+            width: 25px;
+            height: 3px;
+            background-color: #333;
+            margin: 5px 0;
+            display: none;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        /* Medium devices (tablets, less than 992px) */
+        @media (max-width: 991.98px) {
+            .right-nav span {
+                display: none;
+            }
+            .bar {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="blue-placeholder"></div>
+                <ul>
+                    <li><a href="#">Items</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Fit Guide</a></li>
+                    <li><a href="#">Store Rules</a></li>
+                </ul>
+                <div class="right-nav">
+                    <span>0/$0.00</span>
+                    <div class="menu-icon">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <div class="sidebar">
+                <ul>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Getting started</a></li>
+                    <li><a href="#">Learn more about Koding</a></li>
+                    <li><a href="#">Stack Documentation</a></li>
+                    <li><a href="#">Configuration</a></li>
+                    <li><a href="#">Providers</a></li>
+                    <li><a href="#">Archive</a></li>
+                    <li><a href="#">Atlas</a></li>
+                    <li><a href="#">AWS</a></li>
+                    <li><a href="#">Data Sources</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">aws_alb</a></li>
+                    <li><a href="#">aws_alb_listener</a></li>
+                    <li><a href="#">aws_alb_listener_rule</a></li>
+                    <li><a href="#">aws_alb_target_group</a></li>
+                    <li><a href="#">Azure Service Management</a></li>
+                    <li><a href="#">Provisioners</a></li>
+                </ul>
+            </div>
+            <div class="main-section">
+                <h1>aws_autoscaling_lifecycle_hook</h1>
+                <p>Defines an AutoScaling Lifecycle Hook resource.</p>
+                <h2>Example Usage</h2>
+                <div>
+                    <a href="#">yaml</a>
+                    <a href="#">hcl</a>
+                </div>
+                <pre>
+                    <code>
+resource:
+  aws_autoscaling_group:
+    foobar:
+      availability_zones:
+        - us-west-2a
+      name: terraform-test-foobar5
+      health_check_type: EC2
+      termination_policies:
+        - OldestInstance
+      tag:
+        key: Foo
+        value: foo-bar
+      propagate_at_launch: true
+  aws_autoscaling_lifecycle_hook:
+    foobar:
+      name: foobar
+      autoscaling_group_name: '${aws_autoscaling_group.foobar.name}'
+      default_result: CONTINUE
+      heartbeat_timeout: 2000
+      lifecycle_transition: 'autoscaling:EC2_INSTANCE_LAUNCHING'
+      notification_metadata: "{
+        "foo": "bar"
+      }"
+      notification_target_arn: 'arn:aws:sqs:us-east-1:444455556666:queue1*'
+      role_arn: 'arn:aws:iam::123456789012:role/S3Access'
+                    </code>
+                </pre>
+                <div class="argument-details">
+                    <h2>Argument Details</h2>
+                    <p>The following arguments are supported:</p>
+                    <ul>
+                        <li><code>name</code> - (Required) The lifecycle hook's name.</li>
+                        <li><code>autoscaling_group_name</code> - (Required) Name of the Auto Scaling group for the lifecycle hook.</li>
+                        <li><code>default_result</code> - (Optional) Action for the Auto Scaling group on lifecycle hook timeout or failure.</li>
+                        <li><code>heartbeat_timeout</code> - (Optional) Time (in seconds) until the lifecycle hook times out. Triggers DefaultResult action.</li>
+                    </ul>
+                </div>
+                <p>See the source of this document at <a href="https://www.terraform.io">Terraform.io</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

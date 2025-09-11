@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha One Labs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .header {
+            background-color: #009688;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+        }
+        .header img {
+            width: 40px;
+            height: 40px;
+            background-color: blue;
+        }
+        .header input {
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+            width: 250px;
+        }
+        .header a {
+            margin-left: 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+        .header .signup {
+            background-color: orange;
+            border-radius: 5px;
+            padding: 5px 10px;
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 20%;
+            padding: 20px;
+        }
+        .sidebar h2 {
+            font-size: 18px;
+            color: #333;
+        }
+        .sidebar p {
+            color: #888;
+            font-size: 14px;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            font-size: 14px;
+        }
+        .sidebar li {
+            padding: 10px 0;
+        }
+        .sidebar .active {
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+        .main {
+            width: 80%;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .main h2 {
+            font-size: 24px;
+            color: #333;
+        }
+        .main p {
+            color: #666;
+            font-size: 14px;
+        }
+        .discussion {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 15px;
+            border: 1px solid #eee;
+        }
+        .discussion .user {
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .discussion .category {
+            color: #009688;
+            text-decoration: none;
+        }
+        .discussion .details {
+            color: #888;
+            font-size: 12px;
+        }
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 0;
+            background-color: #fff;
+        }
+        .footer div {
+            width: 20%;
+        }
+        .footer h3 {
+            font-size: 14px;
+            color: #333;
+        }
+        .footer ul {
+            list-style: none;
+            padding: 0;
+            color: #888;
+            font-size: 14px;
+        }
+        .footer li {
+            padding: 5px 0;
+        }
+        .social-icons {
+            display: flex;
+            align-items: center;
+        }
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            background-color: blue;
+            margin-right: 10px;
+            border-radius: 50%;
+        }
+        .footer input[type="email"] {
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            width: 150px;
+        }
+        .footer button {
+            background-color: #009688;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="src/placeholder.jpg" alt="Logo">
+        <input type="text" placeholder="What do you want to learn?">
+        <div>
+            <img src="src/placeholder.jpg" alt="User">
+            <a href="#">Login</a>
+            <a href="#" class="signup">Signup</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Forum</h2>
+            <p>Join discussions, ask questions, and share knowledge</p>
+            <h3>CATEGORIES</h3>
+            <ul>
+                <li class="active">All Categories</li>
+                <li>Category 1</li>
+                <li>Category 2</li>
+            </ul>
+        </div>
+        <div class="main">
+            <h2>Forum Categories</h2>
+            <p>Browse all categories or select one to see its topics</p>
+            <h3>Recent Discussions</h3>
+            <div class="discussion">
+                <div class="user">student5 â¢ 19 Stunden, 22 Minuten ago â¢ <a href="#" class="category">Category 1</a></div>
+                <h4>Topic 3</h4>
+                <p>Content for topic 3</p>
+                <div class="details">0 views â¢ 5 replies â¢ 0 upvotes â¢ 0 downvotes â¢ Last reply 19 Stunden, 22 Minuten ago</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div>
+            <h3>LEARNING</h3>
+            <ul>
+                <li>Courses</li>
+                <li>Subjects</li>
+                <li>Quizzes</li>
+                <li>Videos</li>
+                <li>Challenges</li>
+                <li>Study Groups</li>
+            </ul>
+        </div>
+        <div>
+            <h3>COMMUNITY</h3>
+            <ul>
+                <li>Forum</li>
+                <li>Blog</li>
+                <li>Features</li>
+                <li>Success Stories</li>
+            </ul>
+        </div>
+        <div>
+            <h3>CONNECT WITH US</h3>
+            <div class="social-icons">
+                <img src="src/placeholder.jpg" alt="Social">
+                <img src="src/placeholder.jpg" alt="Social">
+                <img src="src/placeholder.jpg" alt="Social">
+                <img src="src/placeholder.jpg" alt="Social">
+            </div>
+            <h4>SUBSCRIBE TO NEWSLETTER</h4>
+            <input type="email" placeholder="Your email">
+            <button>&#9654;</button>
+        </div>
+    </div>
+</body>
+</html>

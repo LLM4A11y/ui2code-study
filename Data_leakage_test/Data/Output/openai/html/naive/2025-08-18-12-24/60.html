@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .container {
+            width: 800px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            box-sizing: border-box;
+        }
+
+        .heading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+
+        .heading h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+            color: #333333;
+        }
+
+        .heading img {
+            width: 16px;
+            height: 16px;
+            margin-right: 8px;
+        }
+        
+        .left-section {
+            float: left;
+            width: 30%;
+            text-align: center;
+            padding-top: 50px;
+            padding-right: 20px;
+        }
+
+        .right-section {
+            float: right;
+            width: 60%;
+        }
+
+        .right-section form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            margin-bottom: 6px;
+            color: #333333;
+            font-size: 14px;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: calc(50% - 10px);
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            font-size: 14px;
+            color: #495057;
+        }
+
+        .form-group.full-width input,
+        .form-group.full-width textarea {
+            width: 100%;
+        }
+
+        .form-group.textarea {
+            height: 100px;
+        }
+
+        .form-group textarea {
+            resize: none;
+        }
+
+        .form-group.textarea textarea {
+            padding-top: 8px;
+        }
+
+        .optional {
+            font-size: 12px;
+            color: #6c757d;
+            margin-top: -14px;
+            margin-bottom: 6px;
+        }
+
+        .radio-group {
+            border: 1px solid #f1a555;
+            padding: 12px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            color: #495057;
+            font-size: 12px;
+        }
+
+        .radio-group p {
+            margin: 0 0 12px;
+        }
+
+        .radio-options {
+            display: flex;
+            align-items: center;
+        }
+
+        .radio-options label {
+            margin-right: 20px;
+        }
+
+        .radio-options input {
+            margin-right: 6px;
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .checkbox-group input {
+            margin-right: 6px;
+        }
+
+        .submit-button {
+            background-color: #f26e1d;
+            border: none;
+            border-radius: 4px;
+            color: #ffffff;
+            padding: 12px 24px;
+            font-size: 16px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .submit-button img {
+            width: 14px;
+            height: 14px;
+            margin-right: 8px;
+        }
+
+        .already-account {
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .already-account a {
+            color: #f26e1d;
+            text-decoration: none;
+        }
+
+        .already-account a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <img src="src/placeholder.jpg" style="width: 50px; height: 50px; margin-bottom: 20px;">
+            <p>Join our community of learners and teachers</p>
+        </div>
+        <div class="right-section">
+            <div class="heading">
+                <img src="src/placeholder.jpg" alt="icon">
+                <h1>Create Account</h1>
+            </div>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <div>
+                        <label for="first-name">First Name *</label>
+                        <input type="text" id="first-name" placeholder="First name">
+                    </div>
+                    <div>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" placeholder="Last name">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div>
+                        <label for="username">Username *</label>
+                        <input type="text" id="username" placeholder="Choose a username">
+                    </div>
+                    <div>
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" placeholder="your@email.com">
+                    </div>
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="referral-code">Referral Code</label>
+                    <input type="text" id="referral-code" placeholder="Enter referral code">
+                    <div class="optional">Optional - Enter a referral code if you have one</div>
+                </div>
+
+                <div class="form-group full-width textarea">
+                    <label for="about">How did you hear about us?</label>
+                    <textarea id="about" placeholder="How did you hear about us? You can enter text or a link."></textarea>
+                    <div class="optional">Optional - Tell us how you found us. You can enter text or a link.</div>
+                </div>
+
+                <div class="radio-group">
+                    <p>We value your privacy and encourage you to stay safe online. A private profile will only be visible to you and site administrators, while a public profile can be viewed by anyone.</p>
+                    <div class="radio-options">
+                        <label><input type="radio" name="privacy" value="public"> Public</label>
+                        <label><input type="radio" name="privacy" value="private" checked> Private</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div>
+                        <label for="password">Password *</label>
+                        <input type="password" id="password" placeholder="Create a strong password">
+                    </div>
+                    <div>
+                        <label for="confirm-password">Confirm Password *</label>
+                        <input type="password" id="confirm-password" placeholder="Repeat your password">
+                    </div>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="teach-courses">
+                    <label for="teach-courses">I want to teach courses</label>
+                </div>
+
+                <button type="submit" class="submit-button">
+                    <img src="src/placeholder.jpg" alt="button icon">
+                    CREATE ACCOUNT
+                </button>
+                
+                <div class="already-account">
+                    Already have an account? <a href="#">Sign in</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

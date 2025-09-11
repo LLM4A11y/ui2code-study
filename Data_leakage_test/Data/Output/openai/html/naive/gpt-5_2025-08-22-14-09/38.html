@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop</title>
+<style>
+  :root{
+    --text:#1a1a1a;
+    --muted:#6f6f6f;
+    --light:#e6e6e6;
+    --border:#d5d5d5;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color:var(--text);
+    background:#fff;
+    line-height:1.55;
+  }
+  .title{
+    text-align:center;
+    font-weight:800;
+    font-size:44px;
+    letter-spacing:.2px;
+    margin:28px 0 18px;
+  }
+  .container{
+    width:680px;
+    max-width:92%;
+    margin:0 auto 60px;
+  }
+  h2{
+    font-size:20px;
+    font-weight:600;
+    margin:28px 0 6px;
+  }
+  .muted{
+    color:var(--muted);
+    font-size:14px;
+    margin-bottom:14px;
+  }
+  label{
+    color:var(--muted);
+    font-size:14px;
+    display:block;
+    margin:14px 0 6px;
+  }
+  textarea,
+  input[type="text"],
+  input[type="email"],
+  input[type="url"],
+  input[type="search"]{
+    width:100%;
+    border:1px solid var(--border);
+    background:#ededed;
+    padding:10px 12px;
+    font-size:14px;
+    border-radius:2px;
+    outline:none;
+  }
+  textarea{height:110px; resize:vertical;}
+  .inline-fields{
+    display:grid;
+    grid-template-columns: 130px 130px 1fr;
+    gap:18px 16px;
+    align-items:center;
+    margin-top:6px;
+  }
+  .inline-fields .field{
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .inline-fields .field input{
+    width:140px;
+    background:#f2f2f2;
+  }
+  .remember{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:var(--muted);
+    font-size:14px;
+    margin:10px 0 18px;
+  }
+  .trio{
+    display:flex;
+    justify-content:flex-end;
+    gap:18px;
+    margin:6px 0 34px;
+  }
+  .trio input{
+    height:30px;
+    border:1px solid var(--border);
+    background:#ededed;
+    border-radius:2px;
+    padding:6px 8px;
+  }
+  .trio .w1{width:190px;}
+  .trio .w2{width:130px;}
+  .trio .w3{width:120px;}
+  .post-title{
+    font-size:28px;
+    font-weight:600;
+    margin:26px 0 10px;
+  }
+  .post p{
+    color:#5d5d5d;
+    font-size:14.5px;
+    margin:0 0 18px;
+  }
+  .wide-input{
+    margin:18px 0 24px;
+  }
+  .section-title{
+    color:#696969;
+    font-size:16px;
+    margin:18px 0 8px;
+  }
+  .links a{
+    display:block;
+    color:#4a4a4a;
+    text-decoration:none;
+    margin:8px 0;
+  }
+  .footer-icons{
+    display:flex;
+    justify-content:center;
+    gap:6px;
+    margin:30px 0 18px;
+  }
+  .footer-icons img{
+    width:18px;
+    height:18px;
+    object-fit:cover;
+    border-radius:3px;
+  }
+</style>
+</head>
+<body>
+  <div class="title">Shop</div>
+
+  <div class="container">
+    <h2>Submit a Comment</h2>
+    <div class="muted">Your email address will remain private and will not be published. Required fields are marked *</div>
+
+    <label>Comment *</label>
+    <textarea></textarea>
+
+    <div class="inline-fields">
+      <div class="field">
+        <span>Name *</span>
+        <input type="text">
+      </div>
+      <div class="field">
+        <span>Email *</span>
+        <input type="email">
+      </div>
+      <div class="field">
+        <span>Website</span>
+        <input type="url" style="width:160px;">
+      </div>
+    </div>
+
+    <div class="remember">
+      <input type="checkbox">
+      <span>Save my name, email, and website in this browser for the next time I leave a comment.</span>
+    </div>
+
+    <div class="trio">
+      <input class="w1" type="text">
+      <input class="w2" type="text">
+      <input class="w3" type="text">
+    </div>
+
+    <div class="post">
+      <div class="post-title">Omg !!!!</div>
+      <p>How can I even begin to express the confidence, trust, love, and appreciation I have for the Perry Home Team?! Letâs just say theyâve guided us through over SEVEN amazing experiences in the past three yearsâoften under challenging circumstances and in a wild market. Whether youâre searching for your impossible DREAM home, need to sell your parentsâ house FAST, want to set your kids up for success, move your sister CLOSER, or even DABBLE in a fixer-upperâthey truly do it ALL. We spoke with so many other realtors, but the moment we met Justin and his team, we felt at HOMEâhow fitting, considering the name!</p>
+
+      <input class="wide-input" type="search">
+    </div>
+
+    <div class="section-title">Recent Posts</div>
+    <div class="links">
+      <a href="#">April Blog Posts</a>
+      <a href="#">March Blog Posts</a>
+      <a href="#">February Blog Posts</a>
+      <a href="#">September Blog Posts</a>
+    </div>
+
+    <div class="section-title" style="margin-top:18px;">Comments</div>
+
+    <div class="footer-icons">
+      <img src="src/placeholder.jpg" alt="">
+      <img src="src/placeholder.jpg" alt="">
+      <img src="src/placeholder.jpg" alt="">
+      <img src="src/placeholder.jpg" alt="">
+      <img src="src/placeholder.jpg" alt="">
+    </div>
+  </div>
+</body>
+</html>

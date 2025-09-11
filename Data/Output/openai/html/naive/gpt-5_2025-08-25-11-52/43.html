@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=960, initial-scale=1.0">
+<title>Renew Domain</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --lime:#bbff2d;
+    --orange:#ff9448;
+    --blue:#56a7d3;
+    --dark:#111;
+    --muted:#6e6e6e;
+    --footer:#2a93c6;
+    --link:#1fa9c7;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+    color: var(--dark);
+    background:#fff;
+  }
+  .wrap{
+    width:920px;
+    margin:0 auto;
+  }
+  /* Header */
+  .header{
+    display:flex;
+    align-items:flex-start;
+    margin:28px 0 32px;
+  }
+  .brand .domain{
+    font-weight:700;
+    color:var(--lime);
+    font-size:28px;
+    letter-spacing:0.2px;
+  }
+  .brand .expired{
+    margin-top:6px;
+    font-weight:700;
+    color:var(--orange);
+    font-size:22px;
+    letter-spacing:1px;
+  }
+  .actions{
+    margin-left:auto;
+    display:flex;
+    align-items:center;
+    gap:38px;
+    padding-top:8px;
+  }
+  .actions .link{
+    color:var(--link);
+    font-size:12px;
+    text-transform:uppercase;
+    font-weight:700;
+    letter-spacing:.8px;
+    text-decoration:none;
+  }
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    height:42px;
+    padding:0 18px;
+    border-radius:8px;
+    background:var(--blue);
+    color:#fff;
+    font-weight:700;
+    font-size:12px;
+    letter-spacing:.9px;
+    text-transform:uppercase;
+    width:430px;
+  }
+
+  /* Main title */
+  h1{
+    text-align:center;
+    font-size:22px;
+    margin:6px 0 22px;
+  }
+
+  /* Media placeholder */
+  .media{
+    display:flex;
+    justify-content:center;
+  }
+  .media img{
+    width:640px;
+    height:300px;
+    object-fit:cover;
+    background:#eaf3fb;
+    border:2px solid #b9b9b9;
+    border-radius:8px;
+    box-shadow:0 0 0 1px rgba(0,0,0,0.02) inset;
+  }
+
+  /* Steps */
+  .steps{
+    margin:34px auto 30px;
+    width:820px;
+    text-align:center;
+  }
+  .steps h2{
+    font-size:18px;
+    margin:0 0 14px;
+    font-weight:700;
+  }
+  .steps p{
+    color:var(--muted);
+    font-size:14px;
+    line-height:1.7;
+    margin:12px 0;
+  }
+  .steps p span{
+    display:block;
+  }
+
+  /* Renew button */
+  .cta{
+    display:flex;
+    justify-content:center;
+    margin:16px 0 70px;
+  }
+  .cta .renew{
+    width:170px;
+    height:54px;
+    border-radius:10px;
+    background:var(--orange);
+    color:#fff;
+    border:none;
+    font-weight:800;
+    font-size:18px;
+    letter-spacing:.6px;
+    cursor:pointer;
+    box-shadow:0 6px 0 rgba(0,0,0,0.05);
+  }
+
+  /* Footer */
+  .footer{
+    background:var(--footer);
+    color:#fff;
+    text-align:center;
+    padding:14px 10px;
+    font-size:14px;
+    position:fixed;
+    left:0; right:0; bottom:0;
+  }
+  .footer .site{
+    color:#23d5ff;
+    font-weight:700;
+  }
+
+  @media (max-width:980px){
+    .wrap{width:90%}
+    .btn{width:50vw}
+    .steps{width:95%}
+    .media img{width:90%; height:auto}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="header">
+      <div class="brand">
+        <div class="domain">tradingoldbullion.com</div>
+        <div class="expired">EXPIRED</div>
+      </div>
+      <div class="actions">
+        <a href="#" class="link">RENEW A DOMAIN</a>
+        <a href="#" class="btn">SERVICES</a>
+      </div>
+    </header>
+
+    <h1>How to renew a domain name</h1>
+
+    <div class="media">
+      <img src="src/placeholder.jpg" alt="Video placeholder">
+    </div>
+
+    <section class="steps">
+      <h2>Steps to renew a domain</h2>
+      <p>1. To renew your domain name, you will need to log into your web hosting Control Panel. You can do so, using the login button below.</p>
+      <p>2. Once you are logged inside, go to the Registered Domains section of the My Domains menu. In there, you will see all the domains that have been registered or transferred to your account. Browse to the domain you wish to renew and mark the checkbox next to it. You can now use the Renew button from the actions toolbar at the top.</p>
+      <p>3. This will start the domain renewal process - simply follow the steps in order to complete the transaction. Domain renewals are usually processed within the hour.</p>
+    </section>
+
+    <div class="cta">
+      <button class="renew">RENEW</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    Copyright Â© <span class="site">tradingoldbullion.com</span> 2023
+  </footer>
+</body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosebud Treasures</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d7eef3;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 800px;
+            background-color: #fffef3;
+            padding: 20px;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .sidebar {
+            width: 250px;
+            padding: 10px;
+        }
+
+        .content {
+            width: 550px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Header Styles */
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .header-logo {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: blue;
+            margin-right: 10px;
+        }
+
+        .header-text h1 {
+            font-size: 1.2em;
+            margin: 0;
+        }
+
+        .header-text p {
+            font-size: 0.8em;
+            margin: 0;
+        }
+
+        /* Search Bar */
+        .search-bar input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+        }
+
+        /* Navigation */
+        .navigation ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navigation li {
+            background-color: #f5f5dc;
+            margin-bottom: 5px;
+            padding: 8px;
+            cursor: pointer;
+        }
+
+        .navigation li:hover {
+            background-color: #e9e9d1;
+        }
+
+        /* Stay Connected */
+        .stay-connected {
+            background-color: #f5dcdc;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        .stay-connected div {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+
+        .stay-connected div:nth-child(1) {
+            background-color: #00a0d1;
+        }
+
+        .stay-connected div:nth-child(2) {
+            background-color: #e6007a;
+        }
+
+        .stay-connected div:nth-child(3) {
+            background-color: #f46b45;
+        }
+
+        /* Mailing List */
+        .mailing-list {
+            background-color: #f5f5dc;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        .mailing-list p {
+            font-size: 0.8em;
+        }
+
+        .mailing-list input[type="email"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 5px;
+        }
+
+        .mailing-list button {
+            background-color: #8ab1ba;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Main Content */
+        .main-image {
+            width: 530px;
+            height: 150px;
+            background-color: blue;
+            margin-bottom: 20px;
+        }
+
+        .top-selections {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .selection-item {
+            width: 150px;
+            background-color: #f5f5dc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .selection-image {
+            width: 130px;
+            height: 130px;
+            background-color: blue;
+            margin-bottom: 10px;
+        }
+
+        .selection-price {
+            font-weight: bold;
+        }
+
+        .bottom-image {
+            width: 530px;
+            height: 250px;
+            background-color: blue;
+            margin-top: 20px;
+        }
+
+        /* Footer Styles */
+        .footer {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: left;
+            width: 100%;
+        }
+
+        .footer a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="header">
+                <div class="header-logo"></div>
+                <div class="header-text">
+                    <h1>Gabe C.</h1>
+                    <p>Doctor pioneering a new healthcare system.</p>
+                </div>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li>Charming Home and Cottage Style</li>
+                    <li>Old & Collectible Fabrics</li>
+                    <li>Classic Bride & Wedding</li>
+                    <li>Afternoon Tea</li>
+                    <li>Old Hand Painted China</li>
+                    <li>Rustic & Polished Silver</li>
+                    <li>Old Time Kitchen</li>
+                    <li>Fiestaware Pottery</li>
+                    <li>Classic Laundry Room</li>
+                    <li>Ladies Classic Dressing</li>
+                    <li>Accessories</li>
+                    <li>Cottage Outdoors</li>
+                    <li>Old Paper Memorabilia</li>
+                    <li>Old Trip Memories</li>
+                    <li>Old Kids' Toys</li>
+                    <li>Old Sewing Items</li>
+                    <li>Old Time Holidays</li>
+                    <li>Book Corner</li>
+                </ul>
+            </div>
+            <div class="stay-connected">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="mailing-list">
+                <p>Join our mailing list for the latest news and sales...</p>
+                <input type="email" placeholder="Enter your email...">
+                <button>Join</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="main-image"></div>
+            <p><i>Thank you for visiting Rosebud Treasures today!</i></p>
+            <p>Here you will discover all the precious items to make your home charming.</p>
+            <p>We also have amazing things for women, including vintage makeup kits, rare vintage purses and satchels, plus
+                stunning designer jewelry.</p>
+            <p>Your online shop for cottage style, shabby chic treasures and collectibles!</p>
+
+            <h2>Top Selections</h2>
+            <div class="top-selections">
+                <div class="selection-item">
+                    <div class="selection-image"></div>
+                    <div>Heidi Daus Cornucopia Brooch Heidi's Harvest...</div>
+                    <div class="selection-price">$150.00</div>
+                </div>
+                <div class="selection-item">
+                    <div class="selection-image"></div>
+                    <div>Heidi Daus Squirrel Sparkle Fall Rhinestone..</div>
+                    <div class="selection-price">$125.00</div>
+                </div>
+                <div class="selection-item">
+                    <div class="selection-image"></div>
+                    <div>Heidi Daus Precious Pumpkin PavÃÂ© Fall...</div>
+                    <div class="selection-price">$150.00</div>
+                </div>
+            </div>
+            <div class="bottom-image"></div>
+            <div>Vintage McCoy Pottery Purple and White Chrysanthemum Vase</div>
+            <div class="selection-price">$55.00</div>
+        </div>
+    </div>
+    <div class="footer">
+        <div>RSS</div>
+        <div><a href="#">user123</a> | <a href="#">user123</a> | <a href="#">user123</a></div>
+        <div>Generated using <a href="#">StaticSite</a></div>
+    </div>
+</body>
+</html>
